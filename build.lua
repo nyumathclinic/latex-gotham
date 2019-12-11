@@ -10,14 +10,14 @@ tdsroot = "latex/beamer/themes/theme"
 -- space in a \kern line).  One way around that is to disable the luatex engine:
 -- (uncomment to activate)
 --
---     checkengines = {"pdftex", "xetex"}
+-- checkengines = { "pdftex", "xetex" }
 --
 -- Another way is to save test logs twice (on command line)
 --
 --     $ l3build save test
 --     $ l3build save -e luatex test
 --
--- This creates both "test.tlg" and "test.luatex.ltg" in testfiles.
+-- This creates both "test.tlg" and "test.luatex.tlg" in testfiles.
 -- Engine-specific tlg files are only compared with the specific engines.
 
 
