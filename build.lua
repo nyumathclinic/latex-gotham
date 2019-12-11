@@ -30,7 +30,7 @@ function update_tag(file,content,tagname,tagdate)
     -- This should go in a pre-tag hook, but there isn't one.
     -- ensure that the tagname matches `v`x.y.z
     assert(string.match(tagname,"^v%d+%.%d+%.%d+$"),
-        "invalid tag name. Use a literal v, then a semantic version number.")
+        "invalid tag name. Use a literal 'v', then a semantic version number of the form x.y.z.")
     -- Make sure the working directory is "clean".
     -- See https://unix.stackexchange.com/a/394674/62853
     assert(os.execute("git diff-index --quiet HEAD") == 0,
