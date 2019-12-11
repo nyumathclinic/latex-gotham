@@ -3,7 +3,12 @@
 
 module = "beamerthemeGotham"
 
-typesetfiles = {"*.tex"}
+typesetfiles = {"*.tex", "examples/*.tex"}
+typesetexe = "xelatex"
+
+-- Root directory of the TDS structure for the module to be installed into.
+-- Mentally prepend the path to the correct texmf tree THEN either "tex" (for
+-- includes), "doc" (for documentation), or "source" (for source files).
 tdsroot = "latex/beamer/themes/theme"
 
 -- The "luatex" engine produces some very minor differences (like, a single
