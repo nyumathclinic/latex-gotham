@@ -274,3 +274,7 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+.DS_Store
+build
+beamerthemeGotham-code.pdf
+beamerthemeGotham.pdf
