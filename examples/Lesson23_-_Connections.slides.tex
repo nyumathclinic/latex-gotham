@@ -1,0 +1,733 @@
+%%!TEX TS-program = xelatexmk
+\documentclass
+[ignorenonframetext,14pt,aspectratio=169]
+{ngelessonslides}
+%%
+\title[
+lesson number=23,
+textbook section={49}
+]{Connection}
+\course[code=MATH-UA 120,section=005]{Discrete Mathematics}
+\term[code=2019F]{Fall 2019}
+\author{Prof. Leingang}
+\usepackage[us]{datetime}
+\newdate{lessondate}{5}{12}{2019}
+\edef\lessondateiso{\getdateyear{lessondate}-\twodigit{\getdatemonth{lessondate}}-\twodigit{\getdateday{lessondate}}}
+\date{\displaydate{lessondate}}
+\makeatletter
+\keyword{course: \ngelesson@course@code\space\insertcoursename}
+\keyword{term: \ngelesson@term}
+\keyword{MT\ngelesson@textbooksection}% must fix if chap > 9
+\keyword{\insertcoursename}
+\makeatother
+\keywords{}
+\lessondescription{}% Oliver's description
+\usepackage{siunitx}
+\usepackage{overpic}
+\usepackage{snapshot}
+\usepackage{xr}
+\usepackage{zref-xr}
+\usepackage{textcomp}
+\usetheme{Gotham}
+
+\let\im\relax
+\usepackage{discrete}
+\usetikzlibrary{patterns}
+\colorlet{primary}{cyan}
+\tikzset{onslide/.code args={<#1>#2}{%
+  \only<#1>{\pgfkeysalso{#2}}
+}}
+
+\tikzset{simple graph/.style={
+    every edge/.append style={thick},
+    dot/.style={draw,circle,inner sep=0pt,minimum width=1ex},
+    vertex/.style={dot},
+}}
+\newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
+\usetikzlibrary{decorations}
+
+\begingroup
+\usebeamercolor{block title example}
+\xglobal\colorlet{example}{bg}
+\endgroup
+
+
+\usepackage{hyperref}
+\makeatletter
+\hypersetup{
+pdftitle=\ngelesson@longtitle,
+pdfauthor=\insertauthor,
+pdfsubject=\insertcoursename,
+pdfkeywords=\the\ngelesson@keywords,
+}
+\makeatother
+\begin{document}
+
+\maketitle
+
+\begin{frame}%
+    \maketitle
+    \begin{tikzpicture}[remember picture,overlay]
+        \node[
+anchor=south west, at={([xshift=1mm,yshift=1mm]current page.south west)}
+        ]
+        {\includegraphics[width=2.5in]{NYUCourant}};
+    \end{tikzpicture}
+\end{frame}
+
+\section*{Announcements}
+\timecheck{\LARGE\clock{11}{00}}
+
+\begin{frame}{It's the final countdown}%
+\begin{itemize}
+\item Dec 3: Quiz on §36 and §47; Cover §48 Subgraphs
+\item Dec 5: §49 Connection
+\item Dec 6: HW on §36 and §47 due
+\item Dec 10: Quiz on §§48–49; Cover §50 Trees
+\item Dec 12: §51 Eulerian Graphs
+\item Dec 13: HW on §§48–49 not due;
+\item Dec 17, 8:00 AM in CIWW 101: Review for final
+\item Dec 19, 8:00 AM: Final Exam
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Motivation}
+\begin{itemize}
+\item We like road systems that allow us to get from point $A$ to point $B$ for all $A$ and $B$.
+\item The importance of the internet is that any computer can send a message to any other computer
+\item Kevin Bacon numbers for actors, Erd\H os numbers for mathematicians
+\item An electrical company may need to identify its most critical lines
+\end{itemize}
+\end{frame}
+
+\mode<article>{%
+\section*{Objectives}
+}% end mode<article>
+
+\begin{frame}{Objectives}
+\begin{columns}
+\begin{column}{0.65\textwidth}
+\begin{itemize}
+    \item Define and use the is-connected-to relation on the set of vertices of a graph
+    \item Define and identify the connected components of a graph
+    \item Define and identify the cut edges of a graph.
+\end{itemize}
+\end{column}
+\begin{column}{0.25\textwidth}
+\mode<presentation>{\includegraphics[width=\textwidth]{Anonymous_target_with_arrow}}
+\end{column}
+\end{columns}
+\end{frame}
+
+\subsection*{Notes}
+
+See also:
+\begin{itemize}%%%
+\item Fall 2019: tweaking colors
+\item Spring 2019: slidified.  Still pretty thin; needs worksheet and pictures.
+\item Spring 2018: \href{https://www.evernote.com/shard/s2/nl/210343/c9a0520f-8e6d-42fa-b0e2-8056a0964ece/}{Notes in Evernote}
+\end{itemize}
+
+\section*{Materials}
+
+\begin{itemize}
+\item Colored chalk/markers
+\end{itemize}
+
+\mode<article>{
+\section*{Do Now}}
+
+\begin{frame}[label=do-now]
+\begin{columns}
+\begin{column}{0.45\textwidth}
+\begin{exampleblock}<+->{Do Now}%%
+Let $G$ be the graph below.
+\begin{center}
+     \begin{tikzpicture}[scale=0.4,simple graph]
+     \begin{scope}[x={(0cm,1bp)},y={(-1bp,0cm)}]
+     \begin{scope}[every node/.append style={vertex}]
+         \draw (173.0,306.0) node[label=$1$] (n0) {};
+         \draw (27.0,234.0)  node[label=180:$2$] (n1) {};
+         \draw (99.0,234.0)  node[label=$3$] (n2) {};
+         \draw (82.0,90.0)   node[label=$4$] (n3) {};
+         \draw (137.0,162.0) node[label=-25:$5$] (n4) {};
+         \draw (154.0,90.0)  node[label=$6$] (n5) {};
+         \draw (118.0,18.0)  node[label=45:$7$] (n6) {};
+         \path (n0) edge (n1) edge (n4) edge (n5) edge[out=15,in=105] (n6)
+               (n1) edge (n4) edge[out=-15,in=255] (n6)
+               (n2) edge (n3) edge (n4)
+               (n3) edge (n6)
+               (n4) edge (n5) edge (n6)
+               (n5) edge (n6)
+          ;
+     \end{scope}
+     \end{scope}
+     \end{tikzpicture}
+\end{center}
+Find $\omega(G)$ and $\alpha(G)$.
+\end{exampleblock}
+\end{column}
+\begin{column}{0.45\textwidth}
+\begin{solution}<+->
+\begin{itemize}
+\item<.->     There is a clique of size $4$: $\set{1,5,2,7}$.
+    But there are no cliques of size $5$.  That would require five vertices of degree at least $4$,
+    and there are only two ($1$ and $7$).
+    So $\omega(G) = 4$.
+\item<+->
+    There are two independent sets of size $3$:
+        $\set{2,3,6}$ and $\set{2,4,6}$.
+    So $\alpha(G) = 3$.
+\end{itemize}
+\end{solution}
+\end{column}
+\end{columns}
+\end{frame}
+
+\mode<article>{%
+\section*{Anticipatory Set}}
+\timecheck{\LARGE\clock{09}{15}}
+
+\tableofcontents
+
+\mode<article>{%
+\section*{Procedure}}
+\timecheck{\LARGE\clock{09}{00}}
+
+\section{Walks}
+
+\begin{frame}[label=walk-def]
+\begin{definition}
+    Let $G=(V,E)$ be a graph.
+    A \defined{walk} in $G$ is a list (or finite sequence) of vertices
+    with each adjacent to the next.  We write it as
+    \[
+        W = (v_0,v_1,\dots,v_\ell)
+    \]
+    where $v_i \in V$ for all $i$, and $v_{i-1} \sim v_i$ for each $i$ from $1$ to $\ell$.
+\end{definition}
+\begin{itemize}
+\item We sometimes write a walk with the vertices separated by $\sim$:
+\[
+    W = v_0 \sim v_1 \sim \dots \sim v_\ell
+\]
+\item The \defined{length} of a walk is the number of edges traversed in the sequence
+($\ell$)
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label=walk-ex]%
+\begin{example}<+->
+{\usebeamercolor{block title example}\xglobal\colorlet{efg}{bg}}
+Using the same graph as in the Do Now, here are some walks:
+\begin{columns}
+\begin{column}{0.45\textwidth}
+    \centering%
+     \begin{tikzpicture}[scale=0.4,simple graph,
+         walk/.style={preaction={draw,ultra thick,efg}}
+     ]
+     \begin{scope}[x={(0cm,1bp)},y={(-1bp,0cm)}]
+     \begin{scope}[every node/.append style={vertex}]
+         \draw (173.0,306.0)
+               node[onslide={<2,3,4,5>{walk}},label=$1$] (n0) {};
+         \draw (27.0,234.0)
+               node[onslide={<4,5>{walk}},label=180:$2$] (n1) {};
+         \draw (99.0,234.0)
+               node[label=$3$] (n2) {};
+         \draw (82.0,90.0)   node[label=$4$] (n3) {};
+         \draw (137.0,162.0)
+               node[onslide={<3,4,5>{walk}},label=-25:$5$] (n4) {};
+         \draw (154.0,90.0)
+               node[onslide={<3,5>{walk}},label=$6$] (n5) {};
+         \draw (118.0,18.0)
+               node[onslide={<3,5>{walk}},label=45:$7$] (n6) {};
+         \path (n0) edge[onslide={<4>{walk}}] (n1)
+                    edge[onslide={<3,4,5>{walk}}] (n4) edge (n5)
+                    edge[out=15,in=105,onslide={<0>{walk}}] (n6)
+               (n1) edge[onslide={<4,5>{walk}}] (n4) edge[out=-15,in=255] (n6)
+               (n2) edge (n3) edge (n4)
+               (n3) edge (n6)
+               (n4) edge[onslide={<3,5>{walk}}] (n5)
+                    edge[onslide={<5>{walk}}] (n6)
+               (n5) edge[onslide={<3,5>{walk}}] (n6)
+          ;
+     \end{scope}
+     \end{scope}
+     \end{tikzpicture}
+\end{column}
+\begin{column}{0.45\textwidth}
+\begin{itemize}
+\item<+-> $1$
+\item<+-> $1 \sim 5 \sim 6 \sim 7$
+\item<+-> $1 \sim 5 \sim 2 \sim 1$
+\item<+-> $1 \sim 5 \sim 6 \sim 7 \sim 5 \sim 2$
+\end{itemize}
+\end{column}
+\end{columns}
+
+\end{example}
+\end{frame}
+
+\Do{Remarks:
+\begin{itemize}
+\item Walks can go nowhere.
+\item Walks can visit a vertex more than once.
+\item Walks can be reversed.
+\item Walks can come back to where they started.
+\item Walks must traverse edges.
+\end{itemize}
+}
+
+\begin{frame}[label=concat-def]
+\begin{definition}
+Suppose that $W_1 = v_0 \sim v_1 \sim \dots \sim v_\ell$ and
+$W_2 = w_0 \sim w_1 \sim \dots \sim w_k$
+are walks with $v_\ell = w_0$.  The \defined{concatenation} of $W_1$ and $W_2$
+is the walk
+\[
+   W_1 + W_2 = v_0 \sim v_1 \sim \dots \sim (v_\ell = w_0) \sim w_1 \sim \dots \sim w_k
+\]
+\end{definition}
+\begin{itemize}
+\item This walk has length $\ell+k$.
+\item Not every pair of walks can be concatenated
+\item Even if you can concatenate in the opposite order, walk concatenation is not usually commutative
+\end{itemize}
+\end{frame}
+
+\section{Paths}
+
+\begin{frame}[label=path-def]
+\begin{definition}
+    If $u$ and $v$ are vertices, a \defined{walk from $u$ to $v$} or \defined{$(u,v)$-walk} is a walk that starts at $u$ and ends at $v$:
+    \[
+        W = u \sim \dots \sim v
+    \]
+\end{definition}
+\begin{definition}
+    A \defined{path} in $G$ is a walk in which no vertex is repeated.
+    A \defined{path from $u$ to $v$} or \defined{$(u,v)$-path} is a path that starts at $u$ and ends at $v$.
+\end{definition}
+\end{frame}
+
+\begin{frame}[label=path-prop]
+\begin{block}<+->{Proposition 49.4}
+    Let $P$ a path in a graph $G$.  then $P$ does not traverse any edge of $G$ more than once.
+\end{block}
+\begin{proof}<+->
+Suppose $P$ traverses an edge $uv$ twice.  The possibilities are (without loss of generality):
+\begin{gather*}
+ \dots \sim u \sim v \sim \dots \sim u \sim v \sim \dots \\
+\dots \sim u \sim v \sim \dots \sim v \sim u \sim \dots \\
+\dots \sim u \sim v \sim u \sim \dots
+\end{gather*}
+Each of these repeats a vertex ($u$ or $v$), so is not a path.
+\end{proof}
+\end{frame}
+
+\begin{frame}[label=path-graph-def]
+We defined a path to be a sequence of vertices, but the edges joining the vertices
+can also be included to form a graph.  So when convenient, we'll consider paths as graphs too.
+\begin{definition}
+    Let $n$ be a positive integer.
+    The \defined{path graph} on $n$ vertices is the graph $P_n$ whose vertices
+    are $\set{v_1,v_2,\dots,v_n}$, and whose edges are
+    $\set{\set{v_1,v_2},\set{v_2,v_3},\dots,\set{v_{n-1},v_n}}$.
+\end{definition}
+\end{frame}
+
+\begin{frame}[label=ctdto-def]
+\begin{definition}[Connected to]
+    Let $G=(V,E)$ be a graph.
+    We say that $u$ is \defined{connected to} $v$ if there exists a $(u,v)$-path in $G$.
+\end{definition}
+\end{frame}
+
+\begin{frame}[label=ctdto-ex]
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+        \begin{example}<+->
+        Find the pairs of connected vertices in the graph below.
+        \begin{center}
+            \begin{tikzpicture}[simple graph]
+                \begin{scope}[every node/.append style={vertex}]
+                    \path (0,0) node[label=180:$1$] (v1) {}
+                        ++(1,0) node[label=0:$2$] (v2) {}
+                        ++(0,1) node[label=0:$3$] (v3) {}
+                        ++(-1,0) node[label=180:$4$] (v4) {};
+                    \path (v1) edge (v2) edge (v4)
+                          (v3) edge (v2) edge (v4);
+                    \begin{scope}[xshift=2cm]
+                    \path (0,0) node[label=$9$] (v9) {}
+                        ++(1,1) node[label=$0$] (v0) {};
+                    \path (v9) edge (v0);
+                    \end{scope}
+                    \begin{scope}[yshift=2cm]
+                    \path (0,0) node[label=$5$] (v5) {};
+                    \end{scope}
+                    \begin{scope}[xshift=2cm,yshift=2cm]
+                    \path (0,0) node[label=$6$] (v6) {}
+                          (1,0) node[label=$7$] (v7) {}
+                          (60:1) node[label=$8$] (v8) {};
+                    \draw (v6) -- (v7) -- (v8);
+                    \end{scope}
+                \end{scope}
+            \end{tikzpicture}
+        \end{center}
+        \end{example}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+        \begin{solution}<+->
+            \centering
+            \begin{tabular}{r|l}
+                vertex & connected to \\\hline
+                0 & 0, 9 \\
+                1 & 1, 2, 3, 4 \\
+                2 & 2, 3, 4, 1 \\
+                3 & 3, 4, 1, 2 \\
+                4 & 4, 1, 2, 3 \\
+                5 & 5 \\
+                6 & 6, 7, 8 \\
+                7 & 7, 8, 6 \\
+                8 & 8, 7, 6 \\
+                9 & 9, 0
+            \end{tabular}
+        \end{solution}
+    \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[label=ctd-adj]%%
+    \begin{alertblock}{Note}
+       It's tempting to use “connected” as a synonym for \emph{adjacent} when describing graphs.
+       But they are different terms.
+       \begin{itemize}
+           \item If $v$ is adjacent to $w$, then $v$ is connected to $w$.
+           \item But not vice versa!
+       \end{itemize}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}[label=ctd-thm]
+\begin{block}{Theorem 49.8}
+    Let $G$ be a graph.  The is-connected-to relation is an equivalence relation on the set of vertices of $G$.
+\end{block}
+\end{frame}
+
+\begin{frame}[label=ctd-thm-proof-1]
+To prove this, we need to show the relation is: reflexive, symmetric, and transitive.
+\begin{itemize}
+\item<+-> \structure{Reflexive}
+\uncover<+->{Let $v \in V$.  The walk $(v)$ is a path, because it does not repeat any vertices.
+    This path starts and ends at $v$, so $v$ is connected to $v$.}
+\item<+-> \structure{Symmetric}
+\uncover<+->{Let $u$ and $v$ be connected vertices, and $P$ a path from $u$ to $v$.
+    Denote by $P^{-1}$ the walk that lists the same vertices in the opposite order.
+    This is a path, in fact a $(v,u)$-path.  So $v$ is connected to $u$.}
+\item<+-> \structure{Transitive}
+\uncover<+->{Suppose that $u$ is connected to $v$, and $v$ is connected to $w$.
+    Let $W_1$ be a $(u,v)$-path, and $W_2$ a $(v,w)$-path.}
+\uncover<+->{Then $W_1+W_2$ is a $(u,w)$-\alert{walk}. It could repeat vertices!}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label=lemma]
+\begin{block}<+->{Lemma 49.7}
+Let $G$ be a graph and $x$ and $y$ vertices.
+If there is an $(x,y)$-walk in $G$, then there is an $(x,y)$-path in $G$.
+\end{block}
+\begin{proof}<+->
+\begin{itemize}
+\item<.-> Consider the set of all $(x,y)$-walks in $G$.
+\item<+-> It's nonempty, so there exists one with minimal length (WOP).  Call it $P$; we claim it's a path.
+\item<+-> If $P$ does repeat a vertex, we can eliminate the portion between the two instances, creating a shorter path. \raa \qedhere
+\end{itemize}
+\end{proof}
+\end{frame}
+
+\begin{frame}[label=lemma-2]
+More about shortening that path:  Suppose $P$ is a walk from $x$ to $y$ that repeats $u$.  Then
+\[
+    P = \underbrace{x \sim \dots \sim u}_{W_1}%
+    \underbrace{\sim \dots \sim u}_{W_2}%
+    \underbrace{\sim \dots \sim y}_{W_3}
+\]
+We are assuming that $W_2$ has positive length.
+Let $P' = W_1 + W_3$.  Then $P'$ is also an $(x,y)$-walk, but has a shorter length than $P$.
+\end{frame}
+
+\begin{frame}[label=ctd-thm-proof-2]
+Now to show is-connected-to is transitive.
+\begin{itemize}
+\item Suppose that $u$ is connected to $v$, and $v$ is connected to $w$.
+    Let $W_1$ be a $(u,v)$-path, and $W_2$ a $(v,w)$-path.
+    Then $W_1+W_2$ is a $(u,w)$-walk.
+    By the lemma, there is a $(u,w)$-path in $G$.
+    So $u$ is connected to $v$.
+\item Therefore is-connected-to is an equivalence relation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label=cpt-def]
+\begin{definition}
+    A \defined{component} of $G$ is a subgraph of $G$ induced by an equivalence class of
+    the is-connected-to relation on $V(G)$.
+\end{definition}
+In other words, a component is:
+\begin{itemize}
+\item A maximal set of vertices, each of which is connected to the rest;
+\item plus all the edges that join them.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label=cpt-ex]
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+        \begin{example}<+->
+        Find the components in the graph below.
+        \begin{center}
+            \begin{tikzpicture}[simple graph,
+                     cpt/.style={preaction={draw,ultra thick,example}}
+            ]
+                \begin{scope}[
+                    vertex/.append style={onslide={<4,9>{cpt}}},
+                    every edge/.append style={onslide=<9>{cpt}}
+                ]
+                    \path (0,0) node[vertex,label=180:$1$] (v1) {}
+                        ++(1,0) node[vertex,label=0:$2$] (v2) {}
+                        ++(0,1) node[vertex,label=0:$3$] (v3) {}
+                        ++(-1,0) node[vertex,label=180:$4$] (v4) {};
+                    \path (v1) edge (v2) edge (v4)
+                          (v3) edge (v2) edge (v4);
+                \end{scope}
+                \begin{scope}[xshift=2cm,
+                    vertex/.append style={onslide={<7,12>{cpt}}},
+                    every edge/.append style={onslide={<12>{cpt}}}
+                ]
+                \path (0,0) node[vertex,label=$9$] (v9) {}
+                    ++(1,1) node[vertex,label=$0$] (v0) {};
+                \path (v9) edge (v0);
+                \end{scope}
+                \begin{scope}[yshift=2cm,
+                    vertex/.append style={onslide={<5,10>{cpt}}}
+                ]
+                \path (0,0) node[vertex,label=$5$] (v5) {};
+                \end{scope}
+                \begin{scope}[xshift=2cm,yshift=2cm,
+                    vertex/.append style={onslide={<6,11>{cpt}}},
+                    every edge/.append style={onslide=<11>{cpt}}
+                ]
+                \path (0,0) node[vertex,label=$6$] (v6) {}
+                      (1,0) node[vertex,label=$7$] (v7) {}
+                      (60:1) node[vertex,label=$8$] (v8) {};
+                \draw (v6) edge (v7) edge (v8) (v7) edge (v8);
+                \end{scope}
+            \end{tikzpicture}
+        \end{center}
+        \end{example}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+        \begin{solution}<+->
+            \begin{itemize}
+            \item<+-> Equivalence classes:
+                  \uncover<+->{\textcolor<.>{example}{$\set{1,2,3,4}$},}
+                  \uncover<+->{\textcolor<.>{example}{$\set{5}$},}
+                  \uncover<+->{\textcolor<.>{example}{$\set{6,7,8}$},}
+                  \uncover<+->{\textcolor<.>{example}{$\set{9,0}$}.}
+            \item<+-> Each of these induces a component (subgraph)
+            \end{itemize}
+        \end{solution}
+    \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[label=ctd-def]
+\begin{definition}[Connected]
+    A graph is called \defined{connected} if it has exactly one component.
+\end{definition}
+\begin{itemize}
+    \item In other words, $G$ is connected iff for all vertices $x,y\in V$,
+    there exists an $(x,y)$-path in $G$.
+    \item $G$ is \emph{not} connected iff there exist $x,y\in V$ such that
+    there \emph{does not} exist an $(x,y)$-path in $G$.
+\end{itemize}
+\end{frame}
+
+\section{Disconnection}
+
+\begin{frame}[label=cut-def]
+    \begin{definition}[Cut vertex, cut edge]
+        Let $G$ be a graph.
+        \begin{itemize}
+            \item A vertex $v$ is called a \defined{cut vertex} of $G$ if $G-v$ has more components than $G$.
+            \item An edge $e$ is called a \defined{cut edge} of $G$ if $G-e$ has more components then $G$.
+        \end{itemize}
+    \end{definition}
+    \begin{itemize}
+        \item If $e=xy$, then $e$ is a cut edge of $G$ iff
+              there is no $(x,y)$-path in $G$ other than $x \sim y$.
+        \item $v$ is a cut vertex iff there exist $x$ and $y$ adjacent to $v$
+              such that all $(x,y)$-paths contain $v$.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[label=cut-ex]
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+        \begin{example}<+->
+            Find all the cut vertices and edges of the graph
+            below.
+            \begin{center}
+                \begin{tikzpicture}[simple graph]
+                % two triangles joined by an edge
+                    \path node[vertex,label=$c$] (c) {}
+                    (60:1) node[vertex,label=$a$] (a) {}
+                    (120:1) node[vertex,label=$b$] (b) {}
+                    (0,-1) node[vertex,label=-90:$d$] (d) {}
+                    ++(-60:1) node[vertex,label=0:$f$] (f) {}
+                    ++(-1,0) node[vertex,label=180:$e$] (e) {}
+                    (a) edge (b) edge (c)
+                    (b) edge (c)
+                    (c) edge (d)
+                    (d) edge (e)
+                    (e) edge (f)
+                    (f) edge (d);
+                \end{tikzpicture}
+            \end{center}
+        \end{example}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+        \begin{solution}<+->
+            \begin{itemize}
+                \item<.-> $c$ and $d$ are cut vertices.
+                \item<+-> $cd$ is the only cut edge.
+            \end{itemize}
+        \end{solution}
+    \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}[label=cut-prac]
+\begin{exampleblock}<+->{Practice}
+Find the cut vertices and edges of the graphs below.
+\begin{columns}
+\begin{column}{0.45\textwidth}
+    \begin{center}
+        \begin{tikzpicture}[simple graph]
+            \path node[vertex,label=$a$] (a) {}
+            ++( 1,-1) node[vertex,label=$c$] (c) {} edge (a)
+            ++( 1,-1) node[vertex,label=$f$] (f) {} edge (c)
+            ++( 1, 1) node[vertex,label=$e$] (e) {} edge (f)
+            ++(-1, 1) node[vertex,label=$d$] (d) {} edge (e) edge (c)
+            ++(-2,-2) node[vertex,label=135:$b$] (b) {} edge (c) edge (a);
+            \node[at=(current bounding box.south east),anchor=south east] {$G$};
+        \end{tikzpicture}
+    \end{center}
+\end{column}
+\begin{column}{0.45\textwidth}
+    \begin{center}
+        \begin{tikzpicture}[simple graph]
+            \path node[vertex,label=$a$] (a) {}
+            ++( 1, 0) node[vertex,label=$b$] (b) {} edge (a)
+            ++( 0,-1) node[vertex,label=left:$c$] (c) {} edge (b)
+             +( 0,-1) node[vertex,label=left:$d$] (d) {} edge (c)
+            ++( 1, 0) node[vertex,label=135:$e$] (e) {} edge (c)
+             +( 0, 1) node[vertex,label=$f$] (f) {} edge (e)
+             +( 1, 0) node[vertex,label=0:$g$] (g) {} edge (e) edge (f)
+            ++( 0,-1) node[vertex,label=-90:$i$] (i) {} edge (e)
+            ++( 1, 0) node[vertex,label=-90:$h$] (h) {} edge (i)
+            ;
+            \node[at=(current bounding box.south west),anchor=south west] {$H$};
+        \end{tikzpicture}
+    \end{center}
+\end{column}
+\end{columns}
+\end{exampleblock}
+\begin{solution}<+->
+\begin{tabular}{c|c|c}
+graph & cut vertices & cut edges \\\hline
+$G$   & $c$          & $\emptyset$ \\
+$H$   & $c$, $e$, $i$ & $ab$, $bc$, $cd$, $ce$, $ei$, $hi$
+\end{tabular}
+\end{solution}
+\end{frame}
+
+\begin{example}
+Find the cut edges and vertices on the graphs below:
+See \href{https://math.stackexchange.com/q/457159/2785}{MSE}
+\begin{center}
+\includegraphics[width=\textwidth]{dRD1r}
+\end{center}
+\end{example}
+
+\begin{frame}[label=cut-thm]
+    \begin{block}{Theorem 49.12}
+   Let $G$ be a connected graph and suppose $e$ is a cut edge of $G$.
+   Then $G-e$ has \emph{exactly} two components.
+   \end{block}
+   Note $G-e$ has \emph{at least} two components by definition of cut edge.
+   We need to show it can't have more.
+\end{frame}
+
+\begin{frame}[label=cut-proof]
+\begin{proof}
+\begin{overlayarea}{\textwidth}{0.8\textheight}
+\begin{itemize}
+\item<only@1-4|uncover@+-> Suppose FTSOC that $G-e$ has at least three components.  Then there exist vertices $a$, $b$, and $c$ in $G$,
+no pair of which are connected in $G-e$.
+\item<only@1-4|uncover@+-> There is a path $P$ from $a$ to $b$ in $G$, though.  Such a path \textbf{must traverse the edge $e$}.
+\item<only@1-4|uncover@+-> There is a path $Q$ from $c$ to $a$ in $G$, too.  It must also traverse $e$.
+\item<uncover@+-> Let $e$ join vertices $x$ and $y$ in the direction of $P$.  Does $Q$ visit $x$ or $y$ first?
+\begin{itemize}
+\item<uncover@+-> If $Q$ visits $x$ first, we can walk along $Q$ from $c$ to $x$, then along $P^{-1}$ from $x$ to $a$.
+    This is a walk from $c$ to $a$ skipping $e$, hence a $(c,a)$-walk in $G-e$.  Therefore $c$ is connected to $a$ in $G-e$.
+    \raa
+\item<uncover@+-> If $Q$ visits $y$ first, we can walk along $Q$ from $c$ to $y$, then along $P$ from $c$ to $b$.
+    This is a walk from $c$ to $b$ skipping $e$, hence a $(c,b)$-walk in $G-e$.  Therefore $c$ is connected to $b$ in $G-e$.
+    \raa
+\end{itemize}
+\item<uncover@+-> Either way, we have a contradiction, so $G-e$ cannot have three components.\qedhere
+\end{itemize}
+
+\end{overlayarea}\end{proof}
+\end{frame}
+
+\mode<article>{%
+\section*{Guided Practice}}
+
+See practice elements above.
+
+\mode<article>{%
+\section*{Closure}}
+\timecheck{\LARGE\clock{10}{40}}
+
+\begin{frame}[label=summary]{Summary of §49}
+\begin{itemize}
+\item walk and path.  A path is a walk that doesn't repeat vertices.
+\item connected (equivalence relation on vertices of a graph), components (subgraphs induced by equivalence classes).  Each of these is easier to “see” than to describe.
+\item Cut vertices and cut edges separate the graph when removed.  Cut vertices can separate the graph into many components, but cut edges only two.
+\end{itemize}
+\end{frame}
+
+\mode<article>{%
+\section*{Independent Practice}
+
+\subsection*{Practice Problems}
+
+All problems from Scheinerman.
+
+\begin{itemize}
+    \item §49:
+\end{itemize}
+
+\subsection*{Homework problems}
+
+}% end mode<article>
+
+\bibliographystyle{amsalpha}
+\bibliography{undergrad-textbooks}
+
+\end{document}
+\endinput
+%%
+%% End of file `Lesson23_-_Connections.slides.tex'.
