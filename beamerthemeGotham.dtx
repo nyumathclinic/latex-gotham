@@ -209,9 +209,9 @@
 
 \RequirePackage{xltxtra}
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont{Gotham Narrow Book}
+\setmainfont[BoldFont=Gotham Medium]{Gotham Book}
 \setmathrm{Cambria Math}
-\setsansfont{Gotham Narrow Book}
+\setsansfont[BoldFont=Gotham Medium]{Gotham Book}
 % See http://www.nyu.edu/web.communications/standards/identity.html
 \newfontfamily\titlefont{Gotham}
 %  
@@ -225,7 +225,8 @@
 \setbeamerfont{frametitle}{family=\titlefont,size=\LARGE,series=\bfseries}
 \setbeamerfont{framesubtitle}{family=\titlefont,size=\Large,series=\bfseries}
 \setbeamerfont{title}{family=\titlefont,size=\LARGE,series=\bfseries}
-\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont{block title}{family=\titlefont,size=\normalsize}
+%\usefonttheme[onlylarge]{structurebold}
 %    \end{macrocode}
 %
 %    \begin{macrocode}
