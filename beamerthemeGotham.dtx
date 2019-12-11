@@ -11,6 +11,18 @@
 \documentclass{ltxdoc}
 \EnableCrossrefs
 \CodelineIndex
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{fontspec}
+% Specify different font for section headings
+\newfontfamily\headingfont[]{Gotham}
+\titleformat*{\section}{\Large\headingfont}
+\titleformat*{\subsection}{\large\headingfont}
+\titleformat*{\subsubsection}{\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+\setmainfont{Mercury Text G3 Roman}
+\setsansfont{Gotham Book}
+\setmonofont{Decima Mono Cyr}
 \begin{document}
   \DocInput{beamerthemeGotham.dtx}
 \end{document}
