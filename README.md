@@ -1,6 +1,14 @@
-# beamerthemeGotham
+# latex-gotham
 
-A beamer theme for the NYU visual identity
+LaTeX packages for the NYU visual identity.
+
+## Contents
+
+So far there are two latex “modules” in this bundle:
+
+* `beamerthemeGotham` installs a beamer presentation theme called `Gotham`.  
+
+* `xcolor-nyu` provides names for the colors prescribed by the NYU website.
 
 ## Installation
 
@@ -8,8 +16,8 @@ Download or clone the repository.  Within the repository's directory, execute:
 
     $ l3build install
 
-This should install the package in a place that your TeX installation can find it
-and also that you can write to.  But if you're nervous, run this first:
+This should install the packages in the places that your TeX installation can
+find it and also that you can write to.  But if you're nervous, run this first:
 
     $ l3build install --dry-run
 
@@ -43,15 +51,18 @@ Within the repository, this command will build the documentation:
 
     $ l3build doc
 
-The user documentation is in the file `beamerthemeGotham.pdf`.  The
-file `beamerthemeGotham-code.pdf` will have the user documentation
-and pretty-printed code.
+Then look in the `build/doc` directory.  The files ending in `-code.pdf` 
+include user documentation and pretty-printed code.
 
 After installation, you can execute 
 
-    $ texdoc beamerthemeGotham
+    $ texdoc <package>
 
-anwhere from the command line.
+anwhere from the command line to view the user documentation.
+
+    $ texdoc -l <package>
+
+will list the available documents for that package.
 
 ## License
 

@@ -1,6 +1,6 @@
-# beamerthemeGotham
+# xcolor-nyu
 
-A beamer theme for the NYU visual identity
+Color names for the NYU visual identity.  Part of the `latex-gotham` bundle.
 
 ## Installation
 
