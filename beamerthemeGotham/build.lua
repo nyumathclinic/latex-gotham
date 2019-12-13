@@ -4,6 +4,7 @@
 bundle = "Gotham"
 module = "beamerthemeGotham"
 
+maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
 typesetexe = "xelatex"
 

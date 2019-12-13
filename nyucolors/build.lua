@@ -4,6 +4,7 @@
 bundle = "Gotham"
 module = "nyucolors"
 
+maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
 typesetexe = "xelatex"
 
