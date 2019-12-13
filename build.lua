@@ -1,15 +1,8 @@
--- Build configuration for beamerthemeGotham
--- Matthew Leingang, 2019-12-10
+-- Build configuration for the Gotham bundle
+-- Matthew Leingang, 2019-12-12
 
-module = "beamerthemeGotham"
-
-typesetfiles = {"*.tex", "examples/*.tex"}
-typesetexe = "xelatex"
-
--- Root directory of the TDS structure for the module to be installed into.
--- Mentally prepend the path to the correct texmf tree THEN either "tex" (for
--- includes), "doc" (for documentation), or "source" (for source files).
-tdsroot = "latex/beamer/themes/theme"
+bundle = "Gotham"
+modules = {"beamerthemeGotham", "nyucolors"}
 
 -- The "luatex" engine produces some very minor differences (like, a single
 -- space in a \kern line).  One way around that is to disable the luatex engine:

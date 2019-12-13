@@ -1,0 +1,92 @@
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{nyucolors.dtx}
+%</driver>
+%<pkg>\ProvidesPackage{nyucolors}
+%<*pkg>
+  [2019/12/11 v0.2.0 A beamer theme for the NYU visual identity]
+%</pkg>
+%<*driver>
+\documentclass{ltxdoc}
+\EnableCrossrefs
+\CodelineIndex
+\usepackage{arev}
+\usepackage{hyperref}
+\begin{document}
+  \DocInput{nyucolors.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \GetFileInfo{nyucolors.dtx}
+% \title{Color Palettes for the NYU Visual Identity}
+% \author{Matthew Leingang\thanks{leingang@nyu.edu}}
+% \date{\fileversion, Released \filedate}
+% \maketitle
+%
+% \begin{abstract}
+% We provide color names for the NYU visual identity.
+% Both screen and print versions of the colors are provided.
+% \end{abstract}
+%
+% \changes{unreleased}{2019/12/12}{Split color declaration into a separate package}
+% \changes{v0.2.0}{2019/12/11}{Fixed fonts to the official family}
+% \changes{v0.1.0}{2019/12/10}{First working release}
+%
+% \section{Introduction}
+%
+% This color palette from the \href{https://www.nyu.edu/employees/resources-and-services/media-and-communications/styleguide/website/graphic-visual-design.html}{NYU website}.
+% 
+%
+% \StopEventually{}
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+%<*pkg>
+%    \end{macrocode}
+%
+% \subsection{Colors}
+%
+%    \begin{macrocode}
+% purples
+\definecolor{nyupurple}{HTML}{57068C}
+\colorlet{nyupurple1}{nyupurple}
+\definecolor{nyupurple2}{HTML}{8900E1}
+\definecolor{nyupurple3}{HTML}{330062}
+\definecolor{nyupurple4}{HTML}{220337}
+
+% blacks and grays
+\definecolor{nyugblack}{HTML}{000000}% none more black
+\definecolor{nyugray}{HTML}{6D6D6D}
+\colorlet{nyugray1}{nyugray}
+\definecolor{nyugray2}{HTML}{B8B8B8}
+\definecolor{nyugray3}{HTML}{D6D6D6}
+\definecolor{nyugray4}{HTML}{F2F2F2}
+
+% alert colors
+\definecolor{nyured}{HTML}{CB0200}% warning
+\definecolor{nyuorange}{HTML}{E86C00}% info
+\definecolor{nyugreen}{HTML}{489141}% success
+
+% Tertiary accent colors
+\definecolor{nyudarkblue}{HTML}{28619E}
+\colorlet{nyuaccent1}{nyudarkblue}
+\definecolor{nyulightblue}{HTML}{3DBBDB}% 
+\colorlet{nyuaccent1}{nyulightblue}
+\definecolor{nyusagegreen}{HTML}{007C70}
+\colorlet{nyuaccent3}{nyusagegreen}
+\definecolor{nyupink}{HTML}{D71E5E}
+\colorlet{nyuaccent4}{nyupink}
+\colorlet{nyuaccent5}{nyuorange}
+\definecolor{nyuyellow}{HTML}{FFC107}
+\colorlet{nyuaccent6}{nyuyellow}
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%</pkg>
+%    \end{macrocode}
+%
+% \Finale
+%
