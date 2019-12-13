@@ -1,8 +1,8 @@
--- Build configuration for nyucolors
+-- Build configuration for xcolor-nyu
 -- Matthew Leingang, 2019-12-10
 
 bundle = "Gotham"
-module = "nyucolors"
+module = "xcolor-nyu"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}

@@ -2,7 +2,7 @@
 -- Matthew Leingang, 2019-12-12
 
 bundle = "Gotham"
-modules = {"nyucolors", "beamerthemeGotham"}
+modules = {"xcolor-nyu", "beamerthemeGotham"}
 
 -- The "luatex" engine produces some very minor differences (like, a single
 -- space in a \kern line).  One way around that is to disable the luatex engine:
