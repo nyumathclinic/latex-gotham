@@ -33,7 +33,7 @@ function update_tag(file,content,tagname,tagdate)
         "invalid tag name. Use a literal 'v', then a semantic version number of the form x.y.z.")
     -- Make sure the working directory is "clean".
     -- See https://unix.stackexchange.com/a/394674/62853
-    assert(os.execute("git diff-index --quiet HEAD") == 0,
+    assert(os.execute("git diff-index --quiet HEAD .") == 0,
         "Working directory dirty.  Commit changes and try again.")
     -- TeX dates are in yyyy/mm/dd format.  tagdate is in yyyy-mm-dd format.
     tagdate_tex = string.gsub(tagdate,'-','/')
@@ -48,14 +48,6 @@ function update_tag(file,content,tagname,tagdate)
         )
         return content
     end
-end
-
-
-function tag_hook(tagname,tagdate)
-    -- handle version control
-    os.execute("git add .")
-    os.execute("git commit -m \"Log changes for version " .. tagname .. "\"")
-    return os.execute("git tag -a -m \"Tag version " .. tagname .. "\" " .. tagname)
 end
 
 
