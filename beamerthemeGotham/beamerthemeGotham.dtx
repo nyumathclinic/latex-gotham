@@ -5,7 +5,7 @@
 %</driver>
 %<pkg>\ProvidesPackage{beamerthemeGotham}
 %<*pkg>
-  [2019/12/13 v0.5.0 A beamer theme for the NYU visual identity]
+  [2019/12/13 v0.6.0 A beamer theme for the NYU visual identity]
 %</pkg>
 %<*driver>
 \documentclass{ltxdoc}
@@ -23,6 +23,8 @@
 \setmainfont{Mercury Text G3 Roman}
 \setsansfont{Gotham Book}
 \setmonofont{Decima Mono Cyr}
+\usepackage{graphicx}
+\usepackage{changepage}
 \usepackage{hyperref}
 \begin{document}
   \DocInput{beamerthemeGotham.dtx}
@@ -49,6 +51,25 @@
 % It uses the color palette from the \href{https://www.nyu.edu/employees/resources-and-services/media-and-communications/styleguide/website/graphic-visual-design.html}{NYU website}.
 % It uses the Gotham family of fonts.
 %
+%
+% \subsection{Option}
+%
+% The \textbf{Hoefler} option makes sure that the proprietary fonts are selected, namely
+% Gotham.  This can be purchased for \$199 from Hoefler\&Co.
+%
+% Wihout the option, the \textsf{arev} package is loaded.  It installs Vera Sans as
+% the sans serif family, which is a pretty good approximation to Gotham
+% (Figure~\ref{fig-arev-v-hoefler})
+%
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[width=0.9\textwidth]{sample2p45}}\\[2ex]
+%     \fbox{\includegraphics[width=0.9\textwidth]{sample2hp45}}
+%   \caption{The same slide in the \texttt{Gotham} theme, with and without the 
+%       \textbf{Hoefler} option}
+%   \label{fig-arev-v-hoefler}
+% \end{figure}
+%
 % \StopEventually{}
 %
 % \section{Implementation}
@@ -57,46 +78,22 @@
 %<*pkg>
 %    \end{macrocode}
 %
-% \subsection{Colors}
+% \subsection{Option}
+%
+% \changes{v0.6.0}{2019/12/13}{Added this option}
 %
 %    \begin{macrocode}
-\RequirePackage{xcolor-nyu}
-
-
-%: outer theme
+\newif\ifhoefler
+\hoeflerfalse
+\DeclareOption{Hoefler}{\hoeflertrue}
+\ProcessOptions\relax
+%    \end{macrocode}
+%
+% \subsection{Outer theme elements}
+%
+%    \begin{macrocode}
 %\useoutertheme{infolines}
 \setbeamertemplate{navigation symbols}{}
-
-
-%: inner theme
-% title page without date and large
-%\defbeamertemplate*{title page}{NYU Open Ed}[1][]
-%{
-%  \vbox{}
-%  \vfill
-%  \begin{centering}
-%    \begin{beamercolorbox}[sep=8pt,center,#1]{title}
-%      \usebeamerfont{title}\inserttitle\par%
-%      \ifx\insertsubtitle\@empty%
-%      \else%
-%        \vskip0.25em%
-%        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
-%      \fi%     
-%    \end{beamercolorbox}%
-%    \vskip1em\par
-%    \begin{beamercolorbox}[sep=8pt,center,#1]{author}
-%      \usebeamerfont{author}\insertauthor
-%    \end{beamercolorbox}
-%    \begin{beamercolorbox}[sep=8pt,center,#1]{institute}
-%      \usebeamerfont{institute}\insertinstitute
-%    \end{beamercolorbox}
-%%    \begin{beamercolorbox}[sep=8pt,center,#1]{date}
-%%      \usebeamerfont{date}\insertdate
-%%    \end{beamercolorbox}\vskip0.5em
-%    {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
-%  \end{centering}
-%  \vfill
-%}
 
 \AtBeginPart{\frame{\partpage}}
 \AtBeginSection[] % Do nothing for \subsection* 
@@ -107,12 +104,12 @@
   \end{frame} 
 }
 \AtBeginPart{\frame{\partpage}} 
-
-
-%: colors
-%: TODO cleanup.  
-%  some of these are copied over from a "Triad" palette that I created
-%  for another theme.  
+%    \end{macrocode}
+%
+% \subsection{Color theme elements}
+% 
+%    \begin{macrocode}
+\RequirePackage{xcolor-nyu}
 \mode<presentation>
 \setbeamertemplate{headline}[default]
 
@@ -162,45 +159,44 @@
 \mode
 <all>  
 
-%:  Font stuff
-\RequireXeTeX
-\RequirePackage[no-math]{fontspec}
+%    \end{macrocode}
+%
+% \subsection{Fonts}
+% 
+%    \begin{macrocode}
+\ifhoefler
+  \RequirePackage[no-math]{fontspec}
 % This snippet fixes a "You can't use a prefix with '\begingroup'" error that was coming from
 % the fontspec package.  
 % Thanks to Philippe Goutet.  See \url{http://tex.stackexchange.com/q/5996/1402}.
-\def\alloc@#1#2#3#4#5%
- {\ifnum\count1#1<#4% make sure there's still room
-    \allocationnumber\count1#1
-    \global\advance\count1#1\@ne
-    \global#3#5\allocationnumber
-    \wlog{\string#5=\string#2\the\allocationnumber}%
-  \else\ifnum#1<6
-    \def\etex@dummy@definition{}% <-- code added
-    \begingroup \escapechar\m@ne
-    \expandafter\alloc@@\expandafter{\string#2}#5%
-  \else\errmessage{No room for a new #2}\fi\fi
- }
+  \def\alloc@#1#2#3#4#5%
+  {\ifnum\count1#1<#4% make sure there's still room
+      \allocationnumber\count1#1
+      \global\advance\count1#1\@ne
+      \global#3#5\allocationnumber
+      \wlog{\string#5=\string#2\the\allocationnumber}%
+    \else\ifnum#1<6
+      \def\etex@dummy@definition{}% <-- code added
+      \begingroup \escapechar\m@ne
+      \expandafter\alloc@@\expandafter{\string#2}#5%
+    \else\errmessage{No room for a new #2}\fi\fi
+  }
 
-\RequirePackage{xltxtra}
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[BoldFont=Gotham Medium]{Gotham Book}
-\setmathrm{Cambria Math}
-\setsansfont[BoldFont=Gotham Medium]{Gotham Book}
-% See http://www.nyu.edu/web.communications/standards/identity.html
-\newfontfamily\titlefont{Gotham}
-%  
-%% NYU Open Ed Spec is 72+ for the title.  That seems way too big for the titles I use.
-%% We create Open Ed slides by scaling 160mm x 90 mm up to 8in x 4.5in.  That's a factor of 1.27
-%% These are just guessed and checked.
-%\RequirePackage{pgfmath}
-\pgfmathsetmacro{\fontsizeX}{40}%{round(72/1.27*0.7)}
-\pgfmathsetmacro{\fontsizeY}{50}%{round(72/1.27*1.25*0.7)}  
-\newcommand*{\NYUOpenEdtitlesize}{\fontsize{\fontsizeX}{\fontsizeY}}
-\setbeamerfont{frametitle}{family=\titlefont,size=\LARGE,series=\bfseries}
-\setbeamerfont{framesubtitle}{family=\titlefont,size=\Large,series=\bfseries}
-\setbeamerfont{title}{family=\titlefont,size=\LARGE,series=\bfseries}
-\setbeamerfont{block title}{family=\titlefont,size=\normalsize}
-%\usefonttheme[onlylarge]{structurebold}
+  \RequirePackage{xltxtra}
+  \defaultfontfeatures{Mapping=tex-text}
+  \setmainfont[BoldFont=Gotham Bold]{Gotham Book}
+  \setmathrm{Cambria Math}
+  \setsansfont[BoldFont=Gotham Bold]{Gotham Book}
+\else
+    \let\emptyset\relax
+    \RequirePackage{arev}
+    \let\titlefont\sffamily
+\fi
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont{frametitle}{size=\Huge}
+\setbeamerfont{framesubtitle}{size=\Large}
+\setbeamerfont{title}{size=\Huge}
+\setbeamerfont{block title}{series=\bfseries}
 %    \end{macrocode}
 %
 %    \begin{macrocode}

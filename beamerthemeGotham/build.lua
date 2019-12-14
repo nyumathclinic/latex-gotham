@@ -6,6 +6,7 @@ module = "beamerthemeGotham"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
+typesetsuppfiles = {"*.pdf"}
 typesetexe = "xelatex"
 
 -- Root directory of the TDS structure for the module to be installed into.
