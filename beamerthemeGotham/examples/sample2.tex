@@ -1,37 +1,58 @@
 %%!TEX TS-program = xelatexmk
-\documentclass
-[ignorenonframetext,aspectratio=169]
-{ngelessonslides}
-%%
-\title[
-lesson number=23,
-textbook section={49}
-]{Connection}
-\course[code=MATH-UA 120,section=005]{Discrete Mathematics}
-\term[code=2019F]{Fall 2019}
-\author{Prof. Leingang}
-\usepackage[us]{datetime}
-\newdate{lessondate}{5}{12}{2019}
-\edef\lessondateiso{\getdateyear{lessondate}-\twodigit{\getdatemonth{lessondate}}-\twodigit{\getdateday{lessondate}}}
-\date{\displaydate{lessondate}}
-\makeatletter
-\keyword{course: \ngelesson@course@code\space\insertcoursename}
-\keyword{term: \ngelesson@term}
-\keyword{MT\ngelesson@textbooksection}% must fix if chap > 9
-\keyword{\insertcoursename}
-\makeatother
-\keywords{}
-\lessondescription{}% Oliver's description
+\documentclass[ignorenonframetext,aspectratio=169]{beamer}
+\title{\S49 Connection}
+\author{MATH-UA 120.005 Discrete Mathematics \\ Prof. Leingang}
+\date{December 5, 2019}
 \usepackage{siunitx}
-\usepackage{overpic}
-\usepackage{snapshot}
-\usepackage{xr}
-\usepackage{zref-xr}
 \usepackage{textcomp}
 \usetheme{Gotham}
 
-\let\im\relax
-\usepackage{discrete}
+\let\defined\textbf
+
+%% Contents of discrete.sty
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+\RequirePackage{mathtools}
+\providecommand{\Z}{\mathbb{Z}}
+\providecommand{\Q}{\mathbb{Q}}
+\providecommand{\R}{\mathbb{R}}
+\providecommand{\N}{\mathbb{N}}
+\newcommand{\divides}{\mathrel{|}}
+\newcommand{\ndivides}{\mathrel{\nmid}}
+
+  % \subsection{Boolean algebra}
+\newcommand{\ltrue}{\textsc{true}}
+\newcommand{\lfalse}{\textsc{false}}
+\newcommand{\limplies}{\rightarrow}
+\newcommand{\lseilpmi}{\leftarrow}
+\newcommand{\liff}{\leftrightarrow}
+\newcommand{\lnand}{\barwedge}
+\newcommand{\lxor}{\veebar}
+\providecommand{\set}[1]{\left\{#1\right\}}
+\let\setst\outer
+\renewcommand{\setst}[2]{\left\{#1 : #2 \right\}}
+\providecommand{\union}{\cup}
+\providecommand{\intersect}{\cap}
+\newcommand{\setdiff}{-}
+\let\origsetminus\setminus
+\renewcommand{\setminus}{\setdiff}
+\newcommand{\symdiff}{\mathbin{\triangle}}
+\newcommand{\PowerSet}[1]{2^{#1}}
+\newcommand{\Card}[1]{\left|#1\right|}
+\newcommand{\raa}{$\Rightarrow\Leftarrow$}
+\newcommand{\dom}[1]{\operatorname{dom}#1}
+\newcommand{\im}[1]{\operatorname{im}#1}
+\providecommand{\comp}{\mathrel{\raisebox{0.175ex}{$\scriptstyle\circ$}}}
+\providecommand{\from}{\colon}
+\newcommand{\IdentityFunction}[1][\relax]{%
+    \mathord{\mathrm{id}}\ifx#1\relax\else_{#1}\fi
+}
+\providecommand{\sgn}{\operatorname{sgn}}
+\providecommand{\idiv}{\mathbin{\text{div}}}
+%% end of discrete.sty
+
+\usepackage{tikz}
 \usetikzlibrary{patterns}
 \colorlet{primary}{cyan}
 \tikzset{onslide/.code args={<#1>#2}{%
@@ -53,14 +74,6 @@ textbook section={49}
 
 
 \usepackage{hyperref}
-\makeatletter
-\hypersetup{
-pdftitle=\ngelesson@longtitle,
-pdfauthor=\insertauthor,
-pdfsubject=\insertcoursename,
-pdfkeywords=\the\ngelesson@keywords,
-}
-\makeatother
 \begin{document}
 
 \begin{frame}%
@@ -78,12 +91,12 @@ anchor=south west, at={([xshift=1mm,yshift=1mm]current page.south west)}
 
 \begin{frame}{It's the final countdown}%
 \begin{itemize}
-\item Dec 3: Quiz on §36 and §47; Cover §48 Subgraphs
-\item Dec 5: §49 Connection
-\item Dec 6: HW on §36 and §47 due
-\item Dec 10: Quiz on §§48–49; Cover §50 Trees
-\item Dec 12: §51 Eulerian Graphs
-\item Dec 13: HW on §§48–49 not due;
+\item Dec 3: Quiz on \S36 and \S47; Cover \S48 Subgraphs
+\item Dec 5: \S49 Connection
+\item Dec 6: HW on \S36 and \S47 due
+\item Dec 10: Quiz on \S\S48–49; Cover \S50 Trees
+\item Dec 12: \S51 Eulerian Graphs
+\item Dec 13: HW on \S\S48–49 not due;
 \item Dec 17, 8:00 AM in CIWW 101: Review for final
 \item Dec 19, 8:00 AM: Final Exam
 \end{itemize}
@@ -699,7 +712,7 @@ See practice elements above.
 \section*{Closure}}
 \timecheck{\LARGE\clock{10}{40}}
 
-\begin{frame}[label=summary]{Summary of §49}
+\begin{frame}[label=summary]{Summary of \S49}
 \begin{itemize}
 \item walk and path.  A path is a walk that doesn't repeat vertices.
 \item connected (equivalence relation on vertices of a graph), components (subgraphs induced by equivalence classes).  Each of these is easier to “see” than to describe.
@@ -715,7 +728,7 @@ See practice elements above.
 All problems from Scheinerman.
 
 \begin{itemize}
-    \item §49:
+    \item \S49:
 \end{itemize}
 
 \subsection*{Homework problems}
