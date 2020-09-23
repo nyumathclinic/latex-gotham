@@ -5,7 +5,7 @@
 %</driver>
 %<pkg>\ProvidesPackage{beamerthemeGotham}
 %<*pkg>
-  [2019/12/13 v0.6.0 A beamer theme for the NYU visual identity]
+  [2020/09/22 v0.6.1 A beamer theme for the NYU visual identity]
 %</pkg>
 %<*driver>
 \documentclass{ltxdoc}
@@ -107,7 +107,7 @@
 %    \end{macrocode}
 %
 % \subsection{Color theme elements}
-% \changes{unreleased}{2020/09/21}{Changed the alert color to orange}
+% \changes{v0.6.1}{2020/09/21}{Changed the alert color to orange}
 % 
 % This package (another module in this bundle) sets some NYU colors
 %    \begin{macrocode}
@@ -115,7 +115,7 @@
 %    \end{macrocode}
 %
 % Set the palette, structure, example, and alert (warning colors).
-% \changes{unreleased}{2020/09/22}{Added two more alert colors for success (green) and information (orange).}
+% \changes{v0.6.1}{2020/09/22}{Added two more alert colors for success (green) and information (orange).}
 %
 %     \begin{macrocode}
 \mode<presentation>
@@ -178,7 +178,7 @@
 %
 % \begin{environment}{infoblock}
 % A block for alert with the ``information'' color.
-% \changes{unreleased}{2020/09/22}{Added this environment}
+% \changes{v0.6.1}{2020/09/22}{Added this environment}
 %    \begin{macrocode}
 \newenvironment<>{infoblock}[1]{%
     \setbeamercolor{alerted text}{parent=alert information}%
@@ -190,7 +190,7 @@
 %
 % \begin{environment}{successblock}
 % A block for alert with the ``success'' color.
-% \changes{unreleased}{2020/09/22}{Added this environment}
+% \changes{v0.6.1}{2020/09/22}{Added this environment}
 %    \begin{macrocode}
 \newenvironment<>{successblock}[1]{%
     \setbeamercolor{alerted text}{parent=alert success}%
