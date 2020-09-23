@@ -1,0 +1,18 @@
+\documentclass{beamer}
+\usetheme{Gotham}
+
+\begin{document}
+\begin{frame}{Alerts}
+    \begin{alertblock}{Warning}
+        Objects in mirror are closer than they appear.
+    \end{alertblock}
+
+    \begin{infoblock}{Note}
+        In the event of a water landing, your seat cushion may be used as a flotation device.
+    \end{infoblock}
+
+    \begin{successblock}{Success}
+        It is now safe to turn off your computer.
+    \end{successblock}
+\end{frame}
+\end{document}

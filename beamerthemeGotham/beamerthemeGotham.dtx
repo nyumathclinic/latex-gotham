@@ -107,9 +107,17 @@
 %    \end{macrocode}
 %
 % \subsection{Color theme elements}
+% \changes{unreleased}{2020/09/21}{Changed the alert color to orange}
 % 
+% This package (another module in this bundle) sets some NYU colors
 %    \begin{macrocode}
 \RequirePackage{xcolor-nyu}
+%    \end{macrocode}
+%
+% Set the palette, structure, example, and alert (warning colors).
+% \changes{unreleased}{2020/09/22}{Added two more alert colors for success (green) and information (orange).}
+%
+%     \begin{macrocode}
 \mode<presentation>
 \setbeamertemplate{headline}[default]
 
@@ -122,7 +130,10 @@
 
 \setbeamercolor*{structure}{fg=nyupurple}
 \setbeamercolor*{example text}{fg=nyudarkblue}
-\setbeamercolor*{alerted text}{fg=nyured}
+\setbeamercolor{alert warning}{fg=nyured}
+\setbeamercolor{alert information}{fg=nyuorange}
+\setbeamercolor{alert success}{fg=nyugreen}
+\setbeamercolor*{alerted text}{parent=alert warning}
 
 \setbeamercolor{titlelike}{fg=black}
 
@@ -156,10 +167,39 @@
     \usebeamercolor{palette quaternary}
     \hypersetup{citecolor=fg}
 }
+%    \end{macrocode}
+%
+% We set up some new blocks to mimic the alert ``warning'' blocks.
+%
+%    \begin{macrocode}
 \mode
 <all>  
-
 %    \end{macrocode}
+%
+% \begin{environment}{infoblock}
+% A block for alert with the ``information'' color.
+% \changes{unreleased}{2020/09/22}{Added this environment}
+%    \begin{macrocode}
+\newenvironment<>{infoblock}[1]{%
+    \setbeamercolor{alerted text}{parent=alert information}%
+    \begin{alertblock}#2{#1}}%
+{%
+    \end{alertblock}}
+%    \end{macrocode}
+% \end{environment}
+%
+% \begin{environment}{successblock}
+% A block for alert with the ``success'' color.
+% \changes{unreleased}{2020/09/22}{Added this environment}
+%    \begin{macrocode}
+\newenvironment<>{successblock}[1]{%
+    \setbeamercolor{alerted text}{parent=alert success}%
+    \begin{alertblock}#2{#1}}%
+{%
+    \end{alertblock}}
+%    \end{macrocode}
+% \end{environment}
+%
 %
 % \subsection{Fonts}
 % 
@@ -192,6 +232,23 @@
     \RequirePackage{arev}
     \let\titlefont\sffamily
 \fi
+%    \end{macrocode}
+%
+% Neither Gotham nor Arev come with small caps.  So we “fake” it.
+% See \url{https://tex.stackexchange.com/a/55733/1402}
+%    \begin{macrocode}
+\def\fakesc#1{%
+  \begingroup%
+  \xdef\fake@name{\csname\curr@fontshape/\f@size\endcsname}%
+  \fontsize{\fontdimen8\fake@name}{\baselineskip}\selectfont%
+  \MakeUppercase{#1}%
+  \endgroup%
+}
+\let\textsc\fakesc
+%    \end{macrocode}
+
+%
+%    \begin{macrocode}
 \usefonttheme[onlylarge]{structurebold}
 \setbeamerfont{frametitle}{size=\Huge}
 \setbeamerfont{framesubtitle}{size=\Large}
