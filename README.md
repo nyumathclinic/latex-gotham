@@ -4,11 +4,13 @@ LaTeX packages for the NYU visual identity.
 
 ## Contents
 
-So far there are two latex “modules” in this bundle:
+moduleSo far there are three latex “modules” in this bundle:
 
 * `beamerthemeGotham` installs a beamer presentation theme called `Gotham`.  
 
 * `xcolor-nyu` provides names for the colors prescribed by the NYU website.
+
+* `logos` provides images files for many NYU school logos.
 
 ## Installation
 
