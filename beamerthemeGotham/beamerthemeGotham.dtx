@@ -70,6 +70,38 @@
 %   \label{fig-arev-v-hoefler}
 % \end{figure}
 %
+% \subsection{Outer theme elements}
+% \subsubsection{Logo on title page}
+% \changes{unreleased}{2020/09/24}{Added this feature}
+% 
+% In the “Academic” NYU theme, there is a logo on the title page.  
+% The default positioning of the logo is as on the official page,
+% but it can also be placed elsewhere.
+%
+% \begin{itemize}
+%     \item \verb|\setbeamertemplate{title page logo}[default]| will 
+%           position the logo at the center of the line, below the title,
+%           author, and date.  This default template option is selected
+%           by default.
+%
+%     \item \verb|\setbeamertemplate{title page logo}[south west]| will 
+%           position the logo at the lower left corner of the title page.
+% \end{itemize}
+%
+% In article mode, \verb|\setbeamertemplate{title page logo}[north west]|
+% position the logo at the upper left corner of the first page (or wherever
+% \verb|\maketitle| is used).
+% 
+% Note that because these templates use some TikZ-trickery, your documents
+% may need an second run of \LaTeX{} to compile.  But this is almost always
+% the case if you've got any labeled and referenced element, or a table 
+% of contents, or a bibliography.
+%
+% Speaking of logos, the bundle including this theme installs many NYU logos
+% in \TeX's search tree.  The default is the NYU “short” logo.  You can
+% get a Courant one with 
+% \verb|\pgfdeclareimage{logo}{courant_short_black}|
+%
 % \StopEventually{}
 %
 % \section{Implementation}
@@ -105,6 +137,48 @@
 }
 \AtBeginPart{\frame{\partpage}} 
 %    \end{macrocode}
+%
+% \subsubsection{Logo on title page only}
+%
+% I'm following NYU's “academic” presentation theme, which has a logo on the
+% title page alone.  They put it in the vertical center, below the title and 
+% author.  I kind of prefer it in the lower-left corner.
+%
+% \verb|\setbeamertemplate{title page logo}[south west]| will put the logo
+% in the lower-left corner.  
+%
+%    \begin{macrocode}
+\setbeamertemplate{sidebar right}{}
+\RequirePackage{tikz}
+\tikzset{title page logo/.style={}}
+\def\inserttitlepagelogo{\tikz[title page logo]{\node{\pgfuseimage{logo}};}}
+\defbeamertemplate<all>{title page logo}{none}{}
+\defbeamertemplate<presentation>*{title page logo}{default}{\hfill\inserttitlepagelogo\hfill\null}
+\defbeamertemplate<presentation>{title page logo}{south west}{
+    \tikzset{title page logo/.append style={remember picture,overlay,
+        every node/.append style={
+        anchor=south west,
+        at={([xshift=1mm,yshift=2pt]current page.south west)}
+    }}}
+    \inserttitlepagelogo%
+}
+
+\defbeamertemplate<article>{title page logo}{north west}{
+    \tikzset{title page logo/.append style={remember picture,overlay,
+        every node/.append style={
+        anchor=north west,
+        at={([xshift=0.5in,yshift=-0.5in]current page.north west)}
+    }}}
+    \inserttitlepagelogo%
+}
+\addtobeamertemplate{title page}{}{\usebeamertemplate{title page logo}}
+\mode<article>{\apptocmd{\maketitle}{\usebeamertemplate{title page logo}}}
+
+\pgfdeclareimage{logo}{nyu_short_black}
+\logo{\pgfuseimage{logo}}
+%    \end{macrocode}
+%
+%
 %
 % \subsection{Color theme elements}
 % \changes{v0.6.1}{2020/09/21}{Changed the alert color to orange}
