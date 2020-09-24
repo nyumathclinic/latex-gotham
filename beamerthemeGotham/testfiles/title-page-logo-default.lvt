@@ -1,0 +1,9 @@
+\documentclass{beamer}
+\usetheme{Gotham}
+\title{Presentation Title Goes Here}
+\author{Presenter}
+\date{Date}
+
+\begin{document}
+\maketitle
+\end{document}

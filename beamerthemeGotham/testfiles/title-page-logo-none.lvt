@@ -1,0 +1,11 @@
+\documentclass{beamer}
+\usetheme{Gotham}
+\title{Presentation Title Goes Here}
+\author{Presenter}
+\date{Date}
+
+\setbeamertemplate{title page logo}[none]
+
+\begin{document}
+\maketitle
+\end{document}
