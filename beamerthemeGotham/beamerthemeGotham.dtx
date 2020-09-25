@@ -20,11 +20,13 @@
 \titleformat*{\subsection}{\large\headingfont}
 \titleformat*{\subsubsection}{\headingfont}
 \renewcommand{\maketitlehooka}{\headingfont}
-\setmainfont{Mercury Text G3 Roman}
+\setmainfont{Adobe Caslon Pro}
 \setsansfont{Gotham Book}
 \setmonofont{Decima Mono Cyr}
 \usepackage{graphicx}
 \usepackage{changepage}
+
+\newcommand{\env}[1]{\texttt{#1}}
 \usepackage{hyperref}
 \begin{document}
   \DocInput{beamerthemeGotham.dtx}
@@ -101,6 +103,25 @@
 % in \TeX's search tree.  The default is the NYU “short” logo.  You can
 % get a Courant one with 
 % \verb|\pgfdeclareimage{logo}{courant_short_black}|
+%
+% \subsection{Inner theme elements}
+% \subsubsection{New alert blocks}
+%
+% The official palette includes not just a red for “warning” style alerts,
+% but a green for “success” style and orange for “information.”  This is
+% in line with web design frameworks like twitter-bootstrap.  
+%
+% Accordingly, the theme provides, in addition to \env{alertblock}, the 
+% \env{successblock} and \env{infoblock} environments.  We also provide
+% macros \cmd{\info} and \cmd{\succes} [sic], which work just like \cmd{\alert}
+% except they use the corresponding colors.  See Figure~\ref{fig-alerts}.
+%%
+% \begin{figure}
+%     \centering
+%     \fbox{\includegraphics[width=0.9\textwidth]{alerts}}
+%   \caption{The \env{alertblock}, \env{infoblock}, and \env{successblock} environments}
+%   \label{fig-alerts}
+% \end{figure}
 %
 % \StopEventually{}
 %
