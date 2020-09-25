@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{ltxdoc}
 \title{Logos in the Gotham bundle}
 \author{Matthew Leingang}
 \date{\today}
@@ -15,9 +15,9 @@
 \setsansfont{Gotham Book}
 \setmonofont{Decima Mono Cyr}
 
-
-
+\usepackage{bxtexlogo}\bxtexlogoimport{*}
 \usepackage[letterpaper]{geometry}
+\usepackage{url}
 
 \usepackage{graphicx}
 \usepackage{tikz}
@@ -37,12 +37,64 @@
 \begin{document}
 \maketitle
 
+\section{Introduction}
+
+This document describes image files in the \texttt{logos} module within the 
+Gotham bundle.  The Gotham bundle is for \LaTeX{} users to produce documents 
+conforming to NYU's visual identity.  
+
+\section{Installation}
+
+The bundle itself can be downloaded from Github.  Clone the repository,
+or unzip a release package, and within the directory execute \texttt{l3build install --full}.
+This will install all the modules within the bundle, including this one.
+
+There is no \LaTeX{} package installed by this module.  Instead, the image files 
+are copied to the user's TEXMFHOME tree, so that they can be included anywhere 
+by use of the \verb|\includegraphics| command of the \texttt{graphicx} bundle.
+
+\section{Usage}
+
+Make sure your document loads the \texttt{graphicx} package by having
+\verb|\usepackage{graphicx}| in the preamble.  Then at any part of the document,
+put \verb|\includegraphics|\marg{logo}, where \marg{logo} is any of the logos
+named here.
+
+You don't need a file extension.  \LaTeX{} will look for one compatible with the
+engine.  Which one is selected first is determined by the driver files.  See
+\cite{tse-graphics-order} for the details.
+
+Most of the time you want PDF if you're producing a PDF.  PDF is a vector format,
+meaning it scales to arbitrary size perfectly.  With bit-mapped formats like PNG,
+you will get jagged edges at large scale.  JPG is more for image with thousands
+of colors like photos, than it is for two-color images like logos.
+
+You can always check the log file to see which file is actually included, and force
+a different extension if it's not the one you want.
+
+
+\section{The Logos}
+
+All available logos are displayed in this section, at their natural size.  Images 
+that are all in white are shown over a gray background, but the background is not 
+part of the image.
+
+I found EPS logos in a different shade of purple than the rest.  I corrected these
+EPS files to use the official purple, and those are the sources for the PDF logos. 
+Since I used Inkscape to do this, and Inkscape's native format is SVG, there are 
+some SVG logo files in the module as well.  
+
+\subsection{NYU “Flagship” logos}
+
+See Figure~\ref{fig-nyu-logos}.
+
 \begin{figure}
     \centering
+    \hbox to \textwidth{
     \begin{tabular}{ccc}
-        \includegraphics[scale=0.80]{nyu_long_black} &
-        \includegraphics[scale=0.80]{nyu_long_color} &
-        \showwhite{\includegraphics[scale=0.80]{nyu_long_white}}
+        \includegraphics{nyu_long_black} &
+        \includegraphics{nyu_long_color} &
+        \showwhite{\includegraphics{nyu_long_white}}
         \\
         \texttt{nyu\_long\_black} &
         \texttt{nyu\_long\_color} &
@@ -59,11 +111,38 @@
         \texttt{nyu\_stacked\_black.pdf} &
         \texttt{nyu\_stacked\_color.pdf} &
         \texttt{nyu\_stacked\_white.pdf}
-    \end{tabular}
+    \end{tabular}}
     \caption{%
         The main NYU logos.  The top row are scaled to 80\% so that they fit
         on a single line.  At full scale the torches are all the same size.
     }
+    \label{fig-nyu-logos}
 \end{figure}
+
+
+\subsection{Arts and Science logos}
+
+\subsection{Courant logos}
+
+\subsection{Tandon School of Engineering logos}
+
+\section{License and Legalishness}
+
+The NYU Logo is a trademark of New York University.  You can't use the logo to
+create an impression that your products are affiliated or endorsed by the University,
+except in the cases that they are.
+
+The logos were downloaded from publicly available web pages (\cite{nyu-downloads}).
+% Also https://as.nyu.edu/communications/visual-identity-downloads.html
+Their aggregation in this module does not constitution of a claim of origination
+from the module authors.
+
+Gotham is a common nickname for New York City.  Gotham is also the name of a typeface
+created by Hoefler\&Co, which happens to be the official logo font of NYU.
+But this bundle is not affiliated with Hoefler\&Co.
+
+\bibliographystyle{plain}
+\bibliography{nyu-logos}
+
 
 \end{document}
