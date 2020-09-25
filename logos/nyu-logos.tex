@@ -1,0 +1,69 @@
+\documentclass{article}
+\title{Logos in the Gotham bundle}
+\author{Matthew Leingang}
+\date{\today}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{fontspec}
+\newfontfamily\headingfont[]{Gotham Medium}
+\titleformat*{\section}{\Large\headingfont}
+\titleformat*{\subsection}{\large\headingfont}
+\titleformat*{\subsubsection}{\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+\setmainfont{Adobe Caslon Pro}
+\setsansfont{Gotham Book}
+\setmonofont{Decima Mono Cyr}
+
+
+
+\usepackage[letterpaper]{geometry}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+
+\newsavebox{\logobox}
+\newcommand\showwhite[1]{
+    \savebox{\logobox}{#1}
+    \begin{tikzpicture}[baseline=0.1\ht\logobox]
+        \fill[gray] (0,0) rectangle (1.2\wd\logobox,1.2\ht\logobox);
+        \node[anchor=south west,inner sep=0pt,outer sep=0pt] at (0.1\wd\logobox,0.1\ht\logobox) {
+            \usebox{\logobox}
+        };
+    \end{tikzpicture}
+}
+
+\begin{document}
+\maketitle
+
+\begin{figure}
+    \centering
+    \begin{tabular}{ccc}
+        \includegraphics[scale=0.80]{nyu_long_black} &
+        \includegraphics[scale=0.80]{nyu_long_color} &
+        \showwhite{\includegraphics[scale=0.80]{nyu_long_white}}
+        \\
+        \texttt{nyu\_long\_black} &
+        \texttt{nyu\_long\_color} &
+        \texttt{nyu\_long\_white} \\[2em]
+        \includegraphics{nyu_short_black} &
+        \includegraphics{nyu_short_color} &
+        \showwhite{\includegraphics{nyu_short_white}} \\
+        \texttt{nyu\_short\_black} &
+        \texttt{nyu\_short\_color} &
+        \texttt{nyu\_short\_white} \\[2em]
+        \includegraphics{nyu_stacked_black} &
+        \includegraphics{nyu_stacked_color} &
+        \showwhite{\includegraphics{nyu_stacked_white}} \\
+        \texttt{nyu\_stacked\_black.pdf} &
+        \texttt{nyu\_stacked\_color.pdf} &
+        \texttt{nyu\_stacked\_white.pdf}
+    \end{tabular}
+    \caption{%
+        The main NYU logos.  The top row are scaled to 80\% so that they fit
+        on a single line.  At full scale the torches are all the same size.
+    }
+\end{figure}
+
+\end{document}

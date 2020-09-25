@@ -12,11 +12,11 @@ sourcefiles = imagefiles
 installfiles = imagefiles
 
 -- Files to typeset for documentation
-typesetfiles = {"logos.tex"}
+typesetfiles = {"nyu-logos.tex"}
 
 -- Executable for compiling doc(s)
 typesetexe = "xelatex"
-cleanfiles = {"*.log", "logos.pdf", "*.zip"}
+cleanfiles = {"*.log", "nyu-logos.pdf", "*.zip"}
 
 -- Root directory of the TDS structure for the module to be installed into.
 -- Mentally prepend the path to the correct texmf tree THEN either "tex" (for
