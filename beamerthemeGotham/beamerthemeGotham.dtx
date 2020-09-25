@@ -271,6 +271,7 @@
 <all>  
 %    \end{macrocode}
 %
+%
 % \begin{environment}{infoblock}
 % A block for alert with the ``information'' color.
 % \changes{v0.6.1}{2020/09/22}{Added this environment}
@@ -283,6 +284,15 @@
 %    \end{macrocode}
 % \end{environment}
 %
+%
+% \begin{macro}{\infp}
+% Action to highlight with the alert information color
+%    \begin{macrocode}
+\newenvironment<>{infoenv}{\usebeamerfont{alert information}\usebeamercolor[fg]{alert information}}{}
+\newcommand<>{\info}[1]{{\alt#2{\usebeamercolor[fg]{alert information}#1}{#1}}}
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{environment}{successblock}
 % A block for alert with the ``success'' color.
 % \changes{v0.6.1}{2020/09/22}{Added this environment}
@@ -294,6 +304,14 @@
     \end{alertblock}}
 %    \end{macrocode}
 % \end{environment}
+%
+% \begin{macro}{succes}
+% Action to highlight with the alert success color
+%    \begin{macrocode}
+\newenvironment<>{successenv}{\usebeamerfont{alert success}\usebeamercolor[fg]{alert success}}{}
+\newcommand<>{\success}[1]{{\alt#2{\usebeamercolor[fg]{alert success}#1}{#1}}}
+%    \end{macrocode}
+% \end{macro}
 %
 %
 % \subsection{Fonts}

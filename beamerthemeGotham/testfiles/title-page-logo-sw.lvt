@@ -1,3 +1,4 @@
+\input{regression-test.tex}
 \documentclass{beamer}
 \usetheme{Gotham}
 \title{Presentation Title Goes Here}
@@ -7,5 +8,8 @@
 \setbeamertemplate{title page logo}[south west]
 
 \begin{document}
-\maketitle
+\setbox0=\hbox{\maketitle}
+\usebox0
+\START
+\showbox0
 \end{document}

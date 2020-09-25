@@ -1,0 +1,120 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+> \box...=
+\hbox(269.14662+0.0)x317.70331
+.\glue 3.47115 plus 2.08049 minus 0.8322
+.\glue 3.47115 plus 2.08049 minus 0.8322
+.\glue 3.47115 plus 2.08049 minus 0.8322
+.\vbox(269.14662+0.0)x307.28987, glue set 102.15733fill
+..\penalty 10000
+..\vbox(0.0+0.0)x0.0
+..\penalty 10000
+..\penalty 10000
+..\penalty 10000
+..\penalty 10000
+..\glue 0.0 plus 1.0fill
+..\penalty 10000
+..\penalty 10000
+..\glue 0.0
+..\vbox(0.0+0.0)x0.0
+..\glue(\parskip) 0.0
+..\glue(\baselineskip) 5.22327
+..\hbox(8.37674+0.15329)x307.28987, glue set 107.32101fil
+...\hbox(0.0+0.0)x0.0
+...\T1/fav/m/n/10.95 A
+...\T1/fav/m/n/10.95 l
+...\T1/fav/m/n/10.95 e
+...\T1/fav/m/n/10.95 r
+...\T1/fav/m/n/10.95 t
+...\glue 3.47115 plus 2.08049 minus 0.8322
+...\pdfcolorstack 0 push {0.9098 0.42354 0 rg 0.9098 0.42354 0 RG}
+...\T1/fav/m/n/10.95 i
+...\T1/fav/m/n/10.95 n
+...\T1/fav/m/n/10.95 f
+...\T1/fav/m/n/10.95 o
+...\T1/fav/m/n/10.95 r
+...\kern-0.1971
+...\T1/fav/m/n/10.95 m
+...\T1/fav/m/n/10.95 a
+...\T1/fav/m/n/10.95 t
+...\T1/fav/m/n/10.95 i
+...\T1/fav/m/n/10.95 o
+...\T1/fav/m/n/10.95 n
+...\pdfcolorstack 0 pop
+...\penalty 10000
+...\glue(\parfillskip) 0.0 plus 1.0fil
+...\glue(\rightskip) 0.0 plus 1.0fil
+..\glue 0.0 plus 1.5fill
+.\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1\ETC.}
+.\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+! OK.
+l. ...\showbox0
+Overfull \hbox (10.41344pt too wide) in paragraph at lines 8--11
+[][]  
+\hbox(269.14662+0.0)x307.28987
+.\hbox(0.0+0.0)x0.0
+.\hbox(269.14662+0.0)x317.70331
+..\glue 3.47115 plus 2.08049 minus 0.8322
+..\glue 3.47115 plus 2.08049 minus 0.8322
+..\glue 3.47115 plus 2.08049 minus 0.8322
+..\vbox(269.14662+0.0)x307.28987, glue set 102.15733fill
+...\penalty 10000
+...\vbox(0.0+0.0)x0.0
+...\penalty 10000
+...\penalty 10000
+...\penalty 10000
+...\penalty 10000
+...\glue 0.0 plus 1.0fill
+...\penalty 10000
+...\penalty 10000
+...\glue 0.0
+...\vbox(0.0+0.0)x0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.22327
+...\hbox(8.37674+0.15329)x307.28987, glue set 107.32101fil
+....\hbox(0.0+0.0)x0.0
+....\T1/fav/m/n/10.95 A
+....\T1/fav/m/n/10.95 l
+....\T1/fav/m/n/10.95 e
+....\T1/fav/m/n/10.95 r
+....\T1/fav/m/n/10.95 t
+....\glue 3.47115 plus 2.08049 minus 0.8322
+....\pdfcolorstack 0 push {0.9098 0.42354 0 rg 0.9098 0.42354 0 RG}
+....\T1/fav/m/n/10.95 i
+....\T1/fav/m/n/10.95 n
+....\T1/fav/m/n/10.95 f
+....\T1/fav/m/n/10.95 o
+....\T1/fav/m/n/10.95 r
+....\kern-0.1971
+....\T1/fav/m/n/10.95 m
+....\T1/fav/m/n/10.95 a
+....\T1/fav/m/n/10.95 t
+....\T1/fav/m/n/10.95 i
+....\T1/fav/m/n/10.95 o
+....\T1/fav/m/n/10.95 n
+....\pdfcolorstack 0 pop
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 0.0 plus 1.5fill
+..\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1\ETC.}
+..\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+.\penalty 10000
+.\glue(\parfillskip) 0.0 plus 1.0fil
+.\glue(\rightskip) 0.0 plus 1.0fil
+[1
+]
+\tf@nav=\write...
+\tf@toc=\write...
+\tf@snm=\write...
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line ....
+Package atveryend Info: Empty hook `AfterLastShipout' on input line ....
+(action-alert-info.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line ....
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line ....
+Package rerunfilecheck Warning: File `action-alert-info.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+Package rerunfilecheck Info: Checksums for `action-alert-info.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.

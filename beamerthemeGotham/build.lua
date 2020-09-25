@@ -18,7 +18,8 @@ tdsroot = "latex/beamer/themes/theme"
 -- space in a \kern line).  One way around that is to disable the luatex engine:
 -- (uncomment to activate)
 --
--- checkengines = { "pdftex", "xetex" }
+stdengine = "pdftex"
+checkengines = { "pdftex" }
 --
 -- Another way is to save test logs twice (on command line)
 --
