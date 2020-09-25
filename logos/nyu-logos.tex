@@ -17,7 +17,8 @@
 
 \usepackage{bxtexlogo}\bxtexlogoimport{*}
 \usepackage[letterpaper]{geometry}
-\usepackage{url}
+\usepackage{adjustbox} % allow normally overfull hboxes to be centered.
+\usepackage{url}% \url
 
 \usepackage{graphicx}
 \usepackage{tikz}
@@ -90,7 +91,7 @@ See Figure~\ref{fig-nyu-logos}.
 
 \begin{figure}
     \centering
-    \hbox to \textwidth{
+    \begin{adjustbox}{center}
     \begin{tabular}{ccc}
         \includegraphics{nyu_long_black} &
         \includegraphics{nyu_long_color} &
@@ -108,13 +109,13 @@ See Figure~\ref{fig-nyu-logos}.
         \includegraphics{nyu_stacked_black} &
         \includegraphics{nyu_stacked_color} &
         \showwhite{\includegraphics{nyu_stacked_white}} \\
-        \texttt{nyu\_stacked\_black.pdf} &
-        \texttt{nyu\_stacked\_color.pdf} &
-        \texttt{nyu\_stacked\_white.pdf}
-    \end{tabular}}
+        \texttt{nyu\_stacked\_black} &
+        \texttt{nyu\_stacked\_color} &
+        \texttt{nyu\_stacked\_white}
+    \end{tabular}
+    \end{adjustbox}
     \caption{%
-        The main NYU logos.  The top row are scaled to 80\% so that they fit
-        on a single line.  At full scale the torches are all the same size.
+        The main NYU logos
     }
     \label{fig-nyu-logos}
 \end{figure}
@@ -123,6 +124,24 @@ See Figure~\ref{fig-nyu-logos}.
 \subsection{Arts and Science logos}
 
 \subsection{Courant logos}
+
+See Figure~\ref{fig-cims-logos}.
+
+\begin{figure}
+\begin{adjustbox}{center}
+    \begin{tabular}{cc}
+        \includegraphics{courant_short_black} &
+        \showwhite{\includegraphics[width=2.8194444444in]{courant_short_white.png}} \\
+        \texttt{courant\_short\_black} &
+        \texttt{courant\_short\_white.png} 
+    \end{tabular}
+    \end{adjustbox}
+    \caption{%
+        NYU Courant logos.
+        At the moment \verb|courant_
+    }
+    \label{fig-nyu-logos}
+\end{figure}
 
 \subsection{Tandon School of Engineering logos}
 
