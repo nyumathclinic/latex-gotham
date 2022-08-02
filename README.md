@@ -4,7 +4,7 @@ LaTeX packages for the NYU visual identity.
 
 ## Contents
 
-moduleSo far there are three latex “modules” in this bundle:
+So far there are three latex “modules” in this bundle:
 
 * `beamerthemeGotham` installs a beamer presentation theme called `Gotham`.  
 
