@@ -6,6 +6,8 @@ module = "xcolor-nyu"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
+typesetsuppfiles = {"*.png"}
+supportdir = "support"
 typesetexe = "xelatex"
 
 -- Root directory of the TDS structure for the module to be installed into.
