@@ -2,13 +2,15 @@
 -- Matthew Leingang, 2019-12-10
 
 bundle = "Gotham"
+bundleversion = "1.0.0"
+bundledate    = "2022-04-29"
 module = "xcolor-nyu22"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
 typesetsuppfiles = {"*.png", "*.bib"}
 supportdir = "support"
-typesetexe = "xelatex"
+typesetexe = "lualatex"
 
 -- Root directory of the TDS structure for the module to be installed into.
 -- Mentally prepend the path to the correct texmf tree THEN either "tex" (for
@@ -29,28 +31,98 @@ typesetexe = "xelatex"
 -- This creates both "test.tlg" and "test.luatex.tlg" in testfiles.
 -- Engine-specific tlg files are only compared with the specific engines.
 
+-- capture the output from a shell command
+-- Thanks Norman Ramsey https://stackoverflow.com/a/326715/297797
+-- there is also the shell() function from l3build-upload.lua
+-- it doesn't trim leading/training whitespace.
+function os.capture(cmd, raw)
+    local f = assert(io.popen(cmd, 'r'))
+    local s = assert(f:read('*a'))
+    f:close()
+    if raw then return s end
+    s = string.gsub(s, '^%s+', '')
+    s = string.gsub(s, '%s+$', '')
+    s = string.gsub(s, '[\n\r]+', ' ')
+    return s
+  end
+
+tagfiles = {"*.dtx","build.lua","README.md"}
+
+--decorator to only run if repo is clean
+function only_if_clean(f)
+    return function(x)
+        if os.capture("git status --porcelain") ~= "" then
+            print("Error: Repository is dirty.  Aborted.")
+            os.exit(1)
+        else
+            print("Repository is clean")
+            return f(x)
+        end
+    end 
+end
+
+-- tag = only_if_clean(tag)
+target_list.tag.pre = only_if_clean(target_list.tag.pre)
+
+
+local mydate = os.date("!%Y-%m-%d")
 function update_tag(file,content,tagname,tagdate)
-    -- This should go in a pre-tag hook, but there isn't one.
-    -- ensure that the tagname matches `v`x.y.z
-    assert(string.match(tagname,"^v%d+%.%d+%.%d+$"),
-        "invalid tag name. Use a literal 'v', then a semantic version number of the form x.y.z.")
-    -- Make sure the working directory is "clean".
-    -- See https://unix.stackexchange.com/a/394674/62853
-    assert(os.execute("git diff-index --quiet HEAD .") == 0,
-        "Working directory dirty.  Commit changes and try again.")
-    -- TeX dates are in yyyy/mm/dd format.  tagdate is in yyyy-mm-dd format.
-    tagdate_tex = string.gsub(tagdate,'-','/')
-    if string.match(file, "%.dtx$") then
-        content = string.gsub(content,
-            "\n  %[%d%d%d%d/%d%d/%d%d v.- ",
-            "\n  [" .. tagdate_tex .. " " .. tagname .. " "
-    )
-        content = string.gsub(content,
-            "\n%% \\changes{unreleased}",
-            "\n%% \\changes{" .. tagname .. "}"
-        )
-        return content
+    if not tagname and tagdate == mydate then
+        tagname = bundleversion
+        tagdate = bundledate
+    else
+        local v_maj, v_min = string.match(tagname, "^v?(%d+)(%S*)$")
+        if v_maj == "" or not v_min then
+          print("Error: Invalid tag '"..tagname.."'. Tagging aborted")
+          os.exit(0)
+        else
+          tagname = string.format("%i%s", v_maj, v_min)
+          tagdate = mydate
+        end
     end
+    if string.match(file, "%.dtx") then
+        local tagdate = string.gsub(tagdate, "-", "/")
+        content = string.gsub(content,
+                              "%[%d%d%d%d%/%d%d%/%d%d%s+v%S+",
+                              "["..tagdate.." v"..tagname)
+    end
+    if string.match(file, "%.md") then
+        local tagdate = string.gsub(tagdate, "/", "-")
+        content = string.gsub(content,
+                              "Version: (%d+)(%S+)",
+                              "Version: "..tagname)
+        content = string.gsub(content,
+                              "Date: %d%d%d%d%-%d%d%-%d%d",
+                              "Date: "..tagdate)
+    end
+    if string.match(file , "%.lua$") then
+        local tagdate = string.gsub(tagdate, "/", "-")
+        content = string.gsub (content,
+                               '\nbundleversion%s*= "(%d+)(%S+)"',
+                               '\nbundleversion = "' .. tagname .. '"')
+        content = string.gsub (content,
+                               '\nbundledate%s*= "%d%d%d%d%-%d%d%-%d%d"',
+                               '\nbundledate    = "' .. tagdate .. '"')
+    end
+    return content
+end
+
+
+function tag_hook(tagname,tagdate)
+    local v_maj, v_min = string.match(tagname, "^v?(%d+)(%S*)$")
+    if v_maj == "" or not v_min then
+      print("Error: Invalid tag '".. tagname .."'. Git tagging aborted")
+      os.exit(0)
+    else
+      version = string.format("%i%s", v_maj, v_min)
+    end
+    msg = "Tagging version " .. version
+    cmd = 'git commit -a -m "' .. msg .. '"'
+    print ("Running '" .. cmd .. "'")
+    shell(cmd)
+    cmd = 'git tag -a -m "' .. msg ..  '" ' .. tagname
+    print ("Running '" .. cmd .. "'")
+    shell(cmd)
 end
 
 
