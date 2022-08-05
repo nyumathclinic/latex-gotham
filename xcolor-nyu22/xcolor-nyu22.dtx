@@ -10,20 +10,41 @@
 %<*driver>
 \documentclass{ltxdoc}
 \usepackage{graphicx}
-\usepackage[letterpaper]{geometry}
+% \usepackage[letterpaper]{geometry}
 \usepackage{xcolor-material}^^A For the \colorsample command
 \usepackage{changepage}^^A      For the `adjustwidth' environment
-\usepackage{arev}^^A            Nice free sans font similar to Gotham
-\usepackage{titling}
+
 \usepackage{listings}
-\lstset{language=bash}
-\pretitle{\begin{adjustwidth}{0pt}{-1in}\begin{flushleft}\fontsize{36}{36}\selectfont\bfseries}
+\lstset{language=bash,basicstyle=\ttfamily}
+
+\usepackage{titling}
+\pretitle{\begin{adjustwidth}{0pt}{-1in}\begin{flushleft}\Huge}
 \posttitle{\par\end{flushleft}\end{adjustwidth}\vskip 0.5em}
 \predate{\begin{flushleft}}
 \postdate{\par\end{flushleft}}
 \preauthor{\begin{flushleft}}
 \postauthor{\par\end{flushleft}}
+
 \usepackage{xcolor-nyu22}
+
+% Set up the NYU primary font families
+\usepackage{fontspec}
+\setmainfont{Mercury Text G3}
+\setsansfont{Gotham Book}
+
+% In the contemporary/subtle tone quadrant, we use sans for the main text
+% and serif for the section titles
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{titlesec}
+\newcommand{\headingfont}{\rmfamily\color{NyuViolet}}
+\titleformat*{\section}{\LARGE\headingfont}
+\titleformat*{\subsection}{\Large\headingfont}
+\titleformat*{\subsubsection}{\large\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+
+\usepackage{parskip}
+
+
 
 \newlength{\mycontrastboxwidth}
 \newcommand{\contrastbox}[5][0.3\linewidth]{%
@@ -43,7 +64,7 @@
 }
 
 \newlength{\paletteunitlength}
-\setlength{\paletteunitlength}{0.01\linewidth}
+\setlength{\paletteunitlength}{0.008\linewidth}
 \newcommand{\palettebox}[4]{%
   \colorbox{#1}{\parbox[b][9\baselineskip]{#2\paletteunitlength}
   {\rotatebox{270}{\color{#3}{\footnotesize\ #4 #2\%}}\vfill}}%
@@ -319,7 +340,7 @@
 % institution. It resonates with most donors, trustees, and audiences of formal
 % events like commencement.
 %
-% Class notes in article format might use a tradional/subtle tone. The same
+% Class notes in article format might use a traditional/subtle tone. The same
 % could be said about the documentation files for this bundle.
 %
 % The palette consists of NYU Violet, black, Ultra Violet, medium violet 2,
