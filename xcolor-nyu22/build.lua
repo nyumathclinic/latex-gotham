@@ -2,8 +2,8 @@
 -- Matthew Leingang, 2019-12-10
 
 bundle = "Gotham"
-bundleversion = "1.0.0"
-bundledate    = "2022-04-29"
+bundleversion = "0.9.1"
+bundledate    = "2022-08-05"
 module = "xcolor-nyu22"
 
 maindir = ".."
