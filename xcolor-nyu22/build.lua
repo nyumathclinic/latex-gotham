@@ -2,7 +2,7 @@
 -- Matthew Leingang, 2019-12-10
 
 bundle = "Gotham"
-module = "xcolor-nyu"
+module = "xcolor-nyu22"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
