@@ -6,7 +6,7 @@ module = "xcolor-nyu"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
-typesetsuppfiles = {"*.png"}
+typesetsuppfiles = {"*.png", "*.bib"}
 supportdir = "support"
 typesetexe = "xelatex"
 

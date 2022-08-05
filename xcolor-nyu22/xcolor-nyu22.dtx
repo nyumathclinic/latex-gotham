@@ -15,6 +15,8 @@
 \usepackage{changepage}^^A      For the `adjustwidth' environment
 \usepackage{arev}^^A            Nice free sans font similar to Gotham
 \usepackage{titling}
+\usepackage{listings}
+\lstset{language=bash}
 \pretitle{\begin{adjustwidth}{0pt}{-1in}\begin{flushleft}\fontsize{36}{36}\selectfont\bfseries}
 \posttitle{\par\end{flushleft}\end{adjustwidth}\vskip 0.5em}
 \predate{\begin{flushleft}}
@@ -39,6 +41,19 @@
       \hspace{0.3em}        
   }% end of colorbox
 }
+
+\newlength{\paletteunitlength}
+\setlength{\paletteunitlength}{0.01\linewidth}
+\newcommand{\palettebox}[4]{%
+  \colorbox{#1}{\parbox[b][9\baselineskip]{#2\paletteunitlength}
+  {\rotatebox{270}{\color{#3}{\footnotesize\ #4 #2\%}}\vfill}}%
+}
+\newcommand{\fpalettebox}[5]{%
+  \fcolorbox{#1}{#2}{\parbox[b][9\baselineskip]{#3\paletteunitlength}
+  {\rotatebox{270}{\color{#4}{\footnotesize\ #5 #3\%}}\vfill}}%
+}
+
+
 
 
 \EnableCrossrefs
@@ -68,9 +83,8 @@
 
 % \section{Our Color Palette}
 %
-% This color palette is from the page
-% ``\href{https://www.nyu.edu/employees/resources-and-services/media-and-communications/nyu-brand-guidelines/designing-in-our-style/nyu-colors.html}
-% {NYU Colors}'' from the NYU Brand Kit. A lot of this text is, too.
+% This color palette is from the web page ``NYU Colors'' \cite{NyuColors} from the 
+% NYU Brand Kit. A lot of this text is, too.
 %
 % \textbf{NYU Violet:} NYU Violet is our principal brand color. It should be
 % used in every communication and design. Violet is a distinctive color that has
@@ -198,12 +212,45 @@
 % A beamer slideshow for a club event might use a contemporary/bold tone.
 %
 % The palette consists of NYU Violet, black, Ultra Violet, Light Violet 1, light
-% gray, and white. See Figure~\ref{fig-ratio-contemporary-bold}.
+% gray, and white. See Figure~\ref{fig-ratio-contemporary-bold}. 
 %
-% \begin{figure} \includegraphics[width=\linewidth]{contemporary-bold}
-%     \caption{Palette ratios for the contemporary/bold tone quadrant}
-%     \label{fig-ratio-contemporary-bold} \end{figure}
+% We used ImageMagick to make a histogram of the colors in the images from 
+% \cite{NyuColors}, and rounded the percentages. The shell command was along the
+% lines of:
 %
+% \begin{lstlisting}
+% convert file.png \ 
+%     -crop "100%x1+230+176" \ 
+%     -fuzz "10%" -define histogram:unique-colors=true \ 
+%     -format %c histogram:info:- \ 
+%     | tr -d ':' | sed -e 's/^    //' | tr ' ' '\t' \  
+%     > histogram.tsv
+% \end{lstlisting}
+%
+% This created a tab-separated file suitable for importing into Google spreadsheets.
+% From there we could compute the percentages of each color. 
+%
+% \begin{figure}
+%   \palettebox{NyuViolet}{32}{White}{NYU VIOLET}%
+%   \palettebox{Black}{32}{White}{BLACK}%
+%   \palettebox{UltraViolet}{24}{White}{ULTRA VIOLET}%
+%   \palettebox{LightViolet1}{3}{White}{LIGHT VIOLET 1}%
+%   \palettebox{LightGray}{3}{Black}{LIGHT GRAY}%
+%   \fpalettebox{MediumGray3}{White}{6}{Black}{WHITE}%
+%
+%   \caption{Palette ratios for the contemporary/bold tone quadrant}
+%   \label{fig-ratio-contemporary-bold} 
+% \end{figure}
+%
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=0.8\textwidth]{bus}
+%   \caption{Example of the contemporary/bold tone quadrant. Notice the predominance
+%     of NYU Violet, black, and ultra violet.}
+%   \label{fig-bus}
+% \end{figure}
+%
+%  
 % \subsubsection{Contemporary/Subtle}
 %
 % The contemporary/subtle palette sits in the visual tone spectrum grid's
@@ -221,9 +268,18 @@
 % light violet 1, light gray, and white. See
 % Figure~\ref{fig-ratio-contemporary-subtle}.
 %
-% \begin{figure} \includegraphics[width=\linewidth]{contemporary-subtle}
-%     \caption{Palette ratios for the contemporary/subtle tone quadrant}
-%     \label{fig-ratio-contemporary-subtle} \end{figure}
+% \begin{figure}
+%   \palettebox{NyuViolet}{15}{White}{NYU VIOLET}%
+%   \palettebox{Black}{17}{White}{BLACK}%
+%   \palettebox{UltraViolet}{7.5}{White}{ULTRA VIOLET}%
+%   \palettebox{MediumViolet2}{7.5}{White}{MEDIUM VIOLET 2}%
+%   \palettebox{LightViolet1}{35}{White}{LIGHT VIOLET 1}%
+%   \palettebox{LightGray}{3}{Black}{LIGHT GRAY}%
+%   \fpalettebox{MediumGray3}{White}{15}{Black}{WHITE}%
+%
+%   \caption{Palette ratios for the contemporary/subtle tone quadrant}
+%   \label{fig-ratio-contemporary-subtle}
+% \end{figure}
 %
 %
 % \subsubsection{Traditional/Bold}
@@ -240,9 +296,16 @@
 % The palette consists of NYU Violet, deep violet, Ultra Violet, medium violet
 % 2, light violet 1, and white.  See Figure~\ref{fig-ratio-traditional-bold}.
 %
-% \begin{figure} \includegraphics[width=\linewidth]{traditional-bold}
-%     \caption{Palette ratios for the traditional/bold tone quadrant}
-%     \label{fig-ratio-traditional-bold} \end{figure}
+% \begin{figure}
+%   \palettebox{NyuViolet}{40}{White}{NYU VIOLET}%
+%   \palettebox{DeepViolet}{18}{White}{DEEP VIOLET}%
+%   \palettebox{UltraViolet}{7.5}{White}{ULTRA VIOLET}%
+%   \palettebox{MediumViolet2}{18}{White}{MEDIUM VIOLET 2}%
+%   \palettebox{LightViolet1}{7.5}{White}{LIGHT VIOLET 1}%
+%   \fpalettebox{MediumGray3}{White}{9}{Black}{WHITE}%
+%
+%   \caption{Palette ratios for the traditional/bold tone quadrant}
+%   \label{fig-ratio-traditional-bold} \end{figure}
 %
 %
 % \subsubsection{Traditional/Subtle}
@@ -261,14 +324,24 @@
 % light violet 1, light gray, and white. See
 % Figure~\ref{fig-ratio-traditional-subtle}.
 %
-% \begin{figure} \includegraphics[width=\linewidth]{traditional-subtle}
-%     \caption{Palette ratios for the traditional/subtle tone quadrant}
-%     \label{fig-ratio-traditional-subtle} \end{figure}
+% \begin{figure}
+%   \palettebox{NyuViolet}{40}{White}{NYU VIOLET}%
+%   \palettebox{DeepViolet}{18}{White}{DEEP VIOLET}%
+%   \palettebox{LightViolet1}{7}{White}{LIGHT VIOLET 1}%
+%   \palettebox{MediumGray2}{7}{Black}{MEDIUM GRAY 2}%
+%   \palettebox{LightGray}{7}{Black}{LIGHT GRAY}%
+%   \fpalettebox{MediumGray3}{White}{21}{Black}{WHITE}%
+%
+%   \caption{Palette ratios for the traditional/subtle tone quadrant}
+%   \label{fig-ratio-traditional-subtle}
+% \end{figure}
 %
 %
 % \subsection{Palette Ratio Examples}
 %
-% TODO
+% The bus wrap in Figure~\ref{fig-bus} shows a graphic in the contemporary/bold
+% quadrant. It's not really possible to verify the percentages, but you can See
+% the predominance of the NYU Violet, black, and ultra violet.
 %
 % \section{Accessibility}
 %
@@ -305,6 +378,10 @@
 % \caption{Low contrast combinations of the NYU color palette. These should be avoided.}
 % \label{fig-low-contrast}
 % \end{figure}
+%
+%
+% \bibliographystyle{plain}
+% \bibliography{xcolor-nyu22}
 %
 % \StopEventually{}
 %
