@@ -1,0 +1,14 @@
+% Test if the package loads
+% Based on https://github.com/PhelypeOleinik/namedef/blob/master/testfiles/namedef-000.lvt
+%
+\RequirePackage[enable-debug]{expl3}
+\ExplSyntaxOn
+\debug_on:n { check-declarations , deprecation }
+\ExplSyntaxOff
+
+\input regression-test.tex
+
+\documentclass{article}
+\START
+\RequirePackage{nyu22fonts}
+\END

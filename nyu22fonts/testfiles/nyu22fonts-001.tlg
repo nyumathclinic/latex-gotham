@@ -1,0 +1,313 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: \sffamily 
+============================================================
+> \box...=
+\hbox(7.34+1.63)x187.04001, direction TLT
+.\TU/GothamBook(0)/m/n/10 M
+.\TU/GothamBook(0)/m/n/10 r
+.\kern-0.9 (font)
+.\TU/GothamBook(0)/m/n/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/m/n/10 J
+.\TU/GothamBook(0)/m/n/10 o
+.\TU/GothamBook(0)/m/n/10 c
+.\TU/GothamBook(0)/m/n/10 k
+.\TU/GothamBook(0)/m/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/n/10 T
+.\TU/GothamBook(0)/m/n/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/m/n/10 q
+.\TU/GothamBook(0)/m/n/10 u
+.\TU/GothamBook(0)/m/n/10 i
+.\TU/GothamBook(0)/m/n/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 P
+.\TU/GothamBook(0)/m/n/10 h
+.\TU/GothamBook(0)/m/n/10 D
+.\kern-0.4 (font)
+.\TU/GothamBook(0)/m/n/10 .
+.\TU/GothamBook(0)/m/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/n/10 b
+.\TU/GothamBook(0)/m/n/10 a
+.\TU/GothamBook(0)/m/n/10 g
+.\TU/GothamBook(0)/m/n/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 f
+.\kern-0.1 (font)
+.\TU/GothamBook(0)/m/n/10 e
+.\kern-0.25 (font)
+.\TU/GothamBook(0)/m/n/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 l
+.\TU/GothamBook(0)/m/n/10 y
+.\TU/GothamBook(0)/m/n/10 n
+.\TU/GothamBook(0)/m/n/10 x
+.\TU/GothamBook(0)/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.36+1.63)x189.84001, direction TLT
+.\TU/GothamBook(0)/b/n/10 M
+.\TU/GothamBook(0)/b/n/10 r
+.\kern-0.9 (font)
+.\TU/GothamBook(0)/b/n/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/b/n/10 J
+.\TU/GothamBook(0)/b/n/10 o
+.\TU/GothamBook(0)/b/n/10 c
+.\TU/GothamBook(0)/b/n/10 k
+.\TU/GothamBook(0)/b/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/b/n/10 T
+.\TU/GothamBook(0)/b/n/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/b/n/10 q
+.\TU/GothamBook(0)/b/n/10 u
+.\TU/GothamBook(0)/b/n/10 i
+.\TU/GothamBook(0)/b/n/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 P
+.\TU/GothamBook(0)/b/n/10 h
+.\TU/GothamBook(0)/b/n/10 D
+.\kern-0.4 (font)
+.\TU/GothamBook(0)/b/n/10 .
+.\TU/GothamBook(0)/b/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/b/n/10 b
+.\TU/GothamBook(0)/b/n/10 a
+.\TU/GothamBook(0)/b/n/10 g
+.\TU/GothamBook(0)/b/n/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 f
+.\kern-0.1 (font)
+.\TU/GothamBook(0)/b/n/10 e
+.\kern-0.25 (font)
+.\TU/GothamBook(0)/b/n/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 l
+.\TU/GothamBook(0)/b/n/10 y
+.\TU/GothamBook(0)/b/n/10 n
+.\TU/GothamBook(0)/b/n/10 x
+.\TU/GothamBook(0)/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \itshape 
+============================================================
+> \box...=
+\hbox(7.32+1.63)x185.93001, direction TLT
+.\TU/GothamBook(0)/m/it/10 M
+.\TU/GothamBook(0)/m/it/10 r
+.\kern-0.86 (font)
+.\TU/GothamBook(0)/m/it/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/m/it/10 J
+.\TU/GothamBook(0)/m/it/10 o
+.\TU/GothamBook(0)/m/it/10 c
+.\TU/GothamBook(0)/m/it/10 k
+.\TU/GothamBook(0)/m/it/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/it/10 T
+.\TU/GothamBook(0)/m/it/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/m/it/10 q
+.\TU/GothamBook(0)/m/it/10 u
+.\TU/GothamBook(0)/m/it/10 i
+.\TU/GothamBook(0)/m/it/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 P
+.\TU/GothamBook(0)/m/it/10 h
+.\TU/GothamBook(0)/m/it/10 D
+.\kern-0.4 (font)
+.\TU/GothamBook(0)/m/it/10 .
+.\TU/GothamBook(0)/m/it/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/it/10 b
+.\TU/GothamBook(0)/m/it/10 a
+.\TU/GothamBook(0)/m/it/10 g
+.\TU/GothamBook(0)/m/it/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 f
+.\kern-0.1 (font)
+.\TU/GothamBook(0)/m/it/10 e
+.\kern-0.21 (font)
+.\TU/GothamBook(0)/m/it/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 l
+.\TU/GothamBook(0)/m/it/10 y
+.\TU/GothamBook(0)/m/it/10 n
+.\TU/GothamBook(0)/m/it/10 x
+.\TU/GothamBook(0)/m/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \rmfamily 
+============================================================
+> \box...=
+\hbox(7.41+2.1)x165.4033, direction TLT
+.\TU/MercuryTextG2Roman(0)/m/n/10 M
+.\TU/MercuryTextG2Roman(0)/m/n/10 r
+.\kern-0.7 (font)
+.\TU/MercuryTextG2Roman(0)/m/n/10 .
+.\glue(\spaceskip) 2.93333 plus 3.30002 minus 0.24445
+.\TU/MercuryTextG2Roman(0)/m/n/10 J
+.\kern-0.4 (font)
+.\TU/MercuryTextG2Roman(0)/m/n/10 o
+.\TU/MercuryTextG2Roman(0)/m/n/10 c
+.\TU/MercuryTextG2Roman(0)/m/n/10 k
+.\TU/MercuryTextG2Roman(0)/m/n/10 ,
+.\glue(\spaceskip) 2.2 plus 1.375 minus 0.58667
+.\TU/MercuryTextG2Roman(0)/m/n/10 T
+.\TU/MercuryTextG2Roman(0)/m/n/10 V
+.\glue(\spaceskip) 2.2 plus 1.09889 minus 0.73407
+.\TU/MercuryTextG2Roman(0)/m/n/10 q
+.\TU/MercuryTextG2Roman(0)/m/n/10 u
+.\TU/MercuryTextG2Roman(0)/m/n/10 i
+.\TU/MercuryTextG2Roman(0)/m/n/10 z
+.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\TU/MercuryTextG2Roman(0)/m/n/10 P
+.\TU/MercuryTextG2Roman(0)/m/n/10 h
+.\TU/MercuryTextG2Roman(0)/m/n/10 D
+.\kern-0.6 (font)
+.\TU/MercuryTextG2Roman(0)/m/n/10 .
+.\TU/MercuryTextG2Roman(0)/m/n/10 ,
+.\glue(\spaceskip) 2.2 plus 1.375 minus 0.58667
+.\TU/MercuryTextG2Roman(0)/m/n/10 b
+.\TU/MercuryTextG2Roman(0)/m/n/10 a
+.\TU/MercuryTextG2Roman(0)/m/n/10 g
+.\TU/MercuryTextG2Roman(0)/m/n/10 s
+.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\TU/MercuryTextG2Roman(0)/m/n/10 f
+.\TU/MercuryTextG2Roman(0)/m/n/10 e
+.\TU/MercuryTextG2Roman(0)/m/n/10 w
+.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\TU/MercuryTextG2Roman(0)/m/n/10 l
+.\TU/MercuryTextG2Roman(0)/m/n/10 y
+.\TU/MercuryTextG2Roman(0)/m/n/10 n
+.\TU/MercuryTextG2Roman(0)/m/n/10 x
+.\TU/MercuryTextG2Roman(0)/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.41+2.07)x175.53004, direction TLT
+.\TU/MercuryTextG2Roman(0)/b/n/10 M
+.\TU/MercuryTextG2Roman(0)/b/n/10 r
+.\kern-0.9 (font)
+.\TU/MercuryTextG2Roman(0)/b/n/10 .
+.\glue(\spaceskip) 2.8 plus 3.15001 minus 0.23332
+.\TU/MercuryTextG2Roman(0)/b/n/10 J
+.\kern-0.3 (font)
+.\TU/MercuryTextG2Roman(0)/b/n/10 o
+.\TU/MercuryTextG2Roman(0)/b/n/10 c
+.\TU/MercuryTextG2Roman(0)/b/n/10 k
+.\kern0.1 (font)
+.\TU/MercuryTextG2Roman(0)/b/n/10 ,
+.\glue(\spaceskip) 2.1 plus 1.3125 minus 0.56
+.\TU/MercuryTextG2Roman(0)/b/n/10 T
+.\TU/MercuryTextG2Roman(0)/b/n/10 V
+.\glue(\spaceskip) 2.1 plus 1.04895 minus 0.70068
+.\TU/MercuryTextG2Roman(0)/b/n/10 q
+.\TU/MercuryTextG2Roman(0)/b/n/10 u
+.\TU/MercuryTextG2Roman(0)/b/n/10 i
+.\TU/MercuryTextG2Roman(0)/b/n/10 z
+.\glue(\spaceskip) 2.1 plus 1.05 minus 0.7
+.\TU/MercuryTextG2Roman(0)/b/n/10 P
+.\TU/MercuryTextG2Roman(0)/b/n/10 h
+.\TU/MercuryTextG2Roman(0)/b/n/10 D
+.\kern-0.6 (font)
+.\TU/MercuryTextG2Roman(0)/b/n/10 .
+.\TU/MercuryTextG2Roman(0)/b/n/10 ,
+.\glue(\spaceskip) 2.1 plus 1.3125 minus 0.56
+.\TU/MercuryTextG2Roman(0)/b/n/10 b
+.\TU/MercuryTextG2Roman(0)/b/n/10 a
+.\TU/MercuryTextG2Roman(0)/b/n/10 g
+.\TU/MercuryTextG2Roman(0)/b/n/10 s
+.\glue(\spaceskip) 2.1 plus 1.05 minus 0.7
+.\TU/MercuryTextG2Roman(0)/b/n/10 f
+.\TU/MercuryTextG2Roman(0)/b/n/10 e
+.\kern-0.1 (font)
+.\TU/MercuryTextG2Roman(0)/b/n/10 w
+.\glue(\spaceskip) 2.1 plus 1.05 minus 0.7
+.\TU/MercuryTextG2Roman(0)/b/n/10 l
+.\TU/MercuryTextG2Roman(0)/b/n/10 y
+.\TU/MercuryTextG2Roman(0)/b/n/10 n
+.\TU/MercuryTextG2Roman(0)/b/n/10 x
+.\TU/MercuryTextG2Roman(0)/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \rmfamily \itshape 
+============================================================
+> \box...=
+\hbox(7.41+2.19)x159.16335, direction TLT
+.\TU/MercuryTextG2Roman(0)/m/it/10 M
+.\kern-0.2 (font)
+.\TU/MercuryTextG2Roman(0)/m/it/10 r
+.\kern-1.0 (font)
+.\TU/MercuryTextG2Roman(0)/m/it/10 .
+.\glue(\spaceskip) 2.93333 plus 3.30002 minus 0.24445
+.\TU/MercuryTextG2Roman(0)/m/it/10 J
+.\kern-0.4 (font)
+.\TU/MercuryTextG2Roman(0)/m/it/10 o
+.\TU/MercuryTextG2Roman(0)/m/it/10 c
+.\TU/MercuryTextG2Roman(0)/m/it/10 k
+.\kern0.2 (font)
+.\TU/MercuryTextG2Roman(0)/m/it/10 ,
+.\glue(\spaceskip) 2.2 plus 1.375 minus 0.58667
+.\TU/MercuryTextG2Roman(0)/m/it/10 T
+.\TU/MercuryTextG2Roman(0)/m/it/10 V
+.\glue(\spaceskip) 2.2 plus 1.09889 minus 0.73407
+.\TU/MercuryTextG2Roman(0)/m/it/10 q
+.\TU/MercuryTextG2Roman(0)/m/it/10 u
+.\TU/MercuryTextG2Roman(0)/m/it/10 i
+.\TU/MercuryTextG2Roman(0)/m/it/10 z
+.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\TU/MercuryTextG2Roman(0)/m/it/10 P
+.\kern-0.2 (font)
+.\TU/MercuryTextG2Roman(0)/m/it/10 h
+.\TU/MercuryTextG2Roman(0)/m/it/10 D
+.\kern-0.8 (font)
+.\TU/MercuryTextG2Roman(0)/m/it/10 .
+.\TU/MercuryTextG2Roman(0)/m/it/10 ,
+.\glue(\spaceskip) 2.2 plus 1.375 minus 0.58667
+.\TU/MercuryTextG2Roman(0)/m/it/10 b
+.\TU/MercuryTextG2Roman(0)/m/it/10 a
+.\TU/MercuryTextG2Roman(0)/m/it/10 g
+.\TU/MercuryTextG2Roman(0)/m/it/10 s
+.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\TU/MercuryTextG2Roman(0)/m/it/10 f
+.\TU/MercuryTextG2Roman(0)/m/it/10 e
+.\TU/MercuryTextG2Roman(0)/m/it/10 w
+.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\TU/MercuryTextG2Roman(0)/m/it/10 l
+.\TU/MercuryTextG2Roman(0)/m/it/10 y
+.\TU/MercuryTextG2Roman(0)/m/it/10 n
+.\TU/MercuryTextG2Roman(0)/m/it/10 x
+.\kern-0.1 (font)
+.\TU/MercuryTextG2Roman(0)/m/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-001.aux)

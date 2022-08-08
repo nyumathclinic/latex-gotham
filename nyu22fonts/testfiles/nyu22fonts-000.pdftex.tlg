@@ -1,0 +1,25 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+(nyu22fonts.sty
+Package: nyu22fonts ....-..-.. v....1 NYU Typefaces and Fonts
+(../fontspec.sty (../xparse.sty
+Package: xparse ....-..-.. L3 Experimental document command parser
+)
+Package: fontspec ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
+! Fatal Package fontspec Error: The fontspec package requires either XeTeX or
+(fontspec)                      LuaTeX.
+(fontspec)                      
+(fontspec)                      You must change your typesetting engine to,
+(fontspec)                      e.g., "xelatex" or "lualatex" instead of
+(fontspec)                      "latex" or "pdflatex".
+Type <return> to continue.
+ ...                                              
+l. ...\msg_fatal:nn {fontspec} {cannot-use-pdftex}
+LaTeX does not know anything more about this error, sorry.
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+This is a fatal error: LaTeX will abort.
+! Emergency stop.
+<read *> 
+l. ...\msg_fatal:nn {fontspec} {cannot-use-pdftex}
+*** (cannot \read from terminal in nonstop modes)

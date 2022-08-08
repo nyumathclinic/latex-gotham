@@ -1,0 +1,33 @@
+\input regression-test.tex
+\documentclass{article}
+\usepackage{nyu22fonts}
+\usepackage[enable-debug]{expl3}
+\begin{document}
+\ExplSyntaxOn
+\debug_on:n { check-declarations , deprecation }
+
+\tl_set:Nn \l_tmpa_tl {Mr.~Jock,~TV~quiz~PhD.,~bags~few~lynx.}
+
+\clist_set:Nn \l_tmpa_clist
+  {
+    \sffamily,
+    \sffamily\bfseries,
+    \sffamily\itshape,
+    \rmfamily,
+    \rmfamily\bfseries,
+    \rmfamily\itshape
+  }
+
+\START
+
+\clist_map_inline:Nn \l_tmpa_clist 
+  {
+    \TEST{#1}
+      {
+        \hbox_set:Nn \l_tmpa_box {#1 \tl_use:N \l_tmpa_tl}
+        \box_show:N \l_tmpa_box
+        \box_use:N \l_tmpa_box
+      }    
+  }
+\ExplSyntaxOff
+\end{document}

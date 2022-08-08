@@ -1,0 +1,119 @@
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{nyu22fonts.dtx}
+%</driver>
+%<pkg>\ProvidesPackage{nyu22fonts}
+%<*pkg>
+  [2022/08/05 v0.9.1 NYU Typefaces and Fonts]
+%</pkg>
+%<*driver>
+\documentclass{ltxdoc}
+\usepackage{graphicx}
+\usepackage{xcolor-material}^^A For the \colorsample command
+\usepackage{changepage}^^A      For the `adjustwidth' environment
+
+\usepackage{listings}
+\lstset{language=bash,basicstyle=\ttfamily}
+
+\usepackage{titling}
+\pretitle{\begin{adjustwidth}{0pt}{-1in}\begin{flushleft}\Huge}
+\posttitle{\par\end{flushleft}\end{adjustwidth}\vskip 0.5em}
+\predate{\begin{flushleft}}
+\postdate{\par\end{flushleft}}
+\preauthor{\begin{flushleft}}
+\postauthor{\par\end{flushleft}}
+
+\usepackage{xcolor-nyu22}[2022/08/05]^^A This is in the support directory
+\usepackage{nyu22fonts}
+
+
+% In the contemporary/subtle tone quadrant, we use sans for the main text
+% and serif for the section titles
+% These font assignments have nothing to do with this package; they are part of
+% the styling of a document
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{titlesec}
+\newcommand{\headingfont}{\rmfamily\color{NyuViolet}}
+\titleformat*{\section}{\LARGE\headingfont}
+\titleformat*{\subsection}{\Large\headingfont}
+\titleformat*{\subsubsection}{\large\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+
+\usepackage{parskip}
+
+
+\EnableCrossrefs
+\RecordChanges
+\CodelineIndex
+\usepackage{hyperref}
+\begin{document}
+  \DocInput{nyu22fonts.dtx}
+\end{document}
+%</driver>
+% \fi
+
+% \GetFileInfo{nyu22fonts.dtx} 
+% \title{NYU Typefaces and Fonts}
+% \author{Matthew Leingang\thanks{leingang@nyu.edu}} \date{\fileversion, Released \filedate}
+% \maketitle
+
+% \begin{abstract}
+%  This package will load fonts for the NYU brand.
+%  Package options will allow choices among the primary (proprietary) faces,
+%  open (Google) faces, system (Microsoft) faces, and T1 fonts for those who
+%  must use \texttt{pdftex}. 
+% \end{abstract}
+
+% \changes{unreleased}{2019/12/10}{First working release}
+%
+
+% \section{Our Typographic Style}
+%
+% NYU’s typographic language brings your communication to life. Like color, the
+% fonts we use reinforce the tone of our communications and designs.
+%
+% Gotham and Mercury Text are NYU’s two typefaces. This versatile group of font
+% families can be combined to achieve different tones. That flexibility helps
+% our communications appeal to many of our different audiences, including
+% students, parents, alumni, faculty and staff, peers, and supporters, while
+% maintaining a thematically consistent brand. Font choice also establishes a
+% clear hierarchy of information, allowing audiences to easily navigate your
+% communications.
+%
+% \textbf{Gotham} references the no-nonsense signage of New York City. It’s a
+% typeface that’s meant to feel familiar and approachable but strong enough to
+% grab and hold your attention within the busy city.
+%
+% \textbf{Mercury Text} is a high performance serif typeface born from nearly a decade of
+% research and development. Mercury Text is resilient enough to work in a wide
+% variety of communications.
+%
+%
+% \StopEventually{\PrintChanges}
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+%<*pkg>
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+% Set up the NYU primary font families
+\RequirePackage{fontspec}
+\setmainfont{Mercury Text G2 Roman}[
+  BoldFont=Mercury Text G2 Bold,
+  ItalicFont=Mercury Text G2 Italic
+]
+\setsansfont{Gotham Book}[
+  BoldFont=Gotham Medium,
+  ItalicFont=Gotham Book Italic
+]
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%</pkg>
+%    \end{macrocode}
+%
+% \Finale
+%
