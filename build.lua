@@ -3,7 +3,7 @@
 
 bundle = "Gotham"
 maindir = "."
-modules = {"xcolor-nyu22", "beamerthemeGotham","nyufonts","logos"}
+modules = {"xcolor-nyu22", "beamerthemeGotham","nyu22fonts","logos"}
 
 -- The "luatex" engine produces some very minor differences (like, a single
 -- space in a \kern line).  One way around that is to disable the luatex engine:
