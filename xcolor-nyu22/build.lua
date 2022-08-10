@@ -2,7 +2,7 @@
 -- Matthew Leingang, 2019-12-10
 
 bundle = "Gotham"
-bundleversion = "0.10.4"
+bundleversion = "0.10.6"
 bundledate    = "2022-08-10"
 module = "xcolor-nyu22"
 
