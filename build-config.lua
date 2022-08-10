@@ -1,4 +1,12 @@
+modules = {"xcolor-nyu22", "beamerthemeGotham","nyufonts","logos"}
 tagfiles = {"*.dtx","build.lua","README.md"}
+
+-- tagfiles = {}
+-- for _, module in ipairs(modules) do 
+--     for _, basefile in ipairs(tagbasefiles) do 
+--         table.insert( tagfiles, maindir .. "/" .. module .. "/" .. basefile )
+--     end
+-- end
 
 -- capture the output from a shell command
 -- Thanks Norman Ramsey https://stackoverflow.com/a/326715/297797

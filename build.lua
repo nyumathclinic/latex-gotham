@@ -2,7 +2,6 @@
 -- Matthew Leingang, 2019-12-12
 
 bundle = "Gotham"
-modules = {"xcolor-nyu22", "beamerthemeGotham"}
 maindir = "."
 
 -- The "luatex" engine produces some very minor differences (like, a single
