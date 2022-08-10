@@ -1,0 +1,312 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: \sffamily 
+============================================================
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line ....
+> \box...=
+\hbox(7.30492+2.22498)x169.92775
+.\OT1/phv/m/n/10 M
+.\OT1/phv/m/n/10 r
+.\kern-0.50002
+.\OT1/phv/m/n/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/m/n/10 J
+.\OT1/phv/m/n/10 o
+.\OT1/phv/m/n/10 c
+.\kern-0.19995
+.\OT1/phv/m/n/10 k
+.\OT1/phv/m/n/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/m/n/10 T
+.\OT1/phv/m/n/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/m/n/10 q
+.\OT1/phv/m/n/10 u
+.\OT1/phv/m/n/10 i
+.\OT1/phv/m/n/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/n/10 P
+.\OT1/phv/m/n/10 h
+.\OT1/phv/m/n/10 D
+.\kern-0.69995
+.\OT1/phv/m/n/10 .
+.\OT1/phv/m/n/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/m/n/10 b
+.\OT1/phv/m/n/10 a
+.\OT1/phv/m/n/10 g
+.\OT1/phv/m/n/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/n/10 f
+.\kern-0.29994
+.\OT1/phv/m/n/10 e
+.\kern-0.19995
+.\OT1/phv/m/n/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/n/10 l
+.\OT1/phv/m/n/10 y
+.\OT1/phv/m/n/10 n
+.\OT1/phv/m/n/10 x
+.\OT1/phv/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.29498+2.16992)x180.22762
+.\OT1/phv/b/n/10 M
+.\OT1/phv/b/n/10 r
+.\kern-0.59999
+.\OT1/phv/b/n/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/b/n/10 J
+.\OT1/phv/b/n/10 o
+.\OT1/phv/b/n/10 c
+.\kern-0.19995
+.\OT1/phv/b/n/10 k
+.\OT1/phv/b/n/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/n/10 T
+.\OT1/phv/b/n/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/b/n/10 q
+.\OT1/phv/b/n/10 u
+.\OT1/phv/b/n/10 i
+.\OT1/phv/b/n/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/n/10 P
+.\OT1/phv/b/n/10 h
+.\OT1/phv/b/n/10 D
+.\kern-0.29994
+.\OT1/phv/b/n/10 .
+.\OT1/phv/b/n/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/n/10 b
+.\OT1/phv/b/n/10 a
+.\kern-0.09999
+.\OT1/phv/b/n/10 g
+.\OT1/phv/b/n/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/n/10 f
+.\kern-0.09999
+.\OT1/phv/b/n/10 e
+.\kern-0.1499
+.\OT1/phv/b/n/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/n/10 l
+.\kern-0.1499
+.\OT1/phv/b/n/10 y
+.\OT1/phv/b/n/10 n
+.\OT1/phv/b/n/10 x
+.\OT1/phv/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \itshape 
+============================================================
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line ....
+> \box...=
+\hbox(7.30492+2.22498)x169.92775
+.\OT1/phv/m/sl/10 M
+.\OT1/phv/m/sl/10 r
+.\kern-0.50002
+.\OT1/phv/m/sl/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/m/sl/10 J
+.\OT1/phv/m/sl/10 o
+.\OT1/phv/m/sl/10 c
+.\kern-0.19995
+.\OT1/phv/m/sl/10 k
+.\OT1/phv/m/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/m/sl/10 T
+.\OT1/phv/m/sl/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/m/sl/10 q
+.\OT1/phv/m/sl/10 u
+.\OT1/phv/m/sl/10 i
+.\OT1/phv/m/sl/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/sl/10 P
+.\OT1/phv/m/sl/10 h
+.\OT1/phv/m/sl/10 D
+.\kern-0.69995
+.\OT1/phv/m/sl/10 .
+.\OT1/phv/m/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/m/sl/10 b
+.\OT1/phv/m/sl/10 a
+.\OT1/phv/m/sl/10 g
+.\OT1/phv/m/sl/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/sl/10 f
+.\kern-0.29994
+.\OT1/phv/m/sl/10 e
+.\kern-0.19995
+.\OT1/phv/m/sl/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/sl/10 l
+.\OT1/phv/m/sl/10 y
+.\OT1/phv/m/sl/10 n
+.\OT1/phv/m/sl/10 x
+.\OT1/phv/m/sl/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \rmfamily 
+============================================================
+> \box...=
+\hbox(7.4+2.185)x167.4498
+.\OT1/bch/m/n/10 M
+.\OT1/bch/m/n/10 r
+.\kern-1.11
+.\OT1/bch/m/n/10 .
+.\glue 3.45 plus 5.01 minus 0.22333
+.\OT1/bch/m/n/10 J
+.\OT1/bch/m/n/10 o
+.\OT1/bch/m/n/10 c
+.\OT1/bch/m/n/10 k
+.\OT1/bch/m/n/10 ,
+.\glue 2.78 plus 2.0875 minus 0.536
+.\OT1/bch/m/n/10 T
+.\OT1/bch/m/n/10 V
+.\glue 2.78 plus 1.66832 minus 0.67065
+.\OT1/bch/m/n/10 q
+.\OT1/bch/m/n/10 u
+.\OT1/bch/m/n/10 i
+.\OT1/bch/m/n/10 z
+.\glue 2.78 plus 1.67 minus 0.67
+.\OT1/bch/m/n/10 P
+.\OT1/bch/m/n/10 h
+.\OT1/bch/m/n/10 D
+.\kern-0.19
+.\OT1/bch/m/n/10 .
+.\OT1/bch/m/n/10 ,
+.\glue 2.78 plus 2.0875 minus 0.536
+.\OT1/bch/m/n/10 b
+.\OT1/bch/m/n/10 a
+.\OT1/bch/m/n/10 g
+.\OT1/bch/m/n/10 s
+.\glue 2.78 plus 1.67 minus 0.67
+.\OT1/bch/m/n/10 f
+.\OT1/bch/m/n/10 e
+.\OT1/bch/m/n/10 w
+.\glue 2.78 plus 1.67 minus 0.67
+.\OT1/bch/m/n/10 l
+.\OT1/bch/m/n/10 y
+.\OT1/bch/m/n/10 n
+.\OT1/bch/m/n/10 x
+.\OT1/bch/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.43+2.17)x176.47975
+.\OT1/bch/b/n/10 M
+.\OT1/bch/b/n/10 r
+.\kern-1.11
+.\OT1/bch/b/n/10 .
+.\glue 3.61 plus 5.25 minus 0.23332
+.\OT1/bch/b/n/10 J
+.\OT1/bch/b/n/10 o
+.\OT1/bch/b/n/10 c
+.\OT1/bch/b/n/10 k
+.\OT1/bch/b/n/10 ,
+.\glue 2.91 plus 2.1875 minus 0.56
+.\OT1/bch/b/n/10 T
+.\OT1/bch/b/n/10 V
+.\glue 2.91 plus 1.74825 minus 0.70068
+.\OT1/bch/b/n/10 q
+.\OT1/bch/b/n/10 u
+.\OT1/bch/b/n/10 i
+.\OT1/bch/b/n/10 z
+.\glue 2.91 plus 1.75 minus 0.7
+.\OT1/bch/b/n/10 P
+.\OT1/bch/b/n/10 h
+.\OT1/bch/b/n/10 D
+.\kern-0.19
+.\OT1/bch/b/n/10 .
+.\OT1/bch/b/n/10 ,
+.\glue 2.91 plus 2.1875 minus 0.56
+.\OT1/bch/b/n/10 b
+.\OT1/bch/b/n/10 a
+.\OT1/bch/b/n/10 g
+.\OT1/bch/b/n/10 s
+.\glue 2.91 plus 1.75 minus 0.7
+.\OT1/bch/b/n/10 f
+.\OT1/bch/b/n/10 e
+.\OT1/bch/b/n/10 w
+.\glue 2.91 plus 1.75 minus 0.7
+.\OT1/bch/b/n/10 l
+.\OT1/bch/b/n/10 y
+.\OT1/bch/b/n/10 n
+.\OT1/bch/b/n/10 x
+.\OT1/bch/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \rmfamily \itshape 
+============================================================
+> \box...=
+\hbox(7.36+2.19998)x161.5398
+.\OT1/bch/m/it/10 M
+.\OT1/bch/m/it/10 r
+.\kern-1.3
+.\OT1/bch/m/it/10 .
+.\glue 3.45 plus 5.01 minus 0.22333
+.\OT1/bch/m/it/10 J
+.\OT1/bch/m/it/10 o
+.\OT1/bch/m/it/10 c
+.\OT1/bch/m/it/10 k
+.\OT1/bch/m/it/10 ,
+.\glue 2.78 plus 2.0875 minus 0.536
+.\OT1/bch/m/it/10 T
+.\OT1/bch/m/it/10 V
+.\glue 2.78 plus 1.66832 minus 0.67065
+.\OT1/bch/m/it/10 q
+.\OT1/bch/m/it/10 u
+.\OT1/bch/m/it/10 i
+.\OT1/bch/m/it/10 z
+.\glue 2.78 plus 1.67 minus 0.67
+.\OT1/bch/m/it/10 P
+.\OT1/bch/m/it/10 h
+.\OT1/bch/m/it/10 D
+.\kern-0.19
+.\OT1/bch/m/it/10 .
+.\OT1/bch/m/it/10 ,
+.\glue 2.78 plus 2.0875 minus 0.536
+.\OT1/bch/m/it/10 b
+.\OT1/bch/m/it/10 a
+.\OT1/bch/m/it/10 g
+.\OT1/bch/m/it/10 s
+.\glue 2.78 plus 1.67 minus 0.67
+.\OT1/bch/m/it/10 f
+.\OT1/bch/m/it/10 e
+.\OT1/bch/m/it/10 w
+.\glue 2.78 plus 1.67 minus 0.67
+.\OT1/bch/m/it/10 l
+.\OT1/bch/m/it/10 y
+.\OT1/bch/m/it/10 n
+.\OT1/bch/m/it/10 x
+.\OT1/bch/m/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-002.aux)

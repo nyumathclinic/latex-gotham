@@ -1,67 +1,14 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 (nyu22fonts.sty
-Package: nyu22fonts ....-..-.. v....1 NYU Typefaces and Fonts
-(../fontspec.sty (../xparse.sty
-Package: xparse ....-..-.. L3 Experimental document command parser
-)
-Package: fontspec ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
-(../fontspec-xetex.sty
-Package: fontspec-xetex ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count...
-\l__fontspec_language_int=\count...
-\l__fontspec_strnum_int=\count...
-\l__fontspec_tmp_int=\count...
-\l__fontspec_tmpa_int=\count...
-\l__fontspec_tmpb_int=\count...
-\l__fontspec_tmpc_int=\count...
-\l__fontspec_em_int=\count...
-\l__fontspec_emdef_int=\count...
-\l__fontspec_strong_int=\count...
-\l__fontspec_strongdef_int=\count...
-\l__fontspec_tmpa_dim=\dimen...
-\l__fontspec_tmpb_dim=\dimen...
-\l__fontspec_tmpc_dim=\dimen...
-(../fontenc.sty
-Package: fontenc ....-..-.. v... Standard LaTeX package
-) (../fontspec.cfg)))
-Package fontspec Info: Font family 'MercuryTextG2Roman(0)' created for font
-(fontspec)             'Mercury Text G2 Roman' with options
-(fontspec)             [Ligatures=TeX,BoldFont=Mercury Text G2
-(fontspec)             Bold,ItalicFont=Mercury Text G2 Italic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Mercury Text G2
-(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Mercury Text G2
-(fontspec)             Bold/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Mercury Text G2
-(fontspec)             Italic/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Mercury
-(fontspec)             Text G2 Italic/B/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-Package fontspec Info: Font family 'GothamBook(0)' created for font 'Gotham
-(fontspec)             Book' with options [Ligatures=TeX,BoldFont=Gotham
-(fontspec)             Medium,ItalicFont=Gotham Book Italic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Gotham
-(fontspec)             Book/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Gotham
-(fontspec)             Medium/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Gotham Book
-(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Gotham Book
-(fontspec)             Italic/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-)
+Package: nyu22fonts ....-..-.. vv....12 NYU Typefaces and Fonts
+(../l3keys2e.sty
+Package: l3keys2e ....-..-.. LaTeX2e option processing using LaTeX3 keys
+) (../helvet.sty
+Package: helvet ....-..-.. PSNFSS-v... (WaS) 
+(../keyval.sty
+Package: keyval ....-..-.. v... key=value parser (DPC)
+\KV@toks@=\toks...
+)) (../charter.sty
+Package: charter ....-..-.. PSNFSS-v... (P.Dyballa) 
+))

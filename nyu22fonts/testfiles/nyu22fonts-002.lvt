@@ -1,8 +1,20 @@
 \input regression-test.tex
 \documentclass{article}
-\usepackage[proprietary]{nyu22fonts}
+\title{Test of the T1 package option}
 \usepackage[enable-debug]{expl3}
+\usepackage[T1]{nyu22fonts}
 \begin{document}
+\maketitle
+
+This test checks if the \texttt{nyu22fonts} package with the
+\texttt{T1} option works. The expected behavior is that sans
+serif fonts select from the Helvetica family, while serif
+fonts come from Charter.
+
+Type 1 fonts require the pdftex engine. Xetex and Luatex
+can't find them. So for now this test only succeeds on the
+one engine.
+
 \ExplSyntaxOn
 \debug_on:n { check-declarations , deprecation }
 

@@ -96,15 +96,32 @@
 %
 %    \begin{macrocode}
 % Set up the NYU primary font families
-\RequirePackage{fontspec}
-\setmainfont{Mercury Text G2 Roman}[
-  BoldFont=Mercury Text G2 Bold,
-  ItalicFont=Mercury Text G2 Italic
-]
-\setsansfont{Gotham Book}[
-  BoldFont=Gotham Medium,
-  ItalicFont=Gotham Book Italic
-]
+\RequirePackage{l3keys2e}
+\keys_define:nn { nyufonts }
+  {
+    T1 .meta:n = { font-group = T1},
+    proprietary .meta:n = { font-group = proprietary },
+
+    font-group .choice:,
+    font-group / T1 .code:n = {
+      \usepackage{helvet}
+      \usepackage{charter}
+    },
+    font-group / proprietary .code:n = {
+      \RequirePackage{fontspec}
+      \setmainfont{Mercury Text G2 Roman}[
+        BoldFont=Mercury Text G2 Bold,
+        ItalicFont=Mercury Text G2 Italic
+      ]
+      \setsansfont{Gotham Book}[
+        BoldFont=Gotham Medium,
+        ItalicFont=Gotham Book Italic
+      ]      
+    },
+    font-group .initial:n = T1,
+  }
+
+\ProcessKeysOptions { nyufonts } % Parses the option list
 %    \end{macrocode}
 %
 %    \begin{macrocode}

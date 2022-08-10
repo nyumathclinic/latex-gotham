@@ -1,87 +1,14 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 (nyu22fonts.sty
-Package: nyu22fonts ....-..-.. v....1 NYU Typefaces and Fonts
-(../fontspec.sty (../xparse.sty
-Package: xparse ....-..-.. L3 Experimental document command parser
-)
-Package: fontspec ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec ....-..-.. 2.8a Font selection for XeLaTeX and LuaLaTeX (../fontspec-luatex.sty
-Package: fontspec-luatex ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count...
-\l__fontspec_language_int=\count...
-\l__fontspec_strnum_int=\count...
-\l__fontspec_tmp_int=\count...
-\l__fontspec_tmpa_int=\count...
-\l__fontspec_tmpb_int=\count...
-\l__fontspec_tmpc_int=\count...
-\l__fontspec_em_int=\count...
-\l__fontspec_emdef_int=\count...
-\l__fontspec_strong_int=\count...
-\l__fontspec_strongdef_int=\count...
-\l__fontspec_tmpa_dim=\dimen...
-\l__fontspec_tmpb_dim=\dimen...
-\l__fontspec_tmpc_dim=\dimen...
-(../fontenc.sty
-Package: fontenc ....-..-.. v... Standard LaTeX package
-) (../fontspec.cfg)))
-luaotfload | cache : Lookup cache loaded from /Users/matthew/Library/texlive/202
-2/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
-Package fontspec Info: Could not resolve font "MercuryTextG2Italic/B" (it
-(fontspec)             probably doesn't exist).
-Package fontspec Info: Could not resolve font "MercuryTextG2Bold/I" (it
-(fontspec)             probably doesn't exist).
-Package fontspec Info: Could not resolve font "MercuryTextG2Roman/BI" (it
-(fontspec)             probably doesn't exist).
-luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
- with language dflt
-Package fontspec Info: Font family 'MercuryTextG2Roman(0)' created for font
-(fontspec)             'Mercury Text G2 Roman' with options
-(fontspec)             [Ligatures=TeX,BoldFont=Mercury Text G2
-(fontspec)             Bold,ItalicFont=Mercury Text G2 Italic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"MercuryTextG2Roman:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"MercuryTextG2Bold:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"MercuryTextG2Italic:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-Package fontspec Info: Could not resolve font "GothamBookItalic/B" (it
-(fontspec)             probably doesn't exist).
-Package fontspec Info: Could not resolve font "GothamMedium/I" (it probably
-(fontspec)             doesn't exist).
-Package fontspec Info: Could not resolve font "GothamBook/BI" (it probably
-(fontspec)             doesn't exist).
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-Package fontspec Info: Font family 'GothamBook(0)' created for font 'Gotham
-(fontspec)             Book' with options [Ligatures=TeX,BoldFont=Gotham
-(fontspec)             Medium,ItalicFont=Gotham Book Italic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"GothamBook:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"GothamMedium:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"GothamBookItalic:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-)
+Package: nyu22fonts ....-..-.. vv....12 NYU Typefaces and Fonts
+(../l3keys2e.sty
+Package: l3keys2e ....-..-.. LaTeX2e option processing using LaTeX3 keys
+) (../helvet.sty
+Package: helvet ....-..-.. PSNFSS-v... (WaS) 
+(../keyval.sty
+Package: keyval ....-..-.. v... key=value parser (DPC)
+\KV@toks@=\toks...
+)) (../charter.sty
+Package: charter ....-..-.. PSNFSS-v... (P.Dyballa) 
+))
