@@ -97,7 +97,11 @@ function update_tag(file,content,tagname,tagdate)
         content = string.gsub(content,
                               "{%d%d%d%d%/%d%d%/%d%d}{v%S+}",
                               "{"..tagdate.."}{v"..tagname.."}")
-    end
+        content = string.gsub(content,
+                              "\n%% \\changes{unreleased}",
+                              "\n%% \\changes{" .. tagname .. "}"
+                          )
+                          return content    end
     if string.match(file, "%.md") then
         local tagdate = string.gsub(tagdate, "/", "-")
         content = string.gsub(content,
