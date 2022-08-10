@@ -95,7 +95,7 @@ function update_tag(file,content,tagname,tagdate)
                               "%[%d%d%d%d%/%d%d%/%d%d%s+v%S+",
                               "["..tagdate.." v"..tagname)
         content = string.gsub(content,
-                              "{%d%d%d%d%/%d%d%/%d%d%s}{v%S+}",
+                              "{%d%d%d%d%/%d%d%/%d%d}{v%S+}",
                               "{"..tagdate.."}{v"..tagname.."}")
     end
     if string.match(file, "%.md") then
