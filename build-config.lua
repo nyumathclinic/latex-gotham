@@ -1,4 +1,3 @@
-modules = {"xcolor-nyu22", "beamerthemeGotham","nyufonts","logos"}
 tagfiles = {"*.dtx","build.lua","README.md"}
 
 -- tagfiles = {}
