@@ -16,7 +16,8 @@ stdengine = "luatex"
 checkopts = "-interaction=batchmode"
 
 typesetfiles = {"*.tex", "examples/*.tex"}
-typesetsuppfiles = {"*.png", "*.bib", "*.sty"}
+typesetsuppfiles = {"*.png", "*.bib"}
+typesetdeps = { maindir .. "/xcolor-nyu22" }
 typesetexe = "lualatex"
 
 -- Root directory of the TDS structure for the module to be installed into.
@@ -89,9 +90,13 @@ function update_tag(file,content,tagname,tagdate)
     end
     if string.match(file, "%.dtx") then
         local tagdate = string.gsub(tagdate, "-", "/")
+        -- replace both LaTeX2e and expl3 date/version specifiers
         content = string.gsub(content,
                               "%[%d%d%d%d%/%d%d%/%d%d%s+v%S+",
                               "["..tagdate.." v"..tagname)
+        content = string.gsub(content,
+                              "{%d%d%d%d%/%d%d%/%d%d%s}{v%S+}",
+                              "{"..tagdate.."}{v"..tagname.."}")
     end
     if string.match(file, "%.md") then
         local tagdate = string.gsub(tagdate, "/", "-")
