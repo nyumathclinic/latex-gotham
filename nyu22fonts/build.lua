@@ -2,7 +2,7 @@
 -- Matthew Leingang, 22022-08-05
 
 bundle = "Gotham"
-bundleversion = "0.10.4"
+bundleversion = "0.10.5"
 bundledate    = "2022-08-10"
 module = "nyu22fonts"
 
