@@ -2,8 +2,8 @@
 -- Matthew Leingang, 22022-08-05
 
 bundle = "Gotham"
-bundleversion = "0.10.12"
-bundledate    = "2022-08-10"
+bundleversion = "0.10.14"
+bundledate    = "2022-08-12"
 module = "nyu22fonts"
 
 maindir = ".."
