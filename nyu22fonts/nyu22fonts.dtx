@@ -118,13 +118,6 @@
 
 % \subsection{\hologo{pdfLaTeX} usage}
 
-% If you insist (or are required) to use the old \hologo{pdfTeX} engine, then no
-% package options are needed. The package will select Helvetica for the sans
-% serif family and Charter for the serif family. Helvetica is suggested by NYU
-% as a system alternative to the primary font (Gotham). Bitstream is a
-% reasonable approximation to the secondary system font (Georgia).
-%
-% Note to self: Vera sans might also be an option for the primary font.
 
 % \subsection{\hologo{XeLaTeX} and \hologo{LuaLaTeX} usage}
 
@@ -134,8 +127,10 @@
 %
 %   \item \textbf{proprietary} will load Gotham and Mercury Text.
 %    Note that you will need to install these yourself, and there are not free.
+%
 %   \item \textbf{open} will load Montserrat and Frank Ruhl Libre. 
 %    Note that you will need to install these yourself. But they are free.
+%
 %    \item \textbf{system} will load Helvetica and Georgia. These are almost
 %    surely on your Mac or PC right now.
 % \end{itemize}
@@ -149,32 +144,86 @@
 %    \begin{macrocode}
 %<*pkg>
 %    \end{macrocode}
+
+% Can we use \texttt{fontspec}?
+% If so, load it.
+%    \begin{macrocode}
+\bool_new:N \l_nyu_fontspec_bool
+\bool_set_false:N \l_nyu_fontspec_bool
+\sys_if_engine_luatex:T { \bool_set_true:N \l_nyu_fontspec_bool }
+\sys_if_engine_xetex:T  { \bool_set_true:N \l_nyu_fontspec_bool }
+
+\bool_if:NT \l_nyu_fontspec_bool { \RequirePackage{fontspec}}
+%    \end{macrocode}
+
+% \begin{macro}{\l_nyu_spec_proprietary:}
+% Specify the proprietary fonts: Gotham and Mercury Text.
+%    \begin{macrocode}
+\cs_new:Nn \l_nyu_spec_proprietary: {
+  \setmainfont{Mercury~Text~G2~Roman}[
+    BoldFont=Mercury~Text~G2~Bold,
+    ItalicFont=Mercury~Text~G2~Italic
+  ]
+  \setsansfont{Gotham~Book}[
+    BoldFont=Gotham~Medium,
+    ItalicFont=Gotham~Book~Italic
+  ]          
+}
+%    \end{macrocode}  
+% \end{macro}
+%
+% \begin{macro}{\l_nyu_spec_helvetica_ti:}
+% Specify Helvetica and Times New Roman Type~1 fonts.
+%    \begin{macrocode}
+\cs_new:Nn \l_nyu_spec_helvetica_ti: {
+  \usepackage{helvet}
+  \usepackage{mathptmx}
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\l_nyu_spec_helvetica_tt:}
+% Specify Helvetica and Times New Roman TrueType fonts
+%    \begin{macrocode}
+  \cs_new:Nn \l_nyu_spec_helvetica_tt: {
+    \setsansfont{Helvetica}
+    \setmainfont{Times~New~Roman}
+  }
+%    \end{macrocode}
+% \end{macro}
+  
+
 %
 %    \begin{macrocode}
 % Set up the NYU primary font families
 \RequirePackage{l3keys2e}
 \keys_define:nn { nyufonts }
   {
-    T1 .meta:n = { font-group = T1},
+    system .meta:n = { font-group = system},
     proprietary .meta:n = { font-group = proprietary },
+    open .meta:n = { font-group = open },
 
     font-group .choice:,
-    font-group / T1 .code:n = {
-      \usepackage{helvet}
-      \usepackage{charter}
+    font-group / system .code:n = {
+      \bool_if:NTF \l_nyu_fontspec_bool {
+        \l_nyu_spec_helvetica_tt:
+      }{
+        \l_nyu_spec_helvetica_ti:
+      }
     },
     font-group / proprietary .code:n = {
-      \RequirePackage{fontspec}
-      \setmainfont{Mercury~Text~G2~Roman}[
-        BoldFont=Mercury~Text~G2~Bold,
-        ItalicFont=Mercury~Text~G2~Italic
-      ]
-      \setsansfont{Gotham~Book}[
-        BoldFont=Gotham~Medium,
-        ItalicFont=Gotham~Book~Italic
-      ]          
+      \l_nyu_spec_proprietary:
     },
-    font-group .initial:n = T1,
+    font-group / open .code:n = {
+      \bool_if:NTF \l_nyu_fontspec_bool {
+        \RequirePackage{montserrat}
+        \setmainfont{Frank~Ruhl~Libre}
+      }{
+        \RequirePackage{arev}
+        \RequirePackage{charter}
+      }
+    },
+    font-group .initial:n = system,
   }
 
 \ProcessKeysOptions { nyufonts } % Parses the option list

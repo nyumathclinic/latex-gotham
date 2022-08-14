@@ -1,0 +1,148 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: \sffamily 
+============================================================
+> \box...=
+\hbox(7.27539+2.2119)x171.54622
+.\TU/Helvetica(0)/m/n/10 Mr.
+.\glue 3.70442 plus 4.16748 minus 0.3087
+.\TU/Helvetica(0)/m/n/10 Jock,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/m/n/10 TV
+.\glue 2.77832 plus 1.38776 minus 0.92702
+.\TU/Helvetica(0)/m/n/10 quiz
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/n/10 PhD.,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/m/n/10 bags
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/n/10 few
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.27051+2.17772)x181.52669
+.\TU/Helvetica(0)/b/n/10 Mr.
+.\glue 3.70442 plus 4.16748 minus 0.3087
+.\TU/Helvetica(0)/b/n/10 Jock,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/b/n/10 TV
+.\glue 2.77832 plus 1.38776 minus 0.92702
+.\TU/Helvetica(0)/b/n/10 quiz
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/n/10 PhD.,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/b/n/10 bags
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/n/10 few
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \itshape 
+============================================================
+> \box...=
+\hbox(7.27539+2.2119)x171.54622
+.\TU/Helvetica(0)/m/it/10 Mr.
+.\glue 3.70442 plus 4.16748 minus 0.3087
+.\TU/Helvetica(0)/m/it/10 Jock,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/m/it/10 TV
+.\glue 2.77832 plus 1.38776 minus 0.92702
+.\TU/Helvetica(0)/m/it/10 quiz
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/it/10 PhD.,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/m/it/10 bags
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/it/10 few
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \rmfamily 
+============================================================
+> \box...=
+\hbox(6.94336+2.15819)x160.26204
+.\TU/TimesNewRoman(0)/m/n/10 Mr.
+.\glue 3.33333 plus 3.75 minus 0.27777
+.\TU/TimesNewRoman(0)/m/n/10 Jock,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/m/n/10 TV
+.\glue 2.5 plus 1.24875 minus 0.83415
+.\TU/TimesNewRoman(0)/m/n/10 quiz
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/n/10 PhD.,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/m/n/10 bags
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/n/10 few
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily \bfseries 
+============================================================
+> \box...=
+\hbox(6.77734+2.15819)x167.69856
+.\TU/TimesNewRoman(0)/b/n/10 Mr.
+.\glue 3.33333 plus 3.75 minus 0.27777
+.\TU/TimesNewRoman(0)/b/n/10 Jock,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/b/n/10 TV
+.\glue 2.5 plus 1.24875 minus 0.83415
+.\TU/TimesNewRoman(0)/b/n/10 quiz
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/b/n/10 PhD.,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/b/n/10 bags
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/b/n/10 few
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \rmfamily \itshape 
+============================================================
+> \box...=
+\hbox(6.94336+2.15819)x156.36555
+.\TU/TimesNewRoman(0)/m/it/10 Mr.
+.\glue 3.33333 plus 3.75 minus 0.27777
+.\TU/TimesNewRoman(0)/m/it/10 Jock,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/m/it/10 TV
+.\glue 2.5 plus 1.24875 minus 0.83415
+.\TU/TimesNewRoman(0)/m/it/10 quiz
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/it/10 PhD.,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/m/it/10 bags
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/it/10 few
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-002.aux)
