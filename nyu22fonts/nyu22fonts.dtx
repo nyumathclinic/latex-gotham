@@ -156,10 +156,10 @@
 \bool_if:NT \l_nyu_fontspec_bool { \RequirePackage{fontspec}}
 %    \end{macrocode}
 
-% \begin{macro}{\l_nyu_spec_proprietary:}
+% \begin{macro}{\l_nyu_spec_gotham:}
 % Specify the proprietary fonts: Gotham and Mercury Text.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_proprietary: {
+\cs_new:Nn \l_nyu_spec_gotham: {
   \setmainfont{Mercury~Text~G2~Roman}[
     BoldFont=Mercury~Text~G2~Bold,
     ItalicFont=Mercury~Text~G2~Italic
@@ -168,6 +168,13 @@
     BoldFont=Gotham~Medium,
     ItalicFont=Gotham~Book~Italic
   ]          
+}
+
+\msg_new:nnnn { nyu22fonts } { needsfontsspec }{
+  Option~`#1'~requires~xelatex~or~lualatex.
+}{
+  The~option~`#1'~requires~the~xetex~or~luatex~engines~and~
+  cannot~be~used~with~pdftex.
 }
 %    \end{macrocode}  
 % \end{macro}
@@ -183,27 +190,70 @@
 % \end{macro}
 %
 % \begin{macro}{\l_nyu_spec_helvetica_tt:}
-% Specify Helvetica and Times New Roman TrueType fonts
+% Specify Helvetica and Times New Roman TrueType fonts.
 %    \begin{macrocode}
-  \cs_new:Nn \l_nyu_spec_helvetica_tt: {
-    \setsansfont{Helvetica}
-    \setmainfont{Times~New~Roman}
-  }
+\cs_new:Nn \l_nyu_spec_helvetica_tt: {
+  \setsansfont{Helvetica}
+  \setmainfont{Times~New~Roman}
+}
 %    \end{macrocode}
 % \end{macro}
-  
-
+%
+%
+% \begin{macro}{\l_nyu_spec_vera:}
+% Specify Vera and Charter Type~1 fonts.
+%    \begin{macrocode}
+\cs_new:Nn \l_nyu_spec_vera: {
+  \RequirePackage{arev}
+  \RequirePackage{charter}
+}
+%    \end{macrocode}  
+% \end{macro}
+%
+% \begin{macro}{\l_nyu_spec_montserrat:}
+% Specify Montserrat and Frank Ruhl Libre TrueType fonts.
+%    \begin{macrocode}
+\cs_new:Nn \l_nyu_spec_montserrat: {
+  \setmainfont{Frank~Ruhl~Libre}[
+    ItalicFont=*,
+    ItalicFeatures={FakeSlant}
+  ]
+  \setsansfont{Montserrat}[
+    UprightFont=*-Regular,
+    ItalicFont=*-Italic,
+    BoldFont=*-Medium,
+    BoldItalicFont=*-MediumItalic
+  ] 
+}
+%    \end{macrocode}
+% \end{macro}
+%
 %
 %    \begin{macrocode}
-% Set up the NYU primary font families
+% Set up the keyval selection system
 \RequirePackage{l3keys2e}
 \keys_define:nn { nyufonts }
   {
-    system .meta:n = { font-group = system},
     proprietary .meta:n = { font-group = proprietary },
     open .meta:n = { font-group = open },
+    system .meta:n = { font-group = system},
 
     font-group .choice:,
+    font-group / proprietary .code:n = {
+      \bool_if:NTF \l_nyu_fontspec_bool {
+        \l_nyu_spec_gotham:
+      }{
+        \msg_error:nnn { nyu22fonts } { needsfontsspec } { proprietary }
+        \l_nyu_spec_heveltica_ti:
+      }
+    },
+    font-group / open .code:n = {
+      \bool_if:NTF \l_nyu_fontspec_bool {
+        \l_nyu_spec_montserrat:
+      }{
+        \l_nyu_spec_vera:
+      }
+    },
     font-group / system .code:n = {
       \bool_if:NTF \l_nyu_fontspec_bool {
         \l_nyu_spec_helvetica_tt:
@@ -211,21 +261,8 @@
         \l_nyu_spec_helvetica_ti:
       }
     },
-    font-group / proprietary .code:n = {
-      \l_nyu_spec_proprietary:
-    },
-    font-group / open .code:n = {
-      \bool_if:NTF \l_nyu_fontspec_bool {
-        \RequirePackage{montserrat}
-        \setmainfont{Frank~Ruhl~Libre}
-      }{
-        \RequirePackage{arev}
-        \RequirePackage{charter}
-      }
-    },
     font-group .initial:n = system,
   }
-
 \ProcessKeysOptions { nyufonts } % Parses the option list
 %    \end{macrocode}
 %

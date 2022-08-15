@@ -1,0 +1,424 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: \sffamily 
+============================================================
+! Font \TU/Montserrat(0)/m/n/10=Montserrat-Regular:mode=node;language=dflt;+tlig
+; at 10pt not loadable: metric data not found or bad.
+<to be read again> 
+relax 
+l. ...  }
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+> \box...=
+\hbox(0.0+0.0)x0.0, direction TLT
+.\TU/Montserrat(0)/m/n/10 M
+.\TU/Montserrat(0)/m/n/10 r
+.\TU/Montserrat(0)/m/n/10 .
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/n/10 J
+.\TU/Montserrat(0)/m/n/10 o
+.\TU/Montserrat(0)/m/n/10 c
+.\TU/Montserrat(0)/m/n/10 k
+.\TU/Montserrat(0)/m/n/10 ,
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/n/10 T
+.\TU/Montserrat(0)/m/n/10 V
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/n/10 q
+.\TU/Montserrat(0)/m/n/10 u
+.\TU/Montserrat(0)/m/n/10 i
+.\TU/Montserrat(0)/m/n/10 z
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/n/10 P
+.\TU/Montserrat(0)/m/n/10 h
+.\TU/Montserrat(0)/m/n/10 D
+.\TU/Montserrat(0)/m/n/10 .
+.\TU/Montserrat(0)/m/n/10 ,
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/n/10 b
+.\TU/Montserrat(0)/m/n/10 a
+.\TU/Montserrat(0)/m/n/10 g
+.\TU/Montserrat(0)/m/n/10 s
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/n/10 f
+.\TU/Montserrat(0)/m/n/10 e
+.\TU/Montserrat(0)/m/n/10 w
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/n/10 l
+.\TU/Montserrat(0)/m/n/10 y
+.\TU/Montserrat(0)/m/n/10 n
+.\TU/Montserrat(0)/m/n/10 x
+.\TU/Montserrat(0)/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+! Font \TU/Montserrat(0)/b/n/10=Montserrat-Medium:mode=node;language=dflt;+tlig;
+ at 10pt not loadable: metric data not found or bad.
+<to be read again> 
+relax 
+l. ...  }
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+> \box...=
+\hbox(0.0+0.0)x0.0, direction TLT
+.\TU/Montserrat(0)/b/n/10 M
+.\TU/Montserrat(0)/b/n/10 r
+.\TU/Montserrat(0)/b/n/10 .
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/b/n/10 J
+.\TU/Montserrat(0)/b/n/10 o
+.\TU/Montserrat(0)/b/n/10 c
+.\TU/Montserrat(0)/b/n/10 k
+.\TU/Montserrat(0)/b/n/10 ,
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/b/n/10 T
+.\TU/Montserrat(0)/b/n/10 V
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/b/n/10 q
+.\TU/Montserrat(0)/b/n/10 u
+.\TU/Montserrat(0)/b/n/10 i
+.\TU/Montserrat(0)/b/n/10 z
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/b/n/10 P
+.\TU/Montserrat(0)/b/n/10 h
+.\TU/Montserrat(0)/b/n/10 D
+.\TU/Montserrat(0)/b/n/10 .
+.\TU/Montserrat(0)/b/n/10 ,
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/b/n/10 b
+.\TU/Montserrat(0)/b/n/10 a
+.\TU/Montserrat(0)/b/n/10 g
+.\TU/Montserrat(0)/b/n/10 s
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/b/n/10 f
+.\TU/Montserrat(0)/b/n/10 e
+.\TU/Montserrat(0)/b/n/10 w
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/b/n/10 l
+.\TU/Montserrat(0)/b/n/10 y
+.\TU/Montserrat(0)/b/n/10 n
+.\TU/Montserrat(0)/b/n/10 x
+.\TU/Montserrat(0)/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \itshape 
+============================================================
+! Font \TU/Montserrat(0)/m/it/10=Montserrat-Italic:mode=node;language=dflt;+tlig
+; at 10pt not loadable: metric data not found or bad.
+<to be read again> 
+relax 
+l. ...  }
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+> \box...=
+\hbox(0.0+0.0)x0.0, direction TLT
+.\TU/Montserrat(0)/m/it/10 M
+.\TU/Montserrat(0)/m/it/10 r
+.\TU/Montserrat(0)/m/it/10 .
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/it/10 J
+.\TU/Montserrat(0)/m/it/10 o
+.\TU/Montserrat(0)/m/it/10 c
+.\TU/Montserrat(0)/m/it/10 k
+.\TU/Montserrat(0)/m/it/10 ,
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/it/10 T
+.\TU/Montserrat(0)/m/it/10 V
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/it/10 q
+.\TU/Montserrat(0)/m/it/10 u
+.\TU/Montserrat(0)/m/it/10 i
+.\TU/Montserrat(0)/m/it/10 z
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/it/10 P
+.\TU/Montserrat(0)/m/it/10 h
+.\TU/Montserrat(0)/m/it/10 D
+.\TU/Montserrat(0)/m/it/10 .
+.\TU/Montserrat(0)/m/it/10 ,
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/it/10 b
+.\TU/Montserrat(0)/m/it/10 a
+.\TU/Montserrat(0)/m/it/10 g
+.\TU/Montserrat(0)/m/it/10 s
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/it/10 f
+.\TU/Montserrat(0)/m/it/10 e
+.\TU/Montserrat(0)/m/it/10 w
+.\glue(\spaceskip) 0.0
+.\TU/Montserrat(0)/m/it/10 l
+.\TU/Montserrat(0)/m/it/10 y
+.\TU/Montserrat(0)/m/it/10 n
+.\TU/Montserrat(0)/m/it/10 x
+.\TU/Montserrat(0)/m/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \rmfamily 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x165.2666, direction TLT
+.\TU/FrankRuhlLibre(0)/m/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 r
+.\kern-0.61 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 .
+.\glue(\spaceskip) 3.18666 plus 3.58502 minus 0.26555
+.\TU/FrankRuhlLibre(0)/m/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 o
+.\TU/FrankRuhlLibre(0)/m/n/10 c
+.\TU/FrankRuhlLibre(0)/m/n/10 k
+.\TU/FrankRuhlLibre(0)/m/n/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/n/10 T
+.\TU/FrankRuhlLibre(0)/m/n/10 V
+.\glue(\spaceskip) 2.39 plus 1.1938 minus 0.79745
+.\TU/FrankRuhlLibre(0)/m/n/10 q
+.\TU/FrankRuhlLibre(0)/m/n/10 u
+.\TU/FrankRuhlLibre(0)/m/n/10 i
+.\TU/FrankRuhlLibre(0)/m/n/10 z
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 P
+.\TU/FrankRuhlLibre(0)/m/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 D
+.\TU/FrankRuhlLibre(0)/m/n/10 .
+.\TU/FrankRuhlLibre(0)/m/n/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 a
+.\TU/FrankRuhlLibre(0)/m/n/10 g
+.\TU/FrankRuhlLibre(0)/m/n/10 s
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 f
+.\TU/FrankRuhlLibre(0)/m/n/10 e
+.\TU/FrankRuhlLibre(0)/m/n/10 w
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 l
+.\TU/FrankRuhlLibre(0)/m/n/10 y
+.\TU/FrankRuhlLibre(0)/m/n/10 n
+.\TU/FrankRuhlLibre(0)/m/n/10 x
+.\TU/FrankRuhlLibre(0)/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.04+2.12)x173.06998, direction TLT
+.\TU/FrankRuhlLibre(0)/b/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+.\glue(\spaceskip) 2.96 plus 3.33 minus 0.24666
+.\TU/FrankRuhlLibre(0)/b/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 o
+.\TU/FrankRuhlLibre(0)/b/n/10 c
+.\TU/FrankRuhlLibre(0)/b/n/10 k
+.\TU/FrankRuhlLibre(0)/b/n/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/n/10 T
+.\TU/FrankRuhlLibre(0)/b/n/10 V
+.\glue(\spaceskip) 2.22 plus 1.10889 minus 0.74074
+.\TU/FrankRuhlLibre(0)/b/n/10 q
+.\TU/FrankRuhlLibre(0)/b/n/10 u
+.\TU/FrankRuhlLibre(0)/b/n/10 i
+.\TU/FrankRuhlLibre(0)/b/n/10 z
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 P
+.\TU/FrankRuhlLibre(0)/b/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 D
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+.\TU/FrankRuhlLibre(0)/b/n/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 a
+.\TU/FrankRuhlLibre(0)/b/n/10 g
+.\TU/FrankRuhlLibre(0)/b/n/10 s
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 f
+.\TU/FrankRuhlLibre(0)/b/n/10 e
+.\TU/FrankRuhlLibre(0)/b/n/10 w
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 l
+.\TU/FrankRuhlLibre(0)/b/n/10 y
+.\TU/FrankRuhlLibre(0)/b/n/10 n
+.\TU/FrankRuhlLibre(0)/b/n/10 x
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \rmfamily \itshape 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x165.2666, direction TLT
+.\TU/FrankRuhlLibre(0)/m/it/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 r
+.\kern-0.61 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 .
+.\glue(\spaceskip) 3.18666 plus 3.58502 minus 0.26555
+.\TU/FrankRuhlLibre(0)/m/it/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 o
+.\TU/FrankRuhlLibre(0)/m/it/10 c
+.\TU/FrankRuhlLibre(0)/m/it/10 k
+.\TU/FrankRuhlLibre(0)/m/it/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/it/10 T
+.\TU/FrankRuhlLibre(0)/m/it/10 V
+.\glue(\spaceskip) 2.39 plus 1.1938 minus 0.79745
+.\TU/FrankRuhlLibre(0)/m/it/10 q
+.\TU/FrankRuhlLibre(0)/m/it/10 u
+.\TU/FrankRuhlLibre(0)/m/it/10 i
+.\TU/FrankRuhlLibre(0)/m/it/10 z
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 P
+.\TU/FrankRuhlLibre(0)/m/it/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 D
+.\TU/FrankRuhlLibre(0)/m/it/10 .
+.\TU/FrankRuhlLibre(0)/m/it/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/it/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 a
+.\TU/FrankRuhlLibre(0)/m/it/10 g
+.\TU/FrankRuhlLibre(0)/m/it/10 s
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 f
+.\TU/FrankRuhlLibre(0)/m/it/10 e
+.\TU/FrankRuhlLibre(0)/m/it/10 w
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 l
+.\TU/FrankRuhlLibre(0)/m/it/10 y
+.\TU/FrankRuhlLibre(0)/m/it/10 n
+.\TU/FrankRuhlLibre(0)/m/it/10 x
+.\TU/FrankRuhlLibre(0)/m/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+] (nyu22fonts-003.aux)
