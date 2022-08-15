@@ -26,8 +26,9 @@
 \usepackage[proprietary]{nyu22fonts}
 
 
-% In the contemporary/subtle tone quadrant, we use sans for the main text
-% and serif for the section titles
+% In the contemporary/subtle tone quadrant, we use sans for the main text and
+% serif for the section titles.
+%
 % These font assignments have nothing to do with this package; they are part of
 % the styling of a document
 \renewcommand{\familydefault}{\sfdefault}
@@ -40,6 +41,7 @@
 
 \usepackage{parskip}
 
+\newcommand{\file}[1]{\texttt{#1}}
 
 \EnableCrossrefs
 \RecordChanges
@@ -64,9 +66,13 @@
 % \end{abstract}
 
 % \changes{0.10.4}{2019/12/10}{First working release}
+% \changes{unreleased}{2022/08/16}{Full Implementation of package options}
 
 % \section{Our Typographic Style}
 %
+% From \cite{nyu-fonts}:
+%
+% \begin{quotation}
 % NYU’s typographic language brings your communication to life. Like color, the
 % fonts we use reinforce the tone of our communications and designs.
 %
@@ -85,57 +91,88 @@
 % \textbf{Mercury Text} is a high performance serif typeface born from nearly a
 % decade of research and development. Mercury Text is resilient enough to work
 % in a wide variety of communications.
+% \end{quotation}
 
 % \section{Usage}
 
 % \subsection{Engines and Font Encodings}
 
-% There are several ways a font can be described in a computer file. The ``old''
-% format is PostScript Type~1 or just ``T1.'' The ``new'' formats are OpenType
-% and TrueType.
+% There are several ways a font can be conded. The ``old'' format is PostScript
+% Type~1 or just ``T1'' (see \cite{enwiki:1104696616}).  The old format is not
+% \emph{as} old as \hologo{TeX}'s native font file format.  Ironically, the
+% method for selecting Type~1 fonts in \hologo{TeX} is called the NFSS or ``new
+% font selection scheme.''
 %
-% There are several programs, called \emph{engines}, which convert a
-% \texttt{.tex} file to a PDF.
+% The ``new'' (still quite old, late 1980s) formats are TrueType (see
+% \cite{enwiki:1092758383}) and OpenType. OpenType was built onto TrueType and
+% was released in 1996.
+%
+% There are also several programs, called \emph{engines}, which convert a
+% \file{.tex} file to a PDF.
 %
 % Most of the time, the default engine is \hologo{pdfTeX}. This engine only
-% handles Type~1 fonts, however. The 21st century engines (\hologo{XeTeX} and
-% \hologo{LuaTeX}) were designed to handle OpenType and TrueType fonts.
-% \hologo{XeTeX} also reads input files in unicode rather than plain ASCII, and
-% \hologo{LuaTeX} includes a scriptable layer (in the lua language)
+% handles Type~1 fonts, however. The 21st century engines were designed to
+% handle OpenType and TrueType fonts.  \hologo{XeTeX} (first released in 2004)
+% also reads input files in unicode rather than plain ASCII, and \hologo{LuaTeX}
+% (since 2007) includes a scriptable layer in the lua language.
 %
-% The upshot is that this package doesn't do much in regular \hologo{pdfLaTeX}.
-% If you want its full features, you must use \hologo{XeLaTeX} or
-% \hologo{LuaLaTeX}. But there are other reasons to use them, anyway.
-% \hologo{LuaTeX} is the engine most in active development, so that is the
-% recommended modern engine to adapt.
+% The upshot is that \textbf{if you want the full features of this package, you
+% must use \hologo{XeLaTeX} or \hologo{LuaLaTeX}}. But there are other reasons
+% to use them, anyway.  \hologo{LuaTeX} is the engine most in active
+% development, so that is the recommended modern engine to adapt.
 %
-% Using the \hologo{LuaTeX} engine instead of \hologo{pdfTeX} is something you
-% have to configure in your editor. If you're using the command line, you just
-% type \texttt{lualatex} instead of \texttt{latex} or \texttt{pdflatex}. If you
-% use some kind of GUI editor with \hologo{LaTeX} features, search its
-% documentation for ``engine'' and you will probably find the option to
-% configure it.
-
-% \subsection{\hologo{pdfLaTeX} usage}
-
+% If you typeset your \file{.tex} files on the command line, you just type
+% \texttt{lualatex} instead of \texttt{latex} or \texttt{pdflatex}. If you use
+% some kind of GUI editor with \hologo{LaTeX} features, search its documentation
+% for ``engine'' and you will probably find the option to configure it.
 
 % \subsection{\hologo{XeLaTeX} and \hologo{LuaLaTeX} usage}
 
-% Here you have some package options
+% With either of the engines that support TrueType fonts, we can use those
+% fonts.
 %
 % \begin{itemize}
 %
-%   \item \textbf{proprietary} will load Gotham and Mercury Text.
-%    Note that you will need to install these yourself, and there are not free.
+%   \item \textbf{proprietary} will load Gotham and Mercury Text.  Web
+%   Communications says that licensed Gotham fonts are available to Faculty and
+%   Staff through \href{https://nyu.onthehub.com/}{OnTheHub}. Mercury Text can
+%   be purchased from
+%   \href{https://www.typography.com/fonts/mercury-text/styles}{Hoefler\&Co}.
 %
-%   \item \textbf{open} will load Montserrat and Frank Ruhl Libre. 
-%    Note that you will need to install these yourself. But they are free.
+%   \item \textbf{open} will load Montserrat and Frank Ruhl Libre.  Montserrat
+%   is installed with \hologo{TeX} Live.  Frank Ruhl Libre is not, but can be
+%   downloaded from
+%   \href{https://fonts.google.com/specimen/Frank+Ruhl+Libre}{Google Fonts}.
 %
-%    \item \textbf{system} will load Helvetica and Georgia. These are almost
-%    surely on your Mac or PC right now.
+%   \item \textbf{system} will load Helvetica and Times New Roman. These are
+%   almost surely on your Mac or PC right now, which is why NYU set them as
+%   system alternatives.
+%
 % \end{itemize}
-%
 
+% \subsection{\hologo{pdfLaTeX} usage}
+
+% With the \hologo{pdfLaTeX} engine, a reasonable attempt is made to imitate the 
+% desired fonts with available Type~1 alternatives.
+%
+% \begin{itemize}
+%
+%   \item \textbf{open} will load Vera Sans and Bitstream Charter.  These are
+%   decent Type~1 alternatives to Gotham and Mercury Text.
+%
+%   \item \textbf{system} will load Type~1 versions of Helvetica and Times New
+%   Roman. 
+%
+%   \item \textbf{proprietary} will issue a warning, since the proprietary fonts
+%   are not available. As a fallback, the \textbf{system} option is executed
+%   instead.
+%
+% \end{itemize}
+% 
+% \bibliographystyle{plain}
+% \bibliography{nyu22fonts}
+%
+%
 %
 % \StopEventually{\PrintChanges}
 %
@@ -156,10 +193,10 @@
 \bool_if:NT \l_nyu_fontspec_bool { \RequirePackage{fontspec}}
 %    \end{macrocode}
 
-% \begin{macro}{\l_nyu_spec_proprietary:}
+% \begin{macro}{\l_nyu_spec_gotham:}
 % Specify the proprietary fonts: Gotham and Mercury Text.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_proprietary: {
+\cs_new:Nn \l_nyu_spec_gotham: {
   \setmainfont{Mercury~Text~G2~Roman}[
     BoldFont=Mercury~Text~G2~Bold,
     ItalicFont=Mercury~Text~G2~Italic
@@ -168,6 +205,13 @@
     BoldFont=Gotham~Medium,
     ItalicFont=Gotham~Book~Italic
   ]          
+}
+
+\msg_new:nnnn { nyu22fonts } { needsfontsspec }{
+  Option~`#1'~requires~xelatex~or~lualatex.
+}{
+  The~option~`#1'~requires~the~xetex~or~luatex~engines~and~
+  cannot~be~used~with~pdftex.
 }
 %    \end{macrocode}  
 % \end{macro}
@@ -183,27 +227,68 @@
 % \end{macro}
 %
 % \begin{macro}{\l_nyu_spec_helvetica_tt:}
-% Specify Helvetica and Times New Roman TrueType fonts
+% Specify Helvetica and Times New Roman TrueType fonts.
 %    \begin{macrocode}
-  \cs_new:Nn \l_nyu_spec_helvetica_tt: {
-    \setsansfont{Helvetica}
-    \setmainfont{Times~New~Roman}
-  }
+\cs_new:Nn \l_nyu_spec_helvetica_tt: {
+  \setsansfont{Helvetica}
+  \setmainfont{Times~New~Roman}
+}
 %    \end{macrocode}
 % \end{macro}
-  
-
 %
+%
+% \begin{macro}{\l_nyu_spec_vera:}
+% Specify Vera and Charter Type~1 fonts.
 %    \begin{macrocode}
-% Set up the NYU primary font families
+\cs_new:Nn \l_nyu_spec_vera: {
+  \RequirePackage{arev}
+  \RequirePackage{charter}
+}
+%    \end{macrocode}  
+% \end{macro}
+%
+% \begin{macro}{\l_nyu_spec_montserrat:}
+% Specify Montserrat and Frank Ruhl Libre TrueType fonts. There is already a
+% \pkg{montserrat} package with a \file{montserrat.fontspec} file, so we
+% just have to load it.
+%    \begin{macrocode}
+\cs_new:Nn \l_nyu_spec_montserrat: {
+  \setmainfont{Frank~Ruhl~Libre}[
+    ItalicFont=*,
+    ItalicFeatures={FakeSlant}
+  ]
+  \setsansfont{montserrat}
+}
+%    \end{macrocode}
+% \end{macro}
+%
+%
+% The main processing is done with keys
+%    \begin{macrocode}
+% Set up the keyval selection system
 \RequirePackage{l3keys2e}
 \keys_define:nn { nyufonts }
   {
-    system .meta:n = { font-group = system},
     proprietary .meta:n = { font-group = proprietary },
     open .meta:n = { font-group = open },
+    system .meta:n = { font-group = system},
 
     font-group .choice:,
+    font-group / proprietary .code:n = {
+      \bool_if:NTF \l_nyu_fontspec_bool {
+        \l_nyu_spec_gotham:
+      }{
+        \msg_error:nnn { nyu22fonts } { needsfontsspec } { proprietary }
+        \l_nyu_spec_heveltica_ti:
+      }
+    },
+    font-group / open .code:n = {
+      \bool_if:NTF \l_nyu_fontspec_bool {
+        \l_nyu_spec_montserrat:
+      }{
+        \l_nyu_spec_vera:
+      }
+    },
     font-group / system .code:n = {
       \bool_if:NTF \l_nyu_fontspec_bool {
         \l_nyu_spec_helvetica_tt:
@@ -211,21 +296,8 @@
         \l_nyu_spec_helvetica_ti:
       }
     },
-    font-group / proprietary .code:n = {
-      \l_nyu_spec_proprietary:
-    },
-    font-group / open .code:n = {
-      \bool_if:NTF \l_nyu_fontspec_bool {
-        \RequirePackage{montserrat}
-        \setmainfont{Frank~Ruhl~Libre}
-      }{
-        \RequirePackage{arev}
-        \RequirePackage{charter}
-      }
-    },
     font-group .initial:n = system,
   }
-
 \ProcessKeysOptions { nyufonts } % Parses the option list
 %    \end{macrocode}
 %
