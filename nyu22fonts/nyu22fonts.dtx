@@ -68,8 +68,10 @@
 % \changes{0.10.4}{2019/12/10}{First working release}
 % \changes{0.11.0}{2022/08/16}{Full Implementation of package options}
 
-% \section{Our Typographic Style}
-%
+% \section{Introduction}
+
+% \subsection{The NYU Typographic Style}
+
 % From \cite{nyu-fonts}:
 %
 % \begin{quotation}
@@ -92,8 +94,6 @@
 % decade of research and development. Mercury Text is resilient enough to work
 % in a wide variety of communications.
 % \end{quotation}
-
-% \section{Usage}
 
 % \subsection{Engines and Font Encodings}
 
@@ -126,6 +126,45 @@
 % some kind of GUI editor with \hologo{LaTeX} features, search its documentation
 % for ``engine'' and you will probably find the option to configure it.
 
+% \section{Installation}
+
+% \subsection{The package}
+
+% To install the package, download the repository and within the module directory,
+% execute the command: \texttt{l3build install}.
+
+% \subsection{The fonts}
+
+% To install Gotham, go to \href{https://nyu.onthehub.com/}{OnTheHub} and download
+% the zip file of TrueType fonts. Then open the archive and double click on each font.
+% It should be added to your system's font library.
+%
+% To install Mercury text, you would need to purchase it directly from
+% \href{https://www.typography.com/fonts/mercury-text/styles}{Hoefler\&Co}. 
+%
+% \textbf{Warning:} There are pirated TrueType font files purporting to provide
+% various grades of Mercury Text, but they are incorrectly encoded. The letters
+% are fine, but several punctuation glyphs are given the wrong unicode point.
+% If you install them, your text will be missing quotation marks and other
+% punctuation. If you don't want to pay big bucks for Mercury Text, settle for 
+% Frank Ruhl Libre.
+% 
+% Montserrat is a TrueType font that is included in \hologo{TeX}~Live. 
+% So you won't need to install it separately.
+%
+% Frank Ruhl Libre is an open licensed TrueType font, but it's not in
+% \hologo{TeX}~Live. You can download it from
+% \href{https://fonts.google.com/specimen/Frank+Ruhl+Libre}{Google Fonts}.
+% Install it by opening the zip file and double-clicking.
+%
+% The remaining TrueType fonts referenced in this package (Helvetica, Arial,
+% Georgia, Times New Roman) should be on your machine already if you have any
+% Microsoft or Apple product installed.
+%
+% The Type~1 fonts referenced will be in \hologo{TeX}~Live.
+
+% \section{Usage}
+
 % \subsection{\hologo{XeLaTeX} and \hologo{LuaLaTeX} usage}
 
 % With either of the engines that support TrueType fonts, we can use those
@@ -133,22 +172,25 @@
 %
 % \begin{itemize}
 %
-%   \item \textbf{proprietary} will load Gotham and Mercury Text.  Web
-%   Communications says that licensed Gotham fonts are available to Faculty and
-%   Staff through \href{https://nyu.onthehub.com/}{OnTheHub}. Mercury Text can
-%   be purchased from
-%   \href{https://www.typography.com/fonts/mercury-text/styles}{Hoefler\&Co}.
+%   \item \textbf{proprietary} will load Gotham and Mercury Text.  
 %
-%   \item \textbf{open} will load Montserrat and Frank Ruhl Libre.  Montserrat
-%   is installed with \hologo{TeX} Live.  Frank Ruhl Libre is not, but can be
-%   downloaded from
-%   \href{https://fonts.google.com/specimen/Frank+Ruhl+Libre}{Google Fonts}.
+%   \item \textbf{open} will load Montserrat and Frank Ruhl Libre.  
 %
-%   \item \textbf{system} will load Helvetica and Times New Roman. These are
-%   almost surely on your Mac or PC right now, which is why NYU set them as
-%   system alternatives.
+%   \item \textbf{system} will load Helvetica and Times New Roman.
 %
 % \end{itemize}
+%
+% If you have Gotham but not Mercury Text, however, you can't use
+% \textbf{proprietary}. Therefore, options exist to specify fonts
+% from different groups. Just use the name of the font, e.g,
+%
+% \begin{verbatim}
+%    \usepackage[Gotham,Frank Ruhl Libre]{nyu22fonts}
+% \end{verbatim}
+%
+% If \emph{no} options are given, the package will choose the “best”
+% available font, preferring the proprietary ones to the open ones, 
+% and the open ones to the system ones.
 
 % \subsection{\hologo{pdfLaTeX} usage}
 
