@@ -2,8 +2,12 @@
 -- Matthew Leingang, 2019-12-12
 
 bundle = "Gotham"
+bundleversion = "2022-09-17"
+bundledate = "2022-09-17"
+
 maindir = "."
 modules = {"nyu22fonts","xcolor-nyu22", "beamerthemeGotham","logos"}
+
 
 -- The "luatex" engine produces some very minor differences (like, a single
 -- space in a \kern line).  One way around that is to disable the luatex engine:

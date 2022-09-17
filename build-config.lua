@@ -7,6 +7,13 @@ tagfiles = {"*.dtx","build.lua","README.md"}
 --     end
 -- end
 
+-- print if the debug options is set
+function print_debug(s)
+    if options['debug'] then
+        print(s)
+    end
+end
+
 -- capture the output from a shell command
 -- Thanks Norman Ramsey https://stackoverflow.com/a/326715/297797
 -- there is also the shell() function from l3build-upload.lua
@@ -38,25 +45,61 @@ end
 -- tag = only_if_clean(tag)
 target_list.tag.pre = only_if_clean(target_list.tag.pre)
 
-
-local mydate = os.date("!%Y-%m-%d")
-function update_tag(file,content,tagname,tagdate)
-    if not tagname and tagdate == mydate then
-        tagname = bundleversion
-        tagdate = bundledate
-    else
-        local v_maj, v_min = string.match(tagname, "^v?(%d+)(%S*)$")
-        if v_maj == "" or not v_min then
-          print("Error: Invalid tag '"..tagname.."'. Tagging aborted")
-          os.exit(0)
-        else
-          tagname = string.format("%i%s", v_maj, v_min)
-          tagdate = mydate
-        end
+-- Bump version LaTeX style:
+-- 0.1 -> 0.1a -> 0.1b -> 0.2 -> ... -> 1.0 -> 1.1 -> 1.1a -> ...
+function next_version_latex(parts)
+    -- parts is an array of arguments; we want the first if it exists
+    local part = nil
+    if parts then
+        part = parts[1]
     end
-    if string.match(file, "%.dtx") then
-        local tagdate = string.gsub(tagdate, "-", "/")
-        -- replace both LaTeX2e and expl3 date/version specifiers
+    local version = version or "0.1"
+    local patches = "abcdefghijklmnopqrstuvwxyz"
+    major, minor, patch = string.match(version, "^v?(%d+)%.(%d+)(%a?)")
+    print_debug("current version = " .. version)
+    print_debug(string.format("major=%d, minor=%d, patch=\"%s\"",major,minor,patch))
+    if (part == "major") then
+        major = major + 1
+        minor = 0
+        patch = ""
+    elseif (part == "minor" or part == nil) then
+        minor = minor + 1
+        patch = ""    
+    elseif (part == "patch") then
+        if (patch == "") then
+            patch = "a"
+        else
+            -- get next letter in the sequence
+            -- https://stackoverflow.com/q/23120266/297797
+            patch = patches:match(patch .. '(.)')
+        end
+    else    
+        print("bad version part!")
+        return
+    end
+    version = string.format( "%i.%i%s", major,minor,patch)
+    print_debug("new version = " .. version)
+    return version
+end 
+
+function bump_version(part)
+    tagname = next_version(part)
+    if options['dry-run'] then
+        print("- l3build tag " .. tagname)
+    else
+        main("tag",{tagname})
+    end
+end
+
+target_list.bump = {
+    func = bump_version,
+    help = "Bump the version, tag, and commit"
+}
+
+function update_tag(file,content,tagname,tagdate)
+    -- TeX dates are in yyyy/mm/dd format.  tagdate is in yyyy-mm-dd format.
+    tagdate_tex = string.gsub(tagdate,'-','/')
+    if string.match(file, "%.dtx$") then
         content = string.gsub(content,
                               "%[%d%d%d%d%/%d%d%/%d%d%s+v%S+",
                               "["..tagdate.." v"..tagname)
@@ -64,44 +107,45 @@ function update_tag(file,content,tagname,tagdate)
                               "{%d%d%d%d%/%d%d%/%d%d}{v%S+}",
                               "{"..tagdate.."}{v"..tagname.."}")
         content = string.gsub(content,
-                              "\n%% \\changes{unreleased}",
-                              "\n%% \\changes{" .. tagname .. "}")
-    end
-    if string.match(file, "%.md") then
-        local tagdate = string.gsub(tagdate, "/", "-")
+            "\n%% \\changes{unreleased}",
+            "\n%% \\changes{v" .. tagname .. "}"
+        )
+    elseif string.match(file,"%.lua") then
         content = string.gsub(content,
-                              "Version: (%d+)(%S+)",
-                              "Version: "..tagname)
+            '\nversion = ".-"',
+            '\nversion = "' .. tagname .. '"'
+        )
         content = string.gsub(content,
-                              "Date: %d%d%d%d%-%d%d%-%d%d",
-                              "Date: "..tagdate)
-    end
-    if string.match(file , "%.lua$") then
-        local tagdate = string.gsub(tagdate, "/", "-")
+            '\nversiondate = ".-"',
+            '\nversiondate = "' .. tagdate .. '"'
+        )
         content = string.gsub (content,
-                               '\nbundleversion%s*= "(%d+)(%S+)"',
-                               '\nbundleversion = "' .. tagname .. '"')
+            '\nbundleversion%s*= "(%d+)(%S+)"',
+            '\nbundleversion = "' .. tagname .. '"')
         content = string.gsub (content,
-                               '\nbundledate%s*= "%d%d%d%d%-%d%d%-%d%d"',
-                               '\nbundledate    = "' .. tagdate .. '"')
+            '\nbundledate%s*= "%d%d%d%d%-%d%d%-%d%d"',
+            '\nbundledate    = "' .. tagdate .. '"')
     end
     return content
 end
 
-
-function tag_hook(tagname,tagdate)
-    local v_maj, v_min = string.match(tagname, "^v?(%d+)(%S*)$")
-    if v_maj == "" or not v_min then
-      print("Error: Invalid tag '".. tagname .."'. Git tagging aborted")
-      os.exit(0)
+function git_tag(version,tagdate)
+    -- create the name of the git tag from the version and tagdate
+    local module = module or nil
+    if (module) then
+        -- module version with name prepe
+        return string.format("%s-v%s",module,version)
     else
-      version = string.format("%i%s", v_maj, v_min)
+        -- calver
+        return tagdate
     end
-    msg = "Tagging version " .. version
-    cmd = 'git commit -a -m "' .. msg .. '"'
-    print ("Running '" .. cmd .. "'")
-    shell(cmd)
-    cmd = 'git tag -a -m "' .. msg ..  '" ' .. tagname
-    print ("Running '" .. cmd .. "'")
-    shell(cmd)
 end
+
+function tag_hook(version,tagdate)
+    -- tag repository
+    tagname = git_tag(version,tagdate)
+    os.execute("git add .")
+    os.execute("git commit -m \"Log changes for version " .. version .. "\"")
+    return os.execute("git tag -a -m \"Tag version " .. tagname .. "\" " .. tagname)
+end
+
