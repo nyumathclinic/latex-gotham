@@ -234,7 +234,7 @@
 
 \bool_if:NT \l_nyu_fontspec_bool { \RequirePackage{fontspec}}
 
-\msg_new:nnnn { nyu22fonts } { needsfontsspec }{
+\msg_new:nnnn { nyu22fonts } { needsfontspec }{
   Option~`#1'~requires~xelatex~or~lualatex.
 }{
   The~option~`#1'~requires~the~xetex~or~luatex~engines~and~
@@ -454,7 +454,7 @@
         \l_nyu_spec_gotham:
         \l_nyu_spec_mercury_text:
       }{
-        \msg_error:nnn { nyu22fonts } { needsfontsspec } { proprietary }
+        \msg_error:nnn { nyu22fonts } { needsfontspec } { proprietary }
         \l_nyu_spec_helvetica_ti:
         \l_nyu_spec_times_new_roman_ti:
       }
