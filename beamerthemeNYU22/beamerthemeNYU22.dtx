@@ -1,0 +1,102 @@
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{beamerthemeNYU22.dtx}
+%</driver>
+%<pkg>\ProvidesPackage{beamerthemeNYU22}
+%<*pkg>
+  [2022/08/10 v0.1 A beamer theme for the 2022 NYU brand]
+%</pkg>
+%<*driver>
+\documentclass{ltxdoc}
+\EnableCrossrefs
+\CodelineIndex
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{fontspec}
+% Specify different font for section headings
+\newfontfamily\headingfont[]{Gotham}
+\titleformat*{\section}{\Large\headingfont}
+\titleformat*{\subsection}{\large\headingfont}
+\titleformat*{\subsubsection}{\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+\setmainfont{Adobe Caslon Pro}
+\setsansfont{Gotham Book}
+\setmonofont{Decima Mono Cyr}
+\usepackage{graphicx}
+\usepackage{changepage}
+
+\newcommand{\env}[1]{\texttt{#1}}
+\usepackage{hyperref}
+\begin{document}
+  \DocInput{beamerthemeNYU22.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \GetFileInfo{beamerthemeNYU22.dtx}
+% \title{A Beamer Theme for the 2022 NYU Brand}
+% \author{Matthew Leingang\thanks{leingang@nyu.edu}}
+% \date{\fileversion, Released \filedate}
+% \maketitle
+%
+% \begin{abstract}
+% This is the documentation of the \texttt{NYU22} theme for the beamer package.
+% \end{abstract}
+%
+% \changes{unreleased}{2019/12/10}{First working release}
+%
+% \section{Introduction}
+%
+% This beamer theme is designed to align with the 2022 edition of the NYU brand identity,
+% including fonts and colors
+%
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+%<*pkg>
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+\usetheme[Hoefler]{Gotham}
+\usepackage{xcolor-nyu22}
+\setbeamercolor*{structure}{fg=NyuViolet}
+\setbeamercolor*{example text}{fg=MediumViolet2}
+\setbeamercolor{alert warning}{fg=Magenta}
+\setbeamercolor*{alerted text}{parent=alert warning}
+
+\setbeamercolor{titlelike}{fg=UltraViolet}
+
+\setbeamercolor{block title}{fg=LightGray,bg=NyuViolet}
+\setbeamercolor{block title alerted}{use=alerted text,fg=alerted text.fg!10,bg=alerted text.fg}
+\setbeamercolor{block title example}{use=example text,fg=LightGray,bg=MediumViolet2}
+
+\setbeamercolor{block body}{parent=normal text,fg=Black,bg=LightViolet1}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
+\setbeamercolor{block body exam
+ple}{parent=normal text,fg=Black,bg=LightViolet1}
+\setbeamercolor{block body solution}{parent=normal text,fg=Black,bg=LightViolet1}
+
+\setbeamerfont{frametitle}{series=\mdseries}
+\setbeamerfont{block title}{series=\mdseries,size=\Large}
+\setbeamerfont{quote}{family=\rmfamily}
+\setbeamerfont{quotation}{family=\rmfamily}
+
+
+\usepackage[no-math]{fontspec}
+\setmainfont{Frank Ruhl Libre}[
+    ItalicFont=*,
+    ItalicFeatures={FakeSlant}
+]
+
+\useinnertheme{fall22}
+%    \end{macrocode}
+%
+%
+%    \begin{macrocode}
+%</pkg>
+%    \end{macrocode}
+%
+% \Finale
+%
