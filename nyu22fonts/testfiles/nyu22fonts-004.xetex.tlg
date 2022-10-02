@@ -1,0 +1,148 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: \sffamily 
+============================================================
+> \box...=
+\hbox(7.34+1.62999)x187.04001
+.\TU/GothamBook(0)/m/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/m/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/m/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.36+1.62999)x189.84001
+.\TU/GothamBook(0)/b/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/b/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/b/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/b/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/b/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \itshape 
+============================================================
+> \box...=
+\hbox(7.32+1.62999)x185.93
+.\TU/GothamBook(0)/m/it/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/m/it/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/it/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/m/it/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/it/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \rmfamily 
+============================================================
+> \box...=
+\hbox(7.05+2.11998)x165.26666
+.\TU/FrankRuhlLibre(0)/m/n/10 Mr.
+.\glue 3.18666 plus 3.58498 minus 0.26555
+.\TU/FrankRuhlLibre(0)/m/n/10 Jock,
+.\glue 2.39 plus 1.49373 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/n/10 TV
+.\glue 2.39 plus 1.19379 minus 0.79745
+.\TU/FrankRuhlLibre(0)/m/n/10 quiz
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 PhD.,
+.\glue 2.39 plus 1.49373 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/n/10 bags
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 few
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.04+2.11998)x173.07002
+.\TU/FrankRuhlLibre(0)/b/n/10 Mr.
+.\glue 2.95999 plus 3.33 minus 0.24666
+.\TU/FrankRuhlLibre(0)/b/n/10 Jock,
+.\glue 2.22 plus 1.3875 minus 0.59198
+.\TU/FrankRuhlLibre(0)/b/n/10 TV
+.\glue 2.22 plus 1.10889 minus 0.74072
+.\TU/FrankRuhlLibre(0)/b/n/10 quiz
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/n/10 PhD.,
+.\glue 2.22 plus 1.3875 minus 0.59198
+.\TU/FrankRuhlLibre(0)/b/n/10 bags
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/n/10 few
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \rmfamily \itshape 
+============================================================
+> \box...=
+\hbox(7.05+2.11998)x165.26666
+.\TU/FrankRuhlLibre(0)/m/it/10 Mr.
+.\glue 3.18666 plus 3.58498 minus 0.26555
+.\TU/FrankRuhlLibre(0)/m/it/10 Jock,
+.\glue 2.39 plus 1.49373 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/it/10 TV
+.\glue 2.39 plus 1.19379 minus 0.79745
+.\TU/FrankRuhlLibre(0)/m/it/10 quiz
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 PhD.,
+.\glue 2.39 plus 1.49373 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/it/10 bags
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 few
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-004.aux)

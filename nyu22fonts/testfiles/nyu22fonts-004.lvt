@@ -1,6 +1,6 @@
 \input regression-test.tex
 \documentclass{article}
-\title{Test of the open package option}
+\title{Autoselecting fonts}
 \usepackage[enable-debug]{expl3}
 \usepackage[auto]{nyu22fonts}
 \begin{document}

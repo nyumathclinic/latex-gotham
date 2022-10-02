@@ -309,9 +309,15 @@
 % 
 % \begin{macro}{\l_nyu_spec_vera:}
 % Specify Vera Type~1 fonts.
+% \changes{unreleased}{2022/10/01}{Fix a bug introduced by the \pkg{arev} package also setting the \emph{serif} font.}
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_spec_vera: {
-  \RequirePackage{arev}
+  \RequirePackage[T1]{fontenc}
+  \RequirePackage{textcomp}
+  \renewcommand{\sfdefault}{fav}
+  \renewcommand{\ttdefault}{fvm}
+  \RequirePackage{arevmath}
+  \RequirePackage{beramono}
 }
 %    \end{macrocode}  
 % \end{macro}
@@ -393,6 +399,7 @@
   }
 }
 %    \end{macrocode}
+% \end{macro}
 %
 % \begin{macro}{\l_nyu_auto_select_sf_font:}
 % Choose the serif font automatically
@@ -402,7 +409,7 @@
     \fontspec_font_if_exist:nTF { Mercury~Text~G2~Roman } {
       \l_nyu_spec_mercury_text:
     }{
-      \fontspec_font_if_exist:nTF { FrankRuhlLibre-Medium.ttf } {
+      \fontspec_font_if_exist:nTF { Frank~Ruhl~Libre } {
         \l_nyu_spec_frank_ruhl_libre:
       }{
         \fontspec_font_if_exist:nTF { Times~New~Roman } {
