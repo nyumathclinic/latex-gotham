@@ -9,8 +9,8 @@
 \begin{document}
 \maketitle
 
-This test checks if the \texttt{nyu22fonts} package with the
-\texttt{auto} option works. 
+This test checks if the \texttt{nyu22fonts} package with fonts explicitly
+specified as package options works.
 
 \ExplSyntaxOn
 \debug_on:n { check-declarations , deprecation }
