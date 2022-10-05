@@ -1,7 +1,6 @@
-# xcolor-nyu22
+# logos
 
-Color names for the 2022 edition of the NYU visual identity.  Part of the
-`latex-gotham` bundle.
+NYU lockups and logos for various units. Part of the `latex-gotham` bundle.
 
 ## Installation
 
@@ -10,10 +9,10 @@ and want to make sure yours is up-to-date, execute `git pull`.
 
 To install only this module, execute:
 
-    cd xcolor-nyu22
+    cd logos
     l3build install
 
-This should install the package in the places that your TeX installation can
+This should install the files in the places that your TeX installation can
 find it and also that you can write to.  But if you're nervous, run this first:
 
     l3build install --dry-run
@@ -48,27 +47,16 @@ But again, you should probably update your TeX distribution.
 
 ## Documentation
 
-Within the module's directory, this command will build the documentation:
+There is no package in this module, so not much need for documentation. But a
+document showing the logos exists, and can be generated with:
 
     l3build doc
 
-Then look in the `build/doc` directory.  The files ending in `-code.pdf` 
-include user documentation and pretty-printed code.
-
-After installation, you can execute 
-
-    texdoc <package>
-
-anwhere from the command line to view the user documentation.
-
-    texdoc -l <package>
-
-will list the available documents for that package.
-
+Then open `nyu-logos.pdf`.
 
 ## License
 
-Copyright (C) 2022 by Matthew Leingang <leingang@nyu.edu>.
+Copyright (C) 2019–2022 by Matthew Leingang <leingang@nyu.edu>.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

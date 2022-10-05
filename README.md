@@ -1,49 +1,71 @@
 # latex-gotham
 
-LaTeX packages for the NYU visual identity.
+LaTeX packages for the NYU brand.
 
 ## Contents
 
-So far there are three latex “modules” in this bundle:
+This bundle contains several modules:
 
-* `beamerthemeGotham` installs a beamer presentation theme called `Gotham`.  
+* `beamerthemeNYU22` installs a beamer presentation theme called `NYU22`. 
+  It provides a look and feel in the contemporary/subtle quadrant of the tone
+  pallette.
 
-* `xcolor-nyu` provides names for the colors prescribed by the NYU website.
+* `beamerthemeGotham` installs a beamer presentation theme called `Gotham`. It
+  provides a look and feel using the brand edition prior to 2022. Since `NYU22`
+  adapts `Gotham`, both are shipped, but the `Gotham` theme should probably not
+  be used anymore.
 
-* `logos` provides images files for many NYU school logos.
+* `xcolor-nyu22` is a package (extending `xcolor`) which provides names for the
+  colors in the official 2022 brand pallette.
+
+* `xcolor-nyu` provides color names for the pre-2022 palette. These colors are
+  officially deprecated.
+
+* `nyu22fonts` is a LaTeX package which chooses fonts consistent with the brand.
+
+* `logos` provides image files for many NYU school logos.
+
+Read the READMEs in any of the modules for more information.
 
 ## Installation
 
-Download or clone the repository.  Within the repository's directory, execute:
+Download or clone the repository.  If you have checked out the repository before
+and want to make sure yours is up-to-date, execute `git pull`.
 
-    $ l3build install
+At the root level of the repository, execute:
+
+    l3build install
 
 This should install the packages in the places that your TeX installation can
 find it and also that you can write to.  But if you're nervous, run this first:
 
-    $ l3build install --dry-run
+    l3build install --dry-run
 
 This will prepare the installation in the `build/` subdirectory and inform you
 where it *would* install.
 
+You can also run `l3build install` within any of the module subfolders if you
+only want to install that module only. But this should be used with caution
+since some modules depend on each other.
+
 A full installation will build/install documentation and source files in the
 proper place:
 
-    $ l3build install --full
+    l3build install --full
 
 Again, the `--dry-run` option will prepare without installation.
 
 If your TeX installation doesn't have `l3build` (that is, you can an error
 message like `l3build: command not found`), try instead:
 
-    $ texlua build.lua install --full
+    texlua build.lua install --full
 
 But you should probably update your TeX distribution.
 
 If the `--full` option isn't recognized, skip
 it and install the documentation separately:
 
-    $ cp -r build/doc/* `kpsewhich --var-value TEXMFHOME`/doc 
+    cp -r build/doc/* `kpsewhich --var-value TEXMFHOME`/doc 
 
 But again, you should probably update your TeX distribution. 
 
@@ -51,24 +73,24 @@ But again, you should probably update your TeX distribution.
 
 Within the repository, this command will build the documentation:
 
-    $ l3build doc
+    l3build doc
 
 Then look in the `build/doc` directory.  The files ending in `-code.pdf` 
 include user documentation and pretty-printed code.
 
 After installation, you can execute 
 
-    $ texdoc <package>
+    texdoc <package>
 
 anwhere from the command line to view the user documentation.
 
-    $ texdoc -l <package>
+    texdoc -l <package>
 
 will list the available documents for that package.
 
 ## License
 
-Copyright (C) 2019 by Matthew Leingang <leingang@nyu.edu>.
+Copyright (C) 2019–2022 by Matthew Leingang <leingang@nyu.edu>.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

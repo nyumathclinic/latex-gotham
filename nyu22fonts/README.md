@@ -1,6 +1,6 @@
-# xcolor-nyu22
+# nyu22fonts
 
-Color names for the 2022 edition of the NYU visual identity.  Part of the
+Select fonts for the 2022 edition of the NYU visual identity.  Part of the
 `latex-gotham` bundle.
 
 ## Installation
@@ -10,7 +10,7 @@ and want to make sure yours is up-to-date, execute `git pull`.
 
 To install only this module, execute:
 
-    cd xcolor-nyu22
+    cd nyu22fonts
     l3build install
 
 This should install the package in the places that your TeX installation can
