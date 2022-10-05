@@ -18,9 +18,6 @@ This bundle contains several modules:
 * `xcolor-nyu22` is a package (extending `xcolor`) which provides names for the
   colors in the official 2022 brand pallette.
 
-* `xcolor-nyu` provides color names for the pre-2022 palette. These colors are
-  officially deprecated.
-
 * `nyu22fonts` is a LaTeX package which chooses fonts consistent with the brand.
 
 * `logos` provides image files for many NYU school logos.
