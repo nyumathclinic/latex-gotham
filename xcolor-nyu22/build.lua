@@ -3,7 +3,7 @@
 
 bundle = "Gotham"
 module = "xcolor-nyu22"
-version = "0.10m"
+version = "0.10n"
 date    = "2022-08-16"
 
 maindir = ".."
