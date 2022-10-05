@@ -2,9 +2,9 @@
 -- Matthew Leingang, 2019-12-10
 
 bundle = "Gotham"
-bundleversion = "0.10.13"
-bundledate    = "2022-08-10"
 module = "xcolor-nyu22"
+version = "0.10m"
+date    = "2022-08-16"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
@@ -32,6 +32,10 @@ typesetexe = "lualatex"
 -- Engine-specific tlg files are only compared with the specific engines.
 
 dofile(maindir .. "/build-config.lua")
+
+-- LaTeX style versioning
+next_version = next_version_latex
+
 
 kpse.set_program_name("texlua")
 if not release_date then
