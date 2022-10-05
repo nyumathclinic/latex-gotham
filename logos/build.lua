@@ -3,6 +3,8 @@
 
 bundle = "Gotham"
 module = "logos"
+version = "0.0"
+date    = "2022-08-16"
 
 maindir = ".."
 
@@ -24,6 +26,8 @@ cleanfiles = {"*.log", "nyu-logos.pdf", "*.zip"}
 tdsroot = "generic"
 
 dofile(maindir .. "/build-config.lua")
+-- LaTeX style versioning
+next_version = next_version_latex
 
 kpse.set_program_name("texlua")
 if not release_date then
