@@ -1,5 +1,5 @@
 -- Build configuration for nyu22fonts
--- Matthew Leingang, 22022-08-05
+-- Matthew Leingang, 2022-08-05
 
 bundle = "Gotham"
 module = "nyu22fonts"
