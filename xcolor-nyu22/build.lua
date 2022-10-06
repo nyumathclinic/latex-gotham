@@ -3,12 +3,13 @@
 
 bundle = "Gotham"
 module = "xcolor-nyu22"
-version = "patch"
+version = "v0.11a"
 date = "2022-10-06"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
 typesetsuppfiles = {"*.png", "*.bib"}
+typesetdeps = { maindir .. "/nyu22fonts"}
 supportdir = "support"
 typesetexe = "lualatex"
 
