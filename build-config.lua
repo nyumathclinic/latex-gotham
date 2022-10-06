@@ -106,7 +106,7 @@ target_list.bump = {
 function update_tag(file,content,tagname,tagdate)
     -- TeX dates are in yyyy/mm/dd format.  tagdate is in yyyy-mm-dd format.
     tagdate_tex = string.gsub(tagdate,'-','/')
-    if string.match(file, "%.dtx") then
+    if string.match(file, "%.dtx$") then
         content = string.gsub(content,
                               "%[%d%d%d%d%/%d%d%/%d%d%s+v%S+",
                               "[" .. tagdate_tex .. " v" .. tagname)
