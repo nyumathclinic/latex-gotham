@@ -123,7 +123,7 @@ function update_tag(file,content,tagname,tagdate)
             '\nversion = "' .. tagname .. '"'
         )
         content = string.gsub(content,
-            '\ndate = ".-"',
+            '\ndate += ".-"',
             '\ndate = "' .. tagdate .. '"'
         )
     end
