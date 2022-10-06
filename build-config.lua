@@ -82,6 +82,17 @@ function next_version_latex(parts)
     return version
 end 
 
+-- Bump version calendar style
+function next_version_calver(args)
+    return os_date("%Y-%m-%d")
+end
+
+if (module) then
+    next_version = next_version_latex
+else
+    next_version = next_version_calver
+end
+
 function bump_version(part)
     tagname = next_version(part)
     if options['dry-run'] then
@@ -116,15 +127,9 @@ function update_tag(file,content,tagname,tagdate)
             '\nversion = "' .. tagname .. '"'
         )
         content = string.gsub(content,
-            '\nversiondate = ".-"',
-            '\nversiondate = "' .. tagdate .. '"'
+            '\ndate = ".-"',
+            '\ndate = "' .. tagdate .. '"'
         )
-        content = string.gsub (content,
-            '\nbundleversion%s*= "(%d+)(%S+)"',
-            '\nbundleversion = "' .. tagname .. '"')
-        content = string.gsub (content,
-            '\nbundledate%s*= "%d%d%d%d%-%d%d%-%d%d"',
-            '\nbundledate    = "' .. tagdate .. '"')
     end
     return content
 end
