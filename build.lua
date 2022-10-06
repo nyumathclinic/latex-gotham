@@ -30,7 +30,7 @@ modules = {
 -- Engine-specific tlg files are only compared with the specific engines.
 
 dofile(maindir .. "/build-config.lua")
-
+next_version = next_version_calver
 
 kpse.set_program_name("texlua")
 if not release_date then
