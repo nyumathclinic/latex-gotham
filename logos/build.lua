@@ -3,7 +3,7 @@
 
 bundle = "Gotham"
 module = "logos"
-version = "2022-10-06"
+version = "0.2a"
 date = "2022-10-06"
 
 maindir = ".."
