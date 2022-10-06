@@ -112,7 +112,7 @@ function update_tag(file,content,tagname,tagdate)
                               "[" .. tagdate_tex .. " v" .. tagname)
         content = string.gsub(content,
                               "{%d%d%d%d%/%d%d%/%d%d}{v%S+}",
-                              "{" .. tagdate .. "}{v" .. tagname .."}")
+                              "{" .. tagdate_tex .. "}{v" .. tagname .."}")
         content = string.gsub(content,
             "\n%% \\changes{unreleased}",
             "\n%% \\changes{v" .. tagname .. "}"
