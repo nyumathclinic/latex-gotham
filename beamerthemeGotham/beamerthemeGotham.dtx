@@ -203,10 +203,36 @@
 %
 % \subsection{Color theme elements}
 % \changes{v0.6.1}{2020/09/21}{Changed the alert color to orange}
+% \changes{unreleased}{2023/05/27}{Removed the deprecated \pkg{xcolor-nyu} package}
 % 
-% This package (another module in this bundle) sets some NYU colors
+% Name some of the colors associated with this brand.
 %    \begin{macrocode}
-\RequirePackage{xcolor-nyu}
+\RequirePackage{xcolor}
+\definecolor{nyupurple}{HTML}{57068C}
+\colorlet{nyupurple1}{nyupurple}
+\definecolor{nyupurple2}{HTML}{8900E1}
+\definecolor{nyupurple3}{HTML}{330062}
+\definecolor{nyupurple4}{HTML}{220337}
+\definecolor{nyugblack}{HTML}{000000}
+\definecolor{nyugray}{HTML}{6D6D6D}
+\colorlet{nyugray1}{nyugray}
+\definecolor{nyugray2}{HTML}{B8B8B8}
+\definecolor{nyugray3}{HTML}{D6D6D6}
+\definecolor{nyugray4}{HTML}{F2F2F2}
+\definecolor{nyured}{HTML}{CB0200}% warning
+\definecolor{nyuorange}{HTML}{E86C00}% info
+\definecolor{nyugreen}{HTML}{489141}% success
+\definecolor{nyudarkblue}{HTML}{28619E}
+\colorlet{nyuaccent1}{nyudarkblue}
+\definecolor{nyulightblue}{HTML}{3DBBDB} 
+\colorlet{nyuaccent1}{nyulightblue}
+\definecolor{nyuteal}{HTML}{007C70}
+\colorlet{nyuaccent3}{nyuteal}
+\definecolor{nyupink}{HTML}{D71E5E}
+\colorlet{nyuaccent4}{nyupink}
+\colorlet{nyuaccent5}{nyuorange}
+\definecolor{nyuyellow}{HTML}{FFC107}
+\colorlet{nyuaccent6}{nyuyellow}
 %    \end{macrocode}
 %
 % Set the palette, structure, example, and alert (warning colors).
