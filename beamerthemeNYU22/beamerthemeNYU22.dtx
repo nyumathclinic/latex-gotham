@@ -20,7 +20,7 @@
 \titleformat*{\subsection}{\large\headingfont}
 \titleformat*{\subsubsection}{\headingfont}
 \renewcommand{\maketitlehooka}{\headingfont}
-\setmainfont{Adobe Caslon Pro}
+\setmainfont{Frank Ruhl Libre}
 \setsansfont{Gotham Book}
 \setmonofont{Decima Mono Cyr}
 \usepackage{graphicx}
@@ -58,8 +58,245 @@
 %<*pkg>
 %    \end{macrocode}
 %
+%
+% \subsection{Option}
+%
+% \changes{v0.6.0}{2019/12/13}{Added this option}
+%
 %    \begin{macrocode}
-\usetheme[Hoefler]{Gotham}
+\newif\ifhoefler
+\hoeflerfalse
+\DeclareOption{Hoefler}{\hoeflertrue}
+\ProcessOptions\relax
+%    \end{macrocode}
+%
+% \subsection{Outer theme elements}
+%
+%    \begin{macrocode}
+%\useoutertheme{infolines}
+\setbeamertemplate{navigation symbols}{}
+
+\AtBeginPart{\frame{\partpage}}
+\AtBeginSection[] % Do nothing for \subsection* 
+{ 
+  \begin{frame}<beamer|handout> 
+  \frametitle{Outline} 
+  \tableofcontents[currentsection,currentsubsection] 
+  \end{frame} 
+}
+\AtBeginPart{\frame{\partpage}} 
+%    \end{macrocode}
+%
+% \subsubsection{Logo on title page only}
+%
+% I'm following NYU's “academic” presentation theme, which has a logo on the
+% title page alone.  They put it in the vertical center, below the title and 
+% author.  I kind of prefer it in the lower-left corner.
+%
+% \verb|\setbeamertemplate{title page logo}[south west]| will put the logo
+% in the lower-left corner.  
+%
+%    \begin{macrocode}
+\setbeamertemplate{sidebar right}{}
+\RequirePackage{tikz}
+\tikzset{title page logo/.style={}}
+\def\inserttitlepagelogo{\tikz[title page logo]{\node{\pgfuseimage{logo}};}}
+\defbeamertemplate<all>{title page logo}{none}{}
+\defbeamertemplate<presentation>*{title page logo}{default}{\hfill\inserttitlepagelogo\hfill\null}
+\defbeamertemplate<presentation>{title page logo}{south west}{
+    \tikzset{title page logo/.append style={remember picture,overlay,
+        every node/.append style={
+        anchor=south west,
+        at={([xshift=0.19in,yshift=0.19in]current page.south west)}
+    }}}
+    \inserttitlepagelogo%
+}
+
+\defbeamertemplate<article>{title page logo}{north west}{
+    \tikzset{title page logo/.append style={remember picture,overlay,
+        every node/.append style={
+        anchor=north west,
+        at={([xshift=0.5in,yshift=-0.5in]current page.north west)}
+    }}}
+    \inserttitlepagelogo%
+}
+\addtobeamertemplate{title page}{}{\usebeamertemplate{title page logo}}
+\mode<article>{\apptocmd{\maketitle}{\usebeamertemplate{title page logo}}}
+
+\pgfdeclareimage{logo}{nyu_short_black}
+\logo{\pgfuseimage{logo}}
+%    \end{macrocode}
+%
+%
+%
+% \subsection{Color theme elements}
+% 
+% This package (another module in this bundle) sets some NYU colors.
+%    \begin{macrocode}
+\RequirePackage{xcolor-nyu22}
+%    \end{macrocode}
+%
+% Set the palette, structure, example, and alert (warning colors).
+% \changes{v0.6.1}{2020/09/22}{Added two more alert colors for success (green) and information (orange).}
+%
+%     \begin{macrocode}
+\mode<presentation>
+\setbeamertemplate{headline}[default]
+
+% Palette colors do not have backgrounds
+\setbeamercolor{palette primary}{fg=nyupurple1}
+\setbeamercolor{palette secondary}{fg=nyupurple2}
+\setbeamercolor{palette tertiary}{fg=nyudarkblue}
+\setbeamercolor{palette quartenary}{fg=nyulightblue}
+
+
+\setbeamercolor*{structure}{fg=nyupurple}
+\setbeamercolor*{example text}{fg=nyudarkblue}
+\setbeamercolor{alert warning}{fg=nyured}
+\setbeamercolor{alert information}{fg=nyuorange}
+\setbeamercolor{alert success}{fg=nyugreen}
+\setbeamercolor*{alerted text}{parent=alert warning}
+
+\setbeamercolor{titlelike}{fg=black}
+
+\setbeamercolor{block title}{fg=nyupurple!10!white,bg=nyupurple}
+\setbeamercolor{block title alerted}{use=alerted text,fg=alerted text.fg!10,bg=alerted text.fg}
+\setbeamercolor{block title example}{use=example text,fg=white,bg=nyudarkblue}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.fg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=nyugray4}
+\setbeamercolor{block body solution}{parent=normal text,use=block title,bg=block title.fg}
+
+  
+% not using a sidebar yet so I don't know what to do with these
+\setbeamercolor{sidebar}{bg=nyupurple}
+\setbeamercolor{palette sidebar primary}{fg=white,bg=nyupurple}
+\setbeamercolor{palette sidebar secondary}{fg=white,bg=nyupurple2}
+\setbeamercolor{palette sidebar tertiary}{fg=white,bg=nyudarkblue}
+\setbeamercolor{palette sidebar quaternary}{fg=white,bg=nyulightblue}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+% Links get colored from the palette too
+\AtBeginDocument{
+    \hypersetup{colorlinks=true}
+    \usebeamercolor{palette primary}
+    \hypersetup{linkcolor=fg}
+    \usebeamercolor{palette secondary}
+    \hypersetup{filecolor=fg,urlcolor=fg}
+    \usebeamercolor{palette quaternary}
+    \hypersetup{citecolor=fg}
+}
+%    \end{macrocode}
+%
+% We set up some new blocks to mimic the alert ``warning'' blocks.
+%
+%    \begin{macrocode}
+\mode
+<all>  
+%    \end{macrocode}
+%
+%
+% \begin{environment}{infoblock}
+% A block for alert with the ``information'' color.
+% \changes{v0.6.1}{2020/09/22}{Added this environment}
+%    \begin{macrocode}
+\newenvironment<>{infoblock}[1]{%
+    \setbeamercolor{alerted text}{parent=alert information}%
+    \begin{alertblock}#2{#1}}%
+{%
+    \end{alertblock}}
+%    \end{macrocode}
+% \end{environment}
+%
+%
+% \begin{macro}{\info}
+% Action to highlight with the alert information color
+%    \begin{macrocode}
+\newenvironment<>{infoenv}{\usebeamerfont{alert information}\usebeamercolor[fg]{alert information}}{}
+\newcommand<>{\info}[1]{{\alt#2{\usebeamercolor[fg]{alert information}#1}{#1}}}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{environment}{successblock}
+% A block for alert with the ``success'' color.
+% \changes{v0.6.1}{2020/09/22}{Added this environment}
+%    \begin{macrocode}
+\newenvironment<>{successblock}[1]{%
+    \setbeamercolor{alerted text}{parent=alert success}%
+    \begin{alertblock}#2{#1}}%
+{%
+    \end{alertblock}}
+%    \end{macrocode}
+% \end{environment}
+%
+% \begin{macro}{succes}
+% Action to highlight with the alert success color
+%    \begin{macrocode}
+\newenvironment<>{successenv}{\usebeamerfont{alert success}\usebeamercolor[fg]{alert success}}{}
+\newcommand<>{\succes}[1]{{\alt#2{\usebeamercolor[fg]{alert success}#1}{#1}}}
+%    \end{macrocode}
+% \end{macro}
+%
+%
+% \subsection{Fonts}
+% 
+%    \begin{macrocode}
+\ifhoefler
+  \RequirePackage[no-math]{fontspec}
+% This snippet fixes a "You can't use a prefix with '\begingroup'" error that was coming from
+% the fontspec package.  
+% Thanks to Philippe Goutet.  See \url{http://tex.stackexchange.com/q/5996/1402}.
+  \def\alloc@#1#2#3#4#5%
+  {\ifnum\count1#1<#4% make sure there's still room
+      \allocationnumber\count1#1
+      \global\advance\count1#1\@ne
+      \global#3#5\allocationnumber
+      \wlog{\string#5=\string#2\the\allocationnumber}%
+    \else\ifnum#1<6
+      \def\etex@dummy@definition{}% <-- code added
+      \begingroup \escapechar\m@ne
+      \expandafter\alloc@@\expandafter{\string#2}#5%
+    \else\errmessage{No room for a new #2}\fi\fi
+  }
+
+  \RequirePackage{xltxtra}
+  \defaultfontfeatures{Mapping=tex-text}
+  \setmainfont[BoldFont=Gotham Bold]{Gotham Book}
+  \setmathrm{Cambria Math}
+  \setsansfont[BoldFont=Gotham Bold]{Gotham Book}
+\else
+    \let\emptyset\relax
+    \RequirePackage{arev}
+    \let\titlefont\sffamily
+\fi
+%    \end{macrocode}
+%
+% Neither Gotham nor Arev come with small caps.  So we “fake” it.
+% See \url{https://tex.stackexchange.com/a/55733/1402}
+%    \begin{macrocode}
+\def\fakesc#1{%
+  \begingroup%
+  \xdef\fake@name{\csname\curr@fontshape/\f@size\endcsname}%
+  \fontsize{\fontdimen8\fake@name}{\baselineskip}\selectfont%
+  \MakeUppercase{#1}%
+  \endgroup%
+}
+\let\textsc\fakesc
+%    \end{macrocode}
+
+%
+%    \begin{macrocode}
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont{frametitle}{size=\Huge}
+\setbeamerfont{framesubtitle}{size=\Large}
+\setbeamerfont{title}{size=\Huge}
+\setbeamerfont{block title}{series=\bfseries}
+%    \end{macrocode}
+%
+%    \begin{macrocode}
 \usepackage{xcolor-nyu22}
 \setbeamercolor*{structure}{fg=NyuViolet}
 \setbeamercolor*{example text}{fg=MediumViolet2}
