@@ -3,7 +3,7 @@
 
 bundle = "Gotham"
 module = "beamerthemeNYU22"
-version = "0.6"
+version = "0.7"
 date = "2023-05-27"
 
 maindir = ".."
