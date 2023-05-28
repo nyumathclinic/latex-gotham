@@ -56,7 +56,7 @@ Then open `nyu-logos.pdf`.
 
 ## License
 
-Copyright (C) 2019–2022 by Matthew Leingang <leingang@nyu.edu>.
+Copyright © 2019–2023 by Matthew Leingang <leingang@nyu.edu>.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
