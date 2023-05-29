@@ -3,7 +3,7 @@
 
 bundle = "Gotham"
 module = "xcolor-nyu22"
-version = "patch"
+version = "0.11b"
 date = "2023-05-27"
 
 maindir = ".."
