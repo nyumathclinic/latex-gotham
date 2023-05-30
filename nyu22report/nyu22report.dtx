@@ -12,6 +12,8 @@
 
 \usepackage{xcolor-nyu22}[2022/08/05]
 
+\usepackage{siunitx}^^A \qty, \unit, the \verb|S| column type
+\DeclareSIUnit{\point}{pt}
 
 % In the contemporary/subtle tone quadrant, we use sans for the main text and
 % serif for the section titles.
@@ -29,7 +31,8 @@
 
 \usepackage{parskip}
 
-\newcommand{\file}[1]{\texttt{#1}}
+\providecommand\file\texttt
+\providecommand\cls\textsf
 
 \EnableCrossrefs
 \RecordChanges
@@ -84,7 +87,7 @@
 %
 % \section{Implementation}
 %
-% The class derives from the standard \pkg{report} class.
+% The class derives from the standard \cls{report} class.
 %
 %    \begin{macrocode}
 %<*class>
@@ -115,7 +118,70 @@
 %
 % \section{Document Layout}
 %
-% \subsection{Fonts}
+% \subsection{Font sizes}
+%
+% In order to set the font size commands, we correlate the sizes from both
+% the NYU official report template (published as a Google doc) and the standard
+% \cls{report} class. See Tables \ref{tab-official-sizes}~and~\ref{tab-standard-sizes}.
+%
+% \begin{table}
+%     \centering
+%     \begin{tabular}{llS}
+%         Style & used for         & {font size (\unit{\point})} \\\hline
+%^^A      -----------------------------------------------------
+%         H1    & title            & 36 \\
+%               & subtitle         & 18 \\
+%         H2    & chapter          & 24 \\
+%         H3    & section          & 16 \\
+%         H4    & subsection       & 14 \\
+%         H5    & subsubsection    & 11.5 \\
+%         H6    & subsubsubsection & 11 \\
+%         Normal& normal           & 11
+%     \end{tabular}
+%     \caption{Font sizes defined in the NYU official report template}
+%     \label{tab-official-sizes}
+% \end{table}
+%
+% \begin{table}
+%     \centering
+%     \begin{tabular}{llSS}
+%         Command             & used in              & {font size (\unit{\point})} 
+%                                                          & {baselineskip (\unit{\point})} \\
+%         \hline^^A-------------------------------------------------------------
+%         \cmd{\Huge}         & \cmd{\chapter}       & 25  & 30   \\
+%         \cmd{\huge}         & Chapter label        & 20  & 25   \\
+%         \cmd{\LARGE}        & \cmd{\title}         & 17  & 22   \\
+%         \cmd{\Large}        & \cmd{\section}       & 14  & 18   \\
+%         \cmd{\large}        & \cmd{\subsection}    & 12  & 14   \\
+%         \cmd{\normalsize}   & \cmd{\subsubsection} & 11  & 13.6 \\
+%                             & \cmd{\paragraph}     &     &      \\
+%         \cmd{\small}        &                      & 10  & 12   \\
+%         \cmd{\footnotesize} & \cmd{\footnote}      &  9  & 11   \\
+%         \cmd{\scriptsize}   &                      &  8  & 9.5  \\
+%         \cmd{\tiny}         &                      &  6  &  7   \\
+%     \end{tabular}
+%     \caption{Font sizes defined in the \LaTeX{} standard \cls{report} class.}
+%     \label{tab-standard-sizes}
+% \end{table}
+%
+% \begin{macro}{\HUGE,\Huge,\huge,\LARGE,\large}
+% We define the font sizes to match their usage in the official template.
+% For instance, since \cmd{\Huge} is used for the chapter name in the standard
+% class, and the chapter name is set to \qty{24}{\point} in the official class,
+% we set \cmd{\Huge} to be \qty{24}{\point}.
+%
+% We add one font size, \cmd{\HUGE}, to be the title size. This is out of order
+% with the standard class, which defines it to be \cmd{\LARGE}.
+% 
+%    \begin{macrocode}
+\DeclareRobustCommand\HUGE{\@setfontsize\HUGE{36}{43.2}}
+\DeclareRobustCommand\Huge{\@setfontsize\Huge{24}{28.8}}
+\DeclareRobustCommand\LARGE{\@setfontsize\LARGE{20}{25}}
+\DeclareRobustCommand\Large{\@setfontsize\Large{16}{19.2}}
+\DeclareRobustCommand\large{\@setfontsize\large{14}{18}}
+%    \end{macrocode}    
+% \end{macro}
+%  
 %
 %
 % \section{Document Markup}
@@ -130,6 +196,9 @@
 %    \end{macrocode}
 %
 % \subsection{Colors}
+%
+% We define the NYU shade of violet.
+%
 %    \begin{macrocode}
 \RequirePackage{xcolor}
 \providecolor{NyuViolet}{HTML}{57068C}
