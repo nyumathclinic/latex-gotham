@@ -216,46 +216,87 @@
 %
 % \subsection{The title}
 %
-% The \pkg{titling} package allows for customizing the way that the standard
-% classes typeset the title of the document. 
-%
-%    \begin{macrocode}
-\RequirePackage{titling}
-%    \end{macrocode}
-%
 % We want to typeset the title in upper case. Uppercasing is tricky in \LaTeX.
 % We make a temporary macro \cmd{\@TITLE}, upper case the contents of
 % \cmd{\@title} into it, and alias \cmd{\@title} to \cmd{\@TITLE}. Once the 
 % current group ends, \cmd{\@title} will go back to its original definition.
+%
+% Regarding the font series: the default font for the Google doc templates is
+% the free Montserrat font. Its bold series is quite bold indeed. The official
+% proprietary font is Gotham. Its medium series is already bold, and its bold
+% face is even bolder. We are going to select the \verb|eb| (extra bold) series
+% here. If Gotham is available, the \verb|eb| series should be mapped to
+% Gotham~Bold. Otherwise, if Montserrat is available and being used, I think 
+% \verb|eb| will fall back to \verb|b|.
+
+% \begin{macro}{\maketitle}
 %    \begin{macrocode}
-\pretitle{%
-  \edef\@TITLE{\MakeUppercase{\@title}}%
-  \let\@title\@TITLE%
-  \begin{flushleft}\HUGE\bfseries\primarycolor%
+\RequirePackage{etoolbox}
+\RequirePackage{graphicx}
+\patchcmd{\maketitle}{
+  \null\vfil
+  \vskip 60\p@
+  \begin{center}%
+    {\LARGE \@title \par}%
+    \vskip 3em%
+    {\large
+     \lineskip .75em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+      \vskip 1.5em%
+    {\large \@date \par}%
+  \end{center}\par
+}{
+  {\noindent\primarycolor\rule[1ex]{\textwidth}{0.07in}}
+  \vskip 60\p@
+  \begin{flushleft}%
+      {\HUGE
+      \fontseries{eb}\selectfont
+      \primarycolor 
+      \MakeUppercase{\@title} \par}%
+      \vskip 15pt%
+      {\LARGE 
+        \normalcolor
+        \@subtitle
+      }
+      \vskip 35pt
+      {\normalsize
+        \bfseries
+        \primarycolor
+        \lineskip .75em%
+        \@author
+        \par}%
+      {\normalsize
+        \normalcolor
+        \@date
+        \par}%
+    \end{flushleft}\par
 }
-  \posttitle{\end{flushleft}}
+{\ClassInfo{\@currname}{Patch of `maketitle' to set title succeeded}}
+{\ClassWarning{\@currname}{Patch of `maketitle' to set title failed}}
 %    \end{macrocode}
 %
-% The subtitle comes below the title.
+% We also want to put the logo at the bottom of the page.
+% 
 %    \begin{macrocode}
-\renewcommand{\maketitlehookb}{
-  \begin{flushleft}
-    \LARGE\normalfont\normalcolor\@subtitle
-  \end{flushleft}
+\patchcmd{\maketitle}{
+  \@thanks
+  \vfil\null
 }
+{
+  \@thanks
+  \vfill
+  \noindent
+  \includegraphics[height=0.5in]{nyu_short_color}
+}
+{\ClassInfo{\@currname}{Patch of `maketitle' to set logo succeeded}}
+{\ClassWarning{\@currname}{Patch of `maketitle' to set logo failed}}
 %    \end{macrocode}
 %
-% The author is also flush left.
-%    \begin{macrocode}
-\preauthor{\begin{flushleft}\normalsize\bfseries\primarycolor}
-\postauthor{\end{flushleft}}
-%    \end{macrocode}
-%
-% The date is flush left.
-%    \begin{macrocode}
-\predate{\begin{flushleft}\normalsize\normalfont\normalcolor}
-\postdate{\end{flushleft}}
-%    \end{macrocode}
+% \end{macro}
+  
+
 %
 % \subsection{Chapters and sections}
 %
