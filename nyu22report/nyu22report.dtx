@@ -2,7 +2,7 @@
 %<*driver>
 \ProvidesFile{nyu22report.dtx}[2023/05/30 v0.1 NYU Official Report Template]
 %</driver>
-%<class>\ProvidesClass{nyu22report.dtx}[2023/05/30 v0.1 NYU Official Report Template]
+%<class>\ProvidesClass{nyu22report}[2023/05/30 v0.1 NYU Official Report Template]
 %<*driver>
 \documentclass{ltxdoc}
 \usepackage{graphicx}
@@ -98,22 +98,28 @@
 %
 % \subsection{Metadata}
 %
-% \DescribeMacro{\title}
 % \DescribeMacro{\subtitle}
-% \DescribeMacro{\author}
-% \DescribeMacro{\date}
 % The \cmd{\title}, \cmd{\author}, and \cmd{\date} commands work the same way
 % as in the standard classes. We additionally provide \cmd{\subtitle}:
 %
 % \begin{macro}{\subtitle}
 % \changes{v0.1}{2023/05/30}{Added this command}
 % Declare a subtitle for the document. It will be saved internally and
-% typeset during `\maketitle'.
+% typeset during \cmd{\maketitle}.
 %    \begin{macrocode}
 \DeclareRobustCommand*{\subtitle}[1]{\gdef\@subtitle{#1}}
 %    \end{macrocode}
 % \end{macro}
 %
+%
+% \subsection{Fonts}
+%
+% We defer most of the font selection to a separate \pkg{nyu22fonts} package.
+% These will set up the best selection of font families. This template
+% uses sans serif font throughout.
+%    \begin{macrocode}
+\renewcommand{\familydefault}{\sfdefault}
+%    \end{macrocode}
 %
 %    \begin{macrocode}
 %</class>
