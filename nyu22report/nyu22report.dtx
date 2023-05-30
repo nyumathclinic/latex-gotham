@@ -93,7 +93,9 @@
 }
 \ProcessOptions\relax
 \LoadClass[11pt]{report}
-\RequirePackage{xcolor-nyu22}
+\RequirePackage{xcolor}
+\providecolor{NyuViolet}{HTML}{57068C}
+\colorlet{primary}{NyuViolet}
 %    \end{macrocode}
 %
 % \subsection{Metadata}
@@ -111,8 +113,14 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \section{Document Layout}
 %
 % \subsection{Fonts}
+%
+%
+% \section{Document Markup}
+%
+% \subsection{Font faces}
 %
 % We defer most of the font selection to a separate \pkg{nyu22fonts} package.
 % These will set up the best selection of font families. This template
@@ -120,6 +128,14 @@
 %    \begin{macrocode}
 \renewcommand{\familydefault}{\sfdefault}
 %    \end{macrocode}
+%
+% \subsection{Colors}
+%    \begin{macrocode}
+\RequirePackage{xcolor}
+\providecolor{NyuViolet}{HTML}{57068C}
+\colorlet{primary}{NyuViolet}
+%    \end{macrocode}
+
 %
 %    \begin{macrocode}
 %</class>
