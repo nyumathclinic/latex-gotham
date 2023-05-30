@@ -1,0 +1,123 @@
+% \iffalse
+%<*driver>
+\ProvidesFile{nyu22report.dtx}[2023/05/30 v0.0 NYU Official Report Template]
+%</driver>
+%<class>\ProvidesClass{nyu22report.dtx}[2023/05/30 v0.0 NYU Official Report Template]
+%<*driver>
+\documentclass{ltxdoc}
+\usepackage{graphicx}
+\usepackage{changepage}^^A      For the `adjustwidth' environment
+\usepackage{hologo}^^A          Provides lots of logos
+
+
+\usepackage{xcolor-nyu22}[2022/08/05]
+
+
+% In the contemporary/subtle tone quadrant, we use sans for the main text and
+% serif for the section titles.
+%
+% These font assignments have nothing to do with this package; they are part of
+% the styling of a document
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{titlesec}
+\usepackage{titling}
+\newcommand{\headingfont}{\sffamily\color{NyuViolet}}
+\titleformat*{\section}{\LARGE\headingfont}
+\titleformat*{\subsection}{\Large\headingfont}
+\titleformat*{\subsubsection}{\large\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+
+\usepackage{parskip}
+
+\newcommand{\file}[1]{\texttt{#1}}
+
+\EnableCrossrefs
+\RecordChanges
+\CodelineIndex
+\usepackage{hyperref}
+\begin{document}
+  \DocInput{nyu22report.dtx}
+\end{document}
+%</driver>
+% \fi
+
+% \GetFileInfo{nyu22report.dtx} 
+% \title{A \LaTeX{} class for the NYU Official Report Template}
+% \author{Matthew Leingang\thanks{leingang@nyu.edu}} \date{\fileversion, Released \filedate}
+% \maketitle
+
+% \begin{abstract}
+%  We describe and implement a \LaTeX{} class \texttt{nyu22report},
+%  which is designed to match the report template provided by the NYU 
+%  brand.
+% \end{abstract}
+
+% \changes{0.0}{2023/05/03}{First version}
+
+% \section{Introduction}
+
+% \section{Installation}
+%
+% \subsection{The class}
+%
+% To install the package, download the repository and within the module directory,
+% execute the command: \texttt{l3build install}.
+%
+% \subsection{Fonts}
+%
+% Use the \pkg{nyu22fonts} package to select branded fonts.
+%
+% \section{Usage}
+%
+% \subsection{\hologo{XeLaTeX} and \hologo{LuaLaTeX} usage}
+%
+% \begin{verbatim}
+%    \documentclass[options]{nyu22report}
+% \end{verbatim}
+% 
+% \bibliographystyle{plain}
+% \bibliography{nyu22report}
+%
+%
+%
+% \StopEventually{\PrintChanges}
+%
+% \section{Implementation}
+%
+% The class derives from the standard \pkg{report} class.
+%
+%    \begin{macrocode}
+%<*class>
+\DeclareOption*{% 
+	\PassOptionsToClass{\CurrentOption}{report}%
+}
+\ProcessOptions\relax
+\LoadClass{report}
+\RequirePackage{xcolor-nyu22}
+%    \end{macrocode}
+%
+% \subsection{Metadata}
+%
+% \DescribeMacro{\title}
+% \DescribeMacro{\subtitle}
+% \DescribeMacro{\author}
+% \DescribeMacro{\date}
+% The \cmd{\title}, \cmd{\author}, and \cmd{\date} commands work the same way
+% as in the standard classes. We additionally provide \cmd{\subtitle}:
+%
+% \begin{macro}{\subtitle}
+% \changes{unreleased}{2023/05/30}{Added this command}
+% Declare a subtitle for the document. It will be saved internally and
+% typeset during `\maketitle'.
+%    \begin{macrocode}
+\DeclareRobustCommand*{\subtitle}[1]{\gdef\@subtitle{#1}}
+%    \end{macrocode}
+% \end{macro}
+%
+%
+%    \begin{macrocode}
+%</class>
+%    \end{macrocode}
+%
+% \Finale
+%
