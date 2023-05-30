@@ -113,6 +113,7 @@
 % typeset during \cmd{\maketitle}.
 %    \begin{macrocode}
 \DeclareRobustCommand*{\subtitle}[1]{\gdef\@subtitle{#1}}
+\newcommand{\@subtitle}{}
 %    \end{macrocode}
 % \end{macro}
 %
@@ -176,7 +177,7 @@
 %    \begin{macrocode}
 \DeclareRobustCommand\HUGE{\@setfontsize\HUGE{36}{43.2}}
 \DeclareRobustCommand\Huge{\@setfontsize\Huge{24}{28.8}}
-\DeclareRobustCommand\LARGE{\@setfontsize\LARGE{20}{25}}
+\DeclareRobustCommand\LARGE{\@setfontsize\LARGE{18}{21.6}}
 \DeclareRobustCommand\Large{\@setfontsize\Large{16}{19.2}}
 \DeclareRobustCommand\large{\@setfontsize\large{14}{18}}
 %    \end{macrocode}    
@@ -203,9 +204,58 @@
 \RequirePackage{xcolor}
 \providecolor{NyuViolet}{HTML}{57068C}
 \colorlet{primary}{NyuViolet}
+\providecommand{\primarycolor}{\color{primary}}
 %    \end{macrocode}
-
 %
+% \subsection{The title}
+%
+% The \pkg{titling} package allows for customizing the way that the standard
+% classes typeset the title of the document. 
+%
+%    \begin{macrocode}
+\RequirePackage{titling}
+%    \end{macrocode}
+%
+% We want to typeset the title in upper case. Uppercasing is tricky in \LaTeX.
+% We make a temporary macro \cmd{\@TITLE}, upper case the contents of
+% \cmd{\@title} into it, and alias \cmd{\@title} to \cmd{\@TITLE}. Once the 
+% current group ends, \cmd{\@title} will go back to its original definition.
+%    \begin{macrocode}
+\pretitle{%
+  \edef\@TITLE{\MakeUppercase{\@title}}%
+  \let\@title\@TITLE%
+  \begin{flushleft}\HUGE\bfseries\primarycolor%
+}
+  \posttitle{\end{flushleft}}
+%    \end{macrocode}
+%
+% The subtitle comes below the title.
+%    \begin{macrocode}
+\renewcommand{\maketitlehookb}{
+  \begin{flushleft}
+    \LARGE\normalfont\normalcolor\@subtitle
+  \end{flushleft}
+}
+%    \end{macrocode}
+%
+% The author is also flush left.
+%    \begin{macrocode}
+\preauthor{\begin{flushleft}\normalsize\bfseries\primarycolor}
+\postauthor{\end{flushleft}}
+%    \end{macrocode}
+%
+% The date is flush left.
+%    \begin{macrocode}
+\predate{\begin{flushleft}\normalsize\normalfont\normalcolor}
+\postdate{\end{flushleft}}
+%    \end{macrocode}
+%
+% \subsection{Chapters and sections}
+%
+%    \begin{macrocode}
+%    \end{macrocode}
+%
+% 
 %    \begin{macrocode}
 %</class>
 %    \end{macrocode}
