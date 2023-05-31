@@ -368,6 +368,19 @@
 \titlespacing*{\section}{0pt}{20pt}{10pt}
 %    \end{macrocode}
 %
+% Set the formatting and spacing of the subsubsection (H5) title. The last
+% token in the before-code is a macro that takes the subsubsection title as 
+% an argument. This header has no named size to it. It's larger than 
+% |\normalsize| but smaller than |\large|.
+%    \begin{macrocode}
+\titleformat{\subsubsection}
+  {\fontsize{11.5}{14.375}\ebseries\primarycolor}
+  {\thesubsubsection}
+  {\wordsep}
+  {\MakeUppercase}
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+%    \end{macrocode}
+%
 %    \begin{macrocode}
 %</class>
 %    \end{macrocode}
