@@ -3,7 +3,7 @@
 
 bundle = "Gotham"
 module = "nyu22report"
-version = "0.6"
+version = "0.7"
 date = "2023-05-31"
 
 maindir = ".."
