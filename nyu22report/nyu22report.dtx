@@ -88,6 +88,7 @@
 % \section{Implementation}
 %
 % The class derives from the standard \cls{report} class.
+% \changes{v0.3}{2023/05/30}{Use the \texttt{11pt} option by default}
 %
 %    \begin{macrocode}
 %<*class>
@@ -166,6 +167,7 @@
 % \end{table}
 %
 % \begin{macro}{\HUGE,\Huge,\huge,\LARGE,\large}
+% \changes{v0.3}{2023/05/30}{Declare font sizes}
 % We define the font sizes to match their usage in the official template.
 % For instance, since \cmd{\Huge} is used for the chapter name in the standard
 % class, and the chapter name is set to \qty{24}{\point} in the official class,
@@ -195,7 +197,7 @@
 % \section{Document Markup}
 %
 % \subsection{Font faces}
-%
+% \changes{v0.2}{2023/05/30}{Set default family to sans serif}
 % We defer most of the font selection to a separate \pkg{nyu22fonts} package.
 % These will set up the best selection of font families. This template
 % uses sans serif font throughout.
@@ -217,23 +219,30 @@
 %
 % \subsection{Colors}
 %
-% We define the NYU shade of violet.
+% \begin{macro}{\primarycolor}
+% We define a single color, set to the NYU shade of violet.
 %
+% The \pkg{xcolor-nyu22} package provides the full pallette of NYU colors,
+% but we only need one for this class. |\normalcolor| is predefined to black,
+% so we use |\primarycolor| for this color.
+%
+% \changes{v0.3}{2023/05/30}{Eliminate use of \pkg{xcolor-nyu22} package}
+% \changes{unreleased}{2023/05/31}{Eliminate color name in favor of the alias}
 %    \begin{macrocode}
 \RequirePackage{xcolor}
-\providecolor{NyuViolet}{HTML}{57068C}
-\colorlet{primary}{NyuViolet}
-\providecommand{\primarycolor}{\color{primary}}
+\providecommand{\primarycolor}{\color[HTML]{57068C}}
 %    \end{macrocode}
+% \end{macro}
 %
 % \subsection{The title}
 %
-% We want to typeset the title in upper case. Uppercasing is tricky in \LaTeX.
-% We make a temporary macro \cmd{\@TITLE}, upper case the contents of
-% \cmd{\@title} into it, and alias \cmd{\@title} to \cmd{\@TITLE}. Once the 
-% current group ends, \cmd{\@title} will go back to its original definition.
-%
 % \begin{macro}{\maketitle}
+% \changes{v0.4}{2023/05/30}{Format the title with \pkg{titling}}
+% \changes{v0.5}{2023/05/30}{Format the title without \pkg{titling}}
+%
+% We patch the |\maketitle| command provided by \cls{report}.
+% We tried this first with the \pkg{titling} package and we couldn't get the
+% fully correct customization.
 %    \begin{macrocode}
 \RequirePackage{etoolbox}% \patchcmd
 \patchcmd{\maketitle}{
@@ -281,6 +290,7 @@
 %    \end{macrocode}
 %
 % We also want to put the logo at the bottom of the page.
+% \changes{v0.5a}{2023/05/31}{Use \pkg{eso-pic} to position logo absolutely}
 % 
 %    \begin{macrocode}
 \RequirePackage{graphicx}% \includegraphics
@@ -310,6 +320,7 @@
 %    \end{macrocode}
 %
 % \begin{macro}{\chapter}
+% \changes{v0.6}{2023/05/31}{Set formatting of chapter titles}
 % Set the formatting of chapter titles. The arguments are:
 % \begin{enumerate}
 %   \item Formatting commands for the entire title
@@ -343,6 +354,7 @@
 % \end{macro}
 %
 % \begin{macro}{\section}
+% \changes{v0.6}{2023/05/31}{Set formatting of section titles}
 % Set the formatting and spacing of the section title.
 % The spacing values come from the ``Custom spacing'' menu in the Google doc.
 %    \begin{macrocode}
@@ -363,6 +375,7 @@
 %    \end{macrocode}
 %
 %\begin{macro}{\subsection}
+% \changes{v0.6}{2023/05/31}{Set formatting of subsection titles}
 % Set the formatting and spacing of the subsection title.
 %    \begin{macrocode}
 \titleformat{\subsection}
@@ -375,6 +388,7 @@
 % \end{macro}
 %
 % \begin{macro}{\subsubsection}
+% \changes{v0.6}{2023/05/31}{Set formatting of subsubsection titles}
 % Set the formatting and spacing of the subsubsection (H5) title. The last
 % token in the before-code is a macro that takes the subsubsection title as 
 % an argument. This header has no named size to it. It's larger than 
@@ -390,6 +404,7 @@
 % \end{macro}
 %
 % \begin{macro}{\paragraph}
+% \changes{v0.6}{2023/05/31}{Set formatting of paragraph titles}
 % Set the formatting and spacing of the paragraph (H6) title.
 % In the \cls{report} class, the paragraph title is formatted in the ``runin''
 % shape. In the official template, it has the ``hang'' shape like the higher
