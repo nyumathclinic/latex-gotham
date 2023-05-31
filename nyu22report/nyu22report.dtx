@@ -381,6 +381,20 @@
 \titlespacing*{\section}{0pt}{10pt}{6pt}
 %    \end{macrocode}
 %
+% Set the formatting and spacing of the paragraph (H6) title.
+% In the \cls{report} class, the paragraph title is formatted in the ``runin''
+% shape. In the official template, it has the ``hang'' shape like the higher
+% divisions. Hence the optional argument to |\titleformat|.
+%    \begin{macrocode}
+\titleformat{\paragraph}
+  [hang]
+  {\normalsize\ebseries\itshape\primarycolor}
+  {\theparagraph}
+  {\wordsep}
+  {}
+\titlespacing*{\paragraph}{0pt}{10pt}{0pt}
+%    \end{macrocode}
+%
 %    \begin{macrocode}
 %</class>
 %    \end{macrocode}
