@@ -203,6 +203,18 @@
 \renewcommand{\familydefault}{\sfdefault}
 %    \end{macrocode}
 %
+% Regarding the font series: the default font for the Google doc templates is
+% the free Montserrat font. Its bold series is quite bold indeed. The official
+% proprietary font is Gotham. Its medium series is already bold, and its bold
+% face is even bolder. We are going to select the \verb|eb| (extra bold) series
+% here. If Gotham is available, the \verb|eb| series should be mapped to
+% Gotham~Bold. Otherwise, if Montserrat is available and being used, I think 
+% \verb|eb| will fall back to \verb|b|.
+%    \begin{macrocode}
+\newcommand{\ebseries}{\fontseries{eb}\selectfont}
+%    \end{macrocode}
+%
+%
 % \subsection{Colors}
 %
 % We define the NYU shade of violet.
@@ -221,14 +233,6 @@
 % \cmd{\@title} into it, and alias \cmd{\@title} to \cmd{\@TITLE}. Once the 
 % current group ends, \cmd{\@title} will go back to its original definition.
 %
-% Regarding the font series: the default font for the Google doc templates is
-% the free Montserrat font. Its bold series is quite bold indeed. The official
-% proprietary font is Gotham. Its medium series is already bold, and its bold
-% face is even bolder. We are going to select the \verb|eb| (extra bold) series
-% here. If Gotham is available, the \verb|eb| series should be mapped to
-% Gotham~Bold. Otherwise, if Montserrat is available and being used, I think 
-% \verb|eb| will fall back to \verb|b|.
-
 % \begin{macro}{\maketitle}
 %    \begin{macrocode}
 \RequirePackage{etoolbox}% \patchcmd
@@ -251,7 +255,7 @@
   \vskip 60\p@
   \begin{flushleft}%
       {\HUGE
-      \fontseries{eb}\selectfont
+      \ebseries
       \primarycolor 
       \MakeUppercase{\@title} \par}%
       \vskip 15pt%
@@ -297,12 +301,42 @@
 %    \end{macrocode}
 %
 % \end{macro}
-  
-
+%
 %
 % \subsection{Chapters and sections}
 %
 %    \begin{macrocode}
+\RequirePackage{titlesec}
+%    \end{macrocode}
+%
+% Set the formatting of the title of chapters. The arguments are:
+% \begin{enumerate}
+%   \item Formatting commands for the entire title
+%   \item Text of the chapter label
+%   \item Spacing between the chapter label and chapter name
+%   \item Code expanded before the title
+%   \item (an optional argument) Code expanded after the title
+% \end{enumerate}
+%    \begin{macrocode}
+\titleformat{\chapter}
+  {\Huge\ebseries\primarycolor}
+  {\thechapter.}
+  {\wordsep}
+  {}
+  [---]
+%    \end{macrocode}
+%
+% Set the spacing of the title of chapters. The arguments are:
+% \begin{enumerate}
+%   \item Change to the left margin
+%   \item Separation before the title
+%   \item Separation after the title. By inspecting the Google doc,it looks
+%         like this should be one ``line'' in the chapter title font. Since 
+%         the chapter title font is in size |\Huge|, which has |\baselineskip|
+%         set to \qty{28.8}{\point}, we use that value hard-coded.
+% \end{enumerate}
+%    \begin{macrocode}
+\titlespacing*{\chapter}{0pt}{0pt}{28.8pt}
 %    \end{macrocode}
 %
 % 
