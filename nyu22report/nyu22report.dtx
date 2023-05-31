@@ -395,6 +395,35 @@
 \titlespacing*{\paragraph}{0pt}{10pt}{0pt}
 %    \end{macrocode}
 %
+%
+% \subsection{Lists}
+%
+% \subsubsection{Itemize}
+% \changes{unreleased}{2023/05/31}{Added this implementation}
+%
+% We switch the label font to Latin Modern Roman because we want to make
+% sure all the symbols are supported (in particular, |\textopenbullet|, which 
+% is not in Gotham).
+%
+%    \begin{macrocode}
+\renewcommand{\labelitemfont}{\primarycolor\normalfont\fontfamily{lmr}\selectfont}
+%    \end{macrocode}
+%
+% The first level of bullets is already labeled with |\textbullet|, so we don't
+% need to change anything. The second level should be labeled with open bullets.
+%
+%    \begin{macrocode}
+\renewcommand{\labelitemii}{\labelitemfont\textopenbullet}
+%    \end{macrocode}
+%
+% The third level of bullets should be labeled with squares. Rather than load
+% another package, we're just going to draw a square rule. Thanks to TSE user 
+% Chris for the \href{https://tex.stackexchange.com/a/64892/1402}{code}.
+%    \begin{macrocode}
+\newcommand{\textsquarebullet}{\labelitemfont\raisebox{.45ex}{\rule{.6ex}{.6ex}}}
+\renewcommand{\labelitemiii}{\labelitemfont\textsquarebullet}
+%    \end{macrocode}
+%
 %    \begin{macrocode}
 %</class>
 %    \end{macrocode}
