@@ -184,6 +184,28 @@
 \DeclareRobustCommand\large{\@setfontsize\large{14}{18}}
 %    \end{macrocode}    
 % \end{macro}
+%
+% \subsection{Paragraphing}
+%
+% \begin{macro}{\linespread}
+% \changes{unreleased}{2023/05/31}{Set \cmd{\linespread}}
+% The official template's line space is \num{1.25}. We use 
+% the |\linespread| factor to stretch by 
+% \( \frac{1.25}{1.2} = \frac{25}{24} \approx \num{1.041667} \).
+%    \begin{macrocode}
+\linespread{1.041667}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\parskip}
+  % \changes{unreleased}{2023/05/21}
+%   {Set paragraph spacing with the \pkg{parskip} package}
+% The official template specifies a blank line between paragraphs.
+%    \begin{macrocode}
+\RequirePackage{parskip}  
+%    \end{macrocode}
+% \end{macro}
+%
 %  
 % \subsection{Page Layout}
 %
