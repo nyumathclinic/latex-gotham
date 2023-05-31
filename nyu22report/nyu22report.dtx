@@ -309,6 +309,7 @@
 \RequirePackage{titlesec}
 %    \end{macrocode}
 %
+% \begin{macro}{\chapter}
 % Set the formatting of chapter titles. The arguments are:
 % \begin{enumerate}
 %   \item Formatting commands for the entire title
@@ -339,7 +340,9 @@
 %    \begin{macrocode}
 \titlespacing*{\chapter}{0pt}{0pt}{28.8pt}
 %    \end{macrocode}
+% \end{macro}
 %
+% \begin{macro}{\section}
 % Set the formatting and spacing of the section title.
 % The spacing values come from the ``Custom spacing'' menu in the Google doc.
 %    \begin{macrocode}
@@ -350,6 +353,7 @@
   {}
 \titlespacing*{\section}{0pt}{35pt}{10pt}
 %    \end{macrocode}
+% \end{macro}
 % 
 % We don't want divisions to be numbered any deeper than this, either as
 % labels or in the table of contents.
@@ -358,6 +362,7 @@
 \setcounter{tocdepth}{1}
 %    \end{macrocode}
 %
+%\begin{macro}{\subsection}
 % Set the formatting and spacing of the subsection title.
 %    \begin{macrocode}
 \titleformat{\subsection}
@@ -367,7 +372,9 @@
   {}
 \titlespacing*{\section}{0pt}{20pt}{10pt}
 %    \end{macrocode}
+% \end{macro}
 %
+% \begin{macro}{\subsubsection}
 % Set the formatting and spacing of the subsubsection (H5) title. The last
 % token in the before-code is a macro that takes the subsubsection title as 
 % an argument. This header has no named size to it. It's larger than 
@@ -380,7 +387,9 @@
   {\MakeUppercase}
 \titlespacing*{\section}{0pt}{10pt}{6pt}
 %    \end{macrocode}
+% \end{macro}
 %
+% \begin{macro}{\paragraph}
 % Set the formatting and spacing of the paragraph (H6) title.
 % In the \cls{report} class, the paragraph title is formatted in the ``runin''
 % shape. In the official template, it has the ``hang'' shape like the higher
@@ -394,11 +403,12 @@
   {}
 \titlespacing*{\paragraph}{0pt}{10pt}{0pt}
 %    \end{macrocode}
-%
+% \end{macro}
 %
 % \subsection{Lists}
 %
 % \subsubsection{Itemize}
+% \begin{environment}{itemize}
 % \changes{v0.7}{2023/05/31}{Markup itemized lists}
 %
 % We switch the label font to Latin Modern Roman because we want to make
@@ -423,6 +433,7 @@
 \newcommand{\textsquarebullet}{\labelitemfont\raisebox{.45ex}{\rule{.6ex}{.6ex}}}
 \renewcommand{\labelitemiii}{\labelitemfont\textsquarebullet}
 %    \end{macrocode}
+% \end{environment}
 %
 %    \begin{macrocode}
 %</class>
