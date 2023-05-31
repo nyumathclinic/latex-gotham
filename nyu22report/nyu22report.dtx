@@ -250,9 +250,11 @@
 %
 % \changes{v0.3}{2023/05/30}{Eliminate use of \pkg{xcolor-nyu22} package}
 % \changes{v0.7c}{2023/05/31}{Eliminate color name in favor of the alias}
+% \changes{unreleased}{2023/05/31}{Restore \texttt{primary} color name just in case}
 %    \begin{macrocode}
 \RequirePackage{xcolor}
-\providecommand{\primarycolor}{\color[HTML]{57068C}}
+\providecolor{primary}{HTML}{57068C}
+\providecommand{\primarycolor}{\color{primary}}
 %    \end{macrocode}
 % \end{macro}
 %
@@ -471,6 +473,35 @@
 \renewcommand{\labelitemiii}{\labelitemfont\textsquarebullet}
 %    \end{macrocode}
 % \end{environment}
+%
+% \subsection{Links}
+%
+% \begin{macro}{\href}
+% \changes{unreleased}{2023/05/31}{Style hyperlinks}
+% Links are supposed to be boldface, underlined, and colored.
+% The \pkg{hyperref} package is tricky with colors, and has no interface for
+% styling the link text beyond the color, so I decided to go with an alternate
+% implementation.
+%
+% Thanks to TSE user Werner for the \href{https://tex.stackexchange.com/a/351654/1402}{code}
+% to make links boldface.
+%    \begin{macrocode}
+\AtBeginDocument{
+  \RequirePackage{hyperref}
+  \hypersetup{%
+    colorlinks=false,
+    hidelinks=true,
+  }
+  \RequirePackage{letltxmacro,xparse,soul}
+  \LetLtxMacro\oldhref\href
+  \RenewDocumentCommand{\href}{o m m}{%
+    \IfValueTF{#1}
+      {\oldhref[#1]{#2}{\primarycolor\bfseries\ul{#3}}}
+      {\oldhref{#2}{\primarycolor\bfseries\ul{#3}}}%
+  }
+}
+%    \end{macrocode}
+% \end{macro}
 %
 %    \begin{macrocode}
 %</class>
