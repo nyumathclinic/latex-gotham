@@ -351,6 +351,13 @@
 \titlespacing*{\section}{0pt}{35pt}{10pt}
 %    \end{macrocode}
 % 
+% We don't want divisions to be numbered any deeper than this, either as
+% labels or in the table of contents.
+%    \begin{macrocode}
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{1}
+%    \end{macrocode}
+%
 %    \begin{macrocode}
 %</class>
 %    \end{macrocode}
