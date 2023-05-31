@@ -231,8 +231,7 @@
 
 % \begin{macro}{\maketitle}
 %    \begin{macrocode}
-\RequirePackage{etoolbox}
-\RequirePackage{graphicx}
+\RequirePackage{etoolbox}% \patchcmd
 \patchcmd{\maketitle}{
   \null\vfil
   \vskip 60\p@
@@ -280,15 +279,18 @@
 % We also want to put the logo at the bottom of the page.
 % 
 %    \begin{macrocode}
+\RequirePackage{graphicx}% \includegraphics
+\RequirePackage{eso-pic}% \AddToShipoutPictureBG*
 \patchcmd{\maketitle}{
   \@thanks
   \vfil\null
 }
 {
   \@thanks
-  \vfill
-  \noindent
-  \includegraphics[height=0.5in]{nyu_short_color}
+  \AddToShipoutPictureBG*{
+    \put(1in,1in) {\includegraphics[height=0.5in]{nyu_short_color}}
+  }
+  \vfil\null  
 }
 {\ClassInfo{\@currname}{Patch of `maketitle' to set logo succeeded}}
 {\ClassWarning{\@currname}{Patch of `maketitle' to set logo failed}}
