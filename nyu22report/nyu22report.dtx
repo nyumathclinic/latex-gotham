@@ -309,7 +309,7 @@
 \RequirePackage{titlesec}
 %    \end{macrocode}
 %
-% Set the formatting of the title of chapters. The arguments are:
+% Set the formatting of chapter titles. The arguments are:
 % \begin{enumerate}
 %   \item Formatting commands for the entire title
 %   \item Text of the chapter label
@@ -326,7 +326,8 @@
   [---]
 %    \end{macrocode}
 %
-% Set the spacing of the title of chapters. The arguments are:
+% Set the spacing of chapter titles. The star suppresses indentation
+% of the first paragraph following the title. The arguments are:
 % \begin{enumerate}
 %   \item Change to the left margin
 %   \item Separation before the title
@@ -339,6 +340,16 @@
 \titlespacing*{\chapter}{0pt}{0pt}{28.8pt}
 %    \end{macrocode}
 %
+% Set the formatting and spacing of the section title.
+% The spacing values come from the ``Custom spacing'' menu in the Google doc.
+%    \begin{macrocode}
+\titleformat{\section}
+  {\Large\ebseries\primarycolor}
+  {\thesection}
+  {\wordsep}
+  {}
+\titlespacing*{\section}{0pt}{35pt}{10pt}
+%    \end{macrocode}
 % 
 %    \begin{macrocode}
 %</class>
