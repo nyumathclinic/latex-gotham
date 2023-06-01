@@ -9,6 +9,8 @@
 \usepackage{changepage}^^A      For the `adjustwidth' environment
 \usepackage{hologo}^^A          Provides lots of logos
 
+\usepackage[backend=biber]{biblatex}
+\addbibresource{nyu22report.bib}
 
 \usepackage{xcolor-nyu22}[2022/08/05]
 
@@ -58,6 +60,11 @@
 % \changes{0.0}{2023/05/03}{First version}
 
 % \section{Introduction}
+%
+% The \cls{nyu22report} class is a \LaTeX{} implementation of the official
+% Google docs report template published by NYU Media and Communications.
+% \cite{nyu-templates} 
+% 
 
 % \section{Installation}
 %
@@ -78,16 +85,15 @@
 %    \documentclass[options]{nyu22report}
 % \end{verbatim}
 % 
-% \bibliographystyle{plain}
-% \bibliography{nyu22report}
 %
-%
-%
+% \printbibliography
+
 % \StopEventually{\PrintChanges}
 %
 % \section{Implementation}
 %
 % The class derives from the standard \cls{report} class.
+% \cite{latex-classes}
 % \changes{v0.3}{2023/05/30}{Use the \texttt{11pt} option by default}
 %
 %    \begin{macrocode}
@@ -201,6 +207,7 @@
   % \changes{unreleased}{2023/05/21}
 %   {Set paragraph spacing with the \pkg{parskip} package}
 % The official template specifies a blank line between paragraphs.
+% The \pkg{parskip} package \cite{pkg-parskip} does just that.
 %    \begin{macrocode}
 \RequirePackage{parskip}  
 %    \end{macrocode}
@@ -467,7 +474,7 @@
 %
 % The third level of bullets should be labeled with squares. Rather than load
 % another package, we're just going to draw a square rule. Thanks to TSE user 
-% Chris for the \href{https://tex.stackexchange.com/a/64892/1402}{code}.
+% Chris.~\cite{tse-squarebullet-chris}
 %    \begin{macrocode}
 \newcommand{\textsquarebullet}{\labelitemfont\raisebox{.45ex}{\rule{.6ex}{.6ex}}}
 \renewcommand{\labelitemiii}{\labelitemfont\textsquarebullet}
@@ -483,8 +490,7 @@
 % styling the link text beyond the color, so I decided to go with an alternate
 % implementation.
 %
-% Thanks to TSE user Werner for the \href{https://tex.stackexchange.com/a/351654/1402}{code}
-% to make links boldface.
+% Thanks to TSE user Werner for the code to make links boldface.~\cite{tse-boldhref-werner}
 %    \begin{macrocode}
 \AtBeginDocument{
   \RequirePackage{hyperref}
