@@ -4,6 +4,9 @@
 \author{Office, unit, or school name}
 \date{01/23/2020}
 
+\usepackage{tabularx}% the eponymous environment
+
+
 \usepackage{fontspec}
 \setmainfont[%
     ItalicFont=*,
@@ -126,7 +129,50 @@ imperdiet \href{mailto:email@nyu.edu}{email@nyu.edu}.
     \end{itemize}
 \end{itemize}
 
+\chapter{Table Styling}
 
+\begin{table}[h]
+    \tabletitle{Chart Title}
+
+    \begin{tabularx}{\textwidth}{|X|X|X|}\hline
+        Column Header 1
+        & Column Header 2
+        & Column Header 3
+        \\\hline
+        Copy row header text for top row from this cell
+        & Copy paragraph styling for top row from this cell
+        & \begin{itemize} 
+            \item Copy bulleted list styling for top row from this cell
+          \end{itemize}
+        \\\hline
+        Copy row header text for all other rows from this cell
+        & Copy paragraph styling for all other rows from this cell
+        & \begin{itemize}
+            \item Copy bulleted list styling for all other rows from this cell
+          \end{itemize}
+        \\\hline
+        Lorem ipsum
+        & \begin{itemize}
+            \item Lorem ipsum\footnote{Chart note text goes here (make sure to add paragraph space before first note)}
+          \end{itemize}
+        & Lorem ipsum\footnote{Chart note text goes here (no paragraph space before second note)}
+        \\\hline
+    \end{tabularx}
+\end{table}
+
+\chapter{Images}
+
+\section*{Image Layout Examples}
+
+This section is meant to give you examples of different image layouts that are
+achievable in Google Docs. As a rule of thumb, try to make sure that your images
+have ample space around them so that they don’t touch surrounding text. This
+gives the page a cleaner look and maintains appropriate legibility.
+
+\subsection*{Single Image}
+
+Quick Tip: Add some paragraph breathing room before this paragraph to make sure
+it sits a comfortable distance away from the image above. 
 
 
 

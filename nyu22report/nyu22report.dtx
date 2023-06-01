@@ -35,6 +35,7 @@
 
 \providecommand\file\texttt
 \providecommand\cls\textsf
+\providecommand\env\texttt
 
 \EnableCrossrefs
 \RecordChanges
@@ -79,12 +80,29 @@
 %
 % \section{Usage}
 %
-% \subsection{\hologo{XeLaTeX} and \hologo{LuaLaTeX} usage}
-%
 % \begin{verbatim}
 %    \documentclass[options]{nyu22report}
 % \end{verbatim}
+%
+% For the most part, the usage is the same as with \cls{report}.
+% There are a few extra commands.
+%
+% \subsection{Metadata}
+%
+% \DescribeMacro{\subtitle}
+% The \cmd{\title}, \cmd{\author}, and \cmd{\date} commands work the same way
+% as in the standard classes. The \cmd{\subtitle} command in the preamble
+% allows the author to declare a subtitle.
+%
+% \subsection{Floats}
+%
+% \DescribeMacro{\tabletitle}
+% The \cmd{\tabletitle} command within an \env{table} environment
+% allows the author to typeset the table's title.
 % 
+% \DescribeMacro{\figuretitle}
+% The \cmd{\figuretitle} command within an \env{figure} environment
+% allows the author to typeset the table's title.
 %
 % \printbibliography
 
@@ -110,9 +128,8 @@
 %
 % \subsection{Metadata}
 %
-% \DescribeMacro{\subtitle}
-% The \cmd{\title}, \cmd{\author}, and \cmd{\date} commands work the same way
-% as in the standard classes. We additionally provide \cmd{\subtitle}:
+% The \cmd{\subtitle} command works like \cmd{\title}, saving
+% its argument for \cmd{\maketitle}.
 %
 % \begin{macro}{\subtitle}
 % \changes{v0.1}{2023/05/30}{Added this command}
@@ -508,6 +525,41 @@
 }
 %    \end{macrocode}
 % \end{macro}
+%
+% \subsection{Floating Objects}
+%
+% \subsubsection{Tables}
+%
+% \begin{macro}{\tabletitle}
+% \changes{unreleased}{2023/06/01}{Added}
+% The template requires tables to have a “title” which is set like an H3 element.
+% We can implement this using the \pkg{caption} package \cite{pkg-caption}, which
+% provides flexible styling of captions. The \cmd{\tabletitle} command wraps
+% around \cmd{\caption*}.
+%    \begin{macrocode}
+\RequirePackage{caption}% allow caption styles
+\DeclareCaptionFont{eb}{\ebseries}
+\DeclareCaptionStyle{title}{
+  textfont={Large,eb,color=primary},
+  format=plain,
+  justification=raggedright,
+  singlelinecheck=false,
+  position=above,
+}
+\newcommand{\tabletitle}[1]{%
+  \captionsetup{style=title}
+  \caption*{#1}
+}
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\figuretitle}
+% \changes{unreleased}{2023/06/01}{Added}
+% This is the same macro with a different name.
+%    \begin{macrocode}
+\let\figuretitle\tabletitle
+%    \end{macrocode}
+% \end{macro}
+
 %
 %    \begin{macrocode}
 %</class>
