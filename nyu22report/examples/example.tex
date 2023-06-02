@@ -5,7 +5,11 @@
 \date{01/23/2020}
 
 \usepackage{tabularx}% the eponymous environment
+\usepackage{threeparttable}% \tnote and \begin{tablenotes}...
+\usepackage{colortbl}% color table rows and column backgrounds
+\usepackage{enumitem}% customize itemize and enumerate environments
 
+\usepackage{xcolor-nyu22}
 
 \usepackage{fontspec}
 \setmainfont[%
@@ -131,34 +135,43 @@ imperdiet \href{mailto:email@nyu.edu}{email@nyu.edu}.
 
 \chapter{Table Styling}
 
-\begin{table}[h]
+\begin{threeparttable}
+    \newcommand{\theadcellstyle}{\color{white}\bfseries}
     \tabletitle{Chart Title}
-
-    \begin{tabularx}{\textwidth}{|X|X|X|}\hline
-        Column Header 1
-        & Column Header 2
-        & Column Header 3
+    \begin{tabularx}{\textwidth}{|
+            >{\bfseries\primarycolor\small}X|
+            *2{>{\normalcolor\small}X|}
+        }\hline\rowcolor{primary}
+        \theadcellstyle Column Header 1
+        & \theadcellstyle Column Header 2
+        & \theadcellstyle Column Header 3
         \\\hline
         Copy row header text for top row from this cell
         & Copy paragraph styling for top row from this cell
-        & \begin{itemize} 
+        & \begin{itemize}[left=0pt]
             \item Copy bulleted list styling for top row from this cell
-          \end{itemize}
+        \end{itemize}
         \\\hline
         Copy row header text for all other rows from this cell
         & Copy paragraph styling for all other rows from this cell
-        & \begin{itemize}
+        & \begin{itemize}[left=0pt]
             \item Copy bulleted list styling for all other rows from this cell
-          \end{itemize}
+        \end{itemize}
         \\\hline
         Lorem ipsum
-        & \begin{itemize}
-            \item Lorem ipsum\footnote{Chart note text goes here (make sure to add paragraph space before first note)}
-          \end{itemize}
-        & Lorem ipsum\footnote{Chart note text goes here (no paragraph space before second note)}
+        & \begin{itemize}[left=0pt]
+            \item Lorem ipsum\tnote{*}
+        \end{itemize}
+        & Lorem ipsum\tnote{**}
         \\\hline
     \end{tabularx}
-\end{table}
+
+    \vspace{10pt}
+    \begin{tablenotes}\color{MediumGray1}
+        \item[*] Chart note text goes here (make sure to add paragraph space before first note)
+        \item[**] Chart note text goes here (no paragraph space before second note)
+    \end{tablenotes}
+\end{threeparttable}
 
 \chapter{Images}
 

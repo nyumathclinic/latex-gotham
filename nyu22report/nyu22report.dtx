@@ -16,6 +16,7 @@
 
 \usepackage{siunitx}^^A \qty, \unit, the \verb|S| column type
 \DeclareSIUnit{\point}{pt}
+\DeclareSIUnit{\inch}{in}
 
 % In the contemporary/subtle tone quadrant, we use sans for the main text and
 % serif for the section titles.
@@ -74,6 +75,8 @@
 % To install the package, download the repository and within the module directory,
 % execute the command: \texttt{l3build install}.
 %
+% Future releases will be distributed as zipped archives and/or uploaded to CTAN.
+%
 % \subsection{Fonts}
 %
 % Use the \pkg{nyu22fonts} package to select branded fonts.
@@ -94,11 +97,142 @@
 % as in the standard classes. The \cmd{\subtitle} command in the preamble
 % allows the author to declare a subtitle.
 %
-% \subsection{Floats}
+% \subsection{Font sizes}
+%
+% \DescribeMacro{\HUGE,\Huge,\LARGE,\Large,\large}
+% This class redefines the font sizes provided by \cls{report} to match those
+% of the official template. See Table~\ref{tab-nyu22-sizes}. The normal font
+% size is set to \qty{11}{\point}, which in turn sets the smaller sizes like 
+% \cmd{\small}, \cmd{\scriptsize}, and \cmd{\tiny}. 
+% \begin{table}
+%     \centering
+%     \begin{tabular}{llSS}
+%         Command             & used in              & {font size (\unit{\point})} 
+%                                                          & {baselineskip (\unit{\point})} \\
+%         \hline^^A-------------------------------------------------------------
+%         \cmd{\HUGE}         & \cmd{\title}         & 36  & 43.2   \\
+%         \cmd{\Huge}         & \cmd{\chapter}       & 24  & 28.8   \\
+%         \cmd{\LARGE}        & \cmd{\subtitle}      & 18  & 21.6   \\
+%         \cmd{\Large}        & \cmd{\section}       & 16  & 19.2   \\
+%         \cmd{\large}        & \cmd{\subsection}    & 14  & 18   \\
+%     \end{tabular}
+%     \caption{Font sizes defined in the \cls{nyu22-report} class.}
+%     \label{tab-nyu22-sizes}
+% \end{table}
+%
+% \subsection{Paragraphing}
+%
+% The template prescribes \num{1.25}-line spacing, one blank line between
+% paragraphs, and no paragraph indentation. This class matches those
+% prescriptions.
+%
+% \subsection{Page layout}
+%
+% Document margins are set to \qty{1}{\inch} on each side, per the template.
+%
+% \subsection{Font faces}
+% 
+% \DescribeMacro{\familydefault}
+%
+% This class sets the default font family to be sans-serif, per the template.
+% This class does not select any specific font, because font selection in
+% \LaTeX{} is quirky.
+%
+% \DescribeMacro{\ebseries}
+% Chapter, section, subsection, etc., headings look for an \emph{extra bold}
+% weight of the font. Not every font will provide this weight, but it makes
+% a difference with the thin, sans-serif fonts used by the brand. \LaTeX{}
+% should fall back to bold when extra bold is unavailable (with a warning in
+% log file).
+% 
+% The \pkg{nyu22fonts} package will make selecting fonts aligned to the brand
+% smoother. Here we will be as brief as possible:
+%
+% \subsubsection{OpenType and TrueType fonts} 
+% 
+% These require use of the \hologo{XeLaTeX} or \hologo{LuaLaTeX} engines and
+% the \pkg{fontspec} package. Switching engines is painless and at worst 
+% requires changing a line in your build script.
+%
+% There are several officially recommended sans serif fonts:
+%
+% \begin{enumerate}
+%   \item Gotham, which is not free, but of which NYU affiliates can obtain
+%         a licensed copy
+%   \item Montserrat, which is free and available through Google Fonts
+%   \item Arial, which is not free but is distributed with any Microsoft Office
+%         applications. Most users will have this on their machine.
+% \end{enumerate}
+%
+% There are also several officially recommended serif fonts:
+% \begin{enumerate}
+%   \item Mercury Text, which is not free and not licensed to NYU users
+%   \item Frank Ruhl Libre, which is free and available through Google Fonts
+%   \item Times Roman, which is distributed with Microsoft Office 
+% \end{enumerate}
+%
+% There is no officially recommended monospace font. Inconsolata has been 
+% suggested by at least one user. Inconsolata is free and available through
+% Google Fonts.
+%
+% \subsubsection{Type 1 fonts}
+%
+% These are the 20th century fonts in use by \hologo{pdfLaTeX} (do not worry,
+% the modern engines produce PDF as well).
+%
+% \begin{itemize}
+%  \item sans serif: Montserrat
+%  \item serif: Times Roman (though Georgia looks like a close match to Frank
+%      Ruhl Libre)
+%  \item No recommended monospace font, but Computer Modern typewriter is fine.
+% \end{itemize}
+%
+% \subsection{Color}
+%
+% \DescribeMacro{\primarycolor}
+% The \pkg{xcolor-nyu22} package provides color names for the entire brand
+% pallette. This document class only requires one, the standard NYU shade of
+% violet. The color \texttt{primary} is set to this color, and \cmd{\primarycolor}
+% selects it.
+%
+% \subsection{Tables and floats}
+%
+% \subsubsection{Tables and tabulars}
+%
+% Reminder: a \LaTeX{} \env{tabular} environment is used to present information
+% in an array. A \env{table} is a float, which usually includes a \env{tabular}
+% and a \cmd{\caption}.
+%
+% The official template has several specifications for tabular material:
+% \begin{itemize}
+%   \item The first (header) row has bold, white text on a violet background.
+%   \item The first column has bold, violet text on a a white background.
+%   \item The entire text of the table is set in a smaller font than normal
+%         text.
+%   \item The table should have a title set like an H3 element
+%   \item The table notes should follow the table and be colored Medium Gray 1.
+% \end{itemize}
+%
+% There isn't a widely adopted \LaTeX{} package that makes styling tables as 
+% easy as CSS styles tables in HTML. The closest is \pkg{tabu}~\cite{pkg-tabu},
+% which seems idiosyncratic and is currently unmaintained.
+%
+% The example file distributed with this module includes sample code to match
+% the template. It uses a combination of the \pkg{colortbl}~\cite{pkg-colortbl}
+% package to style table cell backgrounds, the \pkg{caption}~\cite{pkg-caption}
+% package to style the table's title, and the 
+% \pkg{threeparttable}~\cite{pkg-threeparttable} package to add table notes
+% (manually).
+%
+% Additionally, bullet lists within tables are required to be more compact. The
+% example code uses this with a the \pkg{enumitem} package and optional style
+% arguments to the \env{itemize} environment. Future improvements may automate
+% this setting.
 %
 % \DescribeMacro{\tabletitle}
-% The \cmd{\tabletitle} command within an \env{table} environment
-% allows the author to typeset the table's title.
+% The \cmd{\tabletitle} command allows the author to typeset the table's title.
+%
+% There are 
 % 
 % \DescribeMacro{\figuretitle}
 % The \cmd{\figuretitle} command within an \env{figure} environment
