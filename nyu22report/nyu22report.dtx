@@ -130,6 +130,9 @@
 %
 % Document margins are set to \qty{1}{\inch} on each side, per the template.
 %
+% The running page footer has the document title, date, and page number on
+% the right edge.
+%
 % \subsection{Font faces}
 % 
 % \DescribeMacro{\familydefault}
@@ -466,6 +469,8 @@
         \@date
         \par}%
     \end{flushleft}\par
+    \xdef\inserttitle{\@title}
+    \xdef\thedate{\@date}
 }
 {\ClassInfo{\@currname}{Patch of `maketitle' to set title succeeded}}
 {\ClassWarning{\@currname}{Patch of `maketitle' to set title failed}}
@@ -693,7 +698,17 @@
 \let\figuretitle\tabletitle
 %    \end{macrocode}
 % \end{macro}
-
+%
+% \subsection{Page footer}
+%
+%    \begin{macrocode}
+\renewcommand{\ps@plain}{
+  \let\@evenhead\@empty
+  \let\@oddhead\@empty
+  \def\@oddfoot{\hfill \inserttitle\ \thedate\ \bfseries\thepage}
+  \let\@evenfoot\@oddfoot
+}
+%    \end{macrocode}
 %
 %    \begin{macrocode}
 %</class>
