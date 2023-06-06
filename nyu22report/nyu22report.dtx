@@ -424,79 +424,56 @@
 % \begin{macro}{\maketitle}
 % \changes{v0.4}{2023/05/30}{Format the title with \pkg{titling}}
 % \changes{v0.5}{2023/05/30}{Format the title without \pkg{titling}}
+% \changes{unreleased}{2023/06/06}{Format the title once again with \pkg{titling}}
 %
-% We patch the |\maketitle| command provided by \cls{report}.
-% We tried this first with the \pkg{titling} package and we couldn't get the
-% fully correct customization.
+% We patch the |\maketitle| command provided by \cls{report}. The \pkg{titling}
+% package~\cite{pkg-titling} makes this pretty easy. As an extra benefit, the 
+% metadata macros |\@title|, |\@date|, etc., which we need to construct the page
+% footer, are preserved after |\maketitle| is expanded.
+% 
+% FIXME: This works if the \texttt{notitlepage} option to \cls{report}
+% is selected. Otherwise, \cmd{\maketitle} inserts a |\vfil| on the title page
+% and I can't figure out how to set |\droptitle| to undo it.
 %    \begin{macrocode}
 \RequirePackage{etoolbox}% \patchcmd
-\patchcmd{\maketitle}{
-  \null\vfil
-  \vskip 60\p@
-  \begin{center}%
-    {\LARGE \@title \par}%
-    \vskip 3em%
-    {\large
-     \lineskip .75em%
-      \begin{tabular}[t]{c}%
-        \@author
-      \end{tabular}\par}%
-      \vskip 1.5em%
-    {\large \@date \par}%
-  \end{center}\par
-}{
-  {\noindent\primarycolor\rule[1ex]{\textwidth}{0.07in}}
-  \vskip 60\p@
-  \begin{flushleft}%
-      {\HUGE
-      \ebseries
-      \primarycolor 
-      \MakeUppercase{\@title} \par}%
-      \vskip 15pt%
-      {\LARGE 
-        \normalcolor
-        \@subtitle
-      }
-      \vskip 35pt
-      {\normalsize
-        \bfseries
-        \primarycolor
-        \lineskip .75em%
-        \@author
-        \par}%
-      {\normalsize
-        \normalcolor
-        \@date
-        \par}%
-    \end{flushleft}\par
-    \xdef\inserttitle{\@title}
-    \xdef\thedate{\@date}
+\RequirePackage{titling}% hooks to titling, also the titlingpage environment
+\RequirePackage{eso-pic}% \AddToShipoutPictureBG*
+\setlength{\droptitle}{0pt}
+\renewcommand{\maketitlehooka}{
+  \AddToShipoutPictureBG*{
+    \put(1in,\paperheight-1in) {\primarycolor\rule[1ex]{\textwidth}{0.07in}}
+  }
+  \edef\@TITLE{\MakeUppercase{\@title}}
+  \let\@title\@TITLE
 }
-{\ClassInfo{\@currname}{Patch of `maketitle' to set title succeeded}}
-{\ClassWarning{\@currname}{Patch of `maketitle' to set title failed}}
+\pretitle{\HUGE\ebseries\primarycolor}
+\posttitle{\par\vskip15pt}
+\renewcommand{\maketitlehookb}{
+  {\LARGE 
+    \normalcolor
+    \@subtitle
+  }
+  \vskip 35pt
+}
+\preauthor{\normalsize\bfseries\primarycolor\lineskip .75em}
+\postauthor{\par}
+\predate{\normalsize\normalcolor}
+\postdate{\par}
 %    \end{macrocode}
 %
 % We also want to put the logo at the bottom of the page.
 % \changes{v0.5a}{2023/05/31}{Use \pkg{eso-pic} to position logo absolutely}
+% \changes{unreleased}{2023/06/06}{Add space in case of extra title page text}
 % 
 %    \begin{macrocode}
 \RequirePackage{graphicx}% \includegraphics
-\RequirePackage{eso-pic}% \AddToShipoutPictureBG*
-\patchcmd{\maketitle}{
-  \@thanks
-  \vfil\null
-}
-{
-  \@thanks
+\renewcommand{\maketitlehookd}{
   \AddToShipoutPictureBG*{
     \put(1in,1in) {\includegraphics[height=0.5in]{nyu_short_color}}
   }
-  \vfil\null  
+  \vspace{250pt}
 }
-{\ClassInfo{\@currname}{Patch of `maketitle' to set logo succeeded}}
-{\ClassWarning{\@currname}{Patch of `maketitle' to set logo failed}}
 %    \end{macrocode}
-%
 % \end{macro}
 %
 %
@@ -705,7 +682,7 @@
 \renewcommand{\ps@plain}{
   \let\@evenhead\@empty
   \let\@oddhead\@empty
-  \def\@oddfoot{\hfill \inserttitle\ \thedate\ \bfseries\thepage}
+  \def\@oddfoot{\hfill \@title\ \@date\ \bfseries\thepage}
   \let\@evenfoot\@oddfoot
 }
 %    \end{macrocode}

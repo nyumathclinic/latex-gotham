@@ -1,4 +1,11 @@
-\documentclass{nyu22report}
+\documentclass[notitlepage]{nyu22report}
+% The `notitlepage' option and the `titling' package provide
+% use of the `titlingpage' enviroment. This allows for extra
+% text to appear on the title page.
+%
+% If you have no need for any extra text on the title page,
+% you can take out the `notitlepage' option and the `titlingpage'
+% environment from the document beginning.
 \title{Title of Report}
 \subtitle{Subtitle of Report}
 \author{Office, unit, or school name}
@@ -29,8 +36,10 @@
 
 \usepackage{hyperref}
 \begin{document}
-\maketitle
-Report notes placeholder text
+\begin{titlingpage}
+    \maketitle
+    Report notes placeholder text
+\end{titlingpage}
 
 \tableofcontents
 
