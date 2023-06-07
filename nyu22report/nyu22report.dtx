@@ -16,6 +16,7 @@
 
 \usepackage{siunitx}^^A \qty, \unit, the \verb|S| column type
 \DeclareSIUnit{\point}{pt}
+\DeclareSIUnit{\em}{em}
 \DeclareSIUnit{\inch}{in}
 
 % In the contemporary/subtle tone quadrant, we use sans for the main text and
@@ -99,7 +100,11 @@
 %
 % \subsection{Font sizes}
 %
-% \DescribeMacro{\HUGE,\Huge,\LARGE,\Large,\large}
+% \DescribeMacro{\HUGE}
+% \DescribeMacro{\Huge}
+% \DescribeMacro{\LARGE}
+% \DescribeMacro{\Large}
+% \DescribeMacro{\large}
 % This class redefines the font sizes provided by \cls{report} to match those
 % of the official template. See Table~\ref{tab-nyu22-sizes}. The normal font
 % size is set to \qty{11}{\point}, which in turn sets the smaller sizes like 
@@ -392,7 +397,7 @@
 %    \end{macrocode}
 %
 % \begin{macro}{\ebseries}
-  \changes{v0.6}{2023/05/31}{Added this macro}
+% \changes{v0.6}{2023/05/31}{Added this macro}
 % \changes{unreleased}{2023/06/07}{Provide font series change rule to fall 
 %     back from extra bold to regular bold}
 % Regarding the font series: the default font for the Google doc templates is
@@ -407,6 +412,7 @@
 \newcommand{\ebseries}{\fontseries{eb}\selectfont}
 \DeclareFontSeriesChangeRule{m}{eb}{eb}{bx}
 %    \end{macrocode}
+% \end{macro}
 %
 %
 % \subsection{Colors}
@@ -436,27 +442,87 @@
 % \changes{unreleased}{2023/06/06}{Format the title once again with \pkg{titling}}
 %
 % We patch the |\maketitle| command provided by \cls{report}. The \pkg{titling}
-% package~\cite{pkg-titling} makes this pretty easy. As an extra benefit, the 
-% metadata macros |\@title|, |\@date|, etc., which we need to construct the page
-% footer, are preserved after |\maketitle| is expanded.
+% package~\cite{pkg-titling} makes \emph{most of} this pretty easy. As an extra
+% benefit, the metadata variables |\@title|, |\@date|, etc., which we need to 
+% construct the page footer, are preserved after |\maketitle| is expanded.
+%
+% In the \cls{report} class (upon which \cls{nyu22report} is based), 
+% |\maketitle| automatically creates a \env{titlepage} environment. This is
+% controlled by a class option |titlepage|, which is executed by default. A 
+% |\vfil| is placed above and below the title, effectively centering the title
+% vertically on the title page. After that, there is a skip of 
+% \qty{60}{\point}. The \pkg{titling} package provides a |\droptitle| length to
+% customize the amount of extra space skipped, but glue such as needed for 
+% |\vfil| can't be used as a length.
 % 
-% FIXME: This works if the \texttt{notitlepage} option to \cls{report}
-% is selected. Otherwise, \cmd{\maketitle} inserts a |\vfil| on the title page
-% and I can't figure out how to set |\droptitle| to undo it.
+% If the author wants extra text to go on the title page beyond the title (such
+% as in the official template), they must select the |notitlepage| class option
+% and use the \env{titlingpage} environment, with a \cmd{\maketitle} and
+% whatever else text is need therein. The \env{titlingpage} environment
+% \emph{does not} add the |\vfil| skip before and after the title. Furthermore,
+% its built-in skip is \qty{2}{em}.
+%
+% The cleanest way I could figure out to handle this is to correct the vertical
+% spacing when the |titlepage| class option is in force. 
+%
 %    \begin{macrocode}
-\RequirePackage{etoolbox}% \patchcmd
+\RequirePackage{etoolbox}% \patchcmd, \ifbool
 \RequirePackage{titling}% hooks to titling, also the titlingpage environment
 \RequirePackage{eso-pic}% \AddToShipoutPictureBG*
-\setlength{\droptitle}{0pt}
+%    \end{macrocode}
+%
+% This hook is expanded before the title is set.
+%    \begin{macrocode}
 \renewcommand{\maketitlehooka}{
+%    \end{macrocode}
+% In order to make the title look the same whether the |titlepage| option is 
+% used (the default), or the |nottitlepage| option and \env{titlingpage}
+% environment are used, we switch on the |@titlepage| boolean.
+%
+% If the |titlepage| option is used, |\bool{@titlepage}| will be true, and
+% we do three things:
+% \begin{itemize}
+%    \item |\vfilneg| undoes the |\vfil|
+%    \item |\vspace{-60pt}| to undo the built-in \qty{60}{\point} drop
+%    \item |\vspace{2em}| to mimic the \qty{2}{\em} drop as in \env{titlepage}
+% \end{itemize}
+% The \qty{2}{\em} drop happens to be a good visual match to the template. 
+% I can't tell what it is 
+%    \begin{macrocode}
+  \ifbool{@titlepage}{
+    \vfilneg\vspace{-60pt}\vspace{2em}
+  }{}
+%    \end{macrocode}
+% We put a horizontal rule at the top of the page. 
+% The |\AddToShipoutPictureBG*| command seems a bit of a kludge, but
+% we're already using it for the logo at the bottom of the page.
+%    \begin{macrocode}
   \AddToShipoutPictureBG*{
     \put(1in,\paperheight-1in) {\primarycolor\rule[1ex]{\textwidth}{0.07in}}
   }
+}
+%    \end{macrocode}
+%
+% Preface and postface to setting the title.
+% We save the uppercased title in a separate variable. This is necessary
+% because \cmd{\MakeUppercase} requires an argument. Then we alias the 
+% title variable to this uppercased version.
+%
+% We set the title in the largest size and heaviest weight available. 
+% The conventional order for selecting font attributes is: encoding, family,
+% shape, series, then size. We put the color at the end.
+%    \begin{macrocode}
+\pretitle{%
   \edef\@TITLE{\MakeUppercase{\@title}}
   \let\@title\@TITLE
-}
-\pretitle{\normalfont\ebseries\HUGE\primarycolor}
+  \normalfont\ebseries\HUGE\primarycolor}
 \posttitle{\par\vskip15pt}
+%    \end{macrocode}
+%
+% This hook is expanded after the title. We use it to insert the subtitle.
+%
+% TOOD: What if there's no subtitle? Should both skips happen?
+%    \begin{macrocode}
 \renewcommand{\maketitlehookb}{
   {\normalfont\LARGE 
     \normalcolor
@@ -464,13 +530,22 @@
   }
   \vskip 35pt
 }
+%    \end{macrocode}
+%
+% Preface and postface to setting the author.
+%    \begin{macrocode}
 \preauthor{\normalfont\ebseries\normalsize\primarycolor\lineskip .75em}
 \postauthor{\par}
+%    \end{macrocode}
+%
+% Preface and postface to setting the date.
+%    \begin{macrocode}
 \predate{\normalfont\normalsize\normalcolor}
 \postdate{\par}
 %    \end{macrocode}
 %
 % We also want to put the logo at the bottom of the page.
+% This hook is expanded after the title. 
 % \changes{v0.5a}{2023/05/31}{Use \pkg{eso-pic} to position logo absolutely}
 % \changes{unreleased}{2023/06/06}{Add space in case of extra title page text}
 % 
@@ -480,6 +555,10 @@
   \AddToShipoutPictureBG*{
     \put(1in,1in) {\includegraphics[height=0.5in]{nyu_short_color}}
   }
+%    \end{macrocode}
+%
+% This adds space in case there is extra text on the title page.
+%    \begin{macrocode}
   \vspace{250pt}
 }
 %    \end{macrocode}

@@ -1,0 +1,12 @@
+% Test the |\maketitle| command
+\input regression-test.tex
+\documentclass{nyu22report}
+\title{Title of Report}
+\subtitle{Subtitle of Report}
+\author{Office, unit, or school name}
+\date{01/23/2020}
+\begin{document}
+\START
+\maketitle
+\END    
+\end{document}
