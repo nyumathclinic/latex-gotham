@@ -446,7 +446,7 @@
   \edef\@TITLE{\MakeUppercase{\@title}}
   \let\@title\@TITLE
 }
-\pretitle{\HUGE\ebseries\primarycolor}
+\pretitle{\normalfont\ebseries\HUGE\primarycolor}
 \posttitle{\par\vskip15pt}
 \renewcommand{\maketitlehookb}{
   {\LARGE 
@@ -495,7 +495,7 @@
 % \end{enumerate}
 %    \begin{macrocode}
 \titleformat{\chapter}
-  {\Huge\ebseries\primarycolor}
+  {\normalfont\ebseries\Huge\primarycolor}
   {\thechapter.}
   {\wordsep}
   {}
@@ -523,7 +523,7 @@
 % The spacing values come from the ``Custom spacing'' menu in the Google doc.
 %    \begin{macrocode}
 \titleformat{\section}
-  {\Large\ebseries\primarycolor}
+  {\normalfont\ebseries\Large\primarycolor}
   {\thesection}
   {\wordsep}
   {}
@@ -543,7 +543,7 @@
 % Set the formatting and spacing of the subsection title.
 %    \begin{macrocode}
 \titleformat{\subsection}
-  {\large\ebseries\primarycolor}
+  {\normalfont\ebseries\large\primarycolor}
   {\thesubsection}
   {\wordsep}
   {}
@@ -559,7 +559,7 @@
 % |\normalsize| but smaller than |\large|.
 %    \begin{macrocode}
 \titleformat{\subsubsection}
-  {\fontsize{11.5}{14.375}\ebseries\primarycolor}
+  {\normalfont\ebseries\fontsize{11.5}{14.375}\primarycolor}
   {\thesubsubsection}
   {\wordsep}
   {\MakeUppercase}
@@ -576,7 +576,7 @@
 %    \begin{macrocode}
 \titleformat{\paragraph}
   [hang]
-  {\normalsize\ebseries\itshape\primarycolor}
+  {\normalfont\itshape\ebseries\normalsize\primarycolor}
   {\theparagraph}
   {\wordsep}
   {}
