@@ -388,15 +388,21 @@
 \renewcommand{\familydefault}{\sfdefault}
 %    \end{macrocode}
 %
+% \begin{macro}{\ebseries}
+  \changes{v0.6}{2023/05/31}{Added this macro}
+% \changes{unreleased}{2023/06/07}{Provide font series change rule to fall 
+%     back from extra bold to regular bold}
 % Regarding the font series: the default font for the Google doc templates is
 % the free Montserrat font. Its bold series is quite bold indeed. The official
 % proprietary font is Gotham. Its medium series is already bold, and its bold
 % face is even bolder. We are going to select the \verb|eb| (extra bold) series
-% here. If Gotham is available, the \verb|eb| series should be mapped to
-% Gotham~Bold. Otherwise, if Montserrat is available and being used, I think 
+% here. Thanks to the \pkg{montserrat} package, Montserrat's extra bold weight 
+% is also available. If a font doesn't have extra bold set up, the
+% |\DeclareFontSeriesChangeRule| command will fall back to regular bold.
 % \verb|eb| will fall back to \verb|b|.
 %    \begin{macrocode}
 \newcommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareFontSeriesChangeRule{m}{eb}{eb}{bx}
 %    \end{macrocode}
 %
 %
