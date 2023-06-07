@@ -93,10 +93,33 @@
 %
 % \subsection{Metadata}
 %
+%
 % \DescribeMacro{\subtitle}
 % The \cmd{\title}, \cmd{\author}, and \cmd{\date} commands work the same way
 % as in the standard classes. The \cmd{\subtitle} command in the preamble
 % allows the author to declare a subtitle.
+%
+% \subsection{The title}
+%
+% \DescribeMacro{\maketitle}
+% The class loads the \pkg{titling} package~\cite{pkg-titling} to customize
+% the document's title. As in the standard \cls{report} class, \cmd{\maketitle}
+% on its own makes a full title page.
+%
+% The official template also allows for some extra text to appear on the title
+% page below the title. To do this, use the \env{titlingpage} environment 
+% (\emph{not} \env{titlepage}!) like so:
+% \begin{verbatim}
+% \documentclass[nottitlepage]{nyu22report}
+% \title{Title of Report}
+% \date{01/23/2020}
+% \begin{document}
+%   \begin{titlingpage}
+%     \maketitle
+%     Extra cover page text
+%   \end{titlingpage}
+% ...
+% \end{verbatim}
 %
 % \subsection{Font sizes}
 %
