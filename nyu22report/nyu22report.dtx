@@ -328,6 +328,8 @@
 %
 % \begin{macro}{\HUGE,\Huge,\huge,\LARGE,\large}
 % \changes{v0.3}{2023/05/30}{Declare font sizes}
+% \changes{unreleased}{2023/06/07}{Use the \pkg{anyfontsize} package
+%     to select the correct size fonts in \hologo{pdfLaTeX}}
 % We define the font sizes to match their usage in the official template.
 % For instance, since \cmd{\Huge} is used for the chapter name in the standard
 % class, and the chapter name is set to \qty{24}{\point} in the official class,
@@ -337,6 +339,7 @@
 % with the standard class, which defines it to be \cmd{\LARGE}.
 % 
 %    \begin{macrocode}
+\RequirePackage{anyfontsize}
 \DeclareRobustCommand\HUGE{\@setfontsize\HUGE{36}{43.2}}
 \DeclareRobustCommand\Huge{\@setfontsize\Huge{24}{28.8}}
 \DeclareRobustCommand\LARGE{\@setfontsize\LARGE{18}{21.6}}
