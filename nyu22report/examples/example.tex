@@ -15,6 +15,9 @@
 \usepackage{threeparttable}% \tnote and \begin{tablenotes}...
 \usepackage{colortbl}% color table rows and column backgrounds
 \usepackage{enumitem}% customize itemize and enumerate environments
+\usepackage{copyrightbox}% the eponymous command
+\usepackage{wrapfig}% the wrapfigure environment
+\usepackage{lipsum}% lorem ipsum placeholder text
 
 \usepackage{xcolor-nyu22}
 
@@ -193,9 +196,90 @@ gives the page a cleaner look and maintains appropriate legibility.
 
 \subsection*{Single Image}
 
-Quick Tip: Add some paragraph breathing room before this paragraph to make sure
-it sits a comfortable distance away from the image above. 
+\copyrightbox[b]
+  {\includegraphics[width=\textwidth]{30812342016_f2cba3be4d_c}}
+  {“\href{https://flic.kr/p/eeBz4t}{WashingtonSquarePark}” 
+    by \href{https://www.flickr.com/photos/elizaroff/}{himlynx} 
+    via Flickr. \href{https://creativecommons.org/licenses/by-nc-nd/2.0/}{CC-BY-NC-ND-2.0}}
+
+\textbf{\primarycolor Quick Tip:} The \texttt{copyrightbox} package makes it
+easy to attach a copyright notice to an image. We are using the recommended best
+practice for Creative Commons attribution: \textbf{title} (linked to the
+source), \textbf{author} (linked to author's page), \textbf{source}, and
+\textbf{license} (linked to full text of license).
+
+\subsection*{Two Images (50/50)}
+
+\includegraphics[width=0.495\textwidth]{14168452957_bf270cd3bd_c}
+\hfill
+\includegraphics[width=0.495\textwidth]{5809293214_756213372f_c}
+
+\textbf{\primarycolor Quick Tip:}
+It is also allowable to attribute Creative Commons licensed images at the end of
+the document, as we have done below.
 
 
+\section*{Single Image, Left-wrapped Text}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \begin{center}
+      \includegraphics[width=0.48\textwidth]{14116552080_90958b7fc9_c}
+    \end{center}
+  \end{wrapfigure}
+Wrapping text around images is harder in \LaTeX{} than in Microsoft Word or
+Google Docs, but it can be accomplished with the \texttt{wrapfig} package and the
+\texttt{wrapfigure} enviroment. Things can get complicated when the surrounding
+text is shorter than the vertical height of the wrapped image, and list
+environments such as \texttt{itemize} are used.
+
+\lipsum[1]
+
+\subsection*{Single Image, Right-wrapped Text}
+
+\begin{wrapfigure}{l}{0.5\textwidth}
+    \begin{center}
+      \includegraphics[width=0.48\textwidth]{8321394957_a70473000d_c}
+    \end{center}
+  \end{wrapfigure}
+If you want your image on the left hand side of your text, use the \texttt{l}
+argument for the \texttt{wrapfigure} enviroment. 
+
+\lipsum[2]
+
+\subsection*{Image Descriptions and Accessibility}
+
+Images add great value to the web browsing experience, and can be a very
+accessible way of conveying information. But, unless a text equivalent is
+provided, information in images cannot be accessed or understood by users who
+cannot see them. This can result in screen reader users not being able to
+understand content or understand how to interact with content.
+
+Adding alt text to images in PDFs is not as easy as it is with HTML. There are
+some \LaTeX{} packages in development but the project is far from complete. Read
+more about image descriptions on NYU’s
+\href{https://www.nyu.edu/life/information-technology/help-and-service-status/accessibility/accessibility-checklist/image-descriptions-text-alternative.html}{Digital
+Accessibility Checklist}.
+
+\appendix
+\chapter{Image attributions}
+
+\begin{itemize}
+    \item “\href{https://flic.kr/p/eeBz4t}{WashingtonSquarePark}” 
+    by \href{https://www.flickr.com/photos/elizaroff/}{himlynx} 
+    via Flickr. \href{https://creativecommons.org/licenses/by-nc-nd/2.0/}{CC-BY-NC-ND-2.0}
+    \item \href{https://flic.kr/p/nA22rF}{2014\_06\_05\_nyc-from-nyu\_16}
+    by \href{https://www.flickr.com/photos/docsearls/}{Doc Searls}
+    via Flickr.
+    \href{https://creativecommons.org/licenses/by/2.0/}{CC-BY-2.0}
+    \item “\href{https://flic.kr/p/9Rm9tQ}{Brooklyn Bridge}”
+    by \href{https://www.flickr.com/photos/3336/}{Diego Torres Silvestre}
+    via Flickr.
+    \href{https://creativecommons.org/licenses/by/2.0/}{CC-BY-2.0}
+    \item “\href{https://flic.kr/p/nvr27Y}{All Day, All Night, NYU}” by \href{https://www.flickr.com/photos/wwward0/}{Billie Grace Ward} via Flickr.
+    \href{https://creativecommons.org/licenses/by/2.0/}{CC-BY-2.0}
+    \item “\href{https://flic.kr/p/dFkjNR}{New York University}” 
+       by \href{http://scottbeale.org/}{Scott Beale} via Flickr.
+    \href{https://creativecommons.org/licenses/by-nc-nd/2.0/}{CC-BY-NC-ND-2.0}
+\end{itemize}
 
 \end{document}

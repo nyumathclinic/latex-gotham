@@ -16,7 +16,7 @@ stdengine = "luatex"
 checkopts = "-interaction=batchmode"
 
 typesetfiles = {"*.tex", "examples/*.tex"}
-typesetsuppfiles = {"*.png", "*.bib"}
+typesetsuppfiles = {"*.png", "*.jpg", "*.bib"}
 typesetdeps = { maindir .. "/xcolor-nyu22" }
 typesetexe = "lualatex"
 
