@@ -99,7 +99,6 @@ end
 
 target_list.bump = {
     func = bump_version,
-    bundle_func = bump_version,
     help = "Bump the version, tag, and commit"
 }
 
