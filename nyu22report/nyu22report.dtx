@@ -88,16 +88,36 @@
 %    \documentclass[options]{nyu22report}
 % \end{verbatim}
 %
-% For the most part, the usage is the same as with \cls{report}.
+% There are no class options specific to \cls{nyu22report} at this time.
+% All options given on this line are passed to the \cls{report} class.
+%
 % There are a few extra commands.
 %
 % \subsection{Metadata}
 %
+% \DescribeMacro{\shorttitle}
+% The \cmd{\title} command can be used to declare the title of the document.
+% The \cmd{\maketitle} command (see below) sets the title in large, bold font.
+% The template \emph{also} places the title in the page footer.
+%
+% In case the the full title is too long to appear in the page footer, an
+% optional short title can be provided like so:
+%
+% \begin{verbatim}
+%     \title{Long, Long, Long, Long, Long Title}  
+%     \shorttitle{Short Title}
+% \end{verbatim}
 %
 % \DescribeMacro{\subtitle}
-% The \cmd{\title}, \cmd{\author}, and \cmd{\date} commands work the same way
-% as in the standard classes. The \cmd{\subtitle} command in the preamble
-% allows the author to declare a subtitle.
+% The \cmd{\subtitle} command in the preamble allows the author to declare a
+% subtitle.
+%
+% \DescribeMacro{\date}
+% The official template uses a mm/dd/yyyy date style, and also puts the name
+% of the month and the year in the footer. Use the \cmd{\date} command to
+% declare the date of publication of the document. \textbf{It must be in this
+% format}, otherwise the macros which parse the date will not work. If no date
+% is declared, the current date (of compilation) is used.
 %
 % \subsection{The title}
 %
@@ -286,12 +306,45 @@
 }
 \ProcessOptions\relax
 \LoadClass[11pt]{report}
-\RequirePackage{xcolor}
-\providecolor{NyuViolet}{HTML}{57068C}
-\colorlet{primary}{NyuViolet}
 %    \end{macrocode}
 %
+% \subsection{Required Packages}
+%
+% These provide a \LaTeX3-like interface for document commands.
+%    \begin{macrocode}
+\RequirePackage{xparse}
+\RequirePackage{letltxmacro}
+%    \end{macrocode}
+% This package provides commands like \cmd{\patchcmd} and
+% a more \LaTeX-like interface for booleans called \cmd{\ifbool}.
+%    \begin{macrocode}
+\RequirePackage{etoolbox}
+%    \end{macrocode}
+% This package provides customization of the \cmd{\maketitle}
+% command.
+%    \begin{macrocode}
+\RequirePackage{titling}
+%    \end{macrocode}
+% This package provides the command \cmd{\AddToShipoutPictureBG*}.
+% which we need to add the logo.
+%    \begin{macrocode}
+\RequirePackage{eso-pic}
+%    \end{macrocode}
+%
+% More packages are |\Require|d below as they are needed.
+%
 % \subsection{Metadata}
+%
+% \begin{macro}{\shorttitle}
+% \changes{unreleased}{2023/06/08}{Added this command}
+% The short title of the document, initialized to be the same
+% as the full title.
+%
+%    \begin{macrocode}
+\DeclareRobustCommand*{\shorttitle}[1]{\gdef\@shorttitle{#1}}
+\shorttitle{\@title}
+%    \end{macrocode}
+% \end{macro}
 %
 % The \cmd{\subtitle} command works like \cmd{\title}, saving
 % its argument for \cmd{\maketitle}.

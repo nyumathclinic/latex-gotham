@@ -1,0 +1,11 @@
+% Test the short title implementation
+\input regression-test.tex
+\documentclass{nyu22report}
+\title{Long, Long, Long, Long, Long Title}  
+\shorttitle{Short Title}
+\makeatletter
+\START
+\show\@title
+\show\@shorttitle
+\END
+\makeatother    
