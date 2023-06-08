@@ -15,6 +15,9 @@ This bundle contains several modules:
   adapts `Gotham`, both are shipped, but the `Gotham` theme should probably not
   be used anymore.
 
+* `nyu22report` is an extension of the standard `report` class which mimics the
+  official [template][1].
+
 * `xcolor-nyu22` is a package (extending `xcolor`) which provides names for the
   colors in the official 2022 brand pallette.
 
@@ -106,3 +109,4 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+[1]: https://www.nyu.edu/employees/resources-and-services/media-and-communications/nyu-brand-guidelines/creating-messaging-and-visual-assets/templates.html
