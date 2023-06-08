@@ -359,6 +359,28 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\date}
+% \changes{unreleased}{2023/06/08}{Added this macro}
+% We implement dates as in the template: mm/dd/yyyy format.
+% We also save the document date in a \pkg{datetime2} date object.
+%    \begin{macrocode}
+\RequirePackage[datesep=/]{datetime2}
+\DTMusemodule{english}{en-US}
+\DTMsetdatestyle{mmddyyyy}
+\NewDocumentCommand{\parsedocdate}{>{\SplitArgument{2}{/}}m}{
+    \parsedocdate@mmddyyyy #1
+}
+\NewDocumentCommand{\parsedocdate@mmddyyyy}{ m m m }{
+    \DTMsavedate{docdate}{#3-#1-#2}
+}
+\AtBeginDocument{
+    \edef\@@date{\@date}
+    \expandafter\parsedocdate\expandafter{\@@date}
+}
+%    \end{macrocode}
+% 
+% \end{macro}
+%
 % \section{Document Layout}
 %
 % \subsection{Font sizes}
@@ -540,12 +562,6 @@
 %
 % The cleanest way I could figure out to handle this is to correct the vertical
 % spacing when the |titlepage| class option is in force. 
-%
-%    \begin{macrocode}
-\RequirePackage{etoolbox}% \patchcmd, \ifbool
-\RequirePackage{titling}% hooks to titling, also the titlingpage environment
-\RequirePackage{eso-pic}% \AddToShipoutPictureBG*
-%    \end{macrocode}
 %
 % This hook is expanded before the title is set.
 %    \begin{macrocode}
@@ -842,11 +858,21 @@
 %
 % \subsection{Page footer}
 %
+% As per the template, we put these into the page footer:
+% \begin{itemize}
+%   \item The title (or short title, if it has been set)
+%   \item The month and year of the document
+%   \item The page number 
+% \end{itemize}
 %    \begin{macrocode}
 \renewcommand{\ps@plain}{
   \let\@evenhead\@empty
   \let\@oddhead\@empty
-  \def\@oddfoot{\hfill \@title\ \@date\ \bfseries\thepage}
+  \def\@oddfoot{\hfill
+    \@shorttitle\quad
+    \DTMenglishmonthname{\DTMfetchmonth{docdate}}\ 
+    \DTMfetchyear{docdate}\quad
+    \bfseries\thepage}
   \let\@evenfoot\@oddfoot
 }
 %    \end{macrocode}
