@@ -1,7 +1,7 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 (nyu22fonts.sty
-Package: nyu22fonts ....-..-.. vv....0 NYU Typefaces and Fonts
+Package: nyu22fonts ....-..-.. vv... NYU Typefaces and Fonts
 (../l3keys2e.sty
 Package: l3keys2e ....-..-.. LaTeX2e option processing using LaTeX3 keys
 ) (../helvet.sty
