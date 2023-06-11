@@ -145,10 +145,9 @@ l. ...  }
 TEST 4: \rmfamily 
 ============================================================
 > \box...=
-\hbox(6.94336+2.1582)x159.90071, direction TLT
+\hbox(6.94336+2.1582)x160.8138, direction TLT
 .\TU/TimesNewRoman(0)/m/n/10 M
 .\TU/TimesNewRoman(0)/m/n/10 r
-.\kern-0.55176 (font)
 .\TU/TimesNewRoman(0)/m/n/10 .
 .\glue(\spaceskip) 3.33333 plus 3.75 minus 0.27777
 .\TU/TimesNewRoman(0)/m/n/10 J
@@ -156,10 +155,10 @@ TEST 4: \rmfamily
 .\TU/TimesNewRoman(0)/m/n/10 c
 .\TU/TimesNewRoman(0)/m/n/10 k
 .\TU/TimesNewRoman(0)/m/n/10 ,
-.\glue(\spaceskip) 2.31934 plus 1.5625 minus 0.66666
+.\glue(\spaceskip) 2.5 plus 1.5625 minus 0.66666
 .\TU/TimesNewRoman(0)/m/n/10 T
 .\TU/TimesNewRoman(0)/m/n/10 V
-.\glue(\spaceskip) 2.31934 plus 1.24875 minus 0.83415
+.\glue(\spaceskip) 2.5 plus 1.24875 minus 0.83415
 .\TU/TimesNewRoman(0)/m/n/10 q
 .\TU/TimesNewRoman(0)/m/n/10 u
 .\TU/TimesNewRoman(0)/m/n/10 i
@@ -193,10 +192,9 @@ l. ...  }
 TEST 5: \rmfamily \bfseries 
 ============================================================
 > \box...=
-\hbox(6.77734+2.1582)x167.33723, direction TLT
+\hbox(6.77734+2.1582)x168.61653, direction TLT
 .\TU/TimesNewRoman(0)/b/n/10 M
 .\TU/TimesNewRoman(0)/b/n/10 r
-.\kern-0.91797 (font)
 .\TU/TimesNewRoman(0)/b/n/10 .
 .\glue(\spaceskip) 3.33333 plus 3.75 minus 0.27777
 .\TU/TimesNewRoman(0)/b/n/10 J
@@ -204,10 +202,10 @@ TEST 5: \rmfamily \bfseries
 .\TU/TimesNewRoman(0)/b/n/10 c
 .\TU/TimesNewRoman(0)/b/n/10 k
 .\TU/TimesNewRoman(0)/b/n/10 ,
-.\glue(\spaceskip) 2.31934 plus 1.5625 minus 0.66666
+.\glue(\spaceskip) 2.5 plus 1.5625 minus 0.66666
 .\TU/TimesNewRoman(0)/b/n/10 T
 .\TU/TimesNewRoman(0)/b/n/10 V
-.\glue(\spaceskip) 2.31934 plus 1.24875 minus 0.83415
+.\glue(\spaceskip) 2.5 plus 1.24875 minus 0.83415
 .\TU/TimesNewRoman(0)/b/n/10 q
 .\TU/TimesNewRoman(0)/b/n/10 u
 .\TU/TimesNewRoman(0)/b/n/10 i
