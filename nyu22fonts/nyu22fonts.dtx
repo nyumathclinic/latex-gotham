@@ -1,9 +1,9 @@
 %
 % \iffalse
 %<*driver>
-\ProvidesFile{nyu22fonts.dtx}[2023/05/29 v0.14g NYU Typefaces and Fonts]
+\ProvidesFile{nyu22fonts.dtx}[2023/06/12 v0.14h NYU Typefaces and Fonts]
 %</driver>
-%<pkg>\ProvidesExplPackage{nyu22fonts}{2023/05/29}{v0.14g}{NYU Typefaces and Fonts}
+%<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/12}{v0.14h}{NYU Typefaces and Fonts}
 %<*driver>
 \documentclass{l3doc}
 \usepackage{graphicx}
@@ -294,7 +294,7 @@
 %
 % \begin{macro}{\l_nyu_set_frank_ruhl_libre:}
 % Set the default roman family to Frank Ruhl Libre. 
-% \changes{unreleased}{2023/06/12}{Don't also set the sans font simultaneously.}
+% \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_frank_ruhl_libre: {
   \setmainfont{Frank~Ruhl~Libre}[
@@ -460,7 +460,7 @@
     sans-serif-font / Vera             .code: n = { \l_nyu_set_vera: },
 %    \end{macrocode}
 %
-% \changes{unreleased}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}.
+% \changes{v0.14h}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}.
 %    \begin{macrocode}
     Gotham .meta:n = { sans-serif-font = Gotham }, 
     Frank Ruhl Libre .meta:n = { serif-font = Frank Ruhl Libre},
