@@ -1,0 +1,335 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+(../montserrat.fontspec)
+Package fontspec Info: Font family 'montserrat(0)' created for font
+(fontspec)             'montserrat' with options
+(fontspec)             [Ligatures=TeX,Extension=.otf,UprightFont=Montserrat-Regular,ItalicFont=Montserrat-Italic,BoldFont=Montserrat-Bold,BoldItalicFont=Montserrat-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Regular.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Bold.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Bold.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Italic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Italic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-BoldItalic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-BoldItalic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+Package fontspec Info: Font family 'FrankRuhlLibre(0)' created for font 'Frank
+(fontspec)             Ruhl Libre' with options
+(fontspec)             [Ligatures=TeX,ItalicFont=*,ItalicFeatures={FakeSlant}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Frank Ruhl
+(fontspec)             Libre/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Frank Ruhl
+(fontspec)             Libre/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Frank Ruhl
+(fontspec)             Libre/OT:script=latn;language=dflt;slant=0.2;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Frank Ruhl
+(fontspec)             Libre/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+============================================================
+TEST 1: \sffamily 
+============================================================
+> \box...=
+\hbox(7.47+1.98999)x184.85327
+.\TU/montserrat(0)/m/n/10 Mr.
+.\glue 3.49332 plus 3.93 minus 0.2911
+.\TU/montserrat(0)/m/n/10 Jock,
+.\glue 2.62 plus 1.6375 minus 0.69865
+.\TU/montserrat(0)/m/n/10 TV
+.\glue 2.62 plus 1.30869 minus 0.87419
+.\TU/montserrat(0)/m/n/10 quiz
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/montserrat(0)/m/n/10 PhD.,
+.\glue 2.62 plus 1.6375 minus 0.69865
+.\TU/montserrat(0)/m/n/10 bags
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/montserrat(0)/m/n/10 few
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/montserrat(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.87+2.01999)x196.71335
+.\TU/montserrat(0)/b/n/10 Mr.
+.\glue 3.77333 plus 4.24498 minus 0.31444
+.\TU/montserrat(0)/b/n/10 Jock,
+.\glue 2.83 plus 1.76874 minus 0.75465
+.\TU/montserrat(0)/b/n/10 TV
+.\glue 2.83 plus 1.41357 minus 0.94426
+.\TU/montserrat(0)/b/n/10 quiz
+.\glue 2.83 plus 1.415 minus 0.94333
+.\TU/montserrat(0)/b/n/10 PhD.,
+.\glue 2.83 plus 1.76874 minus 0.75465
+.\TU/montserrat(0)/b/n/10 bags
+.\glue 2.83 plus 1.415 minus 0.94333
+.\TU/montserrat(0)/b/n/10 few
+.\glue 2.83 plus 1.415 minus 0.94333
+.\TU/montserrat(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \itshape 
+============================================================
+> \box...=
+\hbox(7.47+1.98999)x185.65327
+.\TU/montserrat(0)/m/it/10 Mr.
+.\glue 3.49332 plus 3.93 minus 0.2911
+.\TU/montserrat(0)/m/it/10 Jock,
+.\glue 2.62 plus 1.6375 minus 0.69865
+.\TU/montserrat(0)/m/it/10 TV
+.\glue 2.62 plus 1.30869 minus 0.87419
+.\TU/montserrat(0)/m/it/10 quiz
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/montserrat(0)/m/it/10 PhD.,
+.\glue 2.62 plus 1.6375 minus 0.69865
+.\TU/montserrat(0)/m/it/10 bags
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/montserrat(0)/m/it/10 few
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/montserrat(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \rmfamily 
+============================================================
+> \box...=
+\hbox(7.05+2.11998)x165.26666
+.\TU/FrankRuhlLibre(0)/m/n/10 Mr.
+.\glue 3.18666 plus 3.58498 minus 0.26555
+.\TU/FrankRuhlLibre(0)/m/n/10 Jock,
+.\glue 2.39 plus 1.49373 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/n/10 TV
+.\glue 2.39 plus 1.19379 minus 0.79745
+.\TU/FrankRuhlLibre(0)/m/n/10 quiz
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 PhD.,
+.\glue 2.39 plus 1.49373 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/n/10 bags
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 few
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.04+2.11998)x173.07002
+.\TU/FrankRuhlLibre(0)/b/n/10 Mr.
+.\glue 2.95999 plus 3.33 minus 0.24666
+.\TU/FrankRuhlLibre(0)/b/n/10 Jock,
+.\glue 2.22 plus 1.3875 minus 0.59198
+.\TU/FrankRuhlLibre(0)/b/n/10 TV
+.\glue 2.22 plus 1.10889 minus 0.74072
+.\TU/FrankRuhlLibre(0)/b/n/10 quiz
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/n/10 PhD.,
+.\glue 2.22 plus 1.3875 minus 0.59198
+.\TU/FrankRuhlLibre(0)/b/n/10 bags
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/n/10 few
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \rmfamily \itshape 
+============================================================
+> \box...=
+\hbox(7.05+2.11998)x165.26666
+.\TU/FrankRuhlLibre(0)/m/it/10 Mr.
+.\glue 3.18666 plus 3.58498 minus 0.26555
+.\TU/FrankRuhlLibre(0)/m/it/10 Jock,
+.\glue 2.39 plus 1.49373 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/it/10 TV
+.\glue 2.39 plus 1.19379 minus 0.79745
+.\TU/FrankRuhlLibre(0)/m/it/10 quiz
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 PhD.,
+.\glue 2.39 plus 1.49373 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/it/10 bags
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 few
+.\glue 2.39 plus 1.19499 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 7: \sffamily 
+============================================================
+> \box...=
+\hbox(7.27539+2.2119)x171.54622
+.\TU/Helvetica(0)/m/n/10 Mr.
+.\glue 3.70442 plus 4.16748 minus 0.3087
+.\TU/Helvetica(0)/m/n/10 Jock,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/m/n/10 TV
+.\glue 2.77832 plus 1.38776 minus 0.92702
+.\TU/Helvetica(0)/m/n/10 quiz
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/n/10 PhD.,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/m/n/10 bags
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/n/10 few
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 8: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.27051+2.17772)x181.52669
+.\TU/Helvetica(0)/b/n/10 Mr.
+.\glue 3.70442 plus 4.16748 minus 0.3087
+.\TU/Helvetica(0)/b/n/10 Jock,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/b/n/10 TV
+.\glue 2.77832 plus 1.38776 minus 0.92702
+.\TU/Helvetica(0)/b/n/10 quiz
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/n/10 PhD.,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/b/n/10 bags
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/n/10 few
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 9: \sffamily \itshape 
+============================================================
+> \box...=
+\hbox(7.27539+2.2119)x171.54622
+.\TU/Helvetica(0)/m/it/10 Mr.
+.\glue 3.70442 plus 4.16748 minus 0.3087
+.\TU/Helvetica(0)/m/it/10 Jock,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/m/it/10 TV
+.\glue 2.77832 plus 1.38776 minus 0.92702
+.\TU/Helvetica(0)/m/it/10 quiz
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/it/10 PhD.,
+.\glue 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/m/it/10 bags
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/it/10 few
+.\glue 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 10: \rmfamily 
+============================================================
+> \box...=
+\hbox(6.94336+2.15819)x160.26204
+.\TU/TimesNewRoman(0)/m/n/10 Mr.
+.\glue 3.33333 plus 3.75 minus 0.27777
+.\TU/TimesNewRoman(0)/m/n/10 Jock,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/m/n/10 TV
+.\glue 2.5 plus 1.24875 minus 0.83415
+.\TU/TimesNewRoman(0)/m/n/10 quiz
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/n/10 PhD.,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/m/n/10 bags
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/n/10 few
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 11: \rmfamily \bfseries 
+============================================================
+> \box...=
+\hbox(6.77734+2.15819)x167.69856
+.\TU/TimesNewRoman(0)/b/n/10 Mr.
+.\glue 3.33333 plus 3.75 minus 0.27777
+.\TU/TimesNewRoman(0)/b/n/10 Jock,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/b/n/10 TV
+.\glue 2.5 plus 1.24875 minus 0.83415
+.\TU/TimesNewRoman(0)/b/n/10 quiz
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/b/n/10 PhD.,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/b/n/10 bags
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/b/n/10 few
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 12: \rmfamily \itshape 
+============================================================
+> \box...=
+\hbox(6.94336+2.15819)x156.36555
+.\TU/TimesNewRoman(0)/m/it/10 Mr.
+.\glue 3.33333 plus 3.75 minus 0.27777
+.\TU/TimesNewRoman(0)/m/it/10 Jock,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/m/it/10 TV
+.\glue 2.5 plus 1.24875 minus 0.83415
+.\TU/TimesNewRoman(0)/m/it/10 quiz
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/it/10 PhD.,
+.\glue 2.5 plus 1.5625 minus 0.66666
+.\TU/TimesNewRoman(0)/m/it/10 bags
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/it/10 few
+.\glue 2.5 plus 1.25 minus 0.83333
+.\TU/TimesNewRoman(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-007.aux)

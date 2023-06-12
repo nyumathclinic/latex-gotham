@@ -166,8 +166,25 @@
 % Microsoft or Apple product installed.
 %
 % The Type~1 fonts referenced will be in \hologo{TeX}~Live.
-
+%
+%
 % \section{Usage}
+%
+% Almost everything in the package is described with keys, as in PGF/TikZ.
+%
+% \begin{function}{usepackage}
+%   \begin{syntax}
+%      \cs{usepackage}\oarg{keys}|{nyu22fonts}|
+%   \end{syntax}
+%   Set package options while loading
+% \end{function}
+
+% \begin{function}{nyufontssetup}
+%   \begin{syntax}
+%     \cs{nyufontssetup}\marg{keys}
+%   \end{syntax}
+%   Set package options after package loading
+% \end{function}
 
 % \subsection{\hologo{XeLaTeX} and \hologo{LuaLaTeX} usage}
 
@@ -512,15 +529,18 @@
 %
 % The \pkg{l3keys2e} package is obsolete with the June 2022 \LaTeX{} release.
 % See~\cite{tse-l3keys2e}.
+% \begin{macro}{\nyufontssetup}
 %    \begin{macrocode}
 \IfFormatAtLeastTF { 2022-06-01 }
 { 
-  \ProcessKeyOptions [ nyufonts ] 
+  \ProcessKeyOptions [ nyufonts ]
+  \newcommand{\nyufontssetup}[1]{ \SetKeys[ nyufonts ]{#1} }
 }{
   \RequirePackage { l3keys2e }
   \ProcessKeysOptions { nyufonts }
 }  
 %    \end{macrocode}
+% \end{macro}
 %
 %    \begin{macrocode}
 %</pkg>
