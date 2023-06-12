@@ -4,7 +4,7 @@ Don't change this file in any respect.
 TEST 1: \sffamily 
 ============================================================
 > \box...=
-\hbox(7.34+1.62999)x187.04001
+\hbox(7.34+1.62999)x186.94002
 .\TU/GothamBook(0)/m/n/10 Mr.
 .\glue 4.0 plus 4.5 minus 0.33333
 .\TU/GothamBook(0)/m/n/10 Jock,
@@ -28,7 +28,7 @@ l. ...  }
 TEST 2: \sffamily \bfseries 
 ============================================================
 > \box...=
-\hbox(7.36+1.62999)x189.84001
+\hbox(7.36+1.62999)x189.86
 .\TU/GothamBook(0)/b/n/10 Mr.
 .\glue 4.0 plus 4.5 minus 0.33333
 .\TU/GothamBook(0)/b/n/10 Jock,
@@ -52,7 +52,7 @@ l. ...  }
 TEST 3: \sffamily \itshape 
 ============================================================
 > \box...=
-\hbox(7.32+1.62999)x185.93
+\hbox(7.32+1.62999)x185.52
 .\TU/GothamBook(0)/m/it/10 Mr.
 .\glue 4.0 plus 4.5 minus 0.33333
 .\TU/GothamBook(0)/m/it/10 Jock,
@@ -75,23 +75,46 @@ l. ...  }
 ============================================================
 TEST 4: \rmfamily 
 ============================================================
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no J ("4A) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no k ("6B) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no T ("54) in font nullfont!
+Missing character: There is no V ("56) in font nullfont!
+Missing character: There is no q ("71) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no z ("7A) in font nullfont!
+Missing character: There is no P ("50) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no D ("44) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
 > \box...=
-\hbox(7.41+2.09999)x165.4033
-.\TU/MercuryTextG2Roman(0)/m/n/10 Mr.
-.\glue 2.93332 plus 3.29997 minus 0.24443
-.\TU/MercuryTextG2Roman(0)/m/n/10 Jock,
-.\glue 2.2 plus 1.37498 minus 0.58665
-.\TU/MercuryTextG2Roman(0)/m/n/10 TV
-.\glue 2.2 plus 1.09888 minus 0.73405
-.\TU/MercuryTextG2Roman(0)/m/n/10 quiz
-.\glue 2.2 plus 1.09999 minus 0.73332
-.\TU/MercuryTextG2Roman(0)/m/n/10 PhD.,
-.\glue 2.2 plus 1.37498 minus 0.58665
-.\TU/MercuryTextG2Roman(0)/m/n/10 bags
-.\glue 2.2 plus 1.09999 minus 0.73332
-.\TU/MercuryTextG2Roman(0)/m/n/10 few
-.\glue 2.2 plus 1.09999 minus 0.73332
-.\TU/MercuryTextG2Roman(0)/m/n/10 lynx.
+\hbox(0.0+0.0)x0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -99,23 +122,55 @@ l. ...  }
 ============================================================
 TEST 5: \rmfamily \bfseries 
 ============================================================
+! Font TU/MercuryTextG2Roman(0)/b/n/10="Mercury Text G2 Bold" at 10.0pt not loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l. ...  }
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no J ("4A) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no k ("6B) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no T ("54) in font nullfont!
+Missing character: There is no V ("56) in font nullfont!
+Missing character: There is no q ("71) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no z ("7A) in font nullfont!
+Missing character: There is no P ("50) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no D ("44) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
 > \box...=
-\hbox(7.41+2.06999)x175.53006
-.\TU/MercuryTextG2Roman(0)/b/n/10 Mr.
-.\glue 2.8 plus 3.15001 minus 0.23332
-.\TU/MercuryTextG2Roman(0)/b/n/10 Jock,
-.\glue 2.1 plus 1.3125 minus 0.56
-.\TU/MercuryTextG2Roman(0)/b/n/10 TV
-.\glue 2.1 plus 1.04895 minus 0.70068
-.\TU/MercuryTextG2Roman(0)/b/n/10 quiz
-.\glue 2.1 plus 1.05 minus 0.7
-.\TU/MercuryTextG2Roman(0)/b/n/10 PhD.,
-.\glue 2.1 plus 1.3125 minus 0.56
-.\TU/MercuryTextG2Roman(0)/b/n/10 bags
-.\glue 2.1 plus 1.05 minus 0.7
-.\TU/MercuryTextG2Roman(0)/b/n/10 few
-.\glue 2.1 plus 1.05 minus 0.7
-.\TU/MercuryTextG2Roman(0)/b/n/10 lynx.
+\hbox(0.0+0.0)x0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -123,26 +178,59 @@ l. ...  }
 ============================================================
 TEST 6: \rmfamily \itshape 
 ============================================================
+! Font TU/MercuryTextG2Roman(0)/m/it/10="Mercury Text G2 Italic" at 10.0pt not loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l. ...  }
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+Missing character: There is no M ("4D) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no J ("4A) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no k ("6B) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no T ("54) in font nullfont!
+Missing character: There is no V ("56) in font nullfont!
+Missing character: There is no q ("71) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no z ("7A) in font nullfont!
+Missing character: There is no P ("50) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no D ("44) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
 > \box...=
-\hbox(7.41+2.18999)x159.16333
-.\TU/MercuryTextG2Roman(0)/m/it/10 Mr.
-.\glue 2.93332 plus 3.29997 minus 0.24443
-.\TU/MercuryTextG2Roman(0)/m/it/10 Jock,
-.\glue 2.2 plus 1.37498 minus 0.58665
-.\TU/MercuryTextG2Roman(0)/m/it/10 TV
-.\glue 2.2 plus 1.09888 minus 0.73405
-.\TU/MercuryTextG2Roman(0)/m/it/10 quiz
-.\glue 2.2 plus 1.09999 minus 0.73332
-.\TU/MercuryTextG2Roman(0)/m/it/10 PhD.,
-.\glue 2.2 plus 1.37498 minus 0.58665
-.\TU/MercuryTextG2Roman(0)/m/it/10 bags
-.\glue 2.2 plus 1.09999 minus 0.73332
-.\TU/MercuryTextG2Roman(0)/m/it/10 few
-.\glue 2.2 plus 1.09999 minus 0.73332
-.\TU/MercuryTextG2Roman(0)/m/it/10 lynx.
+\hbox(0.0+0.0)x0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
+.\glue 0.0
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
+Missing character: There is no 1 ("31) in font nullfont!
 [1
 ] (nyu22fonts-001.aux)

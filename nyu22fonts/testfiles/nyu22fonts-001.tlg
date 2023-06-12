@@ -4,7 +4,7 @@ Don't change this file in any respect.
 TEST 1: \sffamily 
 ============================================================
 > \box...=
-\hbox(7.34+1.63)x187.04001, direction TLT
+\hbox(7.34+1.63)x186.94003, direction TLT
 .\TU/GothamBook(0)/m/n/10 M
 .\TU/GothamBook(0)/m/n/10 r
 .\kern-0.9 (font)
@@ -55,7 +55,7 @@ l. ...  }
 TEST 2: \sffamily \bfseries 
 ============================================================
 > \box...=
-\hbox(7.36+1.63)x189.84001, direction TLT
+\hbox(7.36+1.63)x189.86005, direction TLT
 .\TU/GothamBook(0)/b/n/10 M
 .\TU/GothamBook(0)/b/n/10 r
 .\kern-0.9 (font)
@@ -106,7 +106,7 @@ l. ...  }
 TEST 3: \sffamily \itshape 
 ============================================================
 > \box...=
-\hbox(7.32+1.63)x185.93001, direction TLT
+\hbox(7.32+1.63)x185.51999, direction TLT
 .\TU/GothamBook(0)/m/it/10 M
 .\TU/GothamBook(0)/m/it/10 r
 .\kern-0.86 (font)
@@ -147,6 +147,7 @@ TEST 3: \sffamily \itshape
 .\TU/GothamBook(0)/m/it/10 l
 .\TU/GothamBook(0)/m/it/10 y
 .\TU/GothamBook(0)/m/it/10 n
+.\kern-0.01 (font)
 .\TU/GothamBook(0)/m/it/10 x
 .\TU/GothamBook(0)/m/it/10 .
 ! OK.
@@ -157,43 +158,40 @@ l. ...  }
 TEST 4: \rmfamily 
 ============================================================
 > \box...=
-\hbox(7.41+2.1)x165.4033, direction TLT
+\hbox(0.0+0.0)x0.0, direction TLT
 .\TU/MercuryTextG2Roman(0)/m/n/10 M
 .\TU/MercuryTextG2Roman(0)/m/n/10 r
-.\kern-0.7 (font)
 .\TU/MercuryTextG2Roman(0)/m/n/10 .
-.\glue(\spaceskip) 2.93333 plus 3.30002 minus 0.24445
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/n/10 J
-.\kern-0.4 (font)
 .\TU/MercuryTextG2Roman(0)/m/n/10 o
 .\TU/MercuryTextG2Roman(0)/m/n/10 c
 .\TU/MercuryTextG2Roman(0)/m/n/10 k
 .\TU/MercuryTextG2Roman(0)/m/n/10 ,
-.\glue(\spaceskip) 2.2 plus 1.375 minus 0.58667
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/n/10 T
 .\TU/MercuryTextG2Roman(0)/m/n/10 V
-.\glue(\spaceskip) 2.2 plus 1.09889 minus 0.73407
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/n/10 q
 .\TU/MercuryTextG2Roman(0)/m/n/10 u
 .\TU/MercuryTextG2Roman(0)/m/n/10 i
 .\TU/MercuryTextG2Roman(0)/m/n/10 z
-.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/n/10 P
 .\TU/MercuryTextG2Roman(0)/m/n/10 h
 .\TU/MercuryTextG2Roman(0)/m/n/10 D
-.\kern-0.6 (font)
 .\TU/MercuryTextG2Roman(0)/m/n/10 .
 .\TU/MercuryTextG2Roman(0)/m/n/10 ,
-.\glue(\spaceskip) 2.2 plus 1.375 minus 0.58667
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/n/10 b
 .\TU/MercuryTextG2Roman(0)/m/n/10 a
 .\TU/MercuryTextG2Roman(0)/m/n/10 g
 .\TU/MercuryTextG2Roman(0)/m/n/10 s
-.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/n/10 f
 .\TU/MercuryTextG2Roman(0)/m/n/10 e
 .\TU/MercuryTextG2Roman(0)/m/n/10 w
-.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/n/10 l
 .\TU/MercuryTextG2Roman(0)/m/n/10 y
 .\TU/MercuryTextG2Roman(0)/m/n/10 n
@@ -206,46 +204,52 @@ l. ...  }
 ============================================================
 TEST 5: \rmfamily \bfseries 
 ============================================================
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+! Font \TU/MercuryTextG2Roman(0)/b/n/10=MercuryTextG2Bold:mode=node;language=dfl
+t;+tlig; at 10pt not loadable: metric data not found or bad.
+<to be read again> 
+relax 
+l. ...  }
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
 > \box...=
-\hbox(7.41+2.07)x175.53004, direction TLT
+\hbox(0.0+0.0)x0.0, direction TLT
 .\TU/MercuryTextG2Roman(0)/b/n/10 M
 .\TU/MercuryTextG2Roman(0)/b/n/10 r
-.\kern-0.9 (font)
 .\TU/MercuryTextG2Roman(0)/b/n/10 .
-.\glue(\spaceskip) 2.8 plus 3.15001 minus 0.23332
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/b/n/10 J
-.\kern-0.3 (font)
 .\TU/MercuryTextG2Roman(0)/b/n/10 o
 .\TU/MercuryTextG2Roman(0)/b/n/10 c
 .\TU/MercuryTextG2Roman(0)/b/n/10 k
-.\kern0.1 (font)
 .\TU/MercuryTextG2Roman(0)/b/n/10 ,
-.\glue(\spaceskip) 2.1 plus 1.3125 minus 0.56
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/b/n/10 T
 .\TU/MercuryTextG2Roman(0)/b/n/10 V
-.\glue(\spaceskip) 2.1 plus 1.04895 minus 0.70068
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/b/n/10 q
 .\TU/MercuryTextG2Roman(0)/b/n/10 u
 .\TU/MercuryTextG2Roman(0)/b/n/10 i
 .\TU/MercuryTextG2Roman(0)/b/n/10 z
-.\glue(\spaceskip) 2.1 plus 1.05 minus 0.7
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/b/n/10 P
 .\TU/MercuryTextG2Roman(0)/b/n/10 h
 .\TU/MercuryTextG2Roman(0)/b/n/10 D
-.\kern-0.6 (font)
 .\TU/MercuryTextG2Roman(0)/b/n/10 .
 .\TU/MercuryTextG2Roman(0)/b/n/10 ,
-.\glue(\spaceskip) 2.1 plus 1.3125 minus 0.56
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/b/n/10 b
 .\TU/MercuryTextG2Roman(0)/b/n/10 a
 .\TU/MercuryTextG2Roman(0)/b/n/10 g
 .\TU/MercuryTextG2Roman(0)/b/n/10 s
-.\glue(\spaceskip) 2.1 plus 1.05 minus 0.7
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/b/n/10 f
 .\TU/MercuryTextG2Roman(0)/b/n/10 e
-.\kern-0.1 (font)
 .\TU/MercuryTextG2Roman(0)/b/n/10 w
-.\glue(\spaceskip) 2.1 plus 1.05 minus 0.7
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/b/n/10 l
 .\TU/MercuryTextG2Roman(0)/b/n/10 y
 .\TU/MercuryTextG2Roman(0)/b/n/10 n
@@ -258,56 +262,154 @@ l. ...  }
 ============================================================
 TEST 6: \rmfamily \itshape 
 ============================================================
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+! Font \TU/MercuryTextG2Roman(0)/m/it/10=MercuryTextG2Italic:mode=node;language=
+dflt;+tlig; at 10pt not loadable: metric data not found or bad.
+<to be read again> 
+relax 
+l. ...  }
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
 > \box...=
-\hbox(7.41+2.19)x159.16335, direction TLT
+\hbox(0.0+0.0)x0.0, direction TLT
 .\TU/MercuryTextG2Roman(0)/m/it/10 M
-.\kern-0.2 (font)
 .\TU/MercuryTextG2Roman(0)/m/it/10 r
-.\kern-1.0 (font)
 .\TU/MercuryTextG2Roman(0)/m/it/10 .
-.\glue(\spaceskip) 2.93333 plus 3.30002 minus 0.24445
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/it/10 J
-.\kern-0.4 (font)
 .\TU/MercuryTextG2Roman(0)/m/it/10 o
 .\TU/MercuryTextG2Roman(0)/m/it/10 c
 .\TU/MercuryTextG2Roman(0)/m/it/10 k
-.\kern0.2 (font)
 .\TU/MercuryTextG2Roman(0)/m/it/10 ,
-.\glue(\spaceskip) 2.2 plus 1.375 minus 0.58667
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/it/10 T
 .\TU/MercuryTextG2Roman(0)/m/it/10 V
-.\glue(\spaceskip) 2.2 plus 1.09889 minus 0.73407
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/it/10 q
 .\TU/MercuryTextG2Roman(0)/m/it/10 u
 .\TU/MercuryTextG2Roman(0)/m/it/10 i
 .\TU/MercuryTextG2Roman(0)/m/it/10 z
-.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/it/10 P
-.\kern-0.2 (font)
 .\TU/MercuryTextG2Roman(0)/m/it/10 h
 .\TU/MercuryTextG2Roman(0)/m/it/10 D
-.\kern-0.8 (font)
 .\TU/MercuryTextG2Roman(0)/m/it/10 .
 .\TU/MercuryTextG2Roman(0)/m/it/10 ,
-.\glue(\spaceskip) 2.2 plus 1.375 minus 0.58667
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/it/10 b
 .\TU/MercuryTextG2Roman(0)/m/it/10 a
 .\TU/MercuryTextG2Roman(0)/m/it/10 g
 .\TU/MercuryTextG2Roman(0)/m/it/10 s
-.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/it/10 f
 .\TU/MercuryTextG2Roman(0)/m/it/10 e
 .\TU/MercuryTextG2Roman(0)/m/it/10 w
-.\glue(\spaceskip) 2.2 plus 1.1 minus 0.73334
+.\glue(\spaceskip) 0.0
 .\TU/MercuryTextG2Roman(0)/m/it/10 l
 .\TU/MercuryTextG2Roman(0)/m/it/10 y
 .\TU/MercuryTextG2Roman(0)/m/it/10 n
 .\TU/MercuryTextG2Roman(0)/m/it/10 x
-.\kern-0.1 (font)
 .\TU/MercuryTextG2Roman(0)/m/it/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
 [1
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no V (U+0056) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no P (U+0050) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
 ] (nyu22fonts-001.aux)

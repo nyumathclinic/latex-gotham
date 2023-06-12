@@ -4,7 +4,7 @@ Don't change this file in any respect.
 TEST 1: \sffamily 
 ============================================================
 > \box...=
-\hbox(7.34+1.63)x187.04001, direction TLT
+\hbox(7.34+1.63)x186.94003, direction TLT
 .\TU/GothamBook(0)/m/n/10 M
 .\TU/GothamBook(0)/m/n/10 r
 .\kern-0.9 (font)
@@ -55,7 +55,7 @@ l. ...  }
 TEST 2: \sffamily \bfseries 
 ============================================================
 > \box...=
-\hbox(7.36+1.63)x189.84001, direction TLT
+\hbox(7.36+1.63)x189.86005, direction TLT
 .\TU/GothamBook(0)/b/n/10 M
 .\TU/GothamBook(0)/b/n/10 r
 .\kern-0.9 (font)
@@ -106,7 +106,7 @@ l. ...  }
 TEST 3: \sffamily \itshape 
 ============================================================
 > \box...=
-\hbox(7.32+1.63)x185.93001, direction TLT
+\hbox(7.32+1.63)x185.51999, direction TLT
 .\TU/GothamBook(0)/m/it/10 M
 .\TU/GothamBook(0)/m/it/10 r
 .\kern-0.86 (font)
@@ -147,6 +147,7 @@ TEST 3: \sffamily \itshape
 .\TU/GothamBook(0)/m/it/10 l
 .\TU/GothamBook(0)/m/it/10 y
 .\TU/GothamBook(0)/m/it/10 n
+.\kern-0.01 (font)
 .\TU/GothamBook(0)/m/it/10 x
 .\TU/GothamBook(0)/m/it/10 .
 ! OK.

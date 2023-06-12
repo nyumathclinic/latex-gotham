@@ -4,53 +4,49 @@ Don't change this file in any respect.
 TEST 1: \sffamily 
 ============================================================
 > \box...=
-\hbox(7.47+1.99)x184.85324, direction TLT
-.\TU/montserrat(0)/m/n/10 M
-.\TU/montserrat(0)/m/n/10 r
+\hbox(7.34+1.63)x186.94003, direction TLT
+.\TU/GothamBook(0)/m/n/10 M
+.\TU/GothamBook(0)/m/n/10 r
+.\kern-0.9 (font)
+.\TU/GothamBook(0)/m/n/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/m/n/10 J
+.\TU/GothamBook(0)/m/n/10 o
+.\TU/GothamBook(0)/m/n/10 c
+.\TU/GothamBook(0)/m/n/10 k
+.\TU/GothamBook(0)/m/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/n/10 T
+.\TU/GothamBook(0)/m/n/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/m/n/10 q
+.\TU/GothamBook(0)/m/n/10 u
+.\TU/GothamBook(0)/m/n/10 i
+.\TU/GothamBook(0)/m/n/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 P
+.\TU/GothamBook(0)/m/n/10 h
+.\TU/GothamBook(0)/m/n/10 D
+.\kern-0.4 (font)
+.\TU/GothamBook(0)/m/n/10 .
+.\TU/GothamBook(0)/m/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/n/10 b
+.\TU/GothamBook(0)/m/n/10 a
+.\TU/GothamBook(0)/m/n/10 g
+.\TU/GothamBook(0)/m/n/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 f
 .\kern-0.1 (font)
-.\TU/montserrat(0)/m/n/10 .
-.\glue(\spaceskip) 3.49333 plus 3.93 minus 0.2911
-.\TU/montserrat(0)/m/n/10 J
-.\TU/montserrat(0)/m/n/10 o
-.\TU/montserrat(0)/m/n/10 c
-.\kern-0.08 (font)
-.\TU/montserrat(0)/m/n/10 k
-.\kern0.1 (font)
-.\TU/montserrat(0)/m/n/10 ,
-.\glue(\spaceskip) 2.62 plus 1.6375 minus 0.69867
-.\TU/montserrat(0)/m/n/10 T
-.\kern-0.05 (font)
-.\TU/montserrat(0)/m/n/10 V
-.\glue(\spaceskip) 2.62 plus 1.30869 minus 0.8742
-.\TU/montserrat(0)/m/n/10 q
-.\TU/montserrat(0)/m/n/10 u
-.\TU/montserrat(0)/m/n/10 i
-.\TU/montserrat(0)/m/n/10 z
-.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
-.\TU/montserrat(0)/m/n/10 P
-.\TU/montserrat(0)/m/n/10 h
-.\TU/montserrat(0)/m/n/10 D
-.\kern-0.2 (font)
-.\TU/montserrat(0)/m/n/10 .
-.\TU/montserrat(0)/m/n/10 ,
-.\glue(\spaceskip) 2.62 plus 1.6375 minus 0.69867
-.\TU/montserrat(0)/m/n/10 b
-.\kern-0.03 (font)
-.\TU/montserrat(0)/m/n/10 a
-.\TU/montserrat(0)/m/n/10 g
-.\TU/montserrat(0)/m/n/10 s
-.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
-.\TU/montserrat(0)/m/n/10 f
-.\kern-0.09 (font)
-.\TU/montserrat(0)/m/n/10 e
-.\kern-0.1 (font)
-.\TU/montserrat(0)/m/n/10 w
-.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
-.\TU/montserrat(0)/m/n/10 l
-.\TU/montserrat(0)/m/n/10 y
-.\TU/montserrat(0)/m/n/10 n
-.\TU/montserrat(0)/m/n/10 x
-.\TU/montserrat(0)/m/n/10 .
+.\TU/GothamBook(0)/m/n/10 e
+.\kern-0.25 (font)
+.\TU/GothamBook(0)/m/n/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/n/10 l
+.\TU/GothamBook(0)/m/n/10 y
+.\TU/GothamBook(0)/m/n/10 n
+.\TU/GothamBook(0)/m/n/10 x
+.\TU/GothamBook(0)/m/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -59,54 +55,49 @@ l. ...  }
 TEST 2: \sffamily \bfseries 
 ============================================================
 > \box...=
-\hbox(7.87+2.02)x196.71327, direction TLT
-.\TU/montserrat(0)/b/n/10 M
-.\TU/montserrat(0)/b/n/10 r
+\hbox(7.36+1.63)x189.86005, direction TLT
+.\TU/GothamBook(0)/b/n/10 M
+.\TU/GothamBook(0)/b/n/10 r
+.\kern-0.9 (font)
+.\TU/GothamBook(0)/b/n/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/b/n/10 J
+.\TU/GothamBook(0)/b/n/10 o
+.\TU/GothamBook(0)/b/n/10 c
+.\TU/GothamBook(0)/b/n/10 k
+.\TU/GothamBook(0)/b/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/b/n/10 T
+.\TU/GothamBook(0)/b/n/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/b/n/10 q
+.\TU/GothamBook(0)/b/n/10 u
+.\TU/GothamBook(0)/b/n/10 i
+.\TU/GothamBook(0)/b/n/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 P
+.\TU/GothamBook(0)/b/n/10 h
+.\TU/GothamBook(0)/b/n/10 D
+.\kern-0.4 (font)
+.\TU/GothamBook(0)/b/n/10 .
+.\TU/GothamBook(0)/b/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/b/n/10 b
+.\TU/GothamBook(0)/b/n/10 a
+.\TU/GothamBook(0)/b/n/10 g
+.\TU/GothamBook(0)/b/n/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 f
 .\kern-0.1 (font)
-.\TU/montserrat(0)/b/n/10 .
-.\glue(\spaceskip) 3.77333 plus 4.24498 minus 0.31444
-.\TU/montserrat(0)/b/n/10 J
-.\TU/montserrat(0)/b/n/10 o
-.\TU/montserrat(0)/b/n/10 c
-.\kern-0.04 (font)
-.\TU/montserrat(0)/b/n/10 k
-.\kern0.1 (font)
-.\TU/montserrat(0)/b/n/10 ,
-.\glue(\spaceskip) 2.83 plus 1.76874 minus 0.75465
-.\TU/montserrat(0)/b/n/10 T
-.\kern-0.13 (font)
-.\TU/montserrat(0)/b/n/10 V
-.\glue(\spaceskip) 2.83 plus 1.41357 minus 0.94426
-.\TU/montserrat(0)/b/n/10 q
-.\TU/montserrat(0)/b/n/10 u
-.\TU/montserrat(0)/b/n/10 i
-.\TU/montserrat(0)/b/n/10 z
-.\glue(\spaceskip) 2.83 plus 1.415 minus 0.94333
-.\TU/montserrat(0)/b/n/10 P
-.\TU/montserrat(0)/b/n/10 h
-.\TU/montserrat(0)/b/n/10 D
-.\kern-0.2 (font)
-.\TU/montserrat(0)/b/n/10 .
-.\TU/montserrat(0)/b/n/10 ,
-.\glue(\spaceskip) 2.83 plus 1.76874 minus 0.75465
-.\TU/montserrat(0)/b/n/10 b
-.\kern-0.09 (font)
-.\TU/montserrat(0)/b/n/10 a
-.\kern0.04 (font)
-.\TU/montserrat(0)/b/n/10 g
-.\TU/montserrat(0)/b/n/10 s
-.\glue(\spaceskip) 2.83 plus 1.415 minus 0.94333
-.\TU/montserrat(0)/b/n/10 f
-.\kern-0.07 (font)
-.\TU/montserrat(0)/b/n/10 e
-.\kern-0.1 (font)
-.\TU/montserrat(0)/b/n/10 w
-.\glue(\spaceskip) 2.83 plus 1.415 minus 0.94333
-.\TU/montserrat(0)/b/n/10 l
-.\TU/montserrat(0)/b/n/10 y
-.\TU/montserrat(0)/b/n/10 n
-.\TU/montserrat(0)/b/n/10 x
-.\TU/montserrat(0)/b/n/10 .
+.\TU/GothamBook(0)/b/n/10 e
+.\kern-0.25 (font)
+.\TU/GothamBook(0)/b/n/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/b/n/10 l
+.\TU/GothamBook(0)/b/n/10 y
+.\TU/GothamBook(0)/b/n/10 n
+.\TU/GothamBook(0)/b/n/10 x
+.\TU/GothamBook(0)/b/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -115,52 +106,50 @@ l. ...  }
 TEST 3: \sffamily \itshape 
 ============================================================
 > \box...=
-\hbox(7.47+1.99)x185.65324, direction TLT
-.\TU/montserrat(0)/m/it/10 M
-.\TU/montserrat(0)/m/it/10 r
+\hbox(7.32+1.63)x185.51999, direction TLT
+.\TU/GothamBook(0)/m/it/10 M
+.\TU/GothamBook(0)/m/it/10 r
+.\kern-0.86 (font)
+.\TU/GothamBook(0)/m/it/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/GothamBook(0)/m/it/10 J
+.\TU/GothamBook(0)/m/it/10 o
+.\TU/GothamBook(0)/m/it/10 c
+.\TU/GothamBook(0)/m/it/10 k
+.\TU/GothamBook(0)/m/it/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/it/10 T
+.\TU/GothamBook(0)/m/it/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/GothamBook(0)/m/it/10 q
+.\TU/GothamBook(0)/m/it/10 u
+.\TU/GothamBook(0)/m/it/10 i
+.\TU/GothamBook(0)/m/it/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 P
+.\TU/GothamBook(0)/m/it/10 h
+.\TU/GothamBook(0)/m/it/10 D
+.\kern-0.4 (font)
+.\TU/GothamBook(0)/m/it/10 .
+.\TU/GothamBook(0)/m/it/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/GothamBook(0)/m/it/10 b
+.\TU/GothamBook(0)/m/it/10 a
+.\TU/GothamBook(0)/m/it/10 g
+.\TU/GothamBook(0)/m/it/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 f
 .\kern-0.1 (font)
-.\TU/montserrat(0)/m/it/10 .
-.\glue(\spaceskip) 3.49333 plus 3.93 minus 0.2911
-.\TU/montserrat(0)/m/it/10 J
-.\TU/montserrat(0)/m/it/10 o
-.\TU/montserrat(0)/m/it/10 c
-.\kern-0.08 (font)
-.\TU/montserrat(0)/m/it/10 k
-.\kern0.1 (font)
-.\TU/montserrat(0)/m/it/10 ,
-.\glue(\spaceskip) 2.62 plus 1.6375 minus 0.69867
-.\TU/montserrat(0)/m/it/10 T
-.\kern-0.05 (font)
-.\TU/montserrat(0)/m/it/10 V
-.\glue(\spaceskip) 2.62 plus 1.30869 minus 0.8742
-.\TU/montserrat(0)/m/it/10 q
-.\TU/montserrat(0)/m/it/10 u
-.\TU/montserrat(0)/m/it/10 i
-.\TU/montserrat(0)/m/it/10 z
-.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
-.\TU/montserrat(0)/m/it/10 P
-.\TU/montserrat(0)/m/it/10 h
-.\TU/montserrat(0)/m/it/10 D
-.\kern-0.2 (font)
-.\TU/montserrat(0)/m/it/10 .
-.\TU/montserrat(0)/m/it/10 ,
-.\glue(\spaceskip) 2.62 plus 1.6375 minus 0.69867
-.\TU/montserrat(0)/m/it/10 b
-.\TU/montserrat(0)/m/it/10 a
-.\TU/montserrat(0)/m/it/10 g
-.\TU/montserrat(0)/m/it/10 s
-.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
-.\TU/montserrat(0)/m/it/10 f
-.\kern-0.09 (font)
-.\TU/montserrat(0)/m/it/10 e
-.\kern-0.1 (font)
-.\TU/montserrat(0)/m/it/10 w
-.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
-.\TU/montserrat(0)/m/it/10 l
-.\TU/montserrat(0)/m/it/10 y
-.\TU/montserrat(0)/m/it/10 n
-.\TU/montserrat(0)/m/it/10 x
-.\TU/montserrat(0)/m/it/10 .
+.\TU/GothamBook(0)/m/it/10 e
+.\kern-0.21 (font)
+.\TU/GothamBook(0)/m/it/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/GothamBook(0)/m/it/10 l
+.\TU/GothamBook(0)/m/it/10 y
+.\TU/GothamBook(0)/m/it/10 n
+.\kern-0.01 (font)
+.\TU/GothamBook(0)/m/it/10 x
+.\TU/GothamBook(0)/m/it/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
