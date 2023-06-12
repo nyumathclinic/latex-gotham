@@ -10,6 +10,7 @@ modules = {
    "beamerthemeNYU22",
    "beamerthemeGotham",
    "xcolor-nyu22",
+   "nyu22report",
    "nyu22fonts",
    "logos"
 }
