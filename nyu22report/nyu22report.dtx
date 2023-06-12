@@ -23,14 +23,29 @@
 % serif for the section titles.
 %
 % These font assignments have nothing to do with this package; they are part of
-% the styling of a document
+% the styling of a document.
+\usepackage{fontspec}
+\setmainfont[%
+    ItalicFont=*,
+    ItalicFeatures={FakeSlant},
+]{Frank Ruhl Libre}
+\setsansfont[%
+    ItalicFont=Gotham Book Italic,
+    BoldFont=Gotham Medium,
+    BoldItalicFont=Gotham Medium Italic,
+    FontFace={eb}{\shapedefault}{Gotham Bold},
+    FontFace={eb}{it}{Gotham Bold Italic},
+    FontFace={l}{\shapedefault}{Gotham Light},
+    FontFace={l}{it}{Gotham Light Italic},
+]{Gotham Book}
+\setmonofont{Inconsolata}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{titlesec}
 \usepackage{titling}
-\newcommand{\headingfont}{\sffamily\color{NyuViolet}}
-\titleformat*{\section}{\LARGE\headingfont}
-\titleformat*{\subsection}{\Large\headingfont}
-\titleformat*{\subsubsection}{\large\headingfont}
+\newcommand{\headingfont}{\rmfamily\color{NyuViolet}}
+\titleformat*{\section}{\headingfont\LARGE}
+\titleformat*{\subsection}{\headingfont\Large}
+\titleformat*{\subsubsection}{\headingfont\large}
 \renewcommand{\maketitlehooka}{\headingfont}
 
 \usepackage{parskip}
@@ -185,7 +200,6 @@
 % \subsection{Font faces}
 % 
 % \DescribeMacro{\familydefault}
-%
 % This class sets the default font family to be sans-serif, per the template.
 % This class does not select any specific font, because font selection in
 % \LaTeX{} is quirky.
