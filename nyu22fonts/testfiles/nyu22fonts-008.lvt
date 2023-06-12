@@ -1,0 +1,37 @@
+\input regression-test.tex
+\documentclass{article}
+\title{Test of font names as options}
+\usepackage[enable-debug]{expl3}
+\usepackage{nyu22fonts}
+\begin{document}
+\maketitle
+
+This test checks if setting options to the \texttt{nyu22fonts} package
+requiring Type~1 fonts outside of the preamble will give an error.
+
+
+\ExplSyntaxOn
+\debug_on:n { check-declarations , deprecation }
+
+\tl_set:Nn \l_tmpa_tl {Mr.~Jock,~TV~quiz~PhD.,~bags~few~lynx.}
+
+\clist_set:Nn \l_tmpa_clist
+  {
+    \sffamily,
+    \sffamily\bfseries,
+    \sffamily\itshape,
+    \rmfamily,
+    \rmfamily\bfseries,
+    \rmfamily\itshape
+  }
+
+\START
+
+\nyufontssetup{
+  serif-font=Charter,
+  serif-font=Times New Roman Type 1,
+  sans-serif-font=Helvetica,
+  sans-serif-font=Vera,
+}  
+\ExplSyntaxOff
+\end{document}

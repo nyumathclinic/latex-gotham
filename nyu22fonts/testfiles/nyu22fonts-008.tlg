@@ -1,0 +1,29 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+! LaTeX Error: Key "serif-font/Charter" may only be used in the preamble.
+For immediate help type H <return>.
+ ...                                              
+l. ...}
+LaTeX was asked to set a key called "serif-font/Charter", but this is only
+allowed before \begin {document}. You will need to set the key earlier.
+! LaTeX Error: Key 'nyufonts/serif-font' accepts only a fixed set of choices.
+For immediate help type H <return>.
+ ...                                              
+l. ...}
+The key 'nyufonts/serif-font' only accepts predefined values, and
+'TimesNewRomanType1' is not one of these.
+! LaTeX Error: Key 'nyufonts/sans-serif-font' accepts only a fixed set of
+(LaTeX)        choices.
+For immediate help type H <return>.
+ ...                                              
+l. ...}
+The key 'nyufonts/sans-serif-font' only accepts predefined values, and
+'Helvetica' is not one of these.
+! LaTeX Error: Key "sans-serif-font/Vera" may only be used in the preamble.
+For immediate help type H <return>.
+ ...                                              
+l. ...}
+LaTeX was asked to set a key called "sans-serif-font/Vera", but this is only
+allowed before \begin {document}. You will need to set the key earlier.
+[1
+] (nyu22fonts-008.aux)
