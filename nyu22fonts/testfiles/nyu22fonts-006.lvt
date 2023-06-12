@@ -1,16 +1,16 @@
 \input regression-test.tex
 \documentclass{article}
-\title{Test of the the *-font options}
+\title{Test of font names as options}
 \usepackage[enable-debug]{expl3}
 \usepackage[
-  sans-serif-font=Gotham,
-  serif-font=Frank Ruhl Libre
+  Gotham,
+  Frank Ruhl Libre
 ]{nyu22fonts}
 \begin{document}
 \maketitle
 
-This test checks if the \texttt{nyu22fonts} package with fonts explicitly
-set as package options works.
+This test checks if the \texttt{nyu22fonts} package with font names explicitly
+used as package options works.
 
 \ExplSyntaxOn
 \debug_on:n { check-declarations , deprecation }

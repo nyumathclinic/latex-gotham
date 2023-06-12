@@ -5,9 +5,8 @@
 %</driver>
 %<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/12}{v0.15}{NYU Typefaces and Fonts}
 %<*driver>
-\documentclass{l3doc}
+\documentclass[11pt]{l3doc}
 \usepackage{graphicx}
-\usepackage{xcolor-material}^^A For the \colorsample command
 \usepackage{changepage}^^A      For the `adjustwidth' environment
 \usepackage{hologo}^^A          Provides lots of logos
 
@@ -255,25 +254,27 @@
 %
 % \subsubsection{Proprietary fonts}
 %
-% \begin{macro}{\l_nyu_set_gotham:}
+% \begin{macro}[int]{\l_nyu_set_gotham:}
 % Set the default sans family to Gotham.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_gotham: {
-  \setsansfont{Gotham~Book}[
-    BoldFont=Gotham~Medium,
-    ItalicFont=Gotham~Book~Italic
+  \setsansfont{Gotham}[
+    UprightFont=*~Book,
+    BoldFont=*~Medium,
+    ItalicFont=*~Book~Italic
   ]          
 }
 %    \end{macrocode}  
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_set_mercury_text:}
+% \begin{macro}[int]{\l_nyu_set_mercury_text:}
 % Set the default roman family to Mercury Text Grade~2.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_mercury_text: {
-  \setmainfont{Mercury~Text~G2~Roman}[
-    BoldFont=Mercury~Text~G2~Bold,
-    ItalicFont=Mercury~Text~G2~Italic
+  \setmainfont{Mercury~Text~G2}[
+    UprightFont=*~Roman,
+    BoldFont=*~Bold,
+    ItalicFont=*~Italic
   ]
 }
 %    \end{macrocode}  
@@ -281,7 +282,7 @@
 %
 % \subsubsection{Open fonts}
 %
-% \begin{macro}{\l_nyu_set_montserrat:}
+% \begin{macro}[int]{\l_nyu_set_montserrat:}
 % Set the default sans family to Montserrat. There is already a
 % \pkg{montserrat} package with a \file{montserrat.fontspec} file, so we just
 % have to load it.
@@ -292,7 +293,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_set_frank_ruhl_libre:}
+% \begin{macro}[int]{\l_nyu_set_frank_ruhl_libre:}
 % Set the default roman family to Frank Ruhl Libre. 
 % \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}l3b
 %    \begin{macrocode}
@@ -310,7 +311,7 @@
 % These are not official font options but pretty good approximations to
 % the official open ones.
 % 
-% \begin{macro}{\l_nyu_set_vera:}
+% \begin{macro}[int]{\l_nyu_set_vera:}
 % Set the default sans family to Vera. The mono family is set to Bera, 
 % but the roman family is left alone.
 % \changes{v0.11c}{2022/10/01}{Fix a bug introduced by the \pkg{arev} package also setting the \emph{serif} font.}
@@ -326,7 +327,7 @@
 %    \end{macrocode}  
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_set_charter:}
+% \begin{macro}[int]{\l_nyu_set_charter:}
 % Set the default roman family to Charter.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_charter: {
@@ -338,7 +339,7 @@
 %
 % \subsubsection{System Fonts}
 %
-% \begin{macro}{\l_nyu_set_helvetica_tt:}
+% \begin{macro}[int]{\l_nyu_set_helvetica_tt:}
 % Set the default sans family to the TrueType Helvetica font.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_helvetica_tt: {
@@ -347,7 +348,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_set_times_new_roman_tt:}
+% \begin{macro}[int]{\l_nyu_set_times_new_roman_tt:}
 % Set the default roman family to the TrueType Times New Roman font.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_times_new_roman_tt: {
@@ -358,7 +359,7 @@
 %
 % \subsubsection{Type 1 fonts}
 %
-% \begin{macro}{\l_nyu_set_helvetica_ti:}
+% \begin{macro}[int]{\l_nyu_set_helvetica_ti:}
 % Set the default sans family to the Type~1 version of Helvetica.
 % (Technically, not Helvetica, but a Type~1 clone called Nimbus Sans.)
 %    \begin{macrocode}
@@ -368,7 +369,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_set_times_new_roman_ti:}
+% \begin{macro}[int]{\l_nyu_set_times_new_roman_ti:}
 % Set the default roman family to the Type~1 version of Times New Roman.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_times_new_roman_ti: {
@@ -380,7 +381,7 @@
 %  
 % \subsection{Selecting fonts automatically}
 %
-% \begin{macro}{\l_nyu_auto_select_ss_font:}
+% \begin{macro}[int]{\l_nyu_auto_select_ss_font:}
 % Choose the sans serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_auto_select_ss_font: {
@@ -405,7 +406,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_auto_select_sf_font:}
+% \begin{macro}[int]{\l_nyu_auto_select_sf_font:}
 % Choose the serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_auto_select_sf_font: {
@@ -462,10 +463,18 @@
     sans-serif-font / Vera             .code: n = { \l_nyu_set_vera: },
 %    \end{macrocode}
 %
-% \changes{v0.14h}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}.
+% \changes{v0.14h}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}
+% \changes{unreleased}{2023/06/12}{Added the rest of the TrueType fonts as meta-keys}
 %    \begin{macrocode}
     Gotham .meta:n = { sans-serif-font = Gotham }, 
+    Montserrat .meta:n = { sans-serif-font = Montserrat }, 
+    Helvetica .meta:n = { sans-serif-font = Helvetica~TrueType }, 
+
+    Mercury~Text .meta:n = { serif-font = Mercury~Text},
     Frank~Ruhl~Libre .meta:n = { serif-font = Frank~Ruhl~Libre},
+    Times~New~Roman .meta:n = { serif-font = Times~New~Roman~TrueType},
+
+
  
     font-group .choice:,
     font-group / proprietary .code:n = {
