@@ -23,14 +23,15 @@
 \postauthor{\par\end{flushleft}}
 
 \usepackage{xcolor-nyu22}[2022/08/05]
-\usepackage[open]{nyu22fonts}
+\usepackage[Gotham, Frank Ruhl Libre]{nyu22fonts}
+\setmonofont{Inconsolata}
 
 
 % In the contemporary/subtle tone quadrant, we use sans for the main text and
 % serif for the section titles.
 %
 % These font assignments have nothing to do with this package; they are part of
-% the styling of a document
+% the styling of a document.
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{titlesec}
 \newcommand{\headingfont}{\rmfamily\color{NyuViolet}}
@@ -42,6 +43,7 @@
 \usepackage{parskip}
 
 \providecommand{\file}[1]{\texttt{#1}}
+\providecommand{\key}[1]{\texttt{#1}}
 
 \EnableCrossrefs
 \RecordChanges
@@ -427,9 +429,9 @@
 % \end{macro}
 
 % 
-% The main processing is done with keys
+% The main processing is done with a keyval interface.
+% \changes{unreleased}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}.
 %    \begin{macrocode}
-% Set up the keyval selection system
 \RequirePackage{l3keys2e}
 \keys_define:nn { nyufonts }
   {
@@ -454,6 +456,9 @@
     sans-serif-font / Helvetica Type 1 .code:n = { \l_nyu_spec_helvetica_ti: },
     sans-serif-font / Helvetica TrueType .code:n = {\l_nyu_spec_helvetica_tt: },
     sans-serif-font / Vera             .code: n = { \l_nyu_spec_vera: },
+
+    Gotham .meta:n = { sans-serif-font = Gotham }, 
+    Frank Ruhl Libre .meta:n = { serif-font = Frank Ruhl Libre},
  
     font-group .choice:,
     font-group / proprietary .code:n = {
