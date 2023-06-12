@@ -255,10 +255,10 @@
 %
 % \subsubsection{Proprietary fonts}
 %
-% \begin{macro}{\l_nyu_spec_gotham:}
-% Specify the proprietary sans serif font, Gotham.
+% \begin{macro}{\l_nyu_set_gotham:}
+% Set the default sans family to Gotham.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_gotham: {
+\cs_new:Nn \l_nyu_set_gotham: {
   \setsansfont{Gotham~Book}[
     BoldFont=Gotham~Medium,
     ItalicFont=Gotham~Book~Italic
@@ -267,10 +267,10 @@
 %    \end{macrocode}  
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_spec_mercury_text:}
-% Specify the proprietary serif font, Mercury Text.
+% \begin{macro}{\l_nyu_set_mercury_text:}
+% Set the default roman family to Mercury Text Grade~2.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_mercury_text: {
+\cs_new:Nn \l_nyu_set_mercury_text: {
   \setmainfont{Mercury~Text~G2~Roman}[
     BoldFont=Mercury~Text~G2~Bold,
     ItalicFont=Mercury~Text~G2~Italic
@@ -281,25 +281,26 @@
 %
 % \subsubsection{Open fonts}
 %
-% \begin{macro}{\l_nyu_spec_montserrat:}
-% Specify Montserrat fonts. There is already a \pkg{montserrat} package with
-% a \file{montserrat.fontspec} file, so we just have to load it.
+% \begin{macro}{\l_nyu_set_montserrat:}
+% Set the default sans family to Montserrat. There is already a
+% \pkg{montserrat} package with a \file{montserrat.fontspec} file, so we just
+% have to load it.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_montserrat: {
+\cs_new:Nn \l_nyu_set_montserrat: {
   \setsansfont{montserrat}
 }
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_spec_frank_ruhl_libre:}
-% Frank Ruhl Libre TrueType fonts. 
+% \begin{macro}{\l_nyu_set_frank_ruhl_libre:}
+% Set the default roman family to Frank Ruhl Libre. 
+% \changes{unreleased}{2023/06/12}{Don't also set the sans font simultaneously.}
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_frank_ruhl_libre: {
+\cs_new:Nn \l_nyu_set_frank_ruhl_libre: {
   \setmainfont{Frank~Ruhl~Libre}[
     ItalicFont=*,
     ItalicFeatures={FakeSlant}
   ]
-  \setsansfont{montserrat}
 }
 %    \end{macrocode}
 % \end{macro}
@@ -309,11 +310,12 @@
 % These are not official font options but pretty good approximations to
 % the official open ones.
 % 
-% \begin{macro}{\l_nyu_spec_vera:}
-% Specify Vera Type~1 fonts.
+% \begin{macro}{\l_nyu_set_vera:}
+% Set the default sans family to Vera. The mono family is set to Bera, 
+% but the roman family is left alone.
 % \changes{v0.11c}{2022/10/01}{Fix a bug introduced by the \pkg{arev} package also setting the \emph{serif} font.}
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_vera: {
+\cs_new:Nn \l_nyu_set_vera: {
   \RequirePackage[T1]{fontenc}
   \RequirePackage{textcomp}
   \renewcommand{\sfdefault}{fav}
@@ -324,10 +326,10 @@
 %    \end{macrocode}  
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_spec_charter:}
-% Specify Charter Type~1 fonts.
+% \begin{macro}{\l_nyu_set_charter:}
+% Set the default roman family to Charter.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_charter: {
+\cs_new:Nn \l_nyu_set_charter: {
   \RequirePackage{charter}
 }
 %    \end{macrocode}  
@@ -336,19 +338,19 @@
 %
 % \subsubsection{System Fonts}
 %
-% \begin{macro}{\l_nyu_spec_helvetica_tt:}
-% Specify Helvetica TrueType fonts.
+% \begin{macro}{\l_nyu_set_helvetica_tt:}
+% Set the default sans family to the TrueType Helvetica font.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_helvetica_tt: {
+\cs_new:Nn \l_nyu_set_helvetica_tt: {
   \setsansfont{Helvetica}
 }
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_spec_times_new_roman_tt:}
-% Specify Times New Roman TrueType fonts.
+% \begin{macro}{\l_nyu_set_times_new_roman_tt:}
+% Set the default roman family to the TrueType Times New Roman font.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_times_new_roman_tt: {
+\cs_new:Nn \l_nyu_set_times_new_roman_tt: {
   \setmainfont{Times~New~Roman}
 }
 %    \end{macrocode}
@@ -356,20 +358,20 @@
 %
 % \subsubsection{Type 1 fonts}
 %
-% \begin{macro}{\l_nyu_spec_helvetica_ti:}
-% Specify the Helvetica Type~1 fonts. (Technically, not Helvetica, but a
-% Type~1 clone called Nimbus Sans.)
+% \begin{macro}{\l_nyu_set_helvetica_ti:}
+% Set the default sans family to the Type~1 version of Helvetica.
+% (Technically, not Helvetica, but a Type~1 clone called Nimbus Sans.)
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_helvetica_ti: {
+\cs_new:Nn \l_nyu_set_helvetica_ti: {
   \usepackage{helvet}
 }
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l_nyu_spec_times_new_roman_ti:}
-% Specify the Times New Roman Type~1 fonts.
+% \begin{macro}{\l_nyu_set_times_new_roman_ti:}
+% Set the default roman family to the Type~1 version of Times New Roman.
 %    \begin{macrocode}
-\cs_new:Nn \l_nyu_spec_times_new_roman_ti: {
+\cs_new:Nn \l_nyu_set_times_new_roman_ti: {
   \usepackage{mathptmx}
 }
 %    \end{macrocode}
@@ -379,58 +381,58 @@
 % \subsection{Selecting fonts automatically}
 %
 % \begin{macro}{\l_nyu_auto_select_ss_font:}
-% Choose the sans serif font automatically
+% Choose the sans serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_auto_select_ss_font: {
   \bool_if:NTF \l_nyu_fontspec_bool {
     \fontspec_font_if_exist:nTF { Gotham~Book } {
-      \l_nyu_spec_gotham:
+      \l_nyu_set_gotham:
     }{
       \fontspec_font_if_exist:nTF { Montserrat } {
-        \l_nyu_spec_montserrat:
+        \l_nyu_set_montserrat:
       }{
         \fontspec_font_if_exist:nTF { Helvetica } {
-          \l_nyu_spec_helvetica_tt:
+          \l_nyu_set_helvetica_tt:
         }{
           \msg_error:nn { nyu22fonts }{ missingssfont }
         }
       }
     }
   }{
-    \l_nyu_spec_vera:
+    \l_nyu_set_vera:
   }
 }
 %    \end{macrocode}
 % \end{macro}
 %
 % \begin{macro}{\l_nyu_auto_select_sf_font:}
-% Choose the serif font automatically
+% Choose the serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_auto_select_sf_font: {
   \bool_if:NTF \l_nyu_fontspec_bool {
     \fontspec_font_if_exist:nTF { Mercury~Text~G2~Roman } {
-      \l_nyu_spec_mercury_text:
+      \l_nyu_set_mercury_text:
     }{
       \fontspec_font_if_exist:nTF { Frank~Ruhl~Libre } {
-        \l_nyu_spec_frank_ruhl_libre:
+        \l_nyu_set_frank_ruhl_libre:
       }{
         \fontspec_font_if_exist:nTF { Times~New~Roman } {
-          \l_nyu_spec_helvetica_tt:
+          \l_nyu_set_helvetica_tt:
         }{
           \msg_error:nn { nyu22fonts }{ missingsffont }
         }
       }
     }
   }{
-    \l_nyu_spec_charter:
+    \l_nyu_set_charter:
   }
 }
 %    \end{macrocode}  
 % \end{macro}
 
-% 
+% \section{Keyval interface}
+%
 % The main processing is done with a keyval interface.
-% \changes{unreleased}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}.
 %    \begin{macrocode}
 \RequirePackage{l3keys2e}
 \keys_define:nn { nyufonts }
@@ -444,49 +446,52 @@
     },
 
     serif-font .choice:,
-    serif-font / Mercury Text           .code:n = { \l_nyu_spec_mercury_text: },
-    serif-font / Frank Ruhl Libre       .code:n = { \l_nyu_spec_frank_ruhl_libre:}, 
-    serif-font / Charter                .code:n = { \l_nyu_spec_charter:},
-    serif-font / Times New Roman Type 1 .code:n = { \l_nyu_spec_times_new_roman_ti: },
-    serif-font / Times New Roman TrueType .code:n = { \l_nyu_spec_times_new_roman_tt: },
+    serif-font / Mercury Text           .code:n = { \l_nyu_set_mercury_text: },
+    serif-font / Frank Ruhl Libre       .code:n = { \l_nyu_set_frank_ruhl_libre:}, 
+    serif-font / Charter                .code:n = { \l_nyu_set_charter:},
+    serif-font / Times New Roman Type 1 .code:n = { \l_nyu_set_times_new_roman_ti: },
+    serif-font / Times New Roman TrueType .code:n = { \l_nyu_set_times_new_roman_tt: },
 
     sans-serif-font .choice:,
-    sans-serif-font / Gotham           .code:n = { \l_nyu_spec_gotham: },
-    sans-serif-font / Montserrat       .code:n = { \l_nyu_spec_montserrat: },
-    sans-serif-font / Helvetica Type 1 .code:n = { \l_nyu_spec_helvetica_ti: },
-    sans-serif-font / Helvetica TrueType .code:n = {\l_nyu_spec_helvetica_tt: },
-    sans-serif-font / Vera             .code: n = { \l_nyu_spec_vera: },
-
+    sans-serif-font / Gotham           .code:n = { \l_nyu_set_gotham: },
+    sans-serif-font / Montserrat       .code:n = { \l_nyu_set_montserrat: },
+    sans-serif-font / Helvetica Type 1 .code:n = { \l_nyu_set_helvetica_ti: },
+    sans-serif-font / Helvetica TrueType .code:n = {\l_nyu_set_helvetica_tt: },
+    sans-serif-font / Vera             .code: n = { \l_nyu_set_vera: },
+%    \end{macrocode}
+%
+% \changes{unreleased}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}.
+%    \begin{macrocode}
     Gotham .meta:n = { sans-serif-font = Gotham }, 
     Frank Ruhl Libre .meta:n = { serif-font = Frank Ruhl Libre},
  
     font-group .choice:,
     font-group / proprietary .code:n = {
       \bool_if:NTF \l_nyu_fontspec_bool {
-        \l_nyu_spec_gotham:
-        \l_nyu_spec_mercury_text:
+        \l_nyu_set_gotham:
+        \l_nyu_set_mercury_text:
       }{
         \msg_error:nnn { nyu22fonts } { needsfontspec } { proprietary }
-        \l_nyu_spec_helvetica_ti:
-        \l_nyu_spec_times_new_roman_ti:
+        \l_nyu_set_helvetica_ti:
+        \l_nyu_set_times_new_roman_ti:
       }
     },
     font-group / open .code:n = {
       \bool_if:NTF \l_nyu_fontspec_bool {
-        \l_nyu_spec_montserrat:
-        \l_nyu_spec_frank_ruhl_libre:
+        \l_nyu_set_montserrat:
+        \l_nyu_set_frank_ruhl_libre:
       }{
-        \l_nyu_spec_vera:
-        \l_nyu_spec_charter:
+        \l_nyu_set_vera:
+        \l_nyu_set_charter:
       }
     },
     font-group / system .code:n = {
       \bool_if:NTF \l_nyu_fontspec_bool {
-        \l_nyu_spec_helvetica_tt:
-        \l_nyu_spec_times_new_roman_tt:
+        \l_nyu_set_helvetica_tt:
+        \l_nyu_set_times_new_roman_tt:
       }{
-        \l_nyu_spec_helvetica_ti:
-        \l_nyu_spec_times_new_roman_ti:
+        \l_nyu_set_helvetica_ti:
+        \l_nyu_set_times_new_roman_ti:
       }
     },
     font-group .initial:n = system,
