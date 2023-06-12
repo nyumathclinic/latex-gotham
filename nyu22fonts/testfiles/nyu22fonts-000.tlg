@@ -24,9 +24,7 @@ Package: fontspec-luatex ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpc_dim=\dimen...
 (../fontenc.sty
 Package: fontenc ....-..-.. v... Standard LaTeX package
-) (../fontspec.cfg))) (../l3keys2e.sty
-Package: l3keys2e ....-..-.. LaTeX2e option processing using LaTeX3 keys
-)
+) (../fontspec.cfg)))
 luaotfload | cache : Lookup cache loaded from /Users/matthew/Library/texlive/202
 2/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | aux : font no 18 (nil) defines no feature for script latn

@@ -24,9 +24,7 @@ Package: fontspec-xetex ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpc_dim=\dimen...
 (../fontenc.sty
 Package: fontenc ....-..-.. v... Standard LaTeX package
-) (../fontspec.cfg))) (../l3keys2e.sty
-Package: l3keys2e ....-..-.. LaTeX2e option processing using LaTeX3 keys
-)
+) (../fontspec.cfg)))
 Package fontspec Info: Font family 'Helvetica(0)' created for font 'Helvetica'
 (fontspec)             with options [Ligatures=TeX].
 (fontspec)              
