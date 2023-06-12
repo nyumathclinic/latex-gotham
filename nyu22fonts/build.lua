@@ -3,7 +3,7 @@
 
 bundle = "Gotham"
 module = "nyu22fonts"
-version = "0.14h"
+version = "0.14i"
 date = "2023-06-12"
 
 maindir = ".."
