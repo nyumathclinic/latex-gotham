@@ -11,6 +11,9 @@
 \usepackage{changepage}^^A      For the `adjustwidth' environment
 \usepackage{hologo}^^A          Provides lots of logos
 
+\usepackage[backend=biber]{biblatex}
+\addbibresource{nyu22fonts.bib}
+
 \usepackage{listings}
 \lstset{language=bash,basicstyle=\ttfamily}
 
@@ -212,13 +215,10 @@
 %   instead.
 %
 % \end{itemize}
-% 
-% \bibliographystyle{plain}
-% \bibliography{nyu22fonts}
-%
-%
 %
 % \StopEventually{\PrintChanges}
+%
+% \printbibliography
 %
 % \section{Implementation}
 %
@@ -294,7 +294,7 @@
 %
 % \begin{macro}{\l_nyu_set_frank_ruhl_libre:}
 % Set the default roman family to Frank Ruhl Libre. 
-% \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}
+% \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}l3b
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_frank_ruhl_libre: {
   \setmainfont{Frank~Ruhl~Libre}[
@@ -433,8 +433,10 @@
 % \section{Keyval interface}
 %
 % The main processing is done with a keyval interface.
+% \changes{unreleased}
+%  {2023/06/12}
+%  {Fix a bug wherein spaces in option values were ignored}
 %    \begin{macrocode}
-\RequirePackage{l3keys2e}
 \keys_define:nn { nyufonts }
   {
     proprietary .meta:n = { font-group = proprietary },
@@ -446,24 +448,24 @@
     },
 
     serif-font .choice:,
-    serif-font / Mercury Text           .code:n = { \l_nyu_set_mercury_text: },
-    serif-font / Frank Ruhl Libre       .code:n = { \l_nyu_set_frank_ruhl_libre:}, 
+    serif-font / Mercury~Text           .code:n = { \l_nyu_set_mercury_text: },
+    serif-font / Frank~Ruhl~Libre       .code:n = { \l_nyu_set_frank_ruhl_libre:}, 
     serif-font / Charter                .code:n = { \l_nyu_set_charter:},
-    serif-font / Times New Roman Type 1 .code:n = { \l_nyu_set_times_new_roman_ti: },
-    serif-font / Times New Roman TrueType .code:n = { \l_nyu_set_times_new_roman_tt: },
+    serif-font / Times~New~Roman~Type~1 .code:n = { \l_nyu_set_times_new_roman_ti: },
+    serif-font / Times~New~Roman~TrueType .code:n = { \l_nyu_set_times_new_roman_tt: },
 
     sans-serif-font .choice:,
     sans-serif-font / Gotham           .code:n = { \l_nyu_set_gotham: },
     sans-serif-font / Montserrat       .code:n = { \l_nyu_set_montserrat: },
-    sans-serif-font / Helvetica Type 1 .code:n = { \l_nyu_set_helvetica_ti: },
-    sans-serif-font / Helvetica TrueType .code:n = {\l_nyu_set_helvetica_tt: },
+    sans-serif-font / Helvetica~Type~1 .code:n = { \l_nyu_set_helvetica_ti: },
+    sans-serif-font / Helvetica~TrueType .code:n = {\l_nyu_set_helvetica_tt: },
     sans-serif-font / Vera             .code: n = { \l_nyu_set_vera: },
 %    \end{macrocode}
 %
 % \changes{v0.14h}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}.
 %    \begin{macrocode}
     Gotham .meta:n = { sans-serif-font = Gotham }, 
-    Frank Ruhl Libre .meta:n = { serif-font = Frank Ruhl Libre},
+    Frank~Ruhl~Libre .meta:n = { serif-font = Frank~Ruhl~Libre},
  
     font-group .choice:,
     font-group / proprietary .code:n = {
@@ -496,7 +498,19 @@
     },
     font-group .initial:n = system,
   }
-\ProcessKeysOptions { nyufonts } % Parses the option list
+%    \end{macrocode}
+% Process keyval options at package use time.
+%
+% The \pkg{l3keys2e} package is obsolete with the June 2022 \LaTeX{} release.
+% See~\cite{tse-l3keys2e}.
+%    \begin{macrocode}
+\IfFormatAtLeastTF { 2022-06-01 }
+{ 
+  \ProcessKeyOptions [ nyufonts ] 
+}{
+  \RequirePackage { l3keys2e }
+  \ProcessKeysOptions { nyufonts }
+}  
 %    \end{macrocode}
 %
 %    \begin{macrocode}
