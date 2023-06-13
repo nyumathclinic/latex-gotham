@@ -5,7 +5,8 @@
 %</driver>
 %<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/12}{v0.16}{NYU Typefaces and Fonts}
 %<*driver>
-\documentclass[11pt]{l3doc}
+\documentclass[11pt]{ltxdoc}
+\usepackage{dtxdescribe}
 \usepackage{graphicx}
 \usepackage{changepage}^^A      For the `adjustwidth' environment
 \usepackage{hologo}^^A          Provides lots of logos
@@ -43,9 +44,6 @@
 \renewcommand{\maketitlehooka}{\headingfont}
 
 \usepackage{parskip}
-
-\providecommand{\file}[1]{\texttt{#1}}
-\providecommand{\key}[1]{\texttt{#1}}
 
 \EnableCrossrefs
 \RecordChanges
@@ -112,7 +110,7 @@
 % was released in 1996.
 %
 % There are also several programs, called \emph{engines}, which convert a
-% \file{.tex} file to a PDF.
+% \filenm{.tex} file to a PDF.
 %
 % Most of the time, the default engine is \hologo{pdfTeX}. This engine only
 % handles Type~1 fonts, however. The 21st century engines were designed to
@@ -125,7 +123,7 @@
 % to use them, anyway.  \hologo{LuaTeX} is the engine most in active
 % development, so that is the recommended modern engine to adapt.
 %
-% If you typeset your \file{.tex} files on the command line, you just type
+% If you typeset your \filenm{.tex} files on the command line, you just type
 % \texttt{lualatex} instead of \texttt{latex} or \texttt{pdflatex}. If you use
 % some kind of GUI editor with \hologo{LaTeX} features, search its documentation
 % for ``engine'' and you will probably find the option to configure it.
@@ -146,12 +144,12 @@
 % To install Mercury text, you would need to purchase it directly from
 % \href{https://www.typography.com/fonts/mercury-text/styles}{Hoefler\&Co}. 
 %
-% \textbf{Warning:} There are pirated TrueType font files purporting to provide
-% various grades of Mercury Text, but they are incorrectly encoded. The letters
-% are fine, but several punctuation glyphs are given the wrong unicode point.
-% If you install them, your text will be missing quotation marks and other
-% punctuation. If you don't want to pay big bucks for Mercury Text, settle for 
-% Frank Ruhl Libre.
+% \watchout[warning] There are pirated TrueType font files purporting to 
+% provide various grades of Mercury Text, but they are incorrectly encoded.
+% The letters are fine, but several punctuation glyphs are given the wrong
+% unicode point. If you install them, your text will be missing quotation marks
+% and other punctuation. If you don't want to pay big bucks for Mercury Text,
+% settle for Frank Ruhl Libre.
 % 
 % Montserrat is a TrueType font that is included in \hologo{TeX}~Live. 
 % So you won't need to install it separately.
@@ -171,39 +169,50 @@
 % \section{Usage}
 %
 % Almost everything in the package is described with keys, as in PGF/TikZ.
+% For example:
+% \begin{sourcedisplay}
+% \cs{usepackage}\oarg{keyvals}\{nyu22fonts\}
+% \end{sourcedisplay}
 %
-% \begin{function}{usepackage}
-%   \begin{syntax}
-%      \cs{usepackage}\oarg{keys}|{nyu22fonts}|
-%   \end{syntax}
-%   Set package options while loading
-% \end{function}
-
-% \begin{function}{nyufontssetup}
-%   \begin{syntax}
-%     \cs{nyufontssetup}\marg{keys}
-%   \end{syntax}
-%   Set package options after package loading
-% \end{function}
-
+% \DescribeMacro{\nyufontssetup}\marg{keyvals}
+% 
+% Configure package options after loading, if possible. Options which require loading additional packages
+% can only be used in the preamble.
+%
 % \subsection{\hologo{XeLaTeX} and \hologo{LuaLaTeX} usage}
-
+%
 % With either of the engines that support TrueType fonts, we can use those
 % fonts.
+% 
+% \subsubsection{Setting fonts in groups}
 %
-% \begin{itemize}
+% \begin{description}
 %
-%   \item \textbf{proprietary} will load Gotham and Mercury Text.  
+%   \ItemDescribeKey{proprietary} Load Gotham and Mercury Text.
 %
-%   \item \textbf{open} will load Montserrat and Frank Ruhl Libre.  
+%   \watchout This option can't be used unless you have \textbf{both}
+%   Gotham and Mercury Text.
 %
-%   \item \textbf{system} will load Helvetica and Times New Roman.
+%   \ItemDescribeKey{open} Load Montserrat and Frank Ruhl Libre.  
 %
-% \end{itemize}
+%   \ItemDescribeKey{system} Load Helvetica and Times New Roman.
 %
-% If you have Gotham but not Mercury Text, however, you can't use
-% \textbf{proprietary}. Therefore, options exist to specify fonts
-% from different groups. Just use the name of the font, e.g,
+% \end{description}
+%
+% \subsubsection{Setting fonts by name}
+%
+% \begin{description}
+%   \ItemDescribeKey{Gotham} Use the Gotham family of fonts.
+%     To be more precise, this sets:
+%     \begin{itemize}
+%        \item the default sans font to Gotham Book
+%        \item the default bold sans font to Gotham Medium
+%        \item the default italic sans font to Gotham Book Italic
+%     \end{itemize}
+%
+%  \ItemDescribeKey{Mercury Text} Use the Mercury Text G2 family of fonts.
+% 
+% \end{description}
 %
 % \begin{verbatim}
 %    \usepackage[Gotham,Frank Ruhl Libre]{nyu22fonts}
@@ -271,7 +280,7 @@
 %
 % \subsubsection{Proprietary fonts}
 %
-% \begin{macro}[int]{\l_nyu_set_gotham:}
+% \begin{macro}{\l\_nyu\_set\_gotham:}
 % Set the default sans family to Gotham.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_gotham: {
@@ -284,7 +293,7 @@
 %    \end{macrocode}  
 % \end{macro}
 %
-% \begin{macro}[int]{\l_nyu_set_mercury_text:}
+% \begin{macro}{\l\_nyu\_set\_mercury\_text:}
 % Set the default roman family to Mercury Text Grade~2.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_mercury_text: {
@@ -299,9 +308,9 @@
 %
 % \subsubsection{Open fonts}
 %
-% \begin{macro}[int]{\l_nyu_set_montserrat:}
+% \begin{macro}{\l\_nyu\_set\_montserrat:}
 % Set the default sans family to Montserrat. There is already a
-% \pkg{montserrat} package with a \file{montserrat.fontspec} file, so we just
+% \pkg{montserrat} package with a \filenm{montserrat.fontspec} file, so we just
 % have to load it.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_montserrat: {
@@ -310,7 +319,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}[int]{\l_nyu_set_frank_ruhl_libre:}
+% \begin{macro}{\l\_nyu\_set\_frank\_ruhl\_libre:}
 % Set the default roman family to Frank Ruhl Libre. 
 % \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}l3b
 %    \begin{macrocode}
@@ -328,7 +337,7 @@
 % These are not official font options but pretty good approximations to
 % the official open ones.
 % 
-% \begin{macro}[int]{\l_nyu_set_vera:}
+% \begin{macro}{\l\_nyu\_set\_vera:}
 % Set the default sans family to Vera. The mono family is set to Bera, 
 % but the roman family is left alone.
 % \changes{v0.11c}{2022/10/01}{Fix a bug introduced by the \pkg{arev} package also setting the \emph{serif} font.}
@@ -344,7 +353,7 @@
 %    \end{macrocode}  
 % \end{macro}
 %
-% \begin{macro}[int]{\l_nyu_set_charter:}
+% \begin{macro}{\l\_nyu\_set\_charter:}
 % Set the default roman family to Charter.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_charter: {
@@ -356,7 +365,7 @@
 %
 % \subsubsection{System Fonts}
 %
-% \begin{macro}[int]{\l_nyu_set_helvetica_tt:}
+% \begin{macro}{\l\_nyu\_set\_helvetica\_tt:}
 % Set the default sans family to the TrueType Helvetica font.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_helvetica_tt: {
@@ -365,7 +374,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}[int]{\l_nyu_set_times_new_roman_tt:}
+% \begin{macro}{\l\_nyu\_set\_times\_new\_roman\_tt:}
 % Set the default roman family to the TrueType Times New Roman font.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_times_new_roman_tt: {
@@ -376,7 +385,7 @@
 %
 % \subsubsection{Type 1 fonts}
 %
-% \begin{macro}[int]{\l_nyu_set_helvetica_ti:}
+% \begin{macro}{\l\_nyu\_set\_helvetica\_ti:}
 % Set the default sans family to the Type~1 version of Helvetica.
 % (Technically, not Helvetica, but a Type~1 clone called Nimbus Sans.)
 %    \begin{macrocode}
@@ -386,7 +395,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}[int]{\l_nyu_set_times_new_roman_ti:}
+% \begin{macro}{\l\_nyu\_set\_times\_new\_roman\_ti:}
 % Set the default roman family to the Type~1 version of Times New Roman.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_times_new_roman_ti: {
@@ -398,7 +407,7 @@
 %  
 % \subsection{Selecting fonts automatically}
 %
-% \begin{macro}[int]{\l_nyu_auto_select_ss_font:}
+% \begin{macro}{\l\_nyu\_auto\_select\_ss\_font:}
 % Choose the sans serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_auto_select_ss_font: {
@@ -423,7 +432,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}[int]{\l_nyu_auto_select_sf_font:}
+% \begin{macro}{\l\_nyu\_auto\_select\_sf\_font:}
 % Choose the serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_auto_select_sf_font: {
@@ -484,15 +493,26 @@
     sans-serif-font / Vera             .usage:n = preamble,
 %    \end{macrocode}
 %
-% \changes{v0.14h}{2023/06/12}{Added \key{Gotham} and \key{Frank Ruhl Libre} meta-keys}
-% \changes{v0.16}{2023/06/12}{Added the rest of the TrueType fonts as meta-keys}
+% \begin{key}{Gotham}
+% \changes{v0.14h}{2023/06/12}{Added Gotham and Frank Ruhl Libre meta-keys}
+% Set Gotham.
 %    \begin{macrocode}
     Gotham .meta:n = { sans-serif-font = Gotham }, 
+%    \end{macrocode}
+% \end{key}
+% \begin{key}{Frank Ruhl Libre}
+% Set Frank Ruhl Libre.
+%    \begin{macrocode}
+    Frank~Ruhl~Libre .meta:n = { serif-font = Frank~Ruhl~Libre },
+%    \end{macrocode}
+% \end{key}  
+%
+% \changes{v0.16}{2023/06/12}{Added the rest of the TrueType fonts as meta-keys}
+%    \begin{macrocode}
     Montserrat .meta:n = { sans-serif-font = Montserrat }, 
     Helvetica .meta:n = { sans-serif-font = Helvetica~TrueType }, 
 
     Mercury~Text .meta:n = { serif-font = Mercury~Text},
-    Frank~Ruhl~Libre .meta:n = { serif-font = Frank~Ruhl~Libre},
     Times~New~Roman .meta:n = { serif-font = Times~New~Roman~TrueType},
 
 
