@@ -1,8 +1,8 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 ! Undefined control sequence.
-\l_nyu_set_montserrat: ->\setsansfont 
-                                      {montserrat}
+\__nyufonts_set_montserrat: ->\setsansfont 
+                                           {montserrat}
 l. ...\nyufontssetup{Montserrat,Frank~Ruhl~Libre}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10,8 +10,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 ! Undefined control sequence.
-\l_nyu_set_frank_ruhl_libre: ->\setmainfont 
-                                            {Frank Ruhl Libre}[ItalicFont=*,...
+\__nyufonts_set_frank_ruhl_libre: ->\setmainfont 
+                                                 {Frank Ruhl Libre}[ItalicFo...
 l. ...\nyufontssetup{Montserrat,Frank~Ruhl~Libre}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -331,8 +331,8 @@ TEST 6: \rmfamily \itshape
 l. ...  }
 ============================================================
 ! Undefined control sequence.
-\l_nyu_set_helvetica_tt: ->\setsansfont 
-                                        {Helvetica}
+\__nyufonts_set_helvetica_tt: ->\setsansfont 
+                                             {Helvetica}
 l. ...\nyufontssetup{Helvetica,Times~New~Roman}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -340,8 +340,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 ! Undefined control sequence.
-\l_nyu_set_times_new_roman_tt: ->\setmainfont 
-                                              {Times New Roman}
+\__nyufonts_set_times_new_roman_tt: ...etmainfont 
+                                                  {Times New Roman}
 l. ...\nyufontssetup{Helvetica,Times~New~Roman}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
