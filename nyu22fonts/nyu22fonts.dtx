@@ -26,7 +26,9 @@
 \postauthor{\par\end{flushleft}}
 
 \usepackage{xcolor-nyu22}[2022/08/05]
+\colorlet{\watchoutcolor}{Magenta}
 \usepackage[Gotham, Frank Ruhl Libre]{nyu22fonts}
+\linespread{1.041667}
 \setmonofont{Inconsolata}
 
 % For documenting expl3 macros, surround the doc element with |\makeusletter|
@@ -55,6 +57,11 @@
 \RecordChanges
 \CodelineIndex
 \usepackage{hyperref}
+\AtBeginDocument{
+  \hypersetup{
+    allcolors=NyuViolet,
+  }
+}
 \begin{document}
   \DocInput{nyu22fonts.dtx}
 \end{document}
@@ -79,14 +86,13 @@
 % \section{Introduction}
 
 % \subsection{The NYU Typographic Style}
-
-% From \cite{nyu-fonts}:
 %
 % \begin{quotation}
 % NYU's typographic language brings your communication to life. Like color, the
 % fonts we use reinforce the tone of our communications and designs.
 %
-% Gotham and Mercury Text are NYU's two typefaces. This versatile group of font
+% Gotham and Mercury Text are NYU's two typefaces. [See Figures
+% \ref{fig-gotham}~and~\ref{fig-mercury-text}.] This versatile group of font
 % families can be combined to achieve different tones. That flexibility helps
 % our communications appeal to many of our different audiences, including
 % students, parents, alumni, faculty and staff, peers, and supporters, while
@@ -101,15 +107,17 @@
 % \textbf{Mercury Text} is a high performance serif typeface born from nearly a
 % decade of research and development. Mercury Text is resilient enough to work
 % in a wide variety of communications.
+%
+% \hfill---NYU Media and Communications~\cite{nyu-fonts}
 % \end{quotation}
-
+%
 % \subsection{Engines and Font Encodings}
-
-% There are several ways a font can be conded. The ``old'' format is PostScript
-% Type~1 or just ``T1'' (see \cite{enwiki:1104696616}).  The old format is not
-% \emph{as} old as \hologo{TeX}'s native font file format.  Ironically, the
-% method for selecting Type~1 fonts in \hologo{TeX} is called the NFSS or ``new
-% font selection scheme.''
+%
+% There are several ways a font can be encoded. The ``old'' format is
+% PostScript Type~1 or just ``T1''.~\cite{enwiki:1104696616}.  The old format
+% is not \emph{as} old as \hologo{TeX}'s native font file format.  Ironically,
+% the method for selecting Type~1 fonts in \hologo{TeX} is called the NFSS or
+% ``new font selection scheme.''~\cite{texdoc-fntguide}
 %
 % The ``new'' (still quite old, late 1980s) formats are TrueType (see
 % \cite{enwiki:1092758383}) and OpenType. OpenType was built onto TrueType and
@@ -121,8 +129,10 @@
 % Most of the time, the default engine is \hologo{pdfTeX}. This engine only
 % handles Type~1 fonts, however. The 21st century engines were designed to
 % handle OpenType and TrueType fonts.  \hologo{XeTeX} (first released in 2004)
-% also reads input files in unicode rather than plain ASCII, and \hologo{LuaTeX}
-% (since 2007) includes a scriptable layer in the lua language.
+% also reads input files in unicode rather than plain ASCII, and
+% \hologo{LuaTeX} (since 2007) includes a scriptable layer in the lua language.
+% The \pkg{fontspec} package~\cite{pkg-fontspec} provides a more modern font
+% specification interface.
 %
 % The upshot is that \textbf{if you want the full features of this package, you
 % must use \hologo{XeLaTeX} or \hologo{LuaLaTeX}}. But there are other reasons
@@ -130,7 +140,7 @@
 % development, so that is the recommended modern engine to adapt.
 %
 % If you typeset your \filenm{.tex} files on the command line, you just type
-% \texttt{lualatex} instead of \texttt{latex} or \texttt{pdflatex}. If you use
+% \prog{lualatex} instead of \prog{latex} or \prog{pdflatex}. If you use
 % some kind of GUI editor with \hologo{LaTeX} features, search its documentation
 % for ``engine'' and you will probably find the option to configure it.
 
@@ -139,38 +149,70 @@
 % \subsection{The package}
 
 % To install the package, download the repository and within the module directory,
-% execute the command: \texttt{l3build install}.
+% execute the command: \prog{l3build install}.
 
 % \subsection{The fonts}
-
+%
+% \subsubsection{Gotham}
+%
+% \begin{figure}
+% \includegraphics[width=\textwidth]{1645638294211}
+% \caption{Gotham and its weights (from~\cite{nyu-fonts})}
+% \label{fig-gotham}
+% \end{figure}
+% 
 % To install Gotham, go to \href{https://nyu.onthehub.com/}{OnTheHub} and download
 % the zip file of TrueType fonts. Then open the archive and double click on each font.
 % It should be added to your system's font library.
 %
+% \subsubsection{Mercury Text}
+%
+% \begin{figure}
+% \includegraphics[width=\textwidth]{1645638337298}
+% \caption{Mercury Text and its weights (from~\cite{nyu-fonts})}
+% \label{fig-mercury-text}
+% \end{figure}
+%
 % To install Mercury text, you would need to purchase it directly from
 % \href{https://www.typography.com/fonts/mercury-text/styles}{Hoefler\&Co}. 
 %
-% \watchout[warning] There are pirated TrueType font files purporting to 
+% There \watchout[warning] are pirated TrueType font files purporting to 
 % provide various grades of Mercury Text, but they are incorrectly encoded.
 % The letters are fine, but several punctuation glyphs are given the wrong
 % unicode point. If you install them, your text will be missing quotation marks
 % and other punctuation. If you don't want to pay big bucks for Mercury Text,
 % settle for Frank Ruhl Libre.
 % 
-% Montserrat is a TrueType font that is included in \hologo{TeX}~Live. 
-% So you won't need to install it separately.
+% \subsubsection{Montserrat}
 %
-% Frank Ruhl Libre is an open licensed TrueType font, but it's not in
-% \hologo{TeX}~Live. You can download it from
+% \begin{figure}
+% \includegraphics[width=\textwidth]{1645638304749}
+% \caption{Montserrat and its weights (from~\cite{nyu-fonts})}
+% \label{fig-montserrat}
+% \end{figure}
+% Montserrat (see Figure~\ref{fig-montserrat}) is a TrueType font that is
+% included in \hologo{TeX}~Live. So you won't need to install it separately.
+%
+% \subsubsection{Frank Ruhl Libre}
+% 
+% \begin{figure}
+% \includegraphics[width=\textwidth]{1645638347113}
+% \caption{Frank Ruhl Libre and its weights (from~\cite{nyu-fonts})}
+% \label{fig-frl}
+% \end{figure}
+%
+% Frank Ruhl Libre (see Figure~\ref{fig-frl}) is an open licensed TrueType
+% font, but it's not in \hologo{TeX}~Live. You can download it from
 % \href{https://fonts.google.com/specimen/Frank+Ruhl+Libre}{Google Fonts}.
 % Install it by opening the zip file and double-clicking.
+%
+% \subsubsection{Other Fonts}
 %
 % The remaining TrueType fonts referenced in this package (Helvetica, Arial,
 % Georgia, Times New Roman) should be on your machine already if you have any
 % Microsoft or Apple product installed.
 %
 % The Type~1 fonts referenced will be in \hologo{TeX}~Live.
-%
 %
 % \section{Usage}
 %
@@ -196,8 +238,8 @@
 %
 %   \ItemDescribeKey{proprietary} Load Gotham and Mercury Text.
 %
-%   \watchout This option can't be used unless you have \textbf{both}
-%   Gotham and Mercury Text.
+%   This option can't be used unless you have \textbf{both}
+%   Gotham and Mercury Text. \watchout
 %
 %   \ItemDescribeKey{open} Load Montserrat and Frank Ruhl Libre.  
 %
@@ -217,42 +259,62 @@
 %     \end{itemize}
 %
 %  \ItemDescribeKey{Mercury Text} Use the Mercury Text G2 family of fonts.
+%
+%  \ItemDescribeKey{Montserrat} Use the Montserrat family of fonts.
+%    As of now, this sets:
+%    \begin{itemize}
+%      \item the default sans font to Montserrat Regular
+%      \item the default bold sans font to Montserrat Bold
+%      \item the default italic sans font to Montserrat Italic
+%    \end{itemize}
+%    This may change in the future, since, like Gotham, Montserrat comes
+%    in a variety of weights.
+%
+%  \ItemDescribeKey{Helvetica} Use the Helvetica TrueType family of fonts.
+%
+%  \ItemDescribeKey{Times New Roman} Use the Times New Roman TrueType family
+%    of fonts.
 % 
 % \end{description}
 %
-% \begin{verbatim}
-%    \usepackage[Gotham,Frank Ruhl Libre]{nyu22fonts}
-% \end{verbatim}
+% \subsubsection{Setting fonts automatically}
 %
-% If \emph{no} options are given, the package will choose the ``best''
-% available font, preferring the proprietary ones to the open ones, 
-% and the open ones to the system ones.
-
+% \DescribeKey{auto}
+% Choose the ``best'' available sans and serif fonts. The order of preference
+% is proprietary (i.e., Gotham and Mercury Text), open licensed fonts (i.e., 
+% Montserrat and Frank Ruhl), then system fonts (i.e., Helvetica and Times New
+% Roman). Each font is chosen independently, so you can end up with (for 
+% instance) Gotham and Frank Ruhl Libre. 
+%
+% Use this option with care, because it searches the file system for fonts at
+% each \LaTeX{} run. This can slow down your workflow quite a bit.
+%
 % \subsection{\hologo{pdfLaTeX} usage}
-
-% With the \hologo{pdfLaTeX} engine, a reasonable attempt is made to imitate the 
-% desired fonts with available Type~1 alternatives.
 %
-% \begin{itemize}
+% With the \hologo{pdfLaTeX} engine, a reasonable attempt is made to imitate
+% the desired fonts with available Type~1 alternatives.
 %
-%   \item \textbf{open} will load Vera Sans and Bitstream Charter.  These are
-%   decent Type~1 alternatives to Gotham and Mercury Text.
+% \begin{description}
 %
-%   \item \textbf{system} will load Type~1 versions of Helvetica and Times New
-%   Roman. 
+%   \ItemDescribeKey{open} Load Vera Sans and Bitstream Charter.  These are
+%     decent Type~1 alternatives to Gotham and Mercury Text.
 %
-%   \item \textbf{proprietary} will issue a warning, since the proprietary fonts
-%   are not available. As a fallback, the \textbf{system} option is executed
-%   instead.
+%   \ItemDescribeKey{system} Load Type~1 versions of Helvetica and Times New
+%     Roman. 
 %
-% \end{itemize}
+% \end{description}
+%
+% Setting |proprietary| with this engine will \watchout[unavailable key]
+% issue a warning, since the proprietary fonts are not available. As a
+% fallback, the |system| key is set instead.
+%
 %
 % \StopEventually{\PrintChanges}
 %
 % \printbibliography
 %
 % \section{Implementation}
-%
+% \makeusletter
 %    \begin{macrocode}
 %<*pkg>
 %    \end{macrocode}
