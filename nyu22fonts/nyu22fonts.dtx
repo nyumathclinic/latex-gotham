@@ -29,6 +29,12 @@
 \usepackage[Gotham, Frank Ruhl Libre]{nyu22fonts}
 \setmonofont{Inconsolata}
 
+% For documenting expl3 macros, surround the doc element with |\makeusletter|
+% and |\makeussubscript|.
+\newcommand{\makeusletter}{\catcode`\_=12}
+\newcommand{\makeussubscript}{\catcode`\_=8}
+
+
 
 % In the contemporary/subtle tone quadrant, we use sans for the main text and
 % serif for the section titles.
@@ -280,7 +286,7 @@
 %
 % \subsubsection{Proprietary fonts}
 %
-% \begin{macro}{\l\_nyu\_set\_gotham:}
+% \begin{macro}{\l_nyu_set_gotham:}
 % Set the default sans family to Gotham.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_gotham: {
@@ -293,7 +299,7 @@
 %    \end{macrocode}  
 % \end{macro}
 %
-% \begin{macro}{\l\_nyu\_set\_mercury\_text:}
+% \begin{macro}{\l_nyu_set_mercury_text:}
 % Set the default roman family to Mercury Text Grade~2.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_mercury_text: {
@@ -308,7 +314,7 @@
 %
 % \subsubsection{Open fonts}
 %
-% \begin{macro}{\l\_nyu\_set\_montserrat:}
+% \begin{macro}{\l_nyu_set_montserrat:}
 % Set the default sans family to Montserrat. There is already a
 % \pkg{montserrat} package with a \filenm{montserrat.fontspec} file, so we just
 % have to load it.
@@ -319,9 +325,9 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l\_nyu\_set\_frank\_ruhl\_libre:}
+% \begin{macro}{\l_nyu_set_frank_ruhl_libre:}
 % Set the default roman family to Frank Ruhl Libre. 
-% \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}l3b
+% \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_frank_ruhl_libre: {
   \setmainfont{Frank~Ruhl~Libre}[
@@ -332,12 +338,12 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \subsubsection{\LaTeX Type~1 approximations}
+% \subsubsection{\LaTeX{} Type~1 approximations}
 % 
 % These are not official font options but pretty good approximations to
 % the official open ones.
 % 
-% \begin{macro}{\l\_nyu\_set\_vera:}
+% \begin{macro}{\l_nyu_set_vera:}
 % Set the default sans family to Vera. The mono family is set to Bera, 
 % but the roman family is left alone.
 % \changes{v0.11c}{2022/10/01}{Fix a bug introduced by the \pkg{arev} package also setting the \emph{serif} font.}
@@ -353,7 +359,7 @@
 %    \end{macrocode}  
 % \end{macro}
 %
-% \begin{macro}{\l\_nyu\_set\_charter:}
+% \begin{macro}{\l_nyu_set_charter:}
 % Set the default roman family to Charter.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_charter: {
@@ -365,7 +371,7 @@
 %
 % \subsubsection{System Fonts}
 %
-% \begin{macro}{\l\_nyu\_set\_helvetica\_tt:}
+% \begin{macro}{\l_nyu_set_helvetica_tt:}
 % Set the default sans family to the TrueType Helvetica font.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_helvetica_tt: {
@@ -374,7 +380,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l\_nyu\_set\_times\_new\_roman\_tt:}
+% \begin{macro}{\l_nyu_set_times_new_roman_tt:}
 % Set the default roman family to the TrueType Times New Roman font.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_times_new_roman_tt: {
@@ -385,7 +391,7 @@
 %
 % \subsubsection{Type 1 fonts}
 %
-% \begin{macro}{\l\_nyu\_set\_helvetica\_ti:}
+% \begin{macro}{\l_nyu_set_helvetica_ti:}
 % Set the default sans family to the Type~1 version of Helvetica.
 % (Technically, not Helvetica, but a Type~1 clone called Nimbus Sans.)
 %    \begin{macrocode}
@@ -395,7 +401,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l\_nyu\_set\_times\_new\_roman\_ti:}
+% \begin{macro}{\l_nyu_set_times_new_roman_ti:}
 % Set the default roman family to the Type~1 version of Times New Roman.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_set_times_new_roman_ti: {
@@ -407,7 +413,7 @@
 %  
 % \subsection{Selecting fonts automatically}
 %
-% \begin{macro}{\l\_nyu\_auto\_select\_ss\_font:}
+% \begin{macro}{\l_nyu_auto_select_ss_font:}
 % Choose the sans serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_auto_select_ss_font: {
@@ -432,7 +438,7 @@
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\l\_nyu\_auto\_select\_sf\_font:}
+% \begin{macro}{\l_nyu_auto_select_sf_font:}
 % Choose the serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \l_nyu_auto_select_sf_font: {
@@ -549,7 +555,7 @@
     font-group .initial:n = system,
   }
 %    \end{macrocode}
-% Process keyval options at package use time.
+% \makeussubscript
 %
 % Process keyval options provided with \cs{usepackage}.
 % The \pkg{l3keys2e} package is obsolete with the June 2022 \LaTeX{} release.
