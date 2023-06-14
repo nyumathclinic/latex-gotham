@@ -551,18 +551,31 @@
 %    \end{macrocode}
 % Process keyval options at package use time.
 %
+% Process keyval options provided with \cs{usepackage}.
 % The \pkg{l3keys2e} package is obsolete with the June 2022 \LaTeX{} release.
 % See~\cite{tse-l3keys2e}.
-% \begin{macro}{\nyufontssetup}
 %    \begin{macrocode}
 \IfFormatAtLeastTF { 2022-06-01 }
 { 
   \ProcessKeyOptions [ nyufonts ]
-  \newcommand{\nyufontssetup}[1]{ \SetKeys[ nyufonts ]{#1} }
 }{
   \RequirePackage { l3keys2e }
   \ProcessKeysOptions { nyufonts }
 }  
+%
+%    \end{macrocode}
+%
+% \begin{macro}{\nyufontssetup}
+% Set keyval options after package loading.
+%    \begin{macrocode}
+\newcommand{\nyufontssetup}[1]{
+  \IfFormatAtLeastTF { 2022-06-01 }
+  { 
+    \SetKeys[ nyufonts ]{#1} 
+  }{  
+    \keys_set:nn { nyufonts }{ #1 } 
+  }  
+}
 %    \end{macrocode}
 % \end{macro}
 %
