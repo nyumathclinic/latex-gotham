@@ -18,6 +18,10 @@
 \usepackage{listings}
 \lstset{language=bash,basicstyle=\ttfamily}
 
+\usepackage[backend=biber]{biblatex}
+\addbibresource{xcolor-nyu22.bib}
+
+
 \usepackage{titling}
 \pretitle{\begin{adjustwidth}{0pt}{-1in}\begin{flushleft}\Huge}
 \posttitle{\par\end{flushleft}\end{adjustwidth}\vskip 0.5em}
@@ -116,10 +120,11 @@
 % \changes{v0.3.2}{2019/12/12}{Split color declaration into a separate package}
 % \changes{v0.2.0}{2019/12/11}{Fixed fonts to the official family}
 % \changes{v0.1.0}{2019/12/10}{First working release}
-
+%
+% \begin{refsection}
 % \section{Our Color Palette}
 %
-% This color palette is from the web page ``NYU Colors'' \cite{NyuColors} from the 
+% This color palette is from the web page ``NYU Colors'' \cite{nyu-colors} from the 
 % NYU Brand Kit. A lot of this text is, too.
 %
 % \DescribeColor{NyuViolet}
@@ -250,7 +255,7 @@
 % \DescribeMacro{\textcolor}\marg{color}\marg{text}
 % Set \meta{text} in \meta{color}.
 %
-% For more information, see the \pkg{xcolor} manual.^^A~\cite{pkg-xcolor}
+% For more information, see the \pkg{xcolor} manual.~\cite{pkg-xcolor}
 %
 % \section{Using Color}
 %
@@ -474,17 +479,22 @@
 % \end{figure}
 %
 %
-% \bibliographystyle{plain}
-% \bibliography{xcolor-nyu22}
+% \printbibliography[heading=subbibliography]
+% \end{refsection}
+%
 %
 % \StopEventually{\PrintChanges}
 %
 % \section{Implementation}
+% \begin{refsection}
+%
+% What follows is the annotated package code. If all you want to do is use the
+% package, you can stop reading here.
 %
 %    \begin{macrocode}
 %<*pkg>
 %    \end{macrocode}
-% This package derives from \pkg{xcolor}.
+% This package derives from the \pkg{xcolor} package.~\cite{pkg-xcolor}
 %    \begin{macrocode}
 \RequirePackage{xcolor}
 %    \end{macrocode}
@@ -625,6 +635,11 @@
 %    \begin{macrocode}
 %</pkg>
 %    \end{macrocode}
+%
+% \printbibliography[
+%   heading=subbibliography,
+%   title={Implementation References}]
+% \end{refsection}
 %
 % \Finale
 %
