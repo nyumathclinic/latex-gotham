@@ -84,7 +84,8 @@
 % \changes{0.11.0}{2022/08/16}{Full Implementation of package options}
 
 % \section{Introduction}
-
+% \begin{refsection}
+%
 % \subsection{The NYU Typographic Style}
 %
 % \begin{quotation}
@@ -249,6 +250,12 @@
 %
 % \subsubsection{Setting fonts by name}
 %
+% You can also use the font names themselves as options to the package,
+% as in:
+% \begin{verbatim}
+% \usepackage[Gotham, Frank Ruhl Libre]{nyu22fonts}
+% \end{verbatim}
+%
 % \begin{description}
 %   \ItemDescribeKey{Gotham} Use the Gotham family of fonts.
 %     To be more precise, this sets:
@@ -269,6 +276,8 @@
 %    \end{itemize}
 %    This may change in the future, since, like Gotham, Montserrat comes
 %    in a variety of weights.
+%
+%  \ItemDescribeKey{Frank Ruhl Libre} Use the Frank Ruhl Libre family of fonts.
 %
 %  \ItemDescribeKey{Helvetica} Use the Helvetica TrueType family of fonts.
 %
@@ -291,7 +300,7 @@
 %
 % \subsection{\hologo{pdfLaTeX} usage}
 %
-% With the \hologo{pdfLaTeX} engine, a reasonable attempt is made to imitate
+% With the \hologo{pdfTeX} engine, a reasonable attempt is made to imitate
 % the desired fonts with available Type~1 alternatives.
 %
 % \begin{description}
@@ -311,16 +320,23 @@
 %
 % \StopEventually{\PrintChanges}
 %
-% \printbibliography
+% \printbibliography[heading=subbibliography]
+% \end{refsection}
 %
 % \section{Implementation}
+% \begin{refsection}
+%
+% What follows is the annotated package code. If all you want to do is use the
+% package, you can stop reading here.
+%
 % \makeusletter
 %    \begin{macrocode}
 %<*pkg>
 %    \end{macrocode}
+% The package internals are written in the \pkg{expl3} 
+% environment.~\cite{pkg-interface3}
 %
-% Can we use \texttt{fontspec}?
-% If so, load it.
+% Can we use \texttt{fontspec}? If so, load it.
 %    \begin{macrocode}
 \bool_new:N \l__nyufonts_fontspec_bool
 \bool_set_false:N \l__nyufonts_fontspec_bool
@@ -651,5 +667,9 @@
 %</pkg>
 %    \end{macrocode}
 %
-% \Finale
+% \printbibliography[
+%   heading=subbibliography,
+%   title={Implementation References}]
+% \end{refsection}
 %
+% \Finale
