@@ -13,6 +13,7 @@
 % \usepackage[letterpaper]{geometry}
 \usepackage{xcolor-material}^^A For the \colorsample command
 \usepackage{changepage}^^A      For the `adjustwidth' environment
+\usepackage{hologo}
 
 \usepackage{listings}
 \lstset{language=bash,basicstyle=\ttfamily}
@@ -27,7 +28,10 @@
 
 \usepackage{xcolor-nyu22}
 
-\usepackage[auto]{nyu22fonts}
+\usepackage[Gotham, Frank Ruhl Libre]{nyu22fonts}[v1.0]
+\linespread{1.041667}
+\setmonofont{Inconsolata}
+
 % In the contemporary/subtle tone quadrant, we use sans for the main text
 % and serif for the section titles
 \renewcommand{\familydefault}{\sfdefault}
@@ -40,6 +44,15 @@
 
 \usepackage{parskip}
 
+\usepackage{dtxdescribe}
+\colorlet{\watchoutcolor}{Magenta}
+\NewDocElement[
+  macrolike=false,
+  toplevel=true,
+  idxtype=color,
+  idxgroup=Colors,
+  printtype=\textit{col}
+]{Color}{newcolor}
 
 
 \newlength{\mycontrastboxwidth}
@@ -74,6 +87,12 @@
 \RecordChanges
 \CodelineIndex
 \usepackage{hyperref}
+\AtBeginDocument{
+  \hypersetup{
+    allcolors=NyuViolet,
+  }
+}
+\usepackage{hyperref}
 \begin{document}
   \DocInput{xcolor-nyu22.dtx}
 \end{document}
@@ -86,7 +105,8 @@
 % \maketitle
 
 % \begin{abstract}
-%  We provide color names for the NYU visual identity.
+%   We describe a package \pkg{xcolor-nyu22} which provides color names for
+%   the NYU visual identity.
 % \end{abstract}
 
 % \changes{v0.9.0}{2022/08/05}{Added documentation on palette ratios}
@@ -102,31 +122,45 @@
 % This color palette is from the web page ``NYU Colors'' \cite{NyuColors} from the 
 % NYU Brand Kit. A lot of this text is, too.
 %
+% \DescribeColor{NyuViolet}
 % \textbf{NYU Violet:} NYU Violet is our principal brand color. It should be
 % used in every communication and design. Violet is a distinctive color that has
 % long been associated with the nonconformist who pushes boundaries to leave
 % their mark on the world.
 %
+% \DescribeColor{UltraViolet}
 % \textbf{Ultra Violet:} An electrified version of NYU Violet, this color adds
 % excitement to our communications. Ultra Violet should be used thoughtfully and
 % sparingly to add impact or interest, emphasize important information, increase
 % contrast, or create rhythm within your design.
 %
+% \DescribeColor{Black}
 % \textbf{Black:} A bold color, black strikes the perfect balance between
 % sophistication and edginess when used alongside NYU Violet.
 %
 %
-% \section{Color Values} \subsection{Primary Colors}
+% \subsection{Color Values} 
+% \subsubsection{Primary Colors}
 %
 % See Figure~\ref{fig-primary}.
 %
-% \begin{figure} \centering \colorsample[HTML][13em][White]{NyuViolet}
-%   \colorsample[HTML][][White]{UltraViolet} \colorsample[HTML][][White]{Black}
-%   \caption{NYU's primary colors} \label{fig-primary} \end{figure}
+% \begin{figure} \centering
+%   \colorsample[HTML][13em][White]{NyuViolet}
+%   \colorsample[HTML][][White]{UltraViolet}
+%   \colorsample[HTML][][White]{Black}
+%   \caption{NYU's primary colors} 
+%   \label{fig-primary}
+% \end{figure}
 %
-% \subsection{Secondary Colors}
+% \subsubsection{Secondary Colors}
 %
-% See Figure~\ref{fig-secondary}
+% \DescribeColor{DeepViolet}
+% \DescribeColor{MediumViolet1}
+% \DescribeColor{MediumViolet2}
+% \DescribeColor{LightViolet1}
+% \DescribeColor{LightViolet2}
+% Shades of NYU Violet.
+% See Figure~\ref{fig-secondary}.
 %
 % \begin{figure} \centering
 %     \colorsample[HTML][0.25\textwidth][White]{DeepViolet}
@@ -141,24 +175,36 @@
 %     \label{fig-secondary}
 % \end{figure}
 %
-% \subsection{Neutral Colors}
+% \subsubsection{Neutral Colors}
 %
-% See Figure~\ref{fig-neutral}.
+% \DescribeColor{DarkGray}
+% \DescribeColor{MediumGray1}
+% \DescribeColor{MediumGray2}
+% \DescribeColor{MediumGray3}
+% \DescribeColor{LightGray}
+% \DescribeColor{White}
+% Shades of gray. See Figure~\ref{fig-neutral}.
 %
-% \begin{figure} \centering \colorsample[HTML][0.25\textwidth][White]{DarkGray}
-%     \colorsample[HTML][0.25\textwidth][White]{MediumGray1}
-%     \colorsample[HTML][0.25\textwidth][White]{MediumGray2}
+% \begin{figure} 
+%   \centering
+%   \colorsample[HTML][0.25\textwidth][White]{DarkGray}
+%   \colorsample[HTML][0.25\textwidth][White]{MediumGray1}
+%   \colorsample[HTML][0.25\textwidth][White]{MediumGray2}
 %
-%     \colorsample[HTML][0.25\textwidth][Black]{MediumGray3}
-%     \colorsample[HTML][0.25\textwidth][Black]{LightGray}
-%     \colorsample[HTML][0.25\textwidth][Black]{White}
+%   \colorsample[HTML][0.25\textwidth][Black]{MediumGray3}
+%   \colorsample[HTML][0.25\textwidth][Black]{LightGray}
+%   \colorsample[HTML][0.25\textwidth][Black]{White}
 %
 %     \caption{NYU's neutral colors}
 %     \label{fig-neutral}
 % \end{figure}
 %
-% \subsection{Accent Colors}
+% \subsubsection{Accent Colors}
 %
+% \DescribeColor{Teal}
+% \DescribeColor{Magenta}
+% \DescribeColor{Blue}
+% \DescribeColor{Yellow}
 % Accent colors can be used for emphasis and contrast within your design. They
 % can highlight important elements of your communication such as infographics,
 % pull quotes, or even a single word in a title.
@@ -173,10 +219,38 @@
 % harmony with the primary colors, so another shade of yellow or blue should not
 % be used anyway.
 %
-% \begin{figure} \centering \colorsample[HTML][5em][White]{Teal}
-%    \colorsample[HTML][5em][White]{Magenta}
-%    \colorsample[HTML][5em][White]{Blue} \colorsample[HTML][5em][Black]{Yellow}
-%    \caption{Accent colors} \label{fig-accents} \end{figure}
+% \begin{figure}
+%   \centering
+%   \colorsample[HTML][5em][White]{Teal}
+%   \colorsample[HTML][5em][White]{Magenta}
+%   \colorsample[HTML][5em][White]{Blue}
+%   \colorsample[HTML][5em][Black]{Yellow}
+%   \caption{Accent colors}
+%   \label{fig-accents}
+% \end{figure}
+%
+% \section{Installation}
+%
+% To install the package, download the repository and within the module
+% directory, execute the command: \prog{l3build install}.
+%
+% \section{Using the Package}
+%
+% \DescribePackage{xcolor-nyu22}
+% Once it's installed, using the package is as easy as:
+% \begin{sourcedisplay}
+% \cs{usepackage}\{xcolor-nyu22\}
+% \end{sourcedisplay}
+% The package does not provide any commands other than those from \pkg{xcolor}.
+% The only ones you probably need are:
+%
+% \DescribeMacro{\color}\marg{color name}
+% Switch the current color to \meta{color}.
+%
+% \DescribeMacro{\textcolor}\marg{color}\marg{text}
+% Set \meta{text} in \meta{color}.
+%
+% For more information, see the \pkg{xcolor} manual.^^A~\cite{pkg-xcolor}
 %
 % \section{Using Color}
 %
@@ -409,25 +483,63 @@
 %
 %    \begin{macrocode}
 %<*pkg>
+%    \end{macrocode}
+% This package derives from \pkg{xcolor}.
+%    \begin{macrocode}
 \RequirePackage{xcolor}
 %    \end{macrocode}
 %
 %
-% Violets
+% \subsection{Violets}
 %
 % \changes{v0.9.0}{2022/08/03}{Changed the primary name from \texttt{nyupurple} to \texttt{NyuViolet}}
 % \changes{v0.9.0}{2022/08/03}{Added \texttt{UltraViolet} and \texttt{Black}}
 % \changes{v0.9.0}{2022/08/03}{Added the medium and light violets}
+
+% \begin{newcolor}{NyuViolet}
+% The offical NYU shade of violet.
 %    \begin{macrocode}
 \definecolor{NyuViolet}{HTML}{57068C}
+%    \end{macrocode}
+% \end{newcolor}
+% 
+% \begin{newcolor}{UltraViolet}
+% NYU ultra violet
+%    \begin{macrocode}
 \definecolor{UltraViolet}{HTML}{8900e1}
-\definecolor{Black}{HTML}{000000}% none more black
+%    \end{macrocode}
+% \end{newcolor}
+%
+% \begin{newcolor}{Black}
+% ``None more black''
+%    \begin{macrocode}
+\definecolor{Black}{HTML}{000000}% 
+%    \end{macrocode}
+% \end{newcolor}
+%
+% \begin{newcolor}{DeepViolet}
+% \begin{newcolor}{MediumViolet1}
+% \begin{newcolor}{MediumViolet2}
+% \begin{newcolor}{LightViolet1}
+% \begin{newcolor}{LightViolet2}
+% Shades of NYU Violet
+%    \begin{macrocode}
 \definecolor{DeepViolet}{HTML}{330662}
 \definecolor{MediumViolet1}{HTML}{702b9d}
 \definecolor{MediumViolet2}{HTML}{7b5aa6}
 \definecolor{LightViolet1}{HTML}{ab82c5}
 \definecolor{LightViolet2}{HTML}{eee6f3}
-% deprecated
+%    \end{macrocode}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+% 
+% The color names below belong to the pre-2022 brand kit. They are officially
+% deprecated. There's no way to warn about using deprecated nameds within
+% \hologo{TeX}; just know they could be deleted at any point. 
+%    \begin{macrocode}
 \colorlet{nyupurple}{NyuViolet}
 \colorlet{nyupurple1}{NyuViolet}
 \definecolor{nyupurple2}{HTML}{8900E1}
@@ -435,8 +547,15 @@
 \definecolor{nyupurple4}{HTML}{220337}
 %    \end{macrocode}
 %
-% Blacks and grays
+% \subsection{Blacks and grays}
+% We only provide five shades of gray, rather than fifty.
+% \begin{newcolor}{DarkGray}
+% \begin{newcolor}{MediumGray1}
+% \begin{newcolor}{MediumGray2}
+% \begin{newcolor}{MediumGray3}
 % \changes{v0.9.0}{2022/08/03}{Added the 2022 gray shades and deprecated the prior ones}
+% \begin{newcolor}{LightGray}
+% \begin{newcolor}{White}
 %    \begin{macrocode}
 \definecolor{DarkGray}{HTML}{404040}
 \definecolor{MediumGray1}{HTML}{6d6d6d}
@@ -444,7 +563,16 @@
 \definecolor{MediumGray3}{HTML}{d6d6d6}
 \definecolor{LightGray}{HTML}{f2f2f2}
 \definecolor{White}{HTML}{ffffff}
-% deprecated color names
+%    \end{macrocode}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+%
+% Deprecated color names
+%    \begin{macrocode}
 \definecolor{nyugblack}{HTML}{000000}
 \definecolor{nyugray}{HTML}{6D6D6D}
 \colorlet{nyugray1}{nyugray}
@@ -453,25 +581,34 @@
 \definecolor{nyugray4}{HTML}{F2F2F2}
 %    \end{macrocode}
 %
-% Accent colors
+% \subsection{Accent colors}
 %
+% \begin{newcolor}{Teal}
+% \begin{newcolor}{Magenta}
 % \changes{v0.9.0}{2022/08/03}{Added the 2022 accent colors and deprecated the prior alert ones}
-%
+% \begin{newcolor}{Blue}
+% \begin{newcolor}{Yellow}
 %    \begin{macrocode}
 \definecolor{Teal}{HTML}{009b8a}
 \definecolor{Magenta}{HTML}{fb0f78}
 \definecolor{Blue}{HTML}{59B2D1}
 \definecolor{Yellow}{HTML}{f4ec51}
-% deprecated
+%    \end{macrocode}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+% \end{newcolor}
+% 
+% Deprecated color names
+%    \begin{macrocode}
 \definecolor{nyured}{HTML}{CB0200}% warning
 \definecolor{nyuorange}{HTML}{E86C00}% info
 \definecolor{nyugreen}{HTML}{489141}% success
 %    \end{macrocode}
 %
-% Tertiary accent colors
+% \subsection{Tertiary accent colors (deprecated)}
 %
 %    \begin{macrocode}
-% deprecated
 \definecolor{nyudarkblue}{HTML}{28619E}
 \colorlet{nyuaccent1}{nyudarkblue}
 \definecolor{nyulightblue}{HTML}{3DBBDB} 
