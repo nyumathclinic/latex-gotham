@@ -45,6 +45,7 @@
 \titleformat*{\subsection}{\Large\headingfont}
 \titleformat*{\subsubsection}{\large\headingfont}
 \renewcommand{\maketitlehooka}{\headingfont}
+\setcounter{secnumdepth}{2}
 
 \usepackage{parskip}
 
@@ -55,9 +56,8 @@
   toplevel=true,
   idxtype=color,
   idxgroup=Colors,
-  printtype=\textit{col}
+  noindex=false,
 ]{Color}{newcolor}
-
 
 \newlength{\mycontrastboxwidth}
 \newcommand{\contrastbox}[5][0.3\linewidth]{%
@@ -87,7 +87,8 @@
   {\rotatebox{270}{\color{#4}{\footnotesize\ #5 #3\%}}\vfill}}%
 }
 
-\EnableCrossrefs
+\DisableCrossrefs
+\DoNotIndex{\definecolor,\colorlet,\RequirePackage}
 \RecordChanges
 \CodelineIndex
 \usepackage{hyperref}
@@ -107,12 +108,13 @@
 % \title{The NYU Color Palette}
 % \author{Matthew Leingang\thanks{leingang@nyu.edu}} \date{\fileversion, Released \filedate}
 % \maketitle
-
+%
 % \begin{abstract}
 %   We describe a package \pkg{xcolor-nyu22} which provides color names for
 %   the NYU visual identity.
 % \end{abstract}
-
+% \tableofcontents
+%
 % \changes{v0.9.0}{2022/08/05}{Added documentation on palette ratios}
 % \changes{v0.9.0}{2022/08/02}{Changed package name to \texttt{xcolor-nyu22}} 
 % \changes{v0.5.0}{2019/12/13}{Changed package name to \texttt{xcolor-nyu}}
@@ -124,115 +126,79 @@
 % \begin{refsection}
 % \section{Our Color Palette}
 %
-% This color palette is from the web page ``NYU Colors'' \cite{nyu-colors} from the 
-% NYU Brand Kit. A lot of this text is, too.
+% This color palette is from the web page ``NYU Colors'' \cite{nyu-colors} from
+% the NYU Brand Kit. A lot of this text is, too.
 %
-% \DescribeColor{NyuViolet}
-% \textbf{NYU Violet:} NYU Violet is our principal brand color. It should be
-% used in every communication and design. Violet is a distinctive color that has
-% long been associated with the nonconformist who pushes boundaries to leave
-% their mark on the world.
+% \textbf{NYU Violet:}\DescribeColor{NyuViolet} NYU Violet is our principal
+% brand color. It should be used in every communication and design. Violet is
+% a distinctive color that has long been associated with the nonconformist who
+% pushes boundaries to leave their mark on the world.
 %
-% \DescribeColor{UltraViolet}
-% \textbf{Ultra Violet:} An electrified version of NYU Violet, this color adds
-% excitement to our communications. Ultra Violet should be used thoughtfully and
-% sparingly to add impact or interest, emphasize important information, increase
-% contrast, or create rhythm within your design.
+% \textbf{Ultra Violet:}\DescribeColor{UltraViolet} An electrified version of
+% NYU Violet, this color adds excitement to our communications. Ultra Violet
+% should be used thoughtfully and sparingly to add impact or interest,
+% emphasize important information, increase contrast, or create rhythm within
+% your design.
 %
-% \DescribeColor{Black}
-% \textbf{Black:} A bold color, black strikes the perfect balance between
-% sophistication and edginess when used alongside NYU Violet.
+% \textbf{Black:}\DescribeColor{Black} A bold color, black strikes the perfect
+% balance between sophistication and edginess when used alongside NYU Violet.
+% 
+% \subsection{Primary Colors}
 %
+% The three NYU primary colors described above are shown 
+% in the table below.
 %
-% \subsection{Color Values} 
-% \subsubsection{Primary Colors}
+% \DescribeColor{NyuViolet}\DescribeColor{UltraViolet}\DescribeColor{Black}
+% \colorsample[HTML][13em][White]{NyuViolet}[\PrintDescribeColor{NyuViolet}]
+% \colorsample[HTML][][White]{UltraViolet}[\PrintDescribeColor{UltraViolet}]
+% \colorsample[HTML][][White]{Black}[\PrintDescribeColor{Black}]
 %
-% See Figure~\ref{fig-primary}.
+% \subsection{Secondary Colors}
 %
-% \begin{figure} \centering
-%   \colorsample[HTML][13em][White]{NyuViolet}
-%   \colorsample[HTML][][White]{UltraViolet}
-%   \colorsample[HTML][][White]{Black}
-%   \caption{NYU's primary colors} 
-%   \label{fig-primary}
-% \end{figure}
+% There are five secondary colors, which are other shades of violet.
+% White is included to balance the table below.
 %
-% \subsubsection{Secondary Colors}
+% \colorsample[HTML][0.25\textwidth][White]{DeepViolet}[\PrintDescribeColor{DeepViolet}]
+% \colorsample[HTML][0.25\textwidth][White]{MediumViolet1}[\PrintDescribeColor{MediumViolet1}]
+% \colorsample[HTML][0.25\textwidth][White]{MediumViolet2}[\PrintDescribeColor{MediumViolet2}]
 %
-% \DescribeColor{DeepViolet}
-% \DescribeColor{MediumViolet1}
-% \DescribeColor{MediumViolet2}
-% \DescribeColor{LightViolet1}
-% \DescribeColor{LightViolet2}
-% Shades of NYU Violet.
-% See Figure~\ref{fig-secondary}.
+% \colorsample[HTML][0.25\textwidth][White]{LightViolet1}[\PrintDescribeColor{LightViolet1}]
+% \colorsample[HTML][0.25\textwidth][Black]{LightViolet2}[\PrintDescribeColor{LightViolet2}]
+% \colorsample[HTML][0.25\textwidth][Black]{White}[\PrintDescribeColor{White}]
+% \DescribeColor[noprint]{LightViolet1}
+% \DescribeColor[noprint]{LightViolet2}
 %
-% \begin{figure} \centering
-%     \colorsample[HTML][0.25\textwidth][White]{DeepViolet}
-%     \colorsample[HTML][0.25\textwidth][White]{MediumViolet1}
-%     \colorsample[HTML][0.25\textwidth][White]{MediumViolet2}
+% \subsection{Neutral Colors}
 %
-%     \colorsample[HTML][0.25\textwidth][White]{LightViolet1}
-%     \colorsample[HTML][0.25\textwidth][Black]{LightViolet2}
-%     \colorsample[HTML][0.25\textwidth][Black]{White}
-%     \caption{NYU's secondary colors. White is actually a neutral 
-%     color, but it's included in this table for balance.}
-%     \label{fig-secondary}
-% \end{figure}
+% Between white and black, there are five shades of gray.
 %
-% \subsubsection{Neutral Colors}
+% \colorsample[HTML][0.25\textwidth][White]{DarkGray}[\PrintDescribeColor{DarkGray}]
+% \colorsample[HTML][0.25\textwidth][White]{MediumGray1}[\PrintDescribeColor{MediumGray1}]
+% \colorsample[HTML][0.25\textwidth][White]{MediumGray2}[\PrintDescribeColor{MediumGray2}]
 %
-% \DescribeColor{DarkGray}
-% \DescribeColor{MediumGray1}
-% \DescribeColor{MediumGray2}
-% \DescribeColor{MediumGray3}
-% \DescribeColor{LightGray}
-% \DescribeColor{White}
-% Shades of gray. See Figure~\ref{fig-neutral}.
+% \colorsample[HTML][0.25\textwidth][Black]{MediumGray3}[\PrintDescribeColor{MediumGray3}]
+% \colorsample[HTML][0.25\textwidth][Black]{LightGray}[\PrintDescribeColor{LightGray}]
+% \colorsample[HTML][0.25\textwidth][Black]{White}[\PrintDescribeColor{White}]
 %
-% \begin{figure} 
-%   \centering
-%   \colorsample[HTML][0.25\textwidth][White]{DarkGray}
-%   \colorsample[HTML][0.25\textwidth][White]{MediumGray1}
-%   \colorsample[HTML][0.25\textwidth][White]{MediumGray2}
+% \subsection{Accent Colors}
 %
-%   \colorsample[HTML][0.25\textwidth][Black]{MediumGray3}
-%   \colorsample[HTML][0.25\textwidth][Black]{LightGray}
-%   \colorsample[HTML][0.25\textwidth][Black]{White}
-%
-%     \caption{NYU's neutral colors}
-%     \label{fig-neutral}
-% \end{figure}
-%
-% \subsubsection{Accent Colors}
-%
-% \DescribeColor{Teal}
-% \DescribeColor{Magenta}
-% \DescribeColor{Blue}
-% \DescribeColor{Yellow}
 % Accent colors can be used for emphasis and contrast within your design. They
 % can highlight important elements of your communication such as infographics,
 % pull quotes, or even a single word in a title.
 %
 % This selection of colors gives you the option to add variety to your content
 % while working alongside NYU's primary palette. Accent colors are not required,
-% but if you want to use one, choose only one and use it sparingly.  See
-% Figure~\ref{fig-accents}.
+% but if you want to use one, choose only one and use it sparingly.  
+%
+% \colorsample[HTML][5em][White]{Teal}[\PrintDescribeColor{Teal}]
+% \colorsample[HTML][5em][White]{Magenta}[\PrintDescribeColor{Magenta}]
+% \colorsample[HTML][5em][White]{Blue}[\PrintDescribeColor{Blue}]
+% \colorsample[HTML][5em][Black]{Yellow}[\PrintDescribeColor{Yellow}]
 %
 % Note that if these color names are already used, this package will overwrite
 % them. That is expected behavior, though. The colors are chosen for their
 % harmony with the primary colors, so another shade of yellow or blue should not
 % be used anyway.
-%
-% \begin{figure}
-%   \centering
-%   \colorsample[HTML][5em][White]{Teal}
-%   \colorsample[HTML][5em][White]{Magenta}
-%   \colorsample[HTML][5em][White]{Blue}
-%   \colorsample[HTML][5em][Black]{Yellow}
-%   \caption{Accent colors}
-%   \label{fig-accents}
-% \end{figure}
 %
 % \section{Installation}
 %
@@ -310,7 +276,7 @@
 % gray, and white. See Figure~\ref{fig-ratio-contemporary-bold}. 
 %
 % We used ImageMagick to make a histogram of the colors in the images from 
-% \cite{NyuColors}, and rounded the percentages. The shell command was along the
+% \cite{nyu-colors}, and rounded the percentages. The shell command was along the
 % lines of:
 %
 % \begin{lstlisting}
@@ -616,7 +582,7 @@
 \definecolor{nyugreen}{HTML}{489141}% success
 %    \end{macrocode}
 %
-% \subsection{Tertiary accent colors (deprecated)}
+% \subsection*{Tertiary accent colors (deprecated)}
 %
 %    \begin{macrocode}
 \definecolor{nyudarkblue}{HTML}{28619E}
@@ -641,5 +607,6 @@
 %   title={Implementation References}]
 % \end{refsection}
 %
-% \Finale
+% \PrintIndex
+%% \Finale
 %
