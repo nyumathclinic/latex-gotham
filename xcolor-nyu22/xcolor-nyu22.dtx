@@ -88,10 +88,10 @@
   {\rotatebox{270}{\color{#4}{\footnotesize\ #5 #3\%}}\vfill}}%
 }
 
-\DisableCrossrefs
 \DoNotIndex{\definecolor,\colorlet,\RequirePackage}
-\RecordChanges
+\DisableCrossrefs
 \CodelineIndex
+\RecordChanges
 \usepackage{hyperref}
 \AtBeginDocument{
   \hypersetup{
@@ -449,9 +449,7 @@
 % quadrant. It's not really possible to verify the percentages, but you can See
 % the predominance of the NYU Violet, black, and ultra violet.
 %
-% \section{Accessibility}
-%
-% \subsection{Color Contrast}
+% \section{Accessibility: Color Contrast}
 %
 % Color contrast is the difference between two colors. If the foreground colors
 % of visual elements are too similar to the background colors, it can be
@@ -462,7 +460,7 @@
 % Text should have a contrast ratio of at least 3-to-1. According to the World
 % Wide Web Consortium, if icons are required to understand content, then they
 % must also have a contrast ratio of at least 3-to-1. There are many resources
-% available, such as the WAVE tool, to check the color contrast in your designs.
+% available, such as the WebAIM tool~\cite{web-aim}, to check the color contrast in your designs.
 % See Figures \ref{fig-high-contrast}~and~\ref{fig-low-contrast}.
 %
 % \begin{figure}
@@ -485,12 +483,13 @@
 % \label{fig-low-contrast}
 % \end{figure}
 %
-%
 % \printbibliography[heading=subbibliography]
 % \end{refsection}
 %
-%
-% \StopEventually{\PrintChanges}
+%\StopEventually{^^A
+%  \PrintChanges
+%  \PrintIndex
+%}
 %
 % \section{Implementation}
 % \begin{refsection}
@@ -507,14 +506,14 @@
 %    \end{macrocode}
 %
 %
-% \subsection{Violets}
+% \subsection{Primary colors}
 %
 % \changes{v0.9.0}{2022/08/03}{Changed the primary name from \texttt{nyupurple} to \texttt{NyuViolet}}
 % \changes{v0.9.0}{2022/08/03}{Added \texttt{UltraViolet} and \texttt{Black}}
 % \changes{v0.9.0}{2022/08/03}{Added the medium and light violets}
-
+%
 % \begin{newcolor}{NyuViolet}
-% The offical NYU shade of violet.
+% Official NYU Violet
 %    \begin{macrocode}
 \definecolor{NyuViolet}{HTML}{57068C}
 %    \end{macrocode}
@@ -528,31 +527,42 @@
 % \end{newcolor}
 %
 % \begin{newcolor}{Black}
-% ``None more black''
+% How much more black could this be? The answer is none. None more black.
 %    \begin{macrocode}
 \definecolor{Black}{HTML}{000000}% 
 %    \end{macrocode}
 % \end{newcolor}
 %
+% \subsection{Secondary colors}
+%
 % \begin{newcolor}{DeepViolet}
-% \begin{newcolor}{MediumViolet1}
-% \begin{newcolor}{MediumViolet2}
-% \begin{newcolor}{LightViolet1}
-% \begin{newcolor}{LightViolet2}
-% Shades of NYU Violet
 %    \begin{macrocode}
 \definecolor{DeepViolet}{HTML}{330662}
+%    \end{macrocode}  
+% \end{newcolor}
+% \begin{newcolor}{MediumViolet1}
+%    \begin{macrocode}
 \definecolor{MediumViolet1}{HTML}{702b9d}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{MediumViolet2}
+%    \begin{macrocode}
 \definecolor{MediumViolet2}{HTML}{7b5aa6}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{LightViolet1}
+%    \begin{macrocode}
 \definecolor{LightViolet1}{HTML}{ab82c5}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{LightViolet2}
+%    \begin{macrocode}
 \definecolor{LightViolet2}{HTML}{eee6f3}
 %    \end{macrocode}
 % \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
 % 
+% \subsection*{Deprecated secondary colors}
+%
 % The color names below belong to the pre-2022 brand kit. They are officially
 % deprecated. There's no way to warn about using deprecated nameds within
 % \hologo{TeX}; just know they could be deleted at any point. 
@@ -565,30 +575,40 @@
 %    \end{macrocode}
 %
 % \subsection{Blacks and grays}
+% \changes{v0.9.0}{2022/08/03}{Added the 2022 gray shades and deprecated the prior ones}
 % We only provide five shades of gray, rather than fifty.
 % \begin{newcolor}{DarkGray}
-% \begin{newcolor}{MediumGray1}
-% \begin{newcolor}{MediumGray2}
-% \begin{newcolor}{MediumGray3}
-% \changes{v0.9.0}{2022/08/03}{Added the 2022 gray shades and deprecated the prior ones}
-% \begin{newcolor}{LightGray}
-% \begin{newcolor}{White}
 %    \begin{macrocode}
 \definecolor{DarkGray}{HTML}{404040}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{MediumGray1}
+%    \begin{macrocode}
 \definecolor{MediumGray1}{HTML}{6d6d6d}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{MediumGray2}
+%    \begin{macrocode}
 \definecolor{MediumGray2}{HTML}{b8b8b8}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{MediumGray3}
+%    \begin{macrocode}
 \definecolor{MediumGray3}{HTML}{d6d6d6}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{LightGray}
+%    \begin{macrocode}
 \definecolor{LightGray}{HTML}{f2f2f2}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{White}
+%    \begin{macrocode}
 \definecolor{White}{HTML}{ffffff}
 %    \end{macrocode}
 % \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
 %
-% Deprecated color names
+% \subsection{Deprecated blacks and grays}
 %    \begin{macrocode}
 \definecolor{nyugblack}{HTML}{000000}
 \definecolor{nyugray}{HTML}{6D6D6D}
@@ -599,31 +619,37 @@
 %    \end{macrocode}
 %
 % \subsection{Accent colors}
+% \changes{v0.9.0}{2022/08/03}{Added the 2022 accent colors and deprecated the prior alert ones}
 %
 % \begin{newcolor}{Teal}
-% \begin{newcolor}{Magenta}
-% \changes{v0.9.0}{2022/08/03}{Added the 2022 accent colors and deprecated the prior alert ones}
-% \begin{newcolor}{Blue}
-% \begin{newcolor}{Yellow}
 %    \begin{macrocode}
 \definecolor{Teal}{HTML}{009b8a}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{Magenta}
+%    \begin{macrocode}
 \definecolor{Magenta}{HTML}{fb0f78}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{Blue}
+%    \begin{macrocode}
 \definecolor{Blue}{HTML}{59B2D1}
+%    \end{macrocode}
+% \end{newcolor}
+% \begin{newcolor}{Yellow}
+%    \begin{macrocode}
 \definecolor{Yellow}{HTML}{f4ec51}
 %    \end{macrocode}
 % \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
-% \end{newcolor}
 % 
-% Deprecated color names
+% \subsection{Deprecated accent colors}
 %    \begin{macrocode}
 \definecolor{nyured}{HTML}{CB0200}% warning
 \definecolor{nyuorange}{HTML}{E86C00}% info
 \definecolor{nyugreen}{HTML}{489141}% success
 %    \end{macrocode}
 %
-% \subsection*{Tertiary accent colors (deprecated)}
+% \subsection*{Deprecated tertiary accent colors}
 %
 %    \begin{macrocode}
 \definecolor{nyudarkblue}{HTML}{28619E}
@@ -648,6 +674,5 @@
 %   title={Implementation References}]
 % \end{refsection}
 %
-% \PrintIndex
-%% \Finale
+% \Finale
 %
