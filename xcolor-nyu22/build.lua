@@ -3,8 +3,8 @@
 
 bundle = "Gotham"
 module = "xcolor-nyu22"
-version = "1.0"
-date = "2023-06-16"
+version = "1.0a"
+date = "2023-06-19"
 
 maindir = ".."
 typesetfiles = {"*.tex", "examples/*.tex"}
