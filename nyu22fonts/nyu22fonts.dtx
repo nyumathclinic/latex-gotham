@@ -53,6 +53,10 @@
 
 \usepackage{parskip}
 
+\renewrobustcmd*{\pkg}[1]{\mbox{\textbf{#1}}}^^A whole document is in sans already
+\renewrobustcmd*{\acro}[1]{\MakeUppercase{#1}}^^A Gotham doesn't have small caps
+
+
 \EnableCrossrefs
 \RecordChanges
 \CodelineIndex
@@ -264,6 +268,14 @@
 %        \item the default bold sans font to Gotham Medium
 %        \item the default italic sans font to Gotham Book Italic
 %     \end{itemize}
+%     The other weights provided in the licensed package are also available
+%     using \acro{NFSS} commands:
+%     \begin{itemize}
+%        \item use \verb|\fontseries{l}\selectfont| to get Gotham Light
+%        \item use \verb|\fontseries{l}\selectfont\itshape| to get Gotham Light Italic
+%        \item use \verb|\fontseries{b}\selectfont| to get Gotham Bold
+%        \item use \verb|\fontseries{b}\selectfont\itshape| to get Gotham Bold Italic
+%     \end{itemize}
 %
 %  \ItemDescribeKey{Mercury Text} Use the Mercury Text G2 family of fonts.
 %
@@ -364,14 +376,46 @@
 % \subsubsection{Proprietary fonts}
 %
 % \begin{macro}{\__nyufonts_set_gotham:}
+% \changes{unreleased}{2023/06/19}{Specify bold and light weights}
 % Set the default sans family to Gotham.
+%
+% We use both the \pkg{fontspec} and \acro{NFSS} methods for choosing font
+% faces, so that we can assign all the weights provided in the licensed
+% package. We reserve space in the \acro{NFSS} weight spectrum for the other
+% known, but possibly not installed, weights. Unlicensed versions of these can
+% be found online, but using them is trickier and may be engine-dependent.
+% Use at your own risk.
+%
+% \begin{tabular}{llll}
+%     Official weight & \acro{NFSS} weight & licensed & unlicensed \\
+%     \hline
+%     Thin            & \texttt{ul}        & No       & Yes \\
+%     XLight          & \texttt{el}        & No       & Yes \\
+%     Light           & \texttt{l}         & Yes      & Yes \\
+%     Book            & \texttt{m}         & Yes      & Yes \\
+%     Medium          & \texttt{sb}        & Yes      & Yes \\
+%     Bold            & \texttt{b}         & Yes      & Yes \\
+%     Black           & \texttt{eb}        & No       & upright only \\
+%     Ultra           & \texttt{ub}        & No       & italic only
+% \end{tabular}
+%
+% The default “boldface” series is set to \texttt{sb}, which is mapped to 
+% Gotham Medium. 
+% 
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_gotham: {
   \setsansfont{Gotham}[
     UprightFont=*~Book,
     BoldFont=*~Medium,
-    ItalicFont=*~Book~Italic
-  ]          
+    ItalicFont=*~Book~Italic,
+    FontFace={l}{n}{*~Light},
+    FontFace={l}{it}{*~Light~Italic},
+    FontFace={sb}{n}{*~Medium},
+    FontFace={sb}{it}{*~Medium~Italic},
+    FontFace={b}{n}{*~Bold},
+    FontFace={b}{it}{*~Bold~Italic},
+  ]
+  \renewcommand{\bfdefault}{sb}
 }
 %    \end{macrocode}  
 % \end{macro}

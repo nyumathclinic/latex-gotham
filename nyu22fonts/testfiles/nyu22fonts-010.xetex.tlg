@@ -1,0 +1,220 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: \sffamily 
+============================================================
+> \box...=
+\hbox(7.34+1.62999)x186.94002
+.\TU/Gotham(0)/m/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/m/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/m/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.36+1.62999)x189.86
+.\TU/Gotham(0)/sb/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/sb/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/sb/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/sb/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/sb/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \itshape 
+============================================================
+> \box...=
+\hbox(7.32+1.62999)x185.52
+.\TU/Gotham(0)/m/it/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/m/it/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/it/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/m/it/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/it/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/it/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/it/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \sffamily \fontseries {l}\selectfont 
+============================================================
+> \box...=
+\hbox(7.33+1.62999)x185.18001
+.\TU/Gotham(0)/l/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/l/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/l/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/l/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/l/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/l/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/l/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/l/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \sffamily \fontseries {l}\selectfont \itshape 
+============================================================
+> \box...=
+\hbox(7.3+1.62999)x183.48001
+.\TU/Gotham(0)/l/it/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/l/it/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/l/it/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/l/it/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/l/it/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/l/it/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/l/it/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/l/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \sffamily \fontseries {sb}\selectfont 
+============================================================
+> \box...=
+\hbox(7.36+1.62999)x189.86
+.\TU/Gotham(0)/sb/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/sb/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/sb/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/sb/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/sb/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 7: \sffamily \fontseries {sb}\selectfont \itshape 
+============================================================
+> \box...=
+\hbox(7.35+1.62999)x188.80998
+.\TU/Gotham(0)/sb/it/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/sb/it/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/sb/it/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/sb/it/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/it/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/sb/it/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/it/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/sb/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 8: \sffamily \fontseries {b}\selectfont 
+============================================================
+> \box...=
+\hbox(7.36+1.62999)x189.86
+.\TU/Gotham(0)/b/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/b/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/b/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 9: \sffamily \fontseries {b}\selectfont \itshape 
+============================================================
+> \box...=
+\hbox(7.37+1.62999)x191.12
+.\TU/Gotham(0)/b/it/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/b/it/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/it/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/b/it/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/it/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-010.aux)

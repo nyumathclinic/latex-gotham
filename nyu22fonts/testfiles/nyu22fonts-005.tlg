@@ -56,48 +56,48 @@ TEST 2: \sffamily \bfseries
 ============================================================
 > \box...=
 \hbox(7.36+1.63)x189.86005, direction TLT
-.\TU/Gotham(0)/b/n/10 M
-.\TU/Gotham(0)/b/n/10 r
+.\TU/Gotham(0)/sb/n/10 M
+.\TU/Gotham(0)/sb/n/10 r
 .\kern-0.9 (font)
-.\TU/Gotham(0)/b/n/10 .
+.\TU/Gotham(0)/sb/n/10 .
 .\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
-.\TU/Gotham(0)/b/n/10 J
-.\TU/Gotham(0)/b/n/10 o
-.\TU/Gotham(0)/b/n/10 c
-.\TU/Gotham(0)/b/n/10 k
-.\TU/Gotham(0)/b/n/10 ,
+.\TU/Gotham(0)/sb/n/10 J
+.\TU/Gotham(0)/sb/n/10 o
+.\TU/Gotham(0)/sb/n/10 c
+.\TU/Gotham(0)/sb/n/10 k
+.\TU/Gotham(0)/sb/n/10 ,
 .\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
-.\TU/Gotham(0)/b/n/10 T
-.\TU/Gotham(0)/b/n/10 V
+.\TU/Gotham(0)/sb/n/10 T
+.\TU/Gotham(0)/sb/n/10 V
 .\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
-.\TU/Gotham(0)/b/n/10 q
-.\TU/Gotham(0)/b/n/10 u
-.\TU/Gotham(0)/b/n/10 i
-.\TU/Gotham(0)/b/n/10 z
+.\TU/Gotham(0)/sb/n/10 q
+.\TU/Gotham(0)/sb/n/10 u
+.\TU/Gotham(0)/sb/n/10 i
+.\TU/Gotham(0)/sb/n/10 z
 .\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 P
-.\TU/Gotham(0)/b/n/10 h
-.\TU/Gotham(0)/b/n/10 D
+.\TU/Gotham(0)/sb/n/10 P
+.\TU/Gotham(0)/sb/n/10 h
+.\TU/Gotham(0)/sb/n/10 D
 .\kern-0.4 (font)
-.\TU/Gotham(0)/b/n/10 .
-.\TU/Gotham(0)/b/n/10 ,
+.\TU/Gotham(0)/sb/n/10 .
+.\TU/Gotham(0)/sb/n/10 ,
 .\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
-.\TU/Gotham(0)/b/n/10 b
-.\TU/Gotham(0)/b/n/10 a
-.\TU/Gotham(0)/b/n/10 g
-.\TU/Gotham(0)/b/n/10 s
+.\TU/Gotham(0)/sb/n/10 b
+.\TU/Gotham(0)/sb/n/10 a
+.\TU/Gotham(0)/sb/n/10 g
+.\TU/Gotham(0)/sb/n/10 s
 .\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 f
+.\TU/Gotham(0)/sb/n/10 f
 .\kern-0.1 (font)
-.\TU/Gotham(0)/b/n/10 e
+.\TU/Gotham(0)/sb/n/10 e
 .\kern-0.25 (font)
-.\TU/Gotham(0)/b/n/10 w
+.\TU/Gotham(0)/sb/n/10 w
 .\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 l
-.\TU/Gotham(0)/b/n/10 y
-.\TU/Gotham(0)/b/n/10 n
-.\TU/Gotham(0)/b/n/10 x
-.\TU/Gotham(0)/b/n/10 .
+.\TU/Gotham(0)/sb/n/10 l
+.\TU/Gotham(0)/sb/n/10 y
+.\TU/Gotham(0)/sb/n/10 n
+.\TU/Gotham(0)/sb/n/10 x
+.\TU/Gotham(0)/sb/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -211,49 +211,49 @@ TEST 5: \rmfamily \bfseries
 ============================================================
 > \box...=
 \hbox(7.04+2.12)x173.06998, direction TLT
-.\TU/FrankRuhlLibre(0)/b/n/10 M
+.\TU/FrankRuhlLibre(0)/sb/n/10 M
 .\kern-0.1 (font)
-.\TU/FrankRuhlLibre(0)/b/n/10 r
+.\TU/FrankRuhlLibre(0)/sb/n/10 r
 .\kern-0.6 (font)
-.\TU/FrankRuhlLibre(0)/b/n/10 .
+.\TU/FrankRuhlLibre(0)/sb/n/10 .
 .\glue(\spaceskip) 2.96 plus 3.33 minus 0.24666
-.\TU/FrankRuhlLibre(0)/b/n/10 J
+.\TU/FrankRuhlLibre(0)/sb/n/10 J
 .\kern-0.3 (font)
-.\TU/FrankRuhlLibre(0)/b/n/10 o
-.\TU/FrankRuhlLibre(0)/b/n/10 c
-.\TU/FrankRuhlLibre(0)/b/n/10 k
-.\TU/FrankRuhlLibre(0)/b/n/10 ,
+.\TU/FrankRuhlLibre(0)/sb/n/10 o
+.\TU/FrankRuhlLibre(0)/sb/n/10 c
+.\TU/FrankRuhlLibre(0)/sb/n/10 k
+.\TU/FrankRuhlLibre(0)/sb/n/10 ,
 .\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
-.\TU/FrankRuhlLibre(0)/b/n/10 T
-.\TU/FrankRuhlLibre(0)/b/n/10 V
+.\TU/FrankRuhlLibre(0)/sb/n/10 T
+.\TU/FrankRuhlLibre(0)/sb/n/10 V
 .\glue(\spaceskip) 2.22 plus 1.10889 minus 0.74074
-.\TU/FrankRuhlLibre(0)/b/n/10 q
-.\TU/FrankRuhlLibre(0)/b/n/10 u
-.\TU/FrankRuhlLibre(0)/b/n/10 i
-.\TU/FrankRuhlLibre(0)/b/n/10 z
+.\TU/FrankRuhlLibre(0)/sb/n/10 q
+.\TU/FrankRuhlLibre(0)/sb/n/10 u
+.\TU/FrankRuhlLibre(0)/sb/n/10 i
+.\TU/FrankRuhlLibre(0)/sb/n/10 z
 .\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-.\TU/FrankRuhlLibre(0)/b/n/10 P
-.\TU/FrankRuhlLibre(0)/b/n/10 h
+.\TU/FrankRuhlLibre(0)/sb/n/10 P
+.\TU/FrankRuhlLibre(0)/sb/n/10 h
 .\kern-0.3 (font)
-.\TU/FrankRuhlLibre(0)/b/n/10 D
-.\TU/FrankRuhlLibre(0)/b/n/10 .
-.\TU/FrankRuhlLibre(0)/b/n/10 ,
+.\TU/FrankRuhlLibre(0)/sb/n/10 D
+.\TU/FrankRuhlLibre(0)/sb/n/10 .
+.\TU/FrankRuhlLibre(0)/sb/n/10 ,
 .\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
-.\TU/FrankRuhlLibre(0)/b/n/10 b
+.\TU/FrankRuhlLibre(0)/sb/n/10 b
 .\kern-0.1 (font)
-.\TU/FrankRuhlLibre(0)/b/n/10 a
-.\TU/FrankRuhlLibre(0)/b/n/10 g
-.\TU/FrankRuhlLibre(0)/b/n/10 s
+.\TU/FrankRuhlLibre(0)/sb/n/10 a
+.\TU/FrankRuhlLibre(0)/sb/n/10 g
+.\TU/FrankRuhlLibre(0)/sb/n/10 s
 .\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-.\TU/FrankRuhlLibre(0)/b/n/10 f
-.\TU/FrankRuhlLibre(0)/b/n/10 e
-.\TU/FrankRuhlLibre(0)/b/n/10 w
+.\TU/FrankRuhlLibre(0)/sb/n/10 f
+.\TU/FrankRuhlLibre(0)/sb/n/10 e
+.\TU/FrankRuhlLibre(0)/sb/n/10 w
 .\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-.\TU/FrankRuhlLibre(0)/b/n/10 l
-.\TU/FrankRuhlLibre(0)/b/n/10 y
-.\TU/FrankRuhlLibre(0)/b/n/10 n
-.\TU/FrankRuhlLibre(0)/b/n/10 x
-.\TU/FrankRuhlLibre(0)/b/n/10 .
+.\TU/FrankRuhlLibre(0)/sb/n/10 l
+.\TU/FrankRuhlLibre(0)/sb/n/10 y
+.\TU/FrankRuhlLibre(0)/sb/n/10 n
+.\TU/FrankRuhlLibre(0)/sb/n/10 x
+.\TU/FrankRuhlLibre(0)/sb/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }

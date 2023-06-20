@@ -56,48 +56,48 @@ TEST 2: \sffamily \bfseries
 ============================================================
 > \box...=
 \hbox(7.36+1.63)x189.86005, direction TLT
-.\TU/Gotham(0)/b/n/10 M
-.\TU/Gotham(0)/b/n/10 r
+.\TU/Gotham(0)/sb/n/10 M
+.\TU/Gotham(0)/sb/n/10 r
 .\kern-0.9 (font)
-.\TU/Gotham(0)/b/n/10 .
+.\TU/Gotham(0)/sb/n/10 .
 .\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
-.\TU/Gotham(0)/b/n/10 J
-.\TU/Gotham(0)/b/n/10 o
-.\TU/Gotham(0)/b/n/10 c
-.\TU/Gotham(0)/b/n/10 k
-.\TU/Gotham(0)/b/n/10 ,
+.\TU/Gotham(0)/sb/n/10 J
+.\TU/Gotham(0)/sb/n/10 o
+.\TU/Gotham(0)/sb/n/10 c
+.\TU/Gotham(0)/sb/n/10 k
+.\TU/Gotham(0)/sb/n/10 ,
 .\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
-.\TU/Gotham(0)/b/n/10 T
-.\TU/Gotham(0)/b/n/10 V
+.\TU/Gotham(0)/sb/n/10 T
+.\TU/Gotham(0)/sb/n/10 V
 .\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
-.\TU/Gotham(0)/b/n/10 q
-.\TU/Gotham(0)/b/n/10 u
-.\TU/Gotham(0)/b/n/10 i
-.\TU/Gotham(0)/b/n/10 z
+.\TU/Gotham(0)/sb/n/10 q
+.\TU/Gotham(0)/sb/n/10 u
+.\TU/Gotham(0)/sb/n/10 i
+.\TU/Gotham(0)/sb/n/10 z
 .\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 P
-.\TU/Gotham(0)/b/n/10 h
-.\TU/Gotham(0)/b/n/10 D
+.\TU/Gotham(0)/sb/n/10 P
+.\TU/Gotham(0)/sb/n/10 h
+.\TU/Gotham(0)/sb/n/10 D
 .\kern-0.4 (font)
-.\TU/Gotham(0)/b/n/10 .
-.\TU/Gotham(0)/b/n/10 ,
+.\TU/Gotham(0)/sb/n/10 .
+.\TU/Gotham(0)/sb/n/10 ,
 .\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
-.\TU/Gotham(0)/b/n/10 b
-.\TU/Gotham(0)/b/n/10 a
-.\TU/Gotham(0)/b/n/10 g
-.\TU/Gotham(0)/b/n/10 s
+.\TU/Gotham(0)/sb/n/10 b
+.\TU/Gotham(0)/sb/n/10 a
+.\TU/Gotham(0)/sb/n/10 g
+.\TU/Gotham(0)/sb/n/10 s
 .\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 f
+.\TU/Gotham(0)/sb/n/10 f
 .\kern-0.1 (font)
-.\TU/Gotham(0)/b/n/10 e
+.\TU/Gotham(0)/sb/n/10 e
 .\kern-0.25 (font)
-.\TU/Gotham(0)/b/n/10 w
+.\TU/Gotham(0)/sb/n/10 w
 .\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 l
-.\TU/Gotham(0)/b/n/10 y
-.\TU/Gotham(0)/b/n/10 n
-.\TU/Gotham(0)/b/n/10 x
-.\TU/Gotham(0)/b/n/10 .
+.\TU/Gotham(0)/sb/n/10 l
+.\TU/Gotham(0)/sb/n/10 y
+.\TU/Gotham(0)/sb/n/10 n
+.\TU/Gotham(0)/sb/n/10 x
+.\TU/Gotham(0)/sb/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -205,8 +205,8 @@ l. ...  }
 TEST 5: \rmfamily \bfseries 
 ============================================================
 luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
-! Font \TU/MercuryTextG2(0)/b/n/10=MercuryTextG2Bold:mode=node;language=dflt;+tl
-ig; at 10pt not loadable: metric data not found or bad.
+! Font \TU/MercuryTextG2(0)/sb/n/10=MercuryTextG2Bold:mode=node;language=dflt;+t
+lig; at 10pt not loadable: metric data not found or bad.
 <to be read again> 
 relax 
 l. ...  }
@@ -217,44 +217,44 @@ You might try inserting a different font spec;
 e.g., type `I\font<same font id>=<substitute font name>'.
 > \box...=
 \hbox(0.0+0.0)x0.0, direction TLT
-.\TU/MercuryTextG2(0)/b/n/10 M
-.\TU/MercuryTextG2(0)/b/n/10 r
-.\TU/MercuryTextG2(0)/b/n/10 .
+.\TU/MercuryTextG2(0)/sb/n/10 M
+.\TU/MercuryTextG2(0)/sb/n/10 r
+.\TU/MercuryTextG2(0)/sb/n/10 .
 .\glue(\spaceskip) 0.0
-.\TU/MercuryTextG2(0)/b/n/10 J
-.\TU/MercuryTextG2(0)/b/n/10 o
-.\TU/MercuryTextG2(0)/b/n/10 c
-.\TU/MercuryTextG2(0)/b/n/10 k
-.\TU/MercuryTextG2(0)/b/n/10 ,
+.\TU/MercuryTextG2(0)/sb/n/10 J
+.\TU/MercuryTextG2(0)/sb/n/10 o
+.\TU/MercuryTextG2(0)/sb/n/10 c
+.\TU/MercuryTextG2(0)/sb/n/10 k
+.\TU/MercuryTextG2(0)/sb/n/10 ,
 .\glue(\spaceskip) 0.0
-.\TU/MercuryTextG2(0)/b/n/10 T
-.\TU/MercuryTextG2(0)/b/n/10 V
+.\TU/MercuryTextG2(0)/sb/n/10 T
+.\TU/MercuryTextG2(0)/sb/n/10 V
 .\glue(\spaceskip) 0.0
-.\TU/MercuryTextG2(0)/b/n/10 q
-.\TU/MercuryTextG2(0)/b/n/10 u
-.\TU/MercuryTextG2(0)/b/n/10 i
-.\TU/MercuryTextG2(0)/b/n/10 z
+.\TU/MercuryTextG2(0)/sb/n/10 q
+.\TU/MercuryTextG2(0)/sb/n/10 u
+.\TU/MercuryTextG2(0)/sb/n/10 i
+.\TU/MercuryTextG2(0)/sb/n/10 z
 .\glue(\spaceskip) 0.0
-.\TU/MercuryTextG2(0)/b/n/10 P
-.\TU/MercuryTextG2(0)/b/n/10 h
-.\TU/MercuryTextG2(0)/b/n/10 D
-.\TU/MercuryTextG2(0)/b/n/10 .
-.\TU/MercuryTextG2(0)/b/n/10 ,
+.\TU/MercuryTextG2(0)/sb/n/10 P
+.\TU/MercuryTextG2(0)/sb/n/10 h
+.\TU/MercuryTextG2(0)/sb/n/10 D
+.\TU/MercuryTextG2(0)/sb/n/10 .
+.\TU/MercuryTextG2(0)/sb/n/10 ,
 .\glue(\spaceskip) 0.0
-.\TU/MercuryTextG2(0)/b/n/10 b
-.\TU/MercuryTextG2(0)/b/n/10 a
-.\TU/MercuryTextG2(0)/b/n/10 g
-.\TU/MercuryTextG2(0)/b/n/10 s
+.\TU/MercuryTextG2(0)/sb/n/10 b
+.\TU/MercuryTextG2(0)/sb/n/10 a
+.\TU/MercuryTextG2(0)/sb/n/10 g
+.\TU/MercuryTextG2(0)/sb/n/10 s
 .\glue(\spaceskip) 0.0
-.\TU/MercuryTextG2(0)/b/n/10 f
-.\TU/MercuryTextG2(0)/b/n/10 e
-.\TU/MercuryTextG2(0)/b/n/10 w
+.\TU/MercuryTextG2(0)/sb/n/10 f
+.\TU/MercuryTextG2(0)/sb/n/10 e
+.\TU/MercuryTextG2(0)/sb/n/10 w
 .\glue(\spaceskip) 0.0
-.\TU/MercuryTextG2(0)/b/n/10 l
-.\TU/MercuryTextG2(0)/b/n/10 y
-.\TU/MercuryTextG2(0)/b/n/10 n
-.\TU/MercuryTextG2(0)/b/n/10 x
-.\TU/MercuryTextG2(0)/b/n/10 .
+.\TU/MercuryTextG2(0)/sb/n/10 l
+.\TU/MercuryTextG2(0)/sb/n/10 y
+.\TU/MercuryTextG2(0)/sb/n/10 n
+.\TU/MercuryTextG2(0)/sb/n/10 x
+.\TU/MercuryTextG2(0)/sb/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }

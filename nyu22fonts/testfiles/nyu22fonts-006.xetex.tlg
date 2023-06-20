@@ -29,21 +29,21 @@ TEST 2: \sffamily \bfseries
 ============================================================
 > \box...=
 \hbox(7.36+1.62999)x189.86
-.\TU/Gotham(0)/b/n/10 Mr.
+.\TU/Gotham(0)/sb/n/10 Mr.
 .\glue 4.0 plus 4.5 minus 0.33333
-.\TU/Gotham(0)/b/n/10 Jock,
+.\TU/Gotham(0)/sb/n/10 Jock,
 .\glue 3.0 plus 1.875 minus 0.79999
-.\TU/Gotham(0)/b/n/10 TV
+.\TU/Gotham(0)/sb/n/10 TV
 .\glue 3.0 plus 1.49849 minus 1.00099
-.\TU/Gotham(0)/b/n/10 quiz
+.\TU/Gotham(0)/sb/n/10 quiz
 .\glue 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 PhD.,
+.\TU/Gotham(0)/sb/n/10 PhD.,
 .\glue 3.0 plus 1.875 minus 0.79999
-.\TU/Gotham(0)/b/n/10 bags
+.\TU/Gotham(0)/sb/n/10 bags
 .\glue 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 few
+.\TU/Gotham(0)/sb/n/10 few
 .\glue 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/b/n/10 lynx.
+.\TU/Gotham(0)/sb/n/10 lynx.
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -101,21 +101,21 @@ TEST 5: \rmfamily \bfseries
 ============================================================
 > \box...=
 \hbox(7.04+2.11998)x173.07002
-.\TU/FrankRuhlLibre(0)/b/n/10 Mr.
+.\TU/FrankRuhlLibre(0)/sb/n/10 Mr.
 .\glue 2.95999 plus 3.33 minus 0.24666
-.\TU/FrankRuhlLibre(0)/b/n/10 Jock,
+.\TU/FrankRuhlLibre(0)/sb/n/10 Jock,
 .\glue 2.22 plus 1.3875 minus 0.59198
-.\TU/FrankRuhlLibre(0)/b/n/10 TV
+.\TU/FrankRuhlLibre(0)/sb/n/10 TV
 .\glue 2.22 plus 1.10889 minus 0.74072
-.\TU/FrankRuhlLibre(0)/b/n/10 quiz
+.\TU/FrankRuhlLibre(0)/sb/n/10 quiz
 .\glue 2.22 plus 1.11 minus 0.73999
-.\TU/FrankRuhlLibre(0)/b/n/10 PhD.,
+.\TU/FrankRuhlLibre(0)/sb/n/10 PhD.,
 .\glue 2.22 plus 1.3875 minus 0.59198
-.\TU/FrankRuhlLibre(0)/b/n/10 bags
+.\TU/FrankRuhlLibre(0)/sb/n/10 bags
 .\glue 2.22 plus 1.11 minus 0.73999
-.\TU/FrankRuhlLibre(0)/b/n/10 few
+.\TU/FrankRuhlLibre(0)/sb/n/10 few
 .\glue 2.22 plus 1.11 minus 0.73999
-.\TU/FrankRuhlLibre(0)/b/n/10 lynx.
+.\TU/FrankRuhlLibre(0)/sb/n/10 lynx.
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }

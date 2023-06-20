@@ -56,6 +56,8 @@ l. ...  }
 ============================================================
 TEST 2: \sffamily \bfseries 
 ============================================================
+LaTeX Font Warning: Font shape `OT1/phv/sb/n' undefined
+(Font)              using `OT1/phv/b/n' instead on input line ....
 > \box...=
 \hbox(7.29498+2.16992)x180.22762
 .\OT1/phv/b/n/10 M
@@ -213,6 +215,8 @@ l. ...  }
 ============================================================
 TEST 5: \rmfamily \bfseries 
 ============================================================
+LaTeX Font Warning: Font shape `OT1/ptm/sb/n' undefined
+(Font)              using `OT1/ptm/b/n' instead on input line ....
 > \box...=
 \hbox(6.88995+2.03491)x167.02888
 .\OT1/ptm/b/n/10 M
