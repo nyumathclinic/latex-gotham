@@ -81,32 +81,72 @@ Package fontspec Info: Font family 'Montserrat(0)' created for font
 (fontspec)             <->"[Montserrat-BlackItalic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
 luaotfload | aux : font no 72 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
- with language dflt
 luaotfload | aux : font no 72 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
  with language dflt
+luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 74 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 74 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 75 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 75 (nil) does not define feature smcp for script latn
+ with language dflt
 Package fontspec Info: Font family 'FrankRuhlLibre(0)' created for font 'Frank
 (fontspec)             Ruhl Libre' with options
-(fontspec)             [Ligatures=TeX,ItalicFont=*,ItalicFeatures={FakeSlant},BoldItalicFont=*
-(fontspec)             Bold,BoldItalicFeatures={FakeSlant}].
+(fontspec)             [Ligatures=TeX,FontFace={l}{n}{*
+(fontspec)             Light},FontFace={l}{it}{Font=*
+(fontspec)             Light,FakeSlant=0.24932800284},FontFace={sl}{n}{*
+(fontspec)             Regular},FontFace={sl}{it}{Font=*
+(fontspec)             Regular,FakeSlant=0.24932800284},FontFace={m}{n}{*
+(fontspec)             Medium},FontFace={m}{it}{Font=*
+(fontspec)             Medium,FakeSlant=0.24932800284},FontFace={b}{n}{*
+(fontspec)             Bold},FontFace={b}{it}{Font=*
+(fontspec)             Bold,FakeSlant=0.24932800284},FontFace={eb}{n}{*
+(fontspec)             Black},FontFace={eb}{it}{Font=*
+(fontspec)             Black,FakeSlant=0.24932800284},UprightFont=*,ItalicFont=*,ItalicFeatures={FakeSlant=0.24932800284},BoldItalicFont=*
+(fontspec)             Bold,BoldItalicFeatures={FakeSlant=0.24932800284}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->"FrankRuhlLibreLight:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->"FrankRuhlLibreLight:mode=node;script=latn;language=dflt;slant=0.24932800284;+tlig;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (sl/n) with NFSS spec.:
+(fontspec)             <->"FrankRuhlLibreRegular:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (sl/sc) with NFSS spec.: 
+(fontspec)             - (sl/it) with NFSS spec.:
+(fontspec)             <->"FrankRuhlLibreRegular:mode=node;script=latn;language=dflt;slant=0.24932800284;+tlig;"
+(fontspec)             -  (sl/scit) with NFSS spec.: 
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"FrankRuhlLibre:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FrankRuhlLibre:mode=node;script=latn;language=dflt;slant=0.24932800284;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"FrankRuhlLibre/B:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"FrankRuhlLibre:mode=node;script=latn;language=dflt;slant=0.2;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"FrankRuhlLibreBold:mode=node;script=latn;language=dflt;slant=0.2;+tlig;"
+(fontspec)             <->"FrankRuhlLibreBold:mode=node;script=latn;language=dflt;slant=0.24932800284;+tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->"FrankRuhlLibreBlack:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (eb/sc) with NFSS spec.: 
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->"FrankRuhlLibreBlack:mode=node;script=latn;language=dflt;slant=0.24932800284;+tlig;"
+(fontspec)             -  (eb/scit) with NFSS spec.: 
 ============================================================
 TEST 1: \sffamily 
 ============================================================

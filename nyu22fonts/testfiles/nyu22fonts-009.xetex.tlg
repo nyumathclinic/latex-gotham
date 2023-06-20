@@ -102,17 +102,17 @@ Completed box being shipped out [1]
 ...\hbox(9.93599+3.05278)x345.0, glue set 141.9169fil
 ....\hbox(9.504+0.0)x21.48479
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/14.4 1
+.....\TU/FrankRuhlLibre(0)/b/n/14.4 1
 .....\glue 14.4
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 Heading
+....\TU/FrankRuhlLibre(0)/b/n/14.4 Heading
 ....\glue 3.1968 plus 1.59839 minus 1.0656
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 on
+....\TU/FrankRuhlLibre(0)/b/n/14.4 on
 ....\glue 3.1968 plus 1.59839 minus 1.0656
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 level
+....\TU/FrankRuhlLibre(0)/b/n/14.4 level
 ....\glue 3.1968 plus 1.59839 minus 1.0656
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 1
+....\TU/FrankRuhlLibre(0)/b/n/14.4 1
 ....\glue 3.1968 plus 1.59839 minus 1.0656
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 (section)
+....\TU/FrankRuhlLibre(0)/b/n/14.4 (section)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -381,17 +381,17 @@ Completed box being shipped out [1]
 ...\hbox(8.28+2.54399)x345.0, glue set 145.43999fil
 ....\hbox(7.92+0.10799)x27.372
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/12 1.1
+.....\TU/FrankRuhlLibre(0)/b/n/12 1.1
 .....\glue 12.0
-....\TU/FrankRuhlLibre(0)/sb/n/12 Heading
+....\TU/FrankRuhlLibre(0)/b/n/12 Heading
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 on
+....\TU/FrankRuhlLibre(0)/b/n/12 on
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 level
+....\TU/FrankRuhlLibre(0)/b/n/12 level
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 2
+....\TU/FrankRuhlLibre(0)/b/n/12 2
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 (subsection)
+....\TU/FrankRuhlLibre(0)/b/n/12 (subsection)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -660,17 +660,17 @@ Completed box being shipped out [1]
 ...\hbox(6.9+2.11998)x345.0, glue set 154.32999fil
 ....\hbox(6.6+0.08998)x30.7
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/10 1.1.1
+.....\TU/FrankRuhlLibre(0)/b/n/10 1.1.1
 .....\glue 10.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 Heading
+....\TU/FrankRuhlLibre(0)/b/n/10 Heading
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 on
+....\TU/FrankRuhlLibre(0)/b/n/10 on
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 level
+....\TU/FrankRuhlLibre(0)/b/n/10 level
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 3
+....\TU/FrankRuhlLibre(0)/b/n/10 3
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 (subsubsection)
+....\TU/FrankRuhlLibre(0)/b/n/10 (subsubsection)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -957,15 +957,15 @@ Completed box being shipped out [2]
 ...\glue(\baselineskip) 3.08002
 ...\hbox(6.92+2.11998)x345.0, glue set 1.177
 ....\glue 0.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 Heading
+....\TU/FrankRuhlLibre(0)/b/n/10 Heading
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 on
+....\TU/FrankRuhlLibre(0)/b/n/10 on
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 level
+....\TU/FrankRuhlLibre(0)/b/n/10 level
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 4
+....\TU/FrankRuhlLibre(0)/b/n/10 4
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 (paragraph)
+....\TU/FrankRuhlLibre(0)/b/n/10 (paragraph)
 ....\write1{\@writefile{toc}{\protect \contentsline {paragraph}{Heading on level\protect \ETC.}
 ....\glue 10.0
 ....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
@@ -1237,9 +1237,9 @@ Completed box being shipped out [2]
 ...\hbox(9.93599+0.17279)x345.0, glue set 291.57602fil
 ....\hbox(9.6768+0.0)x22.62239
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/14.4 2
+.....\TU/FrankRuhlLibre(0)/b/n/14.4 2
 .....\glue 14.4
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 Lists
+....\TU/FrankRuhlLibre(0)/b/n/14.4 Lists
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -1252,15 +1252,15 @@ Completed box being shipped out [2]
 ...\hbox(8.448+2.39998)x345.0, glue set 177.62398fil
 ....\hbox(8.064+0.10799)x28.32
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/12 2.1
+.....\TU/FrankRuhlLibre(0)/b/n/12 2.1
 .....\glue 12.0
-....\TU/FrankRuhlLibre(0)/sb/n/12 Example
+....\TU/FrankRuhlLibre(0)/b/n/12 Example
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 for
+....\TU/FrankRuhlLibre(0)/b/n/12 for
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 list
+....\TU/FrankRuhlLibre(0)/b/n/12 list
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 (itemize)
+....\TU/FrankRuhlLibre(0)/b/n/12 (itemize)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -1397,15 +1397,15 @@ Completed box being shipped out [2]
 ...\hbox(7.04+1.99998)x345.0, glue set 188.27998fil
 ....\hbox(6.72+0.08998)x31.49
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/10 2.1.1
+.....\TU/FrankRuhlLibre(0)/b/n/10 2.1.1
 .....\glue 10.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 Example
+....\TU/FrankRuhlLibre(0)/b/n/10 Example
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 for
+....\TU/FrankRuhlLibre(0)/b/n/10 for
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 list
+....\TU/FrankRuhlLibre(0)/b/n/10 list
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 (4*itemize)
+....\TU/FrankRuhlLibre(0)/b/n/10 (4*itemize)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -1451,7 +1451,7 @@ Completed box being shipped out [2]
 ......\glue 0.0 plus 1.0fil minus 1.0fil
 ......\hbox(3.06+0.0)x0.0, glue set - 4.16fil
 .......\glue 0.0 plus 1.0fil minus 1.0fil
-.......\TU/FrankRuhlLibre(0)/sb/n/10 –
+.......\TU/FrankRuhlLibre(0)/b/n/10 –
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 First
@@ -1578,7 +1578,7 @@ Completed box being shipped out [2]
 ......\glue 0.0 plus 1.0fil minus 1.0fil
 ......\hbox(3.06+0.0)x0.0, glue set - 4.16fil
 .......\glue 0.0 plus 1.0fil minus 1.0fil
-.......\TU/FrankRuhlLibre(0)/sb/n/10 –
+.......\TU/FrankRuhlLibre(0)/b/n/10 –
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 First
@@ -1640,15 +1640,15 @@ Completed box being shipped out [3]
 ...\hbox(8.448+2.39998)x345.0, glue set 157.64398fil
 ....\hbox(8.064+0.10799)x29.268
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/12 2.2
+.....\TU/FrankRuhlLibre(0)/b/n/12 2.2
 .....\glue 12.0
-....\TU/FrankRuhlLibre(0)/sb/n/12 Example
+....\TU/FrankRuhlLibre(0)/b/n/12 Example
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 for
+....\TU/FrankRuhlLibre(0)/b/n/12 for
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 list
+....\TU/FrankRuhlLibre(0)/b/n/12 list
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 (enumerate)
+....\TU/FrankRuhlLibre(0)/b/n/12 (enumerate)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -1784,15 +1784,15 @@ Completed box being shipped out [3]
 ...\hbox(7.04+1.99998)x345.0, glue set 171.62997fil
 ....\hbox(6.72+0.08998)x32.28
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/10 2.2.1
+.....\TU/FrankRuhlLibre(0)/b/n/10 2.2.1
 .....\glue 10.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 Example
+....\TU/FrankRuhlLibre(0)/b/n/10 Example
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 for
+....\TU/FrankRuhlLibre(0)/b/n/10 for
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 list
+....\TU/FrankRuhlLibre(0)/b/n/10 list
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 (4*enumerate)
+....\TU/FrankRuhlLibre(0)/b/n/10 (4*enumerate)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -2011,15 +2011,15 @@ Completed box being shipped out [3]
 ...\hbox(8.448+2.39998)x345.0, glue set 154.55998fil
 ....\hbox(8.064+0.13199)x29.136
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/12 2.3
+.....\TU/FrankRuhlLibre(0)/b/n/12 2.3
 .....\glue 12.0
-....\TU/FrankRuhlLibre(0)/sb/n/12 Example
+....\TU/FrankRuhlLibre(0)/b/n/12 Example
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 for
+....\TU/FrankRuhlLibre(0)/b/n/12 for
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 list
+....\TU/FrankRuhlLibre(0)/b/n/12 list
 ....\glue 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 (description)
+....\TU/FrankRuhlLibre(0)/b/n/12 (description)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -2038,7 +2038,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x26.21
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 First
+......\TU/FrankRuhlLibre(0)/b/n/10 First
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2057,7 +2057,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x38.03
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 Second
+......\TU/FrankRuhlLibre(0)/b/n/10 Second
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2076,7 +2076,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.6+0.11998)x24.06
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 Last
+......\TU/FrankRuhlLibre(0)/b/n/10 Last
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2095,7 +2095,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x26.21
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 First
+......\TU/FrankRuhlLibre(0)/b/n/10 First
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2114,7 +2114,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x38.03
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 Second
+......\TU/FrankRuhlLibre(0)/b/n/10 Second
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2135,15 +2135,15 @@ Completed box being shipped out [3]
 ...\hbox(7.04+1.99998)x345.0, glue set 169.05998fil
 ....\hbox(6.72+0.10999)x32.17
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/10 2.3.1
+.....\TU/FrankRuhlLibre(0)/b/n/10 2.3.1
 .....\glue 10.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 Example
+....\TU/FrankRuhlLibre(0)/b/n/10 Example
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 for
+....\TU/FrankRuhlLibre(0)/b/n/10 for
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 list
+....\TU/FrankRuhlLibre(0)/b/n/10 list
 ....\glue 2.22 plus 1.11 minus 0.73999
-....\TU/FrankRuhlLibre(0)/sb/n/10 (4*description)
+....\TU/FrankRuhlLibre(0)/b/n/10 (4*description)
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -2162,7 +2162,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x26.21
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 First
+......\TU/FrankRuhlLibre(0)/b/n/10 First
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2183,7 +2183,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x26.21
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 First
+......\TU/FrankRuhlLibre(0)/b/n/10 First
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2202,7 +2202,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x26.21
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 First
+......\TU/FrankRuhlLibre(0)/b/n/10 First
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2221,7 +2221,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x26.21
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 First
+......\TU/FrankRuhlLibre(0)/b/n/10 First
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2240,7 +2240,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x38.03
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 Second
+......\TU/FrankRuhlLibre(0)/b/n/10 Second
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2263,7 +2263,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.6+0.11998)x24.06
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 Last
+......\TU/FrankRuhlLibre(0)/b/n/10 Last
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2286,7 +2286,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x26.21
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 First
+......\TU/FrankRuhlLibre(0)/b/n/10 First
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
@@ -2309,7 +2309,7 @@ Completed box being shipped out [3]
 .....\glue -5.0
 .....\hbox(6.9+0.11998)x38.03
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 Second
+......\TU/FrankRuhlLibre(0)/b/n/10 Second
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 itemtext

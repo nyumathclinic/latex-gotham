@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{changepage}^^A      For the `adjustwidth' environment
 \usepackage{hologo}^^A          Provides lots of logos
+\usepackage{siunitx}^^A \num, \qty, \ang
 
 \usepackage[backend=biber]{biblatex}
 \addbibresource{nyu22fonts.bib}
@@ -35,6 +36,7 @@
 % and |\makeussubscript|.
 \newcommand{\makeusletter}{\catcode`\_=12}
 \newcommand{\makeussubscript}{\catcode`\_=8}
+
 
 
 
@@ -280,16 +282,42 @@
 %  \ItemDescribeKey{Mercury Text} Use the Mercury Text G2 family of fonts.
 %
 %  \ItemDescribeKey{Montserrat} Use the Montserrat family of fonts.
-%    As of now, this sets:
+%    This sets:
 %    \begin{itemize}
 %      \item the default sans font to Montserrat Regular
 %      \item the default bold sans font to Montserrat Bold
 %      \item the default italic sans font to Montserrat Italic
 %    \end{itemize}
-%    This may change in the future, since, like Gotham, Montserrat comes
-%    in a variety of weights.
+%    Like Gotham, Montserrat comes in a variety of weights.
+%    \begin{itemize}
+%       \item use \verb|\fontseries{ul}\selectfont| to get Montserrat Thin
+%       \item use \verb|\fontseries{el}\selectfont| to get Montserrat Extra Light
+%       \item use \verb|\fontseries{l}\selectfont| to get Montserrat Light
+%       \item use \verb|\fontseries{sl}\selectfont| to get Montserrat Regular
+%       \item use \verb|\fontseries{m}\selectfont| to get Montserrat Medium
+%       \item use \verb|\fontseries{sb}\selectfont| to get Montserrat Semi Bold
+%       \item use \verb|\fontseries{b}\selectfont| to get Gotham Bold
+%       \item use \verb|\fontseries{eb}\selectfont| to get Gotham Extra Bold
+%       \item use \verb|\fontseries{ub}\selectfont| to get Gotham Black
+%    \end{itemize}
+%    Italic shapes are available in all of these weights as well.
+%    Juse use \cs{itshape} after selecting the series.
 %
 %  \ItemDescribeKey{Frank Ruhl Libre} Use the Frank Ruhl Libre family of fonts.
+%    This sets:
+%    \begin{itemize}
+%      \item the default serif or roman font to Frank Ruhl Libre Regular
+%      \item the default bold roman font to Frank Ruhl Libre Bold
+%      \item the default italic font to a slanted version of Frank Ruhl Libre Regular
+%    \end{itemize}
+%    The \acro{NFSS} weights are as follows:
+%    \begin{itemize}
+%       \item use \verb|\fontseries{l}\selectfont| to get Frank Ruhl Libre Light
+%       \item use \verb|\fontseries{sl}\selectfont| to get Frank Ruhl Libre Regular
+%       \item use \verb|\fontseries{m}\selectfont| to get Frank Ruhl Libre Medium
+%       \item use \verb|\fontseries{b}\selectfont| to get Frank Ruhl Libre Bold
+%       \item use \verb|\fontseries{eb}\selectfont| to get Frank Ruhl Libre Extra Bold
+%    \end{itemize}
 %
 %  \ItemDescribeKey{Helvetica} Use the Helvetica TrueType family of fonts.
 %
@@ -376,7 +404,7 @@
 % \subsubsection{Proprietary fonts}
 %
 % \begin{macro}{\__nyufonts_set_gotham:}
-% \changes{unreleased}{2023/06/19}{Specify bold and light weights}
+% \changes{unreleased}{2023/06/19}{Assign all available (licensed) weights to \acro{NFSS} series}
 % Set the default sans family to Gotham.
 %
 % We use both the \pkg{fontspec} and \acro{NFSS} methods for choosing font
@@ -436,12 +464,13 @@
 % \subsubsection{Open fonts}
 %
 % \begin{macro}{\__nyufonts_set_montserrat:}
+% \changes{unreleased}{2023/06/20}{Assign all available weights to \acro{NFSS} series}
 % Set the default sans family to Montserrat. There is already a
 % \pkg{montserrat} package with a \filenm{montserrat.fontspec} file, but we
 % want to use all the available weights.
 %
-% \begin{tabular}{ll}
-%     Official weight & \acro{NFSS} weight & \acro{NFSS} code \\
+% \begin{tabular}{lll}
+%     Official weight & \acro{NFSS} weight & \acro{NFSS} series \\
 %     \hline
 %     Thin            & Ultra Light        & \texttt{ul}      \\
 %     ExtraLight      & Extra Light        & \texttt{el}      \\
@@ -453,7 +482,10 @@
 %     ExtraBold       & Extra Bold         & \texttt{eb}      \\
 %     Black           & Ultra Bold         & \texttt{ub}   
 % \end{tabular}
-  
+%
+% After setting these, the default medium series weight is set to Regular,
+% and the default bold series weight to semibold. This seems to match the
+% pairing of Gotham Book and Medium.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_montserrat: {
   \setsansfont{Montserrat}[
@@ -486,15 +518,55 @@
 % \end{macro}
 %
 % \begin{macro}{\__nyufonts_set_frank_ruhl_libre:}
-% Set the default roman family to Frank Ruhl Libre. 
 % \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}
+% \changes{unreleased}{2023/06/20}{Assign all available weights}
+% Set the default roman family to Frank Ruhl Libre.
+% We assign all the weights available in the Google Font download package.
+%
+% \begin{tabular}{lll}
+%     Official weight & \acro{NFSS} weight & \acro{NFSS} series \\
+%     \hline
+%     Light           & Light              & \texttt{l}       \\
+%     Regular         & Semi Light         & \texttt{sl}      \\
+%     Medium          & Medium             & \texttt{m}       \\
+%     Bold            & Bold               & \texttt{b}       \\
+%     Black           & Extra Bold         & \texttt{eb}   
+% \end{tabular}
+%  
+% Note that there are no open-licensed italic fonts for this family. NYU
+% \cite{nyu-fonts} says to skew the upright font by \ang{14}. We use
+% \pkg{fontspec} options to fake it. 
+%
+% \begin{macro}{\l__nyufonts_slant_fp:}
+% \changes{unreleased}{2023/06/20}{Add this variable to match specified skew}
+% The argument to \PrintDescribeKey{FakeSlant} is apparently (see 
+% \cite{ctt-fakeslant}) the ratio of horizontal skew to vertical distance. 
+% We use $\tan(\ang{14}) \approx \num{0.24932800284}$.
+% 
+%    \begin{macrocode}
+\fp_new:N  \l__nyufonts_slant_fp:
+\fp_set:Nn \l__nyufonts_slant_fp: { 0.24932800284 }
+%    \end{macrocode}
+% \end{macro}
+% 
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_frank_ruhl_libre: {
   \setmainfont{Frank~Ruhl~Libre}[
+    FontFace={l}{n}{*~Light},
+    FontFace={l}{it}{Font=*~Light,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
+    FontFace={sl}{n}{*~Regular},
+    FontFace={sl}{it}{Font=*~Regular,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
+    FontFace={m}{n}{*~Medium},
+    FontFace={m}{it}{Font=*~Medium,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
+    FontFace={b}{n}{*~Bold},
+    FontFace={b}{it}{Font=*~Bold,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
+    FontFace={eb}{n}{*~Black},
+    FontFace={eb}{it}{Font=*~Black,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
+    UprightFont=*,
     ItalicFont=*,
-    ItalicFeatures={FakeSlant},
+    ItalicFeatures={FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
     BoldItalicFont=*~Bold,
-    BoldItalicFeatures={FakeSlant},
+    BoldItalicFeatures={FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
   ]
 }
 %    \end{macrocode}

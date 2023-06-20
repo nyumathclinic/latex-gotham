@@ -1,0 +1,42 @@
+\input regression-test.tex
+\documentclass{article}
+\title{Test extra Frank Ruhl Libre weights}
+\usepackage[Frank Ruhl Libre]{nyu22fonts}
+\usepackage[enable-debug]{expl3}
+\begin{document}
+\ExplSyntaxOn
+\debug_on:n { check-declarations , deprecation }
+
+\tl_set:Nn \l_tmpa_tl {Mr.~Jock,~TV~quiz~PhD.,~bags~few~lynx.}
+
+\clist_set:Nn \l_tmpa_clist
+  {
+    \rmfamily,
+    \rmfamily\bfseries,
+    \rmfamily\itshape,
+    \rmfamily\bfseries\itshape,
+    \rmfamily\fontseries{l}\selectfont,
+    \rmfamily\fontseries{l}\selectfont\itshape,
+    \rmfamily\fontseries{sl}\selectfont,
+    \rmfamily\fontseries{sl}\selectfont\itshape,
+    \rmfamily\fontseries{m}\selectfont,
+    \rmfamily\fontseries{m}\selectfont\itshape,
+    \rmfamily\fontseries{b}\selectfont,
+    \rmfamily\fontseries{b}\selectfont\itshape,
+    \rmfamily\fontseries{eb}\selectfont,
+    \rmfamily\fontseries{eb}\selectfont\itshape
+  }
+
+\START
+
+\clist_map_inline:Nn \l_tmpa_clist 
+  {
+    \TEST{#1}
+      {
+        \hbox_set:Nn \l_tmpa_box {\normalfont #1 \tl_use:N \l_tmpa_tl}
+        \box_show:N \l_tmpa_box
+        \box_use:N \l_tmpa_box
+      }    
+  }
+\ExplSyntaxOff
+\end{document}

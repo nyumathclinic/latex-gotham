@@ -167,44 +167,44 @@ Completed box being shipped out [1]
 .....\localrightbox=null
 ....\hbox(9.504+0.0)x21.48479, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/14.4 1
+.....\TU/FrankRuhlLibre(0)/b/n/14.4 1
 .....\glue 14.4
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 H
+....\TU/FrankRuhlLibre(0)/b/n/14.4 H
 ....\kern-0.576 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 e
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 a
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 d
+....\TU/FrankRuhlLibre(0)/b/n/14.4 e
+....\TU/FrankRuhlLibre(0)/b/n/14.4 a
+....\TU/FrankRuhlLibre(0)/b/n/14.4 d
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/14.4 -
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 i
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 n
+.....< \TU/FrankRuhlLibre(0)/b/n/14.4 -
+....\TU/FrankRuhlLibre(0)/b/n/14.4 i
+....\TU/FrankRuhlLibre(0)/b/n/14.4 n
 ....\kern-0.432 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 g
+....\TU/FrankRuhlLibre(0)/b/n/14.4 g
 ....\glue(\spaceskip) 3.1968 plus 1.5984 minus 1.0656
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 o
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 n
+....\TU/FrankRuhlLibre(0)/b/n/14.4 o
+....\TU/FrankRuhlLibre(0)/b/n/14.4 n
 ....\glue(\spaceskip) 3.1968 plus 1.5984 minus 1.0656
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 l
+....\TU/FrankRuhlLibre(0)/b/n/14.4 l
 ....\kern-0.144 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 e
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 v
+....\TU/FrankRuhlLibre(0)/b/n/14.4 e
+....\TU/FrankRuhlLibre(0)/b/n/14.4 v
 ....\kern-0.576 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 e
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 l
+....\TU/FrankRuhlLibre(0)/b/n/14.4 e
+....\TU/FrankRuhlLibre(0)/b/n/14.4 l
 ....\glue(\spaceskip) 3.1968 plus 1.5984 minus 1.0656
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 1
+....\TU/FrankRuhlLibre(0)/b/n/14.4 1
 ....\glue(\spaceskip) 3.1968 plus 1.5984 minus 1.0656
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 (
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 s
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 e
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 c
+....\TU/FrankRuhlLibre(0)/b/n/14.4 (
+....\TU/FrankRuhlLibre(0)/b/n/14.4 s
+....\TU/FrankRuhlLibre(0)/b/n/14.4 e
+....\TU/FrankRuhlLibre(0)/b/n/14.4 c
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/14.4 -
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 t
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 i
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 o
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 n
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 )
+.....< \TU/FrankRuhlLibre(0)/b/n/14.4 -
+....\TU/FrankRuhlLibre(0)/b/n/14.4 t
+....\TU/FrankRuhlLibre(0)/b/n/14.4 i
+....\TU/FrankRuhlLibre(0)/b/n/14.4 o
+....\TU/FrankRuhlLibre(0)/b/n/14.4 n
+....\TU/FrankRuhlLibre(0)/b/n/14.4 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -1301,51 +1301,51 @@ Completed box being shipped out [1]
 .....\localrightbox=null
 ....\hbox(7.92+0.108)x27.37201, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/12 1
-.....\TU/FrankRuhlLibre(0)/sb/n/12 .
-.....\TU/FrankRuhlLibre(0)/sb/n/12 1
+.....\TU/FrankRuhlLibre(0)/b/n/12 1
+.....\TU/FrankRuhlLibre(0)/b/n/12 .
+.....\TU/FrankRuhlLibre(0)/b/n/12 1
 .....\glue 12.0
-....\TU/FrankRuhlLibre(0)/sb/n/12 H
+....\TU/FrankRuhlLibre(0)/b/n/12 H
 ....\kern-0.48 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 a
-....\TU/FrankRuhlLibre(0)/sb/n/12 d
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 a
+....\TU/FrankRuhlLibre(0)/b/n/12 d
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 n
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 n
 ....\kern-0.36 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 g
+....\TU/FrankRuhlLibre(0)/b/n/12 g
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 o
-....\TU/FrankRuhlLibre(0)/sb/n/12 n
+....\TU/FrankRuhlLibre(0)/b/n/12 o
+....\TU/FrankRuhlLibre(0)/b/n/12 n
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 l
+....\TU/FrankRuhlLibre(0)/b/n/12 l
 ....\kern-0.12 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 v
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 v
 ....\kern-0.48 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 l
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 l
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 2
+....\TU/FrankRuhlLibre(0)/b/n/12 2
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 (
-....\TU/FrankRuhlLibre(0)/sb/n/12 s
-....\TU/FrankRuhlLibre(0)/sb/n/12 u
-....\TU/FrankRuhlLibre(0)/sb/n/12 b
+....\TU/FrankRuhlLibre(0)/b/n/12 (
+....\TU/FrankRuhlLibre(0)/b/n/12 s
+....\TU/FrankRuhlLibre(0)/b/n/12 u
+....\TU/FrankRuhlLibre(0)/b/n/12 b
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 s
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 c
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 s
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 c
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 t
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 o
-....\TU/FrankRuhlLibre(0)/sb/n/12 n
-....\TU/FrankRuhlLibre(0)/sb/n/12 )
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 t
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 o
+....\TU/FrankRuhlLibre(0)/b/n/12 n
+....\TU/FrankRuhlLibre(0)/b/n/12 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -2442,58 +2442,58 @@ Completed box being shipped out [1]
 .....\localrightbox=null
 ....\hbox(6.6+0.09)x30.7, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/10 1
-.....\TU/FrankRuhlLibre(0)/sb/n/10 .
-.....\TU/FrankRuhlLibre(0)/sb/n/10 1
-.....\TU/FrankRuhlLibre(0)/sb/n/10 .
-.....\TU/FrankRuhlLibre(0)/sb/n/10 1
+.....\TU/FrankRuhlLibre(0)/b/n/10 1
+.....\TU/FrankRuhlLibre(0)/b/n/10 .
+.....\TU/FrankRuhlLibre(0)/b/n/10 1
+.....\TU/FrankRuhlLibre(0)/b/n/10 .
+.....\TU/FrankRuhlLibre(0)/b/n/10 1
 .....\glue 10.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 H
+....\TU/FrankRuhlLibre(0)/b/n/10 H
 ....\kern-0.4 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
-....\TU/FrankRuhlLibre(0)/sb/n/10 d
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 d
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 n
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 n
 ....\kern-0.3 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 g
+....\TU/FrankRuhlLibre(0)/b/n/10 g
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 o
-....\TU/FrankRuhlLibre(0)/sb/n/10 n
+....\TU/FrankRuhlLibre(0)/b/n/10 o
+....\TU/FrankRuhlLibre(0)/b/n/10 n
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 l
 ....\kern-0.1 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 v
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 v
 ....\kern-0.4 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 l
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 3
+....\TU/FrankRuhlLibre(0)/b/n/10 3
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 (
-....\TU/FrankRuhlLibre(0)/sb/n/10 s
-....\TU/FrankRuhlLibre(0)/sb/n/10 u
-....\TU/FrankRuhlLibre(0)/sb/n/10 b
+....\TU/FrankRuhlLibre(0)/b/n/10 (
+....\TU/FrankRuhlLibre(0)/b/n/10 s
+....\TU/FrankRuhlLibre(0)/b/n/10 u
+....\TU/FrankRuhlLibre(0)/b/n/10 b
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 s
-....\TU/FrankRuhlLibre(0)/sb/n/10 u
-....\TU/FrankRuhlLibre(0)/sb/n/10 b
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 s
+....\TU/FrankRuhlLibre(0)/b/n/10 u
+....\TU/FrankRuhlLibre(0)/b/n/10 b
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 s
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 c
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 s
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 c
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 t
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 o
-....\TU/FrankRuhlLibre(0)/sb/n/10 n
-....\TU/FrankRuhlLibre(0)/sb/n/10 )
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 t
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 o
+....\TU/FrankRuhlLibre(0)/b/n/10 n
+....\TU/FrankRuhlLibre(0)/b/n/10 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -3608,47 +3608,47 @@ Completed box being shipped out [2]
 .....\localleftbox=null
 .....\localrightbox=null
 ....\glue 0.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 H
+....\TU/FrankRuhlLibre(0)/b/n/10 H
 ....\kern-0.4 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
-....\TU/FrankRuhlLibre(0)/sb/n/10 d
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 d
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 n
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 n
 ....\kern-0.3 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 g
+....\TU/FrankRuhlLibre(0)/b/n/10 g
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 o
-....\TU/FrankRuhlLibre(0)/sb/n/10 n
+....\TU/FrankRuhlLibre(0)/b/n/10 o
+....\TU/FrankRuhlLibre(0)/b/n/10 n
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 l
 ....\kern-0.1 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 v
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 v
 ....\kern-0.4 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 l
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 4
+....\TU/FrankRuhlLibre(0)/b/n/10 4
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 (
-....\TU/FrankRuhlLibre(0)/sb/n/10 p
+....\TU/FrankRuhlLibre(0)/b/n/10 (
+....\TU/FrankRuhlLibre(0)/b/n/10 p
 ....\kern-0.1 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
-....\TU/FrankRuhlLibre(0)/sb/n/10 r
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 r
+....\TU/FrankRuhlLibre(0)/b/n/10 a
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 g
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 g
 ....\kern-0.3 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 r
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
-....\TU/FrankRuhlLibre(0)/sb/n/10 p
+....\TU/FrankRuhlLibre(0)/b/n/10 r
+....\TU/FrankRuhlLibre(0)/b/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 p
 ....\kern-0.2 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 h
-....\TU/FrankRuhlLibre(0)/sb/n/10 )
+....\TU/FrankRuhlLibre(0)/b/n/10 h
+....\TU/FrankRuhlLibre(0)/b/n/10 )
 ....\write1{\@writefile{toc}{\protect \contentsline {paragraph}{Heading on level\protect \ETC.}
 ....\glue 10.0
 ....\TU/FrankRuhlLibre(0)/m/n/10 L
@@ -4740,13 +4740,13 @@ Completed box being shipped out [2]
 .....\localrightbox=null
 ....\hbox(9.67679+0.0)x22.62239, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/14.4 2
+.....\TU/FrankRuhlLibre(0)/b/n/14.4 2
 .....\glue 14.4
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 L
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 i
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 s
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 t
-....\TU/FrankRuhlLibre(0)/sb/n/14.4 s
+....\TU/FrankRuhlLibre(0)/b/n/14.4 L
+....\TU/FrankRuhlLibre(0)/b/n/14.4 i
+....\TU/FrankRuhlLibre(0)/b/n/14.4 s
+....\TU/FrankRuhlLibre(0)/b/n/14.4 t
+....\TU/FrankRuhlLibre(0)/b/n/14.4 s
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -4764,44 +4764,44 @@ Completed box being shipped out [2]
 .....\localrightbox=null
 ....\hbox(8.064+0.108)x28.32, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/12 2
-.....\TU/FrankRuhlLibre(0)/sb/n/12 .
-.....\TU/FrankRuhlLibre(0)/sb/n/12 1
+.....\TU/FrankRuhlLibre(0)/b/n/12 2
+.....\TU/FrankRuhlLibre(0)/b/n/12 .
+.....\TU/FrankRuhlLibre(0)/b/n/12 1
 .....\glue 12.0
-....\TU/FrankRuhlLibre(0)/sb/n/12 E
-....\TU/FrankRuhlLibre(0)/sb/n/12 x
+....\TU/FrankRuhlLibre(0)/b/n/12 E
+....\TU/FrankRuhlLibre(0)/b/n/12 x
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 a
-....\TU/FrankRuhlLibre(0)/sb/n/12 m
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 a
+....\TU/FrankRuhlLibre(0)/b/n/12 m
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 p
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 p
 ....\kern-0.24 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 l
+....\TU/FrankRuhlLibre(0)/b/n/12 l
 ....\kern-0.12 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 e
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 f
-....\TU/FrankRuhlLibre(0)/sb/n/12 o
-....\TU/FrankRuhlLibre(0)/sb/n/12 r
+....\TU/FrankRuhlLibre(0)/b/n/12 f
+....\TU/FrankRuhlLibre(0)/b/n/12 o
+....\TU/FrankRuhlLibre(0)/b/n/12 r
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 l
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 s
-....\TU/FrankRuhlLibre(0)/sb/n/12 t
+....\TU/FrankRuhlLibre(0)/b/n/12 l
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 s
+....\TU/FrankRuhlLibre(0)/b/n/12 t
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 (
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 t
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 m
+....\TU/FrankRuhlLibre(0)/b/n/12 (
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 t
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 m
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 z
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 )
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 z
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -5045,48 +5045,48 @@ Completed box being shipped out [2]
 .....\localrightbox=null
 ....\hbox(6.72+0.09)x31.49, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/10 2
-.....\TU/FrankRuhlLibre(0)/sb/n/10 .
-.....\TU/FrankRuhlLibre(0)/sb/n/10 1
-.....\TU/FrankRuhlLibre(0)/sb/n/10 .
-.....\TU/FrankRuhlLibre(0)/sb/n/10 1
+.....\TU/FrankRuhlLibre(0)/b/n/10 2
+.....\TU/FrankRuhlLibre(0)/b/n/10 .
+.....\TU/FrankRuhlLibre(0)/b/n/10 1
+.....\TU/FrankRuhlLibre(0)/b/n/10 .
+.....\TU/FrankRuhlLibre(0)/b/n/10 1
 .....\glue 10.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 E
-....\TU/FrankRuhlLibre(0)/sb/n/10 x
+....\TU/FrankRuhlLibre(0)/b/n/10 E
+....\TU/FrankRuhlLibre(0)/b/n/10 x
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
-....\TU/FrankRuhlLibre(0)/sb/n/10 m
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 m
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 p
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 p
 ....\kern-0.2 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 l
 ....\kern-0.1 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 e
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 f
-....\TU/FrankRuhlLibre(0)/sb/n/10 o
-....\TU/FrankRuhlLibre(0)/sb/n/10 r
+....\TU/FrankRuhlLibre(0)/b/n/10 f
+....\TU/FrankRuhlLibre(0)/b/n/10 o
+....\TU/FrankRuhlLibre(0)/b/n/10 r
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 s
-....\TU/FrankRuhlLibre(0)/sb/n/10 t
+....\TU/FrankRuhlLibre(0)/b/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 s
+....\TU/FrankRuhlLibre(0)/b/n/10 t
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 (
-....\TU/FrankRuhlLibre(0)/sb/n/10 4
-....\TU/FrankRuhlLibre(0)/sb/n/10 *
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 t
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 m
+....\TU/FrankRuhlLibre(0)/b/n/10 (
+....\TU/FrankRuhlLibre(0)/b/n/10 4
+....\TU/FrankRuhlLibre(0)/b/n/10 *
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 t
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 m
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 z
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 )
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 z
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -5157,7 +5157,7 @@ n TLT
 ......\glue 0.0 plus 1.0fil minus 1.0fil
 ......\hbox(3.06+0.0)x0.0, glue set - 4.16fil, direction TLT
 .......\glue 0.0 plus 1.0fil minus 1.0fil
-.......\TU/FrankRuhlLibre(0)/sb/n/10 –
+.......\TU/FrankRuhlLibre(0)/b/n/10 –
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 F
@@ -5387,7 +5387,7 @@ n TLT
 ......\glue 0.0 plus 1.0fil minus 1.0fil
 ......\hbox(3.06+0.0)x0.0, glue set - 4.16fil, direction TLT
 .......\glue 0.0 plus 1.0fil minus 1.0fil
-.......\TU/FrankRuhlLibre(0)/sb/n/10 –
+.......\TU/FrankRuhlLibre(0)/b/n/10 –
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 F
@@ -5491,52 +5491,52 @@ Completed box being shipped out [3]
 .....\localrightbox=null
 ....\hbox(8.064+0.108)x29.268, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/12 2
-.....\TU/FrankRuhlLibre(0)/sb/n/12 .
-.....\TU/FrankRuhlLibre(0)/sb/n/12 2
+.....\TU/FrankRuhlLibre(0)/b/n/12 2
+.....\TU/FrankRuhlLibre(0)/b/n/12 .
+.....\TU/FrankRuhlLibre(0)/b/n/12 2
 .....\glue 12.0
-....\TU/FrankRuhlLibre(0)/sb/n/12 E
-....\TU/FrankRuhlLibre(0)/sb/n/12 x
+....\TU/FrankRuhlLibre(0)/b/n/12 E
+....\TU/FrankRuhlLibre(0)/b/n/12 x
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 a
-....\TU/FrankRuhlLibre(0)/sb/n/12 m
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 a
+....\TU/FrankRuhlLibre(0)/b/n/12 m
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 p
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 p
 ....\kern-0.24 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 l
+....\TU/FrankRuhlLibre(0)/b/n/12 l
 ....\kern-0.12 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 e
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 f
-....\TU/FrankRuhlLibre(0)/sb/n/12 o
-....\TU/FrankRuhlLibre(0)/sb/n/12 r
+....\TU/FrankRuhlLibre(0)/b/n/12 f
+....\TU/FrankRuhlLibre(0)/b/n/12 o
+....\TU/FrankRuhlLibre(0)/b/n/12 r
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 l
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 s
-....\TU/FrankRuhlLibre(0)/sb/n/12 t
+....\TU/FrankRuhlLibre(0)/b/n/12 l
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 s
+....\TU/FrankRuhlLibre(0)/b/n/12 t
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 (
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 n
+....\TU/FrankRuhlLibre(0)/b/n/12 (
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 n
 ....\kern-0.24 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 u
+....\TU/FrankRuhlLibre(0)/b/n/12 u
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
 .....= \kern-0.24 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 m
+....\TU/FrankRuhlLibre(0)/b/n/12 m
 ....\kern-0.24 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 r
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 r
 ....\discretionary (penalty 50)
 .....< \kern-0.24 (font)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 a
-....\TU/FrankRuhlLibre(0)/sb/n/12 t
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
-....\TU/FrankRuhlLibre(0)/sb/n/12 )
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 a
+....\TU/FrankRuhlLibre(0)/b/n/12 t
+....\TU/FrankRuhlLibre(0)/b/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -5784,56 +5784,56 @@ Completed box being shipped out [3]
 .....\localrightbox=null
 ....\hbox(6.72+0.09)x32.28001, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/10 2
-.....\TU/FrankRuhlLibre(0)/sb/n/10 .
-.....\TU/FrankRuhlLibre(0)/sb/n/10 2
-.....\TU/FrankRuhlLibre(0)/sb/n/10 .
-.....\TU/FrankRuhlLibre(0)/sb/n/10 1
+.....\TU/FrankRuhlLibre(0)/b/n/10 2
+.....\TU/FrankRuhlLibre(0)/b/n/10 .
+.....\TU/FrankRuhlLibre(0)/b/n/10 2
+.....\TU/FrankRuhlLibre(0)/b/n/10 .
+.....\TU/FrankRuhlLibre(0)/b/n/10 1
 .....\glue 10.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 E
-....\TU/FrankRuhlLibre(0)/sb/n/10 x
+....\TU/FrankRuhlLibre(0)/b/n/10 E
+....\TU/FrankRuhlLibre(0)/b/n/10 x
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
-....\TU/FrankRuhlLibre(0)/sb/n/10 m
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 m
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 p
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 p
 ....\kern-0.2 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 l
 ....\kern-0.1 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 e
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 f
-....\TU/FrankRuhlLibre(0)/sb/n/10 o
-....\TU/FrankRuhlLibre(0)/sb/n/10 r
+....\TU/FrankRuhlLibre(0)/b/n/10 f
+....\TU/FrankRuhlLibre(0)/b/n/10 o
+....\TU/FrankRuhlLibre(0)/b/n/10 r
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 s
-....\TU/FrankRuhlLibre(0)/sb/n/10 t
+....\TU/FrankRuhlLibre(0)/b/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 s
+....\TU/FrankRuhlLibre(0)/b/n/10 t
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 (
-....\TU/FrankRuhlLibre(0)/sb/n/10 4
-....\TU/FrankRuhlLibre(0)/sb/n/10 *
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 n
+....\TU/FrankRuhlLibre(0)/b/n/10 (
+....\TU/FrankRuhlLibre(0)/b/n/10 4
+....\TU/FrankRuhlLibre(0)/b/n/10 *
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 n
 ....\kern-0.2 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 u
+....\TU/FrankRuhlLibre(0)/b/n/10 u
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
 .....= \kern-0.2 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 m
+....\TU/FrankRuhlLibre(0)/b/n/10 m
 ....\kern-0.2 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 r
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 r
 ....\discretionary (penalty 50)
 .....< \kern-0.2 (font)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
-....\TU/FrankRuhlLibre(0)/sb/n/10 t
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
-....\TU/FrankRuhlLibre(0)/sb/n/10 )
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 t
+....\TU/FrankRuhlLibre(0)/b/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -6233,51 +6233,51 @@ n TLT
 .....\localrightbox=null
 ....\hbox(8.064+0.132)x29.136, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/12 2
-.....\TU/FrankRuhlLibre(0)/sb/n/12 .
-.....\TU/FrankRuhlLibre(0)/sb/n/12 3
+.....\TU/FrankRuhlLibre(0)/b/n/12 2
+.....\TU/FrankRuhlLibre(0)/b/n/12 .
+.....\TU/FrankRuhlLibre(0)/b/n/12 3
 .....\glue 12.0
-....\TU/FrankRuhlLibre(0)/sb/n/12 E
-....\TU/FrankRuhlLibre(0)/sb/n/12 x
+....\TU/FrankRuhlLibre(0)/b/n/12 E
+....\TU/FrankRuhlLibre(0)/b/n/12 x
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 a
-....\TU/FrankRuhlLibre(0)/sb/n/12 m
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 a
+....\TU/FrankRuhlLibre(0)/b/n/12 m
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 p
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 p
 ....\kern-0.24 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 l
+....\TU/FrankRuhlLibre(0)/b/n/12 l
 ....\kern-0.12 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 e
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 f
-....\TU/FrankRuhlLibre(0)/sb/n/12 o
-....\TU/FrankRuhlLibre(0)/sb/n/12 r
+....\TU/FrankRuhlLibre(0)/b/n/12 f
+....\TU/FrankRuhlLibre(0)/b/n/12 o
+....\TU/FrankRuhlLibre(0)/b/n/12 r
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 l
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 s
-....\TU/FrankRuhlLibre(0)/sb/n/12 t
+....\TU/FrankRuhlLibre(0)/b/n/12 l
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 s
+....\TU/FrankRuhlLibre(0)/b/n/12 t
 ....\glue(\spaceskip) 2.664 plus 1.332 minus 0.888
-....\TU/FrankRuhlLibre(0)/sb/n/12 (
-....\TU/FrankRuhlLibre(0)/sb/n/12 d
+....\TU/FrankRuhlLibre(0)/b/n/12 (
+....\TU/FrankRuhlLibre(0)/b/n/12 d
 ....\kern-0.12 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/12 e
+....\TU/FrankRuhlLibre(0)/b/n/12 e
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 s
-....\TU/FrankRuhlLibre(0)/sb/n/12 c
-....\TU/FrankRuhlLibre(0)/sb/n/12 r
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 p
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 s
+....\TU/FrankRuhlLibre(0)/b/n/12 c
+....\TU/FrankRuhlLibre(0)/b/n/12 r
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 p
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/12 -
-....\TU/FrankRuhlLibre(0)/sb/n/12 t
-....\TU/FrankRuhlLibre(0)/sb/n/12 i
-....\TU/FrankRuhlLibre(0)/sb/n/12 o
-....\TU/FrankRuhlLibre(0)/sb/n/12 n
-....\TU/FrankRuhlLibre(0)/sb/n/12 )
+.....< \TU/FrankRuhlLibre(0)/b/n/12 -
+....\TU/FrankRuhlLibre(0)/b/n/12 t
+....\TU/FrankRuhlLibre(0)/b/n/12 i
+....\TU/FrankRuhlLibre(0)/b/n/12 o
+....\TU/FrankRuhlLibre(0)/b/n/12 n
+....\TU/FrankRuhlLibre(0)/b/n/12 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -6301,11 +6301,11 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x26.21, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 F
-......\TU/FrankRuhlLibre(0)/sb/n/10 i
-......\TU/FrankRuhlLibre(0)/sb/n/10 r
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 F
+......\TU/FrankRuhlLibre(0)/b/n/10 i
+......\TU/FrankRuhlLibre(0)/b/n/10 r
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6339,15 +6339,15 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x38.03001, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 S
-......\TU/FrankRuhlLibre(0)/sb/n/10 e
-......\TU/FrankRuhlLibre(0)/sb/n/10 c
+......\TU/FrankRuhlLibre(0)/b/n/10 S
+......\TU/FrankRuhlLibre(0)/b/n/10 e
+......\TU/FrankRuhlLibre(0)/b/n/10 c
 ......\discretionary (penalty 50)
-.......< \TU/FrankRuhlLibre(0)/sb/n/10 -
-......\TU/FrankRuhlLibre(0)/sb/n/10 o
-......\TU/FrankRuhlLibre(0)/sb/n/10 n
+.......< \TU/FrankRuhlLibre(0)/b/n/10 -
+......\TU/FrankRuhlLibre(0)/b/n/10 o
+......\TU/FrankRuhlLibre(0)/b/n/10 n
 ......\kern-0.2 (font)
-......\TU/FrankRuhlLibre(0)/sb/n/10 d
+......\TU/FrankRuhlLibre(0)/b/n/10 d
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6381,10 +6381,10 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.6+0.12)x24.06001, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 L
-......\TU/FrankRuhlLibre(0)/sb/n/10 a
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 L
+......\TU/FrankRuhlLibre(0)/b/n/10 a
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6418,11 +6418,11 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x26.21, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 F
-......\TU/FrankRuhlLibre(0)/sb/n/10 i
-......\TU/FrankRuhlLibre(0)/sb/n/10 r
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 F
+......\TU/FrankRuhlLibre(0)/b/n/10 i
+......\TU/FrankRuhlLibre(0)/b/n/10 r
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6456,15 +6456,15 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x38.03001, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 S
-......\TU/FrankRuhlLibre(0)/sb/n/10 e
-......\TU/FrankRuhlLibre(0)/sb/n/10 c
+......\TU/FrankRuhlLibre(0)/b/n/10 S
+......\TU/FrankRuhlLibre(0)/b/n/10 e
+......\TU/FrankRuhlLibre(0)/b/n/10 c
 ......\discretionary (penalty 50)
-.......< \TU/FrankRuhlLibre(0)/sb/n/10 -
-......\TU/FrankRuhlLibre(0)/sb/n/10 o
-......\TU/FrankRuhlLibre(0)/sb/n/10 n
+.......< \TU/FrankRuhlLibre(0)/b/n/10 -
+......\TU/FrankRuhlLibre(0)/b/n/10 o
+......\TU/FrankRuhlLibre(0)/b/n/10 n
 ......\kern-0.2 (font)
-......\TU/FrankRuhlLibre(0)/sb/n/10 d
+......\TU/FrankRuhlLibre(0)/b/n/10 d
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6500,55 +6500,55 @@ n TLT
 .....\localrightbox=null
 ....\hbox(6.72+0.11)x32.17001, direction TLT
 .....\glue 0.0
-.....\TU/FrankRuhlLibre(0)/sb/n/10 2
-.....\TU/FrankRuhlLibre(0)/sb/n/10 .
-.....\TU/FrankRuhlLibre(0)/sb/n/10 3
-.....\TU/FrankRuhlLibre(0)/sb/n/10 .
-.....\TU/FrankRuhlLibre(0)/sb/n/10 1
+.....\TU/FrankRuhlLibre(0)/b/n/10 2
+.....\TU/FrankRuhlLibre(0)/b/n/10 .
+.....\TU/FrankRuhlLibre(0)/b/n/10 3
+.....\TU/FrankRuhlLibre(0)/b/n/10 .
+.....\TU/FrankRuhlLibre(0)/b/n/10 1
 .....\glue 10.0
-....\TU/FrankRuhlLibre(0)/sb/n/10 E
-....\TU/FrankRuhlLibre(0)/sb/n/10 x
+....\TU/FrankRuhlLibre(0)/b/n/10 E
+....\TU/FrankRuhlLibre(0)/b/n/10 x
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 a
-....\TU/FrankRuhlLibre(0)/sb/n/10 m
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 a
+....\TU/FrankRuhlLibre(0)/b/n/10 m
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 p
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 p
 ....\kern-0.2 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 l
 ....\kern-0.1 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 e
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 f
-....\TU/FrankRuhlLibre(0)/sb/n/10 o
-....\TU/FrankRuhlLibre(0)/sb/n/10 r
+....\TU/FrankRuhlLibre(0)/b/n/10 f
+....\TU/FrankRuhlLibre(0)/b/n/10 o
+....\TU/FrankRuhlLibre(0)/b/n/10 r
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 l
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 s
-....\TU/FrankRuhlLibre(0)/sb/n/10 t
+....\TU/FrankRuhlLibre(0)/b/n/10 l
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 s
+....\TU/FrankRuhlLibre(0)/b/n/10 t
 ....\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
-....\TU/FrankRuhlLibre(0)/sb/n/10 (
-....\TU/FrankRuhlLibre(0)/sb/n/10 4
-....\TU/FrankRuhlLibre(0)/sb/n/10 *
-....\TU/FrankRuhlLibre(0)/sb/n/10 d
+....\TU/FrankRuhlLibre(0)/b/n/10 (
+....\TU/FrankRuhlLibre(0)/b/n/10 4
+....\TU/FrankRuhlLibre(0)/b/n/10 *
+....\TU/FrankRuhlLibre(0)/b/n/10 d
 ....\kern-0.1 (font)
-....\TU/FrankRuhlLibre(0)/sb/n/10 e
+....\TU/FrankRuhlLibre(0)/b/n/10 e
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 s
-....\TU/FrankRuhlLibre(0)/sb/n/10 c
-....\TU/FrankRuhlLibre(0)/sb/n/10 r
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 p
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 s
+....\TU/FrankRuhlLibre(0)/b/n/10 c
+....\TU/FrankRuhlLibre(0)/b/n/10 r
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 p
 ....\discretionary (penalty 50)
-.....< \TU/FrankRuhlLibre(0)/sb/n/10 -
-....\TU/FrankRuhlLibre(0)/sb/n/10 t
-....\TU/FrankRuhlLibre(0)/sb/n/10 i
-....\TU/FrankRuhlLibre(0)/sb/n/10 o
-....\TU/FrankRuhlLibre(0)/sb/n/10 n
-....\TU/FrankRuhlLibre(0)/sb/n/10 )
+.....< \TU/FrankRuhlLibre(0)/b/n/10 -
+....\TU/FrankRuhlLibre(0)/b/n/10 t
+....\TU/FrankRuhlLibre(0)/b/n/10 i
+....\TU/FrankRuhlLibre(0)/b/n/10 o
+....\TU/FrankRuhlLibre(0)/b/n/10 n
+....\TU/FrankRuhlLibre(0)/b/n/10 )
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
@@ -6572,11 +6572,11 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x26.21, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 F
-......\TU/FrankRuhlLibre(0)/sb/n/10 i
-......\TU/FrankRuhlLibre(0)/sb/n/10 r
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 F
+......\TU/FrankRuhlLibre(0)/b/n/10 i
+......\TU/FrankRuhlLibre(0)/b/n/10 r
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6613,11 +6613,11 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x26.21, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 F
-......\TU/FrankRuhlLibre(0)/sb/n/10 i
-......\TU/FrankRuhlLibre(0)/sb/n/10 r
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 F
+......\TU/FrankRuhlLibre(0)/b/n/10 i
+......\TU/FrankRuhlLibre(0)/b/n/10 r
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6652,11 +6652,11 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x26.21, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 F
-......\TU/FrankRuhlLibre(0)/sb/n/10 i
-......\TU/FrankRuhlLibre(0)/sb/n/10 r
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 F
+......\TU/FrankRuhlLibre(0)/b/n/10 i
+......\TU/FrankRuhlLibre(0)/b/n/10 r
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6691,11 +6691,11 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x26.21, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 F
-......\TU/FrankRuhlLibre(0)/sb/n/10 i
-......\TU/FrankRuhlLibre(0)/sb/n/10 r
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 F
+......\TU/FrankRuhlLibre(0)/b/n/10 i
+......\TU/FrankRuhlLibre(0)/b/n/10 r
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6730,15 +6730,15 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x38.03001, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 S
-......\TU/FrankRuhlLibre(0)/sb/n/10 e
-......\TU/FrankRuhlLibre(0)/sb/n/10 c
+......\TU/FrankRuhlLibre(0)/b/n/10 S
+......\TU/FrankRuhlLibre(0)/b/n/10 e
+......\TU/FrankRuhlLibre(0)/b/n/10 c
 ......\discretionary (penalty 50)
-.......< \TU/FrankRuhlLibre(0)/sb/n/10 -
-......\TU/FrankRuhlLibre(0)/sb/n/10 o
-......\TU/FrankRuhlLibre(0)/sb/n/10 n
+.......< \TU/FrankRuhlLibre(0)/b/n/10 -
+......\TU/FrankRuhlLibre(0)/b/n/10 o
+......\TU/FrankRuhlLibre(0)/b/n/10 n
 ......\kern-0.2 (font)
-......\TU/FrankRuhlLibre(0)/sb/n/10 d
+......\TU/FrankRuhlLibre(0)/b/n/10 d
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6777,10 +6777,10 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.6+0.12)x24.06001, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 L
-......\TU/FrankRuhlLibre(0)/sb/n/10 a
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 L
+......\TU/FrankRuhlLibre(0)/b/n/10 a
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6819,11 +6819,11 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x26.21, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 F
-......\TU/FrankRuhlLibre(0)/sb/n/10 i
-......\TU/FrankRuhlLibre(0)/sb/n/10 r
-......\TU/FrankRuhlLibre(0)/sb/n/10 s
-......\TU/FrankRuhlLibre(0)/sb/n/10 t
+......\TU/FrankRuhlLibre(0)/b/n/10 F
+......\TU/FrankRuhlLibre(0)/b/n/10 i
+......\TU/FrankRuhlLibre(0)/b/n/10 r
+......\TU/FrankRuhlLibre(0)/b/n/10 s
+......\TU/FrankRuhlLibre(0)/b/n/10 t
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i
@@ -6861,15 +6861,15 @@ n TLT
 .....\glue -5.0
 .....\hbox(6.9+0.12)x38.03001, direction TLT
 ......\glue 5.0
-......\TU/FrankRuhlLibre(0)/sb/n/10 S
-......\TU/FrankRuhlLibre(0)/sb/n/10 e
-......\TU/FrankRuhlLibre(0)/sb/n/10 c
+......\TU/FrankRuhlLibre(0)/b/n/10 S
+......\TU/FrankRuhlLibre(0)/b/n/10 e
+......\TU/FrankRuhlLibre(0)/b/n/10 c
 ......\discretionary (penalty 50)
-.......< \TU/FrankRuhlLibre(0)/sb/n/10 -
-......\TU/FrankRuhlLibre(0)/sb/n/10 o
-......\TU/FrankRuhlLibre(0)/sb/n/10 n
+.......< \TU/FrankRuhlLibre(0)/b/n/10 -
+......\TU/FrankRuhlLibre(0)/b/n/10 o
+......\TU/FrankRuhlLibre(0)/b/n/10 n
 ......\kern-0.2 (font)
-......\TU/FrankRuhlLibre(0)/sb/n/10 d
+......\TU/FrankRuhlLibre(0)/b/n/10 d
 .....\glue 5.0
 ....\penalty 0
 ....\TU/FrankRuhlLibre(0)/m/n/10 i

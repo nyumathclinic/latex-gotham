@@ -545,7 +545,7 @@ TEST 10: \sffamily \fontseries {b}\selectfont \itshape
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
-Overfull \hbox (88.23703pt too wide) in paragraph at lines 235--38
+Overfull \hbox (88.23703pt too wide) in paragraph at lines 247--38
 []\OT1/cmr/m/n/10 Gotham[FontFace=ln* Light,FontFace=lit* Light Italic,FontFace=sbn* Medium,FontFace=sbit*
 \hbox(7.5+2.5)x345.0, glue set - 1.0
 .\hbox(0.0+0.0)x15.0
@@ -652,7 +652,7 @@ Overfull \hbox (88.23703pt too wide) in paragraph at lines 235--38
 .\OT1/cmr/m/n/10 t
 .\OT1/cmr/m/n/10 *
 .\glue(\rightskip) 0.0
-Overfull \hbox (1474.33243pt too wide) in paragraph at lines 235--38
+Overfull \hbox (1474.33243pt too wide) in paragraph at lines 247--38
 \OT1/cmr/m/n/10 Italic]                [][][][][][][][][][] 
 \hbox(7.5+2.5)x345.0, glue set - 1.0
 .\OT1/cmr/m/n/10 I

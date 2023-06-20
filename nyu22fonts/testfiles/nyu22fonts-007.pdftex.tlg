@@ -11,7 +11,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \__nyufonts_set_frank_ruhl_libre: ->\setmainfont 
-                                                 {Frank Ruhl Libre}[ItalicFo...
+                                                 {Frank Ruhl Libre}[FontFace...
 l. ...\nyufontssetup{Montserrat,Frank~Ruhl~Libre}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1411,9 +1411,9 @@ Overfull \hbox (20.36559pt too wide) in paragraph at lines 30--55
 .\OT1/ptm/m/n/10 n
 .\OT1/ptm/m/n/10 k
 .\glue(\rightskip) 0.0
-Overfull \hbox (1324.83131pt too wide) in paragraph at lines 30--55
-\OT1/ptm/m/n/10 Ruhl Li-bre[ItalicFont=*,ItalicFeatures=FakeSlant,BoldItalicFont=* Bold,BoldItalicFeatures=FakeSlant,][][][][][][][]HelveticaTimes
-\hbox(7.30492+2.22498)x345.0, glue set - 1.0
+Overfull \hbox (58.16684pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 Ruhl Li-bre[FontFace=ln* Light,FontFace=litFont=* Light,FakeSlant=0.24932800284,FontFace=sln*
+\hbox(6.81989+2.16492)x345.0, glue set - 1.0
 .\OT1/ptm/m/n/10 R
 .\OT1/ptm/m/n/10 u
 .\OT1/ptm/m/n/10 h
@@ -1427,12 +1427,41 @@ Overfull \hbox (1324.83131pt too wide) in paragraph at lines 30--55
 .\OT1/ptm/m/n/10 r
 .\OT1/ptm/m/n/10 e
 .\OT1/ptm/m/n/10 [
-.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
 .\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
 .\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 L
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
 .\OT1/ptm/m/n/10 l
 .\OT1/ptm/m/n/10 i
-.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 t
 .\OT1/ptm/m/n/10 F
 .\kern-0.1499
 .\OT1/ptm/m/n/10 o
@@ -1440,22 +1469,13 @@ Overfull \hbox (1324.83131pt too wide) in paragraph at lines 30--55
 .\OT1/ptm/m/n/10 t
 .\OT1/ptm/m/n/10 =
 .\OT1/ptm/m/n/10 *
-.\OT1/ptm/m/n/10 ,
-.\OT1/ptm/m/n/10 I
-.\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 a
-.\OT1/ptm/m/n/10 l
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 L
 .\OT1/ptm/m/n/10 i
-.\OT1/ptm/m/n/10 c
-.\OT1/ptm/m/n/10 F
-.\OT1/ptm/m/n/10 e
-.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 h
 .\OT1/ptm/m/n/10 t
-.\OT1/ptm/m/n/10 u
-.\OT1/ptm/m/n/10 r
-.\OT1/ptm/m/n/10 e
-.\OT1/ptm/m/n/10 s
-.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 ,
 .\OT1/ptm/m/n/10 F
 .\kern-0.1499
 .\OT1/ptm/m/n/10 a
@@ -1467,17 +1487,231 @@ Overfull \hbox (1324.83131pt too wide) in paragraph at lines 30--55
 .\OT1/ptm/m/n/10 a
 .\OT1/ptm/m/n/10 n
 .\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 .
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 9
+.\OT1/ptm/m/n/10 3
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 4
 .\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\glue(\rightskip) 0.0
+Overfull \hbox (101.48662pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 Reg-u-lar,FontFace=slitFont=* Reg-u-lar,FakeSlant=0.24932800284,FontFace=mn* Medium,FontFace=mitFont=*
+\hbox(6.81989+2.16492)x345.0, glue set - 1.0
+.\OT1/ptm/m/n/10 R
+.\OT1/ptm/m/n/10 e
+.\kern-0.1499
+.\OT1/ptm/m/n/10 g
+.\discretionary
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 u
+.\discretionary
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 r
+.\kern-0.39992
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 R
+.\OT1/ptm/m/n/10 e
+.\kern-0.1499
+.\OT1/ptm/m/n/10 g
+.\discretionary
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 u
+.\discretionary
+..\OT1/ptm/m/n/10 -
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 r
+.\kern-0.39992
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 k
+.\kern-0.09999
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 .
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 9
+.\OT1/ptm/m/n/10 3
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 M
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\glue(\rightskip) 0.0
+Overfull \hbox (161.37683pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 Medium,FakeSlant=0.24932800284,FontFace=bn* Bold,FontFace=bitFont=* Bold,FakeSlant=0.24932800284,FontFace=ebn*
+\hbox(6.81989+1.40991)x345.0, glue set - 1.0
+.\OT1/ptm/m/n/10 M
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 k
+.\kern-0.09999
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 .
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 9
+.\OT1/ptm/m/n/10 3
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\glue 2.5 plus 1.49998 minus 0.59998
 .\OT1/ptm/m/n/10 B
 .\OT1/ptm/m/n/10 o
 .\OT1/ptm/m/n/10 l
 .\OT1/ptm/m/n/10 d
-.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
 .\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
 .\OT1/ptm/m/n/10 a
-.\OT1/ptm/m/n/10 l
-.\OT1/ptm/m/n/10 i
 .\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
 .\OT1/ptm/m/n/10 F
 .\kern-0.1499
 .\OT1/ptm/m/n/10 o
@@ -1491,6 +1725,208 @@ Overfull \hbox (1324.83131pt too wide) in paragraph at lines 30--55
 .\OT1/ptm/m/n/10 l
 .\OT1/ptm/m/n/10 d
 .\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 k
+.\kern-0.09999
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 .
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 9
+.\OT1/ptm/m/n/10 3
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\glue(\rightskip) 0.0
+Overfull \hbox (258.94452pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 Black,FontFace=ebitFont=* Black,FakeSlant=0.24932800284,UprightFont=*,ItalicFont=*,ItalicFeatures=FakeSlant=0.24932800284,BoldItalicFont=*
+\hbox(6.81989+2.16492)x345.0, glue set - 1.0
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 k
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 k
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 k
+.\kern-0.09999
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 .
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 9
+.\OT1/ptm/m/n/10 3
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 U
+.\OT1/ptm/m/n/10 p
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 F
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 k
+.\kern-0.09999
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 .
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 9
+.\OT1/ptm/m/n/10 3
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\glue(\rightskip) 0.0
+Overfull \hbox (1121.70464pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 Bold,BoldItalicFeatures=FakeSlant=0.24932800284,][][][][][][][]HelveticaTimes
+\hbox(7.30492+2.22498)x345.0
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 ,
 .\OT1/ptm/m/n/10 B
 .\OT1/ptm/m/n/10 o
 .\OT1/ptm/m/n/10 l
@@ -1521,6 +1957,20 @@ Overfull \hbox (1324.83131pt too wide) in paragraph at lines 30--55
 .\OT1/ptm/m/n/10 a
 .\OT1/ptm/m/n/10 n
 .\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 .
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 4
+.\OT1/ptm/m/n/10 9
+.\OT1/ptm/m/n/10 3
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 0
+.\OT1/ptm/m/n/10 2
+.\OT1/ptm/m/n/10 8
+.\OT1/ptm/m/n/10 4
 .\OT1/ptm/m/n/10 ,
 .\OT1/ptm/m/n/10 ]
 .\hbox(7.30492+2.22498)x169.92775

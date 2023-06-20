@@ -1,0 +1,732 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: \rmfamily 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x165.2666, direction TLT
+.\TU/FrankRuhlLibre(0)/m/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 r
+.\kern-0.61 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 .
+.\glue(\spaceskip) 3.18666 plus 3.58502 minus 0.26555
+.\TU/FrankRuhlLibre(0)/m/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 o
+.\TU/FrankRuhlLibre(0)/m/n/10 c
+.\TU/FrankRuhlLibre(0)/m/n/10 k
+.\TU/FrankRuhlLibre(0)/m/n/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/n/10 T
+.\TU/FrankRuhlLibre(0)/m/n/10 V
+.\glue(\spaceskip) 2.39 plus 1.1938 minus 0.79745
+.\TU/FrankRuhlLibre(0)/m/n/10 q
+.\TU/FrankRuhlLibre(0)/m/n/10 u
+.\TU/FrankRuhlLibre(0)/m/n/10 i
+.\TU/FrankRuhlLibre(0)/m/n/10 z
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 P
+.\TU/FrankRuhlLibre(0)/m/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 D
+.\TU/FrankRuhlLibre(0)/m/n/10 .
+.\TU/FrankRuhlLibre(0)/m/n/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/m/n/10 a
+.\TU/FrankRuhlLibre(0)/m/n/10 g
+.\TU/FrankRuhlLibre(0)/m/n/10 s
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 f
+.\TU/FrankRuhlLibre(0)/m/n/10 e
+.\TU/FrankRuhlLibre(0)/m/n/10 w
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/n/10 l
+.\TU/FrankRuhlLibre(0)/m/n/10 y
+.\TU/FrankRuhlLibre(0)/m/n/10 n
+.\TU/FrankRuhlLibre(0)/m/n/10 x
+.\TU/FrankRuhlLibre(0)/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \rmfamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.04+2.12)x173.06998, direction TLT
+.\TU/FrankRuhlLibre(0)/b/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+.\glue(\spaceskip) 2.96 plus 3.33 minus 0.24666
+.\TU/FrankRuhlLibre(0)/b/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 o
+.\TU/FrankRuhlLibre(0)/b/n/10 c
+.\TU/FrankRuhlLibre(0)/b/n/10 k
+.\TU/FrankRuhlLibre(0)/b/n/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/n/10 T
+.\TU/FrankRuhlLibre(0)/b/n/10 V
+.\glue(\spaceskip) 2.22 plus 1.10889 minus 0.74074
+.\TU/FrankRuhlLibre(0)/b/n/10 q
+.\TU/FrankRuhlLibre(0)/b/n/10 u
+.\TU/FrankRuhlLibre(0)/b/n/10 i
+.\TU/FrankRuhlLibre(0)/b/n/10 z
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 P
+.\TU/FrankRuhlLibre(0)/b/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 D
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+.\TU/FrankRuhlLibre(0)/b/n/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 a
+.\TU/FrankRuhlLibre(0)/b/n/10 g
+.\TU/FrankRuhlLibre(0)/b/n/10 s
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 f
+.\TU/FrankRuhlLibre(0)/b/n/10 e
+.\TU/FrankRuhlLibre(0)/b/n/10 w
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 l
+.\TU/FrankRuhlLibre(0)/b/n/10 y
+.\TU/FrankRuhlLibre(0)/b/n/10 n
+.\TU/FrankRuhlLibre(0)/b/n/10 x
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \rmfamily \itshape 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x165.2666, direction TLT
+.\TU/FrankRuhlLibre(0)/m/it/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 r
+.\kern-0.61 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 .
+.\glue(\spaceskip) 3.18666 plus 3.58502 minus 0.26555
+.\TU/FrankRuhlLibre(0)/m/it/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 o
+.\TU/FrankRuhlLibre(0)/m/it/10 c
+.\TU/FrankRuhlLibre(0)/m/it/10 k
+.\TU/FrankRuhlLibre(0)/m/it/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/it/10 T
+.\TU/FrankRuhlLibre(0)/m/it/10 V
+.\glue(\spaceskip) 2.39 plus 1.1938 minus 0.79745
+.\TU/FrankRuhlLibre(0)/m/it/10 q
+.\TU/FrankRuhlLibre(0)/m/it/10 u
+.\TU/FrankRuhlLibre(0)/m/it/10 i
+.\TU/FrankRuhlLibre(0)/m/it/10 z
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 P
+.\TU/FrankRuhlLibre(0)/m/it/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 D
+.\TU/FrankRuhlLibre(0)/m/it/10 .
+.\TU/FrankRuhlLibre(0)/m/it/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/m/it/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/m/it/10 a
+.\TU/FrankRuhlLibre(0)/m/it/10 g
+.\TU/FrankRuhlLibre(0)/m/it/10 s
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 f
+.\TU/FrankRuhlLibre(0)/m/it/10 e
+.\TU/FrankRuhlLibre(0)/m/it/10 w
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/m/it/10 l
+.\TU/FrankRuhlLibre(0)/m/it/10 y
+.\TU/FrankRuhlLibre(0)/m/it/10 n
+.\TU/FrankRuhlLibre(0)/m/it/10 x
+.\TU/FrankRuhlLibre(0)/m/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \rmfamily \bfseries \itshape 
+============================================================
+> \box...=
+\hbox(7.04+2.12)x173.06998, direction TLT
+.\TU/FrankRuhlLibre(0)/b/it/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 .
+.\glue(\spaceskip) 2.96 plus 3.33 minus 0.24666
+.\TU/FrankRuhlLibre(0)/b/it/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 o
+.\TU/FrankRuhlLibre(0)/b/it/10 c
+.\TU/FrankRuhlLibre(0)/b/it/10 k
+.\TU/FrankRuhlLibre(0)/b/it/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/it/10 T
+.\TU/FrankRuhlLibre(0)/b/it/10 V
+.\glue(\spaceskip) 2.22 plus 1.10889 minus 0.74074
+.\TU/FrankRuhlLibre(0)/b/it/10 q
+.\TU/FrankRuhlLibre(0)/b/it/10 u
+.\TU/FrankRuhlLibre(0)/b/it/10 i
+.\TU/FrankRuhlLibre(0)/b/it/10 z
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/it/10 P
+.\TU/FrankRuhlLibre(0)/b/it/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 D
+.\TU/FrankRuhlLibre(0)/b/it/10 .
+.\TU/FrankRuhlLibre(0)/b/it/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/it/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 a
+.\TU/FrankRuhlLibre(0)/b/it/10 g
+.\TU/FrankRuhlLibre(0)/b/it/10 s
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/it/10 f
+.\TU/FrankRuhlLibre(0)/b/it/10 e
+.\TU/FrankRuhlLibre(0)/b/it/10 w
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/it/10 l
+.\TU/FrankRuhlLibre(0)/b/it/10 y
+.\TU/FrankRuhlLibre(0)/b/it/10 n
+.\TU/FrankRuhlLibre(0)/b/it/10 x
+.\TU/FrankRuhlLibre(0)/b/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily \fontseries {l}\selectfont 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x161.5566, direction TLT
+.\TU/FrankRuhlLibre(0)/l/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/l/n/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/l/n/10 .
+.\glue(\spaceskip) 3.22667 plus 3.63002 minus 0.26889
+.\TU/FrankRuhlLibre(0)/l/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/l/n/10 o
+.\TU/FrankRuhlLibre(0)/l/n/10 c
+.\TU/FrankRuhlLibre(0)/l/n/10 k
+.\TU/FrankRuhlLibre(0)/l/n/10 ,
+.\glue(\spaceskip) 2.42 plus 1.5125 minus 0.64532
+.\TU/FrankRuhlLibre(0)/l/n/10 T
+.\TU/FrankRuhlLibre(0)/l/n/10 V
+.\glue(\spaceskip) 2.42 plus 1.20879 minus 0.80746
+.\TU/FrankRuhlLibre(0)/l/n/10 q
+.\TU/FrankRuhlLibre(0)/l/n/10 u
+.\TU/FrankRuhlLibre(0)/l/n/10 i
+.\TU/FrankRuhlLibre(0)/l/n/10 z
+.\glue(\spaceskip) 2.42 plus 1.21 minus 0.80667
+.\TU/FrankRuhlLibre(0)/l/n/10 P
+.\TU/FrankRuhlLibre(0)/l/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/l/n/10 D
+.\TU/FrankRuhlLibre(0)/l/n/10 .
+.\TU/FrankRuhlLibre(0)/l/n/10 ,
+.\glue(\spaceskip) 2.42 plus 1.5125 minus 0.64532
+.\TU/FrankRuhlLibre(0)/l/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/l/n/10 a
+.\TU/FrankRuhlLibre(0)/l/n/10 g
+.\TU/FrankRuhlLibre(0)/l/n/10 s
+.\glue(\spaceskip) 2.42 plus 1.21 minus 0.80667
+.\TU/FrankRuhlLibre(0)/l/n/10 f
+.\TU/FrankRuhlLibre(0)/l/n/10 e
+.\TU/FrankRuhlLibre(0)/l/n/10 w
+.\glue(\spaceskip) 2.42 plus 1.21 minus 0.80667
+.\TU/FrankRuhlLibre(0)/l/n/10 l
+.\TU/FrankRuhlLibre(0)/l/n/10 y
+.\TU/FrankRuhlLibre(0)/l/n/10 n
+.\TU/FrankRuhlLibre(0)/l/n/10 x
+.\TU/FrankRuhlLibre(0)/l/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \rmfamily \fontseries {l}\selectfont \itshape 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x161.5566, direction TLT
+.\TU/FrankRuhlLibre(0)/l/it/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/l/it/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/l/it/10 .
+.\glue(\spaceskip) 3.22667 plus 3.63002 minus 0.26889
+.\TU/FrankRuhlLibre(0)/l/it/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/l/it/10 o
+.\TU/FrankRuhlLibre(0)/l/it/10 c
+.\TU/FrankRuhlLibre(0)/l/it/10 k
+.\TU/FrankRuhlLibre(0)/l/it/10 ,
+.\glue(\spaceskip) 2.42 plus 1.5125 minus 0.64532
+.\TU/FrankRuhlLibre(0)/l/it/10 T
+.\TU/FrankRuhlLibre(0)/l/it/10 V
+.\glue(\spaceskip) 2.42 plus 1.20879 minus 0.80746
+.\TU/FrankRuhlLibre(0)/l/it/10 q
+.\TU/FrankRuhlLibre(0)/l/it/10 u
+.\TU/FrankRuhlLibre(0)/l/it/10 i
+.\TU/FrankRuhlLibre(0)/l/it/10 z
+.\glue(\spaceskip) 2.42 plus 1.21 minus 0.80667
+.\TU/FrankRuhlLibre(0)/l/it/10 P
+.\TU/FrankRuhlLibre(0)/l/it/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/l/it/10 D
+.\TU/FrankRuhlLibre(0)/l/it/10 .
+.\TU/FrankRuhlLibre(0)/l/it/10 ,
+.\glue(\spaceskip) 2.42 plus 1.5125 minus 0.64532
+.\TU/FrankRuhlLibre(0)/l/it/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/l/it/10 a
+.\TU/FrankRuhlLibre(0)/l/it/10 g
+.\TU/FrankRuhlLibre(0)/l/it/10 s
+.\glue(\spaceskip) 2.42 plus 1.21 minus 0.80667
+.\TU/FrankRuhlLibre(0)/l/it/10 f
+.\TU/FrankRuhlLibre(0)/l/it/10 e
+.\TU/FrankRuhlLibre(0)/l/it/10 w
+.\glue(\spaceskip) 2.42 plus 1.21 minus 0.80667
+.\TU/FrankRuhlLibre(0)/l/it/10 l
+.\TU/FrankRuhlLibre(0)/l/it/10 y
+.\TU/FrankRuhlLibre(0)/l/it/10 n
+.\TU/FrankRuhlLibre(0)/l/it/10 x
+.\TU/FrankRuhlLibre(0)/l/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 7: \rmfamily \fontseries {sl}\selectfont 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x165.2666, direction TLT
+.\TU/FrankRuhlLibre(0)/sl/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 r
+.\kern-0.61 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 .
+.\glue(\spaceskip) 3.18666 plus 3.58502 minus 0.26555
+.\TU/FrankRuhlLibre(0)/sl/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 o
+.\TU/FrankRuhlLibre(0)/sl/n/10 c
+.\TU/FrankRuhlLibre(0)/sl/n/10 k
+.\TU/FrankRuhlLibre(0)/sl/n/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/sl/n/10 T
+.\TU/FrankRuhlLibre(0)/sl/n/10 V
+.\glue(\spaceskip) 2.39 plus 1.1938 minus 0.79745
+.\TU/FrankRuhlLibre(0)/sl/n/10 q
+.\TU/FrankRuhlLibre(0)/sl/n/10 u
+.\TU/FrankRuhlLibre(0)/sl/n/10 i
+.\TU/FrankRuhlLibre(0)/sl/n/10 z
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/n/10 P
+.\TU/FrankRuhlLibre(0)/sl/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 D
+.\TU/FrankRuhlLibre(0)/sl/n/10 .
+.\TU/FrankRuhlLibre(0)/sl/n/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/sl/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 a
+.\TU/FrankRuhlLibre(0)/sl/n/10 g
+.\TU/FrankRuhlLibre(0)/sl/n/10 s
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/n/10 f
+.\TU/FrankRuhlLibre(0)/sl/n/10 e
+.\TU/FrankRuhlLibre(0)/sl/n/10 w
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/n/10 l
+.\TU/FrankRuhlLibre(0)/sl/n/10 y
+.\TU/FrankRuhlLibre(0)/sl/n/10 n
+.\TU/FrankRuhlLibre(0)/sl/n/10 x
+.\TU/FrankRuhlLibre(0)/sl/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 8: \rmfamily \fontseries {sl}\selectfont \itshape 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x165.2666, direction TLT
+.\TU/FrankRuhlLibre(0)/sl/it/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 r
+.\kern-0.61 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 .
+.\glue(\spaceskip) 3.18666 plus 3.58502 minus 0.26555
+.\TU/FrankRuhlLibre(0)/sl/it/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 o
+.\TU/FrankRuhlLibre(0)/sl/it/10 c
+.\TU/FrankRuhlLibre(0)/sl/it/10 k
+.\TU/FrankRuhlLibre(0)/sl/it/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/sl/it/10 T
+.\TU/FrankRuhlLibre(0)/sl/it/10 V
+.\glue(\spaceskip) 2.39 plus 1.1938 minus 0.79745
+.\TU/FrankRuhlLibre(0)/sl/it/10 q
+.\TU/FrankRuhlLibre(0)/sl/it/10 u
+.\TU/FrankRuhlLibre(0)/sl/it/10 i
+.\TU/FrankRuhlLibre(0)/sl/it/10 z
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/it/10 P
+.\TU/FrankRuhlLibre(0)/sl/it/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 D
+.\TU/FrankRuhlLibre(0)/sl/it/10 .
+.\TU/FrankRuhlLibre(0)/sl/it/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/sl/it/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 a
+.\TU/FrankRuhlLibre(0)/sl/it/10 g
+.\TU/FrankRuhlLibre(0)/sl/it/10 s
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/it/10 f
+.\TU/FrankRuhlLibre(0)/sl/it/10 e
+.\TU/FrankRuhlLibre(0)/sl/it/10 w
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/it/10 l
+.\TU/FrankRuhlLibre(0)/sl/it/10 y
+.\TU/FrankRuhlLibre(0)/sl/it/10 n
+.\TU/FrankRuhlLibre(0)/sl/it/10 x
+.\TU/FrankRuhlLibre(0)/sl/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 9: \rmfamily \fontseries {m}\selectfont 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x165.2666, direction TLT
+.\TU/FrankRuhlLibre(0)/sl/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 r
+.\kern-0.61 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 .
+.\glue(\spaceskip) 3.18666 plus 3.58502 minus 0.26555
+.\TU/FrankRuhlLibre(0)/sl/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 o
+.\TU/FrankRuhlLibre(0)/sl/n/10 c
+.\TU/FrankRuhlLibre(0)/sl/n/10 k
+.\TU/FrankRuhlLibre(0)/sl/n/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/sl/n/10 T
+.\TU/FrankRuhlLibre(0)/sl/n/10 V
+.\glue(\spaceskip) 2.39 plus 1.1938 minus 0.79745
+.\TU/FrankRuhlLibre(0)/sl/n/10 q
+.\TU/FrankRuhlLibre(0)/sl/n/10 u
+.\TU/FrankRuhlLibre(0)/sl/n/10 i
+.\TU/FrankRuhlLibre(0)/sl/n/10 z
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/n/10 P
+.\TU/FrankRuhlLibre(0)/sl/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 D
+.\TU/FrankRuhlLibre(0)/sl/n/10 .
+.\TU/FrankRuhlLibre(0)/sl/n/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/sl/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/sl/n/10 a
+.\TU/FrankRuhlLibre(0)/sl/n/10 g
+.\TU/FrankRuhlLibre(0)/sl/n/10 s
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/n/10 f
+.\TU/FrankRuhlLibre(0)/sl/n/10 e
+.\TU/FrankRuhlLibre(0)/sl/n/10 w
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/n/10 l
+.\TU/FrankRuhlLibre(0)/sl/n/10 y
+.\TU/FrankRuhlLibre(0)/sl/n/10 n
+.\TU/FrankRuhlLibre(0)/sl/n/10 x
+.\TU/FrankRuhlLibre(0)/sl/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 10: \rmfamily \fontseries {m}\selectfont \itshape 
+============================================================
+> \box...=
+\hbox(7.05+2.12)x165.2666, direction TLT
+.\TU/FrankRuhlLibre(0)/sl/it/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 r
+.\kern-0.61 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 .
+.\glue(\spaceskip) 3.18666 plus 3.58502 minus 0.26555
+.\TU/FrankRuhlLibre(0)/sl/it/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 o
+.\TU/FrankRuhlLibre(0)/sl/it/10 c
+.\TU/FrankRuhlLibre(0)/sl/it/10 k
+.\TU/FrankRuhlLibre(0)/sl/it/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/sl/it/10 T
+.\TU/FrankRuhlLibre(0)/sl/it/10 V
+.\glue(\spaceskip) 2.39 plus 1.1938 minus 0.79745
+.\TU/FrankRuhlLibre(0)/sl/it/10 q
+.\TU/FrankRuhlLibre(0)/sl/it/10 u
+.\TU/FrankRuhlLibre(0)/sl/it/10 i
+.\TU/FrankRuhlLibre(0)/sl/it/10 z
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/it/10 P
+.\TU/FrankRuhlLibre(0)/sl/it/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 D
+.\TU/FrankRuhlLibre(0)/sl/it/10 .
+.\TU/FrankRuhlLibre(0)/sl/it/10 ,
+.\glue(\spaceskip) 2.39 plus 1.49376 minus 0.63733
+.\TU/FrankRuhlLibre(0)/sl/it/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/sl/it/10 a
+.\TU/FrankRuhlLibre(0)/sl/it/10 g
+.\TU/FrankRuhlLibre(0)/sl/it/10 s
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/it/10 f
+.\TU/FrankRuhlLibre(0)/sl/it/10 e
+.\TU/FrankRuhlLibre(0)/sl/it/10 w
+.\glue(\spaceskip) 2.39 plus 1.195 minus 0.79666
+.\TU/FrankRuhlLibre(0)/sl/it/10 l
+.\TU/FrankRuhlLibre(0)/sl/it/10 y
+.\TU/FrankRuhlLibre(0)/sl/it/10 n
+.\TU/FrankRuhlLibre(0)/sl/it/10 x
+.\TU/FrankRuhlLibre(0)/sl/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 11: \rmfamily \fontseries {b}\selectfont 
+============================================================
+> \box...=
+\hbox(7.04+2.12)x173.06998, direction TLT
+.\TU/FrankRuhlLibre(0)/b/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+.\glue(\spaceskip) 2.96 plus 3.33 minus 0.24666
+.\TU/FrankRuhlLibre(0)/b/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 o
+.\TU/FrankRuhlLibre(0)/b/n/10 c
+.\TU/FrankRuhlLibre(0)/b/n/10 k
+.\TU/FrankRuhlLibre(0)/b/n/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/n/10 T
+.\TU/FrankRuhlLibre(0)/b/n/10 V
+.\glue(\spaceskip) 2.22 plus 1.10889 minus 0.74074
+.\TU/FrankRuhlLibre(0)/b/n/10 q
+.\TU/FrankRuhlLibre(0)/b/n/10 u
+.\TU/FrankRuhlLibre(0)/b/n/10 i
+.\TU/FrankRuhlLibre(0)/b/n/10 z
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 P
+.\TU/FrankRuhlLibre(0)/b/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 D
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+.\TU/FrankRuhlLibre(0)/b/n/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/n/10 a
+.\TU/FrankRuhlLibre(0)/b/n/10 g
+.\TU/FrankRuhlLibre(0)/b/n/10 s
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 f
+.\TU/FrankRuhlLibre(0)/b/n/10 e
+.\TU/FrankRuhlLibre(0)/b/n/10 w
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/n/10 l
+.\TU/FrankRuhlLibre(0)/b/n/10 y
+.\TU/FrankRuhlLibre(0)/b/n/10 n
+.\TU/FrankRuhlLibre(0)/b/n/10 x
+.\TU/FrankRuhlLibre(0)/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 12: \rmfamily \fontseries {b}\selectfont \itshape 
+============================================================
+> \box...=
+\hbox(7.04+2.12)x173.06998, direction TLT
+.\TU/FrankRuhlLibre(0)/b/it/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 .
+.\glue(\spaceskip) 2.96 plus 3.33 minus 0.24666
+.\TU/FrankRuhlLibre(0)/b/it/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 o
+.\TU/FrankRuhlLibre(0)/b/it/10 c
+.\TU/FrankRuhlLibre(0)/b/it/10 k
+.\TU/FrankRuhlLibre(0)/b/it/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/it/10 T
+.\TU/FrankRuhlLibre(0)/b/it/10 V
+.\glue(\spaceskip) 2.22 plus 1.10889 minus 0.74074
+.\TU/FrankRuhlLibre(0)/b/it/10 q
+.\TU/FrankRuhlLibre(0)/b/it/10 u
+.\TU/FrankRuhlLibre(0)/b/it/10 i
+.\TU/FrankRuhlLibre(0)/b/it/10 z
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/it/10 P
+.\TU/FrankRuhlLibre(0)/b/it/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 D
+.\TU/FrankRuhlLibre(0)/b/it/10 .
+.\TU/FrankRuhlLibre(0)/b/it/10 ,
+.\glue(\spaceskip) 2.22 plus 1.3875 minus 0.592
+.\TU/FrankRuhlLibre(0)/b/it/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/b/it/10 a
+.\TU/FrankRuhlLibre(0)/b/it/10 g
+.\TU/FrankRuhlLibre(0)/b/it/10 s
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/it/10 f
+.\TU/FrankRuhlLibre(0)/b/it/10 e
+.\TU/FrankRuhlLibre(0)/b/it/10 w
+.\glue(\spaceskip) 2.22 plus 1.11 minus 0.74
+.\TU/FrankRuhlLibre(0)/b/it/10 l
+.\TU/FrankRuhlLibre(0)/b/it/10 y
+.\TU/FrankRuhlLibre(0)/b/it/10 n
+.\TU/FrankRuhlLibre(0)/b/it/10 x
+.\TU/FrankRuhlLibre(0)/b/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 13: \rmfamily \fontseries {eb}\selectfont 
+============================================================
+> \box...=
+\hbox(7.04+2.12)x174.16331, direction TLT
+.\TU/FrankRuhlLibre(0)/eb/n/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/eb/n/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/eb/n/10 .
+.\glue(\spaceskip) 2.85333 plus 3.21002 minus 0.23778
+.\TU/FrankRuhlLibre(0)/eb/n/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/eb/n/10 o
+.\TU/FrankRuhlLibre(0)/eb/n/10 c
+.\TU/FrankRuhlLibre(0)/eb/n/10 k
+.\TU/FrankRuhlLibre(0)/eb/n/10 ,
+.\glue(\spaceskip) 2.14 plus 1.33751 minus 0.57066
+.\TU/FrankRuhlLibre(0)/eb/n/10 T
+.\TU/FrankRuhlLibre(0)/eb/n/10 V
+.\glue(\spaceskip) 2.14 plus 1.06892 minus 0.71404
+.\TU/FrankRuhlLibre(0)/eb/n/10 q
+.\TU/FrankRuhlLibre(0)/eb/n/10 u
+.\TU/FrankRuhlLibre(0)/eb/n/10 i
+.\TU/FrankRuhlLibre(0)/eb/n/10 z
+.\glue(\spaceskip) 2.14 plus 1.07 minus 0.71333
+.\TU/FrankRuhlLibre(0)/eb/n/10 P
+.\TU/FrankRuhlLibre(0)/eb/n/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/eb/n/10 D
+.\TU/FrankRuhlLibre(0)/eb/n/10 .
+.\TU/FrankRuhlLibre(0)/eb/n/10 ,
+.\glue(\spaceskip) 2.14 plus 1.33751 minus 0.57066
+.\TU/FrankRuhlLibre(0)/eb/n/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/eb/n/10 a
+.\TU/FrankRuhlLibre(0)/eb/n/10 g
+.\TU/FrankRuhlLibre(0)/eb/n/10 s
+.\glue(\spaceskip) 2.14 plus 1.07 minus 0.71333
+.\TU/FrankRuhlLibre(0)/eb/n/10 f
+.\TU/FrankRuhlLibre(0)/eb/n/10 e
+.\TU/FrankRuhlLibre(0)/eb/n/10 w
+.\glue(\spaceskip) 2.14 plus 1.07 minus 0.71333
+.\TU/FrankRuhlLibre(0)/eb/n/10 l
+.\TU/FrankRuhlLibre(0)/eb/n/10 y
+.\TU/FrankRuhlLibre(0)/eb/n/10 n
+.\TU/FrankRuhlLibre(0)/eb/n/10 x
+.\TU/FrankRuhlLibre(0)/eb/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 14: \rmfamily \fontseries {eb}\selectfont \itshape 
+============================================================
+> \box...=
+\hbox(7.04+2.12)x174.16331, direction TLT
+.\TU/FrankRuhlLibre(0)/eb/it/10 M
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/eb/it/10 r
+.\kern-0.6 (font)
+.\TU/FrankRuhlLibre(0)/eb/it/10 .
+.\glue(\spaceskip) 2.85333 plus 3.21002 minus 0.23778
+.\TU/FrankRuhlLibre(0)/eb/it/10 J
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/eb/it/10 o
+.\TU/FrankRuhlLibre(0)/eb/it/10 c
+.\TU/FrankRuhlLibre(0)/eb/it/10 k
+.\TU/FrankRuhlLibre(0)/eb/it/10 ,
+.\glue(\spaceskip) 2.14 plus 1.33751 minus 0.57066
+.\TU/FrankRuhlLibre(0)/eb/it/10 T
+.\TU/FrankRuhlLibre(0)/eb/it/10 V
+.\glue(\spaceskip) 2.14 plus 1.06892 minus 0.71404
+.\TU/FrankRuhlLibre(0)/eb/it/10 q
+.\TU/FrankRuhlLibre(0)/eb/it/10 u
+.\TU/FrankRuhlLibre(0)/eb/it/10 i
+.\TU/FrankRuhlLibre(0)/eb/it/10 z
+.\glue(\spaceskip) 2.14 plus 1.07 minus 0.71333
+.\TU/FrankRuhlLibre(0)/eb/it/10 P
+.\TU/FrankRuhlLibre(0)/eb/it/10 h
+.\kern-0.3 (font)
+.\TU/FrankRuhlLibre(0)/eb/it/10 D
+.\TU/FrankRuhlLibre(0)/eb/it/10 .
+.\TU/FrankRuhlLibre(0)/eb/it/10 ,
+.\glue(\spaceskip) 2.14 plus 1.33751 minus 0.57066
+.\TU/FrankRuhlLibre(0)/eb/it/10 b
+.\kern-0.1 (font)
+.\TU/FrankRuhlLibre(0)/eb/it/10 a
+.\TU/FrankRuhlLibre(0)/eb/it/10 g
+.\TU/FrankRuhlLibre(0)/eb/it/10 s
+.\glue(\spaceskip) 2.14 plus 1.07 minus 0.71333
+.\TU/FrankRuhlLibre(0)/eb/it/10 f
+.\TU/FrankRuhlLibre(0)/eb/it/10 e
+.\TU/FrankRuhlLibre(0)/eb/it/10 w
+.\glue(\spaceskip) 2.14 plus 1.07 minus 0.71333
+.\TU/FrankRuhlLibre(0)/eb/it/10 l
+.\TU/FrankRuhlLibre(0)/eb/it/10 y
+.\TU/FrankRuhlLibre(0)/eb/it/10 n
+.\TU/FrankRuhlLibre(0)/eb/it/10 x
+.\TU/FrankRuhlLibre(0)/eb/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-013.aux)
