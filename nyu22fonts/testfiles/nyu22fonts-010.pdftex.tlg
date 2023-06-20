@@ -56,8 +56,6 @@ l. ...  }
 ============================================================
 TEST 2: \sffamily \bfseries 
 ============================================================
-LaTeX Font Warning: Font shape `OT1/phv/sb/n' undefined
-(Font)              using `OT1/phv/b/n' instead on input line ....
 > \box...=
 \hbox(7.29498+2.16992)x180.22762
 .\OT1/phv/b/n/10 M
@@ -164,174 +162,8 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 l. ...  }
 ============================================================
 ============================================================
-TEST 4: \sffamily \fontseries {l}\selectfont 
+TEST 4: \sffamily \bfseries \itshape 
 ============================================================
-LaTeX Font Warning: Font shape `OT1/phv/l/n' undefined
-(Font)              using `OT1/phv/m/n' instead on input line ....
-> \box...=
-\hbox(7.30492+2.22498)x169.92775
-.\OT1/phv/m/n/10 M
-.\OT1/phv/m/n/10 r
-.\kern-0.50002
-.\OT1/phv/m/n/10 .
-.\glue 3.4398 plus 4.97969 minus 0.21997
-.\OT1/phv/m/n/10 J
-.\OT1/phv/m/n/10 o
-.\OT1/phv/m/n/10 c
-.\kern-0.19995
-.\OT1/phv/m/n/10 k
-.\OT1/phv/m/n/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/m/n/10 T
-.\OT1/phv/m/n/10 V
-.\glue 2.77989 plus 1.65823 minus 0.66057
-.\OT1/phv/m/n/10 q
-.\OT1/phv/m/n/10 u
-.\OT1/phv/m/n/10 i
-.\OT1/phv/m/n/10 z
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/n/10 P
-.\OT1/phv/m/n/10 h
-.\OT1/phv/m/n/10 D
-.\kern-0.69995
-.\OT1/phv/m/n/10 .
-.\OT1/phv/m/n/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/m/n/10 b
-.\OT1/phv/m/n/10 a
-.\OT1/phv/m/n/10 g
-.\OT1/phv/m/n/10 s
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/n/10 f
-.\kern-0.29994
-.\OT1/phv/m/n/10 e
-.\kern-0.19995
-.\OT1/phv/m/n/10 w
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/n/10 l
-.\OT1/phv/m/n/10 y
-.\OT1/phv/m/n/10 n
-.\OT1/phv/m/n/10 x
-.\OT1/phv/m/n/10 .
-! OK.
-<argument> \l_tmpa_box 
-l. ...  }
-============================================================
-============================================================
-TEST 5: \sffamily \fontseries {l}\selectfont \itshape 
-============================================================
-LaTeX Font Warning: Font shape `OT1/phv/l/n' undefined
-(Font)              using `OT1/phv/m/n' instead on input line ....
-> \box...=
-\hbox(7.30492+2.22498)x169.92775
-.\OT1/phv/m/sl/10 M
-.\OT1/phv/m/sl/10 r
-.\kern-0.50002
-.\OT1/phv/m/sl/10 .
-.\glue 3.4398 plus 4.97969 minus 0.21997
-.\OT1/phv/m/sl/10 J
-.\OT1/phv/m/sl/10 o
-.\OT1/phv/m/sl/10 c
-.\kern-0.19995
-.\OT1/phv/m/sl/10 k
-.\OT1/phv/m/sl/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/m/sl/10 T
-.\OT1/phv/m/sl/10 V
-.\glue 2.77989 plus 1.65823 minus 0.66057
-.\OT1/phv/m/sl/10 q
-.\OT1/phv/m/sl/10 u
-.\OT1/phv/m/sl/10 i
-.\OT1/phv/m/sl/10 z
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/sl/10 P
-.\OT1/phv/m/sl/10 h
-.\OT1/phv/m/sl/10 D
-.\kern-0.69995
-.\OT1/phv/m/sl/10 .
-.\OT1/phv/m/sl/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/m/sl/10 b
-.\OT1/phv/m/sl/10 a
-.\OT1/phv/m/sl/10 g
-.\OT1/phv/m/sl/10 s
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/sl/10 f
-.\kern-0.29994
-.\OT1/phv/m/sl/10 e
-.\kern-0.19995
-.\OT1/phv/m/sl/10 w
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/sl/10 l
-.\OT1/phv/m/sl/10 y
-.\OT1/phv/m/sl/10 n
-.\OT1/phv/m/sl/10 x
-.\OT1/phv/m/sl/10 .
-! OK.
-<argument> \l_tmpa_box 
-l. ...  }
-============================================================
-============================================================
-TEST 6: \sffamily \fontseries {sb}\selectfont 
-============================================================
-LaTeX Font Warning: Font shape `OT1/phv/sb/n' undefined
-(Font)              using `OT1/phv/b/n' instead on input line ....
-> \box...=
-\hbox(7.29498+2.16992)x180.22762
-.\OT1/phv/b/n/10 M
-.\OT1/phv/b/n/10 r
-.\kern-0.59999
-.\OT1/phv/b/n/10 .
-.\glue 3.4398 plus 4.97969 minus 0.21997
-.\OT1/phv/b/n/10 J
-.\OT1/phv/b/n/10 o
-.\OT1/phv/b/n/10 c
-.\kern-0.19995
-.\OT1/phv/b/n/10 k
-.\OT1/phv/b/n/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/b/n/10 T
-.\OT1/phv/b/n/10 V
-.\glue 2.77989 plus 1.65823 minus 0.66057
-.\OT1/phv/b/n/10 q
-.\OT1/phv/b/n/10 u
-.\OT1/phv/b/n/10 i
-.\OT1/phv/b/n/10 z
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/n/10 P
-.\OT1/phv/b/n/10 h
-.\OT1/phv/b/n/10 D
-.\kern-0.29994
-.\OT1/phv/b/n/10 .
-.\OT1/phv/b/n/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/b/n/10 b
-.\OT1/phv/b/n/10 a
-.\kern-0.09999
-.\OT1/phv/b/n/10 g
-.\OT1/phv/b/n/10 s
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/n/10 f
-.\kern-0.09999
-.\OT1/phv/b/n/10 e
-.\kern-0.1499
-.\OT1/phv/b/n/10 w
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/n/10 l
-.\kern-0.1499
-.\OT1/phv/b/n/10 y
-.\OT1/phv/b/n/10 n
-.\OT1/phv/b/n/10 x
-.\OT1/phv/b/n/10 .
-! OK.
-<argument> \l_tmpa_box 
-l. ...  }
-============================================================
-============================================================
-TEST 7: \sffamily \fontseries {sb}\selectfont \itshape 
-============================================================
-LaTeX Font Warning: Font shape `OT1/phv/sb/n' undefined
-(Font)              using `OT1/phv/b/n' instead on input line ....
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line ....
 > \box...=
@@ -386,7 +218,227 @@ LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 l. ...  }
 ============================================================
 ============================================================
-TEST 8: \sffamily \fontseries {b}\selectfont 
+TEST 5: \sffamily \fontseries {l}\selectfont 
+============================================================
+LaTeX Font Warning: Font shape `OT1/phv/l/n' undefined
+(Font)              using `OT1/phv/m/n' instead on input line ....
+> \box...=
+\hbox(7.30492+2.22498)x169.92775
+.\OT1/phv/m/n/10 M
+.\OT1/phv/m/n/10 r
+.\kern-0.50002
+.\OT1/phv/m/n/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/m/n/10 J
+.\OT1/phv/m/n/10 o
+.\OT1/phv/m/n/10 c
+.\kern-0.19995
+.\OT1/phv/m/n/10 k
+.\OT1/phv/m/n/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/m/n/10 T
+.\OT1/phv/m/n/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/m/n/10 q
+.\OT1/phv/m/n/10 u
+.\OT1/phv/m/n/10 i
+.\OT1/phv/m/n/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/n/10 P
+.\OT1/phv/m/n/10 h
+.\OT1/phv/m/n/10 D
+.\kern-0.69995
+.\OT1/phv/m/n/10 .
+.\OT1/phv/m/n/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/m/n/10 b
+.\OT1/phv/m/n/10 a
+.\OT1/phv/m/n/10 g
+.\OT1/phv/m/n/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/n/10 f
+.\kern-0.29994
+.\OT1/phv/m/n/10 e
+.\kern-0.19995
+.\OT1/phv/m/n/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/n/10 l
+.\OT1/phv/m/n/10 y
+.\OT1/phv/m/n/10 n
+.\OT1/phv/m/n/10 x
+.\OT1/phv/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \sffamily \fontseries {l}\selectfont \itshape 
+============================================================
+LaTeX Font Warning: Font shape `OT1/phv/l/n' undefined
+(Font)              using `OT1/phv/m/n' instead on input line ....
+> \box...=
+\hbox(7.30492+2.22498)x169.92775
+.\OT1/phv/m/sl/10 M
+.\OT1/phv/m/sl/10 r
+.\kern-0.50002
+.\OT1/phv/m/sl/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/m/sl/10 J
+.\OT1/phv/m/sl/10 o
+.\OT1/phv/m/sl/10 c
+.\kern-0.19995
+.\OT1/phv/m/sl/10 k
+.\OT1/phv/m/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/m/sl/10 T
+.\OT1/phv/m/sl/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/m/sl/10 q
+.\OT1/phv/m/sl/10 u
+.\OT1/phv/m/sl/10 i
+.\OT1/phv/m/sl/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/sl/10 P
+.\OT1/phv/m/sl/10 h
+.\OT1/phv/m/sl/10 D
+.\kern-0.69995
+.\OT1/phv/m/sl/10 .
+.\OT1/phv/m/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/m/sl/10 b
+.\OT1/phv/m/sl/10 a
+.\OT1/phv/m/sl/10 g
+.\OT1/phv/m/sl/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/sl/10 f
+.\kern-0.29994
+.\OT1/phv/m/sl/10 e
+.\kern-0.19995
+.\OT1/phv/m/sl/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/m/sl/10 l
+.\OT1/phv/m/sl/10 y
+.\OT1/phv/m/sl/10 n
+.\OT1/phv/m/sl/10 x
+.\OT1/phv/m/sl/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 7: \sffamily \fontseries {sb}\selectfont 
+============================================================
+LaTeX Font Warning: Font shape `OT1/phv/sb/n' undefined
+(Font)              using `OT1/phv/b/n' instead on input line ....
+> \box...=
+\hbox(7.29498+2.16992)x180.22762
+.\OT1/phv/b/n/10 M
+.\OT1/phv/b/n/10 r
+.\kern-0.59999
+.\OT1/phv/b/n/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/b/n/10 J
+.\OT1/phv/b/n/10 o
+.\OT1/phv/b/n/10 c
+.\kern-0.19995
+.\OT1/phv/b/n/10 k
+.\OT1/phv/b/n/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/n/10 T
+.\OT1/phv/b/n/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/b/n/10 q
+.\OT1/phv/b/n/10 u
+.\OT1/phv/b/n/10 i
+.\OT1/phv/b/n/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/n/10 P
+.\OT1/phv/b/n/10 h
+.\OT1/phv/b/n/10 D
+.\kern-0.29994
+.\OT1/phv/b/n/10 .
+.\OT1/phv/b/n/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/n/10 b
+.\OT1/phv/b/n/10 a
+.\kern-0.09999
+.\OT1/phv/b/n/10 g
+.\OT1/phv/b/n/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/n/10 f
+.\kern-0.09999
+.\OT1/phv/b/n/10 e
+.\kern-0.1499
+.\OT1/phv/b/n/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/n/10 l
+.\kern-0.1499
+.\OT1/phv/b/n/10 y
+.\OT1/phv/b/n/10 n
+.\OT1/phv/b/n/10 x
+.\OT1/phv/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 8: \sffamily \fontseries {sb}\selectfont \itshape 
+============================================================
+LaTeX Font Warning: Font shape `OT1/phv/sb/n' undefined
+(Font)              using `OT1/phv/b/n' instead on input line ....
+> \box...=
+\hbox(7.29498+2.16992)x180.22762
+.\OT1/phv/b/sl/10 M
+.\OT1/phv/b/sl/10 r
+.\kern-0.59999
+.\OT1/phv/b/sl/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/b/sl/10 J
+.\OT1/phv/b/sl/10 o
+.\OT1/phv/b/sl/10 c
+.\kern-0.19995
+.\OT1/phv/b/sl/10 k
+.\OT1/phv/b/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/sl/10 T
+.\OT1/phv/b/sl/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/b/sl/10 q
+.\OT1/phv/b/sl/10 u
+.\OT1/phv/b/sl/10 i
+.\OT1/phv/b/sl/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 P
+.\OT1/phv/b/sl/10 h
+.\OT1/phv/b/sl/10 D
+.\kern-0.29994
+.\OT1/phv/b/sl/10 .
+.\OT1/phv/b/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/sl/10 b
+.\OT1/phv/b/sl/10 a
+.\kern-0.09999
+.\OT1/phv/b/sl/10 g
+.\OT1/phv/b/sl/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 f
+.\kern-0.09999
+.\OT1/phv/b/sl/10 e
+.\kern-0.1499
+.\OT1/phv/b/sl/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 l
+.\kern-0.1499
+.\OT1/phv/b/sl/10 y
+.\OT1/phv/b/sl/10 n
+.\OT1/phv/b/sl/10 x
+.\OT1/phv/b/sl/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 9: \sffamily \fontseries {b}\selectfont 
 ============================================================
 > \box...=
 \hbox(7.29498+2.16992)x180.22762
@@ -440,7 +492,7 @@ TEST 8: \sffamily \fontseries {b}\selectfont
 l. ...  }
 ============================================================
 ============================================================
-TEST 9: \sffamily \fontseries {b}\selectfont \itshape 
+TEST 10: \sffamily \fontseries {b}\selectfont \itshape 
 ============================================================
 > \box...=
 \hbox(7.29498+2.16992)x180.22762
@@ -493,8 +545,8 @@ TEST 9: \sffamily \fontseries {b}\selectfont \itshape
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
-Overfull \hbox (64.54266pt too wide) in paragraph at lines 214--37
-[]\OT1/cmr/m/n/10 Gotham[UprightFont=* Book,BoldFont=* Medium,ItalicFont=* Book Italic,FontFace=ln*
+Overfull \hbox (88.23703pt too wide) in paragraph at lines 235--38
+[]\OT1/cmr/m/n/10 Gotham[FontFace=ln* Light,FontFace=lit* Light Italic,FontFace=sbn* Medium,FontFace=sbit*
 \hbox(7.5+2.5)x345.0, glue set - 1.0
 .\hbox(0.0+0.0)x15.0
 .\OT1/cmr/m/n/10 G
@@ -504,77 +556,6 @@ Overfull \hbox (64.54266pt too wide) in paragraph at lines 214--37
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 m
 .\OT1/cmr/m/n/10 [
-.\OT1/cmr/m/n/10 U
-.\OT1/cmr/m/n/10 p
-.\OT1/cmr/m/n/10 r
-.\OT1/cmr/m/n/10 i
-.\OT1/cmr/m/n/10 g
-.\OT1/cmr/m/n/10 h
-.\kern-0.27779
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 F
-.\kern-0.83334
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 n
-.\kern-0.27779
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 =
-.\OT1/cmr/m/n/10 *
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 B
-.\OT1/cmr/m/n/10 o
-.\kern0.27779
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 k
-.\OT1/cmr/m/n/10 ,
-.\OT1/cmr/m/n/10 B
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 d
-.\OT1/cmr/m/n/10 F
-.\kern-0.83334
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 n
-.\kern-0.27779
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 =
-.\OT1/cmr/m/n/10 *
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 M
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 d
-.\OT1/cmr/m/n/10 i
-.\OT1/cmr/m/n/10 u
-.\OT1/cmr/m/n/10 m
-.\OT1/cmr/m/n/10 ,
-.\OT1/cmr/m/n/10 I
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 a
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 i
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 F
-.\kern-0.83334
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 n
-.\kern-0.27779
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 =
-.\OT1/cmr/m/n/10 *
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 B
-.\OT1/cmr/m/n/10 o
-.\kern0.27779
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 k
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 I
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 a
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 i
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 ,
 .\OT1/cmr/m/n/10 F
 .\kern-0.83334
 .\OT1/cmr/m/n/10 o
@@ -590,10 +571,7 @@ Overfull \hbox (64.54266pt too wide) in paragraph at lines 214--37
 .\OT1/cmr/m/n/10 l
 .\OT1/cmr/m/n/10 n
 .\OT1/cmr/m/n/10 *
-.\glue(\rightskip) 0.0
-Overfull \hbox (10.11188pt too wide) in paragraph at lines 214--37
-\OT1/cmr/m/n/10 Light,FontFace=lit* Light Italic,FontFace=sbn* Medium,FontFace=sbit* Medium
-\hbox(7.5+1.94444)x345.0, glue set - 1.0
+.\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 L
 .\OT1/cmr/m/n/10 i
 .\OT1/cmr/m/n/10 g
@@ -673,16 +651,9 @@ Overfull \hbox (10.11188pt too wide) in paragraph at lines 214--37
 .\OT1/cmr/m/n/10 i
 .\OT1/cmr/m/n/10 t
 .\OT1/cmr/m/n/10 *
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 M
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 d
-.\OT1/cmr/m/n/10 i
-.\OT1/cmr/m/n/10 u
-.\OT1/cmr/m/n/10 m
 .\glue(\rightskip) 0.0
-Overfull \hbox (1502.9542pt too wide) in paragraph at lines 214--37
-\OT1/cmr/m/n/10 Italic,FontFace=bn* Bold,FontFace=bit* Bold Italic,]                [][][][][][][][][] 
+Overfull \hbox (1474.33243pt too wide) in paragraph at lines 235--38
+\OT1/cmr/m/n/10 Italic]                [][][][][][][][][][] 
 \hbox(7.5+2.5)x345.0, glue set - 1.0
 .\OT1/cmr/m/n/10 I
 .\OT1/cmr/m/n/10 t
@@ -690,74 +661,23 @@ Overfull \hbox (1502.9542pt too wide) in paragraph at lines 214--37
 .\OT1/cmr/m/n/10 l
 .\OT1/cmr/m/n/10 i
 .\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 ,
-.\OT1/cmr/m/n/10 F
-.\kern-0.83334
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 n
-.\kern-0.27779
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 F
-.\kern-0.83334
-.\OT1/cmr/m/n/10 a
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 =
-.\OT1/cmr/m/n/10 b
-.\OT1/cmr/m/n/10 n
-.\OT1/cmr/m/n/10 *
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 B
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 d
-.\OT1/cmr/m/n/10 ,
-.\OT1/cmr/m/n/10 F
-.\kern-0.83334
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 n
-.\kern-0.27779
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 F
-.\kern-0.83334
-.\OT1/cmr/m/n/10 a
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 =
-.\OT1/cmr/m/n/10 b
-.\OT1/cmr/m/n/10 i
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 *
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 B
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 d
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 I
-.\OT1/cmr/m/n/10 t
-.\OT1/cmr/m/n/10 a
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 i
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 ,
 .\OT1/cmr/m/n/10 ]
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.\glue 3.33333 plus 2.08331 minus 0.88889
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\glue 2.5 plus 1.87497 minus 0.47998
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\glue 2.5 plus 1.49998 minus 0.59998
 .\hbox(7.30492+2.22498)x169.92775
 ..\OT1/phv/m/n/10 M
 ..\OT1/phv/m/n/10 r
@@ -892,6 +812,52 @@ Overfull \hbox (1502.9542pt too wide) in paragraph at lines 214--37
 ..\OT1/phv/m/sl/10 n
 ..\OT1/phv/m/sl/10 x
 ..\OT1/phv/m/sl/10 .
+.\hbox(7.29498+2.16992)x180.22762
+..\OT1/phv/b/sl/10 M
+..\OT1/phv/b/sl/10 r
+..\kern-0.59999
+..\OT1/phv/b/sl/10 .
+..\glue 3.4398 plus 4.97969 minus 0.21997
+..\OT1/phv/b/sl/10 J
+..\OT1/phv/b/sl/10 o
+..\OT1/phv/b/sl/10 c
+..\kern-0.19995
+..\OT1/phv/b/sl/10 k
+..\OT1/phv/b/sl/10 ,
+..\glue 2.77989 plus 2.07486 minus 0.52792
+..\OT1/phv/b/sl/10 T
+..\OT1/phv/b/sl/10 V
+..\glue 2.77989 plus 1.65823 minus 0.66057
+..\OT1/phv/b/sl/10 q
+..\OT1/phv/b/sl/10 u
+..\OT1/phv/b/sl/10 i
+..\OT1/phv/b/sl/10 z
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 P
+..\OT1/phv/b/sl/10 h
+..\OT1/phv/b/sl/10 D
+..\kern-0.29994
+..\OT1/phv/b/sl/10 .
+..\OT1/phv/b/sl/10 ,
+..\glue 2.77989 plus 2.07486 minus 0.52792
+..\OT1/phv/b/sl/10 b
+..\OT1/phv/b/sl/10 a
+..\kern-0.09999
+..\OT1/phv/b/sl/10 g
+..\OT1/phv/b/sl/10 s
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 f
+..\kern-0.09999
+..\OT1/phv/b/sl/10 e
+..\kern-0.1499
+..\OT1/phv/b/sl/10 w
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 l
+..\kern-0.1499
+..\OT1/phv/b/sl/10 y
+..\OT1/phv/b/sl/10 n
+..\OT1/phv/b/sl/10 x
+..\OT1/phv/b/sl/10 .
 .\hbox(7.30492+2.22498)x169.92775
 ..\OT1/phv/m/n/10 M
 ..\OT1/phv/m/n/10 r

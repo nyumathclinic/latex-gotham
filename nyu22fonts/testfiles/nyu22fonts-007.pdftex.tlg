@@ -2,7 +2,7 @@ This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 ! Undefined control sequence.
 \__nyufonts_set_montserrat: ->\setsansfont 
-                                           {montserrat}
+                                           {Montserrat}[Extension=.otf,FontF...
 l. ...\nyufontssetup{Montserrat,Frank~Ruhl~Libre}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -180,7 +180,63 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 l. ...  }
 ============================================================
 ============================================================
-TEST 4: \rmfamily 
+TEST 4: \sffamily \bfseries \itshape 
+============================================================
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line ....
+> \box...=
+\hbox(7.29498+2.16992)x180.22762
+.\OT1/phv/b/sl/10 M
+.\OT1/phv/b/sl/10 r
+.\kern-0.59999
+.\OT1/phv/b/sl/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/b/sl/10 J
+.\OT1/phv/b/sl/10 o
+.\OT1/phv/b/sl/10 c
+.\kern-0.19995
+.\OT1/phv/b/sl/10 k
+.\OT1/phv/b/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/sl/10 T
+.\OT1/phv/b/sl/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/b/sl/10 q
+.\OT1/phv/b/sl/10 u
+.\OT1/phv/b/sl/10 i
+.\OT1/phv/b/sl/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 P
+.\OT1/phv/b/sl/10 h
+.\OT1/phv/b/sl/10 D
+.\kern-0.29994
+.\OT1/phv/b/sl/10 .
+.\OT1/phv/b/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/sl/10 b
+.\OT1/phv/b/sl/10 a
+.\kern-0.09999
+.\OT1/phv/b/sl/10 g
+.\OT1/phv/b/sl/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 f
+.\kern-0.09999
+.\OT1/phv/b/sl/10 e
+.\kern-0.1499
+.\OT1/phv/b/sl/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 l
+.\kern-0.1499
+.\OT1/phv/b/sl/10 y
+.\OT1/phv/b/sl/10 n
+.\OT1/phv/b/sl/10 x
+.\OT1/phv/b/sl/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily 
 ============================================================
 > \box...=
 \hbox(6.81989+2.16492)x159.77902
@@ -229,7 +285,7 @@ TEST 4: \rmfamily
 l. ...  }
 ============================================================
 ============================================================
-TEST 5: \rmfamily \bfseries 
+TEST 6: \rmfamily \bfseries 
 ============================================================
 > \box...=
 \hbox(6.88995+2.03491)x167.02888
@@ -279,53 +335,52 @@ TEST 5: \rmfamily \bfseries
 l. ...  }
 ============================================================
 ============================================================
-TEST 6: \rmfamily \itshape 
+TEST 7: \rmfamily \bfseries \itshape 
 ============================================================
 > \box...=
-\hbox(6.8449+2.06494)x155.43889
-.\OT1/ptm/m/it/10 M
-.\OT1/ptm/m/it/10 r
-.\kern-1.11
-.\OT1/ptm/m/it/10 .
+\hbox(6.96991+2.02496)x161.5789
+.\OT1/ptm/b/it/10 M
+.\OT1/ptm/b/it/10 r
+.\kern-0.6499
+.\OT1/ptm/b/it/10 .
 .\glue 3.09998 plus 4.49995 minus 0.19998
-.\OT1/ptm/m/it/10 J
-.\kern-0.25
-.\OT1/ptm/m/it/10 o
-.\OT1/ptm/m/it/10 c
-.\kern-0.19995
-.\OT1/ptm/m/it/10 k
-.\OT1/ptm/m/it/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/m/it/10 T
-.\OT1/ptm/m/it/10 V
-.\glue 2.5 plus 1.49847 minus 0.60057
-.\OT1/ptm/m/it/10 q
-.\OT1/ptm/m/it/10 u
-.\OT1/ptm/m/it/10 i
-.\OT1/ptm/m/it/10 z
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/it/10 P
-.\OT1/ptm/m/it/10 h
-.\OT1/ptm/m/it/10 D
-.\OT1/ptm/m/it/10 .
-.\OT1/ptm/m/it/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/m/it/10 b
-.\OT1/ptm/m/it/10 a
+.\OT1/ptm/b/it/10 J
+.\kern-0.39992
+.\OT1/ptm/b/it/10 o
+.\OT1/ptm/b/it/10 c
 .\kern-0.09999
-.\OT1/ptm/m/it/10 g
-.\OT1/ptm/m/it/10 s
+.\OT1/ptm/b/it/10 k
+.\OT1/ptm/b/it/10 ,
+.\glue 2.5 plus 1.87497 minus 0.47998
+.\OT1/ptm/b/it/10 T
+.\OT1/ptm/b/it/10 V
+.\glue 2.5 plus 1.49847 minus 0.60057
+.\OT1/ptm/b/it/10 q
+.\OT1/ptm/b/it/10 u
+.\OT1/ptm/b/it/10 i
+.\OT1/ptm/b/it/10 z
 .\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/it/10 f
-.\OT1/ptm/m/it/10 e
-.\kern-0.1499
-.\OT1/ptm/m/it/10 w
+.\OT1/ptm/b/it/10 P
+.\OT1/ptm/b/it/10 h
+.\OT1/ptm/b/it/10 D
+.\OT1/ptm/b/it/10 .
+.\OT1/ptm/b/it/10 ,
+.\glue 2.5 plus 1.87497 minus 0.47998
+.\OT1/ptm/b/it/10 b
+.\OT1/ptm/b/it/10 a
+.\OT1/ptm/b/it/10 g
+.\OT1/ptm/b/it/10 s
 .\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/it/10 l
-.\OT1/ptm/m/it/10 y
-.\OT1/ptm/m/it/10 n
-.\OT1/ptm/m/it/10 x
-.\OT1/ptm/m/it/10 .
+.\OT1/ptm/b/it/10 f
+.\kern-0.09999
+.\OT1/ptm/b/it/10 e
+.\OT1/ptm/b/it/10 w
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/b/it/10 l
+.\OT1/ptm/b/it/10 y
+.\OT1/ptm/b/it/10 n
+.\OT1/ptm/b/it/10 x
+.\OT1/ptm/b/it/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -349,7 +404,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 ============================================================
-TEST 7: \sffamily 
+TEST 8: \sffamily 
 ============================================================
 > \box...=
 \hbox(7.30492+2.22498)x169.92775
@@ -401,7 +456,7 @@ TEST 7: \sffamily
 l. ...  }
 ============================================================
 ============================================================
-TEST 8: \sffamily \bfseries 
+TEST 9: \sffamily \bfseries 
 ============================================================
 > \box...=
 \hbox(7.29498+2.16992)x180.22762
@@ -455,7 +510,7 @@ TEST 8: \sffamily \bfseries
 l. ...  }
 ============================================================
 ============================================================
-TEST 9: \sffamily \itshape 
+TEST 10: \sffamily \itshape 
 ============================================================
 > \box...=
 \hbox(7.30492+2.22498)x169.92775
@@ -507,7 +562,61 @@ TEST 9: \sffamily \itshape
 l. ...  }
 ============================================================
 ============================================================
-TEST 10: \rmfamily 
+TEST 11: \sffamily \bfseries \itshape 
+============================================================
+> \box...=
+\hbox(7.29498+2.16992)x180.22762
+.\OT1/phv/b/sl/10 M
+.\OT1/phv/b/sl/10 r
+.\kern-0.59999
+.\OT1/phv/b/sl/10 .
+.\glue 3.4398 plus 4.97969 minus 0.21997
+.\OT1/phv/b/sl/10 J
+.\OT1/phv/b/sl/10 o
+.\OT1/phv/b/sl/10 c
+.\kern-0.19995
+.\OT1/phv/b/sl/10 k
+.\OT1/phv/b/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/sl/10 T
+.\OT1/phv/b/sl/10 V
+.\glue 2.77989 plus 1.65823 minus 0.66057
+.\OT1/phv/b/sl/10 q
+.\OT1/phv/b/sl/10 u
+.\OT1/phv/b/sl/10 i
+.\OT1/phv/b/sl/10 z
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 P
+.\OT1/phv/b/sl/10 h
+.\OT1/phv/b/sl/10 D
+.\kern-0.29994
+.\OT1/phv/b/sl/10 .
+.\OT1/phv/b/sl/10 ,
+.\glue 2.77989 plus 2.07486 minus 0.52792
+.\OT1/phv/b/sl/10 b
+.\OT1/phv/b/sl/10 a
+.\kern-0.09999
+.\OT1/phv/b/sl/10 g
+.\OT1/phv/b/sl/10 s
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 f
+.\kern-0.09999
+.\OT1/phv/b/sl/10 e
+.\kern-0.1499
+.\OT1/phv/b/sl/10 w
+.\glue 2.77989 plus 1.6599 minus 0.65991
+.\OT1/phv/b/sl/10 l
+.\kern-0.1499
+.\OT1/phv/b/sl/10 y
+.\OT1/phv/b/sl/10 n
+.\OT1/phv/b/sl/10 x
+.\OT1/phv/b/sl/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 12: \rmfamily 
 ============================================================
 > \box...=
 \hbox(6.81989+2.16492)x159.77902
@@ -556,7 +665,7 @@ TEST 10: \rmfamily
 l. ...  }
 ============================================================
 ============================================================
-TEST 11: \rmfamily \bfseries 
+TEST 13: \rmfamily \bfseries 
 ============================================================
 > \box...=
 \hbox(6.88995+2.03491)x167.02888
@@ -606,62 +715,61 @@ TEST 11: \rmfamily \bfseries
 l. ...  }
 ============================================================
 ============================================================
-TEST 12: \rmfamily \itshape 
+TEST 14: \rmfamily \bfseries \itshape 
 ============================================================
 > \box...=
-\hbox(6.8449+2.06494)x155.43889
-.\OT1/ptm/m/it/10 M
-.\OT1/ptm/m/it/10 r
-.\kern-1.11
-.\OT1/ptm/m/it/10 .
+\hbox(6.96991+2.02496)x161.5789
+.\OT1/ptm/b/it/10 M
+.\OT1/ptm/b/it/10 r
+.\kern-0.6499
+.\OT1/ptm/b/it/10 .
 .\glue 3.09998 plus 4.49995 minus 0.19998
-.\OT1/ptm/m/it/10 J
-.\kern-0.25
-.\OT1/ptm/m/it/10 o
-.\OT1/ptm/m/it/10 c
-.\kern-0.19995
-.\OT1/ptm/m/it/10 k
-.\OT1/ptm/m/it/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/m/it/10 T
-.\OT1/ptm/m/it/10 V
-.\glue 2.5 plus 1.49847 minus 0.60057
-.\OT1/ptm/m/it/10 q
-.\OT1/ptm/m/it/10 u
-.\OT1/ptm/m/it/10 i
-.\OT1/ptm/m/it/10 z
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/it/10 P
-.\OT1/ptm/m/it/10 h
-.\OT1/ptm/m/it/10 D
-.\OT1/ptm/m/it/10 .
-.\OT1/ptm/m/it/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/m/it/10 b
-.\OT1/ptm/m/it/10 a
+.\OT1/ptm/b/it/10 J
+.\kern-0.39992
+.\OT1/ptm/b/it/10 o
+.\OT1/ptm/b/it/10 c
 .\kern-0.09999
-.\OT1/ptm/m/it/10 g
-.\OT1/ptm/m/it/10 s
+.\OT1/ptm/b/it/10 k
+.\OT1/ptm/b/it/10 ,
+.\glue 2.5 plus 1.87497 minus 0.47998
+.\OT1/ptm/b/it/10 T
+.\OT1/ptm/b/it/10 V
+.\glue 2.5 plus 1.49847 minus 0.60057
+.\OT1/ptm/b/it/10 q
+.\OT1/ptm/b/it/10 u
+.\OT1/ptm/b/it/10 i
+.\OT1/ptm/b/it/10 z
 .\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/it/10 f
-.\OT1/ptm/m/it/10 e
-.\kern-0.1499
-.\OT1/ptm/m/it/10 w
+.\OT1/ptm/b/it/10 P
+.\OT1/ptm/b/it/10 h
+.\OT1/ptm/b/it/10 D
+.\OT1/ptm/b/it/10 .
+.\OT1/ptm/b/it/10 ,
+.\glue 2.5 plus 1.87497 minus 0.47998
+.\OT1/ptm/b/it/10 b
+.\OT1/ptm/b/it/10 a
+.\OT1/ptm/b/it/10 g
+.\OT1/ptm/b/it/10 s
 .\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/it/10 l
-.\OT1/ptm/m/it/10 y
-.\OT1/ptm/m/it/10 n
-.\OT1/ptm/m/it/10 x
-.\OT1/ptm/m/it/10 .
+.\OT1/ptm/b/it/10 f
+.\kern-0.09999
+.\OT1/ptm/b/it/10 e
+.\OT1/ptm/b/it/10 w
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/b/it/10 l
+.\OT1/ptm/b/it/10 y
+.\OT1/ptm/b/it/10 n
+.\OT1/ptm/b/it/10 x
+.\OT1/ptm/b/it/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
-Overfull \hbox (1004.51561pt too wide) in paragraph at lines 29--54
-[]\OT1/ptm/m/n/10 montserratFrank Ruhl Libre[ItalicFont=*,ItalicFeatures=FakeSlant][][][][][][]HelveticaTimes
-\hbox(7.30492+2.22498)x345.0, glue set - 1.0
+Overfull \hbox (33.29623pt too wide) in paragraph at lines 30--55
+[]\OT1/ptm/m/n/10 Montserrat[Extension=.otf,FontFace=uln*-Thin,FontFace=ulit*-ThinItalic,FontFace=eln*-
+\hbox(6.81989+1.55994)x345.0
 .\hbox(0.0+0.0)x15.0
-.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 M
 .\OT1/ptm/m/n/10 o
 .\OT1/ptm/m/n/10 n
 .\OT1/ptm/m/n/10 t
@@ -671,12 +779,641 @@ Overfull \hbox (1004.51561pt too wide) in paragraph at lines 29--54
 .\OT1/ptm/m/n/10 r
 .\OT1/ptm/m/n/10 a
 .\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 [
+.\OT1/ptm/m/n/10 E
+.\OT1/ptm/m/n/10 x
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 .
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 f
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 T
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 T
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\glue(\rightskip) 0.0
+Overfull \hbox (80.22516pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 ExtraLight,FontFace=elit*-ExtraLightItalic,FontFace=ln*-Light,FontFace=lit*-LightItalic,FontFace=sln*-
+\hbox(6.81989+2.16492)x345.0
+.\OT1/ptm/m/n/10 E
+.\OT1/ptm/m/n/10 x
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 L
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 E
+.\OT1/ptm/m/n/10 x
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 L
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 L
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 L
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\glue(\rightskip) 0.0
+Overfull \hbox (61.18558pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 Regular,FontFace=slit*-Italic,FontFace=mn*-Medium,FontFace=mit*-MediumItalic,FontFace=sbn*-
+\hbox(6.81989+2.16492)x345.0
+.\OT1/ptm/m/n/10 R
+.\OT1/ptm/m/n/10 e
+.\kern-0.1499
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 M
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 M
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\glue(\rightskip) 0.0
+Overfull \hbox (57.47603pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 SemiBold,FontFace=sbit*-SemiBold,FontFace=bn*-Bold,FontFace=bit*-BoldItalic,FontFace=ebn*-
+\hbox(6.81989+1.40991)x345.0
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\glue(\rightskip) 0.0
+Overfull \hbox (96.4755pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 ExtraBold,FontFace=ebit*-ExtraBoldItalic,FontFace=ubn*-Black,FontFace=ubit*-BlackItalic,UprightFont=*-
+\hbox(6.81989+2.16492)x345.0
+.\OT1/ptm/m/n/10 E
+.\OT1/ptm/m/n/10 x
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 E
+.\OT1/ptm/m/n/10 x
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 k
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 b
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 k
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 U
+.\OT1/ptm/m/n/10 p
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 h
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\glue(\rightskip) 0.0
+Overfull \hbox (20.36559pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 Regular,ItalicFont=*-Italic,BoldFont=*-SemiBold,BoldItalicFont=*-SemiBoldItalic,]Frank
+\hbox(6.81989+2.16492)x345.0
+.\OT1/ptm/m/n/10 R
+.\OT1/ptm/m/n/10 e
+.\kern-0.1499
+.\OT1/ptm/m/n/10 g
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 r
+.\kern-0.39992
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\OT1/ptm/m/n/10 -
+.\discretionary
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 m
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 ]
 .\OT1/ptm/m/n/10 F
 .\OT1/ptm/m/n/10 r
 .\OT1/ptm/m/n/10 a
 .\OT1/ptm/m/n/10 n
 .\OT1/ptm/m/n/10 k
-.\glue 2.5 plus 1.49998 minus 0.59998
+.\glue(\rightskip) 0.0
+Overfull \hbox (1324.83131pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 Ruhl Li-bre[ItalicFont=*,ItalicFeatures=FakeSlant,BoldItalicFont=* Bold,BoldItalicFeatures=FakeSlant,][][][][][][][]HelveticaTimes
+\hbox(7.30492+2.22498)x345.0, glue set - 1.0
 .\OT1/ptm/m/n/10 R
 .\OT1/ptm/m/n/10 u
 .\OT1/ptm/m/n/10 h
@@ -684,6 +1421,8 @@ Overfull \hbox (1004.51561pt too wide) in paragraph at lines 29--54
 .\glue 2.5 plus 1.49998 minus 0.59998
 .\OT1/ptm/m/n/10 L
 .\OT1/ptm/m/n/10 i
+.\discretionary
+..\OT1/ptm/m/n/10 -
 .\OT1/ptm/m/n/10 b
 .\OT1/ptm/m/n/10 r
 .\OT1/ptm/m/n/10 e
@@ -728,6 +1467,61 @@ Overfull \hbox (1004.51561pt too wide) in paragraph at lines 29--54
 .\OT1/ptm/m/n/10 a
 .\OT1/ptm/m/n/10 n
 .\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 *
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 ,
+.\OT1/ptm/m/n/10 B
+.\OT1/ptm/m/n/10 o
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 d
+.\OT1/ptm/m/n/10 I
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 i
+.\OT1/ptm/m/n/10 c
+.\OT1/ptm/m/n/10 F
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 u
+.\OT1/ptm/m/n/10 r
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 s
+.\OT1/ptm/m/n/10 =
+.\OT1/ptm/m/n/10 F
+.\kern-0.1499
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 k
+.\kern-0.09999
+.\OT1/ptm/m/n/10 e
+.\OT1/ptm/m/n/10 S
+.\OT1/ptm/m/n/10 l
+.\OT1/ptm/m/n/10 a
+.\OT1/ptm/m/n/10 n
+.\OT1/ptm/m/n/10 t
+.\OT1/ptm/m/n/10 ,
 .\OT1/ptm/m/n/10 ]
 .\hbox(7.30492+2.22498)x169.92775
 ..\OT1/phv/m/n/10 M
@@ -863,6 +1657,52 @@ Overfull \hbox (1004.51561pt too wide) in paragraph at lines 29--54
 ..\OT1/phv/m/sl/10 n
 ..\OT1/phv/m/sl/10 x
 ..\OT1/phv/m/sl/10 .
+.\hbox(7.29498+2.16992)x180.22762
+..\OT1/phv/b/sl/10 M
+..\OT1/phv/b/sl/10 r
+..\kern-0.59999
+..\OT1/phv/b/sl/10 .
+..\glue 3.4398 plus 4.97969 minus 0.21997
+..\OT1/phv/b/sl/10 J
+..\OT1/phv/b/sl/10 o
+..\OT1/phv/b/sl/10 c
+..\kern-0.19995
+..\OT1/phv/b/sl/10 k
+..\OT1/phv/b/sl/10 ,
+..\glue 2.77989 plus 2.07486 minus 0.52792
+..\OT1/phv/b/sl/10 T
+..\OT1/phv/b/sl/10 V
+..\glue 2.77989 plus 1.65823 minus 0.66057
+..\OT1/phv/b/sl/10 q
+..\OT1/phv/b/sl/10 u
+..\OT1/phv/b/sl/10 i
+..\OT1/phv/b/sl/10 z
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 P
+..\OT1/phv/b/sl/10 h
+..\OT1/phv/b/sl/10 D
+..\kern-0.29994
+..\OT1/phv/b/sl/10 .
+..\OT1/phv/b/sl/10 ,
+..\glue 2.77989 plus 2.07486 minus 0.52792
+..\OT1/phv/b/sl/10 b
+..\OT1/phv/b/sl/10 a
+..\kern-0.09999
+..\OT1/phv/b/sl/10 g
+..\OT1/phv/b/sl/10 s
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 f
+..\kern-0.09999
+..\OT1/phv/b/sl/10 e
+..\kern-0.1499
+..\OT1/phv/b/sl/10 w
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 l
+..\kern-0.1499
+..\OT1/phv/b/sl/10 y
+..\OT1/phv/b/sl/10 n
+..\OT1/phv/b/sl/10 x
+..\OT1/phv/b/sl/10 .
 .\hbox(6.81989+2.16492)x159.77902
 ..\OT1/ptm/m/n/10 M
 ..\OT1/ptm/m/n/10 r
@@ -946,50 +1786,49 @@ Overfull \hbox (1004.51561pt too wide) in paragraph at lines 29--54
 ..\OT1/ptm/b/n/10 n
 ..\OT1/ptm/b/n/10 x
 ..\OT1/ptm/b/n/10 .
-.\hbox(6.8449+2.06494)x155.43889
-..\OT1/ptm/m/it/10 M
-..\OT1/ptm/m/it/10 r
-..\kern-1.11
-..\OT1/ptm/m/it/10 .
+.\hbox(6.96991+2.02496)x161.5789
+..\OT1/ptm/b/it/10 M
+..\OT1/ptm/b/it/10 r
+..\kern-0.6499
+..\OT1/ptm/b/it/10 .
 ..\glue 3.09998 plus 4.49995 minus 0.19998
-..\OT1/ptm/m/it/10 J
-..\kern-0.25
-..\OT1/ptm/m/it/10 o
-..\OT1/ptm/m/it/10 c
-..\kern-0.19995
-..\OT1/ptm/m/it/10 k
-..\OT1/ptm/m/it/10 ,
-..\glue 2.5 plus 1.87497 minus 0.47998
-..\OT1/ptm/m/it/10 T
-..\OT1/ptm/m/it/10 V
-..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/it/10 q
-..\OT1/ptm/m/it/10 u
-..\OT1/ptm/m/it/10 i
-..\OT1/ptm/m/it/10 z
-..\glue 2.5 plus 1.49998 minus 0.59998
-..\OT1/ptm/m/it/10 P
-..\OT1/ptm/m/it/10 h
-..\OT1/ptm/m/it/10 D
-..\OT1/ptm/m/it/10 .
-..\OT1/ptm/m/it/10 ,
-..\glue 2.5 plus 1.87497 minus 0.47998
-..\OT1/ptm/m/it/10 b
-..\OT1/ptm/m/it/10 a
+..\OT1/ptm/b/it/10 J
+..\kern-0.39992
+..\OT1/ptm/b/it/10 o
+..\OT1/ptm/b/it/10 c
 ..\kern-0.09999
-..\OT1/ptm/m/it/10 g
-..\OT1/ptm/m/it/10 s
+..\OT1/ptm/b/it/10 k
+..\OT1/ptm/b/it/10 ,
+..\glue 2.5 plus 1.87497 minus 0.47998
+..\OT1/ptm/b/it/10 T
+..\OT1/ptm/b/it/10 V
+..\glue 2.5 plus 1.49847 minus 0.60057
+..\OT1/ptm/b/it/10 q
+..\OT1/ptm/b/it/10 u
+..\OT1/ptm/b/it/10 i
+..\OT1/ptm/b/it/10 z
 ..\glue 2.5 plus 1.49998 minus 0.59998
-..\OT1/ptm/m/it/10 f
-..\OT1/ptm/m/it/10 e
-..\kern-0.1499
-..\OT1/ptm/m/it/10 w
+..\OT1/ptm/b/it/10 P
+..\OT1/ptm/b/it/10 h
+..\OT1/ptm/b/it/10 D
+..\OT1/ptm/b/it/10 .
+..\OT1/ptm/b/it/10 ,
+..\glue 2.5 plus 1.87497 minus 0.47998
+..\OT1/ptm/b/it/10 b
+..\OT1/ptm/b/it/10 a
+..\OT1/ptm/b/it/10 g
+..\OT1/ptm/b/it/10 s
 ..\glue 2.5 plus 1.49998 minus 0.59998
-..\OT1/ptm/m/it/10 l
-..\OT1/ptm/m/it/10 y
-..\OT1/ptm/m/it/10 n
-..\OT1/ptm/m/it/10 x
-..\OT1/ptm/m/it/10 .
+..\OT1/ptm/b/it/10 f
+..\kern-0.09999
+..\OT1/ptm/b/it/10 e
+..\OT1/ptm/b/it/10 w
+..\glue 2.5 plus 1.49998 minus 0.59998
+..\OT1/ptm/b/it/10 l
+..\OT1/ptm/b/it/10 y
+..\OT1/ptm/b/it/10 n
+..\OT1/ptm/b/it/10 x
+..\OT1/ptm/b/it/10 .
 .\OT1/ptm/m/n/10 H
 .\OT1/ptm/m/n/10 e
 .\OT1/ptm/m/n/10 l
@@ -1007,8 +1846,8 @@ Overfull \hbox (1004.51561pt too wide) in paragraph at lines 29--54
 .\OT1/ptm/m/n/10 e
 .\OT1/ptm/m/n/10 s
 .\glue(\rightskip) 0.0
-Overfull \hbox (706.74957pt too wide) in paragraph at lines 29--54
-\OT1/ptm/m/n/10 New Roman[][][][][][] 
+Overfull \hbox (893.1172pt too wide) in paragraph at lines 30--55
+\OT1/ptm/m/n/10 New Roman[][][][][][][] 
 \hbox(7.30492+2.22498)x345.0, glue set - 1.0
 .\OT1/ptm/m/n/10 N
 .\OT1/ptm/m/n/10 e
@@ -1154,6 +1993,52 @@ Overfull \hbox (706.74957pt too wide) in paragraph at lines 29--54
 ..\OT1/phv/m/sl/10 n
 ..\OT1/phv/m/sl/10 x
 ..\OT1/phv/m/sl/10 .
+.\hbox(7.29498+2.16992)x180.22762
+..\OT1/phv/b/sl/10 M
+..\OT1/phv/b/sl/10 r
+..\kern-0.59999
+..\OT1/phv/b/sl/10 .
+..\glue 3.4398 plus 4.97969 minus 0.21997
+..\OT1/phv/b/sl/10 J
+..\OT1/phv/b/sl/10 o
+..\OT1/phv/b/sl/10 c
+..\kern-0.19995
+..\OT1/phv/b/sl/10 k
+..\OT1/phv/b/sl/10 ,
+..\glue 2.77989 plus 2.07486 minus 0.52792
+..\OT1/phv/b/sl/10 T
+..\OT1/phv/b/sl/10 V
+..\glue 2.77989 plus 1.65823 minus 0.66057
+..\OT1/phv/b/sl/10 q
+..\OT1/phv/b/sl/10 u
+..\OT1/phv/b/sl/10 i
+..\OT1/phv/b/sl/10 z
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 P
+..\OT1/phv/b/sl/10 h
+..\OT1/phv/b/sl/10 D
+..\kern-0.29994
+..\OT1/phv/b/sl/10 .
+..\OT1/phv/b/sl/10 ,
+..\glue 2.77989 plus 2.07486 minus 0.52792
+..\OT1/phv/b/sl/10 b
+..\OT1/phv/b/sl/10 a
+..\kern-0.09999
+..\OT1/phv/b/sl/10 g
+..\OT1/phv/b/sl/10 s
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 f
+..\kern-0.09999
+..\OT1/phv/b/sl/10 e
+..\kern-0.1499
+..\OT1/phv/b/sl/10 w
+..\glue 2.77989 plus 1.6599 minus 0.65991
+..\OT1/phv/b/sl/10 l
+..\kern-0.1499
+..\OT1/phv/b/sl/10 y
+..\OT1/phv/b/sl/10 n
+..\OT1/phv/b/sl/10 x
+..\OT1/phv/b/sl/10 .
 .\hbox(6.81989+2.16492)x159.77902
 ..\OT1/ptm/m/n/10 M
 ..\OT1/ptm/m/n/10 r
@@ -1237,50 +2122,49 @@ Overfull \hbox (706.74957pt too wide) in paragraph at lines 29--54
 ..\OT1/ptm/b/n/10 n
 ..\OT1/ptm/b/n/10 x
 ..\OT1/ptm/b/n/10 .
-.\hbox(6.8449+2.06494)x155.43889
-..\OT1/ptm/m/it/10 M
-..\OT1/ptm/m/it/10 r
-..\kern-1.11
-..\OT1/ptm/m/it/10 .
+.\hbox(6.96991+2.02496)x161.5789
+..\OT1/ptm/b/it/10 M
+..\OT1/ptm/b/it/10 r
+..\kern-0.6499
+..\OT1/ptm/b/it/10 .
 ..\glue 3.09998 plus 4.49995 minus 0.19998
-..\OT1/ptm/m/it/10 J
-..\kern-0.25
-..\OT1/ptm/m/it/10 o
-..\OT1/ptm/m/it/10 c
-..\kern-0.19995
-..\OT1/ptm/m/it/10 k
-..\OT1/ptm/m/it/10 ,
-..\glue 2.5 plus 1.87497 minus 0.47998
-..\OT1/ptm/m/it/10 T
-..\OT1/ptm/m/it/10 V
-..\glue 2.5 plus 1.49847 minus 0.60057
-..\OT1/ptm/m/it/10 q
-..\OT1/ptm/m/it/10 u
-..\OT1/ptm/m/it/10 i
-..\OT1/ptm/m/it/10 z
-..\glue 2.5 plus 1.49998 minus 0.59998
-..\OT1/ptm/m/it/10 P
-..\OT1/ptm/m/it/10 h
-..\OT1/ptm/m/it/10 D
-..\OT1/ptm/m/it/10 .
-..\OT1/ptm/m/it/10 ,
-..\glue 2.5 plus 1.87497 minus 0.47998
-..\OT1/ptm/m/it/10 b
-..\OT1/ptm/m/it/10 a
+..\OT1/ptm/b/it/10 J
+..\kern-0.39992
+..\OT1/ptm/b/it/10 o
+..\OT1/ptm/b/it/10 c
 ..\kern-0.09999
-..\OT1/ptm/m/it/10 g
-..\OT1/ptm/m/it/10 s
+..\OT1/ptm/b/it/10 k
+..\OT1/ptm/b/it/10 ,
+..\glue 2.5 plus 1.87497 minus 0.47998
+..\OT1/ptm/b/it/10 T
+..\OT1/ptm/b/it/10 V
+..\glue 2.5 plus 1.49847 minus 0.60057
+..\OT1/ptm/b/it/10 q
+..\OT1/ptm/b/it/10 u
+..\OT1/ptm/b/it/10 i
+..\OT1/ptm/b/it/10 z
 ..\glue 2.5 plus 1.49998 minus 0.59998
-..\OT1/ptm/m/it/10 f
-..\OT1/ptm/m/it/10 e
-..\kern-0.1499
-..\OT1/ptm/m/it/10 w
+..\OT1/ptm/b/it/10 P
+..\OT1/ptm/b/it/10 h
+..\OT1/ptm/b/it/10 D
+..\OT1/ptm/b/it/10 .
+..\OT1/ptm/b/it/10 ,
+..\glue 2.5 plus 1.87497 minus 0.47998
+..\OT1/ptm/b/it/10 b
+..\OT1/ptm/b/it/10 a
+..\OT1/ptm/b/it/10 g
+..\OT1/ptm/b/it/10 s
 ..\glue 2.5 plus 1.49998 minus 0.59998
-..\OT1/ptm/m/it/10 l
-..\OT1/ptm/m/it/10 y
-..\OT1/ptm/m/it/10 n
-..\OT1/ptm/m/it/10 x
-..\OT1/ptm/m/it/10 .
+..\OT1/ptm/b/it/10 f
+..\kern-0.09999
+..\OT1/ptm/b/it/10 e
+..\OT1/ptm/b/it/10 w
+..\glue 2.5 plus 1.49998 minus 0.59998
+..\OT1/ptm/b/it/10 l
+..\OT1/ptm/b/it/10 y
+..\OT1/ptm/b/it/10 n
+..\OT1/ptm/b/it/10 x
+..\OT1/ptm/b/it/10 .
 .\penalty 10000
 .\glue(\parfillskip) 0.0 plus 1.0fil
 .\glue(\rightskip) 0.0

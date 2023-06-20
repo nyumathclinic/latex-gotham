@@ -29,21 +29,21 @@ TEST 2: \sffamily \bfseries
 ============================================================
 > \box...=
 \hbox(7.36+1.62999)x189.86
-.\TU/Gotham(0)/sb/n/10 Mr.
+.\TU/Gotham(0)/b/n/10 Mr.
 .\glue 4.0 plus 4.5 minus 0.33333
-.\TU/Gotham(0)/sb/n/10 Jock,
+.\TU/Gotham(0)/b/n/10 Jock,
 .\glue 3.0 plus 1.875 minus 0.79999
-.\TU/Gotham(0)/sb/n/10 TV
+.\TU/Gotham(0)/b/n/10 TV
 .\glue 3.0 plus 1.49849 minus 1.00099
-.\TU/Gotham(0)/sb/n/10 quiz
+.\TU/Gotham(0)/b/n/10 quiz
 .\glue 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/sb/n/10 PhD.,
+.\TU/Gotham(0)/b/n/10 PhD.,
 .\glue 3.0 plus 1.875 minus 0.79999
-.\TU/Gotham(0)/sb/n/10 bags
+.\TU/Gotham(0)/b/n/10 bags
 .\glue 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/sb/n/10 few
+.\TU/Gotham(0)/b/n/10 few
 .\glue 3.0 plus 1.5 minus 1.0
-.\TU/Gotham(0)/sb/n/10 lynx.
+.\TU/Gotham(0)/b/n/10 lynx.
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -73,7 +73,31 @@ TEST 3: \sffamily \itshape
 l. ...  }
 ============================================================
 ============================================================
-TEST 4: \rmfamily 
+TEST 4: \sffamily \bfseries \itshape 
+============================================================
+> \box...=
+\hbox(7.35+1.62999)x188.80998
+.\TU/Gotham(0)/b/it/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/b/it/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/it/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/b/it/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/it/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily 
 ============================================================
 Missing character: There is no M ("4D) in font nullfont!
 Missing character: There is no r ("72) in font nullfont!
@@ -120,9 +144,9 @@ Missing character: There is no . ("2E) in font nullfont!
 l. ...  }
 ============================================================
 ============================================================
-TEST 5: \rmfamily \bfseries 
+TEST 6: \rmfamily \bfseries 
 ============================================================
-! Font TU/MercuryTextG2(0)/sb/n/10="Mercury Text G2 Bold" at 10.0pt not loadable: Metric (TFM) file or installed font not found.
+! Font TU/MercuryTextG2(0)/b/n/10="Mercury Text G2 Bold" at 10.0pt not loadable: Metric (TFM) file or installed font not found.
 <to be read again> 
                    relax 
 l. ...  }
@@ -176,17 +200,10 @@ Missing character: There is no . ("2E) in font nullfont!
 l. ...  }
 ============================================================
 ============================================================
-TEST 6: \rmfamily \itshape 
+TEST 7: \rmfamily \bfseries \itshape 
 ============================================================
-! Font TU/MercuryTextG2(0)/m/it/10="Mercury Text G2 Italic" at 10.0pt not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l. ...  }
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
+LaTeX Font Warning: Font shape `TU/MercuryTextG2(0)/b/it' undefined
+(Font)              using `TU/MercuryTextG2(0)/b/n' instead on input line ....
 Missing character: There is no M ("4D) in font nullfont!
 Missing character: There is no r ("72) in font nullfont!
 Missing character: There is no . ("2E) in font nullfont!
@@ -234,3 +251,4 @@ l. ...  }
 Missing character: There is no 1 ("31) in font nullfont!
 [1
 ] (nyu22fonts-001.aux)
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.

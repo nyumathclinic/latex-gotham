@@ -15,14 +15,15 @@ explicitly used as package options works.
 \tl_set:Nn \l_tmpa_tl {Mr.~Jock,~TV~quiz~PhD.,~bags~few~lynx.}
 
 \clist_set:Nn \l_tmpa_clist
-  {
-    \sffamily,
-    \sffamily\bfseries,
-    \sffamily\itshape,
-    \rmfamily,
-    \rmfamily\bfseries,
-    \rmfamily\itshape
-  }
+{
+  \sffamily,
+  \sffamily\bfseries,
+  \sffamily\itshape,
+  \sffamily\bfseries\itshape,
+  \rmfamily,
+  \rmfamily\bfseries,
+  \rmfamily\bfseries\itshape
+}
 
 \START
 

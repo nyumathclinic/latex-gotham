@@ -1,0 +1,12 @@
+\input regression-test.tex
+\documentclass{article}
+\title{Test of section title formatting}
+\usepackage[Gotham,Frank Ruhl Libre]{nyu22fonts}
+\usepackage{blindtext}
+\showoutput
+\begin{document}
+\START
+\maketitle
+\blinddocument
+\vfil\break
+\END

@@ -1,0 +1,560 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+luaotfload | aux : font no 53 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 54 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 55 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 55 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 57 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 58 (nil) does not define feature smcp for script latn
+ with language dflt
+Package fontspec Info: Font family 'Gotham(0)' created for font 'Gotham' with
+(fontspec)             options [Ligatures=TeX,FontFace={l}{n}{*
+(fontspec)             Light},FontFace={l}{it}{* Light
+(fontspec)             Italic},FontFace={sb}{n}{* Medium},FontFace={sb}{it}{*
+(fontspec)             Medium Italic},FontFace={b}{n}{*
+(fontspec)             Bold},FontFace={b}{it}{* Bold Italic},UprightFont=*
+(fontspec)             Book,BoldFont=* Medium,ItalicFont=* Book
+(fontspec)             Italic,BoldItalicFont=* Medium Italic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->"GothamLight:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (l/sc) with NFSS spec.: 
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->"GothamLightItalic:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (l/scit) with NFSS spec.: 
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->"GothamMedium:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->"GothamMediumItalic:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"GothamMedium:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"GothamMediumItalic:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"GothamBook:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"GothamBookItalic:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+============================================================
+TEST 1: \sffamily 
+============================================================
+> \box...=
+\hbox(7.34+1.63)x186.94003, direction TLT
+.\TU/Gotham(0)/m/n/10 M
+.\TU/Gotham(0)/m/n/10 r
+.\kern-0.9 (font)
+.\TU/Gotham(0)/m/n/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/m/n/10 J
+.\TU/Gotham(0)/m/n/10 o
+.\TU/Gotham(0)/m/n/10 c
+.\TU/Gotham(0)/m/n/10 k
+.\TU/Gotham(0)/m/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/n/10 T
+.\TU/Gotham(0)/m/n/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/m/n/10 q
+.\TU/Gotham(0)/m/n/10 u
+.\TU/Gotham(0)/m/n/10 i
+.\TU/Gotham(0)/m/n/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 P
+.\TU/Gotham(0)/m/n/10 h
+.\TU/Gotham(0)/m/n/10 D
+.\kern-0.4 (font)
+.\TU/Gotham(0)/m/n/10 .
+.\TU/Gotham(0)/m/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/n/10 b
+.\TU/Gotham(0)/m/n/10 a
+.\TU/Gotham(0)/m/n/10 g
+.\TU/Gotham(0)/m/n/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 f
+.\kern-0.1 (font)
+.\TU/Gotham(0)/m/n/10 e
+.\kern-0.25 (font)
+.\TU/Gotham(0)/m/n/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 l
+.\TU/Gotham(0)/m/n/10 y
+.\TU/Gotham(0)/m/n/10 n
+.\TU/Gotham(0)/m/n/10 x
+.\TU/Gotham(0)/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.36+1.63)x189.86005, direction TLT
+.\TU/Gotham(0)/b/n/10 M
+.\TU/Gotham(0)/b/n/10 r
+.\kern-0.9 (font)
+.\TU/Gotham(0)/b/n/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/b/n/10 J
+.\TU/Gotham(0)/b/n/10 o
+.\TU/Gotham(0)/b/n/10 c
+.\TU/Gotham(0)/b/n/10 k
+.\TU/Gotham(0)/b/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/n/10 T
+.\TU/Gotham(0)/b/n/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/b/n/10 q
+.\TU/Gotham(0)/b/n/10 u
+.\TU/Gotham(0)/b/n/10 i
+.\TU/Gotham(0)/b/n/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 P
+.\TU/Gotham(0)/b/n/10 h
+.\TU/Gotham(0)/b/n/10 D
+.\kern-0.4 (font)
+.\TU/Gotham(0)/b/n/10 .
+.\TU/Gotham(0)/b/n/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/n/10 b
+.\TU/Gotham(0)/b/n/10 a
+.\TU/Gotham(0)/b/n/10 g
+.\TU/Gotham(0)/b/n/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 f
+.\kern-0.1 (font)
+.\TU/Gotham(0)/b/n/10 e
+.\kern-0.25 (font)
+.\TU/Gotham(0)/b/n/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 l
+.\TU/Gotham(0)/b/n/10 y
+.\TU/Gotham(0)/b/n/10 n
+.\TU/Gotham(0)/b/n/10 x
+.\TU/Gotham(0)/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \itshape 
+============================================================
+> \box...=
+\hbox(7.32+1.63)x185.51999, direction TLT
+.\TU/Gotham(0)/m/it/10 M
+.\TU/Gotham(0)/m/it/10 r
+.\kern-0.86 (font)
+.\TU/Gotham(0)/m/it/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/m/it/10 J
+.\TU/Gotham(0)/m/it/10 o
+.\TU/Gotham(0)/m/it/10 c
+.\TU/Gotham(0)/m/it/10 k
+.\TU/Gotham(0)/m/it/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/it/10 T
+.\TU/Gotham(0)/m/it/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/m/it/10 q
+.\TU/Gotham(0)/m/it/10 u
+.\TU/Gotham(0)/m/it/10 i
+.\TU/Gotham(0)/m/it/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/it/10 P
+.\TU/Gotham(0)/m/it/10 h
+.\TU/Gotham(0)/m/it/10 D
+.\kern-0.4 (font)
+.\TU/Gotham(0)/m/it/10 .
+.\TU/Gotham(0)/m/it/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/it/10 b
+.\TU/Gotham(0)/m/it/10 a
+.\TU/Gotham(0)/m/it/10 g
+.\TU/Gotham(0)/m/it/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/it/10 f
+.\kern-0.1 (font)
+.\TU/Gotham(0)/m/it/10 e
+.\kern-0.21 (font)
+.\TU/Gotham(0)/m/it/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/it/10 l
+.\TU/Gotham(0)/m/it/10 y
+.\TU/Gotham(0)/m/it/10 n
+.\kern-0.01 (font)
+.\TU/Gotham(0)/m/it/10 x
+.\TU/Gotham(0)/m/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \sffamily \itshape \bfseries 
+============================================================
+> \box...=
+\hbox(7.35+1.63)x188.81001, direction TLT
+.\TU/Gotham(0)/b/it/10 M
+.\TU/Gotham(0)/b/it/10 r
+.\kern-0.8 (font)
+.\TU/Gotham(0)/b/it/10 .
+.\glue(\spaceskip) 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/b/it/10 J
+.\TU/Gotham(0)/b/it/10 o
+.\TU/Gotham(0)/b/it/10 c
+.\TU/Gotham(0)/b/it/10 k
+.\TU/Gotham(0)/b/it/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/it/10 T
+.\TU/Gotham(0)/b/it/10 V
+.\glue(\spaceskip) 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/b/it/10 q
+.\TU/Gotham(0)/b/it/10 u
+.\TU/Gotham(0)/b/it/10 i
+.\TU/Gotham(0)/b/it/10 z
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 P
+.\TU/Gotham(0)/b/it/10 h
+.\TU/Gotham(0)/b/it/10 D
+.\kern-0.4 (font)
+.\TU/Gotham(0)/b/it/10 .
+.\TU/Gotham(0)/b/it/10 ,
+.\glue(\spaceskip) 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/it/10 b
+.\TU/Gotham(0)/b/it/10 a
+.\TU/Gotham(0)/b/it/10 g
+.\TU/Gotham(0)/b/it/10 s
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 f
+.\kern-0.1 (font)
+.\TU/Gotham(0)/b/it/10 e
+.\kern-0.24 (font)
+.\TU/Gotham(0)/b/it/10 w
+.\glue(\spaceskip) 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/it/10 l
+.\TU/Gotham(0)/b/it/10 y
+.\TU/Gotham(0)/b/it/10 n
+.\kern-0.04 (font)
+.\TU/Gotham(0)/b/it/10 x
+.\TU/Gotham(0)/b/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+Package fontspec Info: Font family 'Montserrat(0)' created for font
+(fontspec)             'Montserrat' with options
+(fontspec)             [Ligatures=TeX,Extension=.otf,FontFace={ul}{n}{*-Thin},FontFace={ul}{it}{*-ThinItalic},FontFace={el}{n}{*-ExtraLight},FontFace={el}{it}{*-ExtraLightItalic},FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={sl}{n}{*-Regular},FontFace={sl}{it}{*-Italic},FontFace={m}{n}{*-Medium},FontFace={m}{it}{*-MediumItalic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBold},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},FontFace={ub}{n}{*-Black},FontFace={ub}{it}{*-BlackItalic},UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-SemiBold,BoldItalicFont=*-SemiBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (ul/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Thin.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (ul/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Thin.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (ul/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ThinItalic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (ul/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ThinItalic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (el/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ExtraLight.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (el/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ExtraLight.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (el/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ExtraLightItalic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (el/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ExtraLightItalic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (l/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Light.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (l/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Light.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (l/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-LightItalic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (l/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-LightItalic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (sl/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Regular.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (sl/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Regular.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (sl/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Italic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (sl/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Italic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Regular.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Regular.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Italic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Italic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-SemiBold.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (sb/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-SemiBold.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-SemiBold.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (sb/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-SemiBold.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-SemiBold.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-SemiBold.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-SemiBoldItalic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-SemiBoldItalic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (eb/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ExtraBold.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (eb/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ExtraBold.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (eb/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ExtraBoldItalic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (eb/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-ExtraBoldItalic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (ub/n) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Black.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (ub/sc) with NFSS spec.:
+(fontspec)             <->"[Montserrat-Black.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - (ub/it) with NFSS spec.:
+(fontspec)             <->"[Montserrat-BlackItalic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             -  (ub/scit) with NFSS spec.:
+(fontspec)             <->"[Montserrat-BlackItalic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+============================================================
+TEST 5: \sffamily 
+============================================================
+> \box...=
+\hbox(7.47+1.99)x184.85324, direction TLT
+.\TU/Montserrat(0)/m/n/10 M
+.\TU/Montserrat(0)/m/n/10 r
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/m/n/10 .
+.\glue(\spaceskip) 3.49333 plus 3.93 minus 0.2911
+.\TU/Montserrat(0)/m/n/10 J
+.\TU/Montserrat(0)/m/n/10 o
+.\TU/Montserrat(0)/m/n/10 c
+.\kern-0.08 (font)
+.\TU/Montserrat(0)/m/n/10 k
+.\kern0.1 (font)
+.\TU/Montserrat(0)/m/n/10 ,
+.\glue(\spaceskip) 2.62 plus 1.6375 minus 0.69867
+.\TU/Montserrat(0)/m/n/10 T
+.\kern-0.05 (font)
+.\TU/Montserrat(0)/m/n/10 V
+.\glue(\spaceskip) 2.62 plus 1.30869 minus 0.8742
+.\TU/Montserrat(0)/m/n/10 q
+.\TU/Montserrat(0)/m/n/10 u
+.\TU/Montserrat(0)/m/n/10 i
+.\TU/Montserrat(0)/m/n/10 z
+.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
+.\TU/Montserrat(0)/m/n/10 P
+.\TU/Montserrat(0)/m/n/10 h
+.\TU/Montserrat(0)/m/n/10 D
+.\kern-0.2 (font)
+.\TU/Montserrat(0)/m/n/10 .
+.\TU/Montserrat(0)/m/n/10 ,
+.\glue(\spaceskip) 2.62 plus 1.6375 minus 0.69867
+.\TU/Montserrat(0)/m/n/10 b
+.\kern-0.03 (font)
+.\TU/Montserrat(0)/m/n/10 a
+.\TU/Montserrat(0)/m/n/10 g
+.\TU/Montserrat(0)/m/n/10 s
+.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
+.\TU/Montserrat(0)/m/n/10 f
+.\kern-0.09 (font)
+.\TU/Montserrat(0)/m/n/10 e
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/m/n/10 w
+.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
+.\TU/Montserrat(0)/m/n/10 l
+.\TU/Montserrat(0)/m/n/10 y
+.\TU/Montserrat(0)/m/n/10 n
+.\TU/Montserrat(0)/m/n/10 x
+.\TU/Montserrat(0)/m/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.72+2.01)x192.41995, direction TLT
+.\TU/Montserrat(0)/b/n/10 M
+.\TU/Montserrat(0)/b/n/10 r
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/b/n/10 .
+.\glue(\spaceskip) 3.68 plus 4.14001 minus 0.30666
+.\TU/Montserrat(0)/b/n/10 J
+.\TU/Montserrat(0)/b/n/10 o
+.\TU/Montserrat(0)/b/n/10 c
+.\kern-0.05 (font)
+.\TU/Montserrat(0)/b/n/10 k
+.\kern0.1 (font)
+.\TU/Montserrat(0)/b/n/10 ,
+.\glue(\spaceskip) 2.76 plus 1.725 minus 0.736
+.\TU/Montserrat(0)/b/n/10 T
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/b/n/10 V
+.\glue(\spaceskip) 2.76 plus 1.37862 minus 0.92091
+.\TU/Montserrat(0)/b/n/10 q
+.\TU/Montserrat(0)/b/n/10 u
+.\TU/Montserrat(0)/b/n/10 i
+.\TU/Montserrat(0)/b/n/10 z
+.\glue(\spaceskip) 2.76 plus 1.38 minus 0.92
+.\TU/Montserrat(0)/b/n/10 P
+.\TU/Montserrat(0)/b/n/10 h
+.\TU/Montserrat(0)/b/n/10 D
+.\kern-0.2 (font)
+.\TU/Montserrat(0)/b/n/10 .
+.\TU/Montserrat(0)/b/n/10 ,
+.\glue(\spaceskip) 2.76 plus 1.725 minus 0.736
+.\TU/Montserrat(0)/b/n/10 b
+.\kern-0.07 (font)
+.\TU/Montserrat(0)/b/n/10 a
+.\kern0.01 (font)
+.\TU/Montserrat(0)/b/n/10 g
+.\TU/Montserrat(0)/b/n/10 s
+.\glue(\spaceskip) 2.76 plus 1.38 minus 0.92
+.\TU/Montserrat(0)/b/n/10 f
+.\kern-0.08 (font)
+.\TU/Montserrat(0)/b/n/10 e
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/b/n/10 w
+.\glue(\spaceskip) 2.76 plus 1.38 minus 0.92
+.\TU/Montserrat(0)/b/n/10 l
+.\TU/Montserrat(0)/b/n/10 y
+.\TU/Montserrat(0)/b/n/10 n
+.\TU/Montserrat(0)/b/n/10 x
+.\TU/Montserrat(0)/b/n/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 7: \sffamily \itshape 
+============================================================
+> \box...=
+\hbox(7.47+1.99)x185.65324, direction TLT
+.\TU/Montserrat(0)/m/it/10 M
+.\TU/Montserrat(0)/m/it/10 r
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/m/it/10 .
+.\glue(\spaceskip) 3.49333 plus 3.93 minus 0.2911
+.\TU/Montserrat(0)/m/it/10 J
+.\TU/Montserrat(0)/m/it/10 o
+.\TU/Montserrat(0)/m/it/10 c
+.\kern-0.08 (font)
+.\TU/Montserrat(0)/m/it/10 k
+.\kern0.1 (font)
+.\TU/Montserrat(0)/m/it/10 ,
+.\glue(\spaceskip) 2.62 plus 1.6375 minus 0.69867
+.\TU/Montserrat(0)/m/it/10 T
+.\kern-0.05 (font)
+.\TU/Montserrat(0)/m/it/10 V
+.\glue(\spaceskip) 2.62 plus 1.30869 minus 0.8742
+.\TU/Montserrat(0)/m/it/10 q
+.\TU/Montserrat(0)/m/it/10 u
+.\TU/Montserrat(0)/m/it/10 i
+.\TU/Montserrat(0)/m/it/10 z
+.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
+.\TU/Montserrat(0)/m/it/10 P
+.\TU/Montserrat(0)/m/it/10 h
+.\TU/Montserrat(0)/m/it/10 D
+.\kern-0.2 (font)
+.\TU/Montserrat(0)/m/it/10 .
+.\TU/Montserrat(0)/m/it/10 ,
+.\glue(\spaceskip) 2.62 plus 1.6375 minus 0.69867
+.\TU/Montserrat(0)/m/it/10 b
+.\TU/Montserrat(0)/m/it/10 a
+.\TU/Montserrat(0)/m/it/10 g
+.\TU/Montserrat(0)/m/it/10 s
+.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
+.\TU/Montserrat(0)/m/it/10 f
+.\kern-0.09 (font)
+.\TU/Montserrat(0)/m/it/10 e
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/m/it/10 w
+.\glue(\spaceskip) 2.62 plus 1.31 minus 0.87334
+.\TU/Montserrat(0)/m/it/10 l
+.\TU/Montserrat(0)/m/it/10 y
+.\TU/Montserrat(0)/m/it/10 n
+.\TU/Montserrat(0)/m/it/10 x
+.\TU/Montserrat(0)/m/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 8: \sffamily \itshape \bfseries 
+============================================================
+> \box...=
+\hbox(7.72+2.01)x193.15996, direction TLT
+.\TU/Montserrat(0)/b/it/10 M
+.\TU/Montserrat(0)/b/it/10 r
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/b/it/10 .
+.\glue(\spaceskip) 3.68 plus 4.14001 minus 0.30666
+.\TU/Montserrat(0)/b/it/10 J
+.\TU/Montserrat(0)/b/it/10 o
+.\TU/Montserrat(0)/b/it/10 c
+.\kern-0.05 (font)
+.\TU/Montserrat(0)/b/it/10 k
+.\kern0.1 (font)
+.\TU/Montserrat(0)/b/it/10 ,
+.\glue(\spaceskip) 2.76 plus 1.725 minus 0.736
+.\TU/Montserrat(0)/b/it/10 T
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/b/it/10 V
+.\glue(\spaceskip) 2.76 plus 1.37862 minus 0.92091
+.\TU/Montserrat(0)/b/it/10 q
+.\TU/Montserrat(0)/b/it/10 u
+.\TU/Montserrat(0)/b/it/10 i
+.\TU/Montserrat(0)/b/it/10 z
+.\glue(\spaceskip) 2.76 plus 1.38 minus 0.92
+.\TU/Montserrat(0)/b/it/10 P
+.\TU/Montserrat(0)/b/it/10 h
+.\TU/Montserrat(0)/b/it/10 D
+.\kern-0.2 (font)
+.\TU/Montserrat(0)/b/it/10 .
+.\TU/Montserrat(0)/b/it/10 ,
+.\glue(\spaceskip) 2.76 plus 1.725 minus 0.736
+.\TU/Montserrat(0)/b/it/10 b
+.\TU/Montserrat(0)/b/it/10 a
+.\TU/Montserrat(0)/b/it/10 g
+.\TU/Montserrat(0)/b/it/10 s
+.\glue(\spaceskip) 2.76 plus 1.38 minus 0.92
+.\TU/Montserrat(0)/b/it/10 f
+.\kern-0.08 (font)
+.\TU/Montserrat(0)/b/it/10 e
+.\kern-0.1 (font)
+.\TU/Montserrat(0)/b/it/10 w
+.\glue(\spaceskip) 2.76 plus 1.38 minus 0.92
+.\TU/Montserrat(0)/b/it/10 l
+.\TU/Montserrat(0)/b/it/10 y
+.\TU/Montserrat(0)/b/it/10 n
+.\TU/Montserrat(0)/b/it/10 x
+.\TU/Montserrat(0)/b/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-012.aux)

@@ -405,17 +405,17 @@
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_gotham: {
   \setsansfont{Gotham}[
-    UprightFont=*~Book,
-    BoldFont=*~Medium,
-    ItalicFont=*~Book~Italic,
     FontFace={l}{n}{*~Light},
     FontFace={l}{it}{*~Light~Italic},
     FontFace={sb}{n}{*~Medium},
     FontFace={sb}{it}{*~Medium~Italic},
     FontFace={b}{n}{*~Bold},
     FontFace={b}{it}{*~Bold~Italic},
+    UprightFont=*~Book,
+    BoldFont=*~Medium,
+    ItalicFont=*~Book~Italic,
+    BoldItalicFont=*~Medium~Italic
   ]
-  \renewcommand{\bfdefault}{sb}
 }
 %    \end{macrocode}  
 % \end{macro}
@@ -437,11 +437,50 @@
 %
 % \begin{macro}{\__nyufonts_set_montserrat:}
 % Set the default sans family to Montserrat. There is already a
-% \pkg{montserrat} package with a \filenm{montserrat.fontspec} file, so we just
-% have to load it.
+% \pkg{montserrat} package with a \filenm{montserrat.fontspec} file, but we
+% want to use all the available weights.
+%
+% \begin{tabular}{ll}
+%     Official weight & \acro{NFSS} weight & \acro{NFSS} code \\
+%     \hline
+%     Thin            & Ultra Light        & \texttt{ul}      \\
+%     ExtraLight      & Extra Light        & \texttt{el}      \\
+%     Light           & Light              & \texttt{l}       \\
+%     Regular         & Semi Light         & \texttt{sl}      \\
+%     Medium          & Medium             & \texttt{m}       \\
+%     SemiBold        & Semi Bold          & \texttt{sb}      \\
+%     Bold            & Bold               & \texttt{b}       \\
+%     ExtraBold       & Extra Bold         & \texttt{eb}      \\
+%     Black           & Ultra Bold         & \texttt{ub}   
+% \end{tabular}
+  
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_montserrat: {
-  \setsansfont{montserrat}
+  \setsansfont{Montserrat}[
+    Extension = .otf,
+    FontFace={ul}{n}{*-Thin},
+    FontFace={ul}{it}{*-ThinItalic},    
+    FontFace={el}{n}{*-ExtraLight},
+    FontFace={el}{it}{*-ExtraLightItalic},    
+    FontFace={l}{n}{*-Light},
+    FontFace={l}{it}{*-LightItalic},    
+    FontFace={sl}{n}{*-Regular},
+    FontFace={sl}{it}{*-Italic},    
+    FontFace={m}{n}{*-Medium},
+    FontFace={m}{it}{*-MediumItalic},    
+    FontFace={sb}{n}{*-SemiBold},
+    FontFace={sb}{it}{*-SemiBold},    
+    FontFace={b}{n}{*-Bold},
+    FontFace={b}{it}{*-BoldItalic},    
+    FontFace={eb}{n}{*-ExtraBold},
+    FontFace={eb}{it}{*-ExtraBoldItalic},    
+    FontFace={ub}{n}{*-Black},
+    FontFace={ub}{it}{*-BlackItalic},    
+    UprightFont = *-Regular ,
+    ItalicFont = *-Italic ,
+    BoldFont = *-SemiBold ,
+    BoldItalicFont = *-SemiBoldItalic ,
+  ]
 }
 %    \end{macrocode}
 % \end{macro}
@@ -453,7 +492,9 @@
 \cs_new:Nn \__nyufonts_set_frank_ruhl_libre: {
   \setmainfont{Frank~Ruhl~Libre}[
     ItalicFont=*,
-    ItalicFeatures={FakeSlant}
+    ItalicFeatures={FakeSlant},
+    BoldItalicFont=*~Bold,
+    BoldItalicFeatures={FakeSlant},
   ]
 }
 %    \end{macrocode}

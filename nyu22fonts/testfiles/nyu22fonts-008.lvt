@@ -20,9 +20,10 @@ requiring Type~1 fonts outside of the preamble will give an error.
     \sffamily,
     \sffamily\bfseries,
     \sffamily\itshape,
+    \sffamily\bfseries\itshape,
     \rmfamily,
     \rmfamily\bfseries,
-    \rmfamily\itshape
+    \rmfamily\bfseries\itshape
   }
 
 \START

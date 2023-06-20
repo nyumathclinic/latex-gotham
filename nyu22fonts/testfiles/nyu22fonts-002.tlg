@@ -142,7 +142,54 @@ TEST 3: \sffamily \itshape
 l. ...  }
 ============================================================
 ============================================================
-TEST 4: \rmfamily 
+TEST 4: \sffamily \bfseries \itshape 
+============================================================
+> \box...=
+\hbox(7.27051+2.17773)x182.07356, direction TLT
+.\TU/Helvetica(0)/b/it/10 M
+.\TU/Helvetica(0)/b/it/10 r
+.\TU/Helvetica(0)/b/it/10 .
+.\glue(\spaceskip) 3.70442 plus 4.16748 minus 0.3087
+.\TU/Helvetica(0)/b/it/10 J
+.\TU/Helvetica(0)/b/it/10 o
+.\TU/Helvetica(0)/b/it/10 c
+.\TU/Helvetica(0)/b/it/10 k
+.\TU/Helvetica(0)/b/it/10 ,
+.\glue(\spaceskip) 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/b/it/10 T
+.\TU/Helvetica(0)/b/it/10 V
+.\glue(\spaceskip) 2.77832 plus 1.38776 minus 0.92702
+.\TU/Helvetica(0)/b/it/10 q
+.\TU/Helvetica(0)/b/it/10 u
+.\TU/Helvetica(0)/b/it/10 i
+.\TU/Helvetica(0)/b/it/10 z
+.\glue(\spaceskip) 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/it/10 P
+.\TU/Helvetica(0)/b/it/10 h
+.\TU/Helvetica(0)/b/it/10 D
+.\TU/Helvetica(0)/b/it/10 .
+.\TU/Helvetica(0)/b/it/10 ,
+.\glue(\spaceskip) 2.77832 plus 1.73645 minus 0.74088
+.\TU/Helvetica(0)/b/it/10 b
+.\TU/Helvetica(0)/b/it/10 a
+.\TU/Helvetica(0)/b/it/10 g
+.\TU/Helvetica(0)/b/it/10 s
+.\glue(\spaceskip) 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/it/10 f
+.\TU/Helvetica(0)/b/it/10 e
+.\TU/Helvetica(0)/b/it/10 w
+.\glue(\spaceskip) 2.77832 plus 1.38916 minus 0.9261
+.\TU/Helvetica(0)/b/it/10 l
+.\TU/Helvetica(0)/b/it/10 y
+.\TU/Helvetica(0)/b/it/10 n
+.\TU/Helvetica(0)/b/it/10 x
+.\TU/Helvetica(0)/b/it/10 .
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily 
 ============================================================
 > \box...=
 \hbox(6.94336+2.1582)x160.8138, direction TLT
@@ -189,7 +236,7 @@ TEST 4: \rmfamily
 l. ...  }
 ============================================================
 ============================================================
-TEST 5: \rmfamily \bfseries 
+TEST 6: \rmfamily \bfseries 
 ============================================================
 > \box...=
 \hbox(6.77734+2.1582)x168.61653, direction TLT
@@ -236,49 +283,49 @@ TEST 5: \rmfamily \bfseries
 l. ...  }
 ============================================================
 ============================================================
-TEST 6: \rmfamily \itshape 
+TEST 7: \rmfamily \bfseries \itshape 
 ============================================================
 > \box...=
-\hbox(6.94336+2.1582)x156.18489, direction TLT
-.\TU/TimesNewRoman(0)/m/it/10 M
-.\TU/TimesNewRoman(0)/m/it/10 r
-.\kern-1.1084 (font)
-.\TU/TimesNewRoman(0)/m/it/10 .
+\hbox(6.77246+2.1582)x162.33235, direction TLT
+.\TU/TimesNewRoman(0)/b/it/10 M
+.\TU/TimesNewRoman(0)/b/it/10 r
+.\kern-0.55176 (font)
+.\TU/TimesNewRoman(0)/b/it/10 .
 .\glue(\spaceskip) 3.33333 plus 3.75 minus 0.27777
-.\TU/TimesNewRoman(0)/m/it/10 J
-.\TU/TimesNewRoman(0)/m/it/10 o
-.\TU/TimesNewRoman(0)/m/it/10 c
-.\TU/TimesNewRoman(0)/m/it/10 k
-.\TU/TimesNewRoman(0)/m/it/10 ,
+.\TU/TimesNewRoman(0)/b/it/10 J
+.\TU/TimesNewRoman(0)/b/it/10 o
+.\TU/TimesNewRoman(0)/b/it/10 c
+.\TU/TimesNewRoman(0)/b/it/10 k
+.\TU/TimesNewRoman(0)/b/it/10 ,
 .\glue(\spaceskip) 2.5 plus 1.5625 minus 0.66666
-.\TU/TimesNewRoman(0)/m/it/10 T
-.\TU/TimesNewRoman(0)/m/it/10 V
+.\TU/TimesNewRoman(0)/b/it/10 T
+.\TU/TimesNewRoman(0)/b/it/10 V
 .\glue(\spaceskip) 2.31934 plus 1.24875 minus 0.83415
-.\TU/TimesNewRoman(0)/m/it/10 q
-.\TU/TimesNewRoman(0)/m/it/10 u
-.\TU/TimesNewRoman(0)/m/it/10 i
-.\TU/TimesNewRoman(0)/m/it/10 z
+.\TU/TimesNewRoman(0)/b/it/10 q
+.\TU/TimesNewRoman(0)/b/it/10 u
+.\TU/TimesNewRoman(0)/b/it/10 i
+.\TU/TimesNewRoman(0)/b/it/10 z
 .\glue(\spaceskip) 2.5 plus 1.25 minus 0.83333
-.\TU/TimesNewRoman(0)/m/it/10 P
-.\TU/TimesNewRoman(0)/m/it/10 h
-.\TU/TimesNewRoman(0)/m/it/10 D
-.\TU/TimesNewRoman(0)/m/it/10 .
-.\TU/TimesNewRoman(0)/m/it/10 ,
+.\TU/TimesNewRoman(0)/b/it/10 P
+.\TU/TimesNewRoman(0)/b/it/10 h
+.\TU/TimesNewRoman(0)/b/it/10 D
+.\TU/TimesNewRoman(0)/b/it/10 .
+.\TU/TimesNewRoman(0)/b/it/10 ,
 .\glue(\spaceskip) 2.5 plus 1.5625 minus 0.66666
-.\TU/TimesNewRoman(0)/m/it/10 b
-.\TU/TimesNewRoman(0)/m/it/10 a
-.\TU/TimesNewRoman(0)/m/it/10 g
-.\TU/TimesNewRoman(0)/m/it/10 s
+.\TU/TimesNewRoman(0)/b/it/10 b
+.\TU/TimesNewRoman(0)/b/it/10 a
+.\TU/TimesNewRoman(0)/b/it/10 g
+.\TU/TimesNewRoman(0)/b/it/10 s
 .\glue(\spaceskip) 2.5 plus 1.25 minus 0.83333
-.\TU/TimesNewRoman(0)/m/it/10 f
-.\TU/TimesNewRoman(0)/m/it/10 e
-.\TU/TimesNewRoman(0)/m/it/10 w
+.\TU/TimesNewRoman(0)/b/it/10 f
+.\TU/TimesNewRoman(0)/b/it/10 e
+.\TU/TimesNewRoman(0)/b/it/10 w
 .\glue(\spaceskip) 2.5 plus 1.25 minus 0.83333
-.\TU/TimesNewRoman(0)/m/it/10 l
-.\TU/TimesNewRoman(0)/m/it/10 y
-.\TU/TimesNewRoman(0)/m/it/10 n
-.\TU/TimesNewRoman(0)/m/it/10 x
-.\TU/TimesNewRoman(0)/m/it/10 .
+.\TU/TimesNewRoman(0)/b/it/10 l
+.\TU/TimesNewRoman(0)/b/it/10 y
+.\TU/TimesNewRoman(0)/b/it/10 n
+.\TU/TimesNewRoman(0)/b/it/10 x
+.\TU/TimesNewRoman(0)/b/it/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }

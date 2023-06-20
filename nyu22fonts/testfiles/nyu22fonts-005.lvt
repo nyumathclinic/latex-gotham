@@ -22,9 +22,10 @@ set as package options works.
     \sffamily,
     \sffamily\bfseries,
     \sffamily\itshape,
+    \sffamily\bfseries\itshape,
     \rmfamily,
     \rmfamily\bfseries,
-    \rmfamily\itshape
+    \rmfamily\bfseries\itshape
   }
 
 \START

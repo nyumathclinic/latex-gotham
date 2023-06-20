@@ -5,21 +5,21 @@ TEST 1: \sffamily
 ============================================================
 > \box...=
 \hbox(7.47+1.98999)x184.85327
-.\TU/montserrat(0)/m/n/10 Mr.
+.\TU/Montserrat(0)/m/n/10 Mr.
 .\glue 3.49332 plus 3.93 minus 0.2911
-.\TU/montserrat(0)/m/n/10 Jock,
+.\TU/Montserrat(0)/m/n/10 Jock,
 .\glue 2.62 plus 1.6375 minus 0.69865
-.\TU/montserrat(0)/m/n/10 TV
+.\TU/Montserrat(0)/m/n/10 TV
 .\glue 2.62 plus 1.30869 minus 0.87419
-.\TU/montserrat(0)/m/n/10 quiz
+.\TU/Montserrat(0)/m/n/10 quiz
 .\glue 2.62 plus 1.31 minus 0.87332
-.\TU/montserrat(0)/m/n/10 PhD.,
+.\TU/Montserrat(0)/m/n/10 PhD.,
 .\glue 2.62 plus 1.6375 minus 0.69865
-.\TU/montserrat(0)/m/n/10 bags
+.\TU/Montserrat(0)/m/n/10 bags
 .\glue 2.62 plus 1.31 minus 0.87332
-.\TU/montserrat(0)/m/n/10 few
+.\TU/Montserrat(0)/m/n/10 few
 .\glue 2.62 plus 1.31 minus 0.87332
-.\TU/montserrat(0)/m/n/10 lynx.
+.\TU/Montserrat(0)/m/n/10 lynx.
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -28,22 +28,22 @@ l. ...  }
 TEST 2: \sffamily \bfseries 
 ============================================================
 > \box...=
-\hbox(7.87+2.01999)x196.71335
-.\TU/montserrat(0)/b/n/10 Mr.
-.\glue 3.77333 plus 4.24498 minus 0.31444
-.\TU/montserrat(0)/b/n/10 Jock,
-.\glue 2.83 plus 1.76874 minus 0.75465
-.\TU/montserrat(0)/b/n/10 TV
-.\glue 2.83 plus 1.41357 minus 0.94426
-.\TU/montserrat(0)/b/n/10 quiz
-.\glue 2.83 plus 1.415 minus 0.94333
-.\TU/montserrat(0)/b/n/10 PhD.,
-.\glue 2.83 plus 1.76874 minus 0.75465
-.\TU/montserrat(0)/b/n/10 bags
-.\glue 2.83 plus 1.415 minus 0.94333
-.\TU/montserrat(0)/b/n/10 few
-.\glue 2.83 plus 1.415 minus 0.94333
-.\TU/montserrat(0)/b/n/10 lynx.
+\hbox(7.72+2.00998)x192.41998
+.\TU/Montserrat(0)/b/n/10 Mr.
+.\glue 3.68 plus 4.13997 minus 0.30666
+.\TU/Montserrat(0)/b/n/10 Jock,
+.\glue 2.76 plus 1.72498 minus 0.736
+.\TU/Montserrat(0)/b/n/10 TV
+.\glue 2.76 plus 1.3786 minus 0.92091
+.\TU/Montserrat(0)/b/n/10 quiz
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/n/10 PhD.,
+.\glue 2.76 plus 1.72498 minus 0.736
+.\TU/Montserrat(0)/b/n/10 bags
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/n/10 few
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/n/10 lynx.
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -53,27 +53,51 @@ TEST 3: \sffamily \itshape
 ============================================================
 > \box...=
 \hbox(7.47+1.98999)x185.65327
-.\TU/montserrat(0)/m/it/10 Mr.
+.\TU/Montserrat(0)/m/it/10 Mr.
 .\glue 3.49332 plus 3.93 minus 0.2911
-.\TU/montserrat(0)/m/it/10 Jock,
+.\TU/Montserrat(0)/m/it/10 Jock,
 .\glue 2.62 plus 1.6375 minus 0.69865
-.\TU/montserrat(0)/m/it/10 TV
+.\TU/Montserrat(0)/m/it/10 TV
 .\glue 2.62 plus 1.30869 minus 0.87419
-.\TU/montserrat(0)/m/it/10 quiz
+.\TU/Montserrat(0)/m/it/10 quiz
 .\glue 2.62 plus 1.31 minus 0.87332
-.\TU/montserrat(0)/m/it/10 PhD.,
+.\TU/Montserrat(0)/m/it/10 PhD.,
 .\glue 2.62 plus 1.6375 minus 0.69865
-.\TU/montserrat(0)/m/it/10 bags
+.\TU/Montserrat(0)/m/it/10 bags
 .\glue 2.62 plus 1.31 minus 0.87332
-.\TU/montserrat(0)/m/it/10 few
+.\TU/Montserrat(0)/m/it/10 few
 .\glue 2.62 plus 1.31 minus 0.87332
-.\TU/montserrat(0)/m/it/10 lynx.
+.\TU/Montserrat(0)/m/it/10 lynx.
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
 ============================================================
-TEST 4: \rmfamily 
+TEST 4: \sffamily \bfseries \itshape 
+============================================================
+> \box...=
+\hbox(7.72+2.00998)x193.15997
+.\TU/Montserrat(0)/b/it/10 Mr.
+.\glue 3.68 plus 4.13997 minus 0.30666
+.\TU/Montserrat(0)/b/it/10 Jock,
+.\glue 2.76 plus 1.72498 minus 0.736
+.\TU/Montserrat(0)/b/it/10 TV
+.\glue 2.76 plus 1.3786 minus 0.92091
+.\TU/Montserrat(0)/b/it/10 quiz
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/it/10 PhD.,
+.\glue 2.76 plus 1.72498 minus 0.736
+.\TU/Montserrat(0)/b/it/10 bags
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/it/10 few
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/it/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: \rmfamily 
 ============================================================
 > \box...=
 \hbox(7.05+2.11998)x165.26666
@@ -97,7 +121,7 @@ TEST 4: \rmfamily
 l. ...  }
 ============================================================
 ============================================================
-TEST 5: \rmfamily \bfseries 
+TEST 6: \rmfamily \bfseries 
 ============================================================
 > \box...=
 \hbox(7.04+2.11998)x173.07002
@@ -121,25 +145,25 @@ TEST 5: \rmfamily \bfseries
 l. ...  }
 ============================================================
 ============================================================
-TEST 6: \rmfamily \itshape 
+TEST 7: \rmfamily \bfseries \itshape 
 ============================================================
 > \box...=
-\hbox(7.05+2.11998)x165.26666
-.\TU/FrankRuhlLibre(0)/m/it/10 Mr.
-.\glue 3.18666 plus 3.58498 minus 0.26555
-.\TU/FrankRuhlLibre(0)/m/it/10 Jock,
-.\glue 2.39 plus 1.49373 minus 0.63733
-.\TU/FrankRuhlLibre(0)/m/it/10 TV
-.\glue 2.39 plus 1.19379 minus 0.79745
-.\TU/FrankRuhlLibre(0)/m/it/10 quiz
-.\glue 2.39 plus 1.19499 minus 0.79666
-.\TU/FrankRuhlLibre(0)/m/it/10 PhD.,
-.\glue 2.39 plus 1.49373 minus 0.63733
-.\TU/FrankRuhlLibre(0)/m/it/10 bags
-.\glue 2.39 plus 1.19499 minus 0.79666
-.\TU/FrankRuhlLibre(0)/m/it/10 few
-.\glue 2.39 plus 1.19499 minus 0.79666
-.\TU/FrankRuhlLibre(0)/m/it/10 lynx.
+\hbox(7.04+2.11998)x173.07002
+.\TU/FrankRuhlLibre(0)/b/it/10 Mr.
+.\glue 2.95999 plus 3.33 minus 0.24666
+.\TU/FrankRuhlLibre(0)/b/it/10 Jock,
+.\glue 2.22 plus 1.3875 minus 0.59198
+.\TU/FrankRuhlLibre(0)/b/it/10 TV
+.\glue 2.22 plus 1.10889 minus 0.74072
+.\TU/FrankRuhlLibre(0)/b/it/10 quiz
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/it/10 PhD.,
+.\glue 2.22 plus 1.3875 minus 0.59198
+.\TU/FrankRuhlLibre(0)/b/it/10 bags
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/it/10 few
+.\glue 2.22 plus 1.11 minus 0.73999
+.\TU/FrankRuhlLibre(0)/b/it/10 lynx.
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
