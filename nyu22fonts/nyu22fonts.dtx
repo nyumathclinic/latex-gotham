@@ -1,9 +1,9 @@
 %
 % \iffalse
 %<*driver>
-\ProvidesFile{nyu22fonts.dtx}[2023/06/15 v1.0a NYU Typefaces and Fonts]
+\ProvidesFile{nyu22fonts.dtx}[2023/06/20 v1.1 NYU Typefaces and Fonts]
 %</driver>
-%<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/15}{v1.0a}{NYU Typefaces and Fonts}
+%<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/20}{v1.1}{NYU Typefaces and Fonts}
 %<*driver>
 \documentclass[11pt]{ltxdoc}
 \usepackage{dtxdescribe}
@@ -404,7 +404,7 @@
 % \subsubsection{Proprietary fonts}
 %
 % \begin{macro}{\__nyufonts_set_gotham:}
-% \changes{unreleased}{2023/06/19}{Assign all available (licensed) weights to \acro{NFSS} series}
+% \changes{v1.1}{2023/06/19}{Assign all available (licensed) weights to \acro{NFSS} series}
 % Set the default sans family to Gotham.
 %
 % We use both the \pkg{fontspec} and \acro{NFSS} methods for choosing font
@@ -464,7 +464,7 @@
 % \subsubsection{Open fonts}
 %
 % \begin{macro}{\__nyufonts_set_montserrat:}
-% \changes{unreleased}{2023/06/20}{Assign all available weights to \acro{NFSS} series}
+% \changes{v1.1}{2023/06/20}{Assign all available weights to \acro{NFSS} series}
 % Set the default sans family to Montserrat. There is already a
 % \pkg{montserrat} package with a \filenm{montserrat.fontspec} file, but we
 % want to use all the available weights.
@@ -519,7 +519,7 @@
 %
 % \begin{macro}{\__nyufonts_set_frank_ruhl_libre:}
 % \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}
-% \changes{unreleased}{2023/06/20}{Assign all available weights}
+% \changes{v1.1}{2023/06/20}{Assign all available weights}
 % Set the default roman family to Frank Ruhl Libre.
 % We assign all the weights available in the Google Font download package.
 %
@@ -538,7 +538,7 @@
 % \pkg{fontspec} options to fake it. 
 %
 % \begin{macro}{\l__nyufonts_slant_fp:}
-% \changes{unreleased}{2023/06/20}{Add this variable to match specified skew}
+% \changes{v1.1}{2023/06/20}{Add this variable to match specified skew}
 % The argument to \PrintDescribeKey{FakeSlant} is apparently (see 
 % \cite{ctt-fakeslant}) the ratio of horizontal skew to vertical distance. 
 % We use $\tan(\ang{14}) \approx \num{0.24932800284}$.
