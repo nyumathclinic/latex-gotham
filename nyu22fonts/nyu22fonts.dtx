@@ -1,9 +1,9 @@
 %
 % \iffalse
 %<*driver>
-\ProvidesFile{nyu22fonts.dtx}[2023/06/20 v1.1 NYU Typefaces and Fonts]
+\ProvidesFile{nyu22fonts.dtx}[2023/06/22 v1.2 NYU Typefaces and Fonts]
 %</driver>
-%<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/20}{v1.1}{NYU Typefaces and Fonts}
+%<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/22}{v1.2}{NYU Typefaces and Fonts}
 %<*driver>
 \documentclass[11pt]{ltxdoc}
 \usepackage{dtxdescribe}
@@ -403,7 +403,7 @@
 % environment.~\cite{pkg-interface3}
 %
 % Can we use \texttt{fontspec}? If so, load it.
-% \changes{unreleased}{2023/06/22}{Drop a global boolean variable and use \cs{IfClassLoadedTF} instead}
+% \changes{v1.2}{2023/06/22}{Drop a global boolean variable and use \cs{IfClassLoadedTF} instead}
 %    \begin{macrocode}
 \msg_new:nnnn { nyu22fonts } { needsfontspec }{
   Option~`#1'~requires~xelatex~or~lualatex.
@@ -441,7 +441,7 @@
 % \begin{macro}{\__nyufonts_set_gotham:}
 % \changes{v1.1}{2023/06/19}{Assign all available (licensed) weights to \acro{NFSS} series}
 % Set the default sans family to Gotham.
-% \changes{unreleased}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Helvetica}
+% \changes{v1.2}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Helvetica}
 %
 % We use both the \pkg{fontspec} and \acro{NFSS} methods for choosing font
 % faces, so that we can assign all the weights provided in the licensed
@@ -492,7 +492,7 @@
 % \end{macro}
 %
 % \begin{macro}{\__nyufonts_set_mercury_text:}
-% \changes{unreleased}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Charter}
+% \changes{v1.2}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Charter}
 % Set the default roman family to Mercury Text Grade~2.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_mercury_text: {
@@ -516,7 +516,7 @@
 %
 % \begin{macro}{\__nyufonts_set_montserrat:}
 % \changes{v1.1}{2023/06/20}{Assign all available weights to \acro{NFSS} series}
-% \changes{unreleased}{2023/06/21}{If \pkg{fontspec} is unavailable, fall back to the non-fontspec version}
+% \changes{v1.2}{2023/06/21}{If \pkg{fontspec} is unavailable, fall back to the non-fontspec version}
 % Set the default sans family to Montserrat. There is already a
 % \pkg{montserrat} package with a \filenm{montserrat.fontspec} file, but we
 % want to use all the available weights.
@@ -578,7 +578,7 @@
 % \begin{macro}{\__nyufonts_set_frank_ruhl_libre:}
 % \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}
 % \changes{v1.1}{2023/06/20}{Assign all available weights}
-% \changes{unreleased}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Charter}
+% \changes{v1.2}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Charter}
 % Set the default roman family to Frank Ruhl Libre.
 % We assign all the weights available in the Google Font download package.
 %
