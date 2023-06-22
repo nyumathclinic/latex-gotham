@@ -6,6 +6,8 @@ For immediate help type H <return>.
 l. ...\nyufontssetup{Gotham}
 The option `Gotham' requires the xetex or luatex engines and cannot be used
 with pdftex.
+Package nyu22fonts Warning: Font `Gotham' unavailable; substituting
+(nyu22fonts)                `Montserrat Type 1'.
 ! LaTeX Error: Can be used only in preamble.
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -231,6 +233,8 @@ LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
+Package nyu22fonts Warning: Font `Montserrat TrueType' unavailable;
+(nyu22fonts)                substituting `Montserrat Type 1'.
 ! LaTeX Error: Can be used only in preamble.
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.

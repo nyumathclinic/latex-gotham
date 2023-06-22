@@ -1,5 +1,7 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
+Package nyu22fonts Warning: Font `Montserrat TrueType' unavailable;
+(nyu22fonts)                substituting `Montserrat Type 1'.
 ! LaTeX Error: Can be used only in preamble.
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.

@@ -197,8 +197,9 @@
 % \caption{Montserrat and its weights (from~\cite{nyu-fonts})}
 % \label{fig-montserrat}
 % \end{figure}
-% Montserrat (see Figure~\ref{fig-montserrat}) is a TrueType font that is
+% Montserrat (see Figure~\ref{fig-montserrat}) is a font that is
 % included in \hologo{TeX}~Live. So you won't need to install it separately.
+% Both Type~1 and TrueType encodings are available.
 %
 % \subsubsection{Frank Ruhl Libre}
 % 
@@ -289,6 +290,7 @@
 %      \item the default italic sans font to Montserrat Italic
 %    \end{itemize}
 %    Like Gotham, Montserrat comes in a variety of weights.
+%    These are installed if \pkg{fontspec} is in use.
 %    \begin{itemize}
 %       \item use \verb|\fontseries{ul}\selectfont| to get Montserrat Thin
 %       \item use \verb|\fontseries{el}\selectfont| to get Montserrat Extra Light
@@ -401,19 +403,20 @@
 % environment.~\cite{pkg-interface3}
 %
 % Can we use \texttt{fontspec}? If so, load it.
+% \changes{unreleased}{2023/06/22}{Drop a global boolean variable and use \cs{IfClassLoadedTF} instead}
 %    \begin{macrocode}
-\bool_new:N \g__nyufonts_fontspec_bool
-\bool_gset_false:N \g__nyufonts_fontspec_bool
-\sys_if_engine_luatex:T { \bool_gset_true:N \g__nyufonts_fontspec_bool }
-\sys_if_engine_xetex:T  { \bool_gset_true:N \g__nyufonts_fontspec_bool }
-
-\bool_if:NT \g__nyufonts_fontspec_bool { \RequirePackage{fontspec}}
-
 \msg_new:nnnn { nyu22fonts } { needsfontspec }{
   Option~`#1'~requires~xelatex~or~lualatex.
 }{
   The~option~`#1'~requires~the~xetex~or~luatex~engines~and~
   cannot~be~used~with~pdftex.
+}
+\msg_new:nnn { nyu22fonts }{ wantsfontspec }{
+  For~best~results,~use~xelatex~or~luatex~so~that~TrueType~
+  fonts~can~be~used.~Type~1~substitutes~will~be~used~instead.
+}
+\msg_new:nnn { nyu22fonts }{ substitution }{
+  Font~`#2'~unavailable;~substituting~`#1'.
 }
 \msg_new:nnn { nyu22fonts }{ missingssfont }{
   No~sans~serif~font~found.
@@ -421,6 +424,13 @@
 \msg_new:nnn { nyu22fonts }{ missingsffont }{
   No~serif~font~found.
 }
+\bool_if:nTF { \sys_if_engine_luatex_p: || \sys_if_engine_xetex_p: }
+  {
+    \RequirePackage{fontspec}
+  }
+  {
+    \msg_warning:nn { nyu22fonts }{ wantsfontspec }
+  }
 %    \end{macrocode}
 %
 %
@@ -474,6 +484,7 @@
   }
   {
     \msg_error:nnn { nyu22fonts } { needsfontspec } { Gotham } 
+    \msg_warning:nnnn { nyu22fonts } { substitution } { Montserrat~Type~1 } { Gotham }
     \usepackage{montserrat}
   }
 }
@@ -485,7 +496,7 @@
 % Set the default roman family to Mercury Text Grade~2.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_mercury_text: {
-  \bool_if:NTF \g__nyufonts_fontspec_bool {
+  \IfPackageLoadedTF{fontspec}{
     \setmainfont{Mercury~Text~G2}[
       UprightFont=*~Roman,
       BoldFont=*~Bold,
@@ -493,7 +504,8 @@
     ]
   }
   {
-    \msg_error:nnn { nyu22fonts } { needsfontspec } { Mercury~Text } 
+    \msg_error:nnn { nyu22fonts } { needsfontspec } { Mercury~Text }
+    \msg_warning:nnnn { nyu22fonts } { substitution } { Charter } { Mercury~Text }
     \__nyufonts_set_charter:
   }
 }
@@ -555,6 +567,8 @@
       BoldItalicFont = *-SemiBoldItalic ,
     ]
   }{
+    \msg_warning:nnnn { nyu22fonts } { substitution } 
+      { Montserrat~Type~1 } { Montserrat~TrueType }
     \usepackage{montserrat}
   }
 }
