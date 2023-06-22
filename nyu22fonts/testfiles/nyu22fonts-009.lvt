@@ -1,7 +1,12 @@
 \input regression-test.tex
 \documentclass{article}
-\title{Test of section title formatting}
-\usepackage[Gotham,Frank Ruhl Libre]{nyu22fonts}
+\title{Test of section title formatting 
+\\ Contemporary/Subtle tone quadrant}
+\author{Matthew Leingang}
+\date{2023-06-21}
+\usepackage[
+    Gotham,Frank Ruhl Libre,
+    tone=contemporary-subtle]{nyu22fonts}
 \usepackage{blindtext}
 \showoutput
 \begin{document}
