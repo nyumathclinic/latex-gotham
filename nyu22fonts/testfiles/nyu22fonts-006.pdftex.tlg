@@ -3,52 +3,60 @@ Don't change this file in any respect.
 ============================================================
 TEST 1: \sffamily 
 ============================================================
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line ....
+LaTeX Font Info:    Trying to load font information for T1+Montserrat-LF on input line ....
+(../T1Montserrat-LF.fd
+File: T1Montserrat-LF.fd ....-..-.. (autoinst) Font definitions for T1/Montserrat-LF.
+)
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line ....
 > \box...=
-\hbox(7.30492+2.22498)x169.92775
-.\OT1/phv/m/n/10 M
-.\OT1/phv/m/n/10 r
-.\kern-0.50002
-.\OT1/phv/m/n/10 .
-.\glue 3.4398 plus 4.97969 minus 0.21997
-.\OT1/phv/m/n/10 J
-.\OT1/phv/m/n/10 o
-.\OT1/phv/m/n/10 c
-.\kern-0.19995
-.\OT1/phv/m/n/10 k
-.\OT1/phv/m/n/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/m/n/10 T
-.\OT1/phv/m/n/10 V
-.\glue 2.77989 plus 1.65823 minus 0.66057
-.\OT1/phv/m/n/10 q
-.\OT1/phv/m/n/10 u
-.\OT1/phv/m/n/10 i
-.\OT1/phv/m/n/10 z
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/n/10 P
-.\OT1/phv/m/n/10 h
-.\OT1/phv/m/n/10 D
-.\kern-0.69995
-.\OT1/phv/m/n/10 .
-.\OT1/phv/m/n/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/m/n/10 b
-.\OT1/phv/m/n/10 a
-.\OT1/phv/m/n/10 g
-.\OT1/phv/m/n/10 s
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/n/10 f
-.\kern-0.29994
-.\OT1/phv/m/n/10 e
-.\kern-0.19995
-.\OT1/phv/m/n/10 w
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/n/10 l
-.\OT1/phv/m/n/10 y
-.\OT1/phv/m/n/10 n
-.\OT1/phv/m/n/10 x
-.\OT1/phv/m/n/10 .
+\hbox(7.36499+1.995)x184.41666
+.\T1/Montserrat-LF/regular/n/10 M
+.\T1/Montserrat-LF/regular/n/10 r
+.\kern-0.1
+.\T1/Montserrat-LF/regular/n/10 .
+.\glue 3.05699 plus 3.92995 minus 0.291
+.\T1/Montserrat-LF/regular/n/10 J
+.\T1/Montserrat-LF/regular/n/10 o
+.\T1/Montserrat-LF/regular/n/10 c
+.\kern-0.08002
+.\T1/Montserrat-LF/regular/n/10 k
+.\kern0.09999
+.\T1/Montserrat-LF/regular/n/10 ,
+.\glue 2.62 plus 1.63747 minus 0.6984
+.\T1/Montserrat-LF/regular/n/10 T
+.\kern-0.05
+.\T1/Montserrat-LF/regular/n/10 V
+.\glue 2.62 plus 1.30867 minus 0.87387
+.\T1/Montserrat-LF/regular/n/10 q
+.\T1/Montserrat-LF/regular/n/10 u
+.\T1/Montserrat-LF/regular/n/10 i
+.\T1/Montserrat-LF/regular/n/10 z
+.\glue 2.62 plus 1.30998 minus 0.873
+.\T1/Montserrat-LF/regular/n/10 P
+.\T1/Montserrat-LF/regular/n/10 h
+.\T1/Montserrat-LF/regular/n/10 D
+.\kern-0.20001
+.\T1/Montserrat-LF/regular/n/10 .
+.\T1/Montserrat-LF/regular/n/10 ,
+.\glue 2.62 plus 1.63747 minus 0.6984
+.\T1/Montserrat-LF/regular/n/10 b
+.\kern-0.03001
+.\T1/Montserrat-LF/regular/n/10 a
+.\T1/Montserrat-LF/regular/n/10 g
+.\T1/Montserrat-LF/regular/n/10 s
+.\glue 2.62 plus 1.30998 minus 0.873
+.\T1/Montserrat-LF/regular/n/10 f
+.\kern-0.09001
+.\T1/Montserrat-LF/regular/n/10 e
+.\kern-0.1
+.\T1/Montserrat-LF/regular/n/10 w
+.\glue 2.62 plus 1.30998 minus 0.873
+.\T1/Montserrat-LF/regular/n/10 l
+.\T1/Montserrat-LF/regular/n/10 y
+.\T1/Montserrat-LF/regular/n/10 n
+.\T1/Montserrat-LF/regular/n/10 x
+.\T1/Montserrat-LF/regular/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -56,53 +64,59 @@ l. ...  }
 ============================================================
 TEST 2: \sffamily \bfseries 
 ============================================================
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/b/n' aliased to
+(Font)              `T1/Montserrat-LF/bold/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line ....
 > \box...=
-\hbox(7.29498+2.16992)x180.22762
-.\OT1/phv/b/n/10 M
-.\OT1/phv/b/n/10 r
-.\kern-0.59999
-.\OT1/phv/b/n/10 .
-.\glue 3.4398 plus 4.97969 minus 0.21997
-.\OT1/phv/b/n/10 J
-.\OT1/phv/b/n/10 o
-.\OT1/phv/b/n/10 c
-.\kern-0.19995
-.\OT1/phv/b/n/10 k
-.\OT1/phv/b/n/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/b/n/10 T
-.\OT1/phv/b/n/10 V
-.\glue 2.77989 plus 1.65823 minus 0.66057
-.\OT1/phv/b/n/10 q
-.\OT1/phv/b/n/10 u
-.\OT1/phv/b/n/10 i
-.\OT1/phv/b/n/10 z
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/n/10 P
-.\OT1/phv/b/n/10 h
-.\OT1/phv/b/n/10 D
-.\kern-0.29994
-.\OT1/phv/b/n/10 .
-.\OT1/phv/b/n/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/b/n/10 b
-.\OT1/phv/b/n/10 a
-.\kern-0.09999
-.\OT1/phv/b/n/10 g
-.\OT1/phv/b/n/10 s
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/n/10 f
-.\kern-0.09999
-.\OT1/phv/b/n/10 e
-.\kern-0.1499
-.\OT1/phv/b/n/10 w
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/n/10 l
-.\kern-0.1499
-.\OT1/phv/b/n/10 y
-.\OT1/phv/b/n/10 n
-.\OT1/phv/b/n/10 x
-.\OT1/phv/b/n/10 .
+\hbox(7.77498+2.01999)x196.24161
+.\T1/Montserrat-LF/bold/n/10 M
+.\T1/Montserrat-LF/bold/n/10 r
+.\kern-0.1
+.\T1/Montserrat-LF/bold/n/10 .
+.\glue 3.30199 plus 4.24498 minus 0.31433
+.\T1/Montserrat-LF/bold/n/10 J
+.\T1/Montserrat-LF/bold/n/10 o
+.\T1/Montserrat-LF/bold/n/10 c
+.\kern-0.04001
+.\T1/Montserrat-LF/bold/n/10 k
+.\kern0.09999
+.\T1/Montserrat-LF/bold/n/10 ,
+.\glue 2.82999 plus 1.76874 minus 0.7544
+.\T1/Montserrat-LF/bold/n/10 T
+.\kern-0.13
+.\T1/Montserrat-LF/bold/n/10 V
+.\glue 2.82999 plus 1.41357 minus 0.94392
+.\T1/Montserrat-LF/bold/n/10 q
+.\T1/Montserrat-LF/bold/n/10 u
+.\T1/Montserrat-LF/bold/n/10 i
+.\T1/Montserrat-LF/bold/n/10 z
+.\glue 2.82999 plus 1.415 minus 0.943
+.\T1/Montserrat-LF/bold/n/10 P
+.\T1/Montserrat-LF/bold/n/10 h
+.\T1/Montserrat-LF/bold/n/10 D
+.\kern-0.20001
+.\T1/Montserrat-LF/bold/n/10 .
+.\T1/Montserrat-LF/bold/n/10 ,
+.\glue 2.82999 plus 1.76874 minus 0.7544
+.\T1/Montserrat-LF/bold/n/10 b
+.\kern-0.09001
+.\T1/Montserrat-LF/bold/n/10 a
+.\kern0.04
+.\T1/Montserrat-LF/bold/n/10 g
+.\T1/Montserrat-LF/bold/n/10 s
+.\glue 2.82999 plus 1.415 minus 0.943
+.\T1/Montserrat-LF/bold/n/10 f
+.\kern-0.07
+.\T1/Montserrat-LF/bold/n/10 e
+.\kern-0.1
+.\T1/Montserrat-LF/bold/n/10 w
+.\glue 2.82999 plus 1.415 minus 0.943
+.\T1/Montserrat-LF/bold/n/10 l
+.\T1/Montserrat-LF/bold/n/10 y
+.\T1/Montserrat-LF/bold/n/10 n
+.\T1/Montserrat-LF/bold/n/10 x
+.\T1/Montserrat-LF/bold/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -110,53 +124,55 @@ l. ...  }
 ============================================================
 TEST 3: \sffamily \itshape 
 ============================================================
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line ....
 > \box...=
-\hbox(7.30492+2.22498)x169.92775
-.\OT1/phv/m/sl/10 M
-.\OT1/phv/m/sl/10 r
-.\kern-0.50002
-.\OT1/phv/m/sl/10 .
-.\glue 3.4398 plus 4.97969 minus 0.21997
-.\OT1/phv/m/sl/10 J
-.\OT1/phv/m/sl/10 o
-.\OT1/phv/m/sl/10 c
-.\kern-0.19995
-.\OT1/phv/m/sl/10 k
-.\OT1/phv/m/sl/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/m/sl/10 T
-.\OT1/phv/m/sl/10 V
-.\glue 2.77989 plus 1.65823 minus 0.66057
-.\OT1/phv/m/sl/10 q
-.\OT1/phv/m/sl/10 u
-.\OT1/phv/m/sl/10 i
-.\OT1/phv/m/sl/10 z
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/sl/10 P
-.\OT1/phv/m/sl/10 h
-.\OT1/phv/m/sl/10 D
-.\kern-0.69995
-.\OT1/phv/m/sl/10 .
-.\OT1/phv/m/sl/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/m/sl/10 b
-.\OT1/phv/m/sl/10 a
-.\OT1/phv/m/sl/10 g
-.\OT1/phv/m/sl/10 s
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/sl/10 f
-.\kern-0.29994
-.\OT1/phv/m/sl/10 e
-.\kern-0.19995
-.\OT1/phv/m/sl/10 w
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/m/sl/10 l
-.\OT1/phv/m/sl/10 y
-.\OT1/phv/m/sl/10 n
-.\OT1/phv/m/sl/10 x
-.\OT1/phv/m/sl/10 .
+\hbox(7.36499+1.995)x185.21667
+.\T1/Montserrat-LF/regular/it/10 M
+.\T1/Montserrat-LF/regular/it/10 r
+.\kern-0.1
+.\T1/Montserrat-LF/regular/it/10 .
+.\glue 3.05699 plus 3.92995 minus 0.291
+.\T1/Montserrat-LF/regular/it/10 J
+.\T1/Montserrat-LF/regular/it/10 o
+.\T1/Montserrat-LF/regular/it/10 c
+.\kern-0.08002
+.\T1/Montserrat-LF/regular/it/10 k
+.\kern0.09999
+.\T1/Montserrat-LF/regular/it/10 ,
+.\glue 2.62 plus 1.63747 minus 0.6984
+.\T1/Montserrat-LF/regular/it/10 T
+.\kern-0.05
+.\T1/Montserrat-LF/regular/it/10 V
+.\glue 2.62 plus 1.30867 minus 0.87387
+.\T1/Montserrat-LF/regular/it/10 q
+.\T1/Montserrat-LF/regular/it/10 u
+.\T1/Montserrat-LF/regular/it/10 i
+.\T1/Montserrat-LF/regular/it/10 z
+.\glue 2.62 plus 1.30998 minus 0.873
+.\T1/Montserrat-LF/regular/it/10 P
+.\T1/Montserrat-LF/regular/it/10 h
+.\T1/Montserrat-LF/regular/it/10 D
+.\kern-0.20001
+.\T1/Montserrat-LF/regular/it/10 .
+.\T1/Montserrat-LF/regular/it/10 ,
+.\glue 2.62 plus 1.63747 minus 0.6984
+.\T1/Montserrat-LF/regular/it/10 b
+.\T1/Montserrat-LF/regular/it/10 a
+.\T1/Montserrat-LF/regular/it/10 g
+.\T1/Montserrat-LF/regular/it/10 s
+.\glue 2.62 plus 1.30998 minus 0.873
+.\T1/Montserrat-LF/regular/it/10 f
+.\kern-0.09001
+.\T1/Montserrat-LF/regular/it/10 e
+.\kern-0.1
+.\T1/Montserrat-LF/regular/it/10 w
+.\glue 2.62 plus 1.30998 minus 0.873
+.\T1/Montserrat-LF/regular/it/10 l
+.\T1/Montserrat-LF/regular/it/10 y
+.\T1/Montserrat-LF/regular/it/10 n
+.\T1/Montserrat-LF/regular/it/10 x
+.\T1/Montserrat-LF/regular/it/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -164,55 +180,57 @@ l. ...  }
 ============================================================
 TEST 4: \sffamily \bfseries \itshape 
 ============================================================
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/b/it' aliased to
+(Font)              `T1/Montserrat-LF/bold/it' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/bold/it' will be
+(Font)              scaled to size 10.0pt on input line ....
 > \box...=
-\hbox(7.29498+2.16992)x180.22762
-.\OT1/phv/b/sl/10 M
-.\OT1/phv/b/sl/10 r
-.\kern-0.59999
-.\OT1/phv/b/sl/10 .
-.\glue 3.4398 plus 4.97969 minus 0.21997
-.\OT1/phv/b/sl/10 J
-.\OT1/phv/b/sl/10 o
-.\OT1/phv/b/sl/10 c
-.\kern-0.19995
-.\OT1/phv/b/sl/10 k
-.\OT1/phv/b/sl/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/b/sl/10 T
-.\OT1/phv/b/sl/10 V
-.\glue 2.77989 plus 1.65823 minus 0.66057
-.\OT1/phv/b/sl/10 q
-.\OT1/phv/b/sl/10 u
-.\OT1/phv/b/sl/10 i
-.\OT1/phv/b/sl/10 z
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/sl/10 P
-.\OT1/phv/b/sl/10 h
-.\OT1/phv/b/sl/10 D
-.\kern-0.29994
-.\OT1/phv/b/sl/10 .
-.\OT1/phv/b/sl/10 ,
-.\glue 2.77989 plus 2.07486 minus 0.52792
-.\OT1/phv/b/sl/10 b
-.\OT1/phv/b/sl/10 a
-.\kern-0.09999
-.\OT1/phv/b/sl/10 g
-.\OT1/phv/b/sl/10 s
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/sl/10 f
-.\kern-0.09999
-.\OT1/phv/b/sl/10 e
-.\kern-0.1499
-.\OT1/phv/b/sl/10 w
-.\glue 2.77989 plus 1.6599 minus 0.65991
-.\OT1/phv/b/sl/10 l
-.\kern-0.1499
-.\OT1/phv/b/sl/10 y
-.\OT1/phv/b/sl/10 n
-.\OT1/phv/b/sl/10 x
-.\OT1/phv/b/sl/10 .
+\hbox(7.78499+2.01999)x196.86166
+.\T1/Montserrat-LF/bold/it/10 M
+.\T1/Montserrat-LF/bold/it/10 r
+.\kern-0.1
+.\T1/Montserrat-LF/bold/it/10 .
+.\glue 3.30199 plus 4.24498 minus 0.31433
+.\T1/Montserrat-LF/bold/it/10 J
+.\T1/Montserrat-LF/bold/it/10 o
+.\T1/Montserrat-LF/bold/it/10 c
+.\kern-0.04001
+.\T1/Montserrat-LF/bold/it/10 k
+.\kern0.09999
+.\T1/Montserrat-LF/bold/it/10 ,
+.\glue 2.82999 plus 1.76874 minus 0.7544
+.\T1/Montserrat-LF/bold/it/10 T
+.\kern-0.13
+.\T1/Montserrat-LF/bold/it/10 V
+.\glue 2.82999 plus 1.41357 minus 0.94392
+.\T1/Montserrat-LF/bold/it/10 q
+.\T1/Montserrat-LF/bold/it/10 u
+.\T1/Montserrat-LF/bold/it/10 i
+.\T1/Montserrat-LF/bold/it/10 z
+.\glue 2.82999 plus 1.415 minus 0.943
+.\T1/Montserrat-LF/bold/it/10 P
+.\T1/Montserrat-LF/bold/it/10 h
+.\T1/Montserrat-LF/bold/it/10 D
+.\kern-0.20001
+.\T1/Montserrat-LF/bold/it/10 .
+.\T1/Montserrat-LF/bold/it/10 ,
+.\glue 2.82999 plus 1.76874 minus 0.7544
+.\T1/Montserrat-LF/bold/it/10 b
+.\T1/Montserrat-LF/bold/it/10 a
+.\T1/Montserrat-LF/bold/it/10 g
+.\T1/Montserrat-LF/bold/it/10 s
+.\glue 2.82999 plus 1.415 minus 0.943
+.\T1/Montserrat-LF/bold/it/10 f
+.\kern-0.07
+.\T1/Montserrat-LF/bold/it/10 e
+.\kern-0.1
+.\T1/Montserrat-LF/bold/it/10 w
+.\glue 2.82999 plus 1.415 minus 0.943
+.\T1/Montserrat-LF/bold/it/10 l
+.\T1/Montserrat-LF/bold/it/10 y
+.\T1/Montserrat-LF/bold/it/10 n
+.\T1/Montserrat-LF/bold/it/10 x
+.\T1/Montserrat-LF/bold/it/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -221,47 +239,47 @@ l. ...  }
 TEST 5: \rmfamily 
 ============================================================
 > \box...=
-\hbox(6.81989+2.16492)x159.77902
-.\OT1/ptm/m/n/10 M
-.\OT1/ptm/m/n/10 r
-.\kern-0.54993
-.\OT1/ptm/m/n/10 .
-.\glue 3.09998 plus 4.49995 minus 0.19998
-.\OT1/ptm/m/n/10 J
-.\OT1/ptm/m/n/10 o
-.\OT1/ptm/m/n/10 c
-.\OT1/ptm/m/n/10 k
-.\OT1/ptm/m/n/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/m/n/10 T
-.\OT1/ptm/m/n/10 V
-.\glue 2.5 plus 1.49847 minus 0.60057
-.\OT1/ptm/m/n/10 q
-.\OT1/ptm/m/n/10 u
-.\OT1/ptm/m/n/10 i
-.\OT1/ptm/m/n/10 z
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 P
-.\OT1/ptm/m/n/10 h
-.\OT1/ptm/m/n/10 D
-.\OT1/ptm/m/n/10 .
-.\OT1/ptm/m/n/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/m/n/10 b
-.\OT1/ptm/m/n/10 a
-.\OT1/ptm/m/n/10 g
-.\OT1/ptm/m/n/10 s
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 f
-.\OT1/ptm/m/n/10 e
-.\kern-0.25
-.\OT1/ptm/m/n/10 w
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/m/n/10 l
-.\OT1/ptm/m/n/10 y
-.\OT1/ptm/m/n/10 n
-.\OT1/ptm/m/n/10 x
-.\OT1/ptm/m/n/10 .
+\hbox(7.40999+2.09499)x167.4498
+.\T1/bch/m/n/10 M
+.\T1/bch/m/n/10 r
+.\kern-1.11
+.\T1/bch/m/n/10 .
+.\glue 3.45 plus 5.01 minus 0.22333
+.\T1/bch/m/n/10 J
+.\T1/bch/m/n/10 o
+.\T1/bch/m/n/10 c
+.\T1/bch/m/n/10 k
+.\T1/bch/m/n/10 ,
+.\glue 2.78 plus 2.0875 minus 0.536
+.\T1/bch/m/n/10 T
+.\T1/bch/m/n/10 V
+.\glue 2.78 plus 1.66832 minus 0.67065
+.\T1/bch/m/n/10 q
+.\T1/bch/m/n/10 u
+.\T1/bch/m/n/10 i
+.\T1/bch/m/n/10 z
+.\glue 2.78 plus 1.67 minus 0.67
+.\T1/bch/m/n/10 P
+.\T1/bch/m/n/10 h
+.\T1/bch/m/n/10 D
+.\kern-0.19
+.\T1/bch/m/n/10 .
+.\T1/bch/m/n/10 ,
+.\glue 2.78 plus 2.0875 minus 0.536
+.\T1/bch/m/n/10 b
+.\T1/bch/m/n/10 a
+.\T1/bch/m/n/10 g
+.\T1/bch/m/n/10 s
+.\glue 2.78 plus 1.67 minus 0.67
+.\T1/bch/m/n/10 f
+.\T1/bch/m/n/10 e
+.\T1/bch/m/n/10 w
+.\glue 2.78 plus 1.67 minus 0.67
+.\T1/bch/m/n/10 l
+.\T1/bch/m/n/10 y
+.\T1/bch/m/n/10 n
+.\T1/bch/m/n/10 x
+.\T1/bch/m/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -270,48 +288,47 @@ l. ...  }
 TEST 6: \rmfamily \bfseries 
 ============================================================
 > \box...=
-\hbox(6.88995+2.03491)x167.02888
-.\OT1/ptm/b/n/10 M
-.\OT1/ptm/b/n/10 r
-.\kern-1.00002
-.\OT1/ptm/b/n/10 .
-.\glue 3.09998 plus 4.49995 minus 0.19998
-.\OT1/ptm/b/n/10 J
-.\kern-0.1499
-.\OT1/ptm/b/n/10 o
-.\OT1/ptm/b/n/10 c
-.\OT1/ptm/b/n/10 k
-.\OT1/ptm/b/n/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/b/n/10 T
-.\OT1/ptm/b/n/10 V
-.\glue 2.5 plus 1.49847 minus 0.60057
-.\OT1/ptm/b/n/10 q
-.\OT1/ptm/b/n/10 u
-.\OT1/ptm/b/n/10 i
-.\OT1/ptm/b/n/10 z
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/b/n/10 P
-.\OT1/ptm/b/n/10 h
-.\OT1/ptm/b/n/10 D
-.\kern-0.19995
-.\OT1/ptm/b/n/10 .
-.\OT1/ptm/b/n/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/b/n/10 b
-.\OT1/ptm/b/n/10 a
-.\OT1/ptm/b/n/10 g
-.\OT1/ptm/b/n/10 s
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/b/n/10 f
-.\OT1/ptm/b/n/10 e
-.\OT1/ptm/b/n/10 w
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/b/n/10 l
-.\OT1/ptm/b/n/10 y
-.\OT1/ptm/b/n/10 n
-.\OT1/ptm/b/n/10 x
-.\OT1/ptm/b/n/10 .
+\hbox(7.51999+2.09499)x176.47975
+.\T1/bch/b/n/10 M
+.\T1/bch/b/n/10 r
+.\kern-1.11
+.\T1/bch/b/n/10 .
+.\glue 3.61 plus 5.25 minus 0.23332
+.\T1/bch/b/n/10 J
+.\T1/bch/b/n/10 o
+.\T1/bch/b/n/10 c
+.\T1/bch/b/n/10 k
+.\T1/bch/b/n/10 ,
+.\glue 2.91 plus 2.1875 minus 0.56
+.\T1/bch/b/n/10 T
+.\T1/bch/b/n/10 V
+.\glue 2.91 plus 1.74825 minus 0.70068
+.\T1/bch/b/n/10 q
+.\T1/bch/b/n/10 u
+.\T1/bch/b/n/10 i
+.\T1/bch/b/n/10 z
+.\glue 2.91 plus 1.75 minus 0.7
+.\T1/bch/b/n/10 P
+.\T1/bch/b/n/10 h
+.\T1/bch/b/n/10 D
+.\kern-0.19
+.\T1/bch/b/n/10 .
+.\T1/bch/b/n/10 ,
+.\glue 2.91 plus 2.1875 minus 0.56
+.\T1/bch/b/n/10 b
+.\T1/bch/b/n/10 a
+.\T1/bch/b/n/10 g
+.\T1/bch/b/n/10 s
+.\glue 2.91 plus 1.75 minus 0.7
+.\T1/bch/b/n/10 f
+.\T1/bch/b/n/10 e
+.\T1/bch/b/n/10 w
+.\glue 2.91 plus 1.75 minus 0.7
+.\T1/bch/b/n/10 l
+.\T1/bch/b/n/10 y
+.\T1/bch/b/n/10 n
+.\T1/bch/b/n/10 x
+.\T1/bch/b/n/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
@@ -320,51 +337,50 @@ l. ...  }
 TEST 7: \rmfamily \bfseries \itshape 
 ============================================================
 > \box...=
-\hbox(6.96991+2.02496)x161.5789
-.\OT1/ptm/b/it/10 M
-.\OT1/ptm/b/it/10 r
-.\kern-0.6499
-.\OT1/ptm/b/it/10 .
-.\glue 3.09998 plus 4.49995 minus 0.19998
-.\OT1/ptm/b/it/10 J
-.\kern-0.39992
-.\OT1/ptm/b/it/10 o
-.\OT1/ptm/b/it/10 c
-.\kern-0.09999
-.\OT1/ptm/b/it/10 k
-.\OT1/ptm/b/it/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/b/it/10 T
-.\OT1/ptm/b/it/10 V
-.\glue 2.5 plus 1.49847 minus 0.60057
-.\OT1/ptm/b/it/10 q
-.\OT1/ptm/b/it/10 u
-.\OT1/ptm/b/it/10 i
-.\OT1/ptm/b/it/10 z
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/b/it/10 P
-.\OT1/ptm/b/it/10 h
-.\OT1/ptm/b/it/10 D
-.\OT1/ptm/b/it/10 .
-.\OT1/ptm/b/it/10 ,
-.\glue 2.5 plus 1.87497 minus 0.47998
-.\OT1/ptm/b/it/10 b
-.\OT1/ptm/b/it/10 a
-.\OT1/ptm/b/it/10 g
-.\OT1/ptm/b/it/10 s
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/b/it/10 f
-.\kern-0.09999
-.\OT1/ptm/b/it/10 e
-.\OT1/ptm/b/it/10 w
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\OT1/ptm/b/it/10 l
-.\OT1/ptm/b/it/10 y
-.\OT1/ptm/b/it/10 n
-.\OT1/ptm/b/it/10 x
-.\OT1/ptm/b/it/10 .
+\hbox(7.41998+2.09)x173.39972
+.\T1/bch/b/it/10 M
+.\T1/bch/b/it/10 r
+.\kern-1.3
+.\T1/bch/b/it/10 .
+.\glue 3.62999 plus 5.27998 minus 0.23332
+.\T1/bch/b/it/10 J
+.\T1/bch/b/it/10 o
+.\T1/bch/b/it/10 c
+.\T1/bch/b/it/10 k
+.\T1/bch/b/it/10 ,
+.\glue 2.93 plus 2.19998 minus 0.56
+.\T1/bch/b/it/10 T
+.\T1/bch/b/it/10 V
+.\glue 2.93 plus 1.75822 minus 0.70068
+.\T1/bch/b/it/10 q
+.\T1/bch/b/it/10 u
+.\T1/bch/b/it/10 i
+.\T1/bch/b/it/10 z
+.\glue 2.93 plus 1.76 minus 0.7
+.\T1/bch/b/it/10 P
+.\T1/bch/b/it/10 h
+.\T1/bch/b/it/10 D
+.\kern-0.19
+.\T1/bch/b/it/10 .
+.\T1/bch/b/it/10 ,
+.\glue 2.93 plus 2.19998 minus 0.56
+.\T1/bch/b/it/10 b
+.\T1/bch/b/it/10 a
+.\T1/bch/b/it/10 g
+.\T1/bch/b/it/10 s
+.\glue 2.93 plus 1.76 minus 0.7
+.\T1/bch/b/it/10 f
+.\T1/bch/b/it/10 e
+.\T1/bch/b/it/10 w
+.\glue 2.93 plus 1.76 minus 0.7
+.\T1/bch/b/it/10 l
+.\T1/bch/b/it/10 y
+.\T1/bch/b/it/10 n
+.\T1/bch/b/it/10 x
+.\T1/bch/b/it/10 .
 ! OK.
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
-[2] (nyu22fonts-006.aux)
+[1
+] (nyu22fonts-006.aux)

@@ -431,6 +431,7 @@
 % \begin{macro}{\__nyufonts_set_gotham:}
 % \changes{v1.1}{2023/06/19}{Assign all available (licensed) weights to \acro{NFSS} series}
 % Set the default sans family to Gotham.
+% \changes{unreleased}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Helvetica}
 %
 % We use both the \pkg{fontspec} and \acro{NFSS} methods for choosing font
 % faces, so that we can assign all the weights provided in the licensed
@@ -456,36 +457,50 @@
 % Gotham Medium. 
 % 
 %    \begin{macrocode}
+\cs_new:Nn \__nyufonts_check_fontspec:n {
   \bool_if:NTF \g__nyufonts_fontspec_bool 
     {}
+    { \msg_fatal:nnn { nyu22fonts } { needsfontspec } {#1} }
+}
 \cs_new:Nn \__nyufonts_set_gotham: {
   \bool_if:NTF \g__nyufonts_fontspec_bool {
-  \setsansfont{Gotham}[
-    FontFace={l}{n}{*~Light},
-    FontFace={l}{it}{*~Light~Italic},
-    FontFace={sb}{n}{*~Medium},
-    FontFace={sb}{it}{*~Medium~Italic},
-    FontFace={b}{n}{*~Bold},
-    FontFace={b}{it}{*~Bold~Italic},
-    UprightFont=*~Book,
-    BoldFont=*~Medium,
-    ItalicFont=*~Book~Italic,
-    BoldItalicFont=*~Medium~Italic
-  ]
+    \setsansfont{Gotham}[
+      FontFace={l}{n}{*~Light},
+      FontFace={l}{it}{*~Light~Italic},
+      FontFace={sb}{n}{*~Medium},
+      FontFace={sb}{it}{*~Medium~Italic},
+      FontFace={b}{n}{*~Bold},
+      FontFace={b}{it}{*~Bold~Italic},
+      UprightFont=*~Book,
+      BoldFont=*~Medium,
+      ItalicFont=*~Book~Italic,
+      BoldItalicFont=*~Medium~Italic
+    ]
+  }
+  {
+    \msg_error:nnn { nyu22fonts } { needsfontspec } { Gotham } 
+    \usepackage{montserrat}
+  }
 }
 %    \end{macrocode}  
 % \end{macro}
 %
 % \begin{macro}{\__nyufonts_set_mercury_text:}
+% \changes{unreleased}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Charter}
 % Set the default roman family to Mercury Text Grade~2.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_mercury_text: {
   \bool_if:NTF \g__nyufonts_fontspec_bool {
-  \setmainfont{Mercury~Text~G2}[
-    UprightFont=*~Roman,
-    BoldFont=*~Bold,
-    ItalicFont=*~Italic
-  ]
+    \setmainfont{Mercury~Text~G2}[
+      UprightFont=*~Roman,
+      BoldFont=*~Bold,
+      ItalicFont=*~Italic
+    ]
+  }
+  {
+    \msg_error:nnn { nyu22fonts } { needsfontspec } { Mercury~Text } 
+    \__nyufonts_set_charter:
+  }
 }
 %    \end{macrocode}  
 % \end{macro}
@@ -494,6 +509,7 @@
 %
 % \begin{macro}{\__nyufonts_set_montserrat:}
 % \changes{v1.1}{2023/06/20}{Assign all available weights to \acro{NFSS} series}
+% \changes{unreleased}{2023/06/21}{If \pkg{fontspec} is unavailable, fall back to the non-fontspec version}
 % Set the default sans family to Montserrat. There is already a
 % \pkg{montserrat} package with a \filenm{montserrat.fontspec} file, but we
 % want to use all the available weights.
@@ -518,31 +534,34 @@
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_montserrat: {
   \bool_if:NTF \g__nyufonts_fontspec_bool {
-  \setsansfont{Montserrat}[
-    Extension = .otf,
-    FontFace={ul}{n}{*-Thin},
-    FontFace={ul}{it}{*-ThinItalic},    
-    FontFace={el}{n}{*-ExtraLight},
-    FontFace={el}{it}{*-ExtraLightItalic},    
-    FontFace={l}{n}{*-Light},
-    FontFace={l}{it}{*-LightItalic},    
-    FontFace={sl}{n}{*-Regular},
-    FontFace={sl}{it}{*-Italic},    
-    FontFace={m}{n}{*-Medium},
-    FontFace={m}{it}{*-MediumItalic},    
-    FontFace={sb}{n}{*-SemiBold},
-    FontFace={sb}{it}{*-SemiBold},    
-    FontFace={b}{n}{*-Bold},
-    FontFace={b}{it}{*-BoldItalic},    
-    FontFace={eb}{n}{*-ExtraBold},
-    FontFace={eb}{it}{*-ExtraBoldItalic},    
-    FontFace={ub}{n}{*-Black},
-    FontFace={ub}{it}{*-BlackItalic},    
-    UprightFont = *-Regular ,
-    ItalicFont = *-Italic ,
-    BoldFont = *-SemiBold ,
-    BoldItalicFont = *-SemiBoldItalic ,
-  ]
+    \setsansfont{Montserrat}[
+      Extension = .otf,
+      FontFace={ul}{n}{*-Thin},
+      FontFace={ul}{it}{*-ThinItalic},    
+      FontFace={el}{n}{*-ExtraLight},
+      FontFace={el}{it}{*-ExtraLightItalic},    
+      FontFace={l}{n}{*-Light},
+      FontFace={l}{it}{*-LightItalic},    
+      FontFace={sl}{n}{*-Regular},
+      FontFace={sl}{it}{*-Italic},    
+      FontFace={m}{n}{*-Medium},
+      FontFace={m}{it}{*-MediumItalic},    
+      FontFace={sb}{n}{*-SemiBold},
+      FontFace={sb}{it}{*-SemiBold},    
+      FontFace={b}{n}{*-Bold},
+      FontFace={b}{it}{*-BoldItalic},    
+      FontFace={eb}{n}{*-ExtraBold},
+      FontFace={eb}{it}{*-ExtraBoldItalic},    
+      FontFace={ub}{n}{*-Black},
+      FontFace={ub}{it}{*-BlackItalic},    
+      UprightFont = *-Regular ,
+      ItalicFont = *-Italic ,
+      BoldFont = *-SemiBold ,
+      BoldItalicFont = *-SemiBoldItalic ,
+    ]
+  }{
+    \usepackage{montserrat}
+  }
 }
 %    \end{macrocode}
 % \end{macro}
@@ -550,6 +569,7 @@
 % \begin{macro}{\__nyufonts_set_frank_ruhl_libre:}
 % \changes{v0.14h}{2023/06/12}{Don't also set the sans font simultaneously.}
 % \changes{v1.1}{2023/06/20}{Assign all available weights}
+% \changes{unreleased}{2023/06/21}{Raise an error if \pkg{fontspec} is unavailable, fall back to Charter}
 % Set the default roman family to Frank Ruhl Libre.
 % We assign all the weights available in the Google Font download package.
 %
@@ -567,37 +587,42 @@
 % \cite{nyu-fonts} says to skew the upright font by \ang{14}. We use
 % \pkg{fontspec} options to fake it. 
 %
-% \begin{macro}{\l__nyufonts_slant_fp:}
+% \begin{macro}{\g__nyufonts_slant_fp:}
 % \changes{v1.1}{2023/06/20}{Add this variable to match specified skew}
 % The argument to \PrintDescribeKey{FakeSlant} is apparently (see 
 % \cite{ctt-fakeslant}) the ratio of horizontal skew to vertical distance. 
 % We use $\tan(\ang{14}) \approx \num{0.24932800284}$.
 % 
 %    \begin{macrocode}
-\fp_new:N  \l__nyufonts_slant_fp:
-\fp_set:Nn \l__nyufonts_slant_fp: { 0.24932800284 }
+\fp_new:N  \g__nyufonts_slant_fp:
+\fp_gset:Nn \g__nyufonts_slant_fp: { 0.24932800284 }
 %    \end{macrocode}
 % \end{macro}
 % 
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_frank_ruhl_libre: {
-  \setmainfont{Frank~Ruhl~Libre}[
-    FontFace={l}{n}{*~Light},
-    FontFace={l}{it}{Font=*~Light,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
-    FontFace={sl}{n}{*~Regular},
-    FontFace={sl}{it}{Font=*~Regular,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
-    FontFace={m}{n}{*~Medium},
-    FontFace={m}{it}{Font=*~Medium,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
-    FontFace={b}{n}{*~Bold},
-    FontFace={b}{it}{Font=*~Bold,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
-    FontFace={eb}{n}{*~Black},
-    FontFace={eb}{it}{Font=*~Black,FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
-    UprightFont=*,
-    ItalicFont=*,
-    ItalicFeatures={FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
-    BoldItalicFont=*~Bold,
-    BoldItalicFeatures={FakeSlant=\fp_use:N \l__nyufonts_slant_fp:},
-  ]
+  \bool_if:NTF \g__nyufonts_fontspec_bool {
+    \setmainfont{Frank~Ruhl~Libre}[
+      FontFace={l}{n}{*~Light},
+      FontFace={l}{it}{Font=*~Light,FakeSlant=\fp_use:N \g__nyufonts_slant_fp:},
+      FontFace={sl}{n}{*~Regular},
+      FontFace={sl}{it}{Font=*~Regular,FakeSlant=\fp_use:N \g__nyufonts_slant_fp:},
+      FontFace={m}{n}{*~Medium},
+      FontFace={m}{it}{Font=*~Medium,FakeSlant=\fp_use:N \g__nyufonts_slant_fp:},
+      FontFace={b}{n}{*~Bold},
+      FontFace={b}{it}{Font=*~Bold,FakeSlant=\fp_use:N \g__nyufonts_slant_fp:},
+      FontFace={eb}{n}{*~Black},
+      FontFace={eb}{it}{Font=*~Black,FakeSlant=\fp_use:N \g__nyufonts_slant_fp:},
+      UprightFont=*,
+      ItalicFont=*,
+      ItalicFeatures={FakeSlant=\fp_use:N \g__nyufonts_slant_fp:},
+      BoldItalicFont=*~Bold,
+      BoldItalicFeatures={FakeSlant=\fp_use:N \g__nyufonts_slant_fp:},
+    ]
+  }{
+    \msg_error:nnn { nyu22fonts } { needsfontspec } { Frank~Ruhl~Libre }
+    \__nyufonts_set_charter:
+  }
 }
 %    \end{macrocode}
 % \end{macro}

@@ -32,6 +32,7 @@
         \hbox_set:Nn \l_tmpa_box {#1 \tl_use:N \l_tmpa_tl}
         \box_show:N \l_tmpa_box
         \box_use:N \l_tmpa_box
+        \par
       }    
   }
 \ExplSyntaxOff
