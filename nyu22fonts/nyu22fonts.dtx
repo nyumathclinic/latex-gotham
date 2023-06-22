@@ -402,12 +402,12 @@
 %
 % Can we use \texttt{fontspec}? If so, load it.
 %    \begin{macrocode}
-\bool_new:N \l__nyufonts_fontspec_bool
-\bool_set_false:N \l__nyufonts_fontspec_bool
-\sys_if_engine_luatex:T { \bool_set_true:N \l__nyufonts_fontspec_bool }
-\sys_if_engine_xetex:T  { \bool_set_true:N \l__nyufonts_fontspec_bool }
+\bool_new:N \g__nyufonts_fontspec_bool
+\bool_gset_false:N \g__nyufonts_fontspec_bool
+\sys_if_engine_luatex:T { \bool_gset_true:N \g__nyufonts_fontspec_bool }
+\sys_if_engine_xetex:T  { \bool_gset_true:N \g__nyufonts_fontspec_bool }
 
-\bool_if:NT \l__nyufonts_fontspec_bool { \RequirePackage{fontspec}}
+\bool_if:NT \g__nyufonts_fontspec_bool { \RequirePackage{fontspec}}
 
 \msg_new:nnnn { nyu22fonts } { needsfontspec }{
   Option~`#1'~requires~xelatex~or~lualatex.
@@ -456,7 +456,10 @@
 % Gotham Medium. 
 % 
 %    \begin{macrocode}
+  \bool_if:NTF \g__nyufonts_fontspec_bool 
+    {}
 \cs_new:Nn \__nyufonts_set_gotham: {
+  \bool_if:NTF \g__nyufonts_fontspec_bool {
   \setsansfont{Gotham}[
     FontFace={l}{n}{*~Light},
     FontFace={l}{it}{*~Light~Italic},
@@ -477,6 +480,7 @@
 % Set the default roman family to Mercury Text Grade~2.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_mercury_text: {
+  \bool_if:NTF \g__nyufonts_fontspec_bool {
   \setmainfont{Mercury~Text~G2}[
     UprightFont=*~Roman,
     BoldFont=*~Bold,
@@ -513,6 +517,7 @@
 % pairing of Gotham Book and Medium.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_montserrat: {
+  \bool_if:NTF \g__nyufonts_fontspec_bool {
   \setsansfont{Montserrat}[
     Extension = .otf,
     FontFace={ul}{n}{*-Thin},
@@ -676,7 +681,7 @@
 % Choose the sans serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_auto_select_ss_font: {
-  \bool_if:NTF \l__nyufonts_fontspec_bool {
+  \bool_if:NTF \g__nyufonts_fontspec_bool {
     \fontspec_font_if_exist:nTF { Gotham~Book } {
       \__nyufonts_set_gotham:
     }{
@@ -701,7 +706,7 @@
 % Choose the serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_auto_select_sf_font: {
-  \bool_if:NTF \l__nyufonts_fontspec_bool {
+  \bool_if:NTF \g__nyufonts_fontspec_bool {
     \fontspec_font_if_exist:nTF { Mercury~Text~G2~Roman } {
       \__nyufonts_set_mercury_text:
     }{
@@ -830,11 +835,9 @@
     Mercury~Text .meta:n = { serif-font = Mercury~Text},
     Times~New~Roman .meta:n = { serif-font = Times~New~Roman~TrueType},
 
-
- 
     font-group .choice:,
     font-group / proprietary .code:n = {
-      \bool_if:NTF \l__nyufonts_fontspec_bool {
+      \bool_if:NTF \g__nyufonts_fontspec_bool {
         \__nyufonts_set_gotham:
         \__nyufonts_set_mercury_text:
       }{
@@ -844,7 +847,7 @@
       }
     },
     font-group / open .code:n = {
-      \bool_if:NTF \l__nyufonts_fontspec_bool {
+      \bool_if:NTF \g__nyufonts_fontspec_bool {
         \__nyufonts_set_montserrat:
         \__nyufonts_set_frank_ruhl_libre:
       }{
@@ -853,7 +856,7 @@
       }
     },
     font-group / system .code:n = {
-      \bool_if:NTF \l__nyufonts_fontspec_bool {
+      \bool_if:NTF \g__nyufonts_fontspec_bool {
         \__nyufonts_set_helvetica_tt:
         \__nyufonts_set_times_new_roman_tt:
       }{
