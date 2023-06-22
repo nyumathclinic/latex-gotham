@@ -7,6 +7,7 @@
 \usepackage[
     Gotham,Frank Ruhl Libre,
     tone=contemporary-subtle]{nyu22fonts}
+\usepackage[letterpaper]{geometry}
 \usepackage{blindtext}
 \showoutput
 \begin{document}

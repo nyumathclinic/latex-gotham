@@ -787,10 +787,17 @@
 %
 %
 % \begin{macro}{\__nyufonts_set_tone_cs:}
-%   Set the document's visual tone to Contemporary/Subtle.
+% \changes{unreleased}{2023/06/22}{Set heading font to sans light, per specification}
+%   Set the document's visual tone to Contemporary/Subtle:
+%   \begin{itemize}
+%     \item Default (body) family sans
+%     \item Headers in a light sans
+%   \end{itemize}
+% 
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_tone_cs: {
   \global\let\familydefault=\sfdefault
+  \newcommand{\headingfont}{\sffamily\fontseries{l}\selectfont}
   \bool_if:NT \g__nyufonts_doc_is_articlelike_bool {
     \RequirePackage{titling}
     \pretitle{\begin{flushleft}\Huge}
@@ -800,7 +807,6 @@
     \preauthor{\begin{flushleft}}
     \postauthor{\par\end{flushleft}}
     \RequirePackage{titlesec}
-    \newcommand{\headingfont}{\rmfamily}
     \titleformat*{\section}{\LARGE\headingfont}
     \titleformat*{\subsection}{\Large\headingfont}
     \titleformat*{\subsubsection}{\large\headingfont}
