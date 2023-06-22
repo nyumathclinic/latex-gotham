@@ -457,13 +457,8 @@
 % Gotham Medium. 
 % 
 %    \begin{macrocode}
-\cs_new:Nn \__nyufonts_check_fontspec:n {
-  \bool_if:NTF \g__nyufonts_fontspec_bool 
-    {}
-    { \msg_fatal:nnn { nyu22fonts } { needsfontspec } {#1} }
-}
 \cs_new:Nn \__nyufonts_set_gotham: {
-  \bool_if:NTF \g__nyufonts_fontspec_bool {
+  \IfPackageLoadedTF{fontspec}{
     \setsansfont{Gotham}[
       FontFace={l}{n}{*~Light},
       FontFace={l}{it}{*~Light~Italic},
@@ -533,7 +528,7 @@
 % pairing of Gotham Book and Medium.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_montserrat: {
-  \bool_if:NTF \g__nyufonts_fontspec_bool {
+  \IfPackageLoadedTF{fontspec}{
     \setsansfont{Montserrat}[
       Extension = .otf,
       FontFace={ul}{n}{*-Thin},
@@ -601,7 +596,7 @@
 % 
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_frank_ruhl_libre: {
-  \bool_if:NTF \g__nyufonts_fontspec_bool {
+  \IfPackageLoadedTF{fontspec}{
     \setmainfont{Frank~Ruhl~Libre}[
       FontFace={l}{n}{*~Light},
       FontFace={l}{it}{Font=*~Light,FakeSlant=\fp_use:N \g__nyufonts_slant_fp:},
@@ -706,7 +701,7 @@
 % Choose the sans serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_auto_select_ss_font: {
-  \bool_if:NTF \g__nyufonts_fontspec_bool {
+  \IfPackageLoadedTF{fontspec}{
     \fontspec_font_if_exist:nTF { Gotham~Book } {
       \__nyufonts_set_gotham:
     }{
@@ -731,7 +726,7 @@
 % Choose the serif font automatically.
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_auto_select_sf_font: {
-  \bool_if:NTF \g__nyufonts_fontspec_bool {
+  \IfPackageLoadedTF{fontspec}{
     \fontspec_font_if_exist:nTF { Mercury~Text~G2~Roman } {
       \__nyufonts_set_mercury_text:
     }{
@@ -862,7 +857,7 @@
 
     font-group .choice:,
     font-group / proprietary .code:n = {
-      \bool_if:NTF \g__nyufonts_fontspec_bool {
+      \IfPackageLoadedTF{fontspec}{
         \__nyufonts_set_gotham:
         \__nyufonts_set_mercury_text:
       }{
@@ -872,7 +867,7 @@
       }
     },
     font-group / open .code:n = {
-      \bool_if:NTF \g__nyufonts_fontspec_bool {
+      \IfPackageLoadedTF{fontspec}{
         \__nyufonts_set_montserrat:
         \__nyufonts_set_frank_ruhl_libre:
       }{
@@ -881,7 +876,7 @@
       }
     },
     font-group / system .code:n = {
-      \bool_if:NTF \g__nyufonts_fontspec_bool {
+      \IfPackageLoadedTF{fontspec}{
         \__nyufonts_set_helvetica_tt:
         \__nyufonts_set_times_new_roman_tt:
       }{
