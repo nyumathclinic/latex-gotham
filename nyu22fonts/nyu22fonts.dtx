@@ -44,7 +44,9 @@
 
 \renewrobustcmd*{\pkg}[1]{\mbox{\textbf{#1}}}^^A whole document is in sans already
 \renewrobustcmd*{\acro}[1]{\MakeUppercase{#1}}^^A Gotham doesn't have small caps
-
+\newcommand{\mtrue}{{\MacroFont true}}
+\newcommand{\mfalse}{{\MacroFont false}}
+\newcommand{\metatf}{$\left<\mbox{\mtrue}\mid\mbox{\mfalse}\right>$}
 
 \EnableCrossrefs
 \RecordChanges
@@ -65,17 +67,19 @@
 % \title{NYU Typefaces and Fonts}
 % \author{Matthew Leingang\thanks{leingang@nyu.edu}} \date{\fileversion, Released \filedate}
 % \maketitle
-
+%
 % \begin{abstract}
 %  This package will load fonts for the NYU brand.
 %  Package options will allow choices among the primary (proprietary) faces,
 %  open (Google) faces, system (Microsoft) faces, and T1 fonts for those who
 %  must use \texttt{pdftex}. 
 % \end{abstract}
-
+%
 % \changes{0.10.4}{2019/12/10}{First working release}
 % \changes{0.11.0}{2022/08/16}{Full Implementation of package options}
-
+%
+% \tableofcontents
+%
 % \section{Introduction}
 % \begin{refsection}
 %
@@ -263,20 +267,27 @@
 % \section{Usage}
 %
 % Almost everything in the package is described with keys, as in PGF/TikZ.
-% For example:
+% You configure the package using keys in the optional argument to \cs{usepackage},
+% as in:
 % \begin{sourcedisplay}
 % \cs{usepackage}\oarg{keyvals}\{nyu22fonts\}
 % \end{sourcedisplay}
 %
-% \DescribeMacro{\nyufontssetup}\marg{keyvals}
-% 
-% Configure package options after loading, if possible. Options which require loading additional packages
-% can only be used in the preamble.
+% \DescribeMacro{\nyufontssetup}
+% \cs{nyufontssetup}\marg{keyvals}
+% will configure package options after loading, if possible. 
+% Some caveats:
+% \begin{itemize}
+%   \item Some keys require additional packages to be loaded.
+%   \item Some keys trigger code to be expanded at the beginning
+%     of the document. They won't work after the document begins.  
+% \end{itemize}
+% These won't work after the document begins.  
 %
-% \subsection{\hologo{XeLaTeX} and \hologo{LuaLaTeX} usage}
+% \subsection{Setting font families}
 %
-% With either of the engines that support OpenType fonts, we can use those
-% fonts.
+% Remember that \hologo{XeLaTeX} or \hologo{LuaLaTeX} are required 
+% to use OpentType fonts.
 % 
 % \subsubsection{Setting fonts in groups}
 %
@@ -378,15 +389,17 @@
 % Use this option with care, because it searches the file system for fonts at
 % each \LaTeX{} run. This can slow down your workflow quite a bit.
 %
-% \subsection{\hologo{pdfLaTeX} usage}
+% \subsubsection{\hologo{pdfLaTeX} workarounds}
 %
 % With the \hologo{pdfTeX} engine, a reasonable attempt is made to imitate
 % the desired fonts with available Type~1 alternatives.
 %
 % \begin{description}
 %
+%   \ItemDescribeKey{Montserrat} will use the Type~1 encoding of Montserrat.
+%
 %   \ItemDescribeKey{open} Load Vera Sans and Bitstream Charter.  These are
-%     decent Type~1 alternatives to Gotham and Mercury Text.
+%     decent open source Type~1 alternatives to Gotham and Mercury Text.
 %
 %   \ItemDescribeKey{system} Load Type~1 versions of Helvetica and Times New
 %     Roman. 
@@ -399,26 +412,39 @@
 %
 % \subsection{Document formatting}
 %
-% \DescribeKey{default family}\verb|=|\meta{font commands}
-% An alias to the \cs{familydefault} macro, the default document font family.
-% \verb|default family=\sfdefault| will set the entire document in sans.
+% Several keys and meta-keys are used to choose fonts for various document
+% elements.
 %
-% \DescribeKey{title/font}\verb|=|\meta{font commands}
+% \subsubsection{Formatting document elements}
+% \DescribeKey{default family}\meta{font commands}
+% This key stores its value in the \cs{familydefault} macro, the default
+% document font family. So setting \verb|default family=\sfdefault|
+% (for instance) will set the entire document in sans.
+%
+% \DescribeKey{title/font}\meta{font commands}
 % A font hook for the document title and headings. It is initally set to 
 % \cs{normalfont}.
 %
-% \DescribeKey{title/color}\verb|=|\meta{color name}
+% \DescribeKey{title/color}\meta{color name}
 % A color for the document title and headings. 
+% If you set this to |foo|, you are responsible for making sure that
+% |\color{foo}| works. This means:
+% \begin{itemize}
+%   \item The \pkg{color} or \pkg{xcolor} package must be loaded
+%   \item The named color |foo| must be defined.
+% \end{itemize}
+% If the key is unset, the color is not changed from \cs{normalcolor}. 
+% The \pkg{xcolor-nyu22} package loads \pkg{xcolor}, adds colors for 
+% the brand, and can be used to set this color at package use time:
 % \watchout[not implemented]
-% This package is color agnostic, so if the key is unset, the color is not
-% changed from \cs{normalcolor}. The \pkg{xcolor-nyu} package provides
-% colors for the brand, and can be used to set this color at package use time:
 % \begin{verbatim}
 % \usepackage[title/color=NyuViolet]{xcolor-nyu22}
 % \end{verbatim}
 %
-% \DescribeKey{title/uppercase} (true or false, initially false)
+% \DescribeKey{title/uppercase}\metatf, initially \mfalse.
 % Set the title in uppercase.
+%
+% \subsubsection{Setting the document's visual tone}
 % 
 % \DescribeKey{tone} set the visual tone of the document. The key value
 % must be one of the following:
@@ -455,8 +481,8 @@
 % The package internals are written in the \pkg{expl3} 
 % environment.~\cite{pkg-interface3}
 %
-% Can we use \texttt{fontspec}? If so, load it.
-% \changes{v1.2}{2023/06/22}{Drop a global boolean variable and use \cs{IfClassLoadedTF} instead}
+% \subsection{Messages}
+%
 %    \begin{macrocode}
 \msg_new:nnnn { nyu22fonts } { needsfontspec }{
   Option~`#1'~requires~xelatex~or~lualatex.
@@ -477,6 +503,11 @@
 \msg_new:nnn { nyu22fonts }{ missingsffont }{
   No~serif~font~found.
 }
+%    \end{macrocode}
+%
+% Can we use \texttt{fontspec}? If so, load it.
+% \changes{v1.2}{2023/06/22}{Drop a global boolean variable and use \cs{IfClassLoadedTF} instead}
+%    \begin{macrocode}
 \bool_if:nTF { \sys_if_engine_luatex_p: || \sys_if_engine_xetex_p: }
   {
     \RequirePackage{fontspec}
