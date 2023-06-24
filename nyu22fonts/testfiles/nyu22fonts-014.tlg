@@ -23,8 +23,8 @@ Completed box being shipped out [1]
 ...\glue 10.0 plus 4.0 minus 5.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 11.76295
-...\hbox(18.23705+4.03056)x430.00462, glue set 30.30562fil, direction TLT
+...\glue(\baselineskip) 12.28543
+...\hbox(17.71457+0.29855)x430.00462, glue set 118.0591fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
@@ -37,134 +37,132 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0, direction TLT
 .....\glue 5.0
 ....\penalty 0
-....\TU/Gotham(0)/l/n/24.88 T
-....\kern-3.2344 (font)
-....\TU/Gotham(0)/l/n/24.88 e
-....\TU/Gotham(0)/l/n/24.88 s
-....\kern-0.2488 (font)
-....\TU/Gotham(0)/l/n/24.88 t
-....\glue(\spaceskip) 7.464 plus 3.732 minus 2.488
-....\TU/Gotham(0)/l/n/24.88 o
-....\TU/Gotham(0)/l/n/24.88 f
-....\glue(\spaceskip) 7.464 plus 3.732 minus 2.488
-....\TU/Gotham(0)/l/n/24.88 s
-....\TU/Gotham(0)/l/n/24.88 e
-....\TU/Gotham(0)/l/n/24.88 c
+....\TU/Gotham(0)/b/n/24.88 T
+....\TU/Gotham(0)/b/n/24.88 E
+....\TU/Gotham(0)/b/n/24.88 S
+....\kern-0.34833 (font)
+....\TU/Gotham(0)/b/n/24.88 T
+....\glue(\spaceskip) 7.464 plus 3.72826 minus 2.4905
+....\TU/Gotham(0)/b/n/24.88 O
+....\TU/Gotham(0)/b/n/24.88 F
+....\glue(\spaceskip) 7.464 plus 3.72826 minus 2.4905
+....\TU/Gotham(0)/b/n/24.88 S
+....\TU/Gotham(0)/b/n/24.88 E
+....\TU/Gotham(0)/b/n/24.88 C
 ....\discretionary (penalty 50)
-.....< \kern-0.7464 (font)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 t
-....\TU/Gotham(0)/l/n/24.88 i
-....\TU/Gotham(0)/l/n/24.88 o
-....\TU/Gotham(0)/l/n/24.88 n
-....\glue(\spaceskip) 7.464 plus 3.732 minus 2.488
-....\TU/Gotham(0)/l/n/24.88 t
-....\TU/Gotham(0)/l/n/24.88 i
+.....< \kern-0.2488 (font)
+.....< \TU/Gotham(0)/b/n/24.88 -
+....\TU/Gotham(0)/b/n/24.88 T
+....\TU/Gotham(0)/b/n/24.88 I
+....\TU/Gotham(0)/b/n/24.88 O
+....\TU/Gotham(0)/b/n/24.88 N
+....\glue(\spaceskip) 7.464 plus 3.72826 minus 2.4905
+....\TU/Gotham(0)/b/n/24.88 T
+....\TU/Gotham(0)/b/n/24.88 I
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 t
-....\TU/Gotham(0)/l/n/24.88 l
-....\TU/Gotham(0)/l/n/24.88 e
-....\glue(\spaceskip) 7.464 plus 3.732 minus 2.488
-....\TU/Gotham(0)/l/n/24.88 f
-....\kern-0.2488 (font)
-....\TU/Gotham(0)/l/n/24.88 o
-....\TU/Gotham(0)/l/n/24.88 r
+.....< \TU/Gotham(0)/b/n/24.88 -
+....\TU/Gotham(0)/b/n/24.88 T
+....\TU/Gotham(0)/b/n/24.88 L
+....\TU/Gotham(0)/b/n/24.88 E
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty 300
+...\glue(\baselineskip) 11.98688
+...\hbox(17.71457+0.29855)x430.00462, glue set 128.25818fil, direction TLT
+....\TU/Gotham(0)/b/n/24.88 F
+....\kern-0.14928 (font)
+....\TU/Gotham(0)/b/n/24.88 O
+....\TU/Gotham(0)/b/n/24.88 R
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 m
-....\TU/Gotham(0)/l/n/24.88 a
-....\kern-0.1244 (font)
-....\TU/Gotham(0)/l/n/24.88 t
+.....< \TU/Gotham(0)/b/n/24.88 -
+....\TU/Gotham(0)/b/n/24.88 M
+....\TU/Gotham(0)/b/n/24.88 A
+....\kern-2.21432 (font)
+....\TU/Gotham(0)/b/n/24.88 T
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 t
-....\TU/Gotham(0)/l/n/24.88 i
-....\TU/Gotham(0)/l/n/24.88 n
-....\TU/Gotham(0)/l/n/24.88 g
+.....< \kern-2.21432 (font)
+.....< \TU/Gotham(0)/b/n/24.88 -
+....\TU/Gotham(0)/b/n/24.88 T
+....\TU/Gotham(0)/b/n/24.88 I
+....\TU/Gotham(0)/b/n/24.88 N
+....\TU/Gotham(0)/b/n/24.88 G
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\glue 0.0 plus -1.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 6.11519
-...\hbox(19.85425+4.05544)x430.00462, glue set 101.4144fil, direction TLT
+...\glue(\baselineskip) 9.8472
+...\hbox(19.85425+3.18465)x430.00462, glue set 42.1751fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\hbox(0.0+0.0)x0.0, direction TLT
-....\TU/Gotham(0)/l/n/24.88 C
-....\kern-0.2488 (font)
-....\TU/Gotham(0)/l/n/24.88 o
-....\TU/Gotham(0)/l/n/24.88 n
+....\TU/Gotham(0)/b/n/24.88 C
+....\kern-0.4976 (font)
+....\TU/Gotham(0)/b/n/24.88 O
+....\TU/Gotham(0)/b/n/24.88 N
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 t
-....\kern-0.3732 (font)
-....\TU/Gotham(0)/l/n/24.88 e
-....\TU/Gotham(0)/l/n/24.88 m
+.....< \TU/Gotham(0)/b/n/24.88 -
+....\TU/Gotham(0)/b/n/24.88 T
+....\TU/Gotham(0)/b/n/24.88 E
+....\TU/Gotham(0)/b/n/24.88 M
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 p
-....\TU/Gotham(0)/l/n/24.88 o
+.....< \TU/Gotham(0)/b/n/24.88 -
+....\TU/Gotham(0)/b/n/24.88 P
+....\TU/Gotham(0)/b/n/24.88 O
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 r
+.....< \TU/Gotham(0)/b/n/24.88 -
+....\TU/Gotham(0)/b/n/24.88 R
+....\TU/Gotham(0)/b/n/24.88 A
+....\TU/Gotham(0)/b/n/24.88 R
 ....\kern-0.622 (font)
-....\TU/Gotham(0)/l/n/24.88 a
-....\TU/Gotham(0)/l/n/24.88 r
-....\TU/Gotham(0)/l/n/24.88 y
-....\kern-1.74161 (font)
-....\TU/Gotham(0)/l/n/24.88 /
-....\kern-0.7464 (font)
-....\TU/Gotham(0)/l/n/24.88 S
-....\TU/Gotham(0)/l/n/24.88 u
-....\TU/Gotham(0)/l/n/24.88 b
-....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 t
-....\TU/Gotham(0)/l/n/24.88 l
-....\TU/Gotham(0)/l/n/24.88 e
-....\glue(\spaceskip) 7.464 plus 3.732 minus 2.488
-....\TU/Gotham(0)/l/n/24.88 t
-....\kern-0.3732 (font)
-....\TU/Gotham(0)/l/n/24.88 o
-....\TU/Gotham(0)/l/n/24.88 n
-....\TU/Gotham(0)/l/n/24.88 e
+....\TU/Gotham(0)/b/n/24.88 Y
+....\kern-2.7368 (font)
+....\TU/Gotham(0)/b/n/24.88 /
+....\TU/Gotham(0)/b/n/24.88 B
+....\kern-0.02489 (font)
+....\TU/Gotham(0)/b/n/24.88 O
+....\TU/Gotham(0)/b/n/24.88 L
+....\TU/Gotham(0)/b/n/24.88 D
+....\glue(\spaceskip) 7.464 plus 3.72826 minus 2.4905
+....\TU/Gotham(0)/b/n/24.88 T
+....\kern-0.89568 (font)
+....\TU/Gotham(0)/b/n/24.88 O
+....\TU/Gotham(0)/b/n/24.88 N
+....\TU/Gotham(0)/b/n/24.88 E
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\penalty 300
-...\glue(\baselineskip) 7.78217
-...\hbox(18.1624+3.9808)x430.00462, glue set 159.40793fil, direction TLT
-....\TU/Gotham(0)/l/n/24.88 q
-....\TU/Gotham(0)/l/n/24.88 u
-....\TU/Gotham(0)/l/n/24.88 a
-....\TU/Gotham(0)/l/n/24.88 d
-....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/24.88 -
-....\TU/Gotham(0)/l/n/24.88 r
+...\glue(\baselineskip) 9.10078
+...\hbox(17.71457+0.52248)x430.00462, glue set 139.09341fil, direction TLT
+....\TU/Gotham(0)/b/n/24.88 Q
+....\TU/Gotham(0)/b/n/24.88 U
 ....\kern-0.622 (font)
-....\TU/Gotham(0)/l/n/24.88 a
-....\TU/Gotham(0)/l/n/24.88 n
-....\TU/Gotham(0)/l/n/24.88 t
+....\TU/Gotham(0)/b/n/24.88 A
+....\TU/Gotham(0)/b/n/24.88 D
+....\discretionary (penalty 50)
+.....< \TU/Gotham(0)/b/n/24.88 -
+....\TU/Gotham(0)/b/n/24.88 R
+....\TU/Gotham(0)/b/n/24.88 A
+....\TU/Gotham(0)/b/n/24.88 N
+....\TU/Gotham(0)/b/n/24.88 T
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\penalty -51
 ...\glue 10.0 plus 3.0 minus 5.0
 ...\glue 5.0
-...\glue -8.9808
+...\glue -5.52248
 ...\penalty -51
-...\glue 3.9808
+...\glue 0.52248
 ...\glue 5.0
 ...\glue -5.0
 ...\glue 10.0 plus 4.0 minus 5.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 1.2592
-...\hbox(8.76+1.944)x430.00462, glue set 160.2103fil, direction TLT
+...\glue(\baselineskip) 4.71753
+...\hbox(8.76+1.944)x430.00462, glue set 159.20229fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
@@ -177,27 +175,27 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0, direction TLT
 .....\glue 5.0
 ....\penalty 0
-....\TU/Gotham(0)/l/n/12 M
-....\TU/Gotham(0)/l/n/12 a
+....\TU/Gotham(0)/b/n/12 M
+....\TU/Gotham(0)/b/n/12 a
 ....\kern-0.06 (font)
-....\TU/Gotham(0)/l/n/12 t
-....\TU/Gotham(0)/l/n/12 t
-....\TU/Gotham(0)/l/n/12 h
-....\TU/Gotham(0)/l/n/12 e
+....\TU/Gotham(0)/b/n/12 t
+....\TU/Gotham(0)/b/n/12 t
+....\TU/Gotham(0)/b/n/12 h
+....\TU/Gotham(0)/b/n/12 e
 ....\kern-0.3 (font)
-....\TU/Gotham(0)/l/n/12 w
+....\TU/Gotham(0)/b/n/12 w
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 L
-....\kern-0.06 (font)
-....\TU/Gotham(0)/l/n/12 e
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 n
+....\TU/Gotham(0)/b/n/12 L
+....\kern-0.108 (font)
+....\TU/Gotham(0)/b/n/12 e
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 n
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 g
-....\TU/Gotham(0)/l/n/12 a
-....\TU/Gotham(0)/l/n/12 n
-....\TU/Gotham(0)/l/n/12 g
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 g
+....\TU/Gotham(0)/b/n/12 a
+....\TU/Gotham(0)/b/n/12 n
+....\TU/Gotham(0)/b/n/12 g
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
@@ -210,7 +208,7 @@ Completed box being shipped out [1]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 3.512
-...\hbox(8.544+0.144)x430.00462, glue set 181.5043fil, direction TLT
+...\hbox(8.544+0.144)x430.00462, glue set 180.42432fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
@@ -223,21 +221,21 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0, direction TLT
 .....\glue 5.0
 ....\penalty 0
-....\TU/Gotham(0)/l/n/12 2
-....\TU/Gotham(0)/l/n/12 0
+....\TU/Gotham(0)/b/n/12 2
+....\TU/Gotham(0)/b/n/12 0
 ....\kern-0.12 (font)
-....\TU/Gotham(0)/l/n/12 2
-....\TU/Gotham(0)/l/n/12 3
+....\TU/Gotham(0)/b/n/12 2
+....\TU/Gotham(0)/b/n/12 3
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-.....= \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 0
-....\TU/Gotham(0)/l/n/12 6
+.....< \TU/Gotham(0)/b/n/12 -
+.....= \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 0
+....\TU/Gotham(0)/b/n/12 6
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-.....= \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 2
-....\TU/Gotham(0)/l/n/12 1
+.....< \TU/Gotham(0)/b/n/12 -
+.....= \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 2
+....\TU/Gotham(0)/b/n/12 1
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
@@ -253,54 +251,54 @@ Completed box being shipped out [1]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 6.45607
-...\hbox(15.39993+6.60007)x430.00462, glue set 174.00139fil, direction TLT
+...\hbox(15.39993+6.60007)x430.00462, glue set 165.53424fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(15.39993+6.60007)x0.0
-....\hbox(15.39993+6.60007)x23.0688, direction TLT
-.....\TU/Gotham(0)/l/n/17.28 1
+....\hbox(15.39993+6.60007)x24.12288, direction TLT
+.....\TU/Gotham(0)/b/n/17.28 1
 .....\glue 17.28
 .....\rule(15.39993+6.60007)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/17.28 H
-....\TU/Gotham(0)/l/n/17.28 e
-....\TU/Gotham(0)/l/n/17.28 a
-....\TU/Gotham(0)/l/n/17.28 d
+....\TU/Gotham(0)/b/n/17.28 H
+....\TU/Gotham(0)/b/n/17.28 e
+....\TU/Gotham(0)/b/n/17.28 a
+....\TU/Gotham(0)/b/n/17.28 d
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/17.28 -
-....\TU/Gotham(0)/l/n/17.28 i
-....\TU/Gotham(0)/l/n/17.28 n
-....\TU/Gotham(0)/l/n/17.28 g
+.....< \TU/Gotham(0)/b/n/17.28 -
+....\TU/Gotham(0)/b/n/17.28 i
+....\TU/Gotham(0)/b/n/17.28 n
+....\TU/Gotham(0)/b/n/17.28 g
 ....\glue(\spaceskip) 5.184 plus 2.592 minus 1.728
-....\TU/Gotham(0)/l/n/17.28 o
-....\TU/Gotham(0)/l/n/17.28 n
+....\TU/Gotham(0)/b/n/17.28 o
+....\TU/Gotham(0)/b/n/17.28 n
 ....\glue(\spaceskip) 5.184 plus 2.592 minus 1.728
-....\TU/Gotham(0)/l/n/17.28 l
-....\TU/Gotham(0)/l/n/17.28 e
+....\TU/Gotham(0)/b/n/17.28 l
+....\TU/Gotham(0)/b/n/17.28 e
 ....\kern-0.432 (font)
-....\TU/Gotham(0)/l/n/17.28 v
+....\TU/Gotham(0)/b/n/17.28 v
 ....\kern-0.5184 (font)
-....\TU/Gotham(0)/l/n/17.28 e
-....\TU/Gotham(0)/l/n/17.28 l
+....\TU/Gotham(0)/b/n/17.28 e
+....\TU/Gotham(0)/b/n/17.28 l
 ....\glue(\spaceskip) 5.184 plus 2.592 minus 1.728
-....\TU/Gotham(0)/l/n/17.28 1
+....\TU/Gotham(0)/b/n/17.28 1
 ....\glue(\spaceskip) 5.184 plus 2.592 minus 1.728
-....\TU/Gotham(0)/l/n/17.28 (
+....\TU/Gotham(0)/b/n/17.28 (
 ....\kern-0.2592 (font)
-....\TU/Gotham(0)/l/n/17.28 s
-....\TU/Gotham(0)/l/n/17.28 e
-....\TU/Gotham(0)/l/n/17.28 c
+....\TU/Gotham(0)/b/n/17.28 s
+....\TU/Gotham(0)/b/n/17.28 e
+....\TU/Gotham(0)/b/n/17.28 c
 ....\discretionary (penalty 50)
-.....< \kern-0.5184 (font)
-.....< \TU/Gotham(0)/l/n/17.28 -
-....\TU/Gotham(0)/l/n/17.28 t
-....\TU/Gotham(0)/l/n/17.28 i
-....\TU/Gotham(0)/l/n/17.28 o
-....\TU/Gotham(0)/l/n/17.28 n
-....\TU/Gotham(0)/l/n/17.28 )
+.....< \kern-0.27647 (font)
+.....< \TU/Gotham(0)/b/n/17.28 -
+....\TU/Gotham(0)/b/n/17.28 t
+....\TU/Gotham(0)/b/n/17.28 i
+....\TU/Gotham(0)/b/n/17.28 o
+....\TU/Gotham(0)/b/n/17.28 n
+....\TU/Gotham(0)/b/n/17.28 )
 ....\kern0.0
 ....\rule(15.39993+6.60007)x0.0
 ....\penalty 10000
@@ -1342,62 +1340,62 @@ Completed box being shipped out [1]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 3.80005
-...\hbox(12.59995+5.40005)x430.00462, glue set 180.09273fil, direction TLT
+...\hbox(12.59995+5.40005)x430.00462, glue set 171.82716fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x26.64, direction TLT
-.....\TU/Gotham(0)/l/n/14.4 1
-.....\TU/Gotham(0)/l/n/14.4 .
+....\hbox(12.59995+5.40005)x28.95837, direction TLT
+.....\TU/Gotham(0)/b/n/14.4 1
+.....\TU/Gotham(0)/b/n/14.4 .
 .....\kern-0.72 (font)
-.....\TU/Gotham(0)/l/n/14.4 1
+.....\TU/Gotham(0)/b/n/14.4 1
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/14.4 H
-....\TU/Gotham(0)/l/n/14.4 e
-....\TU/Gotham(0)/l/n/14.4 a
-....\TU/Gotham(0)/l/n/14.4 d
+....\TU/Gotham(0)/b/n/14.4 H
+....\TU/Gotham(0)/b/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 a
+....\TU/Gotham(0)/b/n/14.4 d
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 n
-....\TU/Gotham(0)/l/n/14.4 g
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 n
+....\TU/Gotham(0)/b/n/14.4 g
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 o
-....\TU/Gotham(0)/l/n/14.4 n
+....\TU/Gotham(0)/b/n/14.4 o
+....\TU/Gotham(0)/b/n/14.4 n
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 l
-....\TU/Gotham(0)/l/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 l
+....\TU/Gotham(0)/b/n/14.4 e
 ....\kern-0.36 (font)
-....\TU/Gotham(0)/l/n/14.4 v
+....\TU/Gotham(0)/b/n/14.4 v
 ....\kern-0.432 (font)
-....\TU/Gotham(0)/l/n/14.4 e
-....\TU/Gotham(0)/l/n/14.4 l
+....\TU/Gotham(0)/b/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 l
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 2
+....\TU/Gotham(0)/b/n/14.4 2
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 (
+....\TU/Gotham(0)/b/n/14.4 (
 ....\kern-0.216 (font)
-....\TU/Gotham(0)/l/n/14.4 s
-....\TU/Gotham(0)/l/n/14.4 u
-....\TU/Gotham(0)/l/n/14.4 b
+....\TU/Gotham(0)/b/n/14.4 s
+....\TU/Gotham(0)/b/n/14.4 u
+....\TU/Gotham(0)/b/n/14.4 b
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 s
-....\TU/Gotham(0)/l/n/14.4 e
-....\TU/Gotham(0)/l/n/14.4 c
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 s
+....\TU/Gotham(0)/b/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 c
 ....\discretionary (penalty 50)
-.....< \kern-0.432 (font)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 t
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 o
-....\TU/Gotham(0)/l/n/14.4 n
-....\TU/Gotham(0)/l/n/14.4 )
+.....< \kern-0.2304 (font)
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 t
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 o
+....\TU/Gotham(0)/b/n/14.4 n
+....\TU/Gotham(0)/b/n/14.4 )
 ....\kern0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -2454,70 +2452,70 @@ Completed box being shipped out [2]
 ..\glue(\lineskip) 0.0
 ..\vbox(556.47656+0.0)x430.00462, glue set >20000.0fil, direction TLT
 ...\glue(\topskip) 0.20004
-...\hbox(9.79996+4.20004)x430.00462, glue set 194.08458fil, direction TLT
+...\hbox(9.79996+4.20004)x430.00462, glue set 185.91255fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x28.37999, direction TLT
-.....\TU/Gotham(0)/l/n/12 1
-.....\TU/Gotham(0)/l/n/12 .
+....\hbox(9.79996+4.20004)x31.51198, direction TLT
+.....\TU/Gotham(0)/b/n/12 1
+.....\TU/Gotham(0)/b/n/12 .
 .....\kern-0.6 (font)
-.....\TU/Gotham(0)/l/n/12 1
-.....\TU/Gotham(0)/l/n/12 .
+.....\TU/Gotham(0)/b/n/12 1
+.....\TU/Gotham(0)/b/n/12 .
 .....\kern-0.6 (font)
-.....\TU/Gotham(0)/l/n/12 1
+.....\TU/Gotham(0)/b/n/12 1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/12 H
-....\TU/Gotham(0)/l/n/12 e
-....\TU/Gotham(0)/l/n/12 a
-....\TU/Gotham(0)/l/n/12 d
+....\TU/Gotham(0)/b/n/12 H
+....\TU/Gotham(0)/b/n/12 e
+....\TU/Gotham(0)/b/n/12 a
+....\TU/Gotham(0)/b/n/12 d
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 n
-....\TU/Gotham(0)/l/n/12 g
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 n
+....\TU/Gotham(0)/b/n/12 g
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 o
-....\TU/Gotham(0)/l/n/12 n
+....\TU/Gotham(0)/b/n/12 o
+....\TU/Gotham(0)/b/n/12 n
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 l
-....\TU/Gotham(0)/l/n/12 e
+....\TU/Gotham(0)/b/n/12 l
+....\TU/Gotham(0)/b/n/12 e
 ....\kern-0.3 (font)
-....\TU/Gotham(0)/l/n/12 v
+....\TU/Gotham(0)/b/n/12 v
 ....\kern-0.36 (font)
-....\TU/Gotham(0)/l/n/12 e
-....\TU/Gotham(0)/l/n/12 l
+....\TU/Gotham(0)/b/n/12 e
+....\TU/Gotham(0)/b/n/12 l
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 3
+....\TU/Gotham(0)/b/n/12 3
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 (
+....\TU/Gotham(0)/b/n/12 (
 ....\kern-0.18 (font)
-....\TU/Gotham(0)/l/n/12 s
-....\TU/Gotham(0)/l/n/12 u
-....\TU/Gotham(0)/l/n/12 b
+....\TU/Gotham(0)/b/n/12 s
+....\TU/Gotham(0)/b/n/12 u
+....\TU/Gotham(0)/b/n/12 b
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 s
-....\TU/Gotham(0)/l/n/12 u
-....\TU/Gotham(0)/l/n/12 b
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 s
+....\TU/Gotham(0)/b/n/12 u
+....\TU/Gotham(0)/b/n/12 b
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 s
-....\TU/Gotham(0)/l/n/12 e
-....\TU/Gotham(0)/l/n/12 c
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 s
+....\TU/Gotham(0)/b/n/12 e
+....\TU/Gotham(0)/b/n/12 c
 ....\discretionary (penalty 50)
-.....< \kern-0.36 (font)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 t
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 o
-....\TU/Gotham(0)/l/n/12 n
-....\TU/Gotham(0)/l/n/12 )
+.....< \kern-0.192 (font)
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 t
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 o
+....\TU/Gotham(0)/b/n/12 n
+....\TU/Gotham(0)/b/n/12 )
 ....\kern0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -4636,24 +4634,24 @@ Completed box being shipped out [2]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 5.00006
-...\hbox(15.39993+6.60007)x430.00462, glue set 363.70123fil, direction TLT
+...\hbox(15.39993+6.60007)x430.00462, glue set 362.26703fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(15.39993+6.60007)x0.0
-....\hbox(15.39993+6.60007)x27.4752, direction TLT
-.....\TU/Gotham(0)/l/n/17.28 2
+....\hbox(15.39993+6.60007)x27.87263, direction TLT
+.....\TU/Gotham(0)/b/n/17.28 2
 .....\glue 17.28
 .....\rule(15.39993+6.60007)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/17.28 L
-....\TU/Gotham(0)/l/n/17.28 i
-....\TU/Gotham(0)/l/n/17.28 s
+....\TU/Gotham(0)/b/n/17.28 L
+....\TU/Gotham(0)/b/n/17.28 i
+....\TU/Gotham(0)/b/n/17.28 s
 ....\kern-0.1728 (font)
-....\TU/Gotham(0)/l/n/17.28 t
-....\TU/Gotham(0)/l/n/17.28 s
+....\TU/Gotham(0)/b/n/17.28 t
+....\TU/Gotham(0)/b/n/17.28 s
 ....\kern0.0
 ....\rule(15.39993+6.60007)x0.0
 ....\penalty 10000
@@ -4668,60 +4666,60 @@ Completed box being shipped out [2]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\lineskip) 1.0
-...\hbox(12.59995+5.40005)x430.00462, glue set 222.81752fil, direction TLT
+...\hbox(12.59995+5.40005)x430.00462, glue set 215.55997fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x30.312, direction TLT
-.....\TU/Gotham(0)/l/n/14.4 2
-.....\TU/Gotham(0)/l/n/14.4 .
+....\hbox(12.59995+5.40005)x32.08318, direction TLT
+.....\TU/Gotham(0)/b/n/14.4 2
+.....\TU/Gotham(0)/b/n/14.4 .
 .....\kern-0.72 (font)
-.....\TU/Gotham(0)/l/n/14.4 1
+.....\TU/Gotham(0)/b/n/14.4 1
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/14.4 E
-....\TU/Gotham(0)/l/n/14.4 x
+....\TU/Gotham(0)/b/n/14.4 E
+....\TU/Gotham(0)/b/n/14.4 x
 ....\discretionary (penalty 50)
 .....< \kern-0.432 (font)
-.....< \TU/Gotham(0)/l/n/14.4 -
+.....< \TU/Gotham(0)/b/n/14.4 -
 .....= \kern-0.216 (font)
-....\TU/Gotham(0)/l/n/14.4 a
-....\TU/Gotham(0)/l/n/14.4 m
+....\TU/Gotham(0)/b/n/14.4 a
+....\TU/Gotham(0)/b/n/14.4 m
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 p
-....\TU/Gotham(0)/l/n/14.4 l
-....\TU/Gotham(0)/l/n/14.4 e
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 p
+....\TU/Gotham(0)/b/n/14.4 l
+....\TU/Gotham(0)/b/n/14.4 e
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 f
+....\TU/Gotham(0)/b/n/14.4 f
 ....\kern-0.144 (font)
-....\TU/Gotham(0)/l/n/14.4 o
-....\TU/Gotham(0)/l/n/14.4 r
+....\TU/Gotham(0)/b/n/14.4 o
+....\TU/Gotham(0)/b/n/14.4 r
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 l
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 s
+....\TU/Gotham(0)/b/n/14.4 l
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 s
 ....\kern-0.144 (font)
-....\TU/Gotham(0)/l/n/14.4 t
+....\TU/Gotham(0)/b/n/14.4 t
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 (
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 t
+....\TU/Gotham(0)/b/n/14.4 (
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 t
 ....\kern-0.216 (font)
-....\TU/Gotham(0)/l/n/14.4 e
-....\TU/Gotham(0)/l/n/14.4 m
+....\TU/Gotham(0)/b/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 m
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 z
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 z
 ....\kern-0.216 (font)
-....\TU/Gotham(0)/l/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 e
 ....\kern-0.432 (font)
-....\TU/Gotham(0)/l/n/14.4 )
+....\TU/Gotham(0)/b/n/14.4 )
 ....\kern0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -4977,65 +4975,65 @@ T
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 4.08005
-...\hbox(9.79996+4.20004)x430.00462, glue set 238.04057fil, direction TLT
+...\hbox(9.79996+4.20004)x430.00462, glue set 230.57652fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x31.43999, direction TLT
-.....\TU/Gotham(0)/l/n/12 2
-.....\TU/Gotham(0)/l/n/12 .
+....\hbox(9.79996+4.20004)x34.11598, direction TLT
+.....\TU/Gotham(0)/b/n/12 2
+.....\TU/Gotham(0)/b/n/12 .
 .....\kern-0.6 (font)
-.....\TU/Gotham(0)/l/n/12 1
-.....\TU/Gotham(0)/l/n/12 .
+.....\TU/Gotham(0)/b/n/12 1
+.....\TU/Gotham(0)/b/n/12 .
 .....\kern-0.6 (font)
-.....\TU/Gotham(0)/l/n/12 1
+.....\TU/Gotham(0)/b/n/12 1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/12 E
-....\TU/Gotham(0)/l/n/12 x
+....\TU/Gotham(0)/b/n/12 E
+....\TU/Gotham(0)/b/n/12 x
 ....\discretionary (penalty 50)
 .....< \kern-0.36 (font)
-.....< \TU/Gotham(0)/l/n/12 -
+.....< \TU/Gotham(0)/b/n/12 -
 .....= \kern-0.18 (font)
-....\TU/Gotham(0)/l/n/12 a
-....\TU/Gotham(0)/l/n/12 m
+....\TU/Gotham(0)/b/n/12 a
+....\TU/Gotham(0)/b/n/12 m
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 p
-....\TU/Gotham(0)/l/n/12 l
-....\TU/Gotham(0)/l/n/12 e
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 p
+....\TU/Gotham(0)/b/n/12 l
+....\TU/Gotham(0)/b/n/12 e
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 f
+....\TU/Gotham(0)/b/n/12 f
 ....\kern-0.12 (font)
-....\TU/Gotham(0)/l/n/12 o
-....\TU/Gotham(0)/l/n/12 r
+....\TU/Gotham(0)/b/n/12 o
+....\TU/Gotham(0)/b/n/12 r
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 l
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 s
+....\TU/Gotham(0)/b/n/12 l
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 s
 ....\kern-0.12 (font)
-....\TU/Gotham(0)/l/n/12 t
+....\TU/Gotham(0)/b/n/12 t
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 (
-....\TU/Gotham(0)/l/n/12 4
-....\TU/Gotham(0)/l/n/12 *
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 t
+....\TU/Gotham(0)/b/n/12 (
+....\TU/Gotham(0)/b/n/12 4
+....\TU/Gotham(0)/b/n/12 *
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 t
 ....\kern-0.18 (font)
-....\TU/Gotham(0)/l/n/12 e
-....\TU/Gotham(0)/l/n/12 m
+....\TU/Gotham(0)/b/n/12 e
+....\TU/Gotham(0)/b/n/12 m
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 z
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 z
 ....\kern-0.18 (font)
-....\TU/Gotham(0)/l/n/12 e
+....\TU/Gotham(0)/b/n/12 e
 ....\kern-0.36 (font)
-....\TU/Gotham(0)/l/n/12 )
+....\TU/Gotham(0)/b/n/12 )
 ....\kern0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -5462,65 +5460,65 @@ n TLT
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 5.28006
-...\hbox(12.59995+5.40005)x430.00462, glue set 194.13277fil, direction TLT
+...\hbox(12.59995+5.40005)x430.00462, glue set 187.71037fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x34.704, direction TLT
-.....\TU/Gotham(0)/l/n/14.4 2
-.....\TU/Gotham(0)/l/n/14.4 .
-.....\TU/Gotham(0)/l/n/14.4 2
+....\hbox(12.59995+5.40005)x35.92798, direction TLT
+.....\TU/Gotham(0)/b/n/14.4 2
+.....\TU/Gotham(0)/b/n/14.4 .
+.....\TU/Gotham(0)/b/n/14.4 2
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/14.4 E
-....\TU/Gotham(0)/l/n/14.4 x
+....\TU/Gotham(0)/b/n/14.4 E
+....\TU/Gotham(0)/b/n/14.4 x
 ....\discretionary (penalty 50)
 .....< \kern-0.432 (font)
-.....< \TU/Gotham(0)/l/n/14.4 -
+.....< \TU/Gotham(0)/b/n/14.4 -
 .....= \kern-0.216 (font)
-....\TU/Gotham(0)/l/n/14.4 a
-....\TU/Gotham(0)/l/n/14.4 m
+....\TU/Gotham(0)/b/n/14.4 a
+....\TU/Gotham(0)/b/n/14.4 m
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 p
-....\TU/Gotham(0)/l/n/14.4 l
-....\TU/Gotham(0)/l/n/14.4 e
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 p
+....\TU/Gotham(0)/b/n/14.4 l
+....\TU/Gotham(0)/b/n/14.4 e
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 f
+....\TU/Gotham(0)/b/n/14.4 f
 ....\kern-0.144 (font)
-....\TU/Gotham(0)/l/n/14.4 o
-....\TU/Gotham(0)/l/n/14.4 r
+....\TU/Gotham(0)/b/n/14.4 o
+....\TU/Gotham(0)/b/n/14.4 r
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 l
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 s
+....\TU/Gotham(0)/b/n/14.4 l
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 s
 ....\kern-0.144 (font)
-....\TU/Gotham(0)/l/n/14.4 t
+....\TU/Gotham(0)/b/n/14.4 t
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 (
+....\TU/Gotham(0)/b/n/14.4 (
 ....\kern-0.432 (font)
-....\TU/Gotham(0)/l/n/14.4 e
-....\TU/Gotham(0)/l/n/14.4 n
-....\TU/Gotham(0)/l/n/14.4 u
+....\TU/Gotham(0)/b/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 n
+....\TU/Gotham(0)/b/n/14.4 u
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 m
-....\TU/Gotham(0)/l/n/14.4 e
-....\TU/Gotham(0)/l/n/14.4 r
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 m
+....\TU/Gotham(0)/b/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 r
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
+.....< \TU/Gotham(0)/b/n/14.4 -
 .....= \kern-0.36 (font)
-....\TU/Gotham(0)/l/n/14.4 a
+....\TU/Gotham(0)/b/n/14.4 a
 ....\kern-0.072 (font)
-....\TU/Gotham(0)/l/n/14.4 t
+....\TU/Gotham(0)/b/n/14.4 t
 ....\kern-0.216 (font)
-....\TU/Gotham(0)/l/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 e
 ....\kern-0.432 (font)
-....\TU/Gotham(0)/l/n/14.4 )
+....\TU/Gotham(0)/b/n/14.4 )
 ....\kern0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -5780,70 +5778,70 @@ T
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 4.08005
-...\hbox(9.79996+4.20004)x430.00462, glue set 214.01659fil, direction TLT
+...\hbox(9.79996+4.20004)x430.00462, glue set 207.24854fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x35.09999, direction TLT
-.....\TU/Gotham(0)/l/n/12 2
-.....\TU/Gotham(0)/l/n/12 .
-.....\TU/Gotham(0)/l/n/12 2
-.....\TU/Gotham(0)/l/n/12 .
+....\hbox(9.79996+4.20004)x37.31999, direction TLT
+.....\TU/Gotham(0)/b/n/12 2
+.....\TU/Gotham(0)/b/n/12 .
+.....\TU/Gotham(0)/b/n/12 2
+.....\TU/Gotham(0)/b/n/12 .
 .....\kern-0.6 (font)
-.....\TU/Gotham(0)/l/n/12 1
+.....\TU/Gotham(0)/b/n/12 1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/12 E
-....\TU/Gotham(0)/l/n/12 x
+....\TU/Gotham(0)/b/n/12 E
+....\TU/Gotham(0)/b/n/12 x
 ....\discretionary (penalty 50)
 .....< \kern-0.36 (font)
-.....< \TU/Gotham(0)/l/n/12 -
+.....< \TU/Gotham(0)/b/n/12 -
 .....= \kern-0.18 (font)
-....\TU/Gotham(0)/l/n/12 a
-....\TU/Gotham(0)/l/n/12 m
+....\TU/Gotham(0)/b/n/12 a
+....\TU/Gotham(0)/b/n/12 m
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 p
-....\TU/Gotham(0)/l/n/12 l
-....\TU/Gotham(0)/l/n/12 e
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 p
+....\TU/Gotham(0)/b/n/12 l
+....\TU/Gotham(0)/b/n/12 e
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 f
+....\TU/Gotham(0)/b/n/12 f
 ....\kern-0.12 (font)
-....\TU/Gotham(0)/l/n/12 o
-....\TU/Gotham(0)/l/n/12 r
+....\TU/Gotham(0)/b/n/12 o
+....\TU/Gotham(0)/b/n/12 r
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 l
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 s
+....\TU/Gotham(0)/b/n/12 l
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 s
 ....\kern-0.12 (font)
-....\TU/Gotham(0)/l/n/12 t
+....\TU/Gotham(0)/b/n/12 t
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 (
-....\TU/Gotham(0)/l/n/12 4
-....\TU/Gotham(0)/l/n/12 *
+....\TU/Gotham(0)/b/n/12 (
+....\TU/Gotham(0)/b/n/12 4
+....\TU/Gotham(0)/b/n/12 *
 ....\kern-0.24 (font)
-....\TU/Gotham(0)/l/n/12 e
-....\TU/Gotham(0)/l/n/12 n
-....\TU/Gotham(0)/l/n/12 u
+....\TU/Gotham(0)/b/n/12 e
+....\TU/Gotham(0)/b/n/12 n
+....\TU/Gotham(0)/b/n/12 u
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 m
-....\TU/Gotham(0)/l/n/12 e
-....\TU/Gotham(0)/l/n/12 r
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 m
+....\TU/Gotham(0)/b/n/12 e
+....\TU/Gotham(0)/b/n/12 r
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
+.....< \TU/Gotham(0)/b/n/12 -
 .....= \kern-0.3 (font)
-....\TU/Gotham(0)/l/n/12 a
+....\TU/Gotham(0)/b/n/12 a
 ....\kern-0.06 (font)
-....\TU/Gotham(0)/l/n/12 t
+....\TU/Gotham(0)/b/n/12 t
 ....\kern-0.18 (font)
-....\TU/Gotham(0)/l/n/12 e
+....\TU/Gotham(0)/b/n/12 e
 ....\kern-0.36 (font)
-....\TU/Gotham(0)/l/n/12 )
+....\TU/Gotham(0)/b/n/12 )
 ....\kern0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -6264,63 +6262,63 @@ n TLT
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 5.28006
-...\hbox(12.59995+5.40005)x430.00462, glue set 189.53912fil, direction TLT
+...\hbox(12.59995+5.40005)x430.00462, glue set 182.54074fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x34.99199, direction TLT
-.....\TU/Gotham(0)/l/n/14.4 2
-.....\TU/Gotham(0)/l/n/14.4 .
-.....\TU/Gotham(0)/l/n/14.4 3
+....\hbox(12.59995+5.40005)x35.99998, direction TLT
+.....\TU/Gotham(0)/b/n/14.4 2
+.....\TU/Gotham(0)/b/n/14.4 .
+.....\TU/Gotham(0)/b/n/14.4 3
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/14.4 E
-....\TU/Gotham(0)/l/n/14.4 x
+....\TU/Gotham(0)/b/n/14.4 E
+....\TU/Gotham(0)/b/n/14.4 x
 ....\discretionary (penalty 50)
 .....< \kern-0.432 (font)
-.....< \TU/Gotham(0)/l/n/14.4 -
+.....< \TU/Gotham(0)/b/n/14.4 -
 .....= \kern-0.216 (font)
-....\TU/Gotham(0)/l/n/14.4 a
-....\TU/Gotham(0)/l/n/14.4 m
+....\TU/Gotham(0)/b/n/14.4 a
+....\TU/Gotham(0)/b/n/14.4 m
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 p
-....\TU/Gotham(0)/l/n/14.4 l
-....\TU/Gotham(0)/l/n/14.4 e
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 p
+....\TU/Gotham(0)/b/n/14.4 l
+....\TU/Gotham(0)/b/n/14.4 e
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 f
+....\TU/Gotham(0)/b/n/14.4 f
 ....\kern-0.144 (font)
-....\TU/Gotham(0)/l/n/14.4 o
-....\TU/Gotham(0)/l/n/14.4 r
+....\TU/Gotham(0)/b/n/14.4 o
+....\TU/Gotham(0)/b/n/14.4 r
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 l
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 s
+....\TU/Gotham(0)/b/n/14.4 l
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 s
 ....\kern-0.144 (font)
-....\TU/Gotham(0)/l/n/14.4 t
+....\TU/Gotham(0)/b/n/14.4 t
 ....\glue(\spaceskip) 4.31999 plus 2.16 minus 1.44
-....\TU/Gotham(0)/l/n/14.4 (
+....\TU/Gotham(0)/b/n/14.4 (
 ....\kern-0.432 (font)
-....\TU/Gotham(0)/l/n/14.4 d
-....\TU/Gotham(0)/l/n/14.4 e
+....\TU/Gotham(0)/b/n/14.4 d
+....\TU/Gotham(0)/b/n/14.4 e
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 s
-....\TU/Gotham(0)/l/n/14.4 c
-....\TU/Gotham(0)/l/n/14.4 r
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 p
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 s
+....\TU/Gotham(0)/b/n/14.4 c
+....\TU/Gotham(0)/b/n/14.4 r
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 p
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/14.4 -
-....\TU/Gotham(0)/l/n/14.4 t
-....\TU/Gotham(0)/l/n/14.4 i
-....\TU/Gotham(0)/l/n/14.4 o
-....\TU/Gotham(0)/l/n/14.4 n
-....\TU/Gotham(0)/l/n/14.4 )
+.....< \TU/Gotham(0)/b/n/14.4 -
+....\TU/Gotham(0)/b/n/14.4 t
+....\TU/Gotham(0)/b/n/14.4 i
+....\TU/Gotham(0)/b/n/14.4 o
+....\TU/Gotham(0)/b/n/14.4 n
+....\TU/Gotham(0)/b/n/14.4 )
 ....\kern0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -6569,68 +6567,68 @@ Completed box being shipped out [4]
 ..\glue(\lineskip) 0.0
 ..\vbox(556.47656+0.0)x430.00462, glue set 402.5586fil, direction TLT
 ...\glue(\topskip) 0.20004
-...\hbox(9.79996+4.20004)x430.00462, glue set 210.12856fil, direction TLT
+...\hbox(9.79996+4.20004)x430.00462, glue set 202.88052fil, direction TLT
 ....\localpar
 .....\localinterlinepenalty=0
 .....\localbrokenpenalty=0
 .....\localleftbox=null
 .....\localrightbox=null
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x35.34, direction TLT
-.....\TU/Gotham(0)/l/n/12 2
-.....\TU/Gotham(0)/l/n/12 .
-.....\TU/Gotham(0)/l/n/12 3
-.....\TU/Gotham(0)/l/n/12 .
+....\hbox(9.79996+4.20004)x37.37999, direction TLT
+.....\TU/Gotham(0)/b/n/12 2
+.....\TU/Gotham(0)/b/n/12 .
+.....\TU/Gotham(0)/b/n/12 3
+.....\TU/Gotham(0)/b/n/12 .
 .....\kern-0.6 (font)
-.....\TU/Gotham(0)/l/n/12 1
+.....\TU/Gotham(0)/b/n/12 1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/12 E
-....\TU/Gotham(0)/l/n/12 x
+....\TU/Gotham(0)/b/n/12 E
+....\TU/Gotham(0)/b/n/12 x
 ....\discretionary (penalty 50)
 .....< \kern-0.36 (font)
-.....< \TU/Gotham(0)/l/n/12 -
+.....< \TU/Gotham(0)/b/n/12 -
 .....= \kern-0.18 (font)
-....\TU/Gotham(0)/l/n/12 a
-....\TU/Gotham(0)/l/n/12 m
+....\TU/Gotham(0)/b/n/12 a
+....\TU/Gotham(0)/b/n/12 m
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 p
-....\TU/Gotham(0)/l/n/12 l
-....\TU/Gotham(0)/l/n/12 e
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 p
+....\TU/Gotham(0)/b/n/12 l
+....\TU/Gotham(0)/b/n/12 e
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 f
+....\TU/Gotham(0)/b/n/12 f
 ....\kern-0.12 (font)
-....\TU/Gotham(0)/l/n/12 o
-....\TU/Gotham(0)/l/n/12 r
+....\TU/Gotham(0)/b/n/12 o
+....\TU/Gotham(0)/b/n/12 r
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 l
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 s
+....\TU/Gotham(0)/b/n/12 l
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 s
 ....\kern-0.12 (font)
-....\TU/Gotham(0)/l/n/12 t
+....\TU/Gotham(0)/b/n/12 t
 ....\glue(\spaceskip) 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 (
-....\TU/Gotham(0)/l/n/12 4
-....\TU/Gotham(0)/l/n/12 *
+....\TU/Gotham(0)/b/n/12 (
+....\TU/Gotham(0)/b/n/12 4
+....\TU/Gotham(0)/b/n/12 *
 ....\kern-0.18 (font)
-....\TU/Gotham(0)/l/n/12 d
-....\TU/Gotham(0)/l/n/12 e
+....\TU/Gotham(0)/b/n/12 d
+....\TU/Gotham(0)/b/n/12 e
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 s
-....\TU/Gotham(0)/l/n/12 c
-....\TU/Gotham(0)/l/n/12 r
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 p
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 s
+....\TU/Gotham(0)/b/n/12 c
+....\TU/Gotham(0)/b/n/12 r
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 p
 ....\discretionary (penalty 50)
-.....< \TU/Gotham(0)/l/n/12 -
-....\TU/Gotham(0)/l/n/12 t
-....\TU/Gotham(0)/l/n/12 i
-....\TU/Gotham(0)/l/n/12 o
-....\TU/Gotham(0)/l/n/12 n
-....\TU/Gotham(0)/l/n/12 )
+.....< \TU/Gotham(0)/b/n/12 -
+....\TU/Gotham(0)/b/n/12 t
+....\TU/Gotham(0)/b/n/12 i
+....\TU/Gotham(0)/b/n/12 o
+....\TU/Gotham(0)/b/n/12 n
+....\TU/Gotham(0)/b/n/12 )
 ....\kern0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000

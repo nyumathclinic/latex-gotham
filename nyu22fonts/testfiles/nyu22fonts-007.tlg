@@ -79,25 +79,25 @@ Package fontspec Info: Font family 'Montserrat(0)' created for font
 (fontspec)             <->"[Montserrat-BlackItalic.otf]:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             -  (ub/scit) with NFSS spec.:
 (fontspec)             <->"[Montserrat-BlackItalic.otf]:mode=node;script=latn;language=dflt;+tlig;+smcp;"
-luaotfload | aux : font no 72 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 60 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 72 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 60 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 61 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 61 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 61 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 73 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 61 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 74 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 62 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 74 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 62 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 75 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 63 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 75 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 63 (nil) does not define feature smcp for script latn
  with language dflt
 Package fontspec Info: Font family 'FrankRuhlLibre(0)' created for font 'Frank
 (fontspec)             Ruhl Libre' with options

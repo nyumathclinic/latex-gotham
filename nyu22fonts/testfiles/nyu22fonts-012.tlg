@@ -1,20 +1,20 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
-luaotfload | aux : font no 53 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 54 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 55 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 55 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 43 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 57 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 58 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn
  with language dflt
 Package fontspec Info: Font family 'Gotham(0)' created for font 'Gotham' with
 (fontspec)             options [Ligatures=TeX,FontFace={l}{n}{*

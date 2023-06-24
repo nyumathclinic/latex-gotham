@@ -47,11 +47,11 @@
 % the styling of a document.
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{titlesec}
-\newcommand{\headingfont}{\rmfamily\color{NyuViolet}}
-\titleformat*{\section}{\LARGE\headingfont}
-\titleformat*{\subsection}{\Large\headingfont}
-\titleformat*{\subsubsection}{\large\headingfont}
-\renewcommand{\maketitlehooka}{\headingfont}
+\newcommand{\titlefont}{\rmfamily\color{NyuViolet}}
+\titleformat*{\section}{\LARGE\titlefont}
+\titleformat*{\subsection}{\Large\titlefont}
+\titleformat*{\subsubsection}{\large\titlefont}
+\renewcommand{\maketitlehooka}{\titlefont}
 
 \usepackage{parskip}
 
@@ -129,6 +129,55 @@
 % \caption{Mercury Text and its weights (from~\cite{nyu-fonts})}
 % \label{fig-mercury-text}
 % \end{figure}
+%
+% \subsection{Setting Visual Tone with Type}
+%
+% \emph{As above, most this is a paraphrase or direct quote of \cite{nyu-fonts}.
+% Visualizations of each tone quadrant are provided there too.}
+%
+% \subsubsection{Contemporary}
+%
+% Leverage Gotham's many different weights to create contemporary type
+% hierarchies. Gotham is a versatile typeface that can be used in a spectrum
+% of ways ranging from subtle to bold and contemporary to traditional. Heavier
+% weights of Gotham (like Bold, Black, and Ultra) can generally be used in
+% headers to make your communications feel bolder; lighter weights (like Light,
+% Book, and Medium) can be used to make your communications feel more subtle.
+% Always set body text in Gotham Book for optimal legibility.
+%
+% \paragraph{Contemporary/Subtle}
+% Use lighter weights of Gotham in communications to maintain that contemporary
+% edge.
+%
+% Example: beamer slides from an undergraduate course, an in-class worksheet.
+%
+% \paragraph{Contemporary/Bold}
+% For bolder communications, use heavier weights of Gotham for headlines and
+% set them in all caps.
+%
+% Example: beamer slides for a club presentation.
+%
+% \subsubsection{Traditional}
+%
+% Use a combination of Gotham and Mercury to make your communications feel more
+% traditional. Since Gotham is our primary typeface, it should always be
+% present in our communications. Avoid setting entire communications in Mercury,
+% as this starts to feel a bit too traditional and runs the risk of being
+% off-brand. In general, consider the typographical balance between your headers
+% and body text: if you set your headers in Mercury, use Gotham for body text;
+% if you set your headers in Gotham, use Mercury for body text.
+%
+% \paragraph{Traditional/Subtle}
+% Combine Gotham and Mercury for a more traditional visual tone. In subtler
+% communications, lighter weights of Gotham can be used as headlines.
+%
+% Example: lecture notes
+%
+% \paragraph{Traditional/Bold}
+% Use a combination of heavier Gotham weights and Mercury accents to make
+% communications feel bold and traditional.
+%
+% Example: exams.
 %
 % \subsection{Engines and Font Encodings}
 %
@@ -359,8 +408,29 @@
 % issue a warning, since the proprietary fonts are not available. As a
 % fallback, the \PrintDescribeKey{system} key is set instead.
 %
-%  \subsection{Document formatting keys}
+% \subsection{Document formatting}
 %
+% \DescribeKey{default family}\verb|=|\meta{font commands}
+% An alias to the \cs{familydefault} macro, the default document font family.
+% \verb|default family=\sfdefault| will set the entire document in sans.
+%
+% \DescribeKey{title/font}\verb|=|\meta{font commands}
+% A font hook for the document title and headings. It is initally set to 
+% \cs{normalfont}.
+%
+% \DescribeKey{title/color}\verb|=|\meta{color name}
+% A color for the document title and headings. 
+% \watchout[not implemented]
+% This package is color agnostic, so if the key is unset, the color is not
+% changed from \cs{normalcolor}. The \pkg{xcolor-nyu} package provides
+% colors for the brand, and can be used to set this color at package use time:
+% \begin{verbatim}
+% \usepackage[title/color=NyuViolet]{xcolor-nyu22}
+% \end{verbatim}
+%
+% \DescribeKey{title/uppercase} (true or false, initially false)
+% Set the title in uppercase.
+% 
 % \DescribeKey{tone} set the visual tone of the document. The key value
 % must be one of the following:
 %
@@ -370,8 +440,7 @@
 %     sans, and headers to a lightweight sans.
 %   \ItemDescribeKey{contemporary-bold}
 %     Set the default font family to sans,
-%     and headers to a bold sans. The brand guidelines also specify all caps
-%     headlines, which may be harder.
+%     and headers to a bold sans. The document title is uppercased.
 %   \ItemDescribeKey{traditional-subtle}
 %     Set the default font family to roman, section titles to sans, and
 %     title to a lighter sans?
@@ -763,6 +832,154 @@
 % 
 % \subsection{Document formatting}
 %
+% \begin{key}{default family}
+% \changes{unreleased}{2023/06/23}{Provide this key} 
+%    \begin{macrocode}
+\keys_define:nn { nyufonts } {
+  default~family .tl_set:N = \familydefault
+}
+%    \end{macrocode}
+% \end{key}
+
+%
+% \begin{hook}{\l__nyufonts_title_font_tl}
+% \changes{unreleased}{2023/06/22}{Add this variable}
+% A hook for setting the fonts of titles.
+%    \begin{macrocode}
+\tl_new:N \l__nyufonts_title_font_tl
+\tl_set:Nn \l__nyufonts_title_font_tl \normalfont
+%    \end{macrocode}
+% \end{hook}
+% 
+% \begin{key}{title/font}
+% \changes{unreleased}{2023/06/23}{Add this key}
+% Store the title font.
+%    \begin{macrocode}
+\keys_define:nn { nyufonts } {
+  title/font .tl_set:N = { \l__nyufonts_title_font_tl }
+}
+%    \end{macrocode}
+% \end{key}
+%
+% \begin{macro}{\l__nyucolors_title_color_tl}
+% \changes{unreleased}{2023/06/22}{Provide this variable}
+% A hook for setting the color of titles. The \pkg{xcolor-nyu22} package can be
+% used to change this to something else.
+%    \begin{macrocode}
+\tl_if_exist:NF \l__nyucolors_title_color_tl { 
+  \tl_new:N \l__nyucolors_title_color_tl
+  \tl_set:Nn \l__nyucolors_title_color_tl \normalcolor
+}
+%    \end{macrocode}
+% \end{macro}
+% \begin{key}{/nyucolors/title/color}
+% \changes{unreleased}{2023/06/23}{Provide this key}
+% Store the title color. Note the different module space.
+% The \pkg{xcolor-nyu22} package may also set this key.
+%    \begin{macrocode}
+\keys_define:nn { nyucolors } {
+  title/color .tl_set:N = { \l__nyucolors_title_color_tl }
+}
+%    \end{macrocode}
+% \end{key}
+%
+% \begin{macro}{\l__nyufonts_title_uppercase_bool}
+% \begin{key}{title/uppercase}
+% \changes{unreleased}{2023/06/23}{Provide this key}
+% When true, set the title in upper case.
+%    \begin{macrocode}
+\keys_define:nn { nyufonts } {
+  title/uppercase .bool_set:N = \l__nyufonts_title_uppercase_bool
+}
+%    \end{macrocode}
+% \end{key}
+% \end{macro}
+%
+%
+% \begin{macro}{\l__nyufonts_reset_title_bool}
+% \changes{unreleased}{2023/06/23}{Added this variable}
+% If true, reset the title with the \pkg{titling} package.
+% The initial value is \verb|true| unless we're using the 
+% \cls{beamer} class and not ``article mode''.
+% 
+%    \begin{macrocode}
+\bool_new:N \l__nyufonts_reset_title_bool
+\IfPackageLoadedTF{beamerarticle}{
+  \bool_set_true:N \l__nyufonts_reset_title_bool    
+}{
+  \IfClassLoadedTF{beamer}{
+    \bool_set_false:N \l__nyufonts_reset_title_bool    
+  }{
+    \cs_if_exist:NT \maketitle {
+      \bool_set_true:N \l__nyufonts_reset_title_bool 
+    }{
+      \bool_set_false:N \l__nyufonts_reset_title_bool
+    }
+  }
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\__nyufonts_reset_article_title:}
+% Reset the article title, inserting the title font and color.
+% \changes{unreleased}{2023/06/23}{Add this function} 
+%    \begin{macrocode}
+\cs_new:Nn \__nyufonts_reset_title: {
+  \RequirePackage{titling}
+  \pretitle{\begin{flushleft}
+    \l__nyucolors_title_color_tl
+    \l__nyufonts_title_font_tl
+    \bool_if:NT \l__nyufonts_title_uppercase_bool {
+      \tl_set:cx {@title} { \text_uppercase:n { \tl_use:c {@title} } }
+    }\Huge}
+  \posttitle{\par\end{flushleft}\vskip 0.5em}
+  \predate{\begin{flushleft}
+    \l__nyucolors_title_color_tl
+    \l__nyufonts_title_font_tl
+    \large}
+  \postdate{\par\end{flushleft}}
+  \preauthor{\begin{flushleft}
+    \l__nyucolors_title_color_tl
+    \l__nyufonts_title_font_tl
+    \large}
+  \postauthor{\par\end{flushleft}}
+}
+%    \end{macrocode}
+% We do this when the boolean is set.
+%    \begin{macrocode}
+\AtBeginDocument{
+  \bool_if:NT \l__nyufonts_reset_title_bool \__nyufonts_reset_title:
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\l__nyufonts_reset_headers_bool}
+% \changes{unreleased}{2023/06/23}{Add this variable}
+% If true, reset the header titles with the \pkg{titlesec} package.
+%    \begin{macrocode}
+\bool_new:N \l__nyufonts_reset_headers_bool
+\bool_set_eq:NN \l__nyufonts_reset_headers_bool \l__nyufonts_reset_title_bool
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\__nyufonts_reset_headers:}
+% \changes{unreleased}{2023/06/23}{Add this function} 
+%    \begin{macrocode}
+\cs_set:Nn \__nyufonts_reset_headers: {
+  \RequirePackage{titlesec}
+  \titleformat*{\section}{\l__nyucolors_title_color_tl\l__nyufonts_title_font_tl\LARGE}
+  \titleformat*{\subsection}{\l__nyucolors_title_color_tl\l__nyufonts_title_font_tl\Large}
+  \titleformat*{\subsubsection}{\l__nyucolors_title_color_tl\l__nyufonts_title_font_tl\large}
+}
+%    \end{macrocode}
+% We do this when the boolean is set.
+%    \begin{macrocode}
+\AtBeginDocument{
+  \bool_if:NT \l__nyufonts_reset_headers_bool \__nyufonts_reset_headers:
+}
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}{\g__nyufonts_doc_is_booklike_bool,\g__nyufonts_doc_is_articlelike_bool}
 %   The standard classes \cls{book} and \cls{report} are
 %   divided into chapters by the \cs{chapter} command.
@@ -795,27 +1012,55 @@
 %   \end{itemize}
 % 
 %    \begin{macrocode}
+\cs_new:Nn \__nyufonts_set_headers: {
+
+}
 \cs_new:Nn \__nyufonts_set_tone_cs: {
-  \global\let\familydefault=\sfdefault
-  \newcommand{\headingfont}{\sffamily\fontseries{l}\selectfont}
+  \renewcommand{\familydefault}{\sfdefault}
+  \renewcommand{\l__nyufonts_title_font_tl}{\sffamily\fontseries{l}\selectfont}
+  \bool_if:NT \g__nyufonts_doc_is_articlelike_bool {
+    \__nyufonts_set_article_title:
+    \RequirePackage{titlesec}
+    \titleformat*{\section}{\LARGE\l__nyufonts_title_font_tl}
+    \titleformat*{\subsection}{\Large\l__nyufonts_title_font_tl}
+    \titleformat*{\subsubsection}{\large\l__nyufonts_title_font_tl}
+  }
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\__nyufonts_set_tone_cb:}
+% \changes{unreleased}{2023/06/22}{Added implementation}
+%   Set the document's visual tone to Contemporary/Bold:
+%   \begin{itemize}
+%     \item Default (body) family sans
+%     \item Headers bold and sometimes uppercased
+%   \end{itemize}
+% 
+%    \begin{macrocode}
+\cs_new:Nn \__nyufonts_set_tone_cb: {
+  \renewcommand{\familydefault}{\sfdefault}
+  \renewcommand{\l__nyufonts_title_font_tl}{\sffamily\fontseries{b}\selectfont}
   \bool_if:NT \g__nyufonts_doc_is_articlelike_bool {
     \RequirePackage{titling}
-    \pretitle{\begin{flushleft}\Huge}
+    \pretitle{\begin{flushleft}%
+      \edef\@TITLE{\MakeUppercase{\@title}}%
+      \let\@title\@TITLE
+      \l__nyufonts_title_font_tl\Huge}
     \posttitle{\par\end{flushleft}\vskip 0.5em}
     \predate{\begin{flushleft}}
     \postdate{\par\end{flushleft}}
     \preauthor{\begin{flushleft}}
     \postauthor{\par\end{flushleft}}
     \RequirePackage{titlesec}
-    \titleformat*{\section}{\LARGE\headingfont}
-    \titleformat*{\subsection}{\Large\headingfont}
-    \titleformat*{\subsubsection}{\large\headingfont}
-    \renewcommand{\maketitlehooka}{\headingfont}
+    \titleformat*{\section}{\LARGE\l__nyufonts_title_font_tl}
+    \titleformat*{\subsection}{\Large\l__nyufonts_title_font_tl}
+    \titleformat*{\subsubsection}{\large\l__nyufonts_title_font_tl}
   }
 }
 %    \end{macrocode}
 % \end{macro}
-
+%
 %
 % \section{Keyval interface}
 %
@@ -913,24 +1158,31 @@
 %    \end{macrocode}
 % \end{key}
 %
-% \begin{key}{contemporary-subtle}
+% \begin{key}{tone/contemporary-subtle}
 %    \begin{macrocode}
-    tone/contemporary-subtle .code:n = \__nyufonts_set_tone_cs:, 
+    tone/contemporary-subtle .meta:n = {
+      default~family=\sfdefault, 
+      title/font=\sffamily\fontseries{l}\selectfont,
+    },
 %    \end{macrocode}  
 % \end{key}
 % \begin{key}{contemporary-bold}
 %    \begin{macrocode}
-    tone/contemporary-bold .code:n = \__nyufonts_set_tone_cb:, 
+    tone/contemporary-bold .meta:n = {
+      default~family=\sfdefault, 
+      title/font=\sffamily\fontseries{b}\selectfont,
+      title/uppercase,
+    },
 %    \end{macrocode}  
 % \end{key}
 % \begin{key}{traditional-subtle}
 %    \begin{macrocode}
-    tone/contemporary-bold .code:n = \__nyufonts_set_tone_ts:, 
+    tone/traditional-subtle .code:n = \__nyufonts_set_tone_ts:, 
 %    \end{macrocode}  
 % \end{key}
 % \begin{key}{traditional-bold}
 %    \begin{macrocode}
-    tone/contemporary-bold .code:n = \__nyufonts_set_tone_tb:, 
+    tone/traditional-bold .code:n = \__nyufonts_set_tone_tb:, 
 %    \end{macrocode}  
 % \end{key}
 %

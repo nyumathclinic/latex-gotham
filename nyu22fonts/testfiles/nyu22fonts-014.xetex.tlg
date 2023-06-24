@@ -23,8 +23,8 @@ Completed box being shipped out [1]
 ...\glue 10.0 plus 4.0 minus 5.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 11.76295
-...\hbox(18.23705+4.03055)x430.00462, glue set 30.30559fil
+...\glue(\baselineskip) 12.28543
+...\hbox(17.71457+0.29854)x430.00462, glue set 118.05911fil
 ....\hbox(0.0+0.0)x0.0
 .....\glue 0.0
 .....\glue 0.0
@@ -32,48 +32,51 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0
 .....\glue 5.0
 ....\penalty 0
-....\TU/Gotham(0)/l/n/24.88 Test
-....\glue 7.464 plus 3.732 minus 2.48799
-....\TU/Gotham(0)/l/n/24.88 of
-....\glue 7.464 plus 3.732 minus 2.48799
-....\TU/Gotham(0)/l/n/24.88 section
-....\glue 7.464 plus 3.732 minus 2.48799
-....\TU/Gotham(0)/l/n/24.88 title
-....\glue 7.464 plus 3.732 minus 2.48799
-....\TU/Gotham(0)/l/n/24.88 formatting
+....\TU/Gotham(0)/b/n/24.88 TEST
+....\glue 7.464 plus 3.72826 minus 2.49048
+....\TU/Gotham(0)/b/n/24.88 OF
+....\glue 7.464 plus 3.72826 minus 2.49048
+....\TU/Gotham(0)/b/n/24.88 SECTION
+....\glue 7.464 plus 3.72826 minus 2.49048
+....\TU/Gotham(0)/b/n/24.88 TITLE
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty 300
+...\glue(\baselineskip) 11.9869
+...\hbox(17.71457+0.29854)x430.00462, glue set 128.25818fil
+....\TU/Gotham(0)/b/n/24.88 FORMATTING
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\glue 0.0 plus -1.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 6.1152
-...\hbox(19.85425+4.05542)x430.00462, glue set 101.41441fil
+...\glue(\baselineskip) 9.84721
+...\hbox(19.85425+3.18463)x430.00462, glue set 42.1751fil
 ....\hbox(0.0+0.0)x0.0
-....\TU/Gotham(0)/l/n/24.88 Contemporary/Subtle
-....\glue 7.464 plus 3.732 minus 2.48799
-....\TU/Gotham(0)/l/n/24.88 tone
+....\TU/Gotham(0)/b/n/24.88 CONTEMPORARY/BOLD
+....\glue 7.464 plus 3.72826 minus 2.49048
+....\TU/Gotham(0)/b/n/24.88 TONE
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\penalty 300
-...\glue(\baselineskip) 7.78218
-...\hbox(18.1624+3.98079)x430.00462, glue set 159.40794fil
-....\TU/Gotham(0)/l/n/24.88 quadrant
+...\glue(\baselineskip) 9.1008
+...\hbox(17.71457+0.52246)x430.00462, glue set 139.09341fil
+....\TU/Gotham(0)/b/n/24.88 QUADRANT
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\penalty -51
 ...\glue 10.0 plus 3.0 minus 5.0
 ...\glue 5.0
-...\glue -8.98079
+...\glue -5.52246
 ...\penalty -51
-...\glue 3.98079
+...\glue 0.52246
 ...\glue 5.0
 ...\glue -5.0
 ...\glue 10.0 plus 4.0 minus 5.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 1.25922
-...\hbox(8.76+1.94398)x430.00462, glue set 160.21031fil
+...\glue(\baselineskip) 4.71754
+...\hbox(8.76+1.94398)x430.00462, glue set 159.2023fil
 ....\hbox(0.0+0.0)x0.0
 .....\glue 0.0
 .....\glue 0.0
@@ -81,9 +84,9 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0
 .....\glue 5.0
 ....\penalty 0
-....\TU/Gotham(0)/l/n/12 Matthew
+....\TU/Gotham(0)/b/n/12 Matthew
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 Leingang
+....\TU/Gotham(0)/b/n/12 Leingang
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
@@ -96,7 +99,7 @@ Completed box being shipped out [1]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 3.51201
-...\hbox(8.544+0.14398)x430.00462, glue set 181.50432fil
+...\hbox(8.544+0.14398)x430.00462, glue set 180.42432fil
 ....\hbox(0.0+0.0)x0.0
 .....\glue 0.0
 .....\glue 0.0
@@ -104,7 +107,7 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0
 .....\glue 5.0
 ....\penalty 0
-....\TU/Gotham(0)/l/n/12 ....-..-..
+....\TU/Gotham(0)/b/n/12 ....-..-..
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
@@ -120,22 +123,22 @@ Completed box being shipped out [1]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 6.45609
-...\hbox(15.39993+6.60007)x430.00462, glue set 174.00142fil
+...\hbox(15.39993+6.60007)x430.00462, glue set 165.53421fil
 ....\rule(15.39993+6.60007)x0.0
-....\hbox(15.39993+6.60007)x23.0688
-.....\TU/Gotham(0)/l/n/17.28 1
+....\hbox(15.39993+6.60007)x24.12288
+.....\TU/Gotham(0)/b/n/17.28 1
 .....\glue 17.28
 .....\rule(15.39993+6.60007)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/17.28 Heading
+....\TU/Gotham(0)/b/n/17.28 Heading
 ....\glue 5.184 plus 2.592 minus 1.728
-....\TU/Gotham(0)/l/n/17.28 on
+....\TU/Gotham(0)/b/n/17.28 on
 ....\glue 5.184 plus 2.592 minus 1.728
-....\TU/Gotham(0)/l/n/17.28 level
+....\TU/Gotham(0)/b/n/17.28 level
 ....\glue 5.184 plus 2.592 minus 1.728
-....\TU/Gotham(0)/l/n/17.28 1
+....\TU/Gotham(0)/b/n/17.28 1
 ....\glue 5.184 plus 2.592 minus 1.728
-....\TU/Gotham(0)/l/n/17.28 (section)
+....\TU/Gotham(0)/b/n/17.28 (section)
 ....\kern 0.0
 ....\rule(15.39993+6.60007)x0.0
 ....\penalty 10000
@@ -404,22 +407,22 @@ Completed box being shipped out [1]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 3.80006
-...\hbox(12.59995+5.40005)x430.00462, glue set 180.09273fil
+...\hbox(12.59995+5.40005)x430.00462, glue set 171.82715fil
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x26.63998
-.....\TU/Gotham(0)/l/n/14.4 1.1
+....\hbox(12.59995+5.40005)x28.95839
+.....\TU/Gotham(0)/b/n/14.4 1.1
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/14.4 Heading
+....\TU/Gotham(0)/b/n/14.4 Heading
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 on
+....\TU/Gotham(0)/b/n/14.4 on
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 level
+....\TU/Gotham(0)/b/n/14.4 level
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 2
+....\TU/Gotham(0)/b/n/14.4 2
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 (subsection)
+....\TU/Gotham(0)/b/n/14.4 (subsection)
 ....\kern 0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -703,22 +706,22 @@ Completed box being shipped out [2]
 ..\glue(\lineskip) 0.0
 ..\vbox(556.47656+0.0)x430.00462, glue set >20000.0fil
 ...\glue(\topskip) 0.20004
-...\hbox(9.79996+4.20004)x430.00462, glue set 194.0846fil
+...\hbox(9.79996+4.20004)x430.00462, glue set 185.9126fil
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x28.38
-.....\TU/Gotham(0)/l/n/12 1.1.1
+....\hbox(9.79996+4.20004)x31.512
+.....\TU/Gotham(0)/b/n/12 1.1.1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/12 Heading
+....\TU/Gotham(0)/b/n/12 Heading
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 on
+....\TU/Gotham(0)/b/n/12 on
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 level
+....\TU/Gotham(0)/b/n/12 level
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 3
+....\TU/Gotham(0)/b/n/12 3
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 (subsubsection)
+....\TU/Gotham(0)/b/n/12 (subsubsection)
 ....\kern 0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -1264,14 +1267,14 @@ Completed box being shipped out [2]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 5.00008
-...\hbox(15.39993+6.60007)x430.00462, glue set 363.70126fil
+...\hbox(15.39993+6.60007)x430.00462, glue set 362.26703fil
 ....\rule(15.39993+6.60007)x0.0
-....\hbox(15.39993+6.60007)x27.4752
-.....\TU/Gotham(0)/l/n/17.28 2
+....\hbox(15.39993+6.60007)x27.87263
+.....\TU/Gotham(0)/b/n/17.28 2
 .....\glue 17.28
 .....\rule(15.39993+6.60007)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/17.28 Lists
+....\TU/Gotham(0)/b/n/17.28 Lists
 ....\kern 0.0
 ....\rule(15.39993+6.60007)x0.0
 ....\penalty 10000
@@ -1286,20 +1289,20 @@ Completed box being shipped out [2]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\lineskip) 1.0
-...\hbox(12.59995+5.40005)x430.00462, glue set 222.81752fil
+...\hbox(12.59995+5.40005)x430.00462, glue set 215.55994fil
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x30.31198
-.....\TU/Gotham(0)/l/n/14.4 2.1
+....\hbox(12.59995+5.40005)x32.08319
+.....\TU/Gotham(0)/b/n/14.4 2.1
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/14.4 Example
+....\TU/Gotham(0)/b/n/14.4 Example
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 for
+....\TU/Gotham(0)/b/n/14.4 for
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 list
+....\TU/Gotham(0)/b/n/14.4 list
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 (itemize)
+....\TU/Gotham(0)/b/n/14.4 (itemize)
 ....\kern 0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -1437,20 +1440,20 @@ Completed box being shipped out [2]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 4.08006
-...\hbox(9.79996+4.20004)x430.00462, glue set 238.04062fil
+...\hbox(9.79996+4.20004)x430.00462, glue set 230.5766fil
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x31.44
-.....\TU/Gotham(0)/l/n/12 2.1.1
+....\hbox(9.79996+4.20004)x34.116
+.....\TU/Gotham(0)/b/n/12 2.1.1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/12 Example
+....\TU/Gotham(0)/b/n/12 Example
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 for
+....\TU/Gotham(0)/b/n/12 for
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 list
+....\TU/Gotham(0)/b/n/12 list
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 (4*itemize)
+....\TU/Gotham(0)/b/n/12 (4*itemize)
 ....\kern 0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -1688,20 +1691,20 @@ Completed box being shipped out [3]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 5.28008
-...\hbox(12.59995+5.40005)x430.00462, glue set 194.13274fil
+...\hbox(12.59995+5.40005)x430.00462, glue set 187.71036fil
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x34.70398
-.....\TU/Gotham(0)/l/n/14.4 2.2
+....\hbox(12.59995+5.40005)x35.92798
+.....\TU/Gotham(0)/b/n/14.4 2.2
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/14.4 Example
+....\TU/Gotham(0)/b/n/14.4 Example
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 for
+....\TU/Gotham(0)/b/n/14.4 for
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 list
+....\TU/Gotham(0)/b/n/14.4 list
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 (enumerate)
+....\TU/Gotham(0)/b/n/14.4 (enumerate)
 ....\kern 0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -1838,20 +1841,20 @@ Completed box being shipped out [3]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 4.08006
-...\hbox(9.79996+4.20004)x430.00462, glue set 214.0166fil
+...\hbox(9.79996+4.20004)x430.00462, glue set 207.24858fil
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x35.1
-.....\TU/Gotham(0)/l/n/12 2.2.1
+....\hbox(9.79996+4.20004)x37.32
+.....\TU/Gotham(0)/b/n/12 2.2.1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/12 Example
+....\TU/Gotham(0)/b/n/12 Example
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 for
+....\TU/Gotham(0)/b/n/12 for
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 list
+....\TU/Gotham(0)/b/n/12 list
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 (4*enumerate)
+....\TU/Gotham(0)/b/n/12 (4*enumerate)
 ....\kern 0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -2071,20 +2074,20 @@ Completed box being shipped out [3]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 5.28008
-...\hbox(12.59995+5.40005)x430.00462, glue set 189.53912fil
+...\hbox(12.59995+5.40005)x430.00462, glue set 182.54076fil
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x34.99199
-.....\TU/Gotham(0)/l/n/14.4 2.3
+....\hbox(12.59995+5.40005)x35.99998
+.....\TU/Gotham(0)/b/n/14.4 2.3
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/14.4 Example
+....\TU/Gotham(0)/b/n/14.4 Example
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 for
+....\TU/Gotham(0)/b/n/14.4 for
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 list
+....\TU/Gotham(0)/b/n/14.4 list
 ....\glue 4.31999 plus 2.15999 minus 1.43999
-....\TU/Gotham(0)/l/n/14.4 (description)
+....\TU/Gotham(0)/b/n/14.4 (description)
 ....\kern 0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -2213,20 +2216,20 @@ Completed box being shipped out [4]
 ..\glue(\lineskip) 0.0
 ..\vbox(556.47656+0.0)x430.00462, glue set 402.5586fil
 ...\glue(\topskip) 0.20004
-...\hbox(9.79996+4.20004)x430.00462, glue set 210.12862fil
+...\hbox(9.79996+4.20004)x430.00462, glue set 202.88058fil
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x35.34
-.....\TU/Gotham(0)/l/n/12 2.3.1
+....\hbox(9.79996+4.20004)x37.38
+.....\TU/Gotham(0)/b/n/12 2.3.1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\TU/Gotham(0)/l/n/12 Example
+....\TU/Gotham(0)/b/n/12 Example
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 for
+....\TU/Gotham(0)/b/n/12 for
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 list
+....\TU/Gotham(0)/b/n/12 list
 ....\glue 3.6 plus 1.8 minus 1.2
-....\TU/Gotham(0)/l/n/12 (4*description)
+....\TU/Gotham(0)/b/n/12 (4*description)
 ....\kern 0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
