@@ -1,9 +1,9 @@
 %
 % \iffalse
 %<*driver>
-\ProvidesFile{nyu22fonts.dtx}[2023/06/22 v1.2a NYU Typefaces and Fonts]
+\ProvidesFile{nyu22fonts.dtx}[2023/06/24 v1.3 NYU Typefaces and Fonts]
 %</driver>
-%<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/22}{v1.2a}{NYU Typefaces and Fonts}
+%<pkg>\ProvidesExplPackage{nyu22fonts}{2023/06/24}{v1.3}{NYU Typefaces and Fonts}
 %<*driver>
 \documentclass[11pt]{ltxdoc}
 \usepackage{dtxdescribe}
@@ -833,7 +833,7 @@
 % \subsection{Document formatting}
 %
 % \begin{key}{default family}
-% \changes{unreleased}{2023/06/23}{Provide this key} 
+% \changes{v1.3}{2023/06/23}{Provide this key} 
 %    \begin{macrocode}
 \keys_define:nn { nyufonts } {
   default~family .tl_set:N = \familydefault
@@ -843,7 +843,7 @@
 
 %
 % \begin{hook}{\l__nyufonts_title_font_tl}
-% \changes{unreleased}{2023/06/22}{Add this variable}
+% \changes{v1.3}{2023/06/22}{Add this variable}
 % A hook for setting the fonts of titles.
 %    \begin{macrocode}
 \tl_new:N \l__nyufonts_title_font_tl
@@ -852,7 +852,7 @@
 % \end{hook}
 % 
 % \begin{key}{title/font}
-% \changes{unreleased}{2023/06/23}{Add this key}
+% \changes{v1.3}{2023/06/23}{Add this key}
 % Store the title font.
 %    \begin{macrocode}
 \keys_define:nn { nyufonts } {
@@ -862,7 +862,7 @@
 % \end{key}
 %
 % \begin{macro}{\l__nyucolors_title_color_tl}
-% \changes{unreleased}{2023/06/22}{Provide this variable}
+% \changes{v1.3}{2023/06/22}{Provide this variable}
 % A hook for setting the color of titles. The \pkg{xcolor-nyu22} package can be
 % used to change this to something else.
 %    \begin{macrocode}
@@ -873,7 +873,7 @@
 %    \end{macrocode}
 % \end{macro}
 % \begin{key}{/nyucolors/title/color}
-% \changes{unreleased}{2023/06/23}{Provide this key}
+% \changes{v1.3}{2023/06/23}{Provide this key}
 % Store the title color. Note the different module space.
 % The \pkg{xcolor-nyu22} package may also set this key.
 %    \begin{macrocode}
@@ -885,7 +885,7 @@
 %
 % \begin{macro}{\l__nyufonts_title_uppercase_bool}
 % \begin{key}{title/uppercase}
-% \changes{unreleased}{2023/06/23}{Provide this key}
+% \changes{v1.3}{2023/06/23}{Provide this key}
 % When true, set the title in upper case.
 %    \begin{macrocode}
 \keys_define:nn { nyufonts } {
@@ -897,7 +897,7 @@
 %
 %
 % \begin{macro}{\l__nyufonts_reset_title_bool}
-% \changes{unreleased}{2023/06/23}{Added this variable}
+% \changes{v1.3}{2023/06/23}{Added this variable}
 % If true, reset the title with the \pkg{titling} package.
 % The initial value is \verb|true| unless we're using the 
 % \cls{beamer} class and not ``article mode''.
@@ -922,7 +922,7 @@
 %
 % \begin{macro}{\__nyufonts_reset_article_title:}
 % Reset the article title, inserting the title font and color.
-% \changes{unreleased}{2023/06/23}{Add this function} 
+% \changes{v1.3}{2023/06/23}{Add this function} 
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_reset_title: {
   \RequirePackage{titling}
@@ -954,7 +954,7 @@
 % \end{macro}
 %
 % \begin{macro}{\l__nyufonts_reset_headers_bool}
-% \changes{unreleased}{2023/06/23}{Add this variable}
+% \changes{v1.3}{2023/06/23}{Add this variable}
 % If true, reset the header titles with the \pkg{titlesec} package.
 %    \begin{macrocode}
 \bool_new:N \l__nyufonts_reset_headers_bool
@@ -963,7 +963,7 @@
 % \end{macro}
 %
 % \begin{macro}{\__nyufonts_reset_headers:}
-% \changes{unreleased}{2023/06/23}{Add this function} 
+% \changes{v1.3}{2023/06/23}{Add this function} 
 %    \begin{macrocode}
 \cs_set:Nn \__nyufonts_reset_headers: {
   \RequirePackage{titlesec}
@@ -1030,7 +1030,7 @@
 % \end{macro}
 %
 % \begin{macro}{\__nyufonts_set_tone_cb:}
-% \changes{unreleased}{2023/06/22}{Added implementation}
+% \changes{v1.3}{2023/06/22}{Added implementation}
 %   Set the document's visual tone to Contemporary/Bold:
 %   \begin{itemize}
 %     \item Default (body) family sans
