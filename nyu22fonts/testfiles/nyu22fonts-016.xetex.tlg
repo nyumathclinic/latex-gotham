@@ -1,0 +1,2392 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Completed box being shipped out [1]
+\vbox(609.60394+0.0)x449.87982
+.\glue -13.87262
+.\vbox(623.47656+0.0)x430.00462, shifted 19.8752
+..\vbox(12.0+0.0)x430.00462, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x430.00462
+....\hbox(0.0+0.0)x430.00462
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(556.47656+0.0)x430.00462, glue set >20000.0fil
+...\write-{}
+...\glue(\topskip) 10.0
+...\hbox(0.0+0.0)x0.0
+...\glue 20.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 0.0
+...\glue 0.0
+...\penalty -51
+...\glue 10.0 plus 4.0 minus 5.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 11.68831
+...\hbox(18.31169+4.03055)x430.00462, glue set 24.84442fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x0.0
+.....\glue 5.0
+....\penalty 0
+....\TU/Gotham(0)/b/n/24.88 Test
+....\glue 7.464 plus 3.732 minus 2.48799
+....\TU/Gotham(0)/b/n/24.88 of
+....\glue 7.464 plus 3.732 minus 2.48799
+....\TU/Gotham(0)/b/n/24.88 section
+....\glue 7.464 plus 3.732 minus 2.48799
+....\TU/Gotham(0)/b/n/24.88 title
+....\glue 7.464 plus 3.732 minus 2.48799
+....\TU/Gotham(0)/b/n/24.88 formatting
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\glue 0.0 plus -1.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.1152
+...\hbox(19.85425+3.98079)x430.00462, glue set 21.0378fil
+....\hbox(0.0+0.0)x0.0
+....\TU/Gotham(0)/b/n/24.88 Traditional/bold
+....\glue 7.464 plus 3.732 minus 2.48799
+....\TU/Gotham(0)/b/n/24.88 tone
+....\glue 7.464 plus 3.732 minus 2.48799
+....\TU/Gotham(0)/b/n/24.88 quadrant
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue 5.0
+...\glue -8.98079
+...\penalty -51
+...\glue 3.98079
+...\glue 5.0
+...\glue -5.0
+...\glue 10.0 plus 4.0 minus 5.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 1.25922
+...\hbox(8.76+1.94398)x430.00462, glue set 159.2023fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x0.0
+.....\glue 5.0
+....\penalty 0
+....\TU/Gotham(0)/b/n/12 Matthew
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 Leingang
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -11.94398 plus -3.0 minus -5.0
+...\penalty -51
+...\glue 1.94398
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 3.51201
+...\hbox(8.544+0.14398)x430.00462, glue set 178.82231fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(0.0+0.0)x0.0
+.....\glue 5.0
+....\penalty 0
+....\TU/Gotham(0)/b/n/12 ....-..-..
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue 15.0
+...\glue -15.14398
+...\penalty -300
+...\glue 0.14398
+...\glue 15.0
+...\glue -15.0
+...\glue 16.37997 plus 4.68 minus 0.93597
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.45609
+...\hbox(15.39993+6.60007)x430.00462, glue set 165.53421fil
+....\rule(15.39993+6.60007)x0.0
+....\hbox(15.39993+6.60007)x24.12288
+.....\TU/Gotham(0)/b/n/17.28 1
+.....\glue 17.28
+.....\rule(15.39993+6.60007)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/17.28 Heading
+....\glue 5.184 plus 2.592 minus 1.728
+....\TU/Gotham(0)/b/n/17.28 on
+....\glue 5.184 plus 2.592 minus 1.728
+....\TU/Gotham(0)/b/n/17.28 level
+....\glue 5.184 plus 2.592 minus 1.728
+....\TU/Gotham(0)/b/n/17.28 1
+....\glue 5.184 plus 2.592 minus 1.728
+....\TU/Gotham(0)/b/n/17.28 (section)
+....\kern 0.0
+....\rule(15.39993+6.60007)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 10.76399 plus 0.93597
+...\glue 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 1.0
+...\hbox(7.05+2.11998)x430.00462, glue set 0.33382
+....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dolor
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 consectetuer
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 adipiscing
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Etiam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lobortis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 facilisis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sem.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nullam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nec
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\glue(\baselineskip) 2.83002
+...\hbox(7.05+1.99998)x430.00462, glue set 0.71852
+....\TU/FrankRuhlLibre(0)/m/n/10 mi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 et
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 neque
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 pharetra
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sollicitudin.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 imperdiet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ante.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Donec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ullamcorper,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 felis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 non
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 3.08002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.07872
+....\TU/FrankRuhlLibre(0)/m/n/10 sodales
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 commodo,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 velit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ultrices
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 augue,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 a
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dignissim
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nibh
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 placerat
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 pede.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Vivamus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nunc
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+1.99998)x430.00462, glue set - 0.17752
+....\TU/FrankRuhlLibre(0)/m/n/10 nunc,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 molestie
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ut,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 ultricies
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 vel,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 semper
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 in,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 velit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Ut
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 porttitor.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 in
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sapien.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dolor
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.95001
+...\hbox(7.05+2.11998)x430.00462, glue set 0.17229
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 consectetuer
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 adipiscing
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Duis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 fringilla
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 tristique
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 neque.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Sed
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 interdum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 libero
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ut
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 metus.
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.58862
+....\TU/FrankRuhlLibre(0)/m/n/10 Pellentesque
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 placerat.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 rutrum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 augue
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 leo.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Morbi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sed
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ante
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lobortis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sollicitudin.
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.35294
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 blandit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 blandit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mauris.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 tellus,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 aliquet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 aliquam,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 luctus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 egestas
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 turpis.
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+1.99998)x430.00462, glue set 57.62794fil
+....\TU/FrankRuhlLibre(0)/m/n/10 Mauris
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lacinia
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nunc
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 quis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 urna
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dictum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 turpis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 accumsan
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 semper.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 15.20998 plus 4.68 minus 0.93597
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 3.40007
+...\hbox(12.59995+5.40005)x430.00462, glue set 171.82715fil
+....\rule(12.59995+5.40005)x0.0
+....\hbox(12.59995+5.40005)x28.95839
+.....\TU/Gotham(0)/b/n/14.4 1.1
+.....\glue 14.4
+.....\rule(12.59995+5.40005)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/14.4 Heading
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 on
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 level
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 2
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 (subsection)
+....\kern 0.0
+....\rule(12.59995+5.40005)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 7.01999 plus 0.93597
+...\glue 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 1.0
+...\hbox(7.05+2.11998)x430.00462, glue set 0.33382
+....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dolor
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 consectetuer
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 adipiscing
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Etiam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lobortis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 facilisis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sem.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nullam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nec
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\glue(\baselineskip) 2.83002
+...\hbox(7.05+1.99998)x430.00462, glue set 0.71852
+....\TU/FrankRuhlLibre(0)/m/n/10 mi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 et
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 neque
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 pharetra
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sollicitudin.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 imperdiet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ante.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Donec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ullamcorper,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 felis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 non
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 3.08002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.07872
+....\TU/FrankRuhlLibre(0)/m/n/10 sodales
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 commodo,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 velit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ultrices
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 augue,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 a
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dignissim
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nibh
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 placerat
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 pede.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Vivamus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nunc
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+1.99998)x430.00462, glue set - 0.17752
+....\TU/FrankRuhlLibre(0)/m/n/10 nunc,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 molestie
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ut,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 ultricies
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 vel,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 semper
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 in,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 velit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Ut
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 porttitor.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 in
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sapien.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dolor
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.95001
+...\hbox(7.05+2.11998)x430.00462, glue set 0.17229
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 consectetuer
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 adipiscing
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Duis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 fringilla
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 tristique
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 neque.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Sed
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 interdum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 libero
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ut
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 metus.
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.58862
+....\TU/FrankRuhlLibre(0)/m/n/10 Pellentesque
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 placerat.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 rutrum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 augue
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 leo.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Morbi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sed
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ante
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lobortis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sollicitudin.
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.35294
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 blandit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 blandit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mauris.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 tellus,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 aliquet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 aliquam,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 luctus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 egestas
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 turpis.
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+1.99998)x430.00462, glue set 57.62794fil
+....\TU/FrankRuhlLibre(0)/m/n/10 Mauris
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lacinia
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nunc
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 quis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 urna
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dictum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 turpis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 accumsan
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 semper.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 15.20998 plus 4.68 minus 0.93597
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 2.20006
+...\hbox(9.79996+4.20004)x430.00462, glue set 185.9126fil
+....\rule(9.79996+4.20004)x0.0
+....\hbox(9.79996+4.20004)x31.512
+.....\TU/Gotham(0)/b/n/12 1.1.1
+.....\glue 12.0
+.....\rule(9.79996+4.20004)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/12 Heading
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 on
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 level
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 3
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 (subsubsection)
+....\kern 0.0
+....\rule(9.79996+4.20004)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 7.01999 plus 0.93597
+...\glue 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 0.74995
+...\hbox(7.05+2.11998)x430.00462, glue set 0.33382
+....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dolor
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 consectetuer
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 adipiscing
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Etiam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lobortis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 facilisis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sem.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nullam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nec
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\glue(\baselineskip) 2.83002
+...\hbox(7.05+1.99998)x430.00462, glue set 0.71852
+....\TU/FrankRuhlLibre(0)/m/n/10 mi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 et
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 neque
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 pharetra
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sollicitudin.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 imperdiet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ante.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Donec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ullamcorper,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 felis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 non
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 3.08002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.07872
+....\TU/FrankRuhlLibre(0)/m/n/10 sodales
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 commodo,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 velit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ultrices
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 augue,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 a
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dignissim
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nibh
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 placerat
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 pede.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Vivamus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nunc
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+1.99998)x430.00462, glue set - 0.17752
+....\TU/FrankRuhlLibre(0)/m/n/10 nunc,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 molestie
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ut,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 ultricies
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 vel,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 semper
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 in,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 velit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Ut
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 porttitor.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 in
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sapien.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dolor
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.95001
+...\hbox(7.05+2.11998)x430.00462, glue set 0.17229
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 consectetuer
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 adipiscing
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Duis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 fringilla
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 tristique
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 neque.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Sed
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 interdum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 libero
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ut
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 metus.
+....\glue(\rightskip) 0.0
+...\glue -2.11998
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.4
+..\hbox(6.6+0.0)x430.00462
+...\hbox(6.6+0.0)x430.00462, glue set 212.65231fil
+....\glue 0.0 plus 1.0fil
+....\TU/FrankRuhlLibre(0)/m/n/10 1
+....\glue 0.0 plus 1.0fil
+Completed box being shipped out [2]
+\vbox(609.60394+0.0)x449.87982
+.\glue -13.87262
+.\vbox(623.47656+0.0)x430.00462, shifted 19.8752
+..\vbox(12.0+0.0)x430.00462, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x430.00462
+....\hbox(0.0+0.0)x430.00462
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(556.47656+0.0)x430.00462, glue set >20000.0fil
+...\glue(\topskip) 3.08
+...\hbox(6.92+2.11998)x430.00462, glue set 0.58862
+....\TU/FrankRuhlLibre(0)/m/n/10 Pellentesque
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 placerat.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 rutrum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 augue
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 leo.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Morbi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sed
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ante
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lobortis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sollicitudin.
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.35294
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 blandit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 blandit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mauris.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 tellus,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 aliquet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 aliquam,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 luctus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 egestas
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 turpis.
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+1.99998)x430.00462, glue set 57.62794fil
+....\TU/FrankRuhlLibre(0)/m/n/10 Mauris
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lacinia
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nunc
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 quis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 urna
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dictum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 turpis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 accumsan
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 semper.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 15.20998 plus 4.68 minus 0.93597
+...\write1{\@writefile{toc}{\protect \contentsline {paragraph}{Heading on level\protect \ETC.}
+...\penalty 10000
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 2.70001
+...\hbox(7.3+2.11998)x430.00462, glue set 1.05394
+....\hbox(0.0+0.0)x15.0
+....\glue -15.0
+....\glue 0.0
+....\TU/Gotham(0)/b/n/10 Heading
+....\glue 3.0 plus 1.5 minus 1.0
+....\TU/Gotham(0)/b/n/10 on
+....\glue 3.0 plus 1.5 minus 1.0
+....\TU/Gotham(0)/b/n/10 level
+....\glue 3.0 plus 1.5 minus 1.0
+....\TU/Gotham(0)/b/n/10 4
+....\glue 3.0 plus 1.5 minus 1.0
+....\TU/Gotham(0)/b/n/10 (paragraph)
+....\glue 10.0
+....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dolor
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 consectetuer
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 adipiscing
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit.
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\glue(\baselineskip) 2.83002
+...\hbox(7.05+1.99998)x430.00462, glue set 0.5317
+....\TU/FrankRuhlLibre(0)/m/n/10 Etiam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lobortis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 facilisis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sem.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nullam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 et
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 neque
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 pharetra
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sollicitudin.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 imperdiet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mi
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.95001
+...\hbox(7.05+2.11998)x430.00462, glue set 0.50464
+....\TU/FrankRuhlLibre(0)/m/n/10 nec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ante.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Donec
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ullamcorper,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 felis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 non
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sodales
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 commodo,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 velit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ultrices
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 augue,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 a
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dignissim
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+1.99998)x430.00462, glue set 0.34357
+....\TU/FrankRuhlLibre(0)/m/n/10 nibh
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 placerat
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 pede.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Vivamus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nunc
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 nunc,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 molestie
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ut,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 ultricies
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 vel,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 semper
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 in,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 velit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Ut
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 port-
+....\glue(\rightskip) 0.0
+...\penalty 100
+...\glue(\baselineskip) 2.95001
+...\hbox(7.05+2.11998)x430.00462, glue set 0.53882
+....\TU/FrankRuhlLibre(0)/m/n/10 titor.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 in
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sapien.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dolor
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 consectetuer
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 adipiscing
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Duis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 fringilla
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.79079
+....\TU/FrankRuhlLibre(0)/m/n/10 tristique
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 neque.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Sed
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 interdum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 libero
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ut
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 metus.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Pellentesque
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 placerat.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nam
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 rutrum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 augue
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 leo.
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+0.11998)x430.00462, glue set 0.63605
+....\TU/FrankRuhlLibre(0)/m/n/10 Morbi
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sed
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 elit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ante
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lobortis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sollicitudin.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 blandit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 blandit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 mauris.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Praesent
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lectus
+....\glue(\rightskip) 0.0
+...\glue(\baselineskip) 4.96002
+...\hbox(6.92+2.11998)x430.00462, glue set 0.31303
+....\TU/FrankRuhlLibre(0)/m/n/10 tellus,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 aliquet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 aliquam,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 luctus
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 egestas
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 a,
+....\glue 2.39 plus 1.49373 minus 0.63733
+....\TU/FrankRuhlLibre(0)/m/n/10 turpis.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Mauris
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lacinia
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 lorem
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 sit
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 amet
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 ipsum.
+....\glue 3.18666 plus 3.58498 minus 0.26555
+....\TU/FrankRuhlLibre(0)/m/n/10 Nunc
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 quis
+....\glue(\rightskip) 0.0
+...\penalty 150
+...\glue(\baselineskip) 2.96002
+...\hbox(6.92+1.99998)x430.00462, glue set 265.77461fil
+....\TU/FrankRuhlLibre(0)/m/n/10 urna
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 dictum
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 turpis
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 accumsan
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 semper.
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 16.37997 plus 4.68 minus 0.93597
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.60008
+...\hbox(15.39993+6.60007)x430.00462, glue set 362.26703fil
+....\rule(15.39993+6.60007)x0.0
+....\hbox(15.39993+6.60007)x27.87263
+.....\TU/Gotham(0)/b/n/17.28 2
+.....\glue 17.28
+.....\rule(15.39993+6.60007)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/17.28 Lists
+....\kern 0.0
+....\rule(15.39993+6.60007)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 10.76399 plus 0.93597
+...\glue 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 1.0
+...\hbox(12.59995+5.40005)x430.00462, glue set 215.55994fil
+....\rule(12.59995+5.40005)x0.0
+....\hbox(12.59995+5.40005)x32.08319
+.....\TU/Gotham(0)/b/n/14.4 2.1
+.....\glue 14.4
+.....\rule(12.59995+5.40005)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/14.4 Example
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 for
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 list
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 (itemize)
+....\kern 0.0
+....\rule(12.59995+5.40005)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\penalty 10000
+...\glue 7.01999 plus 0.93597
+...\glue 0.0
+...\glue -4.0 plus -1.0 minus -1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 1.0
+...\hbox(6.72+0.10999)x405.00462, glue set 347.20462fil, shifted 25.0
+....\hbox(4.83+0.0)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(4.83+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.83+0.0)x0.0, glue set - 4.17fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 •
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.97002
+...\hbox(6.92+0.11998)x405.00462, glue set 335.47462fil, shifted 25.0
+....\hbox(4.83+0.0)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(4.83+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.83+0.0)x0.0, glue set - 4.17fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 •
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Second
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.16002
+...\hbox(6.72+0.10999)x405.00462, glue set 348.93462fil, shifted 25.0
+....\hbox(4.83+0.0)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(4.83+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.83+0.0)x0.0, glue set - 4.17fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 •
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Last
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.17001
+...\hbox(6.72+0.10999)x405.00462, glue set 347.20462fil, shifted 25.0
+....\hbox(4.83+0.0)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(4.83+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.83+0.0)x0.0, glue set - 4.17fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 •
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.97002
+...\hbox(6.92+0.11998)x405.00462, glue set 335.47462fil, shifted 25.0
+....\hbox(4.83+0.0)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(4.83+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.83+0.0)x0.0, glue set - 4.17fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 •
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Second
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.11998 plus -3.0 minus -5.0
+...\penalty -300
+...\glue 0.11998
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.0 plus -3.0 minus -5.0
+...\glue 15.20998 plus 4.68 minus 0.93597
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.08006
+...\hbox(9.79996+4.20004)x430.00462, glue set 230.5766fil
+....\rule(9.79996+4.20004)x0.0
+....\hbox(9.79996+4.20004)x34.116
+.....\TU/Gotham(0)/b/n/12 2.1.1
+.....\glue 12.0
+.....\rule(9.79996+4.20004)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/12 Example
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 for
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 list
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 (4*itemize)
+....\kern 0.0
+....\rule(9.79996+4.20004)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 7.01999 plus 0.93597
+...\glue 0.0
+...\glue -4.0 plus -1.0 minus -1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 1.07996
+...\hbox(6.72+0.10999)x405.00462, glue set 347.20462fil, shifted 25.0
+....\hbox(4.83+0.0)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(4.83+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.83+0.0)x0.0, glue set - 4.17fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 •
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 8.0 plus 4.0 minus 2.0
+...\glue -8.0 plus -4.0 minus -2.0
+...\glue 6.0 plus 3.0 minus 1.0
+...\glue(\parskip) 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.17001
+...\hbox(6.72+0.10999)x383.00465, glue set 325.20465fil, shifted 46.99997
+....\hbox(3.06+0.0)x0.0
+.....\glue 0.0
+.....\glue -16.99997
+.....\glue -5.0
+.....\hbox(3.06+0.0)x16.99997, glue set 16.99997fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(3.06+0.0)x0.0, glue set - 4.16fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/b/n/10 –
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 2.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.17001
+...\hbox(6.72+0.10999)x364.3047, glue set 306.5047fil, shifted 65.69992
+....\hbox(4.41223+0.0)x0.0
+.....\glue 0.0
+.....\glue -13.69995
+.....\glue -5.0
+.....\hbox(4.41223+0.0)x13.69995, glue set 13.69995fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.41223+0.0)x0.0, glue set - 4.47202fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(4.41223+0.0)x4.47202
+........\hbox(8.67102+0.0)x4.47202, shifted 4.25879
+.........\TU/FrankRuhlLibre(0)/m/n/13.00003 *
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.17001
+...\hbox(6.72+0.10999)x347.30473, glue set 289.50473fil, shifted 82.69989
+....\hbox(3.39+0.0)x0.0
+.....\glue 0.0
+.....\glue -11.99997
+.....\glue -5.0
+.....\hbox(3.39+0.0)x11.99997, glue set 11.99997fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(3.39+0.0)x0.0, glue set - 3.09fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 ^^b7
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.97002
+...\hbox(6.92+0.11998)x347.30473, glue set 277.77473fil, shifted 82.69989
+....\hbox(3.39+0.0)x0.0
+.....\glue 0.0
+.....\glue -11.99997
+.....\glue -5.0
+.....\hbox(3.39+0.0)x11.99997, glue set 11.99997fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(3.39+0.0)x0.0, glue set - 3.09fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 ^^b7
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Second
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue -2.11998 plus -1.0 minus -1.0
+...\penalty -51
+...\glue 0.11998
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.16002
+...\hbox(6.72+0.10999)x364.3047, glue set 308.2347fil, shifted 65.69992
+....\hbox(4.41223+0.0)x0.0
+.....\glue 0.0
+.....\glue -13.69995
+.....\glue -5.0
+.....\hbox(4.41223+0.0)x13.69995, glue set 13.69995fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.41223+0.0)x0.0, glue set - 4.47202fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(4.41223+0.0)x4.47202
+........\hbox(8.67102+0.0)x4.47202, shifted 4.25879
+.........\TU/FrankRuhlLibre(0)/m/n/13.00003 *
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Last
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue -2.10999 plus -1.0 minus -1.0
+...\penalty -51
+...\glue 0.10999
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.17001
+...\hbox(6.72+0.10999)x383.00465, glue set 325.20465fil, shifted 46.99997
+....\hbox(3.06+0.0)x0.0
+.....\glue 0.0
+.....\glue -16.99997
+.....\glue -5.0
+.....\hbox(3.06+0.0)x16.99997, glue set 16.99997fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(3.06+0.0)x0.0, glue set - 4.16fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/b/n/10 –
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue -4.10999 plus -2.0 minus -1.0
+...\penalty -51
+...\glue 0.10999
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.97002
+...\hbox(6.92+0.11998)x405.00462, glue set 335.47462fil, shifted 25.0
+....\hbox(4.83+0.0)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(4.83+0.0)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(4.83+0.0)x0.0, glue set - 4.17fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 •
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Second
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.11998 plus -3.0 minus -5.0
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.28
+..\hbox(6.72+0.0)x430.00462
+...\hbox(6.72+0.0)x430.00462, glue set 212.27231fil
+....\glue 0.0 plus 1.0fil
+....\TU/FrankRuhlLibre(0)/m/n/10 2
+....\glue 0.0 plus 1.0fil
+Completed box being shipped out [3]
+\vbox(609.60394+0.10999)x449.87982
+.\glue -13.87262
+.\vbox(623.47656+0.10999)x430.00462, shifted 19.8752
+..\vbox(12.0+0.0)x430.00462, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x430.00462
+....\hbox(0.0+0.0)x430.00462
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(556.47656+0.0)x430.00462, glue set - 0.53207
+...\glue(\topskip) 0.0
+...\hbox(12.59995+5.40005)x430.00462, glue set 187.71036fil
+....\rule(12.59995+5.40005)x0.0
+....\hbox(12.59995+5.40005)x35.92798
+.....\TU/Gotham(0)/b/n/14.4 2.2
+.....\glue 14.4
+.....\rule(12.59995+5.40005)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/14.4 Example
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 for
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 list
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 (enumerate)
+....\kern 0.0
+....\rule(12.59995+5.40005)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 7.01999 plus 0.93597
+...\glue 0.0
+...\glue -4.0 plus -1.0 minus -1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 1.0
+...\hbox(6.72+0.10999)x405.00462, glue set 347.20462fil, shifted 25.0
+....\hbox(6.6+0.08998)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(6.6+0.08998)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.6+0.08998)x0.0, glue set - 7.48fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 1.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.97002
+...\hbox(6.92+0.11998)x405.00462, glue set 335.47462fil, shifted 25.0
+....\hbox(6.72+0.08998)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(6.72+0.08998)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.72+0.08998)x0.0, glue set - 8.24fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 2.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Second
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.16002
+...\hbox(6.72+0.10999)x405.00462, glue set 348.93462fil, shifted 25.0
+....\hbox(6.71+0.10999)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(6.71+0.10999)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.71+0.10999)x0.0, glue set - 8.23fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 3.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Last
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.17001
+...\hbox(6.72+0.10999)x405.00462, glue set 347.20462fil, shifted 25.0
+....\hbox(6.68+0.08998)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(6.68+0.08998)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.68+0.08998)x0.0, glue set - 8.13fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 4.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.97002
+...\hbox(6.92+0.11998)x405.00462, glue set 335.47462fil, shifted 25.0
+....\hbox(6.84+0.10999)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(6.84+0.10999)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.84+0.10999)x0.0, glue set - 8.07fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 5.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Second
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.11998 plus -3.0 minus -5.0
+...\penalty -300
+...\glue 0.11998
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.0 plus -3.0 minus -5.0
+...\glue 15.20998 plus 4.68 minus 0.93597
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.08006
+...\hbox(9.79996+4.20004)x430.00462, glue set 207.24858fil
+....\rule(9.79996+4.20004)x0.0
+....\hbox(9.79996+4.20004)x37.32
+.....\TU/Gotham(0)/b/n/12 2.2.1
+.....\glue 12.0
+.....\rule(9.79996+4.20004)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/12 Example
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 for
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 list
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 (4*enumerate)
+....\kern 0.0
+....\rule(9.79996+4.20004)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 7.01999 plus 0.93597
+...\glue 0.0
+...\glue -4.0 plus -1.0 minus -1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 1.07996
+...\hbox(6.72+0.10999)x405.00462, glue set 347.20462fil, shifted 25.0
+....\hbox(6.6+0.08998)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(6.6+0.08998)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.6+0.08998)x0.0, glue set - 7.48fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 1.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 8.0 plus 4.0 minus 2.0
+...\glue -8.0 plus -4.0 minus -2.0
+...\glue 6.0 plus 3.0 minus 1.0
+...\glue(\parskip) 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.17001
+...\hbox(6.72+1.23999)x383.00465, glue set 325.20465fil, shifted 46.99997
+....\hbox(6.57+1.23999)x0.0
+.....\glue 0.0
+.....\glue -16.99997
+.....\glue -5.0
+.....\hbox(6.57+1.23999)x16.99997, glue set 16.99997fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.57+1.23999)x0.0, glue set - 11.56fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 (a)
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 2.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.04001
+...\hbox(6.72+0.10999)x364.3047, glue set 306.5047fil, shifted 65.69992
+....\hbox(6.72+0.08998)x0.0
+.....\glue 0.0
+.....\glue -13.69995
+.....\glue -5.0
+.....\hbox(6.72+0.08998)x13.69995, glue set 13.69995fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.72+0.08998)x0.0, glue set - 5.74fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 i.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.17001
+...\hbox(6.72+0.10999)x347.30473, glue set 289.50473fil, shifted 82.69989
+....\hbox(6.6+0.08998)x0.0
+.....\glue 0.0
+.....\glue -11.99997
+.....\glue -5.0
+.....\hbox(6.6+0.08998)x11.99997, glue set 11.99997fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.6+0.08998)x0.0, glue set - 9.24fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 A.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.97002
+...\hbox(6.92+0.11998)x347.30473, glue set 277.77473fil, shifted 82.69989
+....\hbox(6.6+0.08998)x0.0
+.....\glue 0.0
+.....\glue -11.99997
+.....\glue -5.0
+.....\hbox(6.6+0.08998)x11.99997, glue set 11.99997fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.6+0.08998)x0.0, glue set - 8.96fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 B.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Second
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue -2.11998 plus -1.0 minus -1.0
+...\penalty -51
+...\glue 0.11998
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.16002
+...\hbox(6.72+0.10999)x364.3047, glue set 308.2347fil, shifted 65.69992
+....\hbox(6.72+0.08998)x0.0
+.....\glue 0.0
+.....\glue -13.69995
+.....\glue -5.0
+.....\hbox(6.72+0.08998)x13.69995, glue set 13.69995fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.72+0.08998)x0.0, glue set - 8.7fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 ii.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Last
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue -2.10999 plus -1.0 minus -1.0
+...\penalty -51
+...\glue 0.10999
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.97002
+...\hbox(6.92+1.23999)x383.00465, glue set 325.20465fil, shifted 46.99997
+....\hbox(6.92+1.23999)x0.0
+.....\glue 0.0
+.....\glue -16.99997
+.....\glue -5.0
+.....\hbox(6.92+1.23999)x16.99997, glue set 16.99997fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.92+1.23999)x0.0, glue set - 12.29fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 (b)
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 First
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue -5.23999 plus -2.0 minus -1.0
+...\penalty -51
+...\glue 1.23999
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 3.84001
+...\hbox(6.92+0.11998)x405.00462, glue set 335.47462fil, shifted 25.0
+....\hbox(6.72+0.08998)x0.0
+.....\glue 0.0
+.....\glue -20.0
+.....\glue -5.0
+.....\hbox(6.72+0.08998)x20.0, glue set 20.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\hbox(6.72+0.08998)x0.0, glue set - 8.24fil
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/FrankRuhlLibre(0)/m/n/10 2.
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 Second
+....\glue 2.39 plus 1.19499 minus 0.79666
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.11998 plus -3.0 minus -5.0
+...\penalty -300
+...\glue 0.11998
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.0 plus -3.0 minus -5.0
+...\glue 15.20998 plus 4.68 minus 0.93597
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.28008
+...\hbox(12.59995+5.40005)x430.00462, glue set 182.54076fil
+....\rule(12.59995+5.40005)x0.0
+....\hbox(12.59995+5.40005)x35.99998
+.....\TU/Gotham(0)/b/n/14.4 2.3
+.....\glue 14.4
+.....\rule(12.59995+5.40005)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/14.4 Example
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 for
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 list
+....\glue 4.31999 plus 2.15999 minus 1.43999
+....\TU/Gotham(0)/b/n/14.4 (description)
+....\kern 0.0
+....\rule(12.59995+5.40005)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {subsection}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 7.01999 plus 0.93597
+...\glue 0.0
+...\glue -4.0 plus -1.0 minus -1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\lineskip) 1.0
+...\hbox(6.9+0.11998)x405.00462, glue set 368.21461fil, shifted 25.0
+....\hbox(6.9+0.11998)x1.21
+.....\glue -25.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x26.21
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 First
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x405.00462, glue set 356.39462fil, shifted 25.0
+....\hbox(6.9+0.11998)x13.03
+.....\glue -25.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x38.03
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 Second
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.16002
+...\hbox(6.72+0.11998)x405.00462, glue set 370.36462fil, shifted 25.0
+....\hbox(6.6+0.11998)x-0.94
+.....\glue -25.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.6+0.11998)x24.06
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 Last
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x405.00462, glue set 368.21461fil, shifted 25.0
+....\hbox(6.9+0.11998)x1.21
+.....\glue -25.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x26.21
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 First
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x405.00462, glue set 356.39462fil, shifted 25.0
+....\hbox(6.9+0.11998)x13.03
+.....\glue -25.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x38.03
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 Second
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.11998 plus -3.0 minus -5.0
+...\penalty -300
+...\glue 0.11998
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.0 plus -3.0 minus -5.0
+...\glue 15.20998 plus 4.68 minus 0.93597
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.08006
+...\hbox(9.79996+4.20004)x430.00462, glue set 202.88058fil
+....\rule(9.79996+4.20004)x0.0
+....\hbox(9.79996+4.20004)x37.38
+.....\TU/Gotham(0)/b/n/12 2.3.1
+.....\glue 12.0
+.....\rule(9.79996+4.20004)x0.0
+.....\glue 0.0
+....\TU/Gotham(0)/b/n/12 Example
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 for
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 list
+....\glue 3.6 plus 1.8 minus 1.2
+....\TU/Gotham(0)/b/n/12 (4*description)
+....\kern 0.0
+....\rule(9.79996+4.20004)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\write1{\@writefile{toc}{\protect \contentsline {subsubsection}{\protect \numberline \ETC.}
+...\penalty 10000
+...\penalty 10000
+...\glue 7.01999 plus 0.93597
+...\glue 0.0
+...\glue -4.0 plus -1.0 minus -1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 0.89996
+...\hbox(6.9+0.11998)x405.00462, glue set 368.21461fil, shifted 25.0
+....\hbox(6.9+0.11998)x1.21
+.....\glue -25.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x26.21
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 First
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 8.0 plus 4.0 minus 2.0
+...\glue -8.0 plus -4.0 minus -2.0
+...\glue 6.0 plus 3.0 minus 1.0
+...\glue(\parskip) 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x383.00465, glue set 343.21461fil, shifted 46.99997
+....\hbox(6.9+0.11998)x4.21004
+.....\glue -21.99997
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x26.21
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 First
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 2.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x364.3047, glue set 321.21465fil, shifted 65.69992
+....\hbox(6.9+0.11998)x7.51006
+.....\glue -18.69995
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x26.21
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 First
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x347.30473, glue set 302.5147fil, shifted 82.69989
+....\hbox(6.9+0.11998)x9.21004
+.....\glue -16.99997
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x26.21
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 First
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x347.30473, glue set 290.6947fil, shifted 82.69989
+....\hbox(6.9+0.11998)x21.03003
+.....\glue -16.99997
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x38.03
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 Second
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue -2.11998 plus -1.0 minus -1.0
+...\penalty -51
+...\glue 0.11998
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 5.16002
+...\hbox(6.72+0.11998)x364.3047, glue set 323.36465fil, shifted 65.69992
+....\hbox(6.6+0.11998)x5.36005
+.....\glue -18.69995
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.6+0.11998)x24.06
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 Last
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue -2.11998 plus -1.0 minus -1.0
+...\penalty -51
+...\glue 0.11998
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x383.00465, glue set 343.21461fil, shifted 46.99997
+....\hbox(6.9+0.11998)x4.21004
+.....\glue -21.99997
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x26.21
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 First
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue -4.11998 plus -2.0 minus -1.0
+...\penalty -51
+...\glue 0.11998
+...\glue 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 4.0 plus 2.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.98003
+...\hbox(6.9+0.11998)x405.00462, glue set 356.39462fil, shifted 25.0
+....\hbox(6.9+0.11998)x13.03
+.....\glue -25.0
+.....\glue 0.0
+.....\glue -5.0
+.....\hbox(6.9+0.11998)x38.03
+......\glue 5.0
+......\TU/FrankRuhlLibre(0)/b/n/10 Second
+.....\glue 5.0
+....\penalty 0
+....\TU/FrankRuhlLibre(0)/m/n/10 itemtext
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.29
+..\hbox(6.71+0.10999)x430.00462
+...\hbox(6.71+0.10999)x430.00462, glue set 212.27731fil
+....\glue 0.0 plus 1.0fil
+....\TU/FrankRuhlLibre(0)/m/n/10 3
+....\glue 0.0 plus 1.0fil

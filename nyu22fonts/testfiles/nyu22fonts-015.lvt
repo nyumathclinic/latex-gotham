@@ -1,0 +1,18 @@
+\input regression-test.tex
+\documentclass{article}
+\title{Test of section title formatting 
+\\ Traditional/subtle tone quadrant}
+\author{Matthew Leingang}
+\date{2023-06-24}
+\usepackage[
+    Gotham,Frank Ruhl Libre,
+    tone=traditional-subtle]{nyu22fonts}
+\usepackage[letterpaper]{geometry}
+\usepackage{blindtext}
+\showoutput
+\begin{document}
+\START
+\maketitle
+\blinddocument
+\vfil\break
+\END

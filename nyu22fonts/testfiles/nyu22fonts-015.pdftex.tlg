@@ -1,25 +1,6 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/l/n' aliased to
-(Font)              `T1/Montserrat-LF/light/n' on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/light/n' will be
-(Font)              scaled to size 10.0pt on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/l/n' aliased to
-(Font)              `T1/Montserrat-LF/light/n' on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/light/n' will be
-(Font)              scaled to size 24.88pt on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/l/n' aliased to
-(Font)              `T1/Montserrat-LF/light/n' on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/light/n' will be
-(Font)              scaled to size 12.0pt on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/l/n' aliased to
-(Font)              `T1/Montserrat-LF/light/n' on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/light/n' will be
-(Font)              scaled to size 17.28pt on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/l/n' aliased to
-(Font)              `T1/Montserrat-LF/light/n' on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/light/n' will be
-(Font)              scaled to size 14.4pt on input line ....
+LaTeX Font Info:    Trying to load font information for T1+bch on input line ....
 Completed box being shipped out [1]
 \vbox(609.60394+0.0)x449.87982
 .\glue -13.87262
@@ -30,7 +11,7 @@ Completed box being shipped out [1]
 ....\hbox(0.0+0.0)x430.00462
 ..\glue 25.0
 ..\glue(\lineskip) 0.0
-..\vbox(556.47656+0.0)x430.00462, glue set >20000.0fil
+..\vbox(556.47656+0.0)x430.00462, glue set - 0.13623
 ...\write-{}
 ...\glue(\topskip) 10.0
 ...\hbox(0.0+0.0)x0.0
@@ -43,8 +24,8 @@ Completed box being shipped out [1]
 ...\glue 10.0 plus 4.0 minus 5.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 11.7754
-...\hbox(18.2246+4.92624)x430.00462, glue set 30.52971fil
+...\glue(\baselineskip) 11.56392
+...\hbox(18.43608+5.21234)x430.00462, glue set 51.9514fil
 ....\hbox(0.0+0.0)x0.0
 .....\glue 0.0
 .....\glue 0.0
@@ -52,112 +33,97 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0
 .....\glue 5.0
 ....\penalty 0
-....\T1/Montserrat-LF/light/n/24.88 T
-....\kern-1.36841
-....\T1/Montserrat-LF/light/n/24.88 e
-....\T1/Montserrat-LF/light/n/24.88 s
-....\T1/Montserrat-LF/light/n/24.88 t
-....\glue 6.39415 plus 3.19707 minus 2.1322
-....\T1/Montserrat-LF/light/n/24.88 o
-....\T1/Montserrat-LF/light/n/24.88 f
-....\glue 6.39415 plus 3.19707 minus 2.1322
-....\T1/Montserrat-LF/light/n/24.88 s
-....\T1/Montserrat-LF/light/n/24.88 e
-....\T1/Montserrat-LF/light/n/24.88 c
-....\kern0.14926
-....\T1/Montserrat-LF/light/n/24.88 t
-....\T1/Montserrat-LF/light/n/24.88 i
-....\T1/Montserrat-LF/light/n/24.88 o
-....\T1/Montserrat-LF/light/n/24.88 n
-....\glue 6.39415 plus 3.19707 minus 2.1322
-....\T1/Montserrat-LF/light/n/24.88 t
-....\T1/Montserrat-LF/light/n/24.88 i
-....\T1/Montserrat-LF/light/n/24.88 t
-....\T1/Montserrat-LF/light/n/24.88 l
-....\T1/Montserrat-LF/light/n/24.88 e
-....\glue 6.39415 plus 3.19707 minus 2.1322
-....\T1/Montserrat-LF/light/n/24.88 f
-....\kern-0.22392
-....\T1/Montserrat-LF/light/n/24.88 o
-....\T1/Montserrat-LF/light/n/24.88 r
-....\kern-0.22392
-....\T1/Montserrat-LF/light/n/24.88 m
-....\T1/Montserrat-LF/light/n/24.88 a
-....\T1/Montserrat-LF/light/n/24.88 t
-....\kern-0.34833
-....\T1/Montserrat-LF/light/n/24.88 t
-....\T1/Montserrat-LF/light/n/24.88 i
-....\T1/Montserrat-LF/light/n/24.88 n
-....\T1/Montserrat-LF/light/n/24.88 g
+....\T1/bch/m/n/24.88 T
+....\kern-2.41338
+....\T1/bch/m/n/24.88 e
+....\T1/bch/m/n/24.88 s
+....\T1/bch/m/n/24.88 t
+....\glue 6.91663 plus 4.15495 minus 1.66696
+....\T1/bch/m/n/24.88 o
+....\T1/bch/m/n/24.88 f
+....\glue 6.91663 plus 4.15495 minus 1.66696
+....\T1/bch/m/n/24.88 s
+....\T1/bch/m/n/24.88 e
+....\T1/bch/m/n/24.88 c
+....\T1/bch/m/n/24.88 t
+....\T1/bch/m/n/24.88 i
+....\T1/bch/m/n/24.88 o
+....\T1/bch/m/n/24.88 n
+....\glue 6.91663 plus 4.15495 minus 1.66696
+....\T1/bch/m/n/24.88 t
+....\T1/bch/m/n/24.88 i
+....\T1/bch/m/n/24.88 t
+....\T1/bch/m/n/24.88 l
+....\T1/bch/m/n/24.88 e
+....\glue 6.91663 plus 4.15495 minus 1.66696
+....\T1/bch/m/n/24.88 f
+....\T1/bch/m/n/24.88 o
+....\T1/bch/m/n/24.88 r
+....\T1/bch/m/n/24.88 m
+....\T1/bch/m/n/24.88 a
+....\T1/bch/m/n/24.88 t
+....\T1/bch/m/n/24.88 t
+....\T1/bch/m/n/24.88 i
+....\T1/bch/m/n/24.88 n
+....\T1/bch/m/n/24.88 g
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\glue 0.0 plus -1.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 4.3985
-...\hbox(20.67526+4.92624)x430.00462, glue set 101.7381fil
+...\glue(\baselineskip) 6.35158
+...\hbox(18.43608+5.21234)x430.00462, glue set 36.93631fil
 ....\hbox(0.0+0.0)x0.0
-....\T1/Montserrat-LF/light/n/24.88 C
-....\kern-0.59714
-....\T1/Montserrat-LF/light/n/24.88 o
-....\T1/Montserrat-LF/light/n/24.88 n
-....\T1/Montserrat-LF/light/n/24.88 t
-....\kern-0.47273
-....\T1/Montserrat-LF/light/n/24.88 e
-....\T1/Montserrat-LF/light/n/24.88 m
-....\T1/Montserrat-LF/light/n/24.88 p
-....\T1/Montserrat-LF/light/n/24.88 o
-....\T1/Montserrat-LF/light/n/24.88 r
-....\kern-1.19426
-....\T1/Montserrat-LF/light/n/24.88 a
-....\T1/Montserrat-LF/light/n/24.88 r
-....\kern0.3732
-....\T1/Montserrat-LF/light/n/24.88 y
-....\kern-0.67178
-....\T1/Montserrat-LF/light/n/24.88 /
-....\kern-0.49762
-....\T1/Montserrat-LF/light/n/24.88 S
-....\T1/Montserrat-LF/light/n/24.88 u
-....\T1/Montserrat-LF/light/n/24.88 b
-....\T1/Montserrat-LF/light/n/24.88 t
-....\T1/Montserrat-LF/light/n/24.88 l
-....\T1/Montserrat-LF/light/n/24.88 e
-....\glue 6.39415 plus 3.19707 minus 2.1322
-....\T1/Montserrat-LF/light/n/24.88 t
-....\kern-0.47273
-....\T1/Montserrat-LF/light/n/24.88 o
-....\T1/Montserrat-LF/light/n/24.88 n
-....\T1/Montserrat-LF/light/n/24.88 e
-....\glue(\rightskip) 0.0 plus 1.0fil
-...\penalty 300
-...\glue(\baselineskip) 6.84917
-...\hbox(18.2246+4.82672)x430.00462, glue set 157.75345fil
-....\T1/Montserrat-LF/light/n/24.88 q
-....\T1/Montserrat-LF/light/n/24.88 u
-....\T1/Montserrat-LF/light/n/24.88 a
-....\T1/Montserrat-LF/light/n/24.88 d
-....\T1/Montserrat-LF/light/n/24.88 r
-....\kern-1.19426
-....\T1/Montserrat-LF/light/n/24.88 a
-....\T1/Montserrat-LF/light/n/24.88 n
-....\T1/Montserrat-LF/light/n/24.88 t
+....\T1/bch/m/n/24.88 T
+....\kern-1.84114
+....\T1/bch/m/n/24.88 r
+....\T1/bch/m/n/24.88 a
+....\T1/bch/m/n/24.88 d
+....\T1/bch/m/n/24.88 i
+....\T1/bch/m/n/24.88 t
+....\T1/bch/m/n/24.88 i
+....\T1/bch/m/n/24.88 o
+....\T1/bch/m/n/24.88 n
+....\T1/bch/m/n/24.88 a
+....\T1/bch/m/n/24.88 l
+....\T1/bch/m/n/24.88 /
+....\T1/bch/m/n/24.88 s
+....\T1/bch/m/n/24.88 u
+....\T1/bch/m/n/24.88 b
+....\T1/bch/m/n/24.88 t
+....\T1/bch/m/n/24.88 l
+....\T1/bch/m/n/24.88 e
+....\glue 6.91663 plus 4.15495 minus 1.66696
+....\T1/bch/m/n/24.88 t
+....\T1/bch/m/n/24.88 o
+....\T1/bch/m/n/24.88 n
+....\T1/bch/m/n/24.88 e
+....\glue 6.91663 plus 4.15495 minus 1.66696
+....\T1/bch/m/n/24.88 q
+....\T1/bch/m/n/24.88 u
+....\T1/bch/m/n/24.88 a
+....\T1/bch/m/n/24.88 d
+....\T1/bch/m/n/24.88 r
+....\T1/bch/m/n/24.88 a
+....\T1/bch/m/n/24.88 n
+....\T1/bch/m/n/24.88 t
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\penalty -51
 ...\glue 10.0 plus 3.0 minus 5.0
 ...\glue 5.0
-...\glue -9.82672
+...\glue -10.0
 ...\penalty -51
-...\glue 4.82672
+...\glue 5.0
 ...\glue 5.0
 ...\glue -5.0
 ...\glue 10.0 plus 4.0 minus 5.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 0.38329
-...\hbox(8.79+2.37599)x430.00462, glue set 158.44035fil
+...\glue(\lineskip) 1.0
+...\hbox(8.892+2.51399)x430.00462, glue set 166.25235fil
 ....\hbox(0.0+0.0)x0.0
 .....\glue 0.0
 .....\glue 0.0
@@ -165,38 +131,35 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0
 .....\glue 5.0
 ....\penalty 0
-....\T1/Montserrat-LF/light/n/12 M
-....\T1/Montserrat-LF/light/n/12 a
-....\T1/Montserrat-LF/light/n/12 t
-....\kern-0.168
-....\T1/Montserrat-LF/light/n/12 t
-....\T1/Montserrat-LF/light/n/12 h
-....\T1/Montserrat-LF/light/n/12 e
-....\kern-0.12001
-....\T1/Montserrat-LF/light/n/12 w
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 L
-....\kern-0.108
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 n
-....\T1/Montserrat-LF/light/n/12 g
-....\T1/Montserrat-LF/light/n/12 a
-....\T1/Montserrat-LF/light/n/12 n
-....\T1/Montserrat-LF/light/n/12 g
+....\T1/bch/m/n/12 M
+....\T1/bch/m/n/12 a
+....\T1/bch/m/n/12 t
+....\T1/bch/m/n/12 t
+....\T1/bch/m/n/12 h
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 w
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 L
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 n
+....\T1/bch/m/n/12 g
+....\T1/bch/m/n/12 a
+....\T1/bch/m/n/12 n
+....\T1/bch/m/n/12 g
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\penalty -51
 ...\glue 10.0 plus 3.0 minus 5.0
-...\glue -12.37599 plus -3.0 minus -5.0
+...\glue -12.51399 plus -3.0 minus -5.0
 ...\penalty -51
-...\glue 2.37599
+...\glue 2.51399
 ...\glue 10.0 plus 3.0 minus 5.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 3.24202
-...\hbox(8.38199+0.05399)x430.00462, glue set 183.32236fil
+...\glue(\baselineskip) 2.95403
+...\hbox(8.53198+0.54599)x430.00462, glue set 184.48633fil
 ....\hbox(0.0+0.0)x0.0
 .....\glue 0.0
 .....\glue 0.0
@@ -204,76 +167,68 @@ Completed box being shipped out [1]
 .....\hbox(0.0+0.0)x0.0
 .....\glue 5.0
 ....\penalty 0
-....\T1/Montserrat-LF/light/n/12 2
-....\kern-0.03601
-....\T1/Montserrat-LF/light/n/12 0
-....\T1/Montserrat-LF/light/n/12 2
-....\T1/Montserrat-LF/light/n/12 3
-....\T1/Montserrat-LF/light/n/12 -
+....\T1/bch/m/n/12 2
+....\T1/bch/m/n/12 0
+....\T1/bch/m/n/12 2
+....\T1/bch/m/n/12 3
+....\T1/bch/m/n/12 -
 ....\discretionary
-....\kern0.10799
-....\T1/Montserrat-LF/light/n/12 0
-....\T1/Montserrat-LF/light/n/12 6
-....\kern0.06
-....\T1/Montserrat-LF/light/n/12 -
+....\T1/bch/m/n/12 0
+....\T1/bch/m/n/12 6
+....\T1/bch/m/n/12 -
 ....\discretionary
-....\kern-0.132
-....\T1/Montserrat-LF/light/n/12 2
-....\T1/Montserrat-LF/light/n/12 1
+....\T1/bch/m/n/12 2
+....\T1/bch/m/n/12 4
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0 plus 1.0fil
 ...\penalty -51
 ...\glue 10.0 plus 3.0 minus 5.0
 ...\glue 15.0
-...\glue -15.05399
+...\glue -15.54599
 ...\penalty -300
-...\glue 0.05399
+...\glue 0.54599
 ...\glue 15.0
 ...\glue -15.0
 ...\glue 18.40997 plus 5.26 minus 1.05197
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 6.54608
-...\hbox(15.39993+6.60007)x430.00462, glue set 175.17677fil
+...\glue(\baselineskip) 6.05408
+...\hbox(15.39993+6.60007)x430.00462, glue set 189.20808fil
 ....\rule(15.39993+6.60007)x0.0
-....\hbox(15.39993+6.60007)x23.37982
-.....\T1/Montserrat-LF/light/n/17.28 1
+....\hbox(15.39993+6.60007)x26.88766
+.....\T1/bch/m/n/17.28 1
 .....\glue 17.28
 .....\rule(15.39993+6.60007)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/17.28 H
-....\T1/Montserrat-LF/light/n/17.28 e
-....\kern-0.25922
-....\T1/Montserrat-LF/light/n/17.28 a
-....\T1/Montserrat-LF/light/n/17.28 d
-....\T1/Montserrat-LF/light/n/17.28 i
-....\T1/Montserrat-LF/light/n/17.28 n
-....\T1/Montserrat-LF/light/n/17.28 g
-....\glue 4.44095 plus 2.22047 minus 1.4809
-....\T1/Montserrat-LF/light/n/17.28 o
-....\T1/Montserrat-LF/light/n/17.28 n
-....\glue 4.44095 plus 2.22047 minus 1.4809
-....\T1/Montserrat-LF/light/n/17.28 l
-....\T1/Montserrat-LF/light/n/17.28 e
-....\kern-0.1728
-....\T1/Montserrat-LF/light/n/17.28 v
-....\kern-0.25922
-....\T1/Montserrat-LF/light/n/17.28 e
-....\T1/Montserrat-LF/light/n/17.28 l
-....\glue 4.44095 plus 2.22047 minus 1.4809
-....\T1/Montserrat-LF/light/n/17.28 1
-....\glue 4.44095 plus 2.22047 minus 1.4809
-....\T1/Montserrat-LF/light/n/17.28 (
-....\T1/Montserrat-LF/light/n/17.28 s
-....\T1/Montserrat-LF/light/n/17.28 e
-....\T1/Montserrat-LF/light/n/17.28 c
-....\kern0.10367
-....\T1/Montserrat-LF/light/n/17.28 t
-....\T1/Montserrat-LF/light/n/17.28 i
-....\T1/Montserrat-LF/light/n/17.28 o
-....\T1/Montserrat-LF/light/n/17.28 n
-....\T1/Montserrat-LF/light/n/17.28 )
+....\T1/bch/m/n/17.28 H
+....\T1/bch/m/n/17.28 e
+....\T1/bch/m/n/17.28 a
+....\T1/bch/m/n/17.28 d
+....\T1/bch/m/n/17.28 i
+....\T1/bch/m/n/17.28 n
+....\T1/bch/m/n/17.28 g
+....\glue 4.80383 plus 2.88574 minus 1.15776
+....\T1/bch/m/n/17.28 o
+....\T1/bch/m/n/17.28 n
+....\glue 4.80383 plus 2.88574 minus 1.15776
+....\T1/bch/m/n/17.28 l
+....\T1/bch/m/n/17.28 e
+....\T1/bch/m/n/17.28 v
+....\T1/bch/m/n/17.28 e
+....\T1/bch/m/n/17.28 l
+....\glue 4.80383 plus 2.88574 minus 1.15776
+....\T1/bch/m/n/17.28 1
+....\glue 4.80383 plus 2.88574 minus 1.15776
+....\T1/bch/m/n/17.28 (
+....\T1/bch/m/n/17.28 s
+....\T1/bch/m/n/17.28 e
+....\T1/bch/m/n/17.28 c
+....\T1/bch/m/n/17.28 t
+....\T1/bch/m/n/17.28 i
+....\T1/bch/m/n/17.28 o
+....\T1/bch/m/n/17.28 n
+....\T1/bch/m/n/17.28 )
 ....\kern 0.0
 ....\rule(15.39993+6.60007)x0.0
 ....\penalty 10000
@@ -1187,51 +1142,46 @@ Completed box being shipped out [1]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 3.46005
-...\hbox(12.59995+5.40005)x430.00462, glue set 180.5827fil
+...\hbox(12.59995+5.40005)x430.00462, glue set 195.6163fil
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x27.28796
-.....\T1/Montserrat-LF/light/n/14.4 1
-.....\T1/Montserrat-LF/light/n/14.4 .
-.....\kern-0.1584
-.....\T1/Montserrat-LF/light/n/14.4 1
+....\hbox(12.59995+5.40005)x34.41594
+.....\T1/bch/m/n/14.4 1
+.....\T1/bch/m/n/14.4 .
+.....\T1/bch/m/n/14.4 1
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/14.4 H
-....\T1/Montserrat-LF/light/n/14.4 e
-....\kern-0.21602
-....\T1/Montserrat-LF/light/n/14.4 a
-....\T1/Montserrat-LF/light/n/14.4 d
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 n
-....\T1/Montserrat-LF/light/n/14.4 g
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 o
-....\T1/Montserrat-LF/light/n/14.4 n
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 l
-....\T1/Montserrat-LF/light/n/14.4 e
-....\kern-0.14401
-....\T1/Montserrat-LF/light/n/14.4 v
-....\kern-0.21602
-....\T1/Montserrat-LF/light/n/14.4 e
-....\T1/Montserrat-LF/light/n/14.4 l
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 2
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 (
-....\T1/Montserrat-LF/light/n/14.4 s
-....\T1/Montserrat-LF/light/n/14.4 u
-....\T1/Montserrat-LF/light/n/14.4 b
-....\T1/Montserrat-LF/light/n/14.4 s
-....\T1/Montserrat-LF/light/n/14.4 e
-....\T1/Montserrat-LF/light/n/14.4 c
-....\kern0.08638
-....\T1/Montserrat-LF/light/n/14.4 t
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 o
-....\T1/Montserrat-LF/light/n/14.4 n
-....\T1/Montserrat-LF/light/n/14.4 )
+....\T1/bch/m/n/14.4 H
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 a
+....\T1/bch/m/n/14.4 d
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 n
+....\T1/bch/m/n/14.4 g
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 o
+....\T1/bch/m/n/14.4 n
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 l
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 v
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 l
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 2
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 (
+....\T1/bch/m/n/14.4 s
+....\T1/bch/m/n/14.4 u
+....\T1/bch/m/n/14.4 b
+....\T1/bch/m/n/14.4 s
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 c
+....\T1/bch/m/n/14.4 t
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 o
+....\T1/bch/m/n/14.4 n
+....\T1/bch/m/n/14.4 )
 ....\kern 0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -2140,87 +2090,56 @@ Completed box being shipped out [1]
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
-...\glue -1.94
-...\glue 0.0 plus 0.0001fil
-..\glue(\baselineskip) 22.95001
-..\hbox(7.04999+0.0)x430.00462
-...\hbox(7.04999+0.0)x430.00462, glue set 213.19731fil
-....\glue 0.0 plus 1.0fil
-....\T1/Montserrat-LF/regular/n/10 1
-....\glue 0.0 plus 1.0fil
-LaTeX Font Info:    Trying to load font information for TS1+Montserrat-LF on input line ....
-(../TS1Montserrat-LF.fd
-File: TS1Montserrat-LF.fd ....-..-.. (autoinst) Font definitions for TS1/Montserrat-LF.
-)
-LaTeX Font Info:    Font shape `TS1/Montserrat-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/b/n' aliased to
-(Font)              `T1/Montserrat-LF/bold/n' on input line ....
-LaTeX Font Info:    Font shape `T1/Montserrat-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line ....
-Completed box being shipped out [2]
-\vbox(609.60394+0.0)x449.87982
-.\glue -13.87262
-.\vbox(623.47656+0.0)x430.00462, shifted 19.8752
-..\vbox(12.0+0.0)x430.00462, glue set 12.0fil
-...\glue 0.0 plus 1.0fil
-...\hbox(0.0+0.0)x430.00462
-....\hbox(0.0+0.0)x430.00462
-..\glue 25.0
-..\glue(\lineskip) 0.0
-..\vbox(556.47656+0.0)x430.00462, glue set >20000.0fil
-...\glue(\topskip) 0.20004
-...\hbox(9.79996+4.20004)x430.00462, glue set 193.84491fil
+...\penalty -300
+...\glue 17.09497 plus 5.26 minus 1.05197
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 2.26004
+...\hbox(9.79996+4.20004)x430.00462, glue set 206.57687fil
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x29.24396
-.....\T1/Montserrat-LF/light/n/12 1
-.....\T1/Montserrat-LF/light/n/12 .
-.....\kern-0.132
-.....\T1/Montserrat-LF/light/n/12 1
-.....\T1/Montserrat-LF/light/n/12 .
-.....\kern-0.132
-.....\T1/Montserrat-LF/light/n/12 1
+....\hbox(9.79996+4.20004)x38.68799
+.....\T1/bch/m/n/12 1
+.....\T1/bch/m/n/12 .
+.....\T1/bch/m/n/12 1
+.....\T1/bch/m/n/12 .
+.....\T1/bch/m/n/12 1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/12 H
-....\T1/Montserrat-LF/light/n/12 e
-....\kern-0.18001
-....\T1/Montserrat-LF/light/n/12 a
-....\T1/Montserrat-LF/light/n/12 d
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 n
-....\T1/Montserrat-LF/light/n/12 g
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 o
-....\T1/Montserrat-LF/light/n/12 n
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 l
-....\T1/Montserrat-LF/light/n/12 e
-....\kern-0.12001
-....\T1/Montserrat-LF/light/n/12 v
-....\kern-0.18001
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 l
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 3
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 (
-....\T1/Montserrat-LF/light/n/12 s
-....\T1/Montserrat-LF/light/n/12 u
-....\T1/Montserrat-LF/light/n/12 b
-....\T1/Montserrat-LF/light/n/12 s
-....\T1/Montserrat-LF/light/n/12 u
-....\T1/Montserrat-LF/light/n/12 b
-....\T1/Montserrat-LF/light/n/12 s
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 c
-....\kern0.07199
-....\T1/Montserrat-LF/light/n/12 t
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 o
-....\T1/Montserrat-LF/light/n/12 n
-....\T1/Montserrat-LF/light/n/12 )
+....\T1/bch/m/n/12 H
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 a
+....\T1/bch/m/n/12 d
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 n
+....\T1/bch/m/n/12 g
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 o
+....\T1/bch/m/n/12 n
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 l
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 v
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 l
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 3
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 (
+....\T1/bch/m/n/12 s
+....\T1/bch/m/n/12 u
+....\T1/bch/m/n/12 b
+....\T1/bch/m/n/12 s
+....\T1/bch/m/n/12 u
+....\T1/bch/m/n/12 b
+....\T1/bch/m/n/12 s
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 c
+....\T1/bch/m/n/12 t
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 o
+....\T1/bch/m/n/12 n
+....\T1/bch/m/n/12 )
 ....\kern 0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -2529,7 +2448,36 @@ Completed box being shipped out [2]
 ....\T1/Montserrat-LF/regular/n/10 b
 ....\T1/Montserrat-LF/regular/n/10 h
 ....\glue(\rightskip) 0.0
-...\glue(\baselineskip) 2.64001
+...\glue -1.995
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 22.95001
+..\hbox(7.04999+0.0)x430.00462
+...\hbox(7.04999+0.0)x430.00462, glue set 213.19731fil
+....\glue 0.0 plus 1.0fil
+....\T1/Montserrat-LF/regular/n/10 1
+....\glue 0.0 plus 1.0fil
+LaTeX Font Info:    Trying to load font information for TS1+Montserrat-LF on input line ....
+(../TS1Montserrat-LF.fd
+File: TS1Montserrat-LF.fd ....-..-.. (autoinst) Font definitions for TS1/Montserrat-LF.
+)
+LaTeX Font Info:    Font shape `TS1/Montserrat-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/b/n' aliased to
+(Font)              `T1/Montserrat-LF/bold/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line ....
+Completed box being shipped out [2]
+\vbox(609.60394+0.0)x449.87982
+.\glue -13.87262
+.\vbox(623.47656+0.0)x430.00462, shifted 19.8752
+..\vbox(12.0+0.0)x430.00462, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x430.00462
+....\hbox(0.0+0.0)x430.00462
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(556.47656+0.0)x430.00462, glue set >20000.0fil
+...\glue(\topskip) 2.63501
 ...\hbox(7.36499+1.94)x430.00462, glue set 0.92563
 ....\T1/Montserrat-LF/regular/n/10 l
 ....\T1/Montserrat-LF/regular/n/10 e
@@ -3135,47 +3083,41 @@ Completed box being shipped out [2]
 ...\penalty 10000
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 2.695
-...\hbox(7.36499+1.995)x430.00462, glue set 0.25702
+...\glue(\baselineskip) 2.65001
+...\hbox(7.40999+2.09499)x430.00462, glue set - 0.27097
 ....\hbox(0.0+0.0)x15.0
 ....\glue -15.0
 ....\glue 0.0
-....\T1/Montserrat-LF/light/n/10 H
-....\T1/Montserrat-LF/light/n/10 e
-....\kern-0.15001
-....\T1/Montserrat-LF/light/n/10 a
-....\T1/Montserrat-LF/light/n/10 d
-....\T1/Montserrat-LF/light/n/10 i
-....\T1/Montserrat-LF/light/n/10 n
-....\T1/Montserrat-LF/light/n/10 g
-....\glue 2.56999 plus 1.28499 minus 0.857
-....\T1/Montserrat-LF/light/n/10 o
-....\T1/Montserrat-LF/light/n/10 n
-....\glue 2.56999 plus 1.28499 minus 0.857
-....\T1/Montserrat-LF/light/n/10 l
-....\T1/Montserrat-LF/light/n/10 e
-....\kern-0.1
-....\T1/Montserrat-LF/light/n/10 v
-....\kern-0.15001
-....\T1/Montserrat-LF/light/n/10 e
-....\T1/Montserrat-LF/light/n/10 l
-....\glue 2.56999 plus 1.28499 minus 0.857
-....\T1/Montserrat-LF/light/n/10 4
-....\glue 2.56999 plus 1.28499 minus 0.857
-....\T1/Montserrat-LF/light/n/10 (
-....\T1/Montserrat-LF/light/n/10 p
-....\kern-0.02
-....\T1/Montserrat-LF/light/n/10 a
-....\T1/Montserrat-LF/light/n/10 r
-....\kern-0.48001
-....\T1/Montserrat-LF/light/n/10 a
-....\T1/Montserrat-LF/light/n/10 g
-....\T1/Montserrat-LF/light/n/10 r
-....\kern-0.48001
-....\T1/Montserrat-LF/light/n/10 a
-....\T1/Montserrat-LF/light/n/10 p
-....\T1/Montserrat-LF/light/n/10 h
-....\T1/Montserrat-LF/light/n/10 )
+....\T1/bch/m/n/10 H
+....\T1/bch/m/n/10 e
+....\T1/bch/m/n/10 a
+....\T1/bch/m/n/10 d
+....\T1/bch/m/n/10 i
+....\T1/bch/m/n/10 n
+....\T1/bch/m/n/10 g
+....\glue 2.78 plus 1.67 minus 0.67
+....\T1/bch/m/n/10 o
+....\T1/bch/m/n/10 n
+....\glue 2.78 plus 1.67 minus 0.67
+....\T1/bch/m/n/10 l
+....\T1/bch/m/n/10 e
+....\T1/bch/m/n/10 v
+....\T1/bch/m/n/10 e
+....\T1/bch/m/n/10 l
+....\glue 2.78 plus 1.67 minus 0.67
+....\T1/bch/m/n/10 4
+....\glue 2.78 plus 1.67 minus 0.67
+....\T1/bch/m/n/10 (
+....\T1/bch/m/n/10 p
+....\T1/bch/m/n/10 a
+....\T1/bch/m/n/10 r
+....\T1/bch/m/n/10 a
+....\T1/bch/m/n/10 g
+....\T1/bch/m/n/10 r
+....\T1/bch/m/n/10 a
+....\T1/bch/m/n/10 p
+....\T1/bch/m/n/10 h
+....\T1/bch/m/n/10 )
 ....\glue 10.0
 ....\T1/Montserrat-LF/regular/n/10 L
 ....\kern-0.08002
@@ -3235,17 +3177,17 @@ Completed box being shipped out [2]
 ....\T1/Montserrat-LF/regular/n/10 i
 ....\T1/Montserrat-LF/regular/n/10 n
 ....\T1/Montserrat-LF/regular/n/10 g
-....\glue(\rightskip) 0.0
-...\penalty 10000
-...\glue(\baselineskip) 2.64001
-...\hbox(7.36499+1.94)x430.00462, glue set - 0.1862
+....\glue 2.62 plus 1.30998 minus 0.873
 ....\T1/Montserrat-LF/regular/n/10 e
 ....\T1/Montserrat-LF/regular/n/10 l
 ....\T1/Montserrat-LF/regular/n/10 i
 ....\T1/Montserrat-LF/regular/n/10 t
 ....\kern0.09999
 ....\T1/Montserrat-LF/regular/n/10 .
-....\glue 3.05699 plus 3.92995 minus 0.291
+....\glue(\rightskip) 0.0
+...\penalty 10000
+...\glue(\baselineskip) 2.54002
+...\hbox(7.36499+1.94)x430.00462, glue set 0.97362
 ....\T1/Montserrat-LF/regular/n/10 E
 ....\kern-0.15001
 ....\T1/Montserrat-LF/regular/n/10 t
@@ -4077,18 +4019,18 @@ Completed box being shipped out [2]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 4.66006
-...\hbox(15.39993+6.60007)x430.00462, glue set 364.98006fil
+...\hbox(15.39993+6.60007)x430.00462, glue set 369.6975fil
 ....\rule(15.39993+6.60007)x0.0
-....\hbox(15.39993+6.60007)x27.00862
-.....\T1/Montserrat-LF/light/n/17.28 2
+....\hbox(15.39993+6.60007)x26.88766
+.....\T1/bch/m/n/17.28 2
 .....\glue 17.28
 .....\rule(15.39993+6.60007)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/17.28 L
-....\T1/Montserrat-LF/light/n/17.28 i
-....\T1/Montserrat-LF/light/n/17.28 s
-....\T1/Montserrat-LF/light/n/17.28 t
-....\T1/Montserrat-LF/light/n/17.28 s
+....\T1/bch/m/n/17.28 L
+....\T1/bch/m/n/17.28 i
+....\T1/bch/m/n/17.28 s
+....\T1/bch/m/n/17.28 t
+....\T1/bch/m/n/17.28 s
 ....\kern 0.0
 ....\rule(15.39993+6.60007)x0.0
 ....\penalty 10000
@@ -4103,48 +4045,41 @@ Completed box being shipped out [2]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\lineskip) 1.0
-...\hbox(12.59995+5.40005)x430.00462, glue set 224.7474fil
+...\hbox(12.59995+5.40005)x430.00462, glue set 235.0866fil
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x30.45595
-.....\T1/Montserrat-LF/light/n/14.4 2
-.....\kern0.144
-.....\T1/Montserrat-LF/light/n/14.4 .
-.....\kern-0.1584
-.....\T1/Montserrat-LF/light/n/14.4 1
+....\hbox(12.59995+5.40005)x34.41594
+.....\T1/bch/m/n/14.4 2
+.....\T1/bch/m/n/14.4 .
+.....\T1/bch/m/n/14.4 1
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/14.4 E
-....\kern-0.24481
-....\T1/Montserrat-LF/light/n/14.4 x
-....\kern-0.14401
-....\T1/Montserrat-LF/light/n/14.4 a
-....\T1/Montserrat-LF/light/n/14.4 m
-....\T1/Montserrat-LF/light/n/14.4 p
-....\T1/Montserrat-LF/light/n/14.4 l
-....\T1/Montserrat-LF/light/n/14.4 e
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 f
-....\kern-0.12961
-....\T1/Montserrat-LF/light/n/14.4 o
-....\T1/Montserrat-LF/light/n/14.4 r
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 l
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 s
-....\T1/Montserrat-LF/light/n/14.4 t
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 (
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 t
-....\kern-0.2736
-....\T1/Montserrat-LF/light/n/14.4 e
-....\T1/Montserrat-LF/light/n/14.4 m
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 z
-....\kern-0.12961
-....\T1/Montserrat-LF/light/n/14.4 e
-....\T1/Montserrat-LF/light/n/14.4 )
+....\T1/bch/m/n/14.4 E
+....\T1/bch/m/n/14.4 x
+....\T1/bch/m/n/14.4 a
+....\T1/bch/m/n/14.4 m
+....\T1/bch/m/n/14.4 p
+....\T1/bch/m/n/14.4 l
+....\T1/bch/m/n/14.4 e
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 f
+....\T1/bch/m/n/14.4 o
+....\T1/bch/m/n/14.4 r
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 l
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 s
+....\T1/bch/m/n/14.4 t
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 (
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 t
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 m
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 z
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 )
 ....\kern 0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -4357,55 +4292,45 @@ Completed box being shipped out [2]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 4.14505
-...\hbox(9.79996+4.20004)x430.00462, glue set 240.58492fil
+...\hbox(9.79996+4.20004)x430.00462, glue set 244.89279fil
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x31.88396
-.....\T1/Montserrat-LF/light/n/12 2
-.....\kern0.12
-.....\T1/Montserrat-LF/light/n/12 .
-.....\kern-0.132
-.....\T1/Montserrat-LF/light/n/12 1
-.....\T1/Montserrat-LF/light/n/12 .
-.....\kern-0.132
-.....\T1/Montserrat-LF/light/n/12 1
+....\hbox(9.79996+4.20004)x38.68799
+.....\T1/bch/m/n/12 2
+.....\T1/bch/m/n/12 .
+.....\T1/bch/m/n/12 1
+.....\T1/bch/m/n/12 .
+.....\T1/bch/m/n/12 1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/12 E
-....\kern-0.20401
-....\T1/Montserrat-LF/light/n/12 x
-....\kern-0.12001
-....\T1/Montserrat-LF/light/n/12 a
-....\T1/Montserrat-LF/light/n/12 m
-....\T1/Montserrat-LF/light/n/12 p
-....\T1/Montserrat-LF/light/n/12 l
-....\T1/Montserrat-LF/light/n/12 e
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 f
-....\kern-0.108
-....\T1/Montserrat-LF/light/n/12 o
-....\T1/Montserrat-LF/light/n/12 r
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 l
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 s
-....\T1/Montserrat-LF/light/n/12 t
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 (
-....\kern-0.24
-....\T1/Montserrat-LF/light/n/12 4
-....\kern-0.24
-....\T1/Montserrat-LF/light/n/12 *
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 t
-....\kern-0.22801
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 m
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 z
-....\kern-0.108
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 )
+....\T1/bch/m/n/12 E
+....\T1/bch/m/n/12 x
+....\T1/bch/m/n/12 a
+....\T1/bch/m/n/12 m
+....\T1/bch/m/n/12 p
+....\T1/bch/m/n/12 l
+....\T1/bch/m/n/12 e
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 f
+....\T1/bch/m/n/12 o
+....\T1/bch/m/n/12 r
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 l
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 s
+....\T1/bch/m/n/12 t
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 (
+....\T1/bch/m/n/12 4
+....\T1/bch/m/n/12 *
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 t
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 m
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 z
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 )
 ....\kern 0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -4612,26 +4537,12 @@ Completed box being shipped out [2]
 ...\penalty -51
 ...\glue 2.0 plus 1.0 minus 1.0
 ...\glue -2.055 plus -1.0 minus -1.0
-...\glue 0.0
-...\glue 0.0 plus 0.0001fil
-..\glue(\baselineskip) 22.95001
-..\hbox(7.04999+0.0)x430.00462
-...\hbox(7.04999+0.0)x430.00462, glue set 212.16232fil
-....\glue 0.0 plus 1.0fil
-....\T1/Montserrat-LF/regular/n/10 2
-....\glue 0.0 plus 1.0fil
-Completed box being shipped out [3]
-\vbox(609.60394+0.055)x449.87982
-.\glue -13.87262
-.\vbox(623.47656+0.055)x430.00462, shifted 19.8752
-..\vbox(12.0+0.0)x430.00462, glue set 12.0fil
-...\glue 0.0 plus 1.0fil
-...\hbox(0.0+0.0)x430.00462
-....\hbox(0.0+0.0)x430.00462
-..\glue 25.0
-..\glue(\lineskip) 0.0
-..\vbox(556.47656+0.0)x430.00462, glue set >20000.0fil
-...\glue(\topskip) 2.63501
+...\penalty -51
+...\glue 0.055
+...\glue 2.0 plus 1.0 minus 1.0
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.58002
 ...\hbox(7.36499+0.055)x364.30463, glue set 298.57472fil, shifted 65.7
 ....\hbox(6.405+0.0)x0.0
 .....\glue 0.0
@@ -4751,58 +4662,63 @@ Completed box being shipped out [3]
 ...\penalty -51
 ...\glue 10.0 plus 3.0 minus 5.0
 ...\glue -10.055 plus -3.0 minus -5.0
-...\penalty -300
-...\glue 0.055
-...\glue 10.0 plus 3.0 minus 5.0
-...\glue -10.0 plus -3.0 minus -5.0
-...\glue 17.09497 plus 5.26 minus 1.05197
-...\glue(\parskip) 0.0 plus 1.0
-...\glue(\parskip) 0.0
-...\glue(\baselineskip) 5.34506
-...\hbox(12.59995+5.40005)x430.00462, glue set 194.75226fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 22.95001
+..\hbox(7.04999+0.0)x430.00462
+...\hbox(7.04999+0.0)x430.00462, glue set 212.16232fil
+....\glue 0.0 plus 1.0fil
+....\T1/Montserrat-LF/regular/n/10 2
+....\glue 0.0 plus 1.0fil
+Completed box being shipped out [3]
+\vbox(609.60394+0.055)x449.87982
+.\glue -13.87262
+.\vbox(623.47656+0.055)x430.00462, shifted 19.8752
+..\vbox(12.0+0.0)x430.00462, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x430.00462
+....\hbox(0.0+0.0)x430.00462
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(556.47656+0.0)x430.00462, glue set - 0.75891
+...\glue(\topskip) 0.0
+...\hbox(12.59995+5.40005)x430.00462, glue set 213.64502fil
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x33.78233
-.....\T1/Montserrat-LF/light/n/14.4 2
-.....\kern0.144
-.....\T1/Montserrat-LF/light/n/14.4 .
-.....\kern0.144
-.....\T1/Montserrat-LF/light/n/14.4 2
+....\hbox(12.59995+5.40005)x34.41594
+.....\T1/bch/m/n/14.4 2
+.....\T1/bch/m/n/14.4 .
+.....\T1/bch/m/n/14.4 2
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/14.4 E
-....\kern-0.24481
-....\T1/Montserrat-LF/light/n/14.4 x
-....\kern-0.14401
-....\T1/Montserrat-LF/light/n/14.4 a
-....\T1/Montserrat-LF/light/n/14.4 m
-....\T1/Montserrat-LF/light/n/14.4 p
-....\T1/Montserrat-LF/light/n/14.4 l
-....\T1/Montserrat-LF/light/n/14.4 e
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 f
-....\kern-0.12961
-....\T1/Montserrat-LF/light/n/14.4 o
-....\T1/Montserrat-LF/light/n/14.4 r
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 l
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 s
-....\T1/Montserrat-LF/light/n/14.4 t
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 (
-....\T1/Montserrat-LF/light/n/14.4 e
-....\T1/Montserrat-LF/light/n/14.4 n
-....\T1/Montserrat-LF/light/n/14.4 u
-....\T1/Montserrat-LF/light/n/14.4 m
-....\T1/Montserrat-LF/light/n/14.4 e
-....\T1/Montserrat-LF/light/n/14.4 r
-....\kern-0.69121
-....\T1/Montserrat-LF/light/n/14.4 a
-....\T1/Montserrat-LF/light/n/14.4 t
-....\kern-0.2736
-....\T1/Montserrat-LF/light/n/14.4 e
-....\T1/Montserrat-LF/light/n/14.4 )
+....\T1/bch/m/n/14.4 E
+....\T1/bch/m/n/14.4 x
+....\T1/bch/m/n/14.4 a
+....\T1/bch/m/n/14.4 m
+....\T1/bch/m/n/14.4 p
+....\T1/bch/m/n/14.4 l
+....\T1/bch/m/n/14.4 e
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 f
+....\T1/bch/m/n/14.4 o
+....\T1/bch/m/n/14.4 r
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 l
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 s
+....\T1/bch/m/n/14.4 t
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 (
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 n
+....\T1/bch/m/n/14.4 u
+....\T1/bch/m/n/14.4 m
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 r
+....\T1/bch/m/n/14.4 a
+....\T1/bch/m/n/14.4 t
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 )
 ....\kern 0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -5021,59 +4937,47 @@ Completed box being shipped out [3]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 4.14505
-...\hbox(9.79996+4.20004)x430.00462, glue set 215.69691fil
+...\hbox(9.79996+4.20004)x430.00462, glue set 227.02477fil
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x34.77596
-.....\T1/Montserrat-LF/light/n/12 2
-.....\kern0.12
-.....\T1/Montserrat-LF/light/n/12 .
-.....\kern0.12
-.....\T1/Montserrat-LF/light/n/12 2
-.....\kern0.12
-.....\T1/Montserrat-LF/light/n/12 .
-.....\kern-0.132
-.....\T1/Montserrat-LF/light/n/12 1
+....\hbox(9.79996+4.20004)x38.68799
+.....\T1/bch/m/n/12 2
+.....\T1/bch/m/n/12 .
+.....\T1/bch/m/n/12 2
+.....\T1/bch/m/n/12 .
+.....\T1/bch/m/n/12 1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/12 E
-....\kern-0.20401
-....\T1/Montserrat-LF/light/n/12 x
-....\kern-0.12001
-....\T1/Montserrat-LF/light/n/12 a
-....\T1/Montserrat-LF/light/n/12 m
-....\T1/Montserrat-LF/light/n/12 p
-....\T1/Montserrat-LF/light/n/12 l
-....\T1/Montserrat-LF/light/n/12 e
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 f
-....\kern-0.108
-....\T1/Montserrat-LF/light/n/12 o
-....\T1/Montserrat-LF/light/n/12 r
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 l
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 s
-....\T1/Montserrat-LF/light/n/12 t
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 (
-....\kern-0.24
-....\T1/Montserrat-LF/light/n/12 4
-....\kern-0.24
-....\T1/Montserrat-LF/light/n/12 *
-....\kern-0.22801
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 n
-....\T1/Montserrat-LF/light/n/12 u
-....\T1/Montserrat-LF/light/n/12 m
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 r
-....\kern-0.576
-....\T1/Montserrat-LF/light/n/12 a
-....\T1/Montserrat-LF/light/n/12 t
-....\kern-0.22801
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 )
+....\T1/bch/m/n/12 E
+....\T1/bch/m/n/12 x
+....\T1/bch/m/n/12 a
+....\T1/bch/m/n/12 m
+....\T1/bch/m/n/12 p
+....\T1/bch/m/n/12 l
+....\T1/bch/m/n/12 e
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 f
+....\T1/bch/m/n/12 o
+....\T1/bch/m/n/12 r
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 l
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 s
+....\T1/bch/m/n/12 t
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 (
+....\T1/bch/m/n/12 4
+....\T1/bch/m/n/12 *
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 n
+....\T1/bch/m/n/12 u
+....\T1/bch/m/n/12 m
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 r
+....\T1/bch/m/n/12 a
+....\T1/bch/m/n/12 t
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 )
 ....\kern 0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -5426,51 +5330,45 @@ Completed box being shipped out [3]
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 5.34506
-...\hbox(12.59995+5.40005)x430.00462, glue set 193.77307fil
+...\hbox(12.59995+5.40005)x430.00462, glue set 211.34106fil
 ....\rule(12.59995+5.40005)x0.0
-....\hbox(12.59995+5.40005)x33.71034
-.....\T1/Montserrat-LF/light/n/14.4 2
-.....\kern0.144
-.....\T1/Montserrat-LF/light/n/14.4 .
-.....\kern0.144
-.....\T1/Montserrat-LF/light/n/14.4 3
+....\hbox(12.59995+5.40005)x34.41594
+.....\T1/bch/m/n/14.4 2
+.....\T1/bch/m/n/14.4 .
+.....\T1/bch/m/n/14.4 3
 .....\glue 14.4
 .....\rule(12.59995+5.40005)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/14.4 E
-....\kern-0.24481
-....\T1/Montserrat-LF/light/n/14.4 x
-....\kern-0.14401
-....\T1/Montserrat-LF/light/n/14.4 a
-....\T1/Montserrat-LF/light/n/14.4 m
-....\T1/Montserrat-LF/light/n/14.4 p
-....\T1/Montserrat-LF/light/n/14.4 l
-....\T1/Montserrat-LF/light/n/14.4 e
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 f
-....\kern-0.12961
-....\T1/Montserrat-LF/light/n/14.4 o
-....\T1/Montserrat-LF/light/n/14.4 r
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 l
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 s
-....\T1/Montserrat-LF/light/n/14.4 t
-....\glue 3.70079 plus 1.85039 minus 1.23407
-....\T1/Montserrat-LF/light/n/14.4 (
-....\T1/Montserrat-LF/light/n/14.4 d
-....\T1/Montserrat-LF/light/n/14.4 e
-....\T1/Montserrat-LF/light/n/14.4 s
-....\T1/Montserrat-LF/light/n/14.4 c
-....\T1/Montserrat-LF/light/n/14.4 r
-....\kern-0.12961
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 p
-....\T1/Montserrat-LF/light/n/14.4 t
-....\T1/Montserrat-LF/light/n/14.4 i
-....\T1/Montserrat-LF/light/n/14.4 o
-....\T1/Montserrat-LF/light/n/14.4 n
-....\T1/Montserrat-LF/light/n/14.4 )
+....\T1/bch/m/n/14.4 E
+....\T1/bch/m/n/14.4 x
+....\T1/bch/m/n/14.4 a
+....\T1/bch/m/n/14.4 m
+....\T1/bch/m/n/14.4 p
+....\T1/bch/m/n/14.4 l
+....\T1/bch/m/n/14.4 e
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 f
+....\T1/bch/m/n/14.4 o
+....\T1/bch/m/n/14.4 r
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 l
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 s
+....\T1/bch/m/n/14.4 t
+....\glue 4.00319 plus 2.40479 minus 0.9648
+....\T1/bch/m/n/14.4 (
+....\T1/bch/m/n/14.4 d
+....\T1/bch/m/n/14.4 e
+....\T1/bch/m/n/14.4 s
+....\T1/bch/m/n/14.4 c
+....\T1/bch/m/n/14.4 r
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 p
+....\T1/bch/m/n/14.4 t
+....\T1/bch/m/n/14.4 i
+....\T1/bch/m/n/14.4 o
+....\T1/bch/m/n/14.4 n
+....\T1/bch/m/n/14.4 )
 ....\kern 0.0
 ....\rule(12.59995+5.40005)x0.0
 ....\penalty 10000
@@ -5655,79 +5553,57 @@ Completed box being shipped out [3]
 ...\penalty -51
 ...\glue 10.0 plus 3.0 minus 5.0
 ...\glue -10.12 plus -3.0 minus -5.0
-...\glue 0.0
-...\glue 0.0 plus 0.0001fil
-..\glue(\baselineskip) 22.95001
-..\hbox(7.04999+0.055)x430.00462
-...\hbox(7.04999+0.055)x430.00462, glue set 212.18231fil
-....\glue 0.0 plus 1.0fil
-....\T1/Montserrat-LF/regular/n/10 3
-....\glue 0.0 plus 1.0fil
-Completed box being shipped out [4]
-\vbox(609.60394+0.0)x449.87982
-.\glue -13.87262
-.\vbox(623.47656+0.0)x430.00462, shifted 19.8752
-..\vbox(12.0+0.0)x430.00462, glue set 12.0fil
-...\glue 0.0 plus 1.0fil
-...\hbox(0.0+0.0)x430.00462
-....\hbox(0.0+0.0)x430.00462
-..\glue 25.0
-..\glue(\lineskip) 0.0
-..\vbox(556.47656+0.0)x430.00462, glue set 402.4236fil
-...\glue(\topskip) 0.20004
-...\hbox(9.79996+4.20004)x430.00462, glue set 215.00095fil
+...\penalty -300
+...\glue 0.12
+...\glue 10.0 plus 3.0 minus 5.0
+...\glue -10.0 plus -3.0 minus -5.0
+...\glue 17.09497 plus 5.26 minus 1.05197
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.08005
+...\hbox(9.79996+4.20004)x430.00462, glue set 225.10486fil
 ....\rule(9.79996+4.20004)x0.0
-....\hbox(9.79996+4.20004)x34.59595
-.....\T1/Montserrat-LF/light/n/12 2
-.....\kern0.12
-.....\T1/Montserrat-LF/light/n/12 .
-.....\kern0.12
-.....\T1/Montserrat-LF/light/n/12 3
-.....\T1/Montserrat-LF/light/n/12 .
-.....\kern-0.132
-.....\T1/Montserrat-LF/light/n/12 1
+....\hbox(9.79996+4.20004)x38.68799
+.....\T1/bch/m/n/12 2
+.....\T1/bch/m/n/12 .
+.....\T1/bch/m/n/12 3
+.....\T1/bch/m/n/12 .
+.....\T1/bch/m/n/12 1
 .....\glue 12.0
 .....\rule(9.79996+4.20004)x0.0
 .....\glue 0.0
-....\T1/Montserrat-LF/light/n/12 E
-....\kern-0.20401
-....\T1/Montserrat-LF/light/n/12 x
-....\kern-0.12001
-....\T1/Montserrat-LF/light/n/12 a
-....\T1/Montserrat-LF/light/n/12 m
-....\T1/Montserrat-LF/light/n/12 p
-....\T1/Montserrat-LF/light/n/12 l
-....\T1/Montserrat-LF/light/n/12 e
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 f
-....\kern-0.108
-....\T1/Montserrat-LF/light/n/12 o
-....\T1/Montserrat-LF/light/n/12 r
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 l
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 s
-....\T1/Montserrat-LF/light/n/12 t
-....\glue 3.084 plus 1.54199 minus 1.0284
-....\T1/Montserrat-LF/light/n/12 (
-....\kern-0.24
-....\T1/Montserrat-LF/light/n/12 4
-....\kern-0.24
-....\T1/Montserrat-LF/light/n/12 *
-....\kern-0.22801
-....\T1/Montserrat-LF/light/n/12 d
-....\T1/Montserrat-LF/light/n/12 e
-....\T1/Montserrat-LF/light/n/12 s
-....\T1/Montserrat-LF/light/n/12 c
-....\T1/Montserrat-LF/light/n/12 r
-....\kern-0.108
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 p
-....\T1/Montserrat-LF/light/n/12 t
-....\T1/Montserrat-LF/light/n/12 i
-....\T1/Montserrat-LF/light/n/12 o
-....\T1/Montserrat-LF/light/n/12 n
-....\T1/Montserrat-LF/light/n/12 )
+....\T1/bch/m/n/12 E
+....\T1/bch/m/n/12 x
+....\T1/bch/m/n/12 a
+....\T1/bch/m/n/12 m
+....\T1/bch/m/n/12 p
+....\T1/bch/m/n/12 l
+....\T1/bch/m/n/12 e
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 f
+....\T1/bch/m/n/12 o
+....\T1/bch/m/n/12 r
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 l
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 s
+....\T1/bch/m/n/12 t
+....\glue 3.336 plus 2.004 minus 0.804
+....\T1/bch/m/n/12 (
+....\T1/bch/m/n/12 4
+....\T1/bch/m/n/12 *
+....\T1/bch/m/n/12 d
+....\T1/bch/m/n/12 e
+....\T1/bch/m/n/12 s
+....\T1/bch/m/n/12 c
+....\T1/bch/m/n/12 r
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 p
+....\T1/bch/m/n/12 t
+....\T1/bch/m/n/12 i
+....\T1/bch/m/n/12 o
+....\T1/bch/m/n/12 n
+....\T1/bch/m/n/12 )
 ....\kern 0.0
 ....\rule(9.79996+4.20004)x0.0
 ....\penalty 10000
@@ -6028,8 +5904,8 @@ Completed box being shipped out [4]
 ...\glue 0.0
 ...\glue 0.0 plus 0.0001fil
 ..\glue(\baselineskip) 22.95001
-..\hbox(7.04999+0.0)x430.00462
-...\hbox(7.04999+0.0)x430.00462, glue set 211.69731fil
+..\hbox(7.04999+0.055)x430.00462
+...\hbox(7.04999+0.055)x430.00462, glue set 212.18231fil
 ....\glue 0.0 plus 1.0fil
-....\T1/Montserrat-LF/regular/n/10 4
+....\T1/Montserrat-LF/regular/n/10 3
 ....\glue 0.0 plus 1.0fil

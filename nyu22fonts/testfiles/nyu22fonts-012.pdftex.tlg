@@ -233,7 +233,7 @@ LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 <argument> \l_tmpa_box 
 l. ...  }
 ============================================================
-Package nyu22fonts Warning: Font `Montserrat TrueType' unavailable;
+Package nyu22fonts Warning: Font `Montserrat OpenType' unavailable;
 (nyu22fonts)                substituting `Montserrat Type 1'.
 ! LaTeX Error: Can be used only in preamble.
 See the LaTeX manual or LaTeX Companion for explanation.
