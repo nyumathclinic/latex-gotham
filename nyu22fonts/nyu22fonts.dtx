@@ -15,16 +15,6 @@
 \usepackage[backend=biber]{biblatex}
 \addbibresource{nyu22fonts.bib}
 
-\usepackage{listings}
-\lstset{language=bash,basicstyle=\ttfamily}
-
-\usepackage{titling}
-\pretitle{\begin{adjustwidth}{0pt}{-1in}\begin{flushleft}\Huge}
-\posttitle{\par\end{flushleft}\end{adjustwidth}\vskip 0.5em}
-\predate{\begin{flushleft}}
-\postdate{\par\end{flushleft}}
-\preauthor{\begin{flushleft}}
-\postauthor{\par\end{flushleft}}
 
 \usepackage{xcolor-nyu22}[2022/08/05]
 \colorlet{\watchoutcolor}{Magenta}
@@ -33,6 +23,7 @@
     tone=traditional-subtle]{nyu22fonts}
 \linespread{1.041667}
 \setmonofont{Inconsolata}
+\usepackage{parskip}
 
 % For documenting expl3 macros, surround the doc element with |\makeusletter|
 % and |\makeussubscript|.
@@ -40,7 +31,6 @@
 \newcommand{\makeussubscript}{\catcode`\_=8}
 
 
-\usepackage{parskip}
 
 \renewrobustcmd*{\pkg}[1]{\mbox{\textbf{#1}}}^^A whole document is in sans already
 \renewrobustcmd*{\acro}[1]{\MakeUppercase{#1}}^^A Gotham doesn't have small caps

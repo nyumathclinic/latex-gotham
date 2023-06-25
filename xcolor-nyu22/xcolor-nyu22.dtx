@@ -22,32 +22,17 @@
 \addbibresource{xcolor-nyu22.bib}
 
 
-\usepackage{titling}
-\pretitle{\begin{adjustwidth}{0pt}{-1in}\begin{flushleft}\Huge}
-\posttitle{\par\end{flushleft}\end{adjustwidth}\vskip 0.5em}
-\predate{\begin{flushleft}}
-\postdate{\par\end{flushleft}}
-\preauthor{\begin{flushleft}}
-\postauthor{\par\end{flushleft}}
+\usepackage[
+    Gotham, Frank Ruhl Libre,
+    tone=traditional-subtle]{nyu22fonts}
+\linespread{1.041667}
+\setmonofont{Inconsolata}
+\usepackage{parskip}
 
 \usepackage{xcolor-nyu22}
 
-\usepackage[Gotham, Frank Ruhl Libre]{nyu22fonts}[v1.0]
-\linespread{1.041667}
-\setmonofont{Inconsolata}
-
-% In the contemporary/subtle tone quadrant, we use sans for the main text
-% and serif for the section titles
-\renewcommand{\familydefault}{\sfdefault}
-\usepackage{titlesec}
-\newcommand{\headingfont}{\rmfamily\color{NyuViolet}}
-\titleformat*{\section}{\LARGE\headingfont}
-\titleformat*{\subsection}{\Large\headingfont}
-\titleformat*{\subsubsection}{\large\headingfont}
-\renewcommand{\maketitlehooka}{\headingfont}
 \setcounter{secnumdepth}{2}
 
-\usepackage{parskip}
 
 \usepackage{dtxdescribe}
 \colorlet{\watchoutcolor}{Magenta}
@@ -58,7 +43,17 @@
   idxgroup=Colors,
   noindex=false,
 ]{Color}{newcolor}
-\renewrobustcmd*{\pkg}[1]{\mbox{\textbf{#1}}}
+
+% For documenting expl3 macros, surround the doc element with |\makeusletter|
+% and |\makeussubscript|.
+\newcommand{\makeusletter}{\catcode`\_=12}
+\newcommand{\makeussubscript}{\catcode`\_=8}
+
+\renewrobustcmd*{\pkg}[1]{\mbox{\textbf{#1}}}^^A whole document is in sans already
+\renewrobustcmd*{\acro}[1]{\MakeUppercase{#1}}^^A Gotham doesn't have small caps
+\newcommand{\mtrue}{{\MacroFont true}}
+\newcommand{\mfalse}{{\MacroFont false}}
+\newcommand{\metatf}{$\left<\mbox{\mtrue}\mid\mbox{\mfalse}\right>$}
 
 \newlength{\mycontrastboxwidth}
 \newcommand{\contrastbox}[5][0.3\linewidth]{%
