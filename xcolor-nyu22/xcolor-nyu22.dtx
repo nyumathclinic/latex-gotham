@@ -87,13 +87,11 @@
 \DisableCrossrefs
 \CodelineIndex
 \RecordChanges
-\usepackage{hyperref}
 \AtBeginDocument{
   \hypersetup{
     allcolors=NyuViolet,
   }
 }
-\usepackage{hyperref}
 \begin{document}
   \DocInput{xcolor-nyu22.dtx}
 \end{document}
@@ -488,10 +486,7 @@
 % \printbibliography[heading=subbibliography]
 % \end{refsection}
 %
-%\StopEventually{^^A
-%  \PrintChanges
-%  \PrintIndex
-%}
+%\StopEventually{\PrintChanges\PrintIndex}
 %
 % \section{Implementation}
 % \begin{refsection}

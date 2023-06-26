@@ -31,17 +31,17 @@
 \newcommand{\makeussubscript}{\catcode`\_=8}
 
 
-
 \renewrobustcmd*{\pkg}[1]{\mbox{\textbf{#1}}}^^A whole document is in sans already
 \renewrobustcmd*{\acro}[1]{\MakeUppercase{#1}}^^A Gotham doesn't have small caps
 \newcommand{\mtrue}{{\MacroFont true}}
 \newcommand{\mfalse}{{\MacroFont false}}
 \newcommand{\metatf}{$\left<\mbox{\mtrue}\mid\mbox{\mfalse}\right>$}
 
-\EnableCrossrefs
+\DisableCrossrefs^^A doesn't work correctly on expl3 macros
 \RecordChanges
 \CodelineIndex
-\usepackage{hyperref}
+% \usepackage{hyperref}^^A This package is already loaded, and reloading it breaks
+%                      ^^A the indexing of |\Describe|'d objects. 
 \AtBeginDocument{
   \hypersetup{
     allcolors=NyuViolet,
@@ -52,7 +52,7 @@
 \end{document}
 %</driver>
 % \fi
-
+%
 % \GetFileInfo{nyu22fonts.dtx} 
 % \title{NYU Typefaces and Fonts}
 % \author{Matthew Leingang\thanks{leingang@nyu.edu}} \date{\fileversion, Released \filedate}
