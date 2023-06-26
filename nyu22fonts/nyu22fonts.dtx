@@ -975,6 +975,7 @@
 %
 % \begin{macro}{\__nyufonts_reset_headers:}
 % \changes{v1.3}{2023/06/23}{Add this function} 
+% \changes{unreleased}{2023/06/26}{Reference color by name} 
 %    \begin{macrocode}
 \cs_set:Nn \__nyufonts_reset_headers: {
   \RequirePackage{titlesec}
@@ -988,12 +989,10 @@
     \Large}
   \titleformat*{\subsubsection}{
     \__nyufonts_use_color_if_exist:N \l__nyucolors_title_color_tl
-    \l__nyucolors_title_color_tl
     \l__nyufonts_title_font_tl
     \large}
     \titleformat*{\paragraph}{
       \__nyufonts_use_color_if_exist:N \l__nyucolors_title_color_tl
-      \l__nyucolors_title_color_tl
       \l__nyufonts_title_font_tl
       \normalsize}
   }
