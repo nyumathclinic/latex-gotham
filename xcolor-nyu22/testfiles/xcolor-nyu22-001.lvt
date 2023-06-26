@@ -1,0 +1,18 @@
+\input regression-test.tex
+\documentclass{article}
+\title{Test of title coloring}
+\author{Matthew Leingang}
+\date{2023-06-26}
+\usepackage[
+    Gotham,Frank Ruhl Libre,
+    tone=contemporary-subtle]{nyu22fonts}
+\usepackage[title/color=NyuViolet]{xcolor-nyu22}
+\usepackage[letterpaper]{geometry}
+\usepackage{blindtext}
+\showoutput
+\begin{document}
+\START
+\maketitle
+\blinddocument
+\vfil\break
+\END

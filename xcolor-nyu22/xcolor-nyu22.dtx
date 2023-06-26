@@ -507,8 +507,13 @@
 \RequirePackage{xcolor}
 %    \end{macrocode}
 %
+% We're going to use \hologo{LaTeX3} syntax later on.
+%    \begin{macrocode}
+\RequirePackage{expl3}
+%    \end{macrocode}
 %
-% \subsection{Primary colors}
+% \subsection{Color definitions}
+% \subsubsection{Primary colors}
 %
 % \changes{v0.9.0}{2022/08/03}{Changed the primary name from \texttt{nyupurple} to \texttt{NyuViolet}}
 % \changes{v0.9.0}{2022/08/03}{Added \texttt{UltraViolet} and \texttt{Black}}
@@ -535,7 +540,7 @@
 %    \end{macrocode}
 % \end{newcolor}
 %
-% \subsection{Secondary colors}
+% \subsubsection{Secondary colors}
 %
 % \begin{newcolor}{DeepViolet}
 %    \begin{macrocode}
@@ -563,7 +568,7 @@
 %    \end{macrocode}
 % \end{newcolor}
 % 
-% \subsection*{Deprecated secondary colors}
+% \subsubsection*{Deprecated secondary colors}
 %
 % The color names below belong to the pre-2022 brand kit. They are officially
 % deprecated. There's no way to warn about using deprecated nameds within
@@ -576,7 +581,7 @@
 \definecolor{nyupurple4}{HTML}{220337}
 %    \end{macrocode}
 %
-% \subsection{Blacks and grays}
+% \subsubsection{Blacks and grays}
 % \changes{v0.9.0}{2022/08/03}{Added the 2022 gray shades and deprecated the prior ones}
 % We only provide five shades of gray, rather than fifty.
 % \begin{newcolor}{DarkGray}
@@ -610,7 +615,7 @@
 %    \end{macrocode}
 % \end{newcolor}
 %
-% \subsection{Deprecated blacks and grays}
+% \subsubsection{Deprecated blacks and grays}
 %    \begin{macrocode}
 \definecolor{nyugblack}{HTML}{000000}
 \definecolor{nyugray}{HTML}{6D6D6D}
@@ -620,7 +625,7 @@
 \definecolor{nyugray4}{HTML}{F2F2F2}
 %    \end{macrocode}
 %
-% \subsection{Accent colors}
+% \subsubsection{Accent colors}
 % \changes{v0.9.0}{2022/08/03}{Added the 2022 accent colors and deprecated the prior alert ones}
 %
 % \begin{newcolor}{Teal}
@@ -644,14 +649,14 @@
 %    \end{macrocode}
 % \end{newcolor}
 % 
-% \subsection{Deprecated accent colors}
+% \subsubsection{Deprecated accent colors}
 %    \begin{macrocode}
 \definecolor{nyured}{HTML}{CB0200}% warning
 \definecolor{nyuorange}{HTML}{E86C00}% info
 \definecolor{nyugreen}{HTML}{489141}% success
 %    \end{macrocode}
 %
-% \subsection*{Deprecated tertiary accent colors}
+% \subsubsection*{Deprecated tertiary accent colors}
 %
 %    \begin{macrocode}
 \definecolor{nyudarkblue}{HTML}{28619E}
@@ -667,9 +672,69 @@
 \colorlet{nyuaccent6}{nyuyellow}
 %    \end{macrocode}
 %
+% \subsection{Document formatting}
+%
+% Formatting keys can be passed in the optional argument
+% to \cs{usepackage}, or the mandatory argument to \cs{nyucolorssetup}.
+% See Section~\ref{sssec-keys}.
+% 
+% \subsubsection{Title color}
+%
+% \makeusletter
+%    \begin{macrocode}
+\ExplSyntaxOn
+%    \end{macrocode}
+%
+% \begin{macro}{\l__nyucolors_title_color_tl}
+% \changes{unreleased}{2023/06/26}{Provide this variable}
+% A hook for setting the color of titles. 
+%    \begin{macrocode}
+\tl_if_exist:NF \l__nyucolors_title_color_tl { 
+  \tl_new:N \l__nyucolors_title_color_tl
+}
+%    \end{macrocode}
+% \end{macro}
+% \begin{key}{title/color}
+% \changes{unreleased}{2023/06/26}{Provide this key}
+% Store the title color. 
+%    \begin{macrocode}
+\keys_define:nn { nyucolors } {
+  title/color .tl_set:N = { \l__nyucolors_title_color_tl }
+}
+%    \end{macrocode}
+%
+% \subsubsection{Processing Keys}
+% \label{sssec-keys}
+% \changes{unreleased}{2023/06/26}{Provide keyval configuration}
+%    \begin{macrocode}
+\IfFormatAtLeastTF { 2022-06-01 }
+{ 
+  \ProcessKeyOptions [ nyucolors ]
+}{
+  \RequirePackage { l3keys2e }
+  \ProcessKeysOptions { nyucolors }
+}  
+%    \end{macrocode}
+% \begin{macro}{\nyucolorssetup}
+% \changes{unreleased}{2023/06/26}{Provide this command}
+% Set keyval options after package loading.
+%    \begin{macrocode}
+\newcommand{\nyucolorssetup}[1]{
+  \IfFormatAtLeastTF { 2022-06-01 }
+  { 
+    \SetKeys[ nyucolors ]{#1} 
+  }{  
+    \csname keys_set:nn \endcsname{ nyucolors }{ #1 } 
+  }  
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{key}
+% \makeussubscript
 %    \begin{macrocode}
 %</pkg>
 %    \end{macrocode}
+%
 %
 % \printbibliography[
 %   heading=subbibliography,
