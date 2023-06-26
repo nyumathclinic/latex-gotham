@@ -5,7 +5,7 @@
 %</driver>
 %<pkg>\ProvidesPackage{xcolor-nyu22}
 %<*pkg>
-  [2023/06/19 v1.0a Color palettes for the NYU visual identity]
+  [2023/06/26 v1.1 Color palettes for the NYU visual identity]
 %</pkg>
 %<*driver>
 \documentclass{ltxdoc}
@@ -686,7 +686,7 @@
 %    \end{macrocode}
 %
 % \begin{macro}{\l__nyucolors_title_color_tl}
-% \changes{unreleased}{2023/06/26}{Provide this variable}
+% \changes{v1.1}{2023/06/26}{Provide this variable}
 % A hook for setting the color of titles. 
 %    \begin{macrocode}
 \tl_if_exist:NF \l__nyucolors_title_color_tl { 
@@ -695,7 +695,7 @@
 %    \end{macrocode}
 % \end{macro}
 % \begin{key}{title/color}
-% \changes{unreleased}{2023/06/26}{Provide this key}
+% \changes{v1.1}{2023/06/26}{Provide this key}
 % Store the title color. 
 %    \begin{macrocode}
 \keys_define:nn { nyucolors } {
@@ -705,7 +705,7 @@
 %
 % \subsubsection{Processing Keys}
 % \label{sssec-keys}
-% \changes{unreleased}{2023/06/26}{Provide keyval configuration}
+% \changes{v1.1}{2023/06/26}{Provide keyval configuration}
 %    \begin{macrocode}
 \IfFormatAtLeastTF { 2022-06-01 }
 { 
@@ -716,7 +716,7 @@
 }  
 %    \end{macrocode}
 % \begin{macro}{\nyucolorssetup}
-% \changes{unreleased}{2023/06/26}{Provide this command}
+% \changes{v1.1}{2023/06/26}{Provide this command}
 % Set keyval options after package loading.
 %    \begin{macrocode}
 \newcommand{\nyucolorssetup}[1]{
