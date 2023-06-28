@@ -1,5 +1,5 @@
 -- Build configuration for nyu22fonts
--- Matthew Leingang, 22022-08-05
+-- Matthew Leingang, 2022-08-05
 
 bundle = "Gotham"
 module = "beamerthemeNYU22"
@@ -17,8 +17,18 @@ checkopts = "-interaction=batchmode"
 
 typesetfiles = {"*.tex", "examples/*.tex"}
 typesetsuppfiles = {"*.png", "*.bib"}
-typesetdeps = { maindir .. "/xcolor-nyu22" }
+typesetdeps = {
+   maindir .. "/xcolor-nyu22",
+   maindir .. "/nyu22fonts"
+}
 typesetexe = "lualatex"
+-- Use a bundle-level bib file
+function docinit_hook()
+   errorlevel = cp("main.bib", maindir .. "/support", typesetdir)
+   assert(errorlevel == 0, 
+       "Could not copy main.bib to " .. typesetdir)
+   return errorlevel
+end
 
 
 dofile(maindir .. "/build-config.lua")
