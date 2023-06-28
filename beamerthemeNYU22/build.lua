@@ -9,11 +9,9 @@ date = "2023-05-29"
 maindir = ".."
 supportdir = "support"
 
--- Many tests will fail on the pdftex engine, because they require fontspec. So
--- we make the luatex engine the default for checking, and force the engine to
--- keep going no matter what
 stdengine = "luatex"
 checkopts = "-interaction=batchmode"
+checksuppfiles = {"lipsum.tex"}
 
 typesetfiles = {"*.tex", "examples/*.tex"}
 typesetsuppfiles = {"*.png", "*.bib"}

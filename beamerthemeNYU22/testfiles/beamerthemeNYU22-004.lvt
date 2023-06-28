@@ -1,8 +1,8 @@
 \input regression-test.tex
 \documentclass{beamer}
 
-\usepackage[Montserrat,Frank Ruhl Libre]{nyu22fonts}
-\usetheme{NYU22-contemporary-subtle}
+\usepackage[Gotham,Frank Ruhl Libre]{nyu22fonts}
+\usetheme{NYU22-contemporary-bold}
 
 \showoutput
 \begin{document}

@@ -1,13 +1,12 @@
 \input regression-test.tex
 \documentclass{beamer}
 
-\usepackage[Montserrat,Frank Ruhl Libre]{nyu22fonts}
+\usepackage[Montserrat,Charter]{nyu22fonts}
 \usetheme{NYU22-contemporary-subtle}
 
 \showoutput
 \begin{document}
 \START
 \include{lipsum}
-
 \vfil\break
 \END
