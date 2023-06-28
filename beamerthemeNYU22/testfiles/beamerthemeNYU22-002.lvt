@@ -1,0 +1,60 @@
+\input regression-test.tex
+\documentclass{beamer}
+\title{Lorem Ipsum}   
+\author{Aspasius Protus}
+\institute{Universitates Novum Eboracum}
+\date{June 26, 2023} 
+
+\usepackage[Montserrat,Frank Ruhl Libre]{nyu22fonts}
+\usetheme{NYU22-contemporary-subtle}
+
+\showoutput
+\begin{document}
+\START
+
+\frame{\maketitle} 
+
+\begin{frame}{Cras imperdiet purus}
+  Fusce \textbf{bibendum} dui sed hendrerit imperdiet.
+  Aenean in urna eget nisi tempus tempus non pellentesque lacus.
+  \begin{itemize}
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    \item Nunc fringilla turpis eget libero cursus bibendum.
+    \item Vestibulum ac lacus aliquet, facilisis arcu vitae, consequat arcu.
+  \end{itemize}
+  Mauris in nisl \textit{maximus}, maximus nunc vulputate, iaculis justo.
+  Pellentesque non leo in eros tempor ornare ut in elit.
+\end{frame}
+
+\begin{frame}{Duis vitae ante}
+  Sed vestibulum massa a urna ullamcorper, at feugiat mauris congue.
+  \begin{enumerate}
+    \item Vivamus iaculis dui et tellus tempor, in mollis turpis lobortis.
+    \item Phasellus vel dui viverra, semper dolor id, finibus magna.
+    \item Aliquam nec orci sit amet massa placerat viverra vitae eget ipsum.
+    \item Proin at felis a nibh euismod pellentesque.
+    \item Phasellus vel odio nec dolor pretium blandit.
+  \end{enumerate}
+  Vestibulum hendrerit justo sit amet leo congue tempus.
+\end{frame}
+
+\begin{frame}{Phasellus eu felis}
+  
+  \begin{block}{Theorem}
+    Suspendisse non nibh at velit pellentesque pulvinar.
+  \end{block}
+
+  \begin{exampleblock}{Example}
+    Proin at urna ut augue consectetur porttitor vel at libero.
+  \end{exampleblock}
+
+  \begin{alertblock}{Warning}
+    Proin eleifend est nec urna luctus, in tincidunt nulla varius.
+  \end{alertblock}
+\end{frame}
+
+
+\end{document}
+
+\vfil\break
+\END

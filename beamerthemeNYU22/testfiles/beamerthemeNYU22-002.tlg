@@ -1,0 +1,3010 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Completed box being shipped out [1]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation1} xyz
+...\penalty 10000
+...\pdfdest name{page.1} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
+....\write-{}
+....\pdfdest name{Doc-Start} xyz
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 18.5475fill, direction TLT
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\glue(\baselineskip) 13.6
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fill
+.....\glue(\lineskip) 1.0
+.....\hbox(42.69485+0.0)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+......\vbox(42.69485+0.0)x307.28987, direction TLT
+.......\glue 8.0
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(20.90201+5.79285)x307.28987, glue set 45.98718fill, direction TLT
+........\glue(\leftskip) 8.0 plus 1.0fill
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Montserrat(0)/l/n/29.86 L
+........\kern-0.26874 (font)
+........\TU/Montserrat(0)/l/n/29.86 o
+........\TU/Montserrat(0)/l/n/29.86 r
+........\kern-0.41805 (font)
+........\TU/Montserrat(0)/l/n/29.86 e
+........\TU/Montserrat(0)/l/n/29.86 m
+........\glue(\spaceskip) 7.67403 plus 3.837 minus 2.55801
+........\TU/Montserrat(0)/l/n/29.86 I
+........\TU/Montserrat(0)/l/n/29.86 p
+........\discretionary (penalty 50)
+.........< \kern0.2986 (font)
+.........< \TU/Montserrat(0)/l/n/29.86 -
+........\TU/Montserrat(0)/l/n/29.86 s
+........\TU/Montserrat(0)/l/n/29.86 u
+........\TU/Montserrat(0)/l/n/29.86 m
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 8.0 plus 1.0fill
+.......\glue 8.0
+......\pdfcolorstack 0 pop
+.....\glue 10.95
+.....\glue(\lineskip) 1.0
+.....\hbox(26.24919+0.0)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(26.24919+0.0)x307.28987, direction TLT
+.......\glue 8.0
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(8.1249+2.1243)x307.28987, glue set 102.25009fill, direction TLT
+........\glue(\leftskip) 8.0 plus 1.0fill
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Montserrat(0)/m/n/10.95 A
+........\kern-0.05475 (font)
+........\TU/Montserrat(0)/m/n/10.95 s
+........\discretionary (penalty 50)
+.........< \TU/Montserrat(0)/m/n/10.95 -
+........\TU/Montserrat(0)/m/n/10.95 p
+........\kern-0.03285 (font)
+........\TU/Montserrat(0)/m/n/10.95 a
+........\discretionary (penalty 50)
+.........< \TU/Montserrat(0)/m/n/10.95 -
+........\TU/Montserrat(0)/m/n/10.95 s
+........\TU/Montserrat(0)/m/n/10.95 i
+........\TU/Montserrat(0)/m/n/10.95 u
+........\TU/Montserrat(0)/m/n/10.95 s
+........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+........\TU/Montserrat(0)/m/n/10.95 P
+........\kern-0.25185 (font)
+........\TU/Montserrat(0)/m/n/10.95 r
+........\kern-0.14235 (font)
+........\TU/Montserrat(0)/m/n/10.95 o
+........\discretionary (penalty 50)
+.........< \kern0.1095 (font)
+.........< \TU/Montserrat(0)/m/n/10.95 -
+........\TU/Montserrat(0)/m/n/10.95 t
+........\TU/Montserrat(0)/m/n/10.95 u
+........\TU/Montserrat(0)/m/n/10.95 s
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 8.0 plus 1.0fill
+.......\glue 8.0
+......\pdfcolorstack 0 pop
+.....\glue(\lineskip) 1.0
+.....\hbox(21.98401+0.0)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(21.98401+0.0)x307.28987, direction TLT
+.......\glue 8.0
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(5.936+0.048)x307.28987, glue set 81.87694fill, direction TLT
+........\glue(\leftskip) 8.0 plus 1.0fill
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Montserrat(0)/m/n/8 U
+........\TU/Montserrat(0)/m/n/8 n
+........\TU/Montserrat(0)/m/n/8 i
+........\discretionary (penalty 50)
+.........< \TU/Montserrat(0)/m/n/8 -
+........\TU/Montserrat(0)/m/n/8 v
+........\kern-0.12 (font)
+........\TU/Montserrat(0)/m/n/8 e
+........\TU/Montserrat(0)/m/n/8 r
+........\discretionary (penalty 50)
+.........< \kern-0.088 (font)
+.........< \TU/Montserrat(0)/m/n/8 -
+.........= \kern-0.016 (font)
+........\TU/Montserrat(0)/m/n/8 s
+........\TU/Montserrat(0)/m/n/8 i
+........\discretionary (penalty 50)
+.........< \TU/Montserrat(0)/m/n/8 -
+........\TU/Montserrat(0)/m/n/8 t
+........\TU/Montserrat(0)/m/n/8 a
+........\TU/Montserrat(0)/m/n/8 t
+........\kern-0.152 (font)
+........\TU/Montserrat(0)/m/n/8 e
+........\TU/Montserrat(0)/m/n/8 s
+........\glue(\spaceskip) 2.096 plus 1.048 minus 0.69867
+........\TU/Montserrat(0)/m/n/8 N
+........\TU/Montserrat(0)/m/n/8 o
+........\kern-0.12 (font)
+........\TU/Montserrat(0)/m/n/8 v
+........\TU/Montserrat(0)/m/n/8 u
+........\TU/Montserrat(0)/m/n/8 m
+........\glue(\spaceskip) 2.096 plus 1.048 minus 0.69867
+........\TU/Montserrat(0)/m/n/8 E
+........\TU/Montserrat(0)/m/n/8 b
+........\TU/Montserrat(0)/m/n/8 o
+........\discretionary (penalty 50)
+.........< \kern0.08 (font)
+.........< \TU/Montserrat(0)/m/n/8 -
+........\TU/Montserrat(0)/m/n/8 r
+........\kern-0.376 (font)
+........\TU/Montserrat(0)/m/n/8 a
+........\TU/Montserrat(0)/m/n/8 c
+........\TU/Montserrat(0)/m/n/8 u
+........\TU/Montserrat(0)/m/n/8 m
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 8.0 plus 1.0fill
+.......\glue 8.0
+......\pdfcolorstack 0 pop
+.....\glue(\lineskip) 1.0
+.....\hbox(25.32939+0.0)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(25.32939+0.0)x307.28987, direction TLT
+.......\glue 8.0
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(7.7307+1.5987)x307.28987, glue set 108.76534fill, direction TLT
+........\glue(\leftskip) 8.0 plus 1.0fill
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Montserrat(0)/m/n/10.95 J
+........\TU/Montserrat(0)/m/n/10.95 u
+........\TU/Montserrat(0)/m/n/10.95 n
+........\TU/Montserrat(0)/m/n/10.95 e
+........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+........\TU/Montserrat(0)/m/n/10.95 2
+........\kern-0.0219 (font)
+........\TU/Montserrat(0)/m/n/10.95 6
+........\kern0.1095 (font)
+........\TU/Montserrat(0)/m/n/10.95 ,
+........\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+........\TU/Montserrat(0)/m/n/10.95 2
+........\kern-0.0219 (font)
+........\TU/Montserrat(0)/m/n/10.95 0
+........\TU/Montserrat(0)/m/n/10.95 2
+........\TU/Montserrat(0)/m/n/10.95 3
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 8.0 plus 1.0fill
+.......\glue 8.0
+......\pdfcolorstack 0 pop
+.....\glue 5.47499
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fill
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\lineskip) 1.0
+.....\hbox(34.40045+0.0)x307.28987, glue set 109.84535fill, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\glue 0.0 plus 1.0fill
+......\hbox(34.40045+0.0)x87.59918, direction TLT
+.......\glue 43.79959
+.......\hbox(0.0+0.0)x0.0, shifted -17.20023, direction TLT
+........\pdfliteral origin{q }
+........\pdfliteral origin{0.34119 0.02353 0.54903 RG }
+........\pdfliteral origin{0.34119 0.02353 0.54903 rg }
+........\pdfliteral origin{0.3985 w }
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\pdfliteral origin{q }
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfliteral origin{q }
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{q }
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\glue -40.15
+............\hbox(0.0+0.0)x0.0, shifted 13.55063, direction TLT
+.............\pdfliteral origin{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral origin{q }
+.............\hbox(0.0+0.0)x0.0, direction TLT
+..............\hbox(27.10126+0.0)x80.3, direction TLT
+...............\pdfliteral origin{0.34119 0.02353 0.54903 RG }
+...............\pdfliteral origin{0.34119 0.02353 0.54903 rg }
+...............\hbox(27.10126+0.0)x80.3, direction TLT
+................\image(27.10126+0.0)x80.3
+...............\glue(\spaceskip) 0.0
+.............\pdfliteral origin{Q }
+.............\glue(\spaceskip) 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral origin{Q }
+...........\glue(\spaceskip) 0.0
+...........\pdfliteral origin{Q }
+.........\glue(\spaceskip) 0.0
+.........\glue(\spaceskip) 0.0
+.........\pdfliteral origin{Q }
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfliteral origin{n }
+........\pdfliteral origin{Q }
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fill
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\pdfcolorstack 0 pop
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1\ETC.}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+.\kern0.0
+<./nyu_short_black.pdf>
+LaTeX Font Info:    Trying to load font information for U+msa on input line ....
+LaTeX Font Info:    Trying to load font information for U+msb on input line ....
+Completed box being shipped out [2]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation2} xyz
+...\penalty 10000
+...\pdfdest name{page.2} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 29.90173fill, direction TLT
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.....\glue(\baselineskip) 8.43874
+.....\hbox(21.56126+0.0)x307.28987, glue set - 1.0, direction TLT
+......\glue 0.0 minus 28.45274
+......\hbox(21.56126+0.0)x364.19536, direction TLT
+.......\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.......\vbox(21.56126+0.0)x364.19536, direction TLT
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12354fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 87.6251fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(20.99991+9.00009)x0.0
+.........\TU/Montserrat(0)/l/n/24.88 C
+.........\TU/Montserrat(0)/l/n/24.88 r
+.........\kern-1.19424 (font)
+.........\TU/Montserrat(0)/l/n/24.88 a
+.........\TU/Montserrat(0)/l/n/24.88 s
+.........\glue(\spaceskip) 6.39417 plus 3.19708 minus 2.1314
+.........\TU/Montserrat(0)/l/n/24.88 i
+.........\TU/Montserrat(0)/l/n/24.88 m
+.........\discretionary (penalty 50)
+..........< \TU/Montserrat(0)/l/n/24.88 -
+.........\TU/Montserrat(0)/l/n/24.88 p
+.........\TU/Montserrat(0)/l/n/24.88 e
+.........\TU/Montserrat(0)/l/n/24.88 r
+.........\kern-0.34833 (font)
+.........\TU/Montserrat(0)/l/n/24.88 d
+.........\TU/Montserrat(0)/l/n/24.88 i
+.........\TU/Montserrat(0)/l/n/24.88 e
+.........\TU/Montserrat(0)/l/n/24.88 t
+.........\glue(\spaceskip) 6.39417 plus 3.19708 minus 2.1314
+.........\TU/Montserrat(0)/l/n/24.88 p
+.........\TU/Montserrat(0)/l/n/24.88 u
+.........\discretionary (penalty 50)
+..........< \TU/Montserrat(0)/l/n/24.88 -
+.........\TU/Montserrat(0)/l/n/24.88 r
+.........\TU/Montserrat(0)/l/n/24.88 u
+.........\TU/Montserrat(0)/l/n/24.88 s
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.1466
+.....\hbox(8.4534+2.1243)x307.28987, glue set 10.55219fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\TU/Montserrat(0)/m/n/10.95 F
+......\kern-0.1971 (font)
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\kern0.0 (italic)
+......\glue 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/b/n/10.95 b
+......\TU/Montserrat(0)/b/n/10.95 i
+......\TU/Montserrat(0)/b/n/10.95 b
+......\TU/Montserrat(0)/b/n/10.95 e
+......\TU/Montserrat(0)/b/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/b/n/10.95 -
+.......= \kern0.01096 (font)
+......\TU/Montserrat(0)/b/n/10.95 d
+......\TU/Montserrat(0)/b/n/10.95 u
+......\TU/Montserrat(0)/b/n/10.95 m
+......\kern0.0 (italic)
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 i
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 d
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 h
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 .
+......\glue(\spaceskip) 3.8252 plus 4.30334 minus 0.31876
+......\TU/Montserrat(0)/m/n/10.95 A
+......\kern-0.05475 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 e
+......\kern-0.16425 (font)
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.1249+2.17905)x307.28987, glue set 28.96278fil, direction TLT
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 a
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 g
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 i
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 q
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 e
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.29607
+.....\hbox(8.1249+0.05475)x307.28987, glue set 136.42424fil, direction TLT
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 c
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 .
+......\glue(\spaceskip) 3.8252 plus 4.30334 minus 0.31876
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.42036
+.....\hbox(8.1249+2.17905)x285.38988, glue set 2.84708fil, shifted 21.9, directi
+on TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.27095+0.0)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.27095+0.0)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25, direction TLT
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Montserrat(0)/m/n/10.95 L
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 m
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 p
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 m
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 o
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern0.0657 (font)
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 r
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 p
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 c
+......\discretionary (penalty 50)
+.......< \kern-0.07664 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+.......= \kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 g
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.29607
+.....\hbox(8.1249+0.05475)x285.38988, glue set 133.00418fil, shifted 21.9, direc
+tion TLT
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.36562
+.....\hbox(8.17964+2.17905)x285.38988, glue set 6.26889fil, shifted 21.9, direct
+ion TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.27095+0.0)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.27095+0.0)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25, direction TLT
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Montserrat(0)/m/n/10.95 N
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 c
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 f
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 g
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 a
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 g
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 c
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 r
+......\discretionary (penalty 50)
+.......< \kern-0.12045 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+.......= \kern-0.0219 (font)
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.24132
+.....\hbox(8.17964+2.1243)x285.38988, glue set 31.8974fil, shifted 21.9, directi
+on TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.27095+0.0)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.27095+0.0)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25, direction TLT
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Montserrat(0)/m/n/10.95 V
+......\kern-0.60225 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 m
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 c
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 c
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 q
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+......\TU/Montserrat(0)/m/n/10.95 f
+......\kern-0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 c
+......\TU/Montserrat(0)/m/n/10.95 u
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 v
+......\TU/Montserrat(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 4.45676
+.....\hbox(7.01895+2.1243)x285.38988, glue set 98.97162fil, shifted 21.9, direct
+ion TLT
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 e
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 q
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 c
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\pdfcolorstack 0 pop
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.1249+2.1243)x307.28987, glue set 34.97432fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\TU/Montserrat(0)/m/n/10.95 M
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 l
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/it/10.95 m
+......\TU/Montserrat(0)/m/it/10.95 a
+......\TU/Montserrat(0)/m/it/10.95 x
+......\discretionary (penalty 50)
+.......< \kern-0.2409 (font)
+.......< \TU/Montserrat(0)/m/it/10.95 -
+......\TU/Montserrat(0)/m/it/10.95 i
+......\TU/Montserrat(0)/m/it/10.95 m
+......\TU/Montserrat(0)/m/it/10.95 u
+......\TU/Montserrat(0)/m/it/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 x
+......\discretionary (penalty 50)
+.......< \kern-0.2409 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 c
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 v
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.1249+2.17905)x307.28987, glue set - 0.03798, direction TLT
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 c
+......\discretionary (penalty 50)
+.......< \kern-0.07664 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 j
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\kern-0.16425 (font)
+......\TU/Montserrat(0)/m/n/10.95 .
+......\glue(\spaceskip) 3.8252 plus 4.30334 minus 0.31876
+......\TU/Montserrat(0)/m/n/10.95 P
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 q
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 e
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 o
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.29607
+.....\hbox(8.1249+0.05475)x307.28987, glue set 129.99841fil, direction TLT
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{2\ETC.}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+Completed box being shipped out [3]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation3} xyz
+...\penalty 10000
+...\pdfdest name{page.3} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 26.65201fill, direction TLT
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.....\glue(\baselineskip) 8.43874
+.....\hbox(21.56126+0.0)x307.28987, glue set - 1.0, direction TLT
+......\glue 0.0 minus 28.45274
+......\hbox(21.56126+0.0)x364.19536, direction TLT
+.......\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.......\vbox(21.56126+0.0)x364.19536, direction TLT
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12354fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 164.33015fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(20.99991+9.00009)x0.0
+.........\TU/Montserrat(0)/l/n/24.88 D
+.........\TU/Montserrat(0)/l/n/24.88 u
+.........\TU/Montserrat(0)/l/n/24.88 i
+.........\TU/Montserrat(0)/l/n/24.88 s
+.........\glue(\spaceskip) 6.39417 plus 3.19708 minus 2.1314
+.........\TU/Montserrat(0)/l/n/24.88 v
+.........\TU/Montserrat(0)/l/n/24.88 i
+.........\discretionary (penalty 50)
+..........< \TU/Montserrat(0)/l/n/24.88 -
+.........\TU/Montserrat(0)/l/n/24.88 t
+.........\TU/Montserrat(0)/l/n/24.88 a
+.........\TU/Montserrat(0)/l/n/24.88 e
+.........\glue(\spaceskip) 6.39417 plus 3.19708 minus 2.1314
+.........\TU/Montserrat(0)/l/n/24.88 a
+.........\TU/Montserrat(0)/l/n/24.88 n
+.........\TU/Montserrat(0)/l/n/24.88 t
+.........\kern-0.47272 (font)
+.........\TU/Montserrat(0)/l/n/24.88 e
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.42036
+.....\hbox(8.17964+2.17905)x307.28987, glue set 18.24277fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\TU/Montserrat(0)/m/n/10.95 S
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 d
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 v
+......\kern-0.16425 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 m
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 a
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 a
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\discretionary (penalty 50)
+.......< \kern-0.12045 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+.......= \kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 f
+......\kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 g
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.29607
+.....\hbox(8.1249+2.17905)x307.28987, glue set 109.1916fil, direction TLT
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 g
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 .
+......\glue(\spaceskip) 3.8252 plus 4.30334 minus 0.31876
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.29607
+.....\hbox(8.1249+2.1243)x285.38988, glue set 4.79611fil, shifted 21.9, directio
+n TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.665+0.05475)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.665+0.05475)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.665+0.05475)x0.0, glue set - 6.27434fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/Montserrat(0)/m/n/10.95 1
+.........\TU/Montserrat(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Montserrat(0)/m/n/10.95 V
+......\kern-0.1971 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 v
+......\kern-0.1752 (font)
+......\TU/Montserrat(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 c
+......\discretionary (penalty 50)
+.......< \kern-0.07664 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 i
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.1249+0.05475)x285.38988, glue set 120.83327fil, shifted 21.9, direc
+tion TLT
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\discretionary (penalty 50)
+.......< \kern-0.12045 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+.......= \kern0.16425 (font)
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.36562
+.....\hbox(8.17964+2.1243)x285.38988, glue set 21.33064fil, shifted 21.9, direct
+ion TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.7307+0.05475)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.7307+0.05475)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.7307+0.05475)x0.0, glue set - 8.6505fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/Montserrat(0)/m/n/10.95 2
+.........\kern0.1095 (font)
+.........\TU/Montserrat(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Montserrat(0)/m/n/10.95 P
+......\TU/Montserrat(0)/m/n/10.95 h
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 v
+......\kern-0.16425 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 i
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 v
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 v
+......\kern-0.16425 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.51465 (font)
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 o
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 ,
+......\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+......\TU/Montserrat(0)/m/n/10.95 ﬁ (ligature fi)
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 5.67221
+.....\hbox(5.8035+2.17905)x285.38988, glue set 121.80235fil, shifted 21.9, direc
+tion TLT
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 g
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.29607
+.....\hbox(8.1249+2.1243)x285.38988, glue set 21.03506fil, shifted 21.9, directi
+on TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.665+0.0657)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.665+0.0657)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.665+0.0657)x0.0, glue set - 8.4972fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/Montserrat(0)/m/n/10.95 3
+.........\TU/Montserrat(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Montserrat(0)/m/n/10.95 A
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 q
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 m
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 c
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 a
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 c
+......\discretionary (penalty 50)
+.......< \kern-0.07664 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+.......= \kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.51465 (font)
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 v
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 v
+......\kern-0.16425 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.51465 (font)
+......\TU/Montserrat(0)/m/n/10.95 a
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.1249+2.17905)x285.38988, glue set 95.51688fil, shifted 21.9, direct
+ion TLT
+......\TU/Montserrat(0)/m/n/10.95 v
+......\TU/Montserrat(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 e
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 g
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 p
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.24132
+.....\hbox(8.17964+2.1243)x285.38988, glue set 26.48807fil, shifted 21.9, direct
+ion TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.665+0.05475)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.665+0.05475)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.665+0.05475)x0.0, glue set - 9.77834fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/Montserrat(0)/m/n/10.95 4
+.........\kern0.219 (font)
+.........\TU/Montserrat(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Montserrat(0)/m/n/10.95 P
+......\kern-0.25185 (font)
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 n
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 f
+......\kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 h
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 s
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 d
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 q
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.1249+2.1243)x285.38988, glue set 20.79408fil, shifted 21.9, directi
+on TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.665+0.0657)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.665+0.0657)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.665+0.0657)x0.0, glue set - 8.51909fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/Montserrat(0)/m/n/10.95 5
+.........\TU/Montserrat(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Montserrat(0)/m/n/10.95 P
+......\TU/Montserrat(0)/m/n/10.95 h
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 v
+......\kern-0.16425 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 l
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 o
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 c
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 o
+......\discretionary (penalty 50)
+.......< \kern0.1095 (font)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 r
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 m
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern0.1095 (font)
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\pdfcolorstack 0 pop
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.1249+2.17905)x307.28987, glue set 0.37233fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\TU/Montserrat(0)/m/n/10.95 V
+......\kern-0.60225 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 t
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 b
+......\TU/Montserrat(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 m
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 h
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 d
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.14235 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 r
+......\kern-0.0876 (font)
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 j
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 i
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 a
+......\TU/Montserrat(0)/m/n/10.95 m
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 t
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 l
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 o
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 c
+......\kern-0.09856 (font)
+......\TU/Montserrat(0)/m/n/10.95 o
+......\TU/Montserrat(0)/m/n/10.95 n
+......\TU/Montserrat(0)/m/n/10.95 g
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 e
+......\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+......\TU/Montserrat(0)/m/n/10.95 t
+......\kern-0.20805 (font)
+......\TU/Montserrat(0)/m/n/10.95 e
+......\TU/Montserrat(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Montserrat(0)/m/n/10.95 -
+......\TU/Montserrat(0)/m/n/10.95 p
+......\TU/Montserrat(0)/m/n/10.95 u
+......\TU/Montserrat(0)/m/n/10.95 s
+......\TU/Montserrat(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{3\ETC.}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+Completed box being shipped out [4]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation4} xyz
+...\penalty 10000
+...\pdfdest name{page.4} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 31.14706fill, direction TLT
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.....\glue(\baselineskip) 8.43874
+.....\hbox(21.56126+0.0)x307.28987, glue set - 1.0, direction TLT
+......\glue 0.0 minus 28.45274
+......\hbox(21.56126+0.0)x364.19536, direction TLT
+.......\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.......\vbox(21.56126+0.0)x364.19536, direction TLT
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12354fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 137.85782fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(20.99991+9.00009)x0.0
+.........\TU/Montserrat(0)/l/n/24.88 P
+.........\TU/Montserrat(0)/l/n/24.88 h
+.........\TU/Montserrat(0)/l/n/24.88 a
+.........\TU/Montserrat(0)/l/n/24.88 s
+.........\TU/Montserrat(0)/l/n/24.88 e
+.........\TU/Montserrat(0)/l/n/24.88 l
+.........\discretionary (penalty 50)
+..........< \TU/Montserrat(0)/l/n/24.88 -
+.........\TU/Montserrat(0)/l/n/24.88 l
+.........\TU/Montserrat(0)/l/n/24.88 u
+.........\TU/Montserrat(0)/l/n/24.88 s
+.........\glue(\spaceskip) 6.39417 plus 3.19708 minus 2.1314
+.........\TU/Montserrat(0)/l/n/24.88 e
+.........\TU/Montserrat(0)/l/n/24.88 u
+.........\glue(\spaceskip) 6.39417 plus 3.19708 minus 2.1314
+.........\TU/Montserrat(0)/l/n/24.88 f
+.........\kern-0.22392 (font)
+.........\TU/Montserrat(0)/l/n/24.88 e
+.........\discretionary (penalty 50)
+..........< \kern0.2488 (font)
+..........< \TU/Montserrat(0)/l/n/24.88 -
+.........\TU/Montserrat(0)/l/n/24.88 l
+.........\TU/Montserrat(0)/l/n/24.88 i
+.........\TU/Montserrat(0)/l/n/24.88 s
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\lineskip) 1.0
+.....\hbox(17.96156+0.0)x307.28987, direction TLT
+......\glue -4.31155
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\hbox(17.96156+0.0)x0.0, glue set - 315.91296fil, direction TLT
+.......\rule(17.96156+0.0)x315.91298
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(17.96156+0.0)x315.91298, direction TLT
+.......\kern0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31155
+.......\hbox(17.96156+0.0)x307.28987, direction TLT
+........\pdfcolorstack 0 push {0.94902 0.94902 0.94902 rg 0.94902 0.94902 0.94902 RG}
+........\vbox(17.96156+0.0)x307.28987, direction TLT
+.........\glue 4.31155
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(8.904+0.048)x307.28987, glue set 126.68094fil, direction TLT
+..........\localpar
+...........\localinterlinepenalty=0
+...........\localbrokenpenalty=0
+...........\localleftbox=null
+...........\localrightbox=null
+..........\hbox(0.0+0.0)x0.0, direction TLT
+..........\TU/Montserrat(0)/l/n/12 T
+..........\TU/Montserrat(0)/l/n/12 h
+..........\TU/Montserrat(0)/l/n/12 e
+..........\discretionary (penalty 50)
+...........< \kern0.12 (font)
+...........< \TU/Montserrat(0)/l/n/12 -
+..........\TU/Montserrat(0)/l/n/12 o
+..........\discretionary (penalty 50)
+...........< \kern0.12 (font)
+...........< \TU/Montserrat(0)/l/n/12 -
+..........\TU/Montserrat(0)/l/n/12 r
+..........\kern-0.168 (font)
+..........\TU/Montserrat(0)/l/n/12 e
+..........\TU/Montserrat(0)/l/n/12 m
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.698
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31155
+.......\kern0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31155
+.....\glue -0.5
+.....\hbox(20.03586+0.0)x307.28987, direction TLT
+......\glue -4.31155
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
+......\hbox(20.03586+0.0)x0.0, glue set - 315.91296fil, direction TLT
+.......\rule(20.03586+0.0)x315.91298
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(20.03586+0.0)x315.91298, direction TLT
+.......\kern0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31155
+.......\hbox(20.03586+0.0)x307.28987, direction TLT
+........\pdfcolorstack 0 push {0 0 0 rg 0 0 0 RG}
+........\vbox(20.03586+0.0)x307.28987, direction TLT
+.........\glue 4.31155
+.........\glue -4.31155
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 5.47511
+.........\hbox(8.1249+2.1243)x307.28987, glue set 11.14711fil, direction TLT
+..........\localpar
+...........\localinterlinepenalty=0
+...........\localbrokenpenalty=0
+...........\localleftbox=null
+...........\localrightbox=null
+..........\hbox(0.0+0.0)x0.0, direction TLT
+..........\TU/Montserrat(0)/m/n/10.95 S
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 s
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 p
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 d
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 s
+..........\TU/Montserrat(0)/m/n/10.95 s
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 o
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 b
+..........\TU/Montserrat(0)/m/n/10.95 h
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 v
+..........\kern-0.16425 (font)
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 p
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\kern-0.20805 (font)
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 s
+..........\TU/Montserrat(0)/m/n/10.95 q
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 p
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 v
+..........\discretionary (penalty 50)
+...........< \kern-0.1314 (font)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\kern-0.1095 (font)
+..........\TU/Montserrat(0)/m/n/10.95 .
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.31155
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31155
+.......\kern0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31155
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\lineskip) 1.0
+.....\hbox(20.24156+0.0)x307.28987, direction TLT
+......\glue -4.31155
+......\pdfcolorstack 0 push {0.48235 0.35294 0.65099 rg 0.48235 0.35294 0.65099 RG}
+......\pdfcolorstack 0 push {0.48235 0.35294 0.65099 rg 0.48235 0.35294 0.65099 RG}
+......\hbox(20.24156+0.0)x0.0, glue set - 315.91296fil, direction TLT
+.......\rule(20.24156+0.0)x315.91298
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(20.24156+0.0)x315.91298, direction TLT
+.......\kern0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31155
+.......\hbox(20.24156+0.0)x307.28987, direction TLT
+........\pdfcolorstack 0 push {0.94902 0.94902 0.94902 rg 0.94902 0.94902 0.94902 RG}
+........\vbox(20.24156+0.0)x307.28987, direction TLT
+.........\glue 4.31155
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(8.904+2.328)x307.28987, glue set 127.59892fil, direction TLT
+..........\localpar
+...........\localinterlinepenalty=0
+...........\localbrokenpenalty=0
+...........\localleftbox=null
+...........\localrightbox=null
+..........\hbox(0.0+0.0)x0.0, direction TLT
+..........\TU/Montserrat(0)/l/n/12 E
+..........\kern-0.204 (font)
+..........\TU/Montserrat(0)/l/n/12 x
+..........\discretionary (penalty 50)
+...........< \kern-0.252 (font)
+...........< \TU/Montserrat(0)/l/n/12 -
+...........= \kern-0.12 (font)
+..........\TU/Montserrat(0)/l/n/12 a
+..........\TU/Montserrat(0)/l/n/12 m
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/l/n/12 -
+..........\TU/Montserrat(0)/l/n/12 p
+..........\TU/Montserrat(0)/l/n/12 l
+..........\TU/Montserrat(0)/l/n/12 e
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.698
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31155
+.......\kern0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31155
+.....\glue -0.5
+.....\hbox(20.0906+0.0)x307.28987, direction TLT
+......\glue -4.31155
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
+......\hbox(20.0906+0.0)x0.0, glue set - 315.91296fil, direction TLT
+.......\rule(20.0906+0.0)x315.91298
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(20.0906+0.0)x315.91298, direction TLT
+.......\kern0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31155
+.......\hbox(20.0906+0.0)x307.28987, direction TLT
+........\pdfcolorstack 0 push {0 0 0 rg 0 0 0 RG}
+........\vbox(20.0906+0.0)x307.28987, direction TLT
+.........\glue 4.31155
+.........\glue -4.31155
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 5.47511
+.........\hbox(8.1249+2.17905)x307.28987, glue set - 0.26334, direction TLT
+..........\localpar
+...........\localinterlinepenalty=0
+...........\localbrokenpenalty=0
+...........\localleftbox=null
+...........\localrightbox=null
+..........\hbox(0.0+0.0)x0.0, direction TLT
+..........\TU/Montserrat(0)/m/n/10.95 P
+..........\kern-0.25185 (font)
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\kern-0.14235 (font)
+..........\TU/Montserrat(0)/m/n/10.95 o
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\kern-0.0876 (font)
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 g
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 c
+..........\kern-0.09856 (font)
+..........\TU/Montserrat(0)/m/n/10.95 o
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 s
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 c
+..........\kern0.0657 (font)
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\kern-0.20805 (font)
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\discretionary (penalty 50)
+...........< \kern0.1095 (font)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 p
+..........\TU/Montserrat(0)/m/n/10.95 o
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\kern0.16425 (font)
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\discretionary (penalty 50)
+...........< \kern-0.1095 (font)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+...........= \kern-0.1533 (font)
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\kern-0.20805 (font)
+..........\TU/Montserrat(0)/m/n/10.95 o
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 v
+..........\kern-0.16425 (font)
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 b
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\kern-0.14235 (font)
+..........\TU/Montserrat(0)/m/n/10.95 o
+..........\kern-0.16425 (font)
+..........\TU/Montserrat(0)/m/n/10.95 .
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.31155
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31155
+.......\kern0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31155
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\lineskip) 1.0
+.....\hbox(20.14555+0.0)x307.28987, direction TLT
+......\glue -4.31155
+......\pdfcolorstack 0 push {0.98431 0.05882 0.4706 rg 0.98431 0.05882 0.4706 RG}
+......\pdfcolorstack 0 push {0.98431 0.05882 0.4706 rg 0.98431 0.05882 0.4706 RG}
+......\hbox(20.14555+0.0)x0.0, glue set - 315.91296fil, direction TLT
+.......\rule(20.14555+0.0)x315.91298
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(20.14555+0.0)x315.91298, direction TLT
+.......\kern0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31155
+.......\hbox(20.14555+0.0)x307.28987, direction TLT
+........\pdfcolorstack 0 push {0.99843 0.90588 0.94707 rg 0.99843 0.90588 0.94707 RG}
+........\vbox(20.14555+0.0)x307.28987, direction TLT
+.........\glue 4.31155
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(8.76+2.376)x307.28987, glue set 127.84494fil, direction TLT
+..........\localpar
+...........\localinterlinepenalty=0
+...........\localbrokenpenalty=0
+...........\localleftbox=null
+...........\localrightbox=null
+..........\hbox(0.0+0.0)x0.0, direction TLT
+..........\TU/Montserrat(0)/l/n/12 W
+..........\kern-0.66 (font)
+..........\TU/Montserrat(0)/l/n/12 a
+..........\TU/Montserrat(0)/l/n/12 r
+..........\kern-0.108 (font)
+..........\TU/Montserrat(0)/l/n/12 n
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/l/n/12 -
+..........\TU/Montserrat(0)/l/n/12 i
+..........\TU/Montserrat(0)/l/n/12 n
+..........\TU/Montserrat(0)/l/n/12 g
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.698
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31155
+.......\kern0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31155
+.....\glue -0.5
+.....\hbox(31.56631+0.0)x307.28987, direction TLT
+......\glue -4.31155
+......\pdfcolorstack 0 push {0.99608 0.76471 0.86765 rg 0.99608 0.76471 0.86765 RG}
+......\pdfcolorstack 0 push {0.99608 0.76471 0.86765 rg 0.99608 0.76471 0.86765 RG}
+......\hbox(31.56631+0.0)x0.0, glue set - 315.91296fil, direction TLT
+.......\rule(31.56631+0.0)x315.91298
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(31.56631+0.0)x315.91298, direction TLT
+.......\kern0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31155
+.......\hbox(31.56631+0.0)x307.28987, direction TLT
+........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+........\vbox(31.56631+0.0)x307.28987, direction TLT
+.........\glue 4.31155
+.........\glue -4.31155
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 5.42036
+.........\hbox(8.17964+1.5987)x307.28987, glue set 24.91132fil, direction TLT
+..........\localpar
+...........\localinterlinepenalty=0
+...........\localbrokenpenalty=0
+...........\localleftbox=null
+...........\localrightbox=null
+..........\hbox(0.0+0.0)x0.0, direction TLT
+..........\TU/Montserrat(0)/m/n/10.95 P
+..........\kern-0.25185 (font)
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\kern-0.14235 (font)
+..........\TU/Montserrat(0)/m/n/10.95 o
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 f
+..........\kern-0.09856 (font)
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 d
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 s
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 e
+..........\TU/Montserrat(0)/m/n/10.95 c
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\kern-0.0876 (font)
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 c
+..........\discretionary (penalty 50)
+...........< \kern-0.07664 (font)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+...........= \kern0.0657 (font)
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 s
+..........\TU/Montserrat(0)/m/n/10.95 ,
+..........\glue(\spaceskip) 2.8689 plus 1.79306 minus 0.76503
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\discretionary (penalty 50)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+..........\TU/Montserrat(0)/m/n/10.95 c
+..........\kern-0.0876 (font)
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 d
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 t
+..........\glue(\spaceskip) 2.8689 plus 1.43445 minus 0.9563
+..........\TU/Montserrat(0)/m/n/10.95 n
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\TU/Montserrat(0)/m/n/10.95 l
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\penalty 300
+.........\glue(\baselineskip) 3.87642
+.........\hbox(8.1249+0.05475)x307.28987, glue set 136.38774fil, direction TLT
+..........\TU/Montserrat(0)/m/n/10.95 v
+..........\kern-0.1752 (font)
+..........\TU/Montserrat(0)/m/n/10.95 a
+..........\TU/Montserrat(0)/m/n/10.95 r
+..........\discretionary (penalty 50)
+...........< \kern-0.12045 (font)
+...........< \TU/Montserrat(0)/m/n/10.95 -
+...........= \kern-0.0876 (font)
+..........\TU/Montserrat(0)/m/n/10.95 i
+..........\TU/Montserrat(0)/m/n/10.95 u
+..........\TU/Montserrat(0)/m/n/10.95 s
+..........\TU/Montserrat(0)/m/n/10.95 .
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.31155
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31155
+.......\kern0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31155
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{4\ETC.}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+\tf@nav=\write...
+\tf@toc=\write...
+\tf@snm=\write...
+(beamerthemeNYU22-002.aux)
+Package rerunfilecheck Warning: File `beamerthemeNYU22-002.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+Package rerunfilecheck Info: Checksums for `beamerthemeNYU22-002.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
