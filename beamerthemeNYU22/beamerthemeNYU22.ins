@@ -30,10 +30,24 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. This
-work consists of the file beamerthemeNYU22.ins,
+work consists of the files beamerthemeNYU22.dtx, beamerthemeNYU22.ins,
 and the derived files           beamerthemeNYU22.sty,
+                                beamerthemeNYU22-contemporary-subtle.sty,
+                                beamerthemeNYU22-contemporary-bold.sty,
+                                beamerthemeNYU22-traditional-subtle.sty,
+                                beamerthemeNYU22-traditional-bold.sty,
                                 beamerthemeNYU22.pdf,
                             and beamerthemeNYU22-code.pdf.
 \endpostamble
-\generate{\file{\jobname.sty}{\from{\jobname.dtx}{pkg}}}
+\generate{
+% \file{\jobname.sty}{\from{\jobname.dtx}{pkg}}
+  \file{\jobname-contemporary-subtle.sty}
+    {\from{\jobname.dtx}{pkg,contemporary,subtle}}
+  \file{\jobname-contemporary-bold.sty}
+    {\from{\jobname.dtx}{pkg,contemporary,bold}}
+  \file{\jobname-traditional-subtle.sty}
+    {\from{\jobname.dtx}{pkg,traditional,subtle}}
+  \file{\jobname-traditional-bold.sty}
+    {\from{\jobname.dtx}{pkg,traditional,bold}}
+}
 \endbatchfile

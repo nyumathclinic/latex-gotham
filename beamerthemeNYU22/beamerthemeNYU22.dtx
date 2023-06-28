@@ -8,26 +8,39 @@
   [2023/05/29 v0.7a A beamer theme for the 2022 NYU brand]
 %</pkg>
 %<*driver>
-\documentclass{ltxdoc}
-\EnableCrossrefs
-\CodelineIndex
-\usepackage{titlesec}
-\usepackage{titling}
-\usepackage{fontspec}
-% Specify different font for section headings
-\newfontfamily\headingfont[]{Gotham}
-\titleformat*{\section}{\Large\headingfont}
-\titleformat*{\subsection}{\large\headingfont}
-\titleformat*{\subsubsection}{\headingfont}
-\renewcommand{\maketitlehooka}{\headingfont}
-\setmainfont{Frank Ruhl Libre}
-\setsansfont{Gotham Book}
-\setmonofont{Inconsolata}
-\usepackage{graphicx}
-\usepackage{changepage}
+\documentclass[11pt]{ltxdoc}
+\usepackage[letterpaper]{geometry}
+\usepackage{changepage}^^A      For the `adjustwidth' environment
+\usepackage{hologo}
+    
+\usepackage[backend=biber]{biblatex}
+\addbibresource{main.bib}
+\addbibresource{beamerthemeNYU22.bib}
 
-\newcommand{\env}[1]{\texttt{#1}}
-\usepackage{hyperref}
+
+\usepackage[
+    Gotham, Frank Ruhl Libre,
+    tone=traditional-subtle]{nyu22fonts}
+\linespread{1.041667}
+\setmonofont{Inconsolata}
+\usepackage{parskip}
+
+\usepackage[title/color=NyuViolet]{xcolor-nyu22}
+
+\setcounter{secnumdepth}{2}
+
+
+\usepackage{dtxdescribe}
+\colorlet{\watchoutcolor}{Magenta}
+
+\DisableCrossrefs
+\CodelineIndex
+\RecordChanges
+\AtBeginDocument{
+  \hypersetup{
+    allcolors=NyuViolet,
+  }
+}
 \begin{document}
   \DocInput{beamerthemeNYU22.dtx}
 \end{document}
@@ -41,18 +54,23 @@
 % \maketitle
 %
 % \begin{abstract}
-% This is the documentation of the \texttt{NYU22} theme for the beamer package.
+% This is the documentation of the \texttt{NYU22} themes for the beamer package.
 % \end{abstract}
 %
 % \changes{v0.2}{2019/12/10}{First working release}
 %
 % \section{Introduction}
+% \begin{refsection}
 %
-% This beamer theme is designed to align with the 2022 edition of the NYU brand identity,
-% including fonts and colors
+% This beamer theme is designed to align with the 2022 edition of the NYU brand
+% identity, including fonts~\cite{nyu-fonts} and colors~\cite{nyu-colors}.
+%
+% \printbibliography[heading=subbibliography]
+% \end{refsection}
 %
 %
 % \section{Implementation}
+% \begin{refsection}
 %
 %    \begin{macrocode}
 %<*pkg>
@@ -135,175 +153,57 @@
 %    \begin{macrocode}
 \RequirePackage{xcolor-nyu22}
 %    \end{macrocode}
+% Themes only affect presentation mode.
+%    \begin{macrocode}
+\mode<presentation>
+%    \end{macrocode}
 %
 % Set the palette, structure, example, and alert (warning colors).
 % \changes{v0.6.1}{2020/09/22}{Added two more alert colors for success (green) and information (orange).}
 %
-%     \begin{macrocode}
-\mode<presentation>
-\setbeamertemplate{headline}[default]
-
-% Palette colors do not have backgrounds
-\setbeamercolor{palette primary}{fg=nyupurple1}
-\setbeamercolor{palette secondary}{fg=nyupurple2}
-\setbeamercolor{palette tertiary}{fg=nyudarkblue}
-\setbeamercolor{palette quartenary}{fg=nyulightblue}
-
-
-\setbeamercolor*{structure}{fg=nyupurple}
-\setbeamercolor*{example text}{fg=nyudarkblue}
-\setbeamercolor{alert warning}{fg=nyured}
-\setbeamercolor{alert information}{fg=nyuorange}
-\setbeamercolor{alert success}{fg=nyugreen}
-\setbeamercolor*{alerted text}{parent=alert warning}
-
-\setbeamercolor{titlelike}{fg=black}
-
-\setbeamercolor{block title}{fg=nyupurple!10!white,bg=nyupurple}
-\setbeamercolor{block title alerted}{use=alerted text,fg=alerted text.fg!10,bg=alerted text.fg}
-\setbeamercolor{block title example}{use=example text,fg=white,bg=nyudarkblue}
-
-\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.fg}
-\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
-\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=nyugray4}
-\setbeamercolor{block body solution}{parent=normal text,use=block title,bg=block title.fg}
-
-  
-% not using a sidebar yet so I don't know what to do with these
-\setbeamercolor{sidebar}{bg=nyupurple}
-\setbeamercolor{palette sidebar primary}{fg=white,bg=nyupurple}
-\setbeamercolor{palette sidebar secondary}{fg=white,bg=nyupurple2}
-\setbeamercolor{palette sidebar tertiary}{fg=white,bg=nyudarkblue}
-\setbeamercolor{palette sidebar quaternary}{fg=white,bg=nyulightblue}
-
-\setbeamercolor*{separation line}{}
-\setbeamercolor*{fine separation line}{}
-
-% Links get colored from the palette too
+% According to \cite{nyu-colors}, body text should be dark gray on white
+% be less contrasting.
+%    \begin{macrocode}
+\setbeamercolor*{normal text}{fg=DarkGray}
+%    \end{macrocode}
+%
+% According the \cite{texdoc-beamer}, the most important color. 
+%    \begin{macrocode}
+\setbeamercolor{structure}{fg=NyuViolet}
+%    \end{macrocode}
+%
+% Links get colored from the palette too.
+%    \begin{macrocode}
 \AtBeginDocument{
     \hypersetup{colorlinks=true}
     \usebeamercolor{palette primary}
-    \hypersetup{linkcolor=fg}
-    \usebeamercolor{palette secondary}
-    \hypersetup{filecolor=fg,urlcolor=fg}
-    \usebeamercolor{palette quaternary}
-    \hypersetup{citecolor=fg}
+    \hypersetup{allcolors=fg}
 }
 %    \end{macrocode}
+
+% 
+% \subsubsection{Contemporary/subtle color theme}
 %
-% We set up some new blocks to mimic the alert ``warning'' blocks.
-%
+% I decided against having separate color and font themes for each tone 
+% quadrant. Because there is no good reason to use the color theme from one 
+% quadrant and the font theme from another.
+
+% Can't actually figure out what these should be. Not too many 
+% themes use them. 
 %    \begin{macrocode}
-\mode
-<all>  
+%<*contemporary&subtle>
+\setbeamercolor{palette primary}{fg=NyuViolet}
+\setbeamercolor{palette secondary}{fg=MediumViolet2}
+\setbeamercolor{palette tertiary}{fg=LightViolet1}
+\setbeamercolor{palette quaternary}{fg=Black}
 %    \end{macrocode}
-%
-%
-% \begin{environment}{infoblock}
-% A block for alert with the ``information'' color.
-% \changes{v0.6.1}{2020/09/22}{Added this environment}
-%    \begin{macrocode}
-\newenvironment<>{infoblock}[1]{%
-    \setbeamercolor{alerted text}{parent=alert information}%
-    \begin{alertblock}#2{#1}}%
-{%
-    \end{alertblock}}
-%    \end{macrocode}
-% \end{environment}
-%
-%
-% \begin{macro}{\info}
-% Action to highlight with the alert information color
-%    \begin{macrocode}
-\newenvironment<>{infoenv}{\usebeamerfont{alert information}\usebeamercolor[fg]{alert information}}{}
-\newcommand<>{\info}[1]{{\alt#2{\usebeamercolor[fg]{alert information}#1}{#1}}}
-%    \end{macrocode}
-% \end{macro}
-%
-% \begin{environment}{successblock}
-% A block for alert with the ``success'' color.
-% \changes{v0.6.1}{2020/09/22}{Added this environment}
-%    \begin{macrocode}
-\newenvironment<>{successblock}[1]{%
-    \setbeamercolor{alerted text}{parent=alert success}%
-    \begin{alertblock}#2{#1}}%
-{%
-    \end{alertblock}}
-%    \end{macrocode}
-% \end{environment}
-%
-% \begin{macro}{succes}
-% Action to highlight with the alert success color
-%    \begin{macrocode}
-\newenvironment<>{successenv}{\usebeamerfont{alert success}\usebeamercolor[fg]{alert success}}{}
-\newcommand<>{\succes}[1]{{\alt#2{\usebeamercolor[fg]{alert success}#1}{#1}}}
-%    \end{macrocode}
-% \end{macro}
-%
-%
-% \subsection{Fonts}
 % 
 %    \begin{macrocode}
-\ifhoefler
-  \RequirePackage[no-math]{fontspec}
-% This snippet fixes a "You can't use a prefix with '\begingroup'" error that was coming from
-% the fontspec package.  
-% Thanks to Philippe Goutet.  See \url{http://tex.stackexchange.com/q/5996/1402}.
-  \def\alloc@#1#2#3#4#5%
-  {\ifnum\count1#1<#4% make sure there's still room
-      \allocationnumber\count1#1
-      \global\advance\count1#1\@ne
-      \global#3#5\allocationnumber
-      \wlog{\string#5=\string#2\the\allocationnumber}%
-    \else\ifnum#1<6
-      \def\etex@dummy@definition{}% <-- code added
-      \begingroup \escapechar\m@ne
-      \expandafter\alloc@@\expandafter{\string#2}#5%
-    \else\errmessage{No room for a new #2}\fi\fi
-  }
-
-  \RequirePackage{xltxtra}
-  \defaultfontfeatures{Mapping=tex-text}
-  \setmainfont[BoldFont=Gotham Bold]{Gotham Book}
-  \setmathrm{Cambria Math}
-  \setsansfont[BoldFont=Gotham Bold]{Gotham Book}
-\else
-    \let\emptyset\relax
-    \RequirePackage{arev}
-    \let\titlefont\sffamily
-\fi
-%    \end{macrocode}
-%
-% Neither Gotham nor Arev come with small caps.  So we “fake” it.
-% See \url{https://tex.stackexchange.com/a/55733/1402}
-%    \begin{macrocode}
-\def\fakesc#1{%
-  \begingroup%
-  \xdef\fake@name{\csname\curr@fontshape/\f@size\endcsname}%
-  \fontsize{\fontdimen8\fake@name}{\baselineskip}\selectfont%
-  \MakeUppercase{#1}%
-  \endgroup%
-}
-\let\textsc\fakesc
-%    \end{macrocode}
-
-%
-%    \begin{macrocode}
-\usefonttheme[onlylarge]{structurebold}
-\setbeamerfont{frametitle}{size=\Huge}
-\setbeamerfont{framesubtitle}{size=\Large}
-\setbeamerfont{title}{size=\Huge}
-\setbeamerfont{block title}{series=\bfseries}
-%    \end{macrocode}
-%
-%    \begin{macrocode}
-\usepackage{xcolor-nyu22}
-\setbeamercolor*{structure}{fg=NyuViolet}
-\setbeamercolor*{example text}{fg=MediumViolet2}
-\setbeamercolor{alert warning}{fg=Magenta}
-\setbeamercolor*{alerted text}{parent=alert warning}
-
 \setbeamercolor{titlelike}{fg=UltraViolet}
+
+\setbeamercolor*{example text}{fg=MediumViolet2}
+\setbeamercolor*{alerted text}{fg=Magenta}
+
 
 \setbeamercolor{block title}{fg=LightGray,bg=NyuViolet}
 \setbeamercolor{block title alerted}{use=alerted text,fg=alerted text.fg!10,bg=alerted text.fg}
@@ -314,28 +214,61 @@
 \setbeamercolor{block body example}{parent=normal text,fg=Black,bg=LightViolet1}
 \setbeamercolor{block body solution}{parent=normal text,fg=Black,bg=LightViolet1}
 
-\setbeamerfont{frametitle}{series=\mdseries}
-\setbeamerfont{block title}{series=\mdseries,size=\Large}
-\setbeamerfont{quote}{family=\rmfamily}
-\setbeamerfont{quotation}{family=\rmfamily}
-
-\setbeamercolor{alert warning}{fg=Magenta}
-\setbeamercolor{alert information}{fg=NyuViolet}
-\setbeamercolor{alert success}{fg=UltraViolet}
-
-
-
-\usepackage[no-math]{fontspec}
-\setmainfont{Frank Ruhl Libre}[
-    ItalicFont=*,
-    ItalicFeatures={FakeSlant}
-]
+\setbeamercolor{titlelike}{fg=UltraViolet}
+\setbeamercolor*{separation line}{fg=UltraViolet}
+\setbeamercolor*{fine separation line}{fg=UltraViolet}
+%</contemporary&subtle>
 %    \end{macrocode}
 %
 %
+% \subsection{Fonts}
+% 
+% Beamer themes don't load fonts. We recommend the user load the 
+% \pkg{nyu22fonts} package to set sans and roman fonts to something aligned
+% with the brand.
+%
+% Add the |\HUGE| font size
+%    \begin{macrocode}
+\RequirePackage{moresize}
+%    \end{macrocode}
+%
+% Embolden the |\structure| font.
+%    \begin{macrocode}
+\usefonttheme[onlysmall]{structurebold}
+%    \end{macrocode}
+%
+%
+% Font sizes are conistent across tone quadrants.
+%    \begin{macrocode}
+\setbeamerfont{title}{size=\HUGE}
+\setbeamerfont{frametitle}{size=\Huge}
+\setbeamerfont{framesubtitle}{size=\Large}
+%    \end{macrocode}
+
+% 
+%    \begin{macrocode}
+%<*contemporary&subtle>
+\setbeamerfont{title}{series*=l}
+\setbeamerfont{frametitle}{series*=l}
+\setbeamerfont{framesubtitle}{series*=l}
+\setbeamerfont{block title}{series*=l}
+%</contemporary&subtle>
+%<*bold>
+\setbeamerfont{title}{series*=b}
+\setbeamerfont{frametitle}{series*=b}
+\setbeamerfont{framesubtitle}{series*=b}
+\setbeamerfont{block title}{series*=b}
+%</bold>
+%    \end{macrocode}
+%
+% That's all, folks!
 %    \begin{macrocode}
 %</pkg>
 %    \end{macrocode}
 %
-% \Finale
+% \printbibliography[
+%   heading=subbibliography,
+%   title={Implementation References}]
+% \end{refsection}
 %
+% \Finale

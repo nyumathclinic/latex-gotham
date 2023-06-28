@@ -1,0 +1,2662 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/n' will be
+(Font)              scaled to size 29.86pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/l/n' aliased to
+(Font)              `T1/Montserrat-LF/light/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/light/n' will be
+(Font)              scaled to size 29.86pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/b/n' aliased to
+(Font)              `T1/Montserrat-LF/bold/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/bold/n' will be
+(Font)              scaled to size 4.0pt on input line ....
+Completed box being shipped out [1]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\pdfdest name{Navigation1} xyz
+...\penalty 10000
+...\pdfdest name{page.1} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+...\vbox(0.0+0.0)x307.28987
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987
+......\vbox(0.0+0.0)x307.28987
+.......\hbox(0.0+0.0)x-28.45274
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x0.0
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+..........\hbox(273.14662+0.0)x-28.45274
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+..........\hbox(273.14662+0.0)x335.74261
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+........\hbox(0.0+0.0)x0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987
+....\pdfcolorstack 0 push {0 g 0 G}
+....\write-{}
+....\pdfdest name{Doc-Start} xyz
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 18.58394fill
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\glue(\baselineskip) 13.6
+.....\vbox(0.0+0.0)x0.0
+.....\glue 0.0 plus 1.0fill
+.....\glue(\lineskip) 1.0
+.....\hbox(42.65004+0.0)x307.28987
+......\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+......\vbox(42.65004+0.0)x307.28987
+.......\glue 8.0
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(20.8572+5.79285)x307.28987, glue set 45.98723fill
+........\glue(\leftskip) 8.0 plus 1.0fill
+........\hbox(0.0+0.0)x0.0
+........\T1/Montserrat-LF/light/n/29.86 L
+........\kern-0.26874
+........\T1/Montserrat-LF/light/n/29.86 o
+........\T1/Montserrat-LF/light/n/29.86 r
+........\kern-0.41805
+........\T1/Montserrat-LF/light/n/29.86 e
+........\T1/Montserrat-LF/light/n/29.86 m
+........\glue 7.67401 plus 3.837 minus 2.55899
+........\T1/Montserrat-LF/light/n/29.86 I
+........\T1/Montserrat-LF/light/n/29.86 p
+........\T1/Montserrat-LF/light/n/29.86 s
+........\T1/Montserrat-LF/light/n/29.86 u
+........\T1/Montserrat-LF/light/n/29.86 m
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 8.0 plus 1.0fill
+.......\glue 8.0
+......\pdfcolorstack 0 pop
+.....\glue 10.95
+.....\glue(\lineskip) 1.0
+.....\hbox(26.18896+0.0)x307.28987
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(26.18896+0.0)x307.28987
+.......\glue 8.0
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(8.06467+2.1243)x307.28987, glue set 102.25017fill
+........\glue(\leftskip) 8.0 plus 1.0fill
+........\hbox(0.0+0.0)x0.0
+........\T1/Montserrat-LF/regular/n/10.95 A
+........\kern-0.05476
+........\T1/Montserrat-LF/regular/n/10.95 s
+........\T1/Montserrat-LF/regular/n/10.95 p
+........\kern-0.03287
+........\T1/Montserrat-LF/regular/n/10.95 a
+........\T1/Montserrat-LF/regular/n/10.95 s
+........\T1/Montserrat-LF/regular/n/10.95 i
+........\T1/Montserrat-LF/regular/n/10.95 u
+........\T1/Montserrat-LF/regular/n/10.95 s
+........\glue 2.8689 plus 1.43443 minus 0.95593
+........\T1/Montserrat-LF/regular/n/10.95 P
+........\kern-0.25186
+........\T1/Montserrat-LF/regular/n/10.95 r
+........\kern-0.14235
+........\T1/Montserrat-LF/regular/n/10.95 o
+........\T1/Montserrat-LF/regular/n/10.95 t
+........\T1/Montserrat-LF/regular/n/10.95 u
+........\T1/Montserrat-LF/regular/n/10.95 s
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 8.0 plus 1.0fill
+.......\glue 8.0
+......\pdfcolorstack 0 pop
+.....\glue(\lineskip) 1.0
+.....\hbox(21.93599+0.0)x307.28987
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(21.93599+0.0)x307.28987
+.......\glue 8.0
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(5.892+0.04399)x307.28987, glue set 81.877fill
+........\glue(\leftskip) 8.0 plus 1.0fill
+........\hbox(0.0+0.0)x0.0
+........\T1/Montserrat-LF/regular/n/8 U
+........\T1/Montserrat-LF/regular/n/8 n
+........\T1/Montserrat-LF/regular/n/8 i
+........\T1/Montserrat-LF/regular/n/8 v
+........\kern-0.12001
+........\T1/Montserrat-LF/regular/n/8 e
+........\T1/Montserrat-LF/regular/n/8 r
+........\kern-0.016
+........\T1/Montserrat-LF/regular/n/8 s
+........\T1/Montserrat-LF/regular/n/8 i
+........\T1/Montserrat-LF/regular/n/8 t
+........\T1/Montserrat-LF/regular/n/8 a
+........\T1/Montserrat-LF/regular/n/8 t
+........\kern-0.15201
+........\T1/Montserrat-LF/regular/n/8 e
+........\T1/Montserrat-LF/regular/n/8 s
+........\glue 2.096 plus 1.04799 minus 0.6984
+........\T1/Montserrat-LF/regular/n/8 N
+........\T1/Montserrat-LF/regular/n/8 o
+........\kern-0.12001
+........\T1/Montserrat-LF/regular/n/8 v
+........\T1/Montserrat-LF/regular/n/8 u
+........\T1/Montserrat-LF/regular/n/8 m
+........\glue 2.096 plus 1.04799 minus 0.6984
+........\T1/Montserrat-LF/regular/n/8 E
+........\T1/Montserrat-LF/regular/n/8 b
+........\T1/Montserrat-LF/regular/n/8 o
+........\T1/Montserrat-LF/regular/n/8 r
+........\kern-0.376
+........\T1/Montserrat-LF/regular/n/8 a
+........\T1/Montserrat-LF/regular/n/8 c
+........\T1/Montserrat-LF/regular/n/8 u
+........\T1/Montserrat-LF/regular/n/8 m
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 8.0 plus 1.0fill
+.......\glue 8.0
+......\pdfcolorstack 0 pop
+.....\glue(\lineskip) 1.0
+.....\hbox(25.31844+0.0)x307.28987
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(25.31844+0.0)x307.28987
+.......\glue 8.0
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\hbox(7.71974+1.5987)x307.28987, glue set 108.7654fill
+........\glue(\leftskip) 8.0 plus 1.0fill
+........\hbox(0.0+0.0)x0.0
+........\T1/Montserrat-LF/regular/n/10.95 J
+........\T1/Montserrat-LF/regular/n/10.95 u
+........\T1/Montserrat-LF/regular/n/10.95 n
+........\T1/Montserrat-LF/regular/n/10.95 e
+........\glue 2.8689 plus 1.43443 minus 0.95593
+........\T1/Montserrat-LF/regular/n/10.95 2
+........\kern-0.02191
+........\T1/Montserrat-LF/regular/n/10.95 6
+........\kern0.1095
+........\T1/Montserrat-LF/regular/n/10.95 ,
+........\glue 2.8689 plus 1.79303 minus 0.76474
+........\T1/Montserrat-LF/regular/n/10.95 2
+........\kern-0.02191
+........\T1/Montserrat-LF/regular/n/10.95 0
+........\T1/Montserrat-LF/regular/n/10.95 2
+........\T1/Montserrat-LF/regular/n/10.95 3
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 8.0 plus 1.0fill
+.......\glue 8.0
+......\pdfcolorstack 0 pop
+.....\glue 5.47499
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fill
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\lineskip) 1.0
+.....\hbox(34.40045+0.0)x307.28987, glue set 109.84535fill
+......\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fill
+......\hbox(34.40045+0.0)x87.59918
+.......\glue 43.79959
+.......\hbox(0.0+0.0)x0.0, shifted -17.20023
+........\pdfliteral{q }
+........\pdfliteral{0.34119 0.02353 0.54903 RG }
+........\pdfliteral{0.34119 0.02353 0.54903 rg }
+........\pdfliteral{0.3985 w }
+........\hbox(0.0+0.0)x0.0
+.........\pdfliteral{q }
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfliteral{q }
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{q }
+...........\hbox(0.0+0.0)x0.0
+............\glue -40.15
+............\hbox(0.0+0.0)x0.0, shifted 13.55063
+.............\pdfliteral{1.0 0.0 0.0 1.0 0.0 0.0 cm }
+.............\pdfliteral{q }
+.............\hbox(0.0+0.0)x0.0
+..............\hbox(27.10126+0.0)x80.3
+...............\pdfliteral{0.34119 0.02353 0.54903 RG }
+...............\pdfliteral{0.34119 0.02353 0.54903 rg }
+...............\hbox(27.10126+0.0)x80.3
+................\pdfrefximage(27.10126+0.0)x80.3
+...............\glue 0.0
+.............\pdfliteral{Q }
+.............\glue 0.0
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\pdfliteral{Q }
+...........\glue 0.0
+...........\glue 0.0
+...........\pdfliteral{Q }
+.........\glue 0.0
+.........\glue 0.0
+.........\pdfliteral{Q }
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\pdfliteral{n }
+........\pdfliteral{Q }
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fill
+......\hbox(0.0+0.0)x0.0
+......\pdfcolorstack 0 pop
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1\ETC.}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.....\vbox(0.0+0.0)x0.0
+......\hbox(0.0+0.0)x-56.90549
+.......\hbox(0.0+0.0)x-56.90549
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0
+.........\vbox(0.0+0.0)x0.0
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern 0.0
+.\kern 0.0
+ <./nyu_short_black.pdf>
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/b/n' aliased to
+(Font)              `T1/Montserrat-LF/bold/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line ....
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line ....
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line ....
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line ....
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line ....
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line ....
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line ....
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/m/n' aliased to
+(Font)              `T1/Montserrat-LF/regular/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/m/n' aliased to
+(Font)              `T1/Montserrat-LF/regular/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/m/it' aliased to
+(Font)              `T1/Montserrat-LF/regular/it' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/m/it' aliased to
+(Font)              `T1/Montserrat-LF/regular/it' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/m/it' aliased to
+(Font)              `T1/Montserrat-LF/regular/it' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/n' will be
+(Font)              scaled to size 24.88pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/l/n' aliased to
+(Font)              `T1/Montserrat-LF/light/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/light/n' will be
+(Font)              scaled to size 24.88pt on input line ....
+Completed box being shipped out [2]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\pdfdest name{Navigation2} xyz
+...\penalty 10000
+...\pdfdest name{page.2} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+...\vbox(0.0+0.0)x307.28987
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987
+......\vbox(0.0+0.0)x307.28987
+.......\hbox(0.0+0.0)x-28.45274
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x0.0
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+..........\hbox(273.14662+0.0)x-28.45274
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+..........\hbox(273.14662+0.0)x335.74261
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+........\hbox(0.0+0.0)x0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 29.89954fill
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.....\glue(\baselineskip) 8.43874
+.....\hbox(21.56126+0.0)x307.28987, glue set - 1.0
+......\glue 0.0 minus 28.45274
+......\hbox(21.56126+0.0)x364.19536
+.......\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.......\vbox(21.56126+0.0)x364.19536
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12355fill
+.........\glue(\leftskip) 8.5359
+.........\hbox(0.0+0.0)x0.0
+.........\vbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 87.62527fill
+.........\glue(\leftskip) 8.5359
+.........\hbox(0.0+0.0)x0.0
+.........\rule(20.99991+9.00009)x0.0
+.........\T1/Montserrat-LF/light/n/24.88 C
+.........\T1/Montserrat-LF/light/n/24.88 r
+.........\kern-1.19426
+.........\T1/Montserrat-LF/light/n/24.88 a
+.........\T1/Montserrat-LF/light/n/24.88 s
+.........\glue 6.39415 plus 3.19707 minus 2.1322
+.........\T1/Montserrat-LF/light/n/24.88 i
+.........\T1/Montserrat-LF/light/n/24.88 m
+.........\T1/Montserrat-LF/light/n/24.88 p
+.........\T1/Montserrat-LF/light/n/24.88 e
+.........\T1/Montserrat-LF/light/n/24.88 r
+.........\kern-0.34833
+.........\T1/Montserrat-LF/light/n/24.88 d
+.........\T1/Montserrat-LF/light/n/24.88 i
+.........\T1/Montserrat-LF/light/n/24.88 e
+.........\T1/Montserrat-LF/light/n/24.88 t
+.........\glue 6.39415 plus 3.19707 minus 2.1322
+.........\T1/Montserrat-LF/light/n/24.88 p
+.........\T1/Montserrat-LF/light/n/24.88 u
+.........\T1/Montserrat-LF/light/n/24.88 r
+.........\T1/Montserrat-LF/light/n/24.88 u
+.........\T1/Montserrat-LF/light/n/24.88 s
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.0864
+.....\hbox(8.51361+2.1243)x307.28987, glue set 10.53764fil
+......\hbox(0.0+0.0)x0.0
+......\T1/Montserrat-LF/regular/n/10.95 F
+......\kern-0.1971
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\kern 0.0
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/bold/n/10.95 b
+......\T1/Montserrat-LF/bold/n/10.95 i
+......\T1/Montserrat-LF/bold/n/10.95 b
+......\T1/Montserrat-LF/bold/n/10.95 e
+......\T1/Montserrat-LF/bold/n/10.95 n
+......\kern0.0438
+......\T1/Montserrat-LF/bold/n/10.95 d
+......\T1/Montserrat-LF/bold/n/10.95 u
+......\T1/Montserrat-LF/bold/n/10.95 m
+......\kern 0.0
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 h
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern0.1095
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\glue 3.34741 plus 4.3033 minus 0.31863
+......\T1/Montserrat-LF/regular/n/10.95 A
+......\kern-0.05476
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\kern-0.16426
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.41104
+.....\hbox(8.06467+2.18452)x307.28987, glue set 28.96317fil
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 q
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.06467+0.06021)x307.28987, glue set 136.66316fil
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\glue 3.34741 plus 4.3033 minus 0.31863
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\kern 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.47513
+.....\hbox(8.06467+2.18452)x285.38982, glue set 2.84738fil, shifted 21.90005
+......\hbox(7.27095+0.0)x0.0
+.......\glue 0.0
+.......\glue -16.42505
+.......\glue -5.475
+.......\hbox(7.27095+0.0)x16.42505, glue set 16.42505fil
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.475
+......\penalty 0
+......\T1/Montserrat-LF/regular/n/10.95 L
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern0.1095
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue 2.8689 plus 1.79303 minus 0.76474
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern0.06569
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.06467+0.06021)x285.38982, glue set 133.00418fil, shifted 21.90005
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern0.1095
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.47513
+.....\hbox(8.06467+2.18452)x285.38982, glue set 6.26906fil, shifted 21.90005
+......\hbox(7.27095+0.0)x0.0
+.......\glue 0.0
+.......\glue -16.42505
+.......\glue -5.475
+.......\hbox(7.27095+0.0)x16.42505, glue set 16.42505fil
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.475
+......\penalty 0
+......\T1/Montserrat-LF/regular/n/10.95 N
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 f
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.02191
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.06467+2.1243)x285.38982, glue set 31.89775fil, shifted 21.90005
+......\hbox(7.27095+0.0)x0.0
+.......\glue 0.0
+.......\glue -16.42505
+.......\glue -5.475
+.......\hbox(7.27095+0.0)x16.42505, glue set 16.42505fil
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.475
+......\penalty 0
+......\T1/Montserrat-LF/regular/n/10.95 V
+......\kern-0.60226
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 q
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern0.1095
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue 2.8689 plus 1.79303 minus 0.76474
+......\T1/Montserrat-LF/regular/n/10.95 f
+......\kern-0.10951
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 4.45677
+.....\hbox(7.01894+2.1243)x285.38982, glue set 98.97162fil, shifted 21.90005
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 q
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\pdfcolorstack 0 pop
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.41104
+.....\hbox(8.06467+2.1243)x307.28987, glue set 34.9747fil
+......\T1/Montserrat-LF/regular/n/10.95 M
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/it/10.95 m
+......\T1/Montserrat-LF/regular/it/10.95 a
+......\T1/Montserrat-LF/regular/it/10.95 x
+......\T1/Montserrat-LF/regular/it/10.95 i
+......\T1/Montserrat-LF/regular/it/10.95 m
+......\T1/Montserrat-LF/regular/it/10.95 u
+......\T1/Montserrat-LF/regular/it/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue 2.8689 plus 1.79303 minus 0.76474
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 x
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.41104
+.....\hbox(8.06467+2.18452)x307.28987, glue set 0.2118fil
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 j
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\kern-0.16426
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\glue 3.34741 plus 4.3033 minus 0.31863
+......\T1/Montserrat-LF/regular/n/10.95 P
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 q
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.06467+0.06021)x307.28987, glue set 129.99846fil
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern0.1095
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{2\ETC.}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.....\vbox(0.0+0.0)x0.0
+......\hbox(0.0+0.0)x-56.90549
+.......\hbox(0.0+0.0)x-56.90549
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0
+.........\vbox(0.0+0.0)x0.0
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern 0.0
+Completed box being shipped out [3]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\pdfdest name{Navigation3} xyz
+...\penalty 10000
+...\pdfdest name{page.3} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+...\vbox(0.0+0.0)x307.28987
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987
+......\vbox(0.0+0.0)x307.28987
+.......\hbox(0.0+0.0)x-28.45274
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x0.0
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+..........\hbox(273.14662+0.0)x-28.45274
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+..........\hbox(273.14662+0.0)x335.74261
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+........\hbox(0.0+0.0)x0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 26.64981fill
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.....\glue(\baselineskip) 8.43874
+.....\hbox(21.56126+0.0)x307.28987, glue set - 1.0
+......\glue 0.0 minus 28.45274
+......\hbox(21.56126+0.0)x364.19536
+.......\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.......\vbox(21.56126+0.0)x364.19536
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12355fill
+.........\glue(\leftskip) 8.5359
+.........\hbox(0.0+0.0)x0.0
+.........\vbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 164.3303fill
+.........\glue(\leftskip) 8.5359
+.........\hbox(0.0+0.0)x0.0
+.........\rule(20.99991+9.00009)x0.0
+.........\T1/Montserrat-LF/light/n/24.88 D
+.........\T1/Montserrat-LF/light/n/24.88 u
+.........\T1/Montserrat-LF/light/n/24.88 i
+.........\T1/Montserrat-LF/light/n/24.88 s
+.........\glue 6.39415 plus 3.19707 minus 2.1322
+.........\T1/Montserrat-LF/light/n/24.88 v
+.........\T1/Montserrat-LF/light/n/24.88 i
+.........\T1/Montserrat-LF/light/n/24.88 t
+.........\T1/Montserrat-LF/light/n/24.88 a
+.........\T1/Montserrat-LF/light/n/24.88 e
+.........\glue 6.39415 plus 3.19707 minus 2.1322
+.........\T1/Montserrat-LF/light/n/24.88 a
+.........\T1/Montserrat-LF/light/n/24.88 n
+.........\T1/Montserrat-LF/light/n/24.88 t
+.........\kern-0.47273
+.........\T1/Montserrat-LF/light/n/24.88 e
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.53534
+.....\hbox(8.06467+2.18452)x307.28987, glue set 18.24318fil
+......\hbox(0.0+0.0)x0.0
+......\T1/Montserrat-LF/regular/n/10.95 S
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\kern-0.16426
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.10951
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue 2.8689 plus 1.79303 minus 0.76474
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 f
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.06467+2.18452)x307.28987, glue set 109.43056fil
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\glue 3.34741 plus 4.3033 minus 0.31863
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\kern 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.06467+2.1243)x285.38982, glue set 4.79651fil, shifted 21.90005
+......\hbox(7.71974+0.06021)x0.0
+.......\glue 0.0
+.......\glue -16.42505
+.......\glue -5.475
+.......\hbox(7.71974+0.06021)x16.42505, glue set 16.42505fil
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.71974+0.06021)x0.0, glue set - 6.27434fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\T1/Montserrat-LF/regular/n/10.95 1
+.........\T1/Montserrat-LF/regular/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.475
+......\penalty 0
+......\T1/Montserrat-LF/regular/n/10.95 V
+......\kern-0.1971
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\kern-0.1752
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.10951
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue 2.8689 plus 1.79303 minus 0.76474
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.41104
+.....\hbox(8.06467+0.06021)x285.38982, glue set 120.83327fil, shifted 21.90005
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern0.16425
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.47513
+.....\hbox(8.06467+2.1243)x285.38982, glue set 21.33098fil, shifted 21.90005
+......\hbox(7.71974+0.06021)x0.0
+.......\glue 0.0
+.......\glue -16.42505
+.......\glue -5.475
+.......\hbox(7.71974+0.06021)x16.42505, glue set 16.42505fil
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.71974+0.06021)x0.0, glue set - 8.65048fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\T1/Montserrat-LF/regular/n/10.95 2
+.........\kern0.1095
+.........\T1/Montserrat-LF/regular/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.475
+......\penalty 0
+......\T1/Montserrat-LF/regular/n/10.95 P
+......\T1/Montserrat-LF/regular/n/10.95 h
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\kern-0.16426
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\kern-0.16426
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.51466
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue 2.8689 plus 1.79303 minus 0.76474
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 ,
+......\glue 2.8689 plus 1.79303 minus 0.76474
+......\T1/Montserrat-LF/regular/n/10.95 f
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 5.51892
+.....\hbox(5.95679+2.18452)x285.38982, glue set 121.80234fil, shifted 21.90005
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.06467+2.1243)x285.38982, glue set 21.03535fil, shifted 21.90005
+......\hbox(7.71974+0.06021)x0.0
+.......\glue 0.0
+.......\glue -16.42505
+.......\glue -5.475
+.......\hbox(7.71974+0.06021)x16.42505, glue set 16.42505fil
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.71974+0.06021)x0.0, glue set - 8.4972fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\T1/Montserrat-LF/regular/n/10.95 3
+.........\T1/Montserrat-LF/regular/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.475
+......\penalty 0
+......\T1/Montserrat-LF/regular/n/10.95 A
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 q
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.51466
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\kern-0.16426
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.51466
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.41104
+.....\hbox(8.06467+2.18452)x285.38982, glue set 95.5169fil, shifted 21.90005
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.35081
+.....\hbox(8.06467+2.1243)x285.38982, glue set 26.4882fil, shifted 21.90005
+......\hbox(7.71974+0.06021)x0.0
+.......\glue 0.0
+.......\glue -16.42505
+.......\glue -5.475
+.......\hbox(7.71974+0.06021)x16.42505, glue set 16.42505fil
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.71974+0.06021)x0.0, glue set - 9.77834fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\T1/Montserrat-LF/regular/n/10.95 4
+.........\kern0.219
+.........\T1/Montserrat-LF/regular/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.475
+......\penalty 0
+......\T1/Montserrat-LF/regular/n/10.95 P
+......\kern-0.25186
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 f
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 h
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 q
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.41104
+.....\hbox(8.06467+2.1243)x285.38982, glue set 20.79419fil, shifted 21.90005
+......\hbox(7.71974+0.06021)x0.0
+.......\glue 0.0
+.......\glue -16.42505
+.......\glue -5.475
+.......\hbox(7.71974+0.06021)x16.42505, glue set 16.42505fil
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.71974+0.06021)x0.0, glue set - 8.51909fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\T1/Montserrat-LF/regular/n/10.95 5
+.........\T1/Montserrat-LF/regular/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.475
+......\penalty 0
+......\T1/Montserrat-LF/regular/n/10.95 P
+......\T1/Montserrat-LF/regular/n/10.95 h
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 v
+......\kern-0.16426
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern0.1095
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\pdfcolorstack 0 pop
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.41104
+.....\hbox(8.06467+2.18452)x307.28987, glue set 0.37254fil
+......\T1/Montserrat-LF/regular/n/10.95 V
+......\kern-0.60226
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 b
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 h
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 d
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.14235
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 r
+......\kern-0.08762
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 j
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 i
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 a
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 l
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 c
+......\kern-0.09856
+......\T1/Montserrat-LF/regular/n/10.95 o
+......\T1/Montserrat-LF/regular/n/10.95 n
+......\T1/Montserrat-LF/regular/n/10.95 g
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\glue 2.8689 plus 1.43443 minus 0.95593
+......\T1/Montserrat-LF/regular/n/10.95 t
+......\kern-0.20805
+......\T1/Montserrat-LF/regular/n/10.95 e
+......\T1/Montserrat-LF/regular/n/10.95 m
+......\T1/Montserrat-LF/regular/n/10.95 p
+......\T1/Montserrat-LF/regular/n/10.95 u
+......\T1/Montserrat-LF/regular/n/10.95 s
+......\T1/Montserrat-LF/regular/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{3\ETC.}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.....\vbox(0.0+0.0)x0.0
+......\hbox(0.0+0.0)x-56.90549
+.......\hbox(0.0+0.0)x-56.90549
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0
+.........\vbox(0.0+0.0)x0.0
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern 0.0
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/l/n' aliased to
+(Font)              `T1/Montserrat-LF/light/n' on input line ....
+LaTeX Font Info:    Font shape `T1/Montserrat-LF/light/n' will be
+(Font)              scaled to size 12.0pt on input line ....
+Completed box being shipped out [4]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\pdfdest name{Navigation4} xyz
+...\penalty 10000
+...\pdfdest name{page.4} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+...\vbox(0.0+0.0)x307.28987
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987
+......\vbox(0.0+0.0)x307.28987
+.......\hbox(0.0+0.0)x-28.45274
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x0.0
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+..........\hbox(273.14662+0.0)x-28.45274
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+..........\hbox(273.14662+0.0)x335.74261
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+........\hbox(0.0+0.0)x0.0
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 31.19983fill
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.....\glue(\baselineskip) 8.43874
+.....\hbox(21.56126+0.0)x307.28987, glue set - 1.0
+......\glue 0.0 minus 28.45274
+......\hbox(21.56126+0.0)x364.19536
+.......\pdfcolorstack 0 push {0.53725 0 0.88235 rg 0.53725 0 0.88235 RG}
+.......\vbox(21.56126+0.0)x364.19536
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12355fill
+.........\glue(\leftskip) 8.5359
+.........\hbox(0.0+0.0)x0.0
+.........\vbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 137.858fill
+.........\glue(\leftskip) 8.5359
+.........\hbox(0.0+0.0)x0.0
+.........\rule(20.99991+9.00009)x0.0
+.........\T1/Montserrat-LF/light/n/24.88 P
+.........\T1/Montserrat-LF/light/n/24.88 h
+.........\T1/Montserrat-LF/light/n/24.88 a
+.........\T1/Montserrat-LF/light/n/24.88 s
+.........\T1/Montserrat-LF/light/n/24.88 e
+.........\T1/Montserrat-LF/light/n/24.88 l
+.........\T1/Montserrat-LF/light/n/24.88 l
+.........\T1/Montserrat-LF/light/n/24.88 u
+.........\T1/Montserrat-LF/light/n/24.88 s
+.........\glue 6.39415 plus 3.19707 minus 2.1322
+.........\T1/Montserrat-LF/light/n/24.88 e
+.........\T1/Montserrat-LF/light/n/24.88 u
+.........\glue 6.39415 plus 3.19707 minus 2.1322
+.........\T1/Montserrat-LF/light/n/24.88 f
+.........\kern-0.22392
+.........\T1/Montserrat-LF/light/n/24.88 e
+.........\T1/Montserrat-LF/light/n/24.88 l
+.........\T1/Montserrat-LF/light/n/24.88 i
+.........\T1/Montserrat-LF/light/n/24.88 s
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -12.98737
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\lineskip) 1.0
+.....\hbox(17.86172+0.0)x307.28987
+......\glue -4.31976
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\hbox(17.86172+0.0)x0.0, glue set - 315.9294fil
+.......\rule(17.86172+0.0)x315.9294
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(17.86172+0.0)x315.9294
+.......\kern 0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31976
+.......\hbox(17.86172+0.0)x307.28987
+........\pdfcolorstack 0 push {0.94902 0.94902 0.94902 rg 0.94902 0.94902 0.94902 RG}
+........\vbox(17.86172+0.0)x307.28987
+.........\glue 4.31976
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(8.79+0.05399)x307.28987, glue set 126.68095fil
+..........\hbox(0.0+0.0)x0.0
+..........\T1/Montserrat-LF/light/n/12 T
+..........\T1/Montserrat-LF/light/n/12 h
+..........\T1/Montserrat-LF/light/n/12 e
+..........\T1/Montserrat-LF/light/n/12 o
+..........\T1/Montserrat-LF/light/n/12 r
+..........\kern-0.168
+..........\T1/Montserrat-LF/light/n/12 e
+..........\T1/Montserrat-LF/light/n/12 m
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.69798
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31976
+.......\kern 0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31976
+.....\glue -0.5
+.....\hbox(20.04407+0.0)x307.28987
+......\glue -4.31976
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
+......\hbox(20.04407+0.0)x0.0, glue set - 315.9294fil
+.......\rule(20.04407+0.0)x315.9294
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(20.04407+0.0)x315.9294
+.......\kern 0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31976
+.......\hbox(20.04407+0.0)x307.28987
+........\pdfcolorstack 0 push {0 0 0 rg 0 0 0 RG}
+........\vbox(20.04407+0.0)x307.28987
+.........\glue 4.31976
+.........\glue -4.31976
+.........\vbox(0.0+0.0)x0.0
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 5.53534
+.........\hbox(8.06467+2.1243)x307.28987, glue set 11.14731fil
+..........\hbox(0.0+0.0)x0.0
+..........\T1/Montserrat-LF/regular/n/10.95 S
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 s
+..........\T1/Montserrat-LF/regular/n/10.95 p
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 d
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 s
+..........\T1/Montserrat-LF/regular/n/10.95 s
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 o
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 b
+..........\T1/Montserrat-LF/regular/n/10.95 h
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 v
+..........\kern-0.16426
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 p
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\kern-0.20805
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 s
+..........\T1/Montserrat-LF/regular/n/10.95 q
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 p
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 v
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\kern-0.10951
+..........\T1/Montserrat-LF/regular/n/10.95 .
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.31976
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31976
+.......\kern 0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31976
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\lineskip) 1.0
+.....\hbox(20.13574+0.0)x307.28987
+......\glue -4.31976
+......\pdfcolorstack 0 push {0.48235 0.35294 0.65099 rg 0.48235 0.35294 0.65099 RG}
+......\pdfcolorstack 0 push {0.48235 0.35294 0.65099 rg 0.48235 0.35294 0.65099 RG}
+......\hbox(20.13574+0.0)x0.0, glue set - 315.9294fil
+.......\rule(20.13574+0.0)x315.9294
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(20.13574+0.0)x315.9294
+.......\kern 0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31976
+.......\hbox(20.13574+0.0)x307.28987
+........\pdfcolorstack 0 push {0.94902 0.94902 0.94902 rg 0.94902 0.94902 0.94902 RG}
+........\vbox(20.13574+0.0)x307.28987
+.........\glue 4.31976
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(8.79+2.328)x307.28987, glue set 127.59897fil
+..........\hbox(0.0+0.0)x0.0
+..........\T1/Montserrat-LF/light/n/12 E
+..........\kern-0.20401
+..........\T1/Montserrat-LF/light/n/12 x
+..........\kern-0.12001
+..........\T1/Montserrat-LF/light/n/12 a
+..........\T1/Montserrat-LF/light/n/12 m
+..........\T1/Montserrat-LF/light/n/12 p
+..........\T1/Montserrat-LF/light/n/12 l
+..........\T1/Montserrat-LF/light/n/12 e
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.69798
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31976
+.......\kern 0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31976
+.....\glue -0.5
+.....\hbox(20.1043+0.0)x307.28987
+......\glue -4.31976
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
+......\hbox(20.1043+0.0)x0.0, glue set - 315.9294fil
+.......\rule(20.1043+0.0)x315.9294
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(20.1043+0.0)x315.9294
+.......\kern 0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31976
+.......\hbox(20.1043+0.0)x307.28987
+........\pdfcolorstack 0 push {0 0 0 rg 0 0 0 RG}
+........\vbox(20.1043+0.0)x307.28987
+.........\glue 4.31976
+.........\glue -4.31976
+.........\vbox(0.0+0.0)x0.0
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 5.53534
+.........\hbox(8.06467+2.18452)x307.28987, glue set - 0.2634
+..........\hbox(0.0+0.0)x0.0
+..........\T1/Montserrat-LF/regular/n/10.95 P
+..........\kern-0.25186
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\kern-0.14235
+..........\T1/Montserrat-LF/regular/n/10.95 o
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\kern-0.08762
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 g
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 c
+..........\kern-0.09856
+..........\T1/Montserrat-LF/regular/n/10.95 o
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 s
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 c
+..........\kern0.06569
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\kern-0.20805
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 p
+..........\T1/Montserrat-LF/regular/n/10.95 o
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\kern0.16425
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\kern-0.1533
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\kern-0.20805
+..........\T1/Montserrat-LF/regular/n/10.95 o
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 v
+..........\kern-0.16426
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 b
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\kern-0.14235
+..........\T1/Montserrat-LF/regular/n/10.95 o
+..........\kern-0.16426
+..........\T1/Montserrat-LF/regular/n/10.95 .
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.31976
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31976
+.......\kern 0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31976
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\lineskip) 1.0
+.....\hbox(20.18373+0.0)x307.28987
+......\glue -4.31976
+......\pdfcolorstack 0 push {0.98431 0.05882 0.4706 rg 0.98431 0.05882 0.4706 RG}
+......\pdfcolorstack 0 push {0.98431 0.05882 0.4706 rg 0.98431 0.05882 0.4706 RG}
+......\hbox(20.18373+0.0)x0.0, glue set - 315.9294fil
+.......\rule(20.18373+0.0)x315.9294
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(20.18373+0.0)x315.9294
+.......\kern 0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31976
+.......\hbox(20.18373+0.0)x307.28987
+........\pdfcolorstack 0 push {0.99843 0.90588 0.94707 rg 0.99843 0.90588 0.94707 RG}
+........\vbox(20.18373+0.0)x307.28987
+.........\glue 4.31976
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(8.79+2.37599)x307.28987, glue set 127.84496fil
+..........\hbox(0.0+0.0)x0.0
+..........\T1/Montserrat-LF/light/n/12 W
+..........\kern-0.66
+..........\T1/Montserrat-LF/light/n/12 a
+..........\T1/Montserrat-LF/light/n/12 r
+..........\kern-0.108
+..........\T1/Montserrat-LF/light/n/12 n
+..........\T1/Montserrat-LF/light/n/12 i
+..........\T1/Montserrat-LF/light/n/12 n
+..........\T1/Montserrat-LF/light/n/12 g
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.69798
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31976
+.......\kern 0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31976
+.....\glue -0.5
+.....\hbox(31.57999+0.0)x307.28987
+......\glue -4.31976
+......\pdfcolorstack 0 push {0.99608 0.76471 0.86765 rg 0.99608 0.76471 0.86765 RG}
+......\pdfcolorstack 0 push {0.99608 0.76471 0.86765 rg 0.99608 0.76471 0.86765 RG}
+......\hbox(31.57999+0.0)x0.0, glue set - 315.9294fil
+.......\rule(31.57999+0.0)x315.9294
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\pdfcolorstack 0 pop
+......\hbox(31.57999+0.0)x315.9294
+.......\kern 0.0
+.......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.......\glue 4.31976
+.......\hbox(31.57999+0.0)x307.28987
+........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+........\vbox(31.57999+0.0)x307.28987
+.........\glue 4.31976
+.........\glue -4.31976
+.........\vbox(0.0+0.0)x0.0
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 5.53534
+.........\hbox(8.06467+1.5987)x307.28987, glue set 24.91171fil
+..........\hbox(0.0+0.0)x0.0
+..........\T1/Montserrat-LF/regular/n/10.95 P
+..........\kern-0.25186
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\kern-0.14235
+..........\T1/Montserrat-LF/regular/n/10.95 o
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 f
+..........\kern-0.09856
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 d
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 s
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 e
+..........\T1/Montserrat-LF/regular/n/10.95 c
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\kern-0.08762
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 c
+..........\kern0.06569
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 s
+..........\T1/Montserrat-LF/regular/n/10.95 ,
+..........\glue 2.8689 plus 1.79303 minus 0.76474
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 c
+..........\kern-0.08762
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 d
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 t
+..........\glue 2.8689 plus 1.43443 minus 0.95593
+..........\T1/Montserrat-LF/regular/n/10.95 n
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 l
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\penalty 300
+.........\glue(\baselineskip) 3.93665
+.........\hbox(8.06467+0.06021)x307.28987, glue set 136.38777fil
+..........\T1/Montserrat-LF/regular/n/10.95 v
+..........\kern-0.1752
+..........\T1/Montserrat-LF/regular/n/10.95 a
+..........\T1/Montserrat-LF/regular/n/10.95 r
+..........\kern-0.08762
+..........\T1/Montserrat-LF/regular/n/10.95 i
+..........\T1/Montserrat-LF/regular/n/10.95 u
+..........\T1/Montserrat-LF/regular/n/10.95 s
+..........\T1/Montserrat-LF/regular/n/10.95 .
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 4.31976
+........\pdfcolorstack 0 pop
+.......\pdfcolorstack 0 pop
+.......\glue 4.31976
+.......\kern 0.0
+......\pdfcolorstack 0 pop
+......\glue -4.31976
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 0.0 plus 1.5fill
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{4\ETC.}
+....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.....\vbox(0.0+0.0)x0.0
+......\hbox(0.0+0.0)x-56.90549
+.......\hbox(0.0+0.0)x-56.90549
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0
+.........\vbox(0.0+0.0)x0.0
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern 0.0
+\tf@nav=\write...
+\tf@toc=\write...
+\tf@snm=\write...
+(beamerthemeNYU22-001.aux)
+Package rerunfilecheck Warning: File `beamerthemeNYU22-001.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+Package rerunfilecheck Info: Checksums for `beamerthemeNYU22-001.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
