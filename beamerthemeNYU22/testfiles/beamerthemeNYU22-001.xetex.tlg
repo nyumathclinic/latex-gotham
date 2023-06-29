@@ -1,7 +1,10 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
+(lipsum.tex
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line ....
+File: nyu_short_black.pdf Graphic file (type pdf)
+<use nyu_short_black.pdf>
 Completed box being shipped out [1]
 \vbox(200.87663+0.0)x263.47263
 .\hbox(0.0+0.0)x0.0
@@ -122,13 +125,14 @@ Completed box being shipped out [1]
 .....\write-{}
 .....\special{pdf:docview<</OpenAction[@page1/Fit]/PageMode/UseOutlines>>}
 .....\special{pdf:dest (Doc-Start) [@thispage /XYZ @xpos @ypos null]}
-.....\special{pdf:docinfo<</Title()/Subject()/Creator(\376\377\000L\000a\000T\000e\\ETC.}
+.....\special{pdf:docinfo<</Title()/Subject()/Creator(\376\377\000L\000a\000T\000e\000X\000\040\000w\000i\000t\000h\000\040\000B\000e\000a\000m\000e\000r\000\040\000c\000l\000a\000s\000s)/Author()/Keywords()>>}
 .....\special{color push rgb 0.25098 0.25098 0.25098}
 .....\special{color push rgb 0.25098 0.25098 0.25098}
 .....\special{color push rgb 0.25098 0.25098 0.25098}
 .....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\write-{}
 .....\glue(\topskip) 0.0
-.....\vbox(269.14662+0.0)x307.28987, glue set 19.98022fill
+.....\vbox(269.14662+0.0)x307.28987, glue set 20.60654fill
 ......\penalty 10000
 ......\vbox(0.0+0.0)x0.0
 ......\penalty 10000
@@ -143,30 +147,48 @@ Completed box being shipped out [1]
 ......\special{color push rgb 0.34119 0.02353 0.54903}
 ......\glue(\baselineskip) 13.6
 ......\vbox(0.0+0.0)x0.0
+......\special{color push rgb 0.34119 0.02353 0.54903}
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\lineskip) 1.0
+......\hbox(27.10118+0.0)x307.28987, glue set 113.49504fil
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(27.10118+0.0)x80.29979
+........\hbox(27.10126+0.0)x80.3
+.........\hbox(27.10126+0.0)x80.3
+..........\hbox(27.10126+0.0)x0.0
+...........\special{pdf:btrans}
+...........\special{x:scale 1 1}
+...........\hbox(27.10126+0.0)x0.0, glue set - 80.3fil
+............\hbox(27.10126+0.0)x80.3
+.............\XeTeXpdffile "./nyu_short_black.pdf"
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\special{pdf:etrans}
+..........\kern 80.3
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\special{color pop}
 ......\glue 0.0 plus 1.0fill
 ......\glue(\lineskip) 1.0
-......\hbox(66.57436+0.0)x307.28987
+......\hbox(50.367+0.20735)x307.28987
 .......\special{color push rgb 0.53725 0 0.88235}
-.......\vbox(66.57436+0.0)x307.28987
-........\glue 8.0
-........\glue(\parskip) 0.0
-........\glue(\parskip) 0.0
-........\hbox(20.90201+4.77759)x307.28987, glue set 98.81229fill
-.........\glue(\leftskip) 8.0
+.......\vbox(50.367+0.20735)x307.28987
+........\hbox(20.90201+4.77759)x307.28987, glue set 114.81229fill
 .........\hbox(0.0+0.0)x0.0
 .........\TU/Gotham(0)/l/n/29.86 Lorem
 .........\glue 8.95801 plus 4.479 minus 2.986
 .........\TU/Gotham(0)/l/n/29.86 Ipsum
 .........\penalty 10000
 .........\glue(\parfillskip) 0.0 plus 1.0fil
-.........\glue(\rightskip) 8.0 plus 1.0fill
+.........\glue(\rightskip) 0.0 plus 1.0fill
 ........\glue 7.465
 ........\special{color push rgb 0.53725 0 0.88235}
 ........\glue(\parskip) 0.0
 ........\glue(\parskip) 0.0
 ........\glue(\baselineskip) 4.60802
-........\hbox(12.6144+0.20735)x307.28987, glue set 71.31544fill
-.........\glue(\leftskip) 8.0
+........\hbox(12.6144+0.20735)x307.28987, glue set 87.31544fill
 .........\hbox(0.0+0.0)x0.0
 .........\TU/Gotham(0)/l/n/17.28 Ut
 .........\glue 5.184 plus 2.592 minus 1.728
@@ -179,58 +201,43 @@ Completed box being shipped out [1]
 .........\TU/Gotham(0)/l/n/17.28 enim
 .........\penalty 10000
 .........\glue(\parfillskip) 0.0 plus 1.0fil
-.........\glue(\rightskip) 8.0 plus 1.0fill
+.........\glue(\rightskip) 0.0 plus 1.0fill
 ........\special{color pop}
-........\glue 8.0
 .......\special{color pop}
-......\glue 10.95
-......\glue(\lineskip) 1.0
-......\hbox(28.59998+0.0)x307.28987
+......\glue 0.0 plus 3.0fill
+......\glue(\baselineskip) 5.5634
+......\hbox(7.82925+1.75198)x307.28987
 .......\special{color push rgb 0.34119 0.02353 0.54903}
-.......\vbox(28.59998+0.0)x307.28987
-........\glue 8.0
-........\glue(\parskip) 0.0
-........\glue(\parskip) 0.0
-........\hbox(10.29599+2.30399)x307.28987, glue set 177.22751fill
-.........\glue(\leftskip) 8.0
+.......\vbox(7.82925+1.75198)x307.28987
+........\hbox(7.82925+1.75198)x307.28987, glue set 220.55493fill
 .........\hbox(0.0+0.0)x0.0
-.........\TU/Gotham(0)/m/n/14.4 Aspasius
-.........\glue 4.31999 plus 2.15999 minus 1.43999
-.........\TU/Gotham(0)/m/n/14.4 Protus
+.........\TU/Gotham(0)/m/n/10.95 Aspasius
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 Protus
 .........\penalty 10000
 .........\glue(\parfillskip) 0.0 plus 1.0fil
-.........\glue(\rightskip) 8.0 plus 1.0fill
-........\glue 8.0
+.........\glue(\rightskip) 0.0 plus 1.0fill
 .......\special{color pop}
-......\glue(\lineskip) 1.0
-......\hbox(24.90398+0.0)x307.28987
+......\glue(\baselineskip) 3.85452
+......\hbox(7.9935+0.13138)x307.28987
 .......\special{color push rgb 0.34119 0.02353 0.54903}
-.......\vbox(24.90398+0.0)x307.28987
-........\glue 8.0
-........\glue(\parskip) 0.0
-........\glue(\parskip) 0.0
-........\hbox(8.76+0.14398)x307.28987, glue set 103.64586fill
-.........\glue(\leftskip) 8.0
+.......\vbox(7.9935+0.13138)x307.28987
+........\hbox(7.9935+0.13138)x307.28987, glue set 136.06476fill
 .........\hbox(0.0+0.0)x0.0
-.........\TU/Gotham(0)/m/n/12 Universitates
-.........\glue 3.6 plus 1.8 minus 1.2
-.........\TU/Gotham(0)/m/n/12 Novum
-.........\glue 3.6 plus 1.8 minus 1.2
-.........\TU/Gotham(0)/m/n/12 Eboracum
+.........\TU/Gotham(0)/m/n/10.95 Universitates
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 Novum
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 Eboracum
 .........\penalty 10000
 .........\glue(\parfillskip) 0.0 plus 1.0fil
-.........\glue(\rightskip) 8.0 plus 1.0fill
-........\glue 8.0
+.........\glue(\rightskip) 0.0 plus 1.0fill
 .......\special{color pop}
-......\glue(\lineskip) 1.0
-......\hbox(25.1323+0.0)x307.28987
+......\glue(\baselineskip) 5.67223
+......\hbox(7.7964+1.33589)x307.28987
 .......\special{color push rgb 0.34119 0.02353 0.54903}
-.......\vbox(25.1323+0.0)x307.28987
-........\glue 8.0
-........\glue(\parskip) 0.0
-........\glue(\parskip) 0.0
-........\hbox(7.7964+1.33589)x307.28987, glue set 214.8151fill
-.........\glue(\leftskip) 8.0
+.......\vbox(7.7964+1.33589)x307.28987
+........\hbox(7.7964+1.33589)x307.28987, glue set 230.8151fill
 .........\hbox(0.0+0.0)x0.0
 .........\TU/Gotham(0)/m/n/10.95 June
 .........\glue 3.285 plus 1.6425 minus 1.095
@@ -239,17 +246,12 @@ Completed box being shipped out [1]
 .........\TU/Gotham(0)/m/n/10.95 2023
 .........\penalty 10000
 .........\glue(\parfillskip) 0.0 plus 1.0fil
-.........\glue(\rightskip) 8.0 plus 1.0fill
-........\glue 8.0
+.........\glue(\rightskip) 0.0 plus 1.0fill
 .......\special{color pop}
-......\glue 5.47499
-......\special{color push rgb 0.34119 0.02353 0.54903}
 ......\special{color pop}
-......\special{color pop}
-......\glue 0.0 plus 1.0fill
 ......\glue 0.0 plus 1.5fill
-.....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1\ETC.}
-.....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1}{1/1}{}{0}}}}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {1}{1}}}}
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 ....\glue(\baselineskip) 4.0
@@ -390,7 +392,7 @@ Completed box being shipped out [2]
 ....\vbox(269.14662+0.0)x307.28987
 .....\write-{}
 .....\glue(\topskip) 0.0
-.....\vbox(269.14662+0.0)x307.28987, glue set 35.31108fill
+.....\vbox(269.14662+0.0)x307.28987, glue set 30.44772fill
 ......\penalty 10000
 ......\vbox(0.0+0.0)x0.0
 ......\penalty 10000
@@ -399,12 +401,12 @@ Completed box being shipped out [2]
 ......\vbox(0.0+0.0)x0.0
 ......\special{color push rgb 0.25098 0.25098 0.25098}
 ......\special{color push rgb 0.53725 0 0.88235}
-......\glue(\baselineskip) 7.8416
-......\hbox(22.1584+0.0)x307.28987, glue set - 1.0
+......\glue(\lineskip) 1.0
+......\hbox(41.1584+0.0)x307.28987, glue set - 1.0
 .......\glue 0.0 minus 28.45274
-.......\hbox(22.1584+0.0)x364.19536
+.......\hbox(41.1584+0.0)x364.19536
 ........\special{color push rgb 0.53725 0 0.88235}
-........\vbox(22.1584+0.0)x364.19536
+........\vbox(41.1584+0.0)x364.19536
 .........\glue 8.5359
 .........\glue(\parskip) 0.0
 .........\glue(\parskip) 0.0
@@ -432,6 +434,32 @@ Completed box being shipped out [2]
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\special{color push rgb 0.53725 0 0.88235}
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\lineskip) 1.0
+.........\hbox(12.59995+5.40005)x364.19536, glue set 65.66129fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\rule(12.59995+5.40005)x0.0
+..........\TU/Gotham(0)/l/n/14.4 Nulla
+..........\glue 4.31999 plus 2.15999 minus 1.43999
+..........\TU/Gotham(0)/l/n/14.4 non
+..........\glue 4.31999 plus 2.15999 minus 1.43999
+..........\TU/Gotham(0)/l/n/14.4 felis
+..........\glue 4.31999 plus 2.15999 minus 1.43999
+..........\TU/Gotham(0)/l/n/14.4 congue,
+..........\glue 4.31999 plus 2.69998 minus 1.15198
+..........\TU/Gotham(0)/l/n/14.4 mattis
+..........\glue 4.31999 plus 2.15999 minus 1.43999
+..........\TU/Gotham(0)/l/n/14.4 nulla
+..........\glue 4.31999 plus 2.15999 minus 1.43999
+..........\TU/Gotham(0)/l/n/14.4 eget
+..........\rule(12.59995+5.40005)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\special{color pop}
 .........\glue -12.6888
 .........\glue -8.5359
 .........\glue 8.5359
@@ -682,8 +710,8 @@ Completed box being shipped out [2]
 .......\glue(\parfillskip) 0.0 plus 1.0fil
 .......\glue(\rightskip) 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.5fill
-.....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{2\ETC.}
-.....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{2}{2/2}{}{0}}}}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {2}{2}}}}
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 ....\glue(\baselineskip) 4.0
@@ -884,7 +912,9 @@ Completed box being shipped out [3]
 .......\hbox(0.0+0.0)x0.0
 .......\TU/Gotham(0)/m/n/10.95 Sed
 .......\glue 3.285 plus 1.6425 minus 1.095
+.......\special{color push rgb 0.98431 0.05882 0.4706}
 .......\TU/Gotham(0)/m/n/10.95 vestibulum
+.......\special{color pop}
 .......\glue 3.285 plus 1.6425 minus 1.095
 .......\TU/Gotham(0)/m/n/10.95 massa
 .......\glue 3.285 plus 1.6425 minus 1.095
@@ -1152,8 +1182,8 @@ Completed box being shipped out [3]
 .......\glue(\parfillskip) 0.0 plus 1.0fil
 .......\glue(\rightskip) 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.5fill
-.....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{3\ETC.}
-.....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{3}{3/3}{}{0}}}}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {3}{3}}}}
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 ....\glue(\baselineskip) 4.0
@@ -1630,8 +1660,8 @@ Completed box being shipped out [4]
 ......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
 ......\glue 3.0 plus 1.0 minus 1.0
 ......\glue 0.0 plus 1.5fill
-.....\write1{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{4\ETC.}
-.....\write1{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {\ETC.}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{4}{4/4}{}{0}}}}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {4}{4}}}}
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 ....\glue(\baselineskip) 4.0
@@ -1656,13 +1686,10 @@ Completed box being shipped out [4]
 ......\glue 0.0 plus 1.0fil
 .....\special{color pop}
 .\kern 0.0
+)
 \tf@nav=\write...
 \tf@toc=\write...
 \tf@snm=\write...
-(beamerthemeNYU22-001.aux)
-Package rerunfilecheck Warning: File `beamerthemeNYU22-001.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-Package rerunfilecheck Info: Checksums for `beamerthemeNYU22-001.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+(beamerthemeNYU22-001.aux (lipsum.aux))
+Package rerunfilecheck Info: File `beamerthemeNYU22-001.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.

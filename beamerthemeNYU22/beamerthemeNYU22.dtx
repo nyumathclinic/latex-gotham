@@ -77,16 +77,7 @@
 %    \end{macrocode}
 %
 %
-% \subsection{Option}
-%
-% \changes{v0.6.0}{2019/12/13}{Added this option}
-%
-%    \begin{macrocode}
-\newif\ifhoefler
-\hoeflerfalse
-\DeclareOption{Hoefler}{\hoeflertrue}
-\ProcessOptions\relax
-%    \end{macrocode}
+% \subsection{Options}
 %
 % \subsection{Outer theme elements}
 %
@@ -116,33 +107,101 @@
 %
 %    \begin{macrocode}
 \setbeamertemplate{sidebar right}{}
-\RequirePackage{tikz}
-\tikzset{title page logo/.style={}}
-\def\inserttitlepagelogo{\tikz[title page logo]{\node{\pgfuseimage{logo}};}}
-\defbeamertemplate<all>{title page logo}{none}{}
-\defbeamertemplate<presentation>*{title page logo}{default}{\hfill\inserttitlepagelogo\hfill\null}
-\defbeamertemplate<presentation>{title page logo}{south west}{
-    \tikzset{title page logo/.append style={remember picture,overlay,
-        every node/.append style={
-        anchor=south west,
-        at={([xshift=0.19in,yshift=0.19in]current page.south west)}
-    }}}
-    \inserttitlepagelogo%
+\setbeamertemplate{logo}{}
+%    \end{macrocode}
+% 
+%
+% \subsubsection{Title Page}
+%
+% The template page has two presentation styles: ``bold'' and ``elegant''.
+% The bold one looks like it matches the contemporary/bold tone quadrant, while
+% the elegant one looks more like traditional/subtle. So we will adapt the bold
+% template to contemporary bold and subtle, and the elegant one to traditional
+% bold and suble.
+%
+%^^A https://www.nyu.edu/content/nyu/en/employees/resources-and-services/media-and-communications/nyu-brand-guidelines/creating-messaging-and-visual-assets/templates/jcr:content/1/par-left/nyucolumncontrol_59901163/1/nyuimage.img.1280.high.jpg/1645648613611.jpg
+%^^A https://docs.google.com/presentation/d/1ACkA1kI3Sto0T7UaH_x3hZBtnIL0DZMRgoie6f0SKwc/copy
+%
+% The bold template has the title flush left, with the logo on top.
+% What follows below is adapted from beamer's default inner theme.
+%    \begin{macrocode}
+\setbeamertemplate{title}{
+  \begin{beamercolorbox}[left]{title}
+    \usebeamerfont{title}\inserttitle\par%
+    \ifx\insertsubtitle\@empty%
+    \else%
+      \vskip0.25em%
+      {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+    \fi%     
+  \end{beamercolorbox}%
 }
 
-\defbeamertemplate<article>{title page logo}{north west}{
-    \tikzset{title page logo/.append style={remember picture,overlay,
-        every node/.append style={
-        anchor=north west,
-        at={([xshift=0.5in,yshift=-0.5in]current page.north west)}
-    }}}
-    \inserttitlepagelogo%
+\setbeamertemplate{author}{
+  \begin{beamercolorbox}[left]{author}
+    \usebeamerfont{author}\insertauthor
+  \end{beamercolorbox}
 }
-\addtobeamertemplate{title page}{}{\usebeamertemplate{title page logo}}
-\mode<article>{\apptocmd{\maketitle}{\usebeamertemplate{title page logo}}}
 
+\setbeamertemplate{institute}{%
+  \begin{beamercolorbox}[left]{institute}
+    \usebeamerfont{institute}\insertinstitute
+  \end{beamercolorbox}
+}
+
+\setbeamertemplate{date}{%
+    \begin{beamercolorbox}[left]{date}
+      \usebeamerfont{date}\insertdate
+    \end{beamercolorbox}
+}
+
+\setbeamertemplate{titlegraphic}{%
+  {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+}
+
+%<*contemporary>
+\setbeamertemplate{title page}{
+  \vbox{}
+  \usebeamertemplate{titlegraphic}
+  \vfill
+  \begingroup
+    \centering
+    \usebeamertemplate{title}
+    \vskip 0pt plus 3fill
+    \usebeamertemplate{author}
+    \usebeamertemplate{institute}
+    \usebeamertemplate{date}
+  \endgroup
+}
+%</contemporary>
+%    \end{macrocode}
+% 
+% The contemporary/bold tone quadrant specifies titles in caps.
+% This can't be done on the font level, but for certain elements the text
+% itself can be uppercased.
+%    \begin{macrocode}
+%<*contemporary&bold>
+\addtobeamertemplate{title}{
+  \edef\inserttitle{\MakeUppercase{\inserttitle}}
+}{}
+\addtobeamertemplate{date}{
+  \edef\insertdate{\MakeUppercase{\insertdate}}
+}{}
+\addtobeamertemplate{frametitle}{
+  \edef\insertframetitle{\MakeUppercase{\insertframetitle}}
+}{}
+%</contemporary&bold>
+%    \end{macrocode}
+% It's not as easy to do this for the author and institute elements because 
+% of the |\and|s.
+%
+% The logo and title graphic are the same.
+% But the logo is only going to be used in the bold tone quadrants.
+%    \begin{macrocode}
 \pgfdeclareimage{logo}{nyu_short_black}
-\logo{\pgfuseimage{logo}}
+\pgfdeclareimage{titlegraphic}{nyu_short_black}
+\titlegraphic{\pgfuseimage{titlegraphic}}
+\logo{}
+%<bold>\logo{\pgfuseimage{logo}}
 %    \end{macrocode}
 %
 %
@@ -218,6 +277,15 @@
 \setbeamercolor*{separation line}{fg=UltraViolet}
 \setbeamercolor*{fine separation line}{fg=UltraViolet}
 %</contemporary&subtle>
+%<*contemporary&bold>
+\setbeamercolor{alerted text}{fg=UltraViolet}
+\setbeamercolor{block title}{fg=White,bg=NyuViolet}
+\setbeamercolor{block body}{fg=NyuViolet,bg=LightGray}
+\setbeamercolor{block title example}{fg=NyuViolet,bg=LightGray}
+\setbeamercolor{block body example}{use=normal text,fg=normal text.fg,bg=LightGray}
+\setbeamercolor{block title alerted}{use=alerted text,fg=White,bg=alerted text.fg}
+\setbeamercolor{block body alerted}{fg=White,bg=UltraViolet!50}
+%</contemporary&bold>
 %    \end{macrocode}
 %
 %
@@ -241,6 +309,11 @@
 % Font sizes are conistent across tone quadrants.
 %    \begin{macrocode}
 \setbeamerfont{title}{size=\HUGE}
+\setbeamerfont{subtitle}{size=\LARGE}
+\setbeamerfont{author}{size=\normalsize}
+\setbeamerfont{institute}{size=\normalsize}
+\setbeamerfont{date}{size=\normalsize}
+
 \setbeamerfont{frametitle}{size=\Huge}
 \setbeamerfont{framesubtitle}{size=\Large}
 %    \end{macrocode}
