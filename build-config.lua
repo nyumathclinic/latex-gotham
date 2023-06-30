@@ -43,7 +43,9 @@ function only_if_clean(f)
 end
 
 -- tag = only_if_clean(tag)
-target_list.tag.pre = only_if_clean(target_list.tag.pre)
+if target_list then
+    target_list.tag.pre = only_if_clean(target_list.tag.pre)
+end
 
 -- Bump version LaTeX style:
 -- 0.1 -> 0.1a -> 0.1b -> 0.2 -> ... -> 1.0 -> 1.1 -> 1.1a -> ...
@@ -97,10 +99,12 @@ function bump_version(part)
     end
 end
 
-target_list.bump = {
-    func = bump_version,
-    help = "Bump the version, tag, and commit"
-}
+if target_list then
+    target_list.bump = {
+        func = bump_version,
+        help = "Bump the version, tag, and commit"
+    }
+end
 
 function update_tag(file,content,tagname,tagdate)
     -- TeX dates are in yyyy/mm/dd format.  tagdate is in yyyy-mm-dd format.

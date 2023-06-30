@@ -8,6 +8,7 @@ date = "2023-05-29"
 
 
 maindir = ".."
+supportdir = "support"
 typesetfiles = {"*.tex", "examples/*.tex"}
 typesetsuppfiles = {"*.pdf"}
 typesetexe = "xelatex"

@@ -17,7 +17,8 @@ typesetfiles = {"*.tex", "examples/*.tex"}
 typesetsuppfiles = {"*.png", "*.bib"}
 typesetdeps = {
    maindir .. "/xcolor-nyu22",
-   maindir .. "/nyu22fonts"
+   maindir .. "/nyu22fonts",
+--   maindir .. "/support"
 }
 typesetexe = "lualatex"
 -- Use a bundle-level bib file
