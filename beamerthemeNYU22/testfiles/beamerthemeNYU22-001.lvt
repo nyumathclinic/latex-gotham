@@ -8,7 +8,5 @@
 \begin{document}
 \START
 \include{lipsum}
-\end{document}
-
-\vfil\break
 \END
+\end{document}

@@ -64,49 +64,6 @@ Completed box being shipped out [1]
 ............\special{color push rgb 0.25098 0.25098 0.25098}
 ............\special{color pop}
 ............\special{color pop}
-........\glue(\baselineskip) 0.0
-........\hbox(0.0+0.0)x-56.90549
-.........\hbox(0.0+0.0)x0.0
-..........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
-...........\hbox(273.14662+0.0)x-28.45274
-............\glue -28.45274
-............\hbox(0.0+0.0)x0.0
-.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
-..............\special{color push rgb 0.25098 0.25098 0.25098}
-..............\glue 0.0 plus 1.0fil minus 1.0fil
-.............\special{color pop}
-............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
-.............\special{color push rgb 0.25098 0.25098 0.25098}
-.............\special{color push rgb 0.25098 0.25098 0.25098}
-.............\special{color pop}
-.............\special{color pop}
-.............\glue 0.0 plus 1.0fil
-.........\hbox(0.0+0.0)x0.0
-..........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
-...........\hbox(273.14662+0.0)x335.74261
-............\glue 307.28987
-............\glue 28.45274
-............\hbox(0.0+0.0)x0.0
-.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
-..............\special{color push rgb 0.25098 0.25098 0.25098}
-..............\glue 0.0 plus 1.0fil minus 1.0fil
-.............\special{color pop}
-............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
-.............\special{color push rgb 0.25098 0.25098 0.25098}
-.............\special{color push rgb 0.25098 0.25098 0.25098}
-.............\special{color pop}
-.............\special{color pop}
-.............\glue 0.0 plus 1.0fil
-.........\hbox(0.0+0.0)x-56.90549
-..........\glue -28.45274
-..........\hbox(0.0+0.0)x0.0
-...........\vbox(0.0+0.0)x0.0
-............\special{color push rgb 0.25098 0.25098 0.25098}
-............\special{color push rgb 0.25098 0.25098 0.25098}
-............\special{color pop}
-............\special{color pop}
-..........\glue -28.45274
-.........\glue 0.0 plus 1.0fil
 ........\glue(\parskip) 0.0
 ........\glue(\parskip) 0.0
 ........\glue(\baselineskip) 0.0
@@ -132,11 +89,15 @@ Completed box being shipped out [1]
 .....\special{color push rgb 0.25098 0.25098 0.25098}
 .....\write-{}
 .....\glue(\topskip) 0.0
-.....\vbox(269.14662+0.0)x307.28987, glue set 20.60654fill
+.....\vbox(269.14662+0.0)x307.28987, glue set 23.31424fill
 ......\penalty 10000
 ......\vbox(0.0+0.0)x0.0
 ......\penalty 10000
 ......\penalty 10000
+......\rule(0.0+0.0)x*
+......\penalty 10000
+......\glue 0.0
+......\glue 0.0
 ......\penalty 10000
 ......\penalty 10000
 ......\glue 0.0 plus 1.0fill
@@ -145,7 +106,6 @@ Completed box being shipped out [1]
 ......\glue 0.0
 ......\vbox(0.0+0.0)x0.0
 ......\special{color push rgb 0.34119 0.02353 0.54903}
-......\glue(\baselineskip) 13.6
 ......\vbox(0.0+0.0)x0.0
 ......\special{color push rgb 0.34119 0.02353 0.54903}
 ......\glue(\parskip) 0.0
@@ -161,7 +121,7 @@ Completed box being shipped out [1]
 ...........\special{x:scale 1 1}
 ...........\hbox(27.10126+0.0)x0.0, glue set - 80.3fil
 ............\hbox(27.10126+0.0)x80.3
-.............\XeTeXpdffile "./nyu_short_black.pdf"
+.............\XeTeXpdffile "../nyu_short_black.pdf"
 ............\glue 0.0 plus 1.0fil minus 1.0fil
 ...........\special{pdf:etrans}
 ..........\kern 80.3
@@ -250,6 +210,10 @@ Completed box being shipped out [1]
 .......\special{color pop}
 ......\special{color pop}
 ......\glue 0.0 plus 1.5fill
+......\rule(0.0+0.0)x*
+......\penalty 10000
+......\glue -4.0
+......\glue 0.0
 .....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1}{1/1}{}{0}}}}
 .....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {1}{1}}}}
 .....\glue 0.0 plus 1.0fil
@@ -257,23 +221,17 @@ Completed box being shipped out [1]
 ....\glue(\baselineskip) 4.0
 ....\hbox(0.0+0.0)x307.28987
 .....\special{color push rgb 0.25098 0.25098 0.25098}
-.....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
-......\vbox(0.0+0.0)x0.0
-.......\hbox(0.0+0.0)x-56.90549
-........\hbox(0.0+0.0)x-56.90549
-.........\glue -28.45274
-.........\hbox(0.0+0.0)x0.0
-..........\vbox(0.0+0.0)x0.0
-...........\special{color push rgb 0.25098 0.25098 0.25098}
-...........\special{color push rgb 0.25098 0.25098 0.25098}
-...........\special{color pop}
-...........\special{color pop}
-.........\glue -28.45274
-........\glue 0.0 plus 1.0fil
-........\glue 0.0 plus 1.0fil
-.......\glue(\lineskip) 0.0
-.......\hbox(0.0+0.0)x0.0
+.....\hbox(0.0+0.0)x307.28987, glue set 333.74261fil
+......\special{color push rgb 0.25098 0.25098 0.25098}
 ......\glue 0.0 plus 1.0fil
+......\hbox(0.0+0.0)x-26.45274
+.......\special{color push rgb 0.25098 0.25098 0.25098}
+.......\special{color push rgb 0.73648 0.6094 0.81961}
+.......\special{color pop}
+.......\special{color pop}
+.......\glue -28.45274
+.......\glue 2.0
+.....\special{color pop}
 .....\special{color pop}
 .\kern 0.0
 .\kern 0.0
@@ -1687,9 +1645,3 @@ Completed box being shipped out [4]
 .....\special{color pop}
 .\kern 0.0
 )
-\tf@nav=\write...
-\tf@toc=\write...
-\tf@snm=\write...
-(beamerthemeNYU22-001.aux (lipsum.aux))
-Package rerunfilecheck Info: File `beamerthemeNYU22-001.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.

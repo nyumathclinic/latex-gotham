@@ -56,49 +56,6 @@ Completed box being shipped out [1]
 ...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
 ...........\pdfcolorstack 0 pop
 ...........\pdfcolorstack 0 pop
-.......\glue(\baselineskip) 0.0
-.......\hbox(0.0+0.0)x-56.90549, direction TLT
-........\hbox(0.0+0.0)x0.0, direction TLT
-.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
-..........\hbox(273.14662+0.0)x-28.45274, direction TLT
-...........\glue -28.45274
-...........\hbox(0.0+0.0)x0.0, direction TLT
-............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
-.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-.............\glue 0.0 plus 1.0fil minus 1.0fil
-............\pdfcolorstack 0 pop
-...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
-............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-............\pdfcolorstack 0 pop
-............\pdfcolorstack 0 pop
-............\glue 0.0 plus 1.0fil
-........\hbox(0.0+0.0)x0.0, direction TLT
-.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
-..........\hbox(273.14662+0.0)x335.74261, direction TLT
-...........\glue 307.28987
-...........\glue 28.45274
-...........\hbox(0.0+0.0)x0.0, direction TLT
-............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
-.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-.............\glue 0.0 plus 1.0fil minus 1.0fil
-............\pdfcolorstack 0 pop
-...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
-............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-............\pdfcolorstack 0 pop
-............\pdfcolorstack 0 pop
-............\glue 0.0 plus 1.0fil
-........\hbox(0.0+0.0)x-56.90549, direction TLT
-.........\glue -28.45274
-.........\hbox(0.0+0.0)x0.0, direction TLT
-..........\vbox(0.0+0.0)x0.0, direction TLT
-...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-...........\pdfcolorstack 0 pop
-...........\pdfcolorstack 0 pop
-.........\glue -28.45274
-........\glue 0.0 plus 1.0fil
 .......\glue(\parskip) 0.0
 .......\glue(\parskip) 0.0
 .......\glue(\baselineskip) 0.0
@@ -125,11 +82,15 @@ Completed box being shipped out [1]
 ....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
 ....\write-{}
 ....\glue(\topskip) 0.0
-....\vbox(269.14662+0.0)x307.28987, glue set 20.5661fill, direction TLT
+....\vbox(269.14662+0.0)x307.28987, glue set 23.27379fill, direction TLT
 .....\penalty 10000
 .....\vbox(0.0+0.0)x0.0, direction TLT
 .....\penalty 10000
 .....\penalty 10000
+.....\rule(0.0+0.0)x*
+.....\penalty 10000
+.....\glue 0.0
+.....\glue 0.0
 .....\penalty 10000
 .....\penalty 10000
 .....\glue 0.0 plus 1.0fill
@@ -138,7 +99,6 @@ Completed box being shipped out [1]
 .....\glue 0.0
 .....\vbox(0.0+0.0)x0.0, direction TLT
 .....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
-.....\glue(\baselineskip) 13.6
 .....\vbox(0.0+0.0)x0.0, direction TLT
 .....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
 .....\glue(\parskip) 0.0
@@ -366,6 +326,10 @@ Completed box being shipped out [1]
 ......\pdfcolorstack 0 pop
 .....\pdfcolorstack 0 pop
 .....\glue 0.0 plus 1.5fill
+.....\rule(0.0+0.0)x*
+.....\penalty 10000
+.....\glue -4.0
+.....\glue 0.0
 ....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1}{1/1}{}{0}}}}
 ....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {1}{1}}}}
 ....\glue 0.0 plus 1.0fil
@@ -373,27 +337,21 @@ Completed box being shipped out [1]
 ...\glue(\baselineskip) 4.0
 ...\hbox(0.0+0.0)x307.28987, direction TLT
 ....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
-.....\vbox(0.0+0.0)x0.0, direction TLT
-......\hbox(0.0+0.0)x-56.90549, direction TLT
-.......\hbox(0.0+0.0)x-56.90549, direction TLT
-........\glue -28.45274
-........\hbox(0.0+0.0)x0.0, direction TLT
-.........\vbox(0.0+0.0)x0.0, direction TLT
-..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-..........\pdfcolorstack 0 pop
-..........\pdfcolorstack 0 pop
-........\glue -28.45274
-.......\glue 0.0 plus 1.0fil
-.......\glue 0.0 plus 1.0fil
-......\glue(\lineskip) 0.0
-......\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x307.28987, glue set 333.74261fil, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
 .....\glue 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x-26.45274, direction TLT
+......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+......\pdfcolorstack 0 push {0.73648 0.6094 0.81961 rg 0.73648 0.6094 0.81961 RG}
+......\pdfcolorstack 0 pop
+......\pdfcolorstack 0 pop
+......\glue -28.45274
+......\glue 2.0
+....\pdfcolorstack 0 pop
 ....\pdfcolorstack 0 pop
 .\kern0.0
 .\kern0.0
-<./nyu_short_black.pdf>
+<../nyu_short_black.pdf>
 LaTeX Font Info:    Trying to load font information for U+msa on input line ....
 LaTeX Font Info:    Trying to load font information for U+msb on input line ....
 Completed box being shipped out [2]

@@ -159,7 +159,7 @@
 }
 
 %<*contemporary>
-\setbeamertemplate{title page}{
+\defbeamertemplate*{title page}{contemporary}{
   \vbox{}
   \usebeamertemplate{titlegraphic}
   \vfill
@@ -197,11 +197,30 @@
 % The logo and title graphic are the same.
 % But the logo is only going to be used in the bold tone quadrants.
 %    \begin{macrocode}
-\pgfdeclareimage{logo}{nyu_short_black}
+\pgfdeclareimage[height=0.6cm]{logo}{nyu_short_color}
 \pgfdeclareimage{titlegraphic}{nyu_short_black}
 \titlegraphic{\pgfuseimage{titlegraphic}}
 \logo{}
-%<bold>\logo{\pgfuseimage{logo}}
+%    \end{macrocode}
+%
+% Here is a template preset to put the logo in the fooline.
+% This is adapted from the |frametitle| template in 
+% \filenm{beamerouterthemedefault.sty}. Note in particular the \qty{0.3}{\centi\meter}
+% separation.
+%    \begin{macrocode}
+\defbeamertemplate{footline}{logo}{
+  \begin{beamercolorbox}[sep=0.3cm,left,wd=\textwidth]{footline}
+    \usebeamerfont{footline}%
+    \insertlogo
+  \end{beamercolorbox}%
+}
+%    \end{macrocode}
+% In the bold themes, we set up the template to display the logo.
+%    \begin{macrocode}
+%<*bold>
+\logo{\pgfuseimage{logo}}
+\setbeamertemplate{footline}[logo]
+%</bold>
 %    \end{macrocode}
 %
 %
