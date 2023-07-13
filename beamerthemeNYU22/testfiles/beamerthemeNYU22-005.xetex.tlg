@@ -909,7 +909,7 @@ Completed box being shipped out [3]
 .......\hbox(0.0+0.0)x0.0
 .......\TU/FrankRuhlLibre(0)/m/n/10.95 Sed
 .......\glue 2.61705 plus 1.30852 minus 0.87234
-.......\special{color push rgb 0.98431 0.05882 0.4706}
+.......\special{color push rgb 0.53725 0 0.88235}
 .......\TU/FrankRuhlLibre(0)/m/n/10.95 vestibulum
 .......\special{color pop}
 .......\glue 2.61705 plus 1.30852 minus 0.87234
@@ -1420,7 +1420,7 @@ Completed box being shipped out [4]
 .......\special{color pop}
 ......\glue(\baselineskip) 1.13716
 ......\hbox(12.31886+2.18999)x307.28987
-.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\special{color push rgb 0.25098 0.25098 0.25098}
 .......\vbox(12.31886+2.18999)x307.28987
 ........\glue -1.28114
 ........\vbox(0.0+0.0)x0.0
@@ -1458,7 +1458,7 @@ Completed box being shipped out [4]
 ......\glue 6.0 plus 2.0 minus 2.0
 ......\glue(\baselineskip) 2.65002
 ......\hbox(8.76+1.91998)x307.28987
-.......\special{color push rgb 0.53725 0 0.88235}
+.......\special{color push rgb 0.48235 0.35294 0.65099}
 .......\vbox(8.76+1.91998)x307.28987
 ........\hbox(8.76+1.91998)x307.28987, glue set 127.65294fil
 .........\hbox(0.0+0.0)x0.0
@@ -1469,7 +1469,7 @@ Completed box being shipped out [4]
 .......\special{color pop}
 ......\glue(\lineskip) 1.0
 ......\hbox(12.31886+2.32138)x307.28987
-.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\special{color push rgb 0.25098 0.25098 0.25098}
 .......\vbox(12.31886+2.32138)x307.28987
 ........\glue -1.28114
 ........\vbox(0.0+0.0)x0.0
@@ -1513,7 +1513,7 @@ Completed box being shipped out [4]
 ......\glue 6.0 plus 2.0 minus 2.0
 ......\glue(\baselineskip) 2.59062
 ......\hbox(8.688+1.94398)x307.28987
-.......\special{color push rgb 0.98431 0.05882 0.4706}
+.......\special{color push rgb 0.53725 0 0.88235}
 .......\vbox(8.688+1.94398)x307.28987
 ........\hbox(8.688+1.94398)x307.28987, glue set 128.18694fil
 .........\hbox(0.0+0.0)x0.0
@@ -1524,7 +1524,7 @@ Completed box being shipped out [4]
 .......\special{color pop}
 ......\glue(\lineskip) 1.0
 ......\hbox(12.31886+1.17163)x307.28987
-.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\special{color push rgb 0.53725 0 0.88235}
 .......\vbox(12.31886+1.17163)x307.28987
 ........\glue -1.28114
 ........\vbox(0.0+0.0)x0.0

@@ -1406,7 +1406,7 @@ Completed box being shipped out [4]
 .......\special{color pop}
 ......\glue(\lineskip) 1.0
 ......\hbox(12.18472+1.77388)x307.28987
-.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\special{color push rgb 0.25098 0.25098 0.25098}
 .......\vbox(12.18472+1.77388)x307.28987
 ........\glue -1.41528
 ........\vbox(0.0+0.0)x0.0
@@ -1461,7 +1461,7 @@ Completed box being shipped out [4]
 .......\special{color pop}
 ......\glue(\lineskip) 1.0
 ......\hbox(25.78473+0.12044)x307.28987
-.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\special{color push rgb 0.98431 0.05882 0.4706}
 .......\vbox(25.78473+0.12044)x307.28987
 ........\glue -1.41528
 ........\vbox(0.0+0.0)x0.0
