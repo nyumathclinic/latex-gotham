@@ -120,7 +120,7 @@ Completed box being shipped out [1]
 .....\glue 0.0 plus 1.0fill
 .....\glue(\lineskip) 1.0
 .....\hbox(49.17259+0.20737)x307.28987, direction TLT
-......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 ......\vbox(49.17259+0.20737)x307.28987, direction TLT
 .......\hbox(19.7076+5.972)x307.28987, glue set 66.31937fill, direction TLT
 ........\glue(\leftskip) 0.0 plus 1.0fill
@@ -149,7 +149,7 @@ Completed box being shipped out [1]
 ........\glue(\parfillskip) 0.0 plus 1.0fil
 ........\glue(\rightskip) 0.0 plus 1.0fill
 .......\glue 7.465
-.......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.......\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 .......\glue(\parskip) 0.0
 .......\glue(\parskip) 0.0
 .......\glue(\baselineskip) 4.07024
@@ -476,12 +476,12 @@ Completed box being shipped out [2]
 .....\penalty 10000
 .....\vbox(0.0+0.0)x0.0, direction TLT
 .....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 .....\glue(\lineskip) 1.0
 .....\hbox(43.2483+0.0)x307.28987, glue set - 1.0, direction TLT
 ......\glue 0.0 minus 28.45274
 ......\hbox(43.2483+0.0)x364.19536, direction TLT
-.......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.......\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 .......\vbox(43.2483+0.0)x364.19536, direction TLT
 ........\glue 8.5359
 ........\glue(\parskip) 0.0
@@ -543,7 +543,7 @@ Completed box being shipped out [2]
 .........\penalty 10000
 .........\glue(\parfillskip) 0.0 plus 1.0fil
 .........\glue(\rightskip) 8.5359 plus 1.0fill
-........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 ........\glue(\parskip) 0.0
 ........\glue(\parskip) 0.0
 ........\glue(\lineskip) 1.0
@@ -1427,12 +1427,12 @@ Completed box being shipped out [3]
 .....\penalty 10000
 .....\vbox(0.0+0.0)x0.0, direction TLT
 .....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 .....\glue(\baselineskip) 5.7517
 .....\hbox(24.2483+0.0)x307.28987, glue set - 1.0, direction TLT
 ......\glue 0.0 minus 28.45274
 ......\hbox(24.2483+0.0)x364.19536, direction TLT
-.......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.......\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 .......\vbox(24.2483+0.0)x364.19536, direction TLT
 ........\glue 8.5359
 ........\glue(\parskip) 0.0
@@ -1512,7 +1512,7 @@ Completed box being shipped out [3]
 ......\TU/Gotham(0)/m/n/10.95 e
 ......\TU/Gotham(0)/m/n/10.95 d
 ......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
-......\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+......\pdfcolorstack 0 push {0.98431 0.05882 0.4706 rg 0.98431 0.05882 0.4706 RG}
 ......\TU/Gotham(0)/m/n/10.95 v
 ......\kern-0.3285 (font)
 ......\TU/Gotham(0)/m/n/10.95 e
@@ -2347,12 +2347,12 @@ Completed box being shipped out [4]
 .....\penalty 10000
 .....\vbox(0.0+0.0)x0.0, direction TLT
 .....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
-.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 .....\glue(\baselineskip) 5.7517
 .....\hbox(24.2483+0.0)x307.28987, glue set - 1.0, direction TLT
 ......\glue 0.0 minus 28.45274
 ......\hbox(24.2483+0.0)x364.19536, direction TLT
-.......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.......\pdfcolorstack 0 push {0.2 0.02353 0.38431 rg 0.2 0.02353 0.38431 RG}
 .......\vbox(24.2483+0.0)x364.19536, direction TLT
 ........\glue 8.5359
 ........\glue(\parskip) 0.0
@@ -2554,7 +2554,7 @@ Completed box being shipped out [4]
 .....\glue 6.0 plus 2.0 minus 2.0
 .....\glue(\baselineskip) 3.544
 .....\hbox(8.304+2.4)x307.28987, direction TLT
-......\pdfcolorstack 0 push {0 0.5 0 rg 0 0.5 0 RG}
+......\pdfcolorstack 0 push {0.6706 0.5098 0.77255 rg 0.6706 0.5098 0.77255 RG}
 ......\vbox(8.304+2.4)x307.28987, direction TLT
 .......\hbox(8.304+2.4)x307.28987, glue set 131.16293fil, direction TLT
 ........\localpar
@@ -2690,7 +2690,7 @@ Completed box being shipped out [4]
 .....\glue 6.0 plus 2.0 minus 2.0
 .....\glue(\baselineskip) 3.76212
 .....\hbox(8.064+2.544)x307.28987, direction TLT
-......\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+......\pdfcolorstack 0 push {0.98431 0.05882 0.4706 rg 0.98431 0.05882 0.4706 RG}
 ......\vbox(8.064+2.544)x307.28987, direction TLT
 .......\hbox(8.064+2.544)x307.28987, glue set 131.24692fil, direction TLT
 ........\localpar

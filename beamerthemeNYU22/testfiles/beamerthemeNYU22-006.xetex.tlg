@@ -134,7 +134,7 @@ Completed box being shipped out [1]
 ......\glue 0.0 plus 1.0fill
 ......\glue(\lineskip) 1.0
 ......\hbox(49.17259+0.20735)x307.28987
-.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\special{color push rgb 0.2 0.02353 0.38431}
 .......\vbox(49.17259+0.20735)x307.28987
 ........\hbox(19.7076+5.97198)x307.28987, glue set 66.31937fill
 .........\glue(\leftskip) 0.0 plus 1.0fill
@@ -146,7 +146,7 @@ Completed box being shipped out [1]
 .........\glue(\parfillskip) 0.0 plus 1.0fil
 .........\glue(\rightskip) 0.0 plus 1.0fill
 ........\glue 7.465
-........\special{color push rgb 0.34119 0.02353 0.54903}
+........\special{color push rgb 0.2 0.02353 0.38431}
 ........\glue(\parskip) 0.0
 ........\glue(\parskip) 0.0
 ........\glue(\baselineskip) 4.07025
@@ -364,12 +364,12 @@ Completed box being shipped out [2]
 ......\penalty 10000
 ......\vbox(0.0+0.0)x0.0
 ......\special{color push rgb 0.25098 0.25098 0.25098}
-......\special{color push rgb 0.34119 0.02353 0.54903}
+......\special{color push rgb 0.2 0.02353 0.38431}
 ......\glue(\lineskip) 1.0
 ......\hbox(43.2483+0.0)x307.28987, glue set - 1.0
 .......\glue 0.0 minus 28.45274
 .......\hbox(43.2483+0.0)x364.19536
-........\special{color push rgb 0.34119 0.02353 0.54903}
+........\special{color push rgb 0.2 0.02353 0.38431}
 ........\vbox(43.2483+0.0)x364.19536
 .........\glue 8.5359
 .........\glue(\parskip) 0.0
@@ -398,7 +398,7 @@ Completed box being shipped out [2]
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 8.5359 plus 1.0fill
-.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\special{color push rgb 0.2 0.02353 0.38431}
 .........\glue(\parskip) 0.0
 .........\glue(\parskip) 0.0
 .........\glue(\lineskip) 1.0
@@ -821,12 +821,12 @@ Completed box being shipped out [3]
 ......\penalty 10000
 ......\vbox(0.0+0.0)x0.0
 ......\special{color push rgb 0.25098 0.25098 0.25098}
-......\special{color push rgb 0.34119 0.02353 0.54903}
+......\special{color push rgb 0.2 0.02353 0.38431}
 ......\glue(\baselineskip) 5.7517
 ......\hbox(24.2483+0.0)x307.28987, glue set - 1.0
 .......\glue 0.0 minus 28.45274
 .......\hbox(24.2483+0.0)x364.19536
-........\special{color push rgb 0.34119 0.02353 0.54903}
+........\special{color push rgb 0.2 0.02353 0.38431}
 ........\vbox(24.2483+0.0)x364.19536
 .........\glue 8.5359
 .........\glue(\parskip) 0.0
@@ -876,7 +876,7 @@ Completed box being shipped out [3]
 .......\hbox(0.0+0.0)x0.0
 .......\TU/Gotham(0)/m/n/10.95 Sed
 .......\glue 3.285 plus 1.6425 minus 1.095
-.......\special{color push rgb 1 0 0}
+.......\special{color push rgb 0.98431 0.05882 0.4706}
 .......\TU/Gotham(0)/m/n/10.95 vestibulum
 .......\special{color pop}
 .......\glue 3.285 plus 1.6425 minus 1.095
@@ -1293,12 +1293,12 @@ Completed box being shipped out [4]
 ......\penalty 10000
 ......\vbox(0.0+0.0)x0.0
 ......\special{color push rgb 0.25098 0.25098 0.25098}
-......\special{color push rgb 0.34119 0.02353 0.54903}
+......\special{color push rgb 0.2 0.02353 0.38431}
 ......\glue(\baselineskip) 5.7517
 ......\hbox(24.2483+0.0)x307.28987, glue set - 1.0
 .......\glue 0.0 minus 28.45274
 .......\hbox(24.2483+0.0)x364.19536
-........\special{color push rgb 0.34119 0.02353 0.54903}
+........\special{color push rgb 0.2 0.02353 0.38431}
 ........\vbox(24.2483+0.0)x364.19536
 .........\glue 8.5359
 .........\glue(\parskip) 0.0
@@ -1395,7 +1395,7 @@ Completed box being shipped out [4]
 ......\glue 6.0 plus 2.0 minus 2.0
 ......\glue(\baselineskip) 3.54402
 ......\hbox(8.304+2.39998)x307.28987
-.......\special{color push rgb 0 0.5 0}
+.......\special{color push rgb 0.6706 0.5098 0.77255}
 .......\vbox(8.304+2.39998)x307.28987
 ........\hbox(8.304+2.39998)x307.28987, glue set 131.16293fil
 .........\hbox(0.0+0.0)x0.0
@@ -1450,7 +1450,7 @@ Completed box being shipped out [4]
 ......\glue 6.0 plus 2.0 minus 2.0
 ......\glue(\baselineskip) 3.76213
 ......\hbox(8.064+2.54399)x307.28987
-.......\special{color push rgb 1 0 0}
+.......\special{color push rgb 0.98431 0.05882 0.4706}
 .......\vbox(8.064+2.54399)x307.28987
 ........\hbox(8.064+2.54399)x307.28987, glue set 131.24693fil
 .........\hbox(0.0+0.0)x0.0

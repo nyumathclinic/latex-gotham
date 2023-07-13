@@ -294,7 +294,7 @@
 % I decided against having separate color and font themes for each tone 
 % quadrant. Because there is no good reason to use the color theme from one 
 % quadrant and the font theme from another.
-
+%
 % Can't actually figure out what these should be. Not too many 
 % themes use them. 
 %    \begin{macrocode}
@@ -310,7 +310,6 @@
 
 \setbeamercolor*{example text}{fg=MediumViolet2}
 \setbeamercolor*{alerted text}{fg=Magenta}
-
 
 \setbeamercolor{block title}{fg=LightGray,bg=NyuViolet}
 \setbeamercolor{block title alerted}{use=alerted text,fg=alerted text.fg!10,bg=alerted text.fg}
@@ -335,6 +334,17 @@
 \setbeamercolor{block body alerted}{fg=White,bg=UltraViolet!50}
 %</contemporary&bold>
 %    \end{macrocode}
+%
+%<*traditional&bold>
+\setbeamercolor{titlelike}{fg=DeepViolet}
+\setbeamercolor*{example text}{fg=UltraViolet}
+\setbeamercolor*{alerted text}{fg=Magenta}
+%</traditional&bold>
+%<*traditional&subtle>
+\setbeamercolor{titlelike}{fg=DeepViolet}
+\setbeamercolor*{example text}{fg=LightViolet1}
+\setbeamercolor*{alerted text}{fg=Magenta}
+%</traditional&subtle>
 %
 %
 % \subsection{Fonts}
