@@ -314,7 +314,26 @@
 % \pkg{nyu22fonts} package to set sans and roman fonts to something aligned
 % with the brand.
 %
-% Add the |\HUGE| font size
+% \subsubsection{Families}
+%
+% The contemporary tone uses sans fonts only, while the traditional tone uses a 
+% mixture of sans and roman.
+%
+% \begin{itemize}
+%   \item traditional/subtle: body sans, headers roman
+%   \item traditional/bold: body roman, headers sans  
+% \end{itemize}
+%
+%<*traditional&subtle>
+\usefonttheme[stillsansserifsmall,stillsansseriftext]{serif}
+%</traditional&subtle>
+%<*traditional&bold>
+\usefonttheme[stillsansseriflarge,stillsansserifsmall]{serif}
+%</traditional&bold>
+%
+% \subsubsection{Sizes}
+%
+% Add the |\HUGE| font size.
 %    \begin{macrocode}
 \RequirePackage{moresize}
 %    \end{macrocode}
@@ -336,7 +355,8 @@
 \setbeamerfont{frametitle}{size=\Huge}
 \setbeamerfont{framesubtitle}{size=\Large}
 %    \end{macrocode}
-
+%
+% \subsubsection{Weights}
 % 
 %    \begin{macrocode}
 %<*contemporary&subtle>

@@ -1,0 +1,13 @@
+\input regression-test.tex
+\documentclass{beamer}
+
+\usepackage[Gotham,Frank Ruhl Libre]{nyu22fonts}
+\usetheme{NYU22-traditional-subtle}
+
+\showoutput
+\begin{document}
+\START
+\include{lipsum}
+
+\vfil\break
+\END

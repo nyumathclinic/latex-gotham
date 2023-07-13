@@ -1,0 +1,1530 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+(lipsum.tex
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line ....
+File: nyu_short_black.pdf Graphic file (type pdf)
+<use nyu_short_black.pdf>
+Completed box being shipped out [1]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\special{pdf:obj @pgfcolorspaces <<>>}
+.....\special{pdf:put @resources << /ColorSpace @pgfcolorspaces >>}
+.....\special{pdf:put @pgfcolorspaces <<  /pgfprgb [/Pattern /DeviceRGB]  >>}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\special{pdf:dest (Navigation1) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\special{pdf:dest (page.1) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\special{pdf:put @thispage <</Trans<</S/R>>>>}
+..\vbox(200.87663+0.0)x263.47263
+...\glue -72.26999
+...\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+....\vbox(0.0+0.0)x307.28987
+.....\glue 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x307.28987
+......\special{color push rgb 0.25098 0.25098 0.25098}
+......\hbox(0.0+0.0)x307.28987
+.......\vbox(0.0+0.0)x307.28987
+........\hbox(0.0+0.0)x-28.45274
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+............\special{pdf:put @thispage <</Trans<</S/R>>>>}
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.........\hbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0
+......\special{color pop}
+....\glue 0.0
+....\glue(\lineskip) 0.0
+....\vbox(269.14662+0.0)x307.28987
+.....\special{color push gray 0}
+.....\special{pdf:majorversion 1}
+.....\special{pdf:minorversion 5}
+.....\write-{}
+.....\special{pdf:docview<</OpenAction[@page1/Fit]/PageMode/UseOutlines>>}
+.....\special{pdf:dest (Doc-Start) [@thispage /XYZ @xpos @ypos null]}
+.....\special{pdf:docinfo<</Title()/Subject()/Creator(\376\377\000L\000a\000T\000e\000X\000\040\000w\000i\000t\000h\000\040\000B\000e\000a\000m\000e\000r\000\040\000c\000l\000a\000s\000s)/Author()/Keywords()>>}
+.....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\write-{}
+.....\glue(\topskip) 0.0
+.....\vbox(269.14662+0.0)x307.28987, glue set 30.29155fill
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\penalty 10000
+......\penalty 10000
+......\rule(0.0+0.0)x*
+......\penalty 10000
+......\glue 0.0
+......\glue 0.0
+......\penalty 10000
+......\penalty 10000
+......\glue 0.0 plus 1.0fill
+......\penalty 10000
+......\penalty 10000
+......\glue 0.0
+......\vbox(0.0+0.0)x0.0
+......\special{color push rgb 0.34119 0.02353 0.54903}
+......\vbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fill
+......\glue(\lineskip) 1.0
+......\hbox(49.17259+0.20735)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(49.17259+0.20735)x307.28987
+........\hbox(19.7076+5.97198)x307.28987, glue set 132.63872fill
+.........\hbox(0.0+0.0)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/29.86 Lorem
+.........\glue 7.13654 plus 3.56827 minus 2.37885
+.........\TU/FrankRuhlLibre(0)/m/n/29.86 Ipsum
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fill
+........\glue 7.465
+........\special{color push rgb 0.34119 0.02353 0.54903}
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 4.07025
+........\hbox(11.95776+0.20735)x307.28987, glue set 112.82079fill
+.........\hbox(0.0+0.0)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/17.28 Ut
+.........\glue 4.12991 plus 2.06496 minus 1.37663
+.........\TU/FrankRuhlLibre(0)/m/n/17.28 molestie
+.........\glue 4.12991 plus 2.06496 minus 1.37663
+.........\TU/FrankRuhlLibre(0)/m/n/17.28 eros
+.........\glue 4.12991 plus 2.06496 minus 1.37663
+.........\TU/FrankRuhlLibre(0)/m/n/17.28 sed
+.........\glue 4.12991 plus 2.06496 minus 1.37663
+.........\TU/FrankRuhlLibre(0)/m/n/17.28 enim
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fill
+........\special{color pop}
+.......\special{color pop}
+......\glue 10.95
+......\glue(\baselineskip) 5.5634
+......\hbox(7.82925+1.75198)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(7.82925+1.75198)x307.28987
+........\hbox(7.82925+1.75198)x307.28987, glue set 220.55493fill
+.........\hbox(0.0+0.0)x0.0
+.........\TU/Gotham(0)/m/n/10.95 Aspasius
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 Protus
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fill
+.......\special{color pop}
+......\glue(\baselineskip) 3.85452
+......\hbox(7.9935+0.13138)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(7.9935+0.13138)x307.28987
+........\hbox(7.9935+0.13138)x307.28987, glue set 136.06476fill
+.........\hbox(0.0+0.0)x0.0
+.........\TU/Gotham(0)/m/n/10.95 Universitates
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 Novum
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 Eboracum
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fill
+.......\special{color pop}
+......\glue(\baselineskip) 5.67223
+......\hbox(7.7964+1.33589)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(7.7964+1.33589)x307.28987
+........\hbox(7.7964+1.33589)x307.28987, glue set 230.8151fill
+.........\hbox(0.0+0.0)x0.0
+.........\TU/Gotham(0)/m/n/10.95 June
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 26,
+.........\glue 3.285 plus 2.05312 minus 0.87599
+.........\TU/Gotham(0)/m/n/10.95 2023
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fill
+.......\special{color pop}
+......\glue 5.47499
+......\special{color push rgb 0.34119 0.02353 0.54903}
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\lineskip) 1.0
+......\hbox(27.10118+0.0)x307.28987, glue set 113.49504fil
+.......\glue(\leftskip) 0.0 plus 1.0fil
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(27.10118+0.0)x80.29979
+........\hbox(27.10126+0.0)x80.3
+.........\hbox(27.10126+0.0)x80.3
+..........\hbox(27.10126+0.0)x0.0
+...........\special{pdf:btrans}
+...........\special{x:scale 1 1}
+...........\hbox(27.10126+0.0)x0.0, glue set - 80.3fil
+............\hbox(27.10126+0.0)x80.3
+.............\XeTeXpdffile "../nyu_short_black.pdf"
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\special{pdf:etrans}
+..........\kern 80.3
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\special{color pop}
+......\special{color pop}
+......\glue 0.0 plus 1.0fill
+......\glue 0.0 plus 1.5fill
+......\rule(0.0+0.0)x*
+......\penalty 10000
+......\glue -4.0
+......\glue 0.0
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1}{1/1}{}{0}}}}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {1}{1}}}}
+.....\glue 0.0 plus 1.0fil
+.....\glue 0.0
+....\glue(\baselineskip) 4.0
+....\hbox(0.0+0.0)x307.28987
+.....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\hbox(0.0+0.0)x307.28987, glue set 333.74261fil
+......\special{color push rgb 0.25098 0.25098 0.25098}
+......\glue 0.0 plus 1.0fil
+......\hbox(0.0+0.0)x-26.45274
+.......\special{color push rgb 0.25098 0.25098 0.25098}
+.......\special{color push rgb 0.73648 0.6094 0.81961}
+.......\special{color pop}
+.......\special{color pop}
+.......\glue -28.45274
+.......\glue 2.0
+.....\special{color pop}
+.....\special{color pop}
+.\kern 0.0
+.\kern 0.0
+LaTeX Font Info:    Trying to load font information for U+msa on input line ....
+LaTeX Font Info:    Trying to load font information for U+msb on input line ....
+Completed box being shipped out [2]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\special{pdf:put @resources << /ColorSpace @pgfcolorspaces >>}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\special{pdf:dest (Navigation2) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\special{pdf:dest (page.2) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\special{pdf:put @thispage <</Trans<</S/R>>>>}
+..\vbox(200.87663+0.0)x263.47263
+...\glue -72.26999
+...\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+....\vbox(0.0+0.0)x307.28987
+.....\glue 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x307.28987
+......\special{color push rgb 0.25098 0.25098 0.25098}
+......\hbox(0.0+0.0)x307.28987
+.......\vbox(0.0+0.0)x307.28987
+........\hbox(0.0+0.0)x-28.45274
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+............\special{pdf:put @thispage <</Trans<</S/R>>>>}
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x-56.90549
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+...........\hbox(273.14662+0.0)x-28.45274
+............\glue -28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push rgb 0.25098 0.25098 0.25098}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+...........\hbox(273.14662+0.0)x335.74261
+............\glue 307.28987
+............\glue 28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push rgb 0.25098 0.25098 0.25098}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x-56.90549
+..........\glue -28.45274
+..........\hbox(0.0+0.0)x0.0
+...........\vbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+..........\glue -28.45274
+.........\glue 0.0 plus 1.0fil
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.........\hbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0
+......\special{color pop}
+....\glue 0.0
+....\glue(\lineskip) 0.0
+....\vbox(269.14662+0.0)x307.28987
+.....\write-{}
+.....\glue(\topskip) 0.0
+.....\vbox(269.14662+0.0)x307.28987, glue set 29.61176fill
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\penalty 10000
+......\penalty 10000
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\special{color push rgb 0.25098 0.25098 0.25098}
+......\special{color push rgb 0.34119 0.02353 0.54903}
+......\glue(\lineskip) 1.0
+......\hbox(43.2483+0.0)x307.28987, glue set - 1.0
+.......\glue 0.0 minus 28.45274
+.......\hbox(43.2483+0.0)x364.19536
+........\special{color push rgb 0.34119 0.02353 0.54903}
+........\vbox(43.2483+0.0)x364.19536
+.........\glue 8.5359
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(0.0+0.0)x364.19536, glue set 347.12355fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -11.64384
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 9.00009
+.........\hbox(20.99991+9.00009)x364.19536, glue set 118.52606fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\rule(20.99991+9.00009)x0.0
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 Cras
+..........\glue 5.94632 plus 2.97316 minus 1.9821
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 imperdiet
+..........\glue 5.94632 plus 2.97316 minus 1.9821
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 purus
+..........\rule(20.99991+9.00009)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\lineskip) 1.0
+.........\hbox(12.59995+5.40005)x364.19536, glue set 95.29642fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\rule(12.59995+5.40005)x0.0
+..........\TU/FrankRuhlLibre(0)/m/n/14.4 Nulla
+..........\glue 3.4416 plus 1.7208 minus 1.1472
+..........\TU/FrankRuhlLibre(0)/m/n/14.4 non
+..........\glue 3.4416 plus 1.7208 minus 1.1472
+..........\TU/FrankRuhlLibre(0)/m/n/14.4 felis
+..........\glue 3.4416 plus 1.7208 minus 1.1472
+..........\TU/FrankRuhlLibre(0)/m/n/14.4 congue,
+..........\glue 3.4416 plus 2.15099 minus 0.91776
+..........\TU/FrankRuhlLibre(0)/m/n/14.4 mattis
+..........\glue 3.4416 plus 1.7208 minus 1.1472
+..........\TU/FrankRuhlLibre(0)/m/n/14.4 nulla
+..........\glue 3.4416 plus 1.7208 minus 1.1472
+..........\TU/FrankRuhlLibre(0)/m/n/14.4 eget
+..........\rule(12.59995+5.40005)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\special{color pop}
+.........\glue -11.64384
+.........\glue -8.5359
+.........\glue 8.5359
+........\special{color pop}
+.......\glue 0.0 minus 28.45274
+......\special{color pop}
+......\special{color pop}
+......\glue 2.73749
+......\penalty 10000
+......\glue 0.0 plus 1.0fill
+......\penalty 10000
+......\penalty 10000
+......\glue 0.0
+......\vbox(0.0+0.0)x0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 5.6065
+......\hbox(7.9935+1.75198)x307.28987, glue set 3.98587fil
+.......\hbox(0.0+0.0)x0.0
+.......\TU/Gotham(0)/m/n/10.95 Fusce
+.......\kern 0.0
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/b/n/10.95 bibendum
+.......\kern 0.0
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 dui
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 sed
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 hendrerit
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 imperdiet.
+.......\glue 4.38 plus 4.9275 minus 0.36499
+.......\TU/Gotham(0)/m/n/10.95 Aenean
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 in
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 300
+......\glue(\baselineskip) 3.85452
+......\hbox(7.9935+1.77388)x307.28987, glue set 5.77615fil
+.......\TU/Gotham(0)/m/n/10.95 urna
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 eget
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 nisi
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 tempus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 tempus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 non
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 pellentesque
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 lacus.
+.......\glue 4.38 plus 4.9275 minus 0.36499
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\glue 3.0 plus 2.0 minus 2.5
+......\kern 0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.83263
+......\hbox(7.9935+1.77388)x285.38988, glue set 6.66864fil, shifted 21.9
+.......\hbox(7.27095+0.0)x0.0
+........\glue 0.0
+........\glue -16.425
+........\glue -5.47499
+........\hbox(7.27095+0.0)x16.425, glue set 16.425fil
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\special{color push rgb 0.34119 0.02353 0.54903}
+..........\hbox(6.02095+0.38515)x8.5167, shifted -1.25
+...........\mathon
+...........\U/msa/m/n/10.95 I
+...........\mathoff
+..........\special{color pop}
+.........\special{color pop}
+........\glue 5.47499
+.......\penalty 0
+.......\TU/Gotham(0)/m/n/10.95 Lorem
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 ipsum
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 dolor
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 sit
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 amet,
+.......\glue 3.285 plus 2.05312 minus 0.87599
+.......\TU/Gotham(0)/m/n/10.95 consectetur
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 adipiscing
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 300
+......\glue(\baselineskip) 3.83263
+......\hbox(7.9935+0.13138)x285.38988, glue set 133.0261fil, shifted 21.9
+.......\TU/Gotham(0)/m/n/10.95 elit.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\glue 3.0 plus 2.0 minus 3.0
+......\kern 0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 5.43134
+......\hbox(8.0373+1.77388)x285.38988, glue set 8.77646fil, shifted 21.9
+.......\hbox(7.27095+0.0)x0.0
+........\glue 0.0
+........\glue -16.425
+........\glue -5.47499
+........\hbox(7.27095+0.0)x16.425, glue set 16.425fil
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\special{color push rgb 0.34119 0.02353 0.54903}
+..........\hbox(6.02095+0.38515)x8.5167, shifted -1.25
+...........\mathon
+...........\U/msa/m/n/10.95 I
+...........\mathoff
+..........\special{color pop}
+.........\special{color pop}
+........\glue 5.47499
+.......\penalty 0
+.......\TU/Gotham(0)/m/n/10.95 Nunc
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 fringilla
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 turpis
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 eget
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 libero
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 cursus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 bibendum.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\glue 3.0 plus 2.0 minus 3.0
+......\kern 0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.78883
+......\hbox(8.0373+1.75198)x285.38988, glue set 33.67128fil, shifted 21.9
+.......\hbox(7.27095+0.0)x0.0
+........\glue 0.0
+........\glue -16.425
+........\glue -5.47499
+........\hbox(7.27095+0.0)x16.425, glue set 16.425fil
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\special{color push rgb 0.34119 0.02353 0.54903}
+..........\hbox(6.02095+0.38515)x8.5167, shifted -1.25
+...........\mathon
+...........\U/msa/m/n/10.95 I
+...........\mathoff
+..........\special{color pop}
+.........\special{color pop}
+........\glue 5.47499
+.......\penalty 0
+.......\TU/Gotham(0)/m/n/10.95 Vestibulum
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 ac
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 lacus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 aliquet,
+.......\glue 3.285 plus 2.05312 minus 0.87599
+.......\TU/Gotham(0)/m/n/10.95 facilisis
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 arcu
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 vitae,
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 300
+......\glue(\baselineskip) 4.47867
+......\hbox(7.36935+1.75198)x285.38988, glue set 99.68883fil, shifted 21.9
+.......\TU/Gotham(0)/m/n/10.95 consequat
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 arcu.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\special{color pop}
+......\glue 3.0 plus 2.0 minus 2.5
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.85452
+......\hbox(7.9935+1.75198)x307.28987, glue set 7.89502fil
+.......\TU/Gotham(0)/m/n/10.95 Mauris
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 in
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 nisl
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/it/10.95 maximus
+.......\TU/Gotham(0)/m/n/10.95 ,
+.......\glue 3.285 plus 2.05312 minus 0.87599
+.......\TU/Gotham(0)/m/n/10.95 maximus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 nunc
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 vulputate,
+.......\glue 3.285 plus 2.05312 minus 0.87599
+.......\TU/Gotham(0)/m/n/10.95 iaculis
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 150
+......\glue(\baselineskip) 3.85452
+......\hbox(7.9935+1.78484)x307.28987, glue set 12.65823fil
+.......\TU/Gotham(0)/m/n/10.95 justo.
+.......\glue 4.38 plus 4.9275 minus 0.36499
+.......\TU/Gotham(0)/m/n/10.95 Pellentesque
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 non
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 leo
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 in
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 eros
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 tempor
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 ornare
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 ut
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 in
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 150
+......\glue(\baselineskip) 3.82167
+......\hbox(7.9935+0.13138)x307.28987, glue set 143.97609fil
+.......\TU/Gotham(0)/m/n/10.95 elit.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\glue 0.0 plus 1.5fill
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{2}{2/2}{}{0}}}}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {2}{2}}}}
+.....\glue 0.0 plus 1.0fil
+.....\glue 0.0
+....\glue(\baselineskip) 4.0
+....\hbox(0.0+0.0)x307.28987
+.....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+......\vbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\special{color push rgb 0.25098 0.25098 0.25098}
+...........\special{color push rgb 0.25098 0.25098 0.25098}
+...........\special{color pop}
+...........\special{color pop}
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+........\glue 0.0 plus 1.0fil
+.......\glue(\lineskip) 0.0
+.......\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil
+.....\special{color pop}
+.\kern 0.0
+Completed box being shipped out [3]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\special{pdf:put @resources << /ColorSpace @pgfcolorspaces >>}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\special{pdf:dest (Navigation3) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\special{pdf:dest (page.3) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\special{pdf:put @thispage <</Trans<</S/R>>>>}
+..\vbox(200.87663+0.0)x263.47263
+...\glue -72.26999
+...\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+....\vbox(0.0+0.0)x307.28987
+.....\glue 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x307.28987
+......\special{color push rgb 0.25098 0.25098 0.25098}
+......\hbox(0.0+0.0)x307.28987
+.......\vbox(0.0+0.0)x307.28987
+........\hbox(0.0+0.0)x-28.45274
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+............\special{pdf:put @thispage <</Trans<</S/R>>>>}
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x-56.90549
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+...........\hbox(273.14662+0.0)x-28.45274
+............\glue -28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push rgb 0.25098 0.25098 0.25098}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+...........\hbox(273.14662+0.0)x335.74261
+............\glue 307.28987
+............\glue 28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push rgb 0.25098 0.25098 0.25098}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x-56.90549
+..........\glue -28.45274
+..........\hbox(0.0+0.0)x0.0
+...........\vbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+..........\glue -28.45274
+.........\glue 0.0 plus 1.0fil
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.........\hbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0
+......\special{color pop}
+....\glue 0.0
+....\glue(\lineskip) 0.0
+....\vbox(269.14662+0.0)x307.28987
+.....\write-{}
+.....\glue(\topskip) 0.0
+.....\vbox(269.14662+0.0)x307.28987, glue set 26.8097fill
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\penalty 10000
+......\penalty 10000
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\special{color push rgb 0.25098 0.25098 0.25098}
+......\special{color push rgb 0.34119 0.02353 0.54903}
+......\glue(\baselineskip) 5.7517
+......\hbox(24.2483+0.0)x307.28987, glue set - 1.0
+.......\glue 0.0 minus 28.45274
+.......\hbox(24.2483+0.0)x364.19536
+........\special{color push rgb 0.34119 0.02353 0.54903}
+........\vbox(24.2483+0.0)x364.19536
+.........\glue 8.5359
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(0.0+0.0)x364.19536, glue set 347.12355fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -11.64384
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 9.00009
+.........\hbox(20.99991+9.00009)x364.19536, glue set 185.75183fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\rule(20.99991+9.00009)x0.0
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 Duis
+..........\glue 5.94632 plus 2.97316 minus 1.9821
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 vitae
+..........\glue 5.94632 plus 2.97316 minus 1.9821
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 ante
+..........\rule(20.99991+9.00009)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -11.64384
+.........\glue -8.5359
+.........\glue 8.5359
+........\special{color pop}
+.......\glue 0.0 minus 28.45274
+......\special{color pop}
+......\special{color pop}
+......\glue 2.73749
+......\penalty 10000
+......\glue 0.0 plus 1.0fill
+......\penalty 10000
+......\penalty 10000
+......\glue 0.0
+......\vbox(0.0+0.0)x0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 5.56271
+......\hbox(8.0373+1.77388)x307.28987, glue set 24.40761fil
+.......\hbox(0.0+0.0)x0.0
+.......\TU/Gotham(0)/m/n/10.95 Sed
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\special{color push rgb 1 0 0}
+.......\TU/Gotham(0)/m/n/10.95 vestibulum
+.......\special{color pop}
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 massa
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 a
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 urna
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 ullamcorper,
+.......\glue 3.285 plus 2.05312 minus 0.87599
+.......\TU/Gotham(0)/m/n/10.95 at
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 feugiat
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 300
+......\glue(\baselineskip) 3.99687
+......\hbox(7.82925+1.77388)x307.28987, glue set 110.21178fil
+.......\TU/Gotham(0)/m/n/10.95 mauris
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 congue.
+.......\glue 4.38 plus 4.9275 minus 0.36499
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\glue 3.0 plus 2.0 minus 2.5
+......\kern 0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.83263
+......\hbox(7.9935+1.75198)x285.38988, glue set 9.29663fil, shifted 21.9
+.......\hbox(7.227+0.09854)x0.0
+........\glue 0.0
+........\glue -16.425
+........\glue -5.47499
+........\hbox(7.227+0.09854)x16.425, glue set 16.425fil
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(7.227+0.09854)x0.0, glue set - 8.1906fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\special{color push rgb 0.34119 0.02353 0.54903}
+..........\TU/FrankRuhlLibre(0)/m/n/10.95 1.
+..........\special{color pop}
+.........\special{color pop}
+........\glue 5.47499
+.......\penalty 0
+.......\TU/Gotham(0)/m/n/10.95 Vivamus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 iaculis
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 dui
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 et
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 tellus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 tempor,
+.......\glue 3.285 plus 2.05312 minus 0.87599
+.......\TU/Gotham(0)/m/n/10.95 in
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 mollis
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 turpis
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 300
+......\glue(\baselineskip) 3.85452
+......\hbox(7.9935+0.13138)x285.38988, glue set 120.61427fil, shifted 21.9
+.......\TU/Gotham(0)/m/n/10.95 lobortis.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\glue 3.0 plus 2.0 minus 3.0
+......\kern 0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 5.43134
+......\hbox(8.0373+1.75198)x285.38988, glue set 22.16286fil, shifted 21.9
+.......\hbox(7.3584+0.09854)x0.0
+........\glue 0.0
+........\glue -16.425
+........\glue -5.47499
+........\hbox(7.3584+0.09854)x16.425, glue set 16.425fil
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(7.3584+0.09854)x0.0, glue set - 9.0228fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\special{color push rgb 0.34119 0.02353 0.54903}
+..........\TU/FrankRuhlLibre(0)/m/n/10.95 2.
+..........\special{color pop}
+.........\special{color pop}
+........\glue 5.47499
+.......\penalty 0
+.......\TU/Gotham(0)/m/n/10.95 Phasellus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 vel
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 dui
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 viverra,
+.......\glue 3.285 plus 2.05312 minus 0.87599
+.......\TU/Gotham(0)/m/n/10.95 semper
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 dolor
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 id,
+.......\glue 3.285 plus 2.05312 minus 0.87599
+.......\TU/Gotham(0)/m/n/10.95 finibus
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 300
+......\glue(\baselineskip) 6.06642
+......\hbox(5.7816+1.77388)x285.38988, glue set 122.8207fil, shifted 21.9
+.......\TU/Gotham(0)/m/n/10.95 magna.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\glue 3.0 plus 2.0 minus 3.0
+......\kern 0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.83263
+......\hbox(7.9935+1.75198)x285.38988, glue set 22.37093fil, shifted 21.9
+.......\hbox(7.34744+0.12044)x0.0
+........\glue 0.0
+........\glue -16.425
+........\glue -5.47499
+........\hbox(7.34744+0.12044)x16.425, glue set 16.425fil
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(7.34744+0.12044)x0.0, glue set - 9.01184fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\special{color push rgb 0.34119 0.02353 0.54903}
+..........\TU/FrankRuhlLibre(0)/m/n/10.95 3.
+..........\special{color pop}
+.........\special{color pop}
+........\glue 5.47499
+.......\penalty 0
+.......\TU/Gotham(0)/m/n/10.95 Aliquam
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 nec
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 orci
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 sit
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 amet
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 massa
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 placerat
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 viverra
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty 300
+......\glue(\baselineskip) 4.01877
+......\hbox(7.82925+1.77388)x285.38988, glue set 96.1027fil, shifted 21.9
+.......\TU/Gotham(0)/m/n/10.95 vitae
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 eget
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 ipsum.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\glue 3.0 plus 2.0 minus 3.0
+......\kern 0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.78883
+......\hbox(8.0373+1.75198)x285.38988, glue set 28.44814fil, shifted 21.9
+.......\hbox(7.3146+0.09854)x0.0
+........\glue 0.0
+........\glue -16.425
+........\glue -5.47499
+........\hbox(7.3146+0.09854)x16.425, glue set 16.425fil
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(7.3146+0.09854)x0.0, glue set - 8.90234fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\special{color push rgb 0.34119 0.02353 0.54903}
+..........\TU/FrankRuhlLibre(0)/m/n/10.95 4.
+..........\special{color pop}
+.........\special{color pop}
+........\glue 5.47499
+.......\penalty 0
+.......\TU/Gotham(0)/m/n/10.95 Proin
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 at
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 felis
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 a
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 nibh
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 euismod
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 pellentesque.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\glue 3.0 plus 2.0 minus 3.0
+......\kern 0.0
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.85452
+......\hbox(7.9935+1.75198)x285.38988, glue set 22.2778fil, shifted 21.9
+.......\hbox(7.48979+0.12044)x0.0
+........\glue 0.0
+........\glue -16.425
+........\glue -5.47499
+........\hbox(7.48979+0.12044)x16.425, glue set 16.425fil
+.........\special{color push rgb 0.34119 0.02353 0.54903}
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(7.48979+0.12044)x0.0, glue set - 8.83665fil
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\special{color push rgb 0.34119 0.02353 0.54903}
+..........\TU/FrankRuhlLibre(0)/m/n/10.95 5.
+..........\special{color pop}
+.........\special{color pop}
+........\glue 5.47499
+.......\penalty 0
+.......\TU/Gotham(0)/m/n/10.95 Phasellus
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 vel
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 odio
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 nec
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 dolor
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 pretium
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 blandit.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\penalty -51
+......\special{color pop}
+......\glue 3.0 plus 2.0 minus 2.5
+......\glue(\parskip) 0.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.85452
+......\hbox(7.9935+1.78484)x307.28987, glue set 3.62448fil
+.......\TU/Gotham(0)/m/n/10.95 Vestibulum
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 hendrerit
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 justo
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 sit
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 amet
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 leo
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 congue
+.......\glue 3.285 plus 1.6425 minus 1.095
+.......\TU/Gotham(0)/m/n/10.95 tempus.
+.......\penalty 10000
+.......\glue(\parfillskip) 0.0 plus 1.0fil
+.......\glue(\rightskip) 0.0 plus 1.0fil
+......\glue 0.0 plus 1.5fill
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{3}{3/3}{}{0}}}}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {3}{3}}}}
+.....\glue 0.0 plus 1.0fil
+.....\glue 0.0
+....\glue(\baselineskip) 4.0
+....\hbox(0.0+0.0)x307.28987
+.....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+......\vbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\special{color push rgb 0.25098 0.25098 0.25098}
+...........\special{color push rgb 0.25098 0.25098 0.25098}
+...........\special{color pop}
+...........\special{color pop}
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+........\glue 0.0 plus 1.0fil
+.......\glue(\lineskip) 0.0
+.......\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil
+.....\special{color pop}
+.\kern 0.0
+Completed box being shipped out [4]
+\vbox(200.87663+0.0)x263.47263
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999
+.....\kern -72.26999
+.....\special{pdf:put @resources << /ColorSpace @pgfcolorspaces >>}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil
+..\kern 0.0
+..\kern -72.26999
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil
+...\kern 0.0
+...\kern -43.81725
+...\kern -1.00374
+...\special{pdf:dest (Navigation4) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\special{pdf:dest (page.4) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263
+..\special{pdf:put @thispage <</Trans<</S/R>>>>}
+..\vbox(200.87663+0.0)x263.47263
+...\glue -72.26999
+...\vbox(273.14662+0.0)x307.28987, shifted -43.81725
+....\vbox(0.0+0.0)x307.28987
+.....\glue 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x307.28987
+......\special{color push rgb 0.25098 0.25098 0.25098}
+......\hbox(0.0+0.0)x307.28987
+.......\vbox(0.0+0.0)x307.28987
+........\hbox(0.0+0.0)x-28.45274
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+............\special{pdf:put @thispage <</Trans<</S/R>>>>}
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(0.0+0.0)x0.0
+...........\hbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x-56.90549
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662
+...........\hbox(273.14662+0.0)x-28.45274
+............\glue -28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push rgb 0.25098 0.25098 0.25098}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x0.0
+..........\hbox(273.14662+0.0)x335.74261, shifted 273.14662
+...........\hbox(273.14662+0.0)x335.74261
+............\glue 307.28987
+............\glue 28.45274
+............\hbox(0.0+0.0)x0.0
+.............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+..............\special{color push rgb 0.25098 0.25098 0.25098}
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{color pop}
+............\vbox(273.14662+0.0)x0.0, glue set 273.14662fil
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color push rgb 0.25098 0.25098 0.25098}
+.............\special{color pop}
+.............\special{color pop}
+.............\glue 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x-56.90549
+..........\glue -28.45274
+..........\hbox(0.0+0.0)x0.0
+...........\vbox(0.0+0.0)x0.0
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color push rgb 0.25098 0.25098 0.25098}
+............\special{color pop}
+............\special{color pop}
+..........\glue -28.45274
+.........\glue 0.0 plus 1.0fil
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 0.0
+........\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+.........\hbox(0.0+0.0)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0
+......\special{color pop}
+....\glue 0.0
+....\glue(\lineskip) 0.0
+....\vbox(269.14662+0.0)x307.28987
+.....\write-{}
+.....\glue(\topskip) 0.0
+.....\vbox(269.14662+0.0)x307.28987, glue set 43.9901fill
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\penalty 10000
+......\penalty 10000
+......\penalty 10000
+......\vbox(0.0+0.0)x0.0
+......\special{color push rgb 0.25098 0.25098 0.25098}
+......\special{color push rgb 0.34119 0.02353 0.54903}
+......\glue(\baselineskip) 5.7517
+......\hbox(24.2483+0.0)x307.28987, glue set - 1.0
+.......\glue 0.0 minus 28.45274
+.......\hbox(24.2483+0.0)x364.19536
+........\special{color push rgb 0.34119 0.02353 0.54903}
+........\vbox(24.2483+0.0)x364.19536
+.........\glue 8.5359
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\hbox(0.0+0.0)x364.19536, glue set 347.12355fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -11.64384
+.........\glue(\parskip) 0.0
+.........\glue(\parskip) 0.0
+.........\glue(\baselineskip) 9.00009
+.........\hbox(20.99991+9.00009)x364.19536, glue set 159.25462fill
+..........\glue(\leftskip) 8.5359
+..........\hbox(0.0+0.0)x0.0
+..........\rule(20.99991+9.00009)x0.0
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 Phasellus
+..........\glue 5.94632 plus 2.97316 minus 1.9821
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 eu
+..........\glue 5.94632 plus 2.97316 minus 1.9821
+..........\TU/FrankRuhlLibre(0)/m/n/24.88 felis
+..........\rule(20.99991+9.00009)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 8.5359 plus 1.0fill
+.........\glue -11.64384
+.........\glue -8.5359
+.........\glue 8.5359
+........\special{color pop}
+.......\glue 0.0 minus 28.45274
+......\special{color pop}
+......\special{color pop}
+......\glue 2.73749
+......\penalty 10000
+......\glue 0.0 plus 1.0fill
+......\penalty 10000
+......\penalty 10000
+......\glue 0.0
+......\vbox(0.0+0.0)x0.0
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\glue 6.0 plus 2.0 minus 2.0
+......\glue(\baselineskip) 5.296
+......\hbox(8.304+0.13199)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(8.304+0.13199)x307.28987
+........\hbox(8.304+0.13199)x307.28987, glue set 130.20294fil
+.........\hbox(0.0+0.0)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/12 Theorem
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fil
+.......\special{color pop}
+......\glue(\baselineskip) 1.2833
+......\hbox(12.18472+1.75198)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(12.18472+1.75198)x307.28987
+........\glue -1.41528
+........\vbox(0.0+0.0)x0.0
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 5.6065
+........\hbox(7.9935+1.75198)x307.28987, glue set 13.96129fil
+.........\hbox(0.0+0.0)x0.0
+.........\TU/Gotham(0)/m/n/10.95 Suspendisse
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 non
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 nibh
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 at
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 velit
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 pellentesque
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 pulvinar.
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fil
+.......\special{color pop}
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\glue 3.0 plus 1.0 minus 1.0
+......\glue 6.0 plus 2.0 minus 2.0
+......\glue(\baselineskip) 3.54402
+......\hbox(8.304+2.39998)x307.28987
+.......\special{color push rgb 0 0.5 0}
+.......\vbox(8.304+2.39998)x307.28987
+........\hbox(8.304+2.39998)x307.28987, glue set 131.16293fil
+.........\hbox(0.0+0.0)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/12 Example
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fil
+.......\special{color pop}
+......\glue(\lineskip) 1.0
+......\hbox(12.18472+1.77388)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(12.18472+1.77388)x307.28987
+........\glue -1.41528
+........\vbox(0.0+0.0)x0.0
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 5.6065
+........\hbox(7.9935+1.77388)x307.28987, glue set - 0.03333
+.........\hbox(0.0+0.0)x0.0
+.........\TU/Gotham(0)/m/n/10.95 Proin
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 at
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 urna
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 ut
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 augue
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 consectetur
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 porttitor
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 vel
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 at
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 libero.
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fil
+.......\special{color pop}
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\glue 3.0 plus 1.0 minus 1.0
+......\glue 6.0 plus 2.0 minus 2.0
+......\glue(\baselineskip) 3.76213
+......\hbox(8.064+2.54399)x307.28987
+.......\special{color push rgb 1 0 0}
+.......\vbox(8.064+2.54399)x307.28987
+........\hbox(8.064+2.54399)x307.28987, glue set 131.24693fil
+.........\hbox(0.0+0.0)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/12 Warning
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fil
+.......\special{color pop}
+......\glue(\lineskip) 1.0
+......\hbox(25.78473+0.12044)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(25.78473+0.12044)x307.28987
+........\glue -1.41528
+........\vbox(0.0+0.0)x0.0
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 5.56271
+........\hbox(8.0373+1.33589)x307.28987, glue set 30.9119fil
+.........\hbox(0.0+0.0)x0.0
+.........\TU/Gotham(0)/m/n/10.95 Proin
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 eleifend
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 est
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 nec
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 urna
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 luctus,
+.........\glue 3.285 plus 2.05312 minus 0.87599
+.........\TU/Gotham(0)/m/n/10.95 in
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 tincidunt
+.........\glue 3.285 plus 1.6425 minus 1.095
+.........\TU/Gotham(0)/m/n/10.95 nulla
+.........\glue(\rightskip) 0.0 plus 1.0fil
+........\penalty 300
+........\glue(\baselineskip) 4.43486
+........\hbox(7.82925+0.12044)x307.28987, glue set 136.30562fil
+.........\TU/Gotham(0)/m/n/10.95 varius.
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fil
+.......\special{color pop}
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\special{pdf:code 1 0 0 1 2000.02579 2000.02579 cm }
+......\special{pdf:code 1 0 0 1 -2000.02579 -2000.02579 cm }
+......\glue 3.0 plus 1.0 minus 1.0
+......\glue 0.0 plus 1.5fill
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{4}{4/4}{}{0}}}}
+.....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {4}{4}}}}
+.....\glue 0.0 plus 1.0fil
+.....\glue 0.0
+....\glue(\baselineskip) 4.0
+....\hbox(0.0+0.0)x307.28987
+.....\special{color push rgb 0.25098 0.25098 0.25098}
+.....\hbox(0.0+0.0)x307.28987, glue set 307.28987fil
+......\vbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x-56.90549
+........\hbox(0.0+0.0)x-56.90549
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0
+..........\vbox(0.0+0.0)x0.0
+...........\special{color push rgb 0.25098 0.25098 0.25098}
+...........\special{color push rgb 0.25098 0.25098 0.25098}
+...........\special{color pop}
+...........\special{color pop}
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+........\glue 0.0 plus 1.0fil
+.......\glue(\lineskip) 0.0
+.......\hbox(0.0+0.0)x0.0
+......\glue 0.0 plus 1.0fil
+.....\special{color pop}
+.\kern 0.0
+)

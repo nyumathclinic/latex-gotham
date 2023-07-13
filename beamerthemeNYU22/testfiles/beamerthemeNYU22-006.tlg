@@ -1,0 +1,2845 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+(lipsum.tex
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line ....
+Completed box being shipped out [1]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation1} xyz
+...\penalty 10000
+...\pdfdest name{page.1} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
+....\write-{}
+....\pdfdest name{Doc-Start} xyz
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 30.29152fill, direction TLT
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\penalty 10000
+.....\penalty 10000
+.....\rule(0.0+0.0)x*
+.....\penalty 10000
+.....\glue 0.0
+.....\glue 0.0
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fill
+.....\glue(\lineskip) 1.0
+.....\hbox(49.17259+0.20737)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(49.17259+0.20737)x307.28987, direction TLT
+.......\hbox(19.7076+5.972)x307.28987, glue set 132.63872fill, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/FrankRuhlLibre(0)/m/n/29.86 L
+........\TU/FrankRuhlLibre(0)/m/n/29.86 o
+........\TU/FrankRuhlLibre(0)/m/n/29.86 r
+........\kern-0.62706 (font)
+........\TU/FrankRuhlLibre(0)/m/n/29.86 e
+........\TU/FrankRuhlLibre(0)/m/n/29.86 m
+........\glue(\spaceskip) 7.13654 plus 3.56827 minus 2.37885
+........\TU/FrankRuhlLibre(0)/m/n/29.86 I
+........\TU/FrankRuhlLibre(0)/m/n/29.86 p
+........\discretionary (penalty 50)
+.........< \TU/FrankRuhlLibre(0)/m/n/29.86 -
+........\TU/FrankRuhlLibre(0)/m/n/29.86 s
+........\TU/FrankRuhlLibre(0)/m/n/29.86 u
+........\kern-0.62706 (font)
+........\TU/FrankRuhlLibre(0)/m/n/29.86 m
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fill
+.......\glue 7.465
+.......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 4.07024
+.......\hbox(11.95776+0.20737)x307.28987, glue set 112.8208fill, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/FrankRuhlLibre(0)/m/n/17.28 U
+........\TU/FrankRuhlLibre(0)/m/n/17.28 t
+........\glue(\spaceskip) 4.12991 plus 2.06496 minus 1.37663
+........\TU/FrankRuhlLibre(0)/m/n/17.28 m
+........\kern-0.36288 (font)
+........\TU/FrankRuhlLibre(0)/m/n/17.28 o
+........\discretionary (penalty 50)
+.........< \TU/FrankRuhlLibre(0)/m/n/17.28 -
+.........= \kern-0.36288 (font)
+........\TU/FrankRuhlLibre(0)/m/n/17.28 l
+........\kern-0.1728 (font)
+........\TU/FrankRuhlLibre(0)/m/n/17.28 e
+........\TU/FrankRuhlLibre(0)/m/n/17.28 s
+........\TU/FrankRuhlLibre(0)/m/n/17.28 t
+........\TU/FrankRuhlLibre(0)/m/n/17.28 i
+........\TU/FrankRuhlLibre(0)/m/n/17.28 e
+........\glue(\spaceskip) 4.12991 plus 2.06496 minus 1.37663
+........\TU/FrankRuhlLibre(0)/m/n/17.28 e
+........\TU/FrankRuhlLibre(0)/m/n/17.28 r
+........\kern-0.36288 (font)
+........\TU/FrankRuhlLibre(0)/m/n/17.28 o
+........\TU/FrankRuhlLibre(0)/m/n/17.28 s
+........\glue(\spaceskip) 4.12991 plus 2.06496 minus 1.37663
+........\TU/FrankRuhlLibre(0)/m/n/17.28 s
+........\TU/FrankRuhlLibre(0)/m/n/17.28 e
+........\TU/FrankRuhlLibre(0)/m/n/17.28 d
+........\glue(\spaceskip) 4.12991 plus 2.06496 minus 1.37663
+........\TU/FrankRuhlLibre(0)/m/n/17.28 e
+........\TU/FrankRuhlLibre(0)/m/n/17.28 n
+........\TU/FrankRuhlLibre(0)/m/n/17.28 i
+........\TU/FrankRuhlLibre(0)/m/n/17.28 m
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fill
+.......\pdfcolorstack 0 pop
+......\pdfcolorstack 0 pop
+.....\glue 10.95
+.....\glue(\baselineskip) 5.56339
+.....\hbox(7.82925+1.752)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(7.82925+1.752)x307.28987, direction TLT
+.......\hbox(7.82925+1.752)x307.28987, glue set 220.55498fill, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Gotham(0)/m/n/10.95 A
+........\TU/Gotham(0)/m/n/10.95 s
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 p
+........\TU/Gotham(0)/m/n/10.95 a
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 s
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 s
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 P
+........\TU/Gotham(0)/m/n/10.95 r
+........\kern-0.2409 (font)
+........\TU/Gotham(0)/m/n/10.95 o
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 t
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 s
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fill
+......\pdfcolorstack 0 pop
+.....\glue(\baselineskip) 3.8545
+.....\hbox(7.9935+0.1314)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(7.9935+0.1314)x307.28987, direction TLT
+.......\hbox(7.9935+0.1314)x307.28987, glue set 136.06479fill, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Gotham(0)/m/n/10.95 U
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 i
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 v
+........\kern-0.3285 (font)
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 r
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 s
+........\TU/Gotham(0)/m/n/10.95 i
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 t
+........\TU/Gotham(0)/m/n/10.95 a
+........\kern-0.05475 (font)
+........\TU/Gotham(0)/m/n/10.95 t
+........\kern-0.16425 (font)
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 s
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 N
+........\TU/Gotham(0)/m/n/10.95 o
+........\kern-0.3285 (font)
+........\TU/Gotham(0)/m/n/10.95 v
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 m
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 E
+........\TU/Gotham(0)/m/n/10.95 b
+........\TU/Gotham(0)/m/n/10.95 o
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 r
+........\kern-0.27374 (font)
+........\TU/Gotham(0)/m/n/10.95 a
+........\TU/Gotham(0)/m/n/10.95 c
+........\kern-0.0438 (font)
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 m
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fill
+......\pdfcolorstack 0 pop
+.....\glue(\baselineskip) 5.67221
+.....\hbox(7.7964+1.3359)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(7.7964+1.3359)x307.28987, direction TLT
+.......\hbox(7.7964+1.3359)x307.28987, glue set 230.8151fill, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Gotham(0)/m/n/10.95 J
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 e
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 2
+........\TU/Gotham(0)/m/n/10.95 6
+........\TU/Gotham(0)/m/n/10.95 ,
+........\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+........\TU/Gotham(0)/m/n/10.95 2
+........\TU/Gotham(0)/m/n/10.95 0
+........\kern-0.1095 (font)
+........\TU/Gotham(0)/m/n/10.95 2
+........\TU/Gotham(0)/m/n/10.95 3
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fill
+......\pdfcolorstack 0 pop
+.....\glue 5.47499
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\lineskip) 1.0
+.....\hbox(27.10126+0.0)x307.28987, glue set 113.49493fil, direction TLT
+......\glue(\leftskip) 0.0 plus 1.0fil
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\image(27.10126+0.0)x80.3
+......\penalty 10000
+......\glue(\parfillskip) 0.0
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 0.0 plus 1.0fill
+.....\glue 0.0 plus 1.5fill
+.....\rule(0.0+0.0)x*
+.....\penalty 10000
+.....\glue -4.0
+.....\glue 0.0
+....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{1}{1/1}{}{0}}}}
+....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {1}{1}}}}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 333.74261fil, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\glue 0.0 plus 1.0fil
+.....\hbox(0.0+0.0)x-26.45274, direction TLT
+......\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+......\pdfcolorstack 0 push {0.73648 0.6094 0.81961 rg 0.73648 0.6094 0.81961 RG}
+......\pdfcolorstack 0 pop
+......\pdfcolorstack 0 pop
+......\glue -28.45274
+......\glue 2.0
+....\pdfcolorstack 0 pop
+....\pdfcolorstack 0 pop
+.\kern0.0
+.\kern0.0
+<../nyu_short_black.pdf>
+LaTeX Font Info:    Trying to load font information for U+msa on input line ....
+LaTeX Font Info:    Trying to load font information for U+msb on input line ....
+Completed box being shipped out [2]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation2} xyz
+...\penalty 10000
+...\pdfdest name{page.2} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 29.61176fill, direction TLT
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\glue(\lineskip) 1.0
+.....\hbox(43.2483+0.0)x307.28987, glue set - 1.0, direction TLT
+......\glue 0.0 minus 28.45274
+......\hbox(43.2483+0.0)x364.19536, direction TLT
+.......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.......\vbox(43.2483+0.0)x364.19536, direction TLT
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12354fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -11.64384
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 118.52606fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(20.99991+9.00009)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 C
+.........\kern-1.244 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 r
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 a
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 s
+.........\glue(\spaceskip) 5.94632 plus 2.97316 minus 1.9821
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 i
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 m
+.........\discretionary (penalty 50)
+..........< \TU/FrankRuhlLibre(0)/m/n/24.88 -
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 p
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 e
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 r
+.........\kern-0.52248 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 d
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 i
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 e
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 t
+.........\glue(\spaceskip) 5.94632 plus 2.97316 minus 1.9821
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 p
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 u
+.........\discretionary (penalty 50)
+..........< \TU/FrankRuhlLibre(0)/m/n/24.88 -
+..........= \kern-0.52248 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 r
+.........\kern-0.2488 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 u
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 s
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\lineskip) 1.0
+........\hbox(12.59995+5.40005)x364.19536, glue set 95.29639fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(12.59995+5.40005)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 N
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 u
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 l
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 l
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 a
+.........\glue(\spaceskip) 3.4416 plus 1.7208 minus 1.1472
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 n
+.........\kern-0.3024 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 o
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 n
+.........\glue(\spaceskip) 3.4416 plus 1.7208 minus 1.1472
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 f
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 e
+.........\discretionary (penalty 50)
+..........< \TU/FrankRuhlLibre(0)/m/n/14.4 -
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 l
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 i
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 s
+.........\glue(\spaceskip) 3.4416 plus 1.7208 minus 1.1472
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 c
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 o
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 n
+.........\kern-0.432 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 g
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 u
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 e
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 ,
+.........\glue(\spaceskip) 3.4416 plus 2.15099 minus 0.91776
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 m
+.........\kern-0.3024 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 a
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 t
+.........\discretionary (penalty 50)
+..........< \TU/FrankRuhlLibre(0)/m/n/14.4 -
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 t
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 i
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 s
+.........\glue(\spaceskip) 3.4416 plus 1.7208 minus 1.1472
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 n
+.........\kern-0.3024 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 u
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 l
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 l
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 a
+.........\glue(\spaceskip) 3.4416 plus 1.7208 minus 1.1472
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 e
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 g
+.........\kern-0.576 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 e
+.........\TU/FrankRuhlLibre(0)/m/n/14.4 t
+.........\rule(12.59995+5.40005)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\pdfcolorstack 0 pop
+........\glue -11.64384
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.6065
+.....\hbox(7.9935+1.752)x307.28987, glue set 3.98596fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\TU/Gotham(0)/m/n/10.95 F
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\kern0.0 (italic)
+......\glue 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/b/n/10.95 b
+......\TU/Gotham(0)/b/n/10.95 i
+......\TU/Gotham(0)/b/n/10.95 b
+......\TU/Gotham(0)/b/n/10.95 e
+......\TU/Gotham(0)/b/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/b/n/10.95 -
+......\TU/Gotham(0)/b/n/10.95 d
+......\TU/Gotham(0)/b/n/10.95 u
+......\TU/Gotham(0)/b/n/10.95 m
+......\kern0.0 (italic)
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 i
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 d
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 h
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.22995 (font)
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 .
+......\glue(\spaceskip) 4.38 plus 4.9275 minus 0.36499
+......\TU/Gotham(0)/m/n/10.95 A
+......\kern-0.27374 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.8545
+.....\hbox(7.9935+1.7739)x307.28987, glue set 5.77621fil, direction TLT
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 a
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 g
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 i
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 q
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 e
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.0438 (font)
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 .
+......\glue(\spaceskip) 4.38 plus 4.9275 minus 0.36499
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.83261
+.....\hbox(7.9935+1.7739)x285.38988, glue set 6.66867fil, shifted 21.9, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.27095+0.0)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.27095+0.0)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25, direction TLT
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Gotham(0)/m/n/10.95 L
+......\kern-0.0657 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 m
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 p
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 m
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 o
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 c
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 r
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 p
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 c
+......\discretionary (penalty 50)
+.......< \kern-0.27374 (font)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 g
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.83261
+.....\hbox(7.9935+0.1314)x285.38988, glue set 133.0261fil, shifted 21.9, direction TLT
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.43132
+.....\hbox(8.0373+1.7739)x285.38988, glue set 8.77649fil, shifted 21.9, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.27095+0.0)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.27095+0.0)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25, direction TLT
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Gotham(0)/m/n/10.95 N
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 c
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 f
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 g
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 a
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 g
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.0438 (font)
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 r
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.78882
+.....\hbox(8.0373+1.752)x285.38988, glue set 33.67139fil, shifted 21.9, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.27095+0.0)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.27095+0.0)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.27095+0.0)x0.0, glue set - 8.5167fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\hbox(6.02095+0.38515)x8.5167, shifted -1.25, direction TLT
+..........\mathon
+..........\U/msa/m/n/10.95 I
+..........\mathoff
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Gotham(0)/m/n/10.95 V
+......\kern-0.7665 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 s
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 m
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 c
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.0438 (font)
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 q
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+......\TU/Gotham(0)/m/n/10.95 f
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 c
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.0438 (font)
+......\TU/Gotham(0)/m/n/10.95 u
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 v
+......\TU/Gotham(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 e
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 4.47865
+.....\hbox(7.36935+1.752)x285.38988, glue set 99.68884fil, shifted 21.9, direction TLT
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 e
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 q
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 a
+......\kern-0.05475 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.0438 (font)
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\pdfcolorstack 0 pop
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.8545
+.....\hbox(7.9935+1.752)x307.28987, glue set 7.8951fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\TU/Gotham(0)/m/n/10.95 M
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 l
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/it/10.95 m
+......\TU/Gotham(0)/m/it/10.95 a
+......\kern-0.03285 (font)
+......\TU/Gotham(0)/m/it/10.95 x
+......\discretionary (penalty 50)
+.......< \kern-0.3285 (font)
+.......< \TU/Gotham(0)/m/it/10.95 -
+......\TU/Gotham(0)/m/it/10.95 i
+......\TU/Gotham(0)/m/it/10.95 m
+......\TU/Gotham(0)/m/it/10.95 u
+......\TU/Gotham(0)/m/it/10.95 s
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 x
+......\discretionary (penalty 50)
+.......< \kern-0.3285 (font)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 c
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 v
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 a
+......\kern-0.05475 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 c
+......\discretionary (penalty 50)
+.......< \kern-0.27374 (font)
+.......< \TU/Gotham(0)/m/n/10.95 -
+.......= \kern-0.0438 (font)
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.8545
+.....\hbox(7.9935+1.78485)x307.28987, glue set 12.65833fil, direction TLT
+......\TU/Gotham(0)/m/n/10.95 j
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\kern-0.219 (font)
+......\TU/Gotham(0)/m/n/10.95 .
+......\glue(\spaceskip) 4.38 plus 4.9275 minus 0.36499
+......\TU/Gotham(0)/m/n/10.95 P
+......\kern-0.05475 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 q
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 e
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 o
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 150
+.....\glue(\baselineskip) 3.82166
+.....\hbox(7.9935+0.1314)x307.28987, glue set 143.97609fil, direction TLT
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{2}{2/2}{}{0}}}}
+....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {2}{2}}}}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+Completed box being shipped out [3]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation3} xyz
+...\penalty 10000
+...\pdfdest name{page.3} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 26.8097fill, direction TLT
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\glue(\baselineskip) 5.7517
+.....\hbox(24.2483+0.0)x307.28987, glue set - 1.0, direction TLT
+......\glue 0.0 minus 28.45274
+......\hbox(24.2483+0.0)x364.19536, direction TLT
+.......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.......\vbox(24.2483+0.0)x364.19536, direction TLT
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12354fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -11.64384
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 187.49344fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(20.99991+9.00009)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 D
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 u
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 i
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 s
+.........\glue(\spaceskip) 4.20471 plus 2.97316 minus 1.9821
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 v
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 i
+.........\discretionary (penalty 50)
+..........< \TU/FrankRuhlLibre(0)/m/n/24.88 -
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 t
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 a
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 e
+.........\glue(\spaceskip) 5.94632 plus 2.97316 minus 1.9821
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 a
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 n
+.........\kern-0.2488 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 t
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 e
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -11.64384
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.56271
+.....\hbox(8.0373+1.7739)x307.28987, glue set 24.4077fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(0.0+0.0)x0.0, direction TLT
+......\TU/Gotham(0)/m/n/10.95 S
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 d
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+......\TU/Gotham(0)/m/n/10.95 v
+......\kern-0.3285 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 s
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 m
+......\pdfcolorstack 0 pop
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 s
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 a
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 a
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.9855 (font)
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+......\TU/Gotham(0)/m/n/10.95 a
+......\kern-0.05475 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 f
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 g
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 a
+......\kern-0.05475 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.99686
+.....\hbox(7.82925+1.7739)x307.28987, glue set 110.21178fil, direction TLT
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 g
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 e
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 .
+......\glue(\spaceskip) 4.38 plus 4.9275 minus 0.36499
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.83261
+.....\hbox(7.9935+1.752)x285.38988, glue set 9.29663fil, shifted 21.9, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.227+0.09856)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.227+0.09856)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.227+0.09856)x0.0, glue set - 8.1906fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 1
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Gotham(0)/m/n/10.95 V
+......\kern-0.219 (font)
+......\TU/Gotham(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 v
+......\kern-0.27374 (font)
+......\TU/Gotham(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 a
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 c
+......\discretionary (penalty 50)
+.......< \kern-0.27374 (font)
+.......< \TU/Gotham(0)/m/n/10.95 -
+.......= \kern-0.0438 (font)
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 i
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.9855 (font)
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 3.8545
+.....\hbox(7.9935+0.1314)x285.38988, glue set 120.61427fil, shifted 21.9, direction TLT
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 5.43132
+.....\hbox(8.0373+1.752)x285.38988, glue set 22.16292fil, shifted 21.9, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.3584+0.09856)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.3584+0.09856)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.3584+0.09856)x0.0, glue set - 9.0228fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 2
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Gotham(0)/m/n/10.95 P
+......\TU/Gotham(0)/m/n/10.95 h
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 v
+......\kern-0.3285 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 i
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 v
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 v
+......\kern-0.3285 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.27374 (font)
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 o
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 ,
+......\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+......\TU/Gotham(0)/m/n/10.95 ﬁ (ligature fi)
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 6.0664
+.....\hbox(5.7816+1.7739)x285.38988, glue set 122.82071fil, shifted 21.9, direction TLT
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 g
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.83261
+.....\hbox(7.9935+1.752)x285.38988, glue set 22.37099fil, shifted 21.9, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.34744+0.12045)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.34744+0.12045)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.34744+0.12045)x0.0, glue set - 9.01184fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 3
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Gotham(0)/m/n/10.95 A
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 q
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 m
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 c
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 c
+......\TU/Gotham(0)/m/n/10.95 i
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 s
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 a
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 c
+......\discretionary (penalty 50)
+.......< \kern-0.27374 (font)
+.......< \TU/Gotham(0)/m/n/10.95 -
+.......= \kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.27374 (font)
+......\TU/Gotham(0)/m/n/10.95 a
+......\kern-0.05475 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 v
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 v
+......\kern-0.3285 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.27374 (font)
+......\TU/Gotham(0)/m/n/10.95 a
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty 300
+.....\glue(\baselineskip) 4.01875
+.....\hbox(7.82925+1.7739)x285.38988, glue set 96.10272fil, shifted 21.9, direction TLT
+......\TU/Gotham(0)/m/n/10.95 v
+......\TU/Gotham(0)/m/n/10.95 i
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 e
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 g
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 p
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.78882
+.....\hbox(8.0373+1.752)x285.38988, glue set 28.44817fil, shifted 21.9, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.31459+0.09856)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.31459+0.09856)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.31459+0.09856)x0.0, glue set - 8.90234fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 4
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Gotham(0)/m/n/10.95 P
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 n
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\kern-0.05475 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 f
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 h
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 s
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 d
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 q
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 e
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\glue 3.0 plus 2.0 minus 3.0
+.....\kern0.0
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.8545
+.....\hbox(7.9935+1.752)x285.38988, glue set 22.27785fil, shifted 21.9, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\hbox(7.48979+0.12045)x0.0, direction TLT
+.......\glue 0.0
+.......\glue -16.425
+.......\glue -5.47499
+.......\hbox(7.48979+0.12045)x16.425, glue set 16.425fil, direction TLT
+........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\hbox(7.48979+0.12045)x0.0, glue set - 8.83664fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 5
+.........\TU/FrankRuhlLibre(0)/m/n/10.95 .
+.........\pdfcolorstack 0 pop
+........\pdfcolorstack 0 pop
+.......\glue 5.47499
+......\penalty 0
+......\TU/Gotham(0)/m/n/10.95 P
+......\TU/Gotham(0)/m/n/10.95 h
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 v
+......\kern-0.3285 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 l
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 o
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 c
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 o
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 r
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 m
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\penalty -51
+.....\pdfcolorstack 0 pop
+.....\glue 3.0 plus 2.0 minus 2.5
+.....\glue(\parskip) 0.0
+.....\glue(\parskip) 0.0
+.....\glue(\baselineskip) 3.8545
+.....\hbox(7.9935+1.78485)x307.28987, glue set 3.62453fil, direction TLT
+......\localpar
+.......\localinterlinepenalty=0
+.......\localbrokenpenalty=0
+.......\localleftbox=null
+.......\localrightbox=null
+......\TU/Gotham(0)/m/n/10.95 V
+......\kern-0.7665 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 s
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 b
+......\TU/Gotham(0)/m/n/10.95 u
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 m
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 h
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 n
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 d
+......\TU/Gotham(0)/m/n/10.95 r
+......\kern-0.2409 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 r
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 j
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\kern-0.1095 (font)
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 i
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 a
+......\TU/Gotham(0)/m/n/10.95 m
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 t
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 l
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 o
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 c
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 o
+......\TU/Gotham(0)/m/n/10.95 n
+......\TU/Gotham(0)/m/n/10.95 g
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 e
+......\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+......\TU/Gotham(0)/m/n/10.95 t
+......\kern-0.16425 (font)
+......\TU/Gotham(0)/m/n/10.95 e
+......\TU/Gotham(0)/m/n/10.95 m
+......\discretionary (penalty 50)
+.......< \TU/Gotham(0)/m/n/10.95 -
+......\TU/Gotham(0)/m/n/10.95 p
+......\TU/Gotham(0)/m/n/10.95 u
+......\TU/Gotham(0)/m/n/10.95 s
+......\TU/Gotham(0)/m/n/10.95 .
+......\penalty 10000
+......\glue(\parfillskip) 0.0 plus 1.0fil
+......\glue(\rightskip) 0.0 plus 1.0fil
+.....\glue 0.0 plus 1.5fill
+....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{3}{3/3}{}{0}}}}
+....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {3}{3}}}}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+Completed box being shipped out [4]
+\vbox(200.87663+0.0)x263.47263, direction TLT
+.\hbox(0.0+0.0)x0.0, direction TLT
+..\kern-72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil, direction TLT
+...\kern-72.26999
+...\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(0.0+0.0)x0.0, glue set 72.26999fil, shifted 72.26999, direction TLT
+.....\kern-72.26999
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\vbox(0.0+0.0)x0.0, glue set 73.27373fil, direction TLT
+..\kern0.0
+..\kern-72.26999
+..\kern-1.00374
+..\hbox(0.0+0.0)x0.0, glue set 44.82098fil, direction TLT
+...\kern0.0
+...\kern-43.81725
+...\kern-1.00374
+...\pdfdest name{Navigation4} xyz
+...\penalty 10000
+...\pdfdest name{page.4} xyz
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(200.87663+0.0)x263.47263, direction TLT
+..\glue -72.26999
+..\vbox(273.14662+0.0)x307.28987, shifted -43.81725, direction TLT
+...\vbox(0.0+0.0)x307.28987, direction TLT
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x307.28987, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\hbox(0.0+0.0)x307.28987, direction TLT
+......\vbox(0.0+0.0)x307.28987, direction TLT
+.......\hbox(0.0+0.0)x-28.45274, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x-28.45274, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x-28.45274, direction TLT
+...........\glue -28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\hbox(273.14662+0.0)x335.74261, shifted 273.14662, direction TLT
+..........\hbox(273.14662+0.0)x335.74261, direction TLT
+...........\glue 307.28987
+...........\glue 28.45274
+...........\hbox(0.0+0.0)x0.0, direction TLT
+............\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+.............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.............\glue 0.0 plus 1.0fil minus 1.0fil
+............\pdfcolorstack 0 pop
+...........\vbox(273.14662+0.0)x0.0, glue set 273.1466fil, direction TLT
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+............\pdfcolorstack 0 pop
+............\pdfcolorstack 0 pop
+............\glue 0.0 plus 1.0fil
+........\hbox(0.0+0.0)x-56.90549, direction TLT
+.........\glue -28.45274
+.........\hbox(0.0+0.0)x0.0, direction TLT
+..........\vbox(0.0+0.0)x0.0, direction TLT
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+...........\pdfcolorstack 0 pop
+...........\pdfcolorstack 0 pop
+.........\glue -28.45274
+........\glue 0.0 plus 1.0fil
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 0.0
+.......\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0
+.....\pdfcolorstack 0 pop
+...\glue 0.0
+...\glue(\lineskip) 0.0
+...\vbox(269.14662+0.0)x307.28987, direction TLT
+....\write-{}
+....\glue(\topskip) 0.0
+....\vbox(269.14662+0.0)x307.28987, glue set 43.99008fill, direction TLT
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\penalty 10000
+.....\penalty 10000
+.....\penalty 10000
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+.....\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.....\glue(\baselineskip) 5.7517
+.....\hbox(24.2483+0.0)x307.28987, glue set - 1.0, direction TLT
+......\glue 0.0 minus 28.45274
+......\hbox(24.2483+0.0)x364.19536, direction TLT
+.......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+.......\vbox(24.2483+0.0)x364.19536, direction TLT
+........\glue 8.5359
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\hbox(0.0+0.0)x364.19536, glue set 347.12354fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -11.64384
+........\glue(\parskip) 0.0
+........\glue(\parskip) 0.0
+........\glue(\baselineskip) 9.00009
+........\hbox(20.99991+9.00009)x364.19536, glue set 159.25464fill, direction TLT
+.........\glue(\leftskip) 8.5359
+.........\localpar
+..........\localinterlinepenalty=0
+..........\localbrokenpenalty=0
+..........\localleftbox=null
+..........\localrightbox=null
+.........\hbox(0.0+0.0)x0.0, direction TLT
+.........\rule(20.99991+9.00009)x0.0
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 P
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 h
+.........\kern-0.52248 (font)
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 a
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 s
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 e
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 l
+.........\discretionary (penalty 50)
+..........< \TU/FrankRuhlLibre(0)/m/n/24.88 -
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 l
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 u
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 s
+.........\glue(\spaceskip) 5.94632 plus 2.97316 minus 1.9821
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 e
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 u
+.........\glue(\spaceskip) 5.94632 plus 2.97316 minus 1.9821
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 f
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 e
+.........\discretionary (penalty 50)
+..........< \TU/FrankRuhlLibre(0)/m/n/24.88 -
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 l
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 i
+.........\TU/FrankRuhlLibre(0)/m/n/24.88 s
+.........\rule(20.99991+9.00009)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 8.5359 plus 1.0fill
+........\glue -11.64384
+........\glue -8.5359
+........\glue 8.5359
+.......\pdfcolorstack 0 pop
+......\glue 0.0 minus 28.45274
+.....\pdfcolorstack 0 pop
+.....\pdfcolorstack 0 pop
+.....\glue 2.73749
+.....\penalty 10000
+.....\glue 0.0 plus 1.0fill
+.....\penalty 10000
+.....\penalty 10000
+.....\glue 0.0
+.....\vbox(0.0+0.0)x0.0, direction TLT
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\baselineskip) 5.296
+.....\hbox(8.304+0.132)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(8.304+0.132)x307.28987, direction TLT
+.......\hbox(8.304+0.132)x307.28987, glue set 130.20293fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/FrankRuhlLibre(0)/m/n/12 T
+........\TU/FrankRuhlLibre(0)/m/n/12 h
+........\kern-0.252 (font)
+........\TU/FrankRuhlLibre(0)/m/n/12 e
+........\discretionary (penalty 50)
+.........< \TU/FrankRuhlLibre(0)/m/n/12 -
+........\TU/FrankRuhlLibre(0)/m/n/12 o
+........\discretionary (penalty 50)
+.........< \TU/FrankRuhlLibre(0)/m/n/12 -
+........\TU/FrankRuhlLibre(0)/m/n/12 r
+........\kern-0.252 (font)
+........\TU/FrankRuhlLibre(0)/m/n/12 e
+........\TU/FrankRuhlLibre(0)/m/n/12 m
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfcolorstack 0 pop
+.....\glue(\baselineskip) 1.28328
+.....\hbox(12.18472+1.752)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(12.18472+1.752)x307.28987, direction TLT
+.......\glue -1.41528
+.......\vbox(0.0+0.0)x0.0, direction TLT
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 5.6065
+.......\hbox(7.9935+1.752)x307.28987, glue set 13.96135fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Gotham(0)/m/n/10.95 S
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 s
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 p
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 d
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 s
+........\kern-0.1095 (font)
+........\TU/Gotham(0)/m/n/10.95 s
+........\TU/Gotham(0)/m/n/10.95 e
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 o
+........\TU/Gotham(0)/m/n/10.95 n
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 b
+........\TU/Gotham(0)/m/n/10.95 h
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 a
+........\kern-0.05475 (font)
+........\TU/Gotham(0)/m/n/10.95 t
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 v
+........\kern-0.3285 (font)
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 l
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 t
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 p
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 l
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 l
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 n
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 t
+........\kern-0.16425 (font)
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 s
+........\TU/Gotham(0)/m/n/10.95 q
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 e
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 p
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 l
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 v
+........\discretionary (penalty 50)
+.........< \kern-0.16425 (font)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 a
+........\TU/Gotham(0)/m/n/10.95 r
+........\kern-0.9855 (font)
+........\TU/Gotham(0)/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfcolorstack 0 pop
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\baselineskip) 3.544
+.....\hbox(8.304+2.4)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0 0.5 0 rg 0 0.5 0 RG}
+......\vbox(8.304+2.4)x307.28987, direction TLT
+.......\hbox(8.304+2.4)x307.28987, glue set 131.16293fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/FrankRuhlLibre(0)/m/n/12 E
+........\TU/FrankRuhlLibre(0)/m/n/12 x
+........\discretionary (penalty 50)
+.........< \TU/FrankRuhlLibre(0)/m/n/12 -
+........\TU/FrankRuhlLibre(0)/m/n/12 a
+........\TU/FrankRuhlLibre(0)/m/n/12 m
+........\discretionary (penalty 50)
+.........< \TU/FrankRuhlLibre(0)/m/n/12 -
+........\TU/FrankRuhlLibre(0)/m/n/12 p
+........\kern-0.252 (font)
+........\TU/FrankRuhlLibre(0)/m/n/12 l
+........\kern-0.12 (font)
+........\TU/FrankRuhlLibre(0)/m/n/12 e
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfcolorstack 0 pop
+.....\glue(\lineskip) 1.0
+.....\hbox(12.18472+1.7739)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(12.18472+1.7739)x307.28987, direction TLT
+.......\glue -1.41528
+.......\vbox(0.0+0.0)x0.0, direction TLT
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 5.6065
+.......\hbox(7.9935+1.7739)x307.28987, glue set - 0.03333, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Gotham(0)/m/n/10.95 P
+........\TU/Gotham(0)/m/n/10.95 r
+........\kern-0.2409 (font)
+........\TU/Gotham(0)/m/n/10.95 o
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 n
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 a
+........\kern-0.05475 (font)
+........\TU/Gotham(0)/m/n/10.95 t
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 r
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 a
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 t
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 a
+........\TU/Gotham(0)/m/n/10.95 u
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 g
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 e
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 c
+........\kern-0.16425 (font)
+........\TU/Gotham(0)/m/n/10.95 o
+........\TU/Gotham(0)/m/n/10.95 n
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 s
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 c
+........\TU/Gotham(0)/m/n/10.95 t
+........\kern-0.16425 (font)
+........\TU/Gotham(0)/m/n/10.95 e
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 t
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 r
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 p
+........\TU/Gotham(0)/m/n/10.95 o
+........\TU/Gotham(0)/m/n/10.95 r
+........\TU/Gotham(0)/m/n/10.95 t
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 t
+........\TU/Gotham(0)/m/n/10.95 i
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 t
+........\kern-0.16425 (font)
+........\TU/Gotham(0)/m/n/10.95 o
+........\TU/Gotham(0)/m/n/10.95 r
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 v
+........\kern-0.3285 (font)
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 l
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 a
+........\kern-0.05475 (font)
+........\TU/Gotham(0)/m/n/10.95 t
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 l
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 b
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 r
+........\kern-0.2409 (font)
+........\TU/Gotham(0)/m/n/10.95 o
+........\kern-0.219 (font)
+........\TU/Gotham(0)/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfcolorstack 0 pop
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 6.0 plus 2.0 minus 2.0
+.....\glue(\baselineskip) 3.76212
+.....\hbox(8.064+2.544)x307.28987, direction TLT
+......\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+......\vbox(8.064+2.544)x307.28987, direction TLT
+.......\hbox(8.064+2.544)x307.28987, glue set 131.24692fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/FrankRuhlLibre(0)/m/n/12 W
+........\kern-0.72 (font)
+........\TU/FrankRuhlLibre(0)/m/n/12 a
+........\TU/FrankRuhlLibre(0)/m/n/12 r
+........\kern-0.12 (font)
+........\TU/FrankRuhlLibre(0)/m/n/12 n
+........\discretionary (penalty 50)
+.........< \TU/FrankRuhlLibre(0)/m/n/12 -
+........\TU/FrankRuhlLibre(0)/m/n/12 i
+........\TU/FrankRuhlLibre(0)/m/n/12 n
+........\kern-0.36 (font)
+........\TU/FrankRuhlLibre(0)/m/n/12 g
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfcolorstack 0 pop
+.....\glue(\lineskip) 1.0
+.....\hbox(25.78473+0.12045)x307.28987, direction TLT
+......\pdfcolorstack 0 push {0.34119 0.02353 0.54903 rg 0.34119 0.02353 0.54903 RG}
+......\vbox(25.78473+0.12045)x307.28987, direction TLT
+.......\glue -1.41528
+.......\vbox(0.0+0.0)x0.0, direction TLT
+.......\glue(\parskip) 0.0
+.......\glue(\parskip) 0.0
+.......\glue(\baselineskip) 5.56271
+.......\hbox(8.0373+1.3359)x307.28987, glue set 30.91202fil, direction TLT
+........\localpar
+.........\localinterlinepenalty=0
+.........\localbrokenpenalty=0
+.........\localleftbox=null
+.........\localrightbox=null
+........\hbox(0.0+0.0)x0.0, direction TLT
+........\TU/Gotham(0)/m/n/10.95 P
+........\TU/Gotham(0)/m/n/10.95 r
+........\kern-0.2409 (font)
+........\TU/Gotham(0)/m/n/10.95 o
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 n
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 l
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 f
+........\kern-0.1095 (font)
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 d
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 s
+........\kern-0.1095 (font)
+........\TU/Gotham(0)/m/n/10.95 t
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 e
+........\TU/Gotham(0)/m/n/10.95 c
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 r
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 a
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 l
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 c
+........\discretionary (penalty 50)
+.........< \kern-0.27374 (font)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 t
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 s
+........\TU/Gotham(0)/m/n/10.95 ,
+........\glue(\spaceskip) 3.285 plus 2.05312 minus 0.87599
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 n
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 t
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 n
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 c
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 d
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 t
+........\glue(\spaceskip) 3.285 plus 1.6425 minus 1.095
+........\TU/Gotham(0)/m/n/10.95 n
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 l
+........\TU/Gotham(0)/m/n/10.95 l
+........\TU/Gotham(0)/m/n/10.95 a
+........\glue(\rightskip) 0.0 plus 1.0fil
+.......\penalty 300
+.......\glue(\baselineskip) 4.43484
+.......\hbox(7.82925+0.12045)x307.28987, glue set 136.30562fil, direction TLT
+........\TU/Gotham(0)/m/n/10.95 v
+........\kern-0.27374 (font)
+........\TU/Gotham(0)/m/n/10.95 a
+........\TU/Gotham(0)/m/n/10.95 r
+........\discretionary (penalty 50)
+.........< \TU/Gotham(0)/m/n/10.95 -
+........\TU/Gotham(0)/m/n/10.95 i
+........\TU/Gotham(0)/m/n/10.95 u
+........\TU/Gotham(0)/m/n/10.95 s
+........\TU/Gotham(0)/m/n/10.95 .
+........\penalty 10000
+........\glue(\parfillskip) 0.0 plus 1.0fil
+........\glue(\rightskip) 0.0 plus 1.0fil
+......\pdfcolorstack 0 pop
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 2000.02579 2000.02579 cm }
+.....\pdfliteral origin{1 0 0 1 -2000.02579 -2000.02579 cm }
+.....\glue 3.0 plus 1.0 minus 1.0
+.....\glue 0.0 plus 1.5fill
+....\write2{\@writefile{nav}{\protect \headcommand {\protect \slideentry {0}{0}{4}{4/4}{}{0}}}}
+....\write2{\@writefile{nav}{\protect \headcommand {\protect \beamer@framepages {4}{4}}}}
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+...\glue(\baselineskip) 4.0
+...\hbox(0.0+0.0)x307.28987, direction TLT
+....\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+....\hbox(0.0+0.0)x307.28987, glue set 307.28986fil, direction TLT
+.....\vbox(0.0+0.0)x0.0, direction TLT
+......\hbox(0.0+0.0)x-56.90549, direction TLT
+.......\hbox(0.0+0.0)x-56.90549, direction TLT
+........\glue -28.45274
+........\hbox(0.0+0.0)x0.0, direction TLT
+.........\vbox(0.0+0.0)x0.0, direction TLT
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 push {0.25098 0.25098 0.25098 rg 0.25098 0.25098 0.25098 RG}
+..........\pdfcolorstack 0 pop
+..........\pdfcolorstack 0 pop
+........\glue -28.45274
+.......\glue 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fil
+......\glue(\lineskip) 0.0
+......\hbox(0.0+0.0)x0.0, direction TLT
+.....\glue 0.0 plus 1.0fil
+....\pdfcolorstack 0 pop
+.\kern0.0
+)
