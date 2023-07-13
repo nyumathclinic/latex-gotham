@@ -316,20 +316,21 @@
 %
 % \subsubsection{Families}
 %
-% The contemporary tone uses sans fonts only, while the traditional tone uses a 
-% mixture of sans and roman.
+% The contemporary tone uses sans fonts only. This is beamer's default too.
+% The traditional tone uses a mixture of sans and roman (serif).
 %
 % \begin{itemize}
 %   \item traditional/subtle: body sans, headers roman
 %   \item traditional/bold: body roman, headers sans  
 % \end{itemize}
 %
-%<*traditional&subtle>
-\usefonttheme[stillsansserifsmall,stillsansseriftext]{serif}
-%</traditional&subtle>
-%<*traditional&bold>
-\usefonttheme[stillsansseriflarge,stillsansserifsmall]{serif}
-%</traditional&bold>
+%<*traditional>
+\usefonttheme[
+  stillsansserifsmall,
+%<bold>stillsansseriflarge,
+%<subtle>stillsansseriftext,
+]{serif}
+%</traditional>
 %
 % \subsubsection{Sizes}
 %
