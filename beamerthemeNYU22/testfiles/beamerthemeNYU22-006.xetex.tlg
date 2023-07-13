@@ -89,7 +89,7 @@ Completed box being shipped out [1]
 .....\special{color push rgb 0.25098 0.25098 0.25098}
 .....\write-{}
 .....\glue(\topskip) 0.0
-.....\vbox(269.14662+0.0)x307.28987, glue set 30.29155fill
+.....\vbox(269.14662+0.0)x307.28987, glue set 23.49799fill
 ......\penalty 10000
 ......\vbox(0.0+0.0)x0.0
 ......\penalty 10000
@@ -107,12 +107,37 @@ Completed box being shipped out [1]
 ......\vbox(0.0+0.0)x0.0
 ......\special{color push rgb 0.34119 0.02353 0.54903}
 ......\vbox(0.0+0.0)x0.0
+......\glue(\lineskip) 1.0
+......\hbox(27.10118+0.0)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(27.10118+0.0)x307.28987
+........\hbox(27.10118+0.0)x307.28987, glue set 113.49504fill
+.........\glue(\leftskip) 0.0 plus 1.0fill
+.........\hbox(0.0+0.0)x0.0
+.........\hbox(27.10118+0.0)x80.29979
+..........\hbox(27.10126+0.0)x80.3
+...........\hbox(27.10126+0.0)x80.3
+............\hbox(27.10126+0.0)x0.0
+.............\special{pdf:btrans}
+.............\special{x:scale 1 1}
+.............\hbox(27.10126+0.0)x0.0, glue set - 80.3fil
+..............\hbox(27.10126+0.0)x80.3
+...............\XeTeXpdffile "../nyu_short_black.pdf"
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{pdf:etrans}
+............\kern 80.3
+............\glue 0.0 plus 1.0fil minus 1.0fil
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fill
+.......\special{color pop}
 ......\glue 0.0 plus 1.0fill
 ......\glue(\lineskip) 1.0
 ......\hbox(49.17259+0.20735)x307.28987
 .......\special{color push rgb 0.34119 0.02353 0.54903}
 .......\vbox(49.17259+0.20735)x307.28987
-........\hbox(19.7076+5.97198)x307.28987, glue set 132.63872fill
+........\hbox(19.7076+5.97198)x307.28987, glue set 66.31937fill
+.........\glue(\leftskip) 0.0 plus 1.0fill
 .........\hbox(0.0+0.0)x0.0
 .........\TU/FrankRuhlLibre(0)/m/n/29.86 Lorem
 .........\glue 7.13654 plus 3.56827 minus 2.37885
@@ -125,7 +150,8 @@ Completed box being shipped out [1]
 ........\glue(\parskip) 0.0
 ........\glue(\parskip) 0.0
 ........\glue(\baselineskip) 4.07025
-........\hbox(11.95776+0.20735)x307.28987, glue set 112.82079fill
+........\hbox(11.95776+0.20735)x307.28987, glue set 56.4104fill
+.........\glue(\leftskip) 0.0 plus 1.0fill
 .........\hbox(0.0+0.0)x0.0
 .........\TU/FrankRuhlLibre(0)/m/n/17.28 Ut
 .........\glue 4.12991 plus 2.06496 minus 1.37663
@@ -141,12 +167,13 @@ Completed box being shipped out [1]
 .........\glue(\rightskip) 0.0 plus 1.0fill
 ........\special{color pop}
 .......\special{color pop}
-......\glue 10.95
+......\glue 0.0 plus 3.0fill
 ......\glue(\baselineskip) 5.5634
 ......\hbox(7.82925+1.75198)x307.28987
 .......\special{color push rgb 0.34119 0.02353 0.54903}
 .......\vbox(7.82925+1.75198)x307.28987
-........\hbox(7.82925+1.75198)x307.28987, glue set 220.55493fill
+........\hbox(7.82925+1.75198)x307.28987, glue set 110.27747fill
+.........\glue(\leftskip) 0.0 plus 1.0fill
 .........\hbox(0.0+0.0)x0.0
 .........\TU/Gotham(0)/m/n/10.95 Aspasius
 .........\glue 3.285 plus 1.6425 minus 1.095
@@ -159,7 +186,8 @@ Completed box being shipped out [1]
 ......\hbox(7.9935+0.13138)x307.28987
 .......\special{color push rgb 0.34119 0.02353 0.54903}
 .......\vbox(7.9935+0.13138)x307.28987
-........\hbox(7.9935+0.13138)x307.28987, glue set 136.06476fill
+........\hbox(7.9935+0.13138)x307.28987, glue set 68.03238fill
+.........\glue(\leftskip) 0.0 plus 1.0fill
 .........\hbox(0.0+0.0)x0.0
 .........\TU/Gotham(0)/m/n/10.95 Universitates
 .........\glue 3.285 plus 1.6425 minus 1.095
@@ -174,7 +202,8 @@ Completed box being shipped out [1]
 ......\hbox(7.7964+1.33589)x307.28987
 .......\special{color push rgb 0.34119 0.02353 0.54903}
 .......\vbox(7.7964+1.33589)x307.28987
-........\hbox(7.7964+1.33589)x307.28987, glue set 230.8151fill
+........\hbox(7.7964+1.33589)x307.28987, glue set 115.40755fill
+.........\glue(\leftskip) 0.0 plus 1.0fill
 .........\hbox(0.0+0.0)x0.0
 .........\TU/Gotham(0)/m/n/10.95 June
 .........\glue 3.285 plus 1.6425 minus 1.095
@@ -185,33 +214,7 @@ Completed box being shipped out [1]
 .........\glue(\parfillskip) 0.0 plus 1.0fil
 .........\glue(\rightskip) 0.0 plus 1.0fill
 .......\special{color pop}
-......\glue 5.47499
-......\special{color push rgb 0.34119 0.02353 0.54903}
-......\glue(\parskip) 0.0
-......\glue(\parskip) 0.0
-......\glue(\lineskip) 1.0
-......\hbox(27.10118+0.0)x307.28987, glue set 113.49504fil
-.......\glue(\leftskip) 0.0 plus 1.0fil
-.......\hbox(0.0+0.0)x0.0
-.......\hbox(27.10118+0.0)x80.29979
-........\hbox(27.10126+0.0)x80.3
-.........\hbox(27.10126+0.0)x80.3
-..........\hbox(27.10126+0.0)x0.0
-...........\special{pdf:btrans}
-...........\special{x:scale 1 1}
-...........\hbox(27.10126+0.0)x0.0, glue set - 80.3fil
-............\hbox(27.10126+0.0)x80.3
-.............\XeTeXpdffile "../nyu_short_black.pdf"
-............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\special{pdf:etrans}
-..........\kern 80.3
-..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\penalty 10000
-.......\glue(\parfillskip) 0.0
-.......\glue(\rightskip) 0.0 plus 1.0fil
 ......\special{color pop}
-......\special{color pop}
-......\glue 0.0 plus 1.0fill
 ......\glue 0.0 plus 1.5fill
 ......\rule(0.0+0.0)x*
 ......\penalty 10000

@@ -107,29 +107,29 @@ Completed box being shipped out [1]
 ......\vbox(0.0+0.0)x0.0
 ......\special{color push rgb 0.34119 0.02353 0.54903}
 ......\vbox(0.0+0.0)x0.0
-......\special{color push rgb 0.34119 0.02353 0.54903}
-......\glue(\parskip) 0.0
-......\glue(\parskip) 0.0
 ......\glue(\lineskip) 1.0
-......\hbox(27.10118+0.0)x307.28987, glue set 113.49504fil
-.......\hbox(0.0+0.0)x0.0
-.......\hbox(27.10118+0.0)x80.29979
-........\hbox(27.10126+0.0)x80.3
-.........\hbox(27.10126+0.0)x80.3
-..........\hbox(27.10126+0.0)x0.0
-...........\special{pdf:btrans}
-...........\special{x:scale 1 1}
-...........\hbox(27.10126+0.0)x0.0, glue set - 80.3fil
-............\hbox(27.10126+0.0)x80.3
-.............\XeTeXpdffile "../nyu_short_black.pdf"
+......\hbox(27.10118+0.0)x307.28987
+.......\special{color push rgb 0.34119 0.02353 0.54903}
+.......\vbox(27.10118+0.0)x307.28987
+........\hbox(27.10118+0.0)x307.28987, glue set 226.99008fill
+.........\hbox(0.0+0.0)x0.0
+.........\hbox(27.10118+0.0)x80.29979
+..........\hbox(27.10126+0.0)x80.3
+...........\hbox(27.10126+0.0)x80.3
+............\hbox(27.10126+0.0)x0.0
+.............\special{pdf:btrans}
+.............\special{x:scale 1 1}
+.............\hbox(27.10126+0.0)x0.0, glue set - 80.3fil
+..............\hbox(27.10126+0.0)x80.3
+...............\XeTeXpdffile "../nyu_short_black.pdf"
+..............\glue 0.0 plus 1.0fil minus 1.0fil
+.............\special{pdf:etrans}
+............\kern 80.3
 ............\glue 0.0 plus 1.0fil minus 1.0fil
-...........\special{pdf:etrans}
-..........\kern 80.3
-..........\glue 0.0 plus 1.0fil minus 1.0fil
-.......\penalty 10000
-.......\glue(\parfillskip) 0.0 plus 1.0fil
-.......\glue(\rightskip) 0.0 plus 1.0fil
-......\special{color pop}
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0 plus 1.0fil
+.........\glue(\rightskip) 0.0 plus 1.0fill
+.......\special{color pop}
 ......\glue 0.0 plus 1.0fill
 ......\glue(\lineskip) 1.0
 ......\hbox(50.367+0.20735)x307.28987

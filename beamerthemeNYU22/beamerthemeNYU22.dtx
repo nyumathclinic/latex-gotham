@@ -125,8 +125,8 @@
 % The bold template has the title flush left, with the logo on top.
 % What follows below is adapted from beamer's default inner theme.
 %    \begin{macrocode}
-\setbeamertemplate{title}{
-  \begin{beamercolorbox}[left]{title}
+\defbeamertemplate{title}{default}[1][]{%
+  \begin{beamercolorbox}[sep=8pt,center,#1]{title}
     \usebeamerfont{title}\inserttitle\par%
     \ifx\insertsubtitle\@empty%
     \else%
@@ -136,30 +136,44 @@
   \end{beamercolorbox}%
 }
 
-\setbeamertemplate{author}{
-  \begin{beamercolorbox}[left]{author}
+\defbeamertemplate{author}{default}[1][]{%
+  \begin{beamercolorbox}[sep=8pt,center,#1]{author}
     \usebeamerfont{author}\insertauthor
   \end{beamercolorbox}
 }
 
-\setbeamertemplate{institute}{%
-  \begin{beamercolorbox}[left]{institute}
+\defbeamertemplate{institute}{default}[1][]{%
+  \begin{beamercolorbox}[sep=8pt,center,#1]{institute}
     \usebeamerfont{institute}\insertinstitute
   \end{beamercolorbox}
 }
 
-\setbeamertemplate{date}{%
-    \begin{beamercolorbox}[left]{date}
+\defbeamertemplate{date}{default}[1][]{%
+    \begin{beamercolorbox}[sep=8pt,center,#1]{date}
       \usebeamerfont{date}\insertdate
     \end{beamercolorbox}
 }
 
-\setbeamertemplate{titlegraphic}{%
+\defbeamertemplate{titlegraphic}{default}{%
   {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
 }
-
-%<*contemporary>
-\defbeamertemplate*{title page}{contemporary}{
+%    \end{macrocode}
+% 
+% Now for the adapations. We put the title graphic in a box like the other
+% elements, so that its alignment can be configured.
+%    \begin{macrocode}
+\defbeamertemplate{titlegraphic}{Gotham}[1][]{%
+    \begin{beamercolorbox}[sep=8pt,center,#1]{titlegraphic}
+      \usebeamerfont{titlegraphic}\inserttitlegraphic
+    \end{beamercolorbox}
+}
+%    \end{macrocode}
+% 
+% Then, we change the title page template to put the graphic on top, 
+% and increase the space between title/subtitle and author/institute/date.
+%    \begin{macrocode}
+\defbeamertemplate*{title page}{Gotham}[1][]
+{
   \vbox{}
   \usebeamertemplate{titlegraphic}
   \vfill
@@ -171,8 +185,23 @@
     \usebeamertemplate{institute}
     \usebeamertemplate{date}
   \endgroup
+}[action]{
+  \setbeamertemplate{title}[default][#1]
+  \setbeamertemplate{author}[default][#1]
+  \setbeamertemplate{institute}[default][#1]
+  \setbeamertemplate{date}[default][#1]
+  \setbeamertemplate{titlegraphic}[Gotham][#1]
 }
+%    \end{macrocode}
+%
+% Finally, we can set the title page based on tone.
+%    \begin{macrocode}
+%<*contemporary>
+\setbeamertemplate{title page}[Gotham][left,sep=0pt]
 %</contemporary>
+%<*traditional>
+\setbeamertemplate{title page}[Gotham][center,sep=0pt]
+%</traditional>
 %    \end{macrocode}
 % 
 % The contemporary/bold tone quadrant specifies titles in caps.
