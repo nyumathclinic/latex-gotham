@@ -904,14 +904,16 @@
 %
 % \begin{macro}{\l__nyufonts_reset_title_bool}
 % \changes{v1.3}{2023/06/23}{Added this variable}
+% \changes{unreleased}{2023/07/27}{Don't reset title in \pkg{beamerarticle}s}
 % If true, reset the title with the \pkg{titling} package.
-% The initial value is \verb|true| unless we're using the 
-% \cls{beamer} class and not ``article mode''.
+% The initial value is \verb|false| if the \cls{beamer} class or
+% \pkg{beamerarticle} package is being used. Otherwise, we test for the
+% existence of the |\maketitle| command.
 % 
 %    \begin{macrocode}
 \bool_new:N \l__nyufonts_reset_title_bool
 \IfPackageLoadedTF{beamerarticle}{
-  \bool_set_true:N \l__nyufonts_reset_title_bool    
+  \bool_set_false:N \l__nyufonts_reset_title_bool    
 }{
   \IfClassLoadedTF{beamer}{
     \bool_set_false:N \l__nyufonts_reset_title_bool    

@@ -1,0 +1,19 @@
+\input regression-test.tex
+\documentclass{article}
+\usepackage{beamerarticle}
+\title{Test of section title formatting 
+\\ Traditional/bold tone quadrant}
+\author{Matthew Leingang}
+\date{2023-07-26}
+\usepackage[
+    Gotham,Frank Ruhl Libre,
+    tone=traditional-bold]{nyu22fonts}
+\usepackage[letterpaper]{geometry}
+\usepackage{blindtext}
+\showoutput
+\begin{document}
+\START
+\maketitle
+\blinddocument
+\vfil\break
+\END
