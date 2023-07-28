@@ -124,39 +124,50 @@
 %
 % The bold template has the title flush left, with the logo on top.
 % What follows below is adapted from beamer's default inner theme.
+% 
 %    \begin{macrocode}
-\defbeamertemplate{title}{default}[1][]{%
-  \begin{beamercolorbox}[sep=8pt,center,#1]{title}
-    \usebeamerfont{title}\inserttitle\par%
-    \ifx\insertsubtitle\@empty%
-    \else%
-      \vskip0.25em%
-      {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
-    \fi%     
-  \end{beamercolorbox}%
-}
+\@ifundefined{beamer@@tmpop@title@default}{
+  \defbeamertemplate{title}{default}[1][]{%
+    \begin{beamercolorbox}[sep=8pt,center,#1]{title}
+      \usebeamerfont{title}\inserttitle\par%
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%     
+    \end{beamercolorbox}%
+  }
+}{}
 
-\defbeamertemplate{author}{default}[1][]{%
-  \begin{beamercolorbox}[sep=8pt,center,#1]{author}
-    \usebeamerfont{author}\insertauthor
-  \end{beamercolorbox}
-}
-
-\defbeamertemplate{institute}{default}[1][]{%
-  \begin{beamercolorbox}[sep=8pt,center,#1]{institute}
-    \usebeamerfont{institute}\insertinstitute
-  \end{beamercolorbox}
-}
-
-\defbeamertemplate{date}{default}[1][]{%
-    \begin{beamercolorbox}[sep=8pt,center,#1]{date}
-      \usebeamerfont{date}\insertdate
+\@ifundefined{beamer@@tmpop@author@default}{
+  \defbeamertemplate{author}{default}[1][]{%
+    \begin{beamercolorbox}[sep=8pt,center,#1]{author}
+      \usebeamerfont{author}\insertauthor
     \end{beamercolorbox}
-}
+  }
+}{}
 
-\defbeamertemplate{titlegraphic}{default}{%
-  {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
-}
+\@ifundefined{beamer@@tmpop@institute@default}{
+  \defbeamertemplate{institute}{default}[1][]{%
+    \begin{beamercolorbox}[sep=8pt,center,#1]{institute}
+      \usebeamerfont{institute}\insertinstitute
+    \end{beamercolorbox}
+  }
+}{}
+
+\@ifundefined{beamer@@tmpop@date@default}{
+  \defbeamertemplate{date}{default}[1][]{%
+      \begin{beamercolorbox}[sep=8pt,center,#1]{date}
+        \usebeamerfont{date}\insertdate
+      \end{beamercolorbox}
+  }
+}{}
+
+\@ifundefined{beamer@@tmpop@titlegraphic@default}{
+  \defbeamertemplate{titlegraphic}{default}{%
+    {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
+  }
+}{}
 %    \end{macrocode}
 % 
 % Now for the adapations. We put the title graphic in a box like the other
