@@ -1,0 +1,49 @@
+\input regression-test.tex
+\documentclass{article}
+\title{Comparing weights}
+\usepackage{nyu22fonts}
+\begin{document}
+\maketitle
+
+This test checks small caps in Gotham and Montserrat.
+
+\ExplSyntaxOn
+
+\tl_set:Nn \l_tmpa_tl {Mr.~Jock,~TV~quiz~PhD.,~bags~few~lynx.}
+
+\clist_set:Nn \l_tmpa_clist
+  {
+    \sffamily,
+    \sffamily\bfseries,
+    \sffamily\scshape,
+    \sffamily\scshape\bfseries,
+  }
+
+\START
+
+\nyufontssetup{Gotham}
+
+\clist_map_inline:Nn \l_tmpa_clist 
+  {
+    \TEST{#1}
+      {
+        \hbox_set:Nn \l_tmpa_box {\normalfont #1 \tl_use:N \l_tmpa_tl}
+        \box_show:N \l_tmpa_box
+        \box_use:N \l_tmpa_box
+      }    
+  }
+
+\nyufontssetup{Montserrat}
+
+\clist_map_inline:Nn \l_tmpa_clist 
+  {
+    \TEST{#1}
+      {
+        \hbox_set:Nn \l_tmpa_box {\normalfont #1 \tl_use:N \l_tmpa_tl}
+        \box_show:N \l_tmpa_box
+        \box_use:N \l_tmpa_box
+      }    
+  }
+  
+\ExplSyntaxOff
+\end{document}

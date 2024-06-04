@@ -1,0 +1,454 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+! Package fontspec Error: The font "MontserratBold" cannot be found.
+For immediate help type H <return>.
+ ...                                              
+l. ...\nyufontssetup{Gotham}
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+ When in doubt, ask someone for help!
+! Cannot use \XeTeXOTcountfeatures with nullfont; not an OpenType Layout font.
+<argument> \XeTeXOTcountfeatures \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+I was expecting to see `<', `=', or `>'. Didn't.
+! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
+<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
+                                                  \l__fontspec_script_int \l...
+l. ...\nyufontssetup{Gotham}
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   \l__fontspec_script_int 
+l. ...\nyufontssetup{Gotham}
+(That makes 100 errors; please try again.) 
