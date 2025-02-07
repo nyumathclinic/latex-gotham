@@ -1,4 +1,4 @@
--- Build configuration for nyu22fonts
+-- Build configuration for beamerthemeNYU22
 -- Matthew Leingang, 2022-08-05
 
 bundle = "Gotham"
