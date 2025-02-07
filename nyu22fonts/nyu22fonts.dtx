@@ -539,6 +539,8 @@
 %
 % The default “boldface” series is set to \texttt{sb}, which is mapped to 
 % Gotham Medium. 
+% \changes{unreleased}{2025/02/07}{Added support for small caps}
+% Gotham does not have a small caps font, so we use Montserrat instead.
 % 
 %    \begin{macrocode}
 \cs_new:Nn \__nyufonts_set_gotham: {
@@ -554,8 +556,8 @@
       BoldFont=*~Medium,
       ItalicFont=*~Book~Italic,
       BoldItalicFont=*~Medium~Italic,
-%      SmallCapsFont=Montserrat,
-%      SmallCapsFeatures={Letters=SmallCaps},
+      SmallCapsFont=Montserrat-Medium.otf, SmallCapsFeatures={Letters=SmallCaps},
+      BoldFeatures={SmallCapsFont=Montserrat-Bold.otf},
     ]
   }
   {

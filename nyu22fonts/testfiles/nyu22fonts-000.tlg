@@ -1,12 +1,12 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 (nyu22fonts.sty
-Package: nyu22fonts ....-..-.. vv... NYU Typefaces and Fonts
+Package: nyu22fonts ....-..-.. v... NYU Typefaces and Fonts
 (../fontspec.sty (../xparse.sty
 Package: xparse ....-..-.. L3 Experimental document command parser
 )
 Package: fontspec ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec ....-..-.. 2.8a Font selection for XeLaTeX and LuaLaTeX (../fontspec-luatex.sty
+Lua module: fontspec ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX (../fontspec-luatex.sty
 Package: fontspec-luatex ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count...
 \l__fontspec_language_int=\count...
@@ -25,52 +25,65 @@ Package: fontspec-luatex ....-..-.. v... Font selection for XeLaTeX and LuaLaTeX
 (../fontenc.sty
 Package: fontenc ....-..-.. v... Standard LaTeX package
 ) (../fontspec.cfg)))
-luaotfload | cache : Lookup cache loaded from /Users/matthew/Library/texlive/202
-2/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | cache : Lookup cache loaded from ../luaotfload-lookup-cache.luc.
 luaotfload | aux : font no 18 (nil) defines no feature for script latn
 luaotfload | aux : font no 18 (nil) defines no feature for script dflt
-Package fontspec Info: Font family 'Helvetica(0)' created for font 'Helvetica'
-(fontspec)             with options [Ligatures=TeX].
+luaotfload | aux : font no 18 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 18 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 18 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 18 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script dflt with language dflt
+Package fontspec Info: 
+(fontspec)             Font family 'Helvetica(0)' created for font 'Helvetica' with options [Ligatures=TeX].
 (fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
+(fontspec)              This font family consists of the following NFSS series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Helvetica:mode=node;language=dflt;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Helvetica/B:mode=node;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Helvetica/I:mode=node;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Helvetica/BI:mode=node;language=dflt;+tlig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
- with language dflt
-Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
-(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Helvetica:mode=node;language=dflt;+tlig;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Helvetica/B:mode=node;language=dflt;+tlig;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Helvetica/I:mode=node;language=dflt;+tlig;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Helvetica/BI:mode=node;language=dflt;+tlig;"
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 34 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script dflt with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 35 (nil) does not define feature smcp for script dflt with language dflt
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with options [Ligatures=TeX].
 (fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
+(fontspec)              This font family consists of the following NFSS series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Times New Roman:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Times New Roman/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Times New Roman/I:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Times New Roman/BI:mode=node;script=latn;language=dflt;+tlig;"
 )

@@ -1,6 +1,6 @@
 \input regression-test.tex
 \documentclass{article}
-\title{Comparing weights}
+\title{Small Caps}
 \usepackage{nyu22fonts}
 \begin{document}
 \maketitle

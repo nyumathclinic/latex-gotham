@@ -1,10 +1,8 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
 (nyu22fonts.sty
-Package: nyu22fonts ....-..-.. vv... NYU Typefaces and Fonts
-Package nyu22fonts Warning: For best results, use xelatex or luatex so that
-(nyu22fonts)                OpenType fonts can be used. Type 1 substitutes
-(nyu22fonts)                will be used instead.
+Package: nyu22fonts ....-..-.. v... NYU Typefaces and Fonts
+Package nyu22fonts Warning: For best results, use xelatex or luatex so that OpenType fonts can be used. Type 1 substitutes will be used instead.
 (../helvet.sty
 Package: helvet ....-..-.. PSNFSS-v... (WaS) 
 (../keyval.sty

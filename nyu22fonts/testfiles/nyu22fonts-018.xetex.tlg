@@ -1,454 +1,258 @@
 This is a generated file for the l3build validation system.
 Don't change this file in any respect.
-! Package fontspec Error: The font "MontserratBold" cannot be found.
-For immediate help type H <return>.
- ...                                              
-l. ...\nyufontssetup{Gotham}
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
- When in doubt, ask someone for help!
-! Cannot use \XeTeXOTcountfeatures with nullfont; not an OpenType Layout font.
-<argument> \XeTeXOTcountfeatures \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-I was expecting to see `<', `=', or `>'. Didn't.
-! Cannot use \XeTeXOTfeaturetag with nullfont; not an OpenType Layout font.
-<argument> ...\XeTeXOTfeaturetag \l_fontspec_font 
-                                                  \l__fontspec_script_int \l...
-l. ...\nyufontssetup{Gotham}
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l__fontspec_script_int 
-l. ...\nyufontssetup{Gotham}
-(That makes 100 errors; please try again.) 
+Package fontspec Info: 
+(fontspec)             Font family 'Gotham(0)' created for font 'Gotham' with options [Ligatures=TeX,FontFace={l}{n}{* Light},FontFace={l}{it}{* Light Italic},FontFace={sb}{n}{* Medium},FontFace={sb}{it}{* Medium Italic},FontFace={b}{n}{* Bold},FontFace={b}{it}{* Bold Italic},UprightFont=* Book,BoldFont=* Medium,ItalicFont=* Book Italic,BoldItalicFont=* Medium Italic,SmallCapsFont=Montserrat-Medium.otf,SmallCapsFeatures={Letters=SmallCaps},BoldFeatures={SmallCapsFont=Montserrat-Bold.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - (l/n) with NFSS spec.: <->"Gotham Light/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (l/sc) with NFSS spec.: <->"[Montserrat-Medium.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (l/it) with NFSS spec.: <->"Gotham Light Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (l/scit) with NFSS spec.: <->"[Montserrat-Medium.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (sb/n) with NFSS spec.: <->"Gotham Medium/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (sb/sc) with NFSS spec.: <->"[Montserrat-Medium.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (sb/it) with NFSS spec.: <->"Gotham Medium Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (sb/scit) with NFSS spec.: <->"[Montserrat-Medium.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Gotham Medium/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"[Montserrat-Bold.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Gotham Medium Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: <->"[Montserrat-Medium.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Gotham Book/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"[Montserrat-Medium.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Gotham Book Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: <->"[Montserrat-Medium.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+============================================================
+TEST 1: \sffamily 
+============================================================
+> \box...=
+\hbox(7.34+1.62999)x186.94002
+.\TU/Gotham(0)/m/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/m/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/m/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/m/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.36+1.62999)x189.86
+.\TU/Gotham(0)/b/n/10 Mr.
+.\glue 4.0 plus 4.5 minus 0.33333
+.\TU/Gotham(0)/b/n/10 Jock,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/n/10 TV
+.\glue 3.0 plus 1.49849 minus 1.00099
+.\TU/Gotham(0)/b/n/10 quiz
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 PhD.,
+.\glue 3.0 plus 1.875 minus 0.79999
+.\TU/Gotham(0)/b/n/10 bags
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 few
+.\glue 3.0 plus 1.5 minus 1.0
+.\TU/Gotham(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: \sffamily \scshape 
+============================================================
+> \box...=
+\hbox(7.0+1.47998)x196.8067
+.\TU/Gotham(0)/m/sc/10 Mr.
+.\glue 3.58667 plus 4.035 minus 0.29889
+.\TU/Gotham(0)/m/sc/10 Jock,
+.\glue 2.69 plus 1.68124 minus 0.71733
+.\TU/Gotham(0)/m/sc/10 TV
+.\glue 2.69 plus 1.34364 minus 0.89755
+.\TU/Gotham(0)/m/sc/10 quiz
+.\glue 2.69 plus 1.345 minus 0.89667
+.\TU/Gotham(0)/m/sc/10 PhD.,
+.\glue 2.69 plus 1.68124 minus 0.71733
+.\TU/Gotham(0)/m/sc/10 bags
+.\glue 2.69 plus 1.345 minus 0.89667
+.\TU/Gotham(0)/m/sc/10 few
+.\glue 2.69 plus 1.345 minus 0.89667
+.\TU/Gotham(0)/m/sc/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: \sffamily \scshape \bfseries 
+============================================================
+> \box...=
+\hbox(7.0+1.53998)x204.36336
+.\TU/Gotham(0)/b/sc/10 Mr.
+.\glue 3.77333 plus 4.24498 minus 0.31444
+.\TU/Gotham(0)/b/sc/10 Jock,
+.\glue 2.83 plus 1.76874 minus 0.75465
+.\TU/Gotham(0)/b/sc/10 TV
+.\glue 2.83 plus 1.41357 minus 0.94426
+.\TU/Gotham(0)/b/sc/10 quiz
+.\glue 2.83 plus 1.415 minus 0.94333
+.\TU/Gotham(0)/b/sc/10 PhD.,
+.\glue 2.83 plus 1.76874 minus 0.75465
+.\TU/Gotham(0)/b/sc/10 bags
+.\glue 2.83 plus 1.415 minus 0.94333
+.\TU/Gotham(0)/b/sc/10 few
+.\glue 2.83 plus 1.415 minus 0.94333
+.\TU/Gotham(0)/b/sc/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+Package fontspec Info: 
+(fontspec)             Font family 'Montserrat(0)' created for font 'Montserrat' with options [Ligatures=TeX,Extension=.otf,FontFace={ul}{n}{*-Thin},FontFace={ul}{it}{*-ThinItalic},FontFace={el}{n}{*-ExtraLight},FontFace={el}{it}{*-ExtraLightItalic},FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={sl}{n}{*-Regular},FontFace={sl}{it}{*-Italic},FontFace={m}{n}{*-Medium},FontFace={m}{it}{*-MediumItalic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBold},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},FontFace={eb}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},FontFace={ub}{n}{*-Black},FontFace={ub}{it}{*-BlackItalic},UprightFont=*-Regular,ItalicFont=*-Italic,BoldFont=*-SemiBold,BoldItalicFont=*-SemiBoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS series/shapes:
+(fontspec)              
+(fontspec)             - (ul/n) with NFSS spec.: <->"[Montserrat-Thin.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (ul/sc) with NFSS spec.: <->"[Montserrat-Thin.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (ul/it) with NFSS spec.: <->"[Montserrat-ThinItalic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (ul/scit) with NFSS spec.: <->"[Montserrat-ThinItalic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (el/n) with NFSS spec.: <->"[Montserrat-ExtraLight.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (el/sc) with NFSS spec.: <->"[Montserrat-ExtraLight.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (el/it) with NFSS spec.: <->"[Montserrat-ExtraLightItalic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (el/scit) with NFSS spec.: <->"[Montserrat-ExtraLightItalic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (l/n) with NFSS spec.: <->"[Montserrat-Light.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (l/sc) with NFSS spec.: <->"[Montserrat-Light.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (l/it) with NFSS spec.: <->"[Montserrat-LightItalic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (l/scit) with NFSS spec.: <->"[Montserrat-LightItalic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (sl/n) with NFSS spec.: <->"[Montserrat-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (sl/sc) with NFSS spec.: <->"[Montserrat-Regular.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (sl/it) with NFSS spec.: <->"[Montserrat-Italic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (sl/scit) with NFSS spec.: <->"[Montserrat-Italic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[Montserrat-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"[Montserrat-Regular.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"[Montserrat-Italic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: <->"[Montserrat-Italic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (sb/n) with NFSS spec.: <->"[Montserrat-SemiBold.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (sb/sc) with NFSS spec.: <->"[Montserrat-SemiBold.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (sb/it) with NFSS spec.: <->"[Montserrat-SemiBold.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (sb/scit) with NFSS spec.: <->"[Montserrat-SemiBold.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[Montserrat-SemiBold.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"[Montserrat-SemiBold.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"[Montserrat-SemiBoldItalic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: <->"[Montserrat-SemiBoldItalic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (eb/n) with NFSS spec.: <->"[Montserrat-ExtraBold.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (eb/sc) with NFSS spec.: <->"[Montserrat-ExtraBold.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (eb/it) with NFSS spec.: <->"[Montserrat-ExtraBoldItalic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (eb/scit) with NFSS spec.: <->"[Montserrat-ExtraBoldItalic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (ub/n) with NFSS spec.: <->"[Montserrat-Black.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (ub/sc) with NFSS spec.: <->"[Montserrat-Black.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - (ub/it) with NFSS spec.: <->"[Montserrat-BlackItalic.otf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             -  (ub/scit) with NFSS spec.: <->"[Montserrat-BlackItalic.otf]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+============================================================
+TEST 5: \sffamily 
+============================================================
+> \box...=
+\hbox(7.47+1.98999)x184.85327
+.\TU/Montserrat(0)/m/n/10 Mr.
+.\glue 3.49332 plus 3.93 minus 0.2911
+.\TU/Montserrat(0)/m/n/10 Jock,
+.\glue 2.62 plus 1.6375 minus 0.69865
+.\TU/Montserrat(0)/m/n/10 TV
+.\glue 2.62 plus 1.30869 minus 0.87419
+.\TU/Montserrat(0)/m/n/10 quiz
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/Montserrat(0)/m/n/10 PhD.,
+.\glue 2.62 plus 1.6375 minus 0.69865
+.\TU/Montserrat(0)/m/n/10 bags
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/Montserrat(0)/m/n/10 few
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/Montserrat(0)/m/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: \sffamily \bfseries 
+============================================================
+> \box...=
+\hbox(7.72+2.00998)x192.41998
+.\TU/Montserrat(0)/b/n/10 Mr.
+.\glue 3.68 plus 4.13997 minus 0.30666
+.\TU/Montserrat(0)/b/n/10 Jock,
+.\glue 2.76 plus 1.72498 minus 0.736
+.\TU/Montserrat(0)/b/n/10 TV
+.\glue 2.76 plus 1.3786 minus 0.92091
+.\TU/Montserrat(0)/b/n/10 quiz
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/n/10 PhD.,
+.\glue 2.76 plus 1.72498 minus 0.736
+.\TU/Montserrat(0)/b/n/10 bags
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/n/10 few
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/n/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 7: \sffamily \scshape 
+============================================================
+> \box...=
+\hbox(7.0+1.45999)x193.5633
+.\TU/Montserrat(0)/m/sc/10 Mr.
+.\glue 3.49332 plus 3.93 minus 0.2911
+.\TU/Montserrat(0)/m/sc/10 Jock,
+.\glue 2.62 plus 1.6375 minus 0.69865
+.\TU/Montserrat(0)/m/sc/10 TV
+.\glue 2.62 plus 1.30869 minus 0.87419
+.\TU/Montserrat(0)/m/sc/10 quiz
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/Montserrat(0)/m/sc/10 PhD.,
+.\glue 2.62 plus 1.6375 minus 0.69865
+.\TU/Montserrat(0)/m/sc/10 bags
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/Montserrat(0)/m/sc/10 few
+.\glue 2.62 plus 1.31 minus 0.87332
+.\TU/Montserrat(0)/m/sc/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 8: \sffamily \scshape \bfseries 
+============================================================
+> \box...=
+\hbox(7.0+1.50998)x200.43997
+.\TU/Montserrat(0)/b/sc/10 Mr.
+.\glue 3.68 plus 4.13997 minus 0.30666
+.\TU/Montserrat(0)/b/sc/10 Jock,
+.\glue 2.76 plus 1.72498 minus 0.736
+.\TU/Montserrat(0)/b/sc/10 TV
+.\glue 2.76 plus 1.3786 minus 0.92091
+.\TU/Montserrat(0)/b/sc/10 quiz
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/sc/10 PhD.,
+.\glue 2.76 plus 1.72498 minus 0.736
+.\TU/Montserrat(0)/b/sc/10 bags
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/sc/10 few
+.\glue 2.76 plus 1.37999 minus 0.92
+.\TU/Montserrat(0)/b/sc/10 lynx.
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+[1
+] (nyu22fonts-018.aux)
