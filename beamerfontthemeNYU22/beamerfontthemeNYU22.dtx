@@ -1,0 +1,125 @@
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{beamerfontthemeNYU22.dtx}
+%</driver>
+%<pkg>\ProvidesPackage{beamerfontthemeNYU22}
+%<*pkg>
+  [2023/07/28 v0.8b A beamer font theme for the 2022 NYU brand]
+%</pkg>
+%<*driver>
+\documentclass[11pt]{ltxdoc}
+\usepackage[letterpaper]{geometry}
+\usepackage{changepage}^^A      For the `adjustwidth' environment
+\usepackage{hologo}
+    
+\usepackage[backend=biber]{biblatex}
+\addbibresource{main.bib}
+\addbibresource{beamerfontthemeNYU22.bib}
+
+
+\usepackage[
+    Gotham, Frank Ruhl Libre,
+    tone=traditional-subtle]{nyu22fonts}
+\linespread{1.041667}
+\setmonofont{Inconsolata}
+\usepackage{parskip}
+
+\usepackage[title/color=NyuViolet]{xcolor-nyu22}
+
+\setcounter{secnumdepth}{2}
+
+
+\usepackage{dtxdescribe}
+\colorlet{\watchoutcolor}{Magenta}
+
+\DisableCrossrefs
+\CodelineIndex
+\RecordChanges
+\AtBeginDocument{
+  \hypersetup{
+    allcolors=NyuViolet,
+  }
+}
+\begin{document}
+  \DocInput{beamerfontthemeNYU22.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \GetFileInfo{beamerfontthemeNYU22.dtx}
+% \title{A Beamer Font Theme for the 2022 NYU Brand}
+% \author{Matthew Leingang\thanks{leingang@nyu.edu}}
+% \date{\fileversion, Released \filedate}
+% \maketitle
+%
+% \begin{abstract}
+% This package provides a beamer font theme that aligns with the 2022 edition of
+% the NYU brand identity, including fonts~\cite{nyu-fonts} and colors~\cite{nyu-colors}.
+% \end{abstract}
+%
+% \changes{unreleased}{2025/02/07}{First working release}%
+%
+% \section{Introduction}
+% \begin{refsection}
+%
+% This beamer theme is designed to align with the 2022 edition of the NYU brand
+% identity, including fonts~\cite{nyu-fonts} and colors~\cite{nyu-colors}.
+%
+% \printbibliography[heading=subbibliography]
+% \end{refsection}
+%
+%
+% \section{Implementation}
+% \begin{refsection}
+%
+%    \begin{macrocode}
+%<*pkg>
+%    \end{macrocode}
+%
+% Need \pkg{fontspec} to set the fonts.
+%    \begin{macrocode}
+\RequirePackage{fontspec}
+%    \end{macrocode}
+% 
+% A monospace font that goes well with Gotham is Inconsolata.
+%    \begin{macrocode}
+\setmonofont{Inconsolata}
+%    \end{macrocode}
+% 
+% We need to load \pkg{mathtools} before \pkg{unicode-math} to avoid a symbol clash.
+% See \url{https://tex.stackexchange.com/a/736498/1402}.
+%    \begin{macrocode}
+\RequirePackage{mathtools}
+\RequirePackage[mathrm=sym]{unicode-math}
+%    \end{macrocode}
+% 
+% This is the default math OpenType font.
+% At some point we may want to make this configurable, or choose something
+% more compatible with Gotham.
+%    \begin{macrocode}
+\setmathfont{latinmodern-math.otf}
+%    \end{macrocode}
+% 
+% Beamer takes pains to make math on slides look readable, which means the
+% default math fonts are replaced with sans-serif versions. 
+% A ``professional'' font package like \pkg{unicode-math} skip these
+% replacements. So we have to load them back in.
+%    \begin{macrocode}
+\setmathfont[range=it/{latin,Latin}]{Gotham Book Italic}
+\setmathfont[range=bfup/{latin,Latin}]{Gotham Medium}
+\setmathfont[range=up/{num}]{Gotham Book}
+%    \end{macrocode}
+%
+%
+% That's all, folks!
+%    \begin{macrocode}
+%</pkg>
+%    \end{macrocode}
+%
+% \printbibliography[
+%   heading=subbibliography,
+%   title={Implementation References}]
+% \end{refsection}
+%
+% \Finale
